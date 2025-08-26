@@ -163,4 +163,4 @@ This project has been in the works for years. Until now, it's only been shared p
 
 ## Notes
 
-* If you have any feedback, please let me know on through the Thunderstore Link: 
+* If you have any feedback, please let me know on through the Thunderstore Link: https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/
