@@ -1,0 +1,509 @@
+{
+  "Syringes": [
+    {
+      "SyringeID": 224,
+      "Properties": {
+        "MovementMultiplier": {
+          "Delay": {
+            "HasDelay": false,
+            "Min": 0,
+            "Max": 0
+          },
+          "Time": {
+            "Min": 180,
+            "Max": 180
+          },
+          "Min": 1.2,
+          "Max": 1.2,
+          "Enabled": true
+        }
+      }
+    },
+    {
+      "SyringeID": 142,
+      "Properties": {
+        "MeleeBuffTime": {
+          "Min": 999,
+          "Max": 999,
+          "Enabled": true
+        },
+        "Health": {
+          "Min": 0.19,
+          "Max": 0.19,
+          "Enabled": true
+        },
+        "RegenOverTime": {
+          "Delay": {
+            "HasDelay": true,
+            "Min": 0,
+            "Max": 0
+          },
+          "TotalTime": {
+            "Min": 1,
+            "Max": 1
+          },
+          "RegenInterval": {
+            "RandomizeEveryInterval": true,
+            "Min": 1,
+            "Max": 1
+          },
+          "Health": {
+            "IsTimeBased": false,
+            "Min": 0.2,
+            "Max": 0.2
+          },
+          "Enabled": true
+        }
+      }
+    },
+    {
+      "SyringeID": 140,
+      "Properties": {
+        "Health": {
+          "Min": 0.24,
+          "Max": 0.24,
+          "Enabled": true
+        },
+        "RegenOverTime": {
+          "Delay": {
+            "HasDelay": true,
+            "Min": 0,
+            "Max": 0
+          },
+          "TotalTime": {
+            "Min": 1,
+            "Max": 1
+          },
+          "RegenInterval": {
+            "RandomizeEveryInterval": true,
+            "Min": 1,
+            "Max": 1
+          },
+          "Health": {
+            "IsTimeBased": false,
+            "Min": 0.2,
+            "Max": 0.2
+          },
+          "Enabled": true
+        }
+      }
+    },
+    {
+      "SyringeID": 225,
+      "Properties": {
+        "MovementMultiplier": {
+          "Delay": {
+            "HasDelay": false,
+            "Min": 0,
+            "Max": 0
+          },
+          "Time": {
+            "Min": 90,
+            "Max": 90
+          },
+          "Min": 1.14,
+          "Max": 1.14,
+          "Enabled": true
+        },
+        "Infection": {
+          "Min": 0.05,
+          "Max": 0.05,
+          "Enabled": true
+        },
+        "RegenOverTime": {
+          "Delay": {
+            "HasDelay": true,
+            "Min": 0,
+            "Max": 0
+          },
+          "TotalTime": {
+            "Min": 8,
+            "Max": 8
+          },
+          "RegenInterval": {
+            "RandomizeEveryInterval": true,
+            "Min": 1,
+            "Max": 1
+          },
+          "Health": {
+            "IsTimeBased": false,
+            "Min": 0.4,
+            "Max": 0.4
+          },
+          "Enabled": true
+        }
+      }
+    },
+    {
+      "SyringeID": 227,
+      "Properties": {
+        "Infection": {
+          "Min": 0.04,
+          "Max": 0.16,
+          "Enabled": true
+        },
+        "RegenOverTime": {
+          "Delay": {
+            "HasDelay": false,
+            "Min": 0,
+            "Max": 0
+          },
+          "TotalTime": {
+            "Min": 5,
+            "Max": 5
+          },
+          "RegenInterval": {
+            "RandomizeEveryInterval": false,
+            "Min": 1.0,
+            "Max": 1.0
+          },
+          "Health": {
+            "IsTimeBased": false,
+            "Min": 1.0,
+            "Max": 1.0
+          },
+          "Enabled": true
+        }
+      }
+    },
+    {
+      "SyringeID": 233,
+      "Properties": {
+        "Disinfection": {
+          "Min": 0.6,
+          "Max": 0.6,
+          "Enabled": true
+        },
+        "RegenOverTime": {
+          "Delay": {
+            "HasDelay": false,
+            "Min": 0,
+            "Max": 0
+          },
+          "TotalTime": {
+            "Min": 8,
+            "Max": 8
+          },
+          "RegenInterval": {
+            "RandomizeEveryInterval": false,
+            "Min": 1.0,
+            "Max": 1.0
+          },
+          "Health": {
+            "IsTimeBased": false,
+            "Min": 2.0,
+            "Max": 2.0
+          },
+          "Enabled": true
+        }
+      }
+    },
+    {
+      "SyringeID": 228,
+      "Properties": {
+        "Infection": {
+          "Min": 0.2,
+          "Max": 0.2,
+          "Enabled": true
+        },
+        "RegenOverTime": {
+          "Delay": {
+            "HasDelay": true,
+            "Min": 6,
+            "Max": 6
+          },
+          "TotalTime": {
+            "Min": 31,
+            "Max": 31
+          },
+          "RegenInterval": {
+            "RandomizeEveryInterval": true,
+            "Min": 1.0,
+            "Max": 1.0
+          },
+          "Health": {
+            "IsTimeBased": false,
+            "Min": 1.0,
+            "Max": 1.0
+          },
+          "Enabled": true
+        },
+        "DamageOverTime": {
+          "Delay": {
+            "HasDelay": false,
+            "Min": 0,
+            "Max": 0
+          },
+          "TotalTime": {
+            "Min": 5,
+            "Max": 5
+          },
+          "DamageInterval": {
+            "RandomizeEveryInterval": true,
+            "Min": 1,
+            "Max": 1
+          },
+          "Damage": {
+            "IsTimeBased": false,
+            "Min": 1.4,
+            "Max": 1.4
+          },
+          "Enabled": true
+        },
+        "MeleeBuffTime": {
+          "Min": 90,
+          "Max": 90,
+          "Enabled": true
+        }
+      }
+    },
+    {
+      "SyringeID": 234,
+      "Properties": {
+        "Infection": {
+          "Min": 0.55,
+          "Max": 0.65,
+          "Enabled": true
+        },
+        "RegenOverTime": {
+          "Delay": {
+            "HasDelay": true,
+            "Min": 20,
+            "Max": 20
+          },
+          "TotalTime": {
+            "Min": 90,
+            "Max": 90
+          },
+          "RegenInterval": {
+            "RandomizeEveryInterval": true,
+            "Min": 1.0,
+            "Max": 1.0
+          },
+          "Health": {
+            "IsTimeBased": false,
+            "Min": 1.0,
+            "Max": 1.0
+          },
+          "Enabled": true
+        },
+        "DamageOverTime": {
+          "Delay": {
+            "HasDelay": false,
+            "Min": 0,
+            "Max": 0
+          },
+          "TotalTime": {
+            "Min": 5,
+            "Max": 5
+          },
+          "DamageInterval": {
+            "RandomizeEveryInterval": true,
+            "Min": 1,
+            "Max": 1
+          },
+          "Damage": {
+            "IsTimeBased": false,
+            "Min": 2,
+            "Max": 2
+          },
+          "Enabled": true
+        },
+        "MeleeBuffTime": {
+          "Min": 999,
+          "Max": 999,
+          "Enabled": true
+        }
+      }
+    },
+    {
+      "SyringeID": 229,
+      "Properties": {
+        "Disinfection": {
+          "Min": 0.4,
+          "Max": 0.4,
+          "Enabled": true
+        }
+      }
+    },
+    {
+      "SyringeID": 230,
+      "Properties": {
+        "MovementMultiplier": {
+          "Delay": {
+            "HasDelay": false,
+            "Min": 0,
+            "Max": 0
+          },
+          "Time": {
+            "Min": 6,
+            "Max": 6
+          },
+          "Min": 1.35,
+          "Max": 1.35,
+          "Enabled": true
+        },
+        "Infection": {
+          "Min": 0.04,
+          "Max": 0.07,
+          "Enabled": true
+        }
+      }
+    },
+    {
+      "SyringeID": 231,
+      "Properties": {
+        "Infection": {
+          "Min": 0.04,
+          "Max": 0.08,
+          "Enabled": true
+        },
+        "RegenOverTime": {
+          "Delay": {
+            "HasDelay": false,
+            "Min": 0,
+            "Max": 0
+          },
+          "TotalTime": {
+            "Min": 180,
+            "Max": 180
+          },
+          "RegenInterval": {
+            "RandomizeEveryInterval": false,
+            "Min": 3.0,
+            "Max": 3.0
+          },
+          "Health": {
+            "IsTimeBased": false,
+            "Min": 0.4,
+            "Max": 0.4
+          },
+          "Enabled": true
+        }
+      }
+    },
+    {
+      "SyringeID": 241,
+      "Properties": {
+        "Infection": {
+          "Min": 0.25,
+          "Max": 0.25,
+          "Enabled": true
+        },
+        "RegenOverTime": {
+          "Delay": {
+            "HasDelay": false,
+            "Min": 0,
+            "Max": 0
+          },
+          "TotalTime": {
+            "Min": 200,
+            "Max": 200
+          },
+          "RegenInterval": {
+            "RandomizeEveryInterval": false,
+            "Min": 4.0,
+            "Max": 4.0
+          },
+          "Health": {
+            "IsTimeBased": false,
+            "Min": 0.6,
+            "Max": 0.6
+          },
+          "Enabled": true
+        }
+      }
+    },
+    {
+      "SyringeID": 271,
+      "Properties": {
+        "Disinfection": {
+          "Min": 1.0,
+          "Max": 1.0,
+          "Enabled": true
+        },
+        "RegenOverTime": {
+          "Delay": {
+            "HasDelay": false,
+            "Min": 0,
+            "Max": 0
+          },
+          "TotalTime": {
+            "Min": 9999,
+            "Max": 9999
+          },
+          "RegenInterval": {
+            "RandomizeEveryInterval": false,
+            "Min": 4.0,
+            "Max": 4.0
+          },
+          "Health": {
+            "IsTimeBased": false,
+            "Min": 0.6,
+            "Max": 0.6
+          },
+          "Enabled": true
+        }
+      }
+    },
+    {
+      "SyringeID": 232,
+      "Properties": {
+        "Infection": {
+          "Min": 0.5,
+          "Max": 0.5,
+          "Enabled": true
+        },
+        "RegenOverTime": {
+          "Delay": {
+            "HasDelay": false,
+            "Min": 0,
+            "Max": 0
+          },
+          "TotalTime": {
+            "Min": 35,
+            "Max": 35
+          },
+          "RegenInterval": {
+            "RandomizeEveryInterval": true,
+            "Min": 0.5,
+            "Max": 0.5
+          },
+          "Health": {
+            "IsTimeBased": false,
+            "Min": 7.0,
+            "Max": 7.0
+          },
+          "Enabled": true
+        },
+        "DamageOverTime": {
+          "Delay": {
+            "HasDelay": true,
+            "Min": 37,
+            "Max": 37
+          },
+          "TotalTime": {
+            "Min": 5,
+            "Max": 5
+          },
+          "DamageInterval": {
+            "RandomizeEveryInterval": true,
+            "Min": 1,
+            "Max": 1
+          },
+          "Damage": {
+            "IsTimeBased": false,
+            "Min": 3,
+            "Max": 5
+          },
+          "Enabled": true
+        },
+        "MeleeBuffTime": {
+          "Min": 90,
+          "Max": 90,
+          "Enabled": true
+        }
+      }
+    }
+  ]
+}

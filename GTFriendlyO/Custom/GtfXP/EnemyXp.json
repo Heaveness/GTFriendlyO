@@ -1,0 +1,275 @@
+[
+  {
+    "EnemyId": 13,
+    "EnemyName": "Striker_Wave",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 53,
+    "EnemyName": "Striker_Berserk",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 32,
+    "EnemyName": "Striker_Patrol",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 31,
+    "EnemyName": "Striker_Wave_Fast",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 24,
+    "EnemyName": "Striker_Hibernate",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 30,
+    "EnemyName": "Striker_Bullrush",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 16,
+    "EnemyName": "Striker_Big_Wave",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 62,
+    "EnemyName": "Striker_Big_nightmare",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 39,
+    "EnemyName": "Striker_Big_Bullrush",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 52,
+    "EnemyName": "Shooter_Spread",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 28,
+    "EnemyName": "Striker_Big_Hibernate",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 35,
+    "EnemyName": "Striker_Big_Shadow",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 19,
+    "EnemyName": "Striker_Boss",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 38,
+    "EnemyName": "Striker_Child",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 63,
+    "EnemyName": "Striker_Child_Nightmare",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 26,
+    "EnemyName": "Shooter_Hibernate",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 11,
+    "EnemyName": "Shooter_Wave",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 18,
+    "EnemyName": "Shooter_Big",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 33,
+    "EnemyName": "Shooter_Big_RapidFire",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 34,
+    "EnemyName": "Shooter_Big_Infection",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 36,
+    "EnemyName": "Birther",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 37,
+    "EnemyName": "Birther_Boss",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 55,
+    "EnemyName": "MegaMother",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 20,
+    "EnemyName": "Scout",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 56,
+    "EnemyName": "Scout_nightmare",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 54,
+    "EnemyName": "Scout_zoomer",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 41,
+    "EnemyName": "Scout_Bullrush",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 40,
+    "EnemyName": "Scout_Shadow",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 22,
+    "EnemyName": "Cocoon",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 21,
+    "EnemyName": "Shadow",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 29,
+    "EnemyName": "Tank",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 47,
+    "EnemyName": "Tank_Boss",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 42,
+    "EnemyName": "Flyer",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 45,
+    "EnemyName": "Flyer_Big",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 43,
+    "EnemyName": "Squidward",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 44,
+    "EnemyName": "SquidBoss_Big",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 46,
+    "EnemyName": "Pouncer",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 58,
+    "EnemyName": "SquidBoss_Big_Complex",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  },
+  {
+    "EnemyId": 61,
+    "EnemyName": "SquidBoss_VS",
+    "XpGain": 0,
+    "DebuffXp": 0,
+    "LevelScalingXpDecrese": 0
+  }
+]

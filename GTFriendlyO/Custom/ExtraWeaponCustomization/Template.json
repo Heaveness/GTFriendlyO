@@ -1,0 +1,252 @@
+[
+  {
+    "ArchetypeID": 0,
+    "MeleeArchetypeID": 0,
+    "Name": "Example",
+    "Properties": [
+      {
+        "Name": "AmmoMod",
+        "ClipChange": 0,
+        "ReserveChange": 0,
+        "OverflowToReserve": true,
+        "PullFromReserve": false,
+        "Trigger": "Invalid"
+      },
+      {
+        "Name": "DamageMod",
+        "Mod": 1,
+        "Cap": 0,
+        "Duration": 0,
+        "StackType": "Add",
+        "StackLayer": "Mult",
+        "Trigger": "Invalid"
+      },
+      {
+        "Name": "DamageModPerTarget",
+        "Mod": 1,
+        "Cap": 0,
+        "Duration": 0,
+        "StackType": "Add",
+        "StackLayer": "Mult",
+        "Trigger": "Hit"
+      },
+      {
+        "Name": "DamageOverTime",
+        "TotalDamage": 0,
+        "PrecisionDamageMulti": 0,
+        "StaggerDamageMulti": 0,
+        "Duration": 0,
+        "TickRate": 2,
+        "Stacks": true,
+        "IgnoreFalloff": false,
+        "DamageLimb": true,
+        "IgnoreArmor": false,
+        "IgnoreBackstab": false,
+        "IgnoreDamageMods": false,
+        "Trigger": "Hit"
+      },
+      {
+        "Name": "Explosive",
+        "MaxDamage": 0,
+        "MinDamage": 0,
+        "InnerRadius": 0,
+        "Radius": 0,
+        "PrecisionDamageMulti": 0,
+        "StaggerDamageMulti": 1,
+        "IgnoreFalloff": false,
+        "DamageLimb": true,
+        "IgnoreArmor": false,
+        "IgnoreBackstab": false,
+        "IgnoreDamageMods": false,
+        "DamageFriendly": true,
+        "DamageOwner": true,
+        "Trigger": "BulletLanded",
+        "SoundID": 704948356,
+        "GlowColor": "#FF3300FF",
+        "GlowDuration": 0.1,
+        "GlowFadeDuration": 0.1
+      },
+      {
+        "Name": "FireRateMod",
+        "Mod": 1,
+        "Cap": 0,
+        "Duration": 0,
+        "StackType": "Add",
+        "StackLayer": "Mult",
+        "Trigger": "Invalid"
+      },
+      {
+        "Name": "HealthMod",
+        "HealthChangeRel": 0,
+        "CapRel": -1,
+        "Trigger": "Invalid"
+      },
+      {
+        "Name": "RecoilMod",
+        "Mod": 1,
+        "Cap": 0,
+        "Duration": 0,
+        "StackType": "Add",
+        "StackLayer": "Mult",
+        "Trigger": "Invalid"
+      },
+      {
+        "Name": "TempProperties",
+        "Properties": [],
+        "Duration": 0,
+        "Override": false,
+        "ResetTriggersOnEnd": false,
+        "Trigger": "Invalid"
+      },
+      {
+        "Name": "Accelerate",
+        "EndShotDelay": 0,
+        "EndFireRate": 0,
+        "EndFireRateMod": 1,
+        "FireRateStackLayer": "Mult",
+        "EndDamageMod": 1,
+        "DamageStackLayer": "Mult",
+        "AccelTime": 1,
+        "AccelExponent": 1,
+        "DecelTime": 0.001,
+        "DecelDelay": 0,
+        "ResetTrigger": "Invalid"
+      },
+      {
+        "Name": "AmmoCap",
+        "AmmoCapRel": 1,
+        "AmmopackRefillRel": 0,
+        "CostOfBullet": 0,
+        "ApplyOnDrop": true
+      },
+      {
+        "Name": "ArmorPierce",
+        "Pierce": 1,
+        "Type": "Pierce"
+      },
+      {
+        "Name": "AutoAim",
+        "HipActive": false,
+        "AimActive": true,
+        "Angle": 0,
+        "Range": 0,
+        "LockTime": 0,
+        "LockDecayTime": 0,
+        "StayOnTarget": false,
+        "ResetOnNewTarget": false,
+        "RequireLock": false,
+        "LockWhileEmpty": true,
+        "TagOnly": false,
+        "IgnoreInvisibility": false,
+        "TargetMode": "Normal",
+        "TargetPriority": "Angle",
+        "FavorLookPoint": false,
+        "HomingOnly": false
+      },
+      {
+        "Name": "AutoTrigger"
+      },
+      {
+        "Name": "BackstabMulti",
+        "BackstabDamageMulti": 1
+      },
+      {
+        "Name": "BioPing",
+        "CooldownPerTarget": 0,
+        "Trigger": "Hit"
+      },
+      {
+        "Name": "DataSwap",
+        "ArchetypeID": 0,
+        "AudioID": 0,
+        "Duration": 0,
+        "EndBurst": false,
+        "EndCharge": false,
+        "KeepMagCost": false,
+        "Trigger": "Invalid"
+      },
+      {
+        "Name": "EnforceFireRate"
+      },
+      {
+        "Name": "HoldBurst",
+        "ShotsUntilCancel": 1
+      },
+      {
+        "Name": "MultiShot",
+        "Offsets": [],
+        "AimOffsetMod": 1,
+        "Repeat": 0,
+        "IgnoreSpread": false,
+        "ApplySpreadPerShot": false,
+        "CancelShot": false,
+        "ForceSingleBullet": false
+      },
+      {
+        "Name": "PierceMulti",
+        "PierceDamageMulti": 1
+      },
+      {
+        "Name": "Projectile",
+        "ProjectileType": "NotTargetingSmallFast",
+        "Speed": 0,
+        "AccelScale": 1,
+        "AccelExponent": 1,
+        "AccelTime": 0.001,
+        "Gravity": 0,
+        "HitSize": 0,
+        "HitSizeWorld": 0,
+        "ModelScale": 1,
+        "EnableTrail": true,
+        "GlowColor": "#000000FF",
+        "GlowRange": -1,
+        "DamageFriendly": true,
+        "DamageOwner": false,
+        "VisualLerpDist": 5,
+        "Lifetime": 20,
+        "HomingSettings": {
+          "InitialHomingStrength": 0,
+          "InitialHomingDuration": 0,
+          "HomingStrength": 0,
+          "HomingDelay": 0,
+          "HomingMaxDist": 50,
+          "HomingMinDist": 15,
+          "HomingDistExponent": 2,
+          "TargetMode": "Normal",
+          "TargetPriority": "Angle",
+          "SearchAngle": 0,
+          "SearchRange": 50,
+          "SearchCooldown": 0.1,
+          "SearchInitialMode": "Normal",
+          "SearchStopMode": "None",
+          "SearchIgnoreWalls": false,
+          "SearchIgnoreInvisibility": false,
+          "SearchTagOnly": false
+        }
+      },
+      {
+        "Name": "ReserveClip"
+      },
+      {
+        "Name": "Silence",
+        "FakeAlertRadius": 0,
+        "AlertRadius": 0,
+        "AlertAmount": 0,
+        "WakeUpRadius": 0,
+        "CrossDoors": false
+      },
+      {
+        "Name": "ThickBullet",
+        "HitSize": 0
+      },
+      {
+        "Name": "TumorMulti",
+        "TumorDamageMulti": 1,
+        "BypassCap": false
+      },
+      {
+        "Name": "WallPierce"
+      }
+    ]
+  }
+]

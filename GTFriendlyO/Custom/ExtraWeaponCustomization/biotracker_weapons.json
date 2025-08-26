@@ -1,0 +1,38 @@
+[
+  {
+    "ArchetypeID": 79,  
+    "MeleeArchetypeID": 0,
+    "Name": "Precision Rifle - Tracker Ammo",
+    "Properties": [
+      {
+        "Name": "BioPing",
+        "CooldownPerTarget": 5,
+        "Trigger": "Hit"
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 77,  
+    "MeleeArchetypeID": 0,
+    "Name": "PDW - Tracker Ammo",
+    "Properties": [
+      {
+        "Name": "BioPing",
+        "CooldownPerTarget": 5,
+        "Trigger": "Hit"
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 41,  
+    "MeleeArchetypeID": 0,
+    "Name": "Semi Pistol - Tracker Ammo",
+    "Properties": [
+      {
+        "Name": "BioPing",
+        "CooldownPerTarget": 5,
+        "Trigger": "Hit"
+      }
+    ]
+  }
+]

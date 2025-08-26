@@ -1,0 +1,19 @@
+{
+    "name": "GTFriendlyO",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "A major overhaul of GTFO's vanilla gameplay, designed for a more casual but still fun and challenging experience with friends.",
+    "dependencies": [
+        "BepInEx-BepInExPack_GTFO-3.2.2",
+        "dakkhuza-MTFO-4.6.2",
+        "Dinorush-MovementSpeedAPI-1.1.0",
+        "Dinorush-ExtraWeaponCustomization-3.7.4",
+        "Panthr75-ExtraSyringeCustomization-0.3.7",
+        "GTFOModding-InjectLib-1.1.0",
+        "hirnukuono-EEC_H-1.8.19",
+        "Dinorush-ExtraToolCustomization-1.5.3",
+        "dakkhuza-FloatingTextAPI-1.0.5",
+        "Frog-DoubleJump-1.0.6",
+        "Endskill-GTFuckingXP-2.4.8"
+    ]
+}

@@ -1,0 +1,225 @@
+[
+  {
+    "ClassLayoutPersistentId": 9,
+    "ActiveLevels": [
+      0
+    ],
+    "ValueToBoosterEffects": {
+      "DMRDamage": 1.4,
+	  "AssaultRifleDamage": 1.4,
+	  "CarbineDamage": 1.4,
+	  "DoubleTapRifle": 1.4,
+	  "TripMineDamage": 0.75,
+	  "MeleeResistance": 0.6,
+      "ProjectileResistance": 1.3,
+      "InfectionResistance": 1.2
+    }
+  },
+  {
+    "ClassLayoutPersistentId": 10,
+    "ActiveLevels": [
+      0
+    ],
+    "ValueToBoosterEffects": {
+      "PistolDamage": 0.6,
+	  "SMGDamage": 0.6,
+	  "DMRDamage": 0.6,
+      "AssaultRifleDamage": 0.6,
+      "CarbineDamage": 0.6,
+      "AutoPistolDamage": 0.6,
+      "HELDamage": 0.6,
+      "RevolverDamage": 0.6,
+      "SniperDamage": 0.6,
+      "BurstCannonDamage": 0.6,
+      "MachineGunDamage": 0.6,
+      "MachinePistolDamage": 0.6,
+      "RifleDamage": 0.6,
+      "BurstRifleDamage": 0.6,
+      "DoubleTapRifle": 0.6,
+      "BullpupRifleDamage": 0.6,
+	  "SentryGunDamage": 0.6,
+      "SentryGunLongRangeDamage": 0.6,
+      "SentryGunShortRangeDamage": 0.6, 
+	  "ShotgunDamage": 1.2,
+      "CombatShotgunDamage": 1.2,
+      "ChokeModShotgunDamage": 1.2,
+	  "TripMineDamage": 0.6,
+	  "MeleeResistance": 1.4,
+      "ProjectileResistance": 1.4,
+	  "RegenerationSpeed": 1.3,
+    "InfectionResistance": 1.2
+    }
+  },
+  {
+    "ClassLayoutPersistentId": 11,
+    "ActiveLevels": [
+      0
+    ],
+    "ValueToBoosterEffects": {
+	  "PistolDamage": 0.7,
+	  "SMGDamage": 0.7,
+	  "DMRDamage": 0.7,
+      "AssaultRifleDamage": 0.7,
+      "CarbineDamage": 0.7,
+      "AutoPistolDamage": 0.7,
+      "HELDamage": 0.7,
+      "RevolverDamage": 0.7,
+      "SniperDamage": 0.7,
+      "MachineGunDamage": 0.7,
+      "MachinePistolDamage": 0.7,
+      "RifleDamage": 0.7,
+      "DoubleTapRifle": 0.7,
+      "BullpupRifleDamage": 0.7,
+	  "SentryGunDamage": 0.7,
+      "SentryGunLongRangeDamage": 0.7,
+      "SentryGunShortRangeDamage": 0.7, 
+	  "ShotgunDamage": 0.7,
+      "CombatShotgunDamage": 0.7,
+      "ChokeModShotgunDamage": 0.7,
+	  "ComputerProcessingSpeed": 0.5,
+	  "HackingProficiency": 0.25,
+	  "SentryGunSpeed": 0.5,
+	  "TripMineDamage": 1.5,
+	  "BurstCannonDamage": 1.3,
+	  "BurstRifleDamage": 1.3,
+    "InfectionResistance": 1.2
+    }
+  },
+  {
+    "ClassLayoutPersistentId": 8,
+    "ActiveLevels": [
+      0
+    ],
+    "ValueToBoosterEffects": {
+	  "RifleDamage": 1.50,
+	  "SniperDamage": 1.50,
+	  "MeleeResistance": 0.5,
+      "ProjectileResistance": 0.5,
+      "InfectionResistance": 1.2
+    }
+  },
+  {
+    "ClassLayoutPersistentId": 12,
+    "ActiveLevels": [
+      0
+    ],
+    "ValueToBoosterEffects": {
+      "DMRDamage": 0.5,
+      "AssaultRifleDamage": 0.5,
+      "CarbineDamage": 0.5,
+      "AutoPistolDamage": 0.5,
+      "HELDamage": 0.5,
+      "ShotgunDamage": 0.5,
+      "RevolverDamage": 0.5,
+      "SniperDamage": 0.5,
+      "BurstCannonDamage": 0.5,
+      "MachineGunDamage": 0.5,
+      "MachinePistolDamage": 0.5,
+      "RifleDamage": 0.5,
+      "BurstRifleDamage": 0.5,
+      "DoubleTapRifle": 0.5,
+      "BullpupRifleDamage": 0.5,
+      "CombatShotgunDamage": 0.5,
+      "ChokeModShotgunDamage": 0.5,
+      "SentryGunDamage": 0.5,
+      "SentryGunLongRangeDamage": 0.5,
+      "SentryGunShortRangeDamage": 0.5,
+	  "TripMineDamage": 0.5,
+      "ReviveSpeedSupport": 2.0,
+	  "ReviveStartHealthSupport": 1.6,
+      "InfectionResistance": 2.0
+    }
+  },
+  {
+    "ClassLayoutPersistentId": 13,
+    "ActiveLevels": [
+      0
+    ],
+    "ValueToBoosterEffects": {
+      "SMGDamage": 0.5,
+	  "DMRDamage": 0.5,
+      "AssaultRifleDamage": 0.5,
+      "CarbineDamage": 0.5,
+      "HELDamage": 0.5,
+      "ShotgunDamage": 0.5,
+      "RevolverDamage": 0.5,
+      "SniperDamage": 0.5,
+      "BurstCannonDamage": 0.5,
+      "RifleDamage": 0.5,
+      "BurstRifleDamage": 0.5,
+      "DoubleTapRifle": 0.5,
+      "BullpupRifleDamage": 0.5,
+      "CombatShotgunDamage": 0.5,
+      "ChokeModShotgunDamage": 0.5,
+      "SentryGunDamage": 0.5,
+      "SentryGunLongRangeDamage": 0.5,
+      "SentryGunShortRangeDamage": 0.5,
+	  "TripMineDamage": 0.5,
+	  "AutoPistolDamage": 1.2,
+	  "MachineGunDamage": 1.2,
+      "MachinePistolDamage": 1.2,
+	  "RegenerationCap": 1.4,
+    "InfectionResistance": 1.2
+    }
+  },
+  {
+    "ClassLayoutPersistentId": 14,
+    "ActiveLevels": [
+      0
+    ],
+    "ValueToBoosterEffects": {
+	  "BioscanSpeed": 1.5,
+	  "ScannerRechargeSpeed": 1.5,
+	  "GlueStrength": 1.25,
+	  "GlueEfficiency": 1.25,
+	  "GlowstickEffect": 2.5,
+	  "FogRepellerEffect": 1.75,
+    "InfectionResistance": 1.2
+    }
+  },
+  {
+    "ClassLayoutPersistentId": 15,
+    "ActiveLevels": [
+      0
+    ],
+    "ValueToBoosterEffects": {	  
+      "SentryGunDamage": 1.3,
+	  "SentryGunSpeed": 1.3,
+      "SentryGunLongRangeDamage": 1.3,
+      "SentryGunShortRangeDamage": 1.3,
+	  "HackingProficiency": 1.75,
+	  "ComputerProcessingSpeed": 1.5,
+    "InfectionResistance": 1.2
+    }
+  },
+  {
+    "ClassLayoutPersistentId": 21,
+    "ActiveLevels": [
+      0
+    ],
+    "ValueToBoosterEffects": {	  
+      "HELDamage": 1.75,
+	  "MeleeResistance": 0.7,
+      "ProjectileResistance": 0.7,
+	  "ComputerProcessingSpeed": 1.5,
+    "HackingProficiency": 2.0,
+	  "RegenerationCap": 0.5,
+    "InfectionResistance": 1.2
+    }
+  },
+  {
+    "ClassLayoutPersistentId": 22,
+    "ActiveLevels": [
+      0
+    ],
+    "ValueToBoosterEffects": {	  
+	  "ComputerProcessingSpeed": 0.5,
+    "HackingProficiency": 0.1,
+    "SentryGunSpeed": 0.5,
+    "BioscanSpeed": 0.5,
+	  "ScannerRechargeSpeed": 0.5,
+	  "RegenerationCap": 1.5,
+    "InfectionResistance": 1.2
+    }
+  }
+]
