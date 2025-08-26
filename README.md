@@ -2,20 +2,20 @@
 
 ## Description
 
-A major overhaul of GTFO`s vanilla gameplay, designed for a more casual but still fun and challenging experience with friends.
+A major overhaul of GTFO's vanilla gameplay, designed for a more casual but still fun and challenging experience with friends.
 
-As a long-time GTFO player, I've always felt the base game lacked a bit of variety and identity in certain gameplay aspects. After running several Rundowns with friends, we all agreed the game needed a little more spice. This mod focuses on creating a casual-friendly co-op experience without removing all of the tension or challenge from the game. This is NOT a hardcore or realism mod setup, nor will it ever be. Instead, it makes GTFO more accessible by giving players additional "tools" to tackle the depths. The enemies have also received some love too, so it`s not completely one-sided.
+As a long-time GTFO player, I've felt the base game lacked a bit of variety in certain aspects of its gameplay. After running several Rundowns with friends, we all agreed the game needed a bit more spice. This mod focuses on creating a more casual-friendly co-op experience without removing all of the tension or challenge from the game. This is NOT a hardcore or realism mod setup, nor will it ever be. Instead, it makes GTFO more accessible by giving players additional "tools" to tackle the depths. The enemies have also received some love too, so it's not completely one-sided.
 
 Heavy inspiration: FriendlyGTFO by EcoLight and Duo Trials by ProjectZaero
 > Please note that I took the syringe customization settings from Duo Trials to reverse engineer on how it was made. I have made some changes, but the overall credit belongs to the ProjectZaero.
 
-This project has been in the works for years. Until now, it's only been shared privately with my friends. Now, I`m releasing it publicly for others to enjoy as well. Play together or Die together!
+This project has been in the works for years. Until now, it's only been shared privately with my friends. Now, I'm releasing it publicly for others to enjoy as well. Play together or die together!
 
 ## Recommended
 
 * Please note that this is only one part of a larger mod pack. For the full experience, mod-pack setup is currently in the works. **Stay tuned!**
 
-* Can be played Vanilla with this mod with the prerequisite mods. But it`s highly recommended to play with my mod-pack for the full experience.
+* Can be played Vanilla with this mod with the prerequisite mods. But it's highly recommended to play with my mod-pack for the full experience.
 
 * Most likely will NOT be compatible with other custom Rundowns that changes the same Datablocks. Otherwise, give it a try.
 
@@ -38,7 +38,7 @@ This project has been in the works for years. Until now, it's only been shared p
 
 ###### Classes:
 
-* All classes have distinct roles with pros and cons.
+* All classes have distinct roles with pros and cons. There is no leveling system, all classes get their stats at the start.
 * Meant to be played with 2+ players.
 * All classes can do damage, some do it better than others. Boosters/Syringes can be used to further buff or debuff attributes.
 * `Damage` roles are classes that specialize is mainly doing damage, but they tend to be more fragile.
@@ -56,7 +56,7 @@ This project has been in the works for years. Until now, it's only been shared p
 | Quartermaster 	| Tank 		| Support 	| High Ammo Cost Efficiency, Starting Ammo, & HP Regen Cap	 	| Very slow Movement Spd., & Low Damage except MGs								|
 | Tool Specialist 	| Support 	| Support 	| Effective & Efficent w/all tools and items					| Low Starting & Max Ammo, and no offensive benefits						    |
 | Field Technician 	| Damage 	| Support 	| Stronger & Faster Sentries, & Fast Terminal and Hacking Skills| Low Base Damage(Melee & Range), Low Starting Ammo 						    |
-| Prisoner 			| Neutral 	| B-Company | No strengths, closer to Vanilla experience					| No weakenesses, closer to Vanilla Experience    								|
+| Prisoner 			| Neutral 	| B-Company | No strengths, closer to Vanilla experience					| No weaknesses, closer to Vanilla Experience    								|
 | HEL Diver 		| Damage 	| B-Company | Strong Damage w/HEL Guns, Fast Terminal & Hacking, & Fast Spd.| High Friendly Fire Damage, Fragile, Low Base HP and Regen Cap   				|
 | Abhuman 			| Tank 		| B-Company | Very High Base HP, Melee Damage & Hitbox/Range				| Not very smart with Terminals or Sentries, Low Starting Ammo, & Movement Spd. |
 
@@ -65,7 +65,7 @@ This project has been in the works for years. Until now, it's only been shared p
 - All of the Main and Special weapons have either been overhauled, reworked or tweaked.
 - Significantly changes were made to create synergies between weapons and classes.
 - Promotes more build diversity and team compositions.
-- Silence CC does not mean silent weapon, it`s the capability to temporarily disable some enemy abilties such as non-boss tongues.
+- Silence CC does not mean silent weapon, it's the capability to temporarily disable some enemy abilties such as non-boss tongues.
 - DoT stands for Damage-over-Time effect that deals damage based on ticks per second.
 - Reserve Ammo means there is not reloading, as the weapon utilize the whole ammo reserve.
 
@@ -135,17 +135,17 @@ This project has been in the works for years. Until now, it's only been shared p
 
 #### Enemies:
 
-* All enemies have had their base and limb health increased to keep them balanced against the players` new power scaling.
+* All enemies have had their base and limb health increased to keep them balanced against the players' new power scaling.
 * Minimum base health increase of 20.0 while larger elites and bosses received massive health increase.
 * Each Enemy/Variant received new quirks to improve their strengths and solidify their identities.
 * Some names were changed to keep a consistent identification. For example: `Shooter -> Needler`
 
 | ENEMIES      				| ABILITIES/TRAITS  													| NOTES																						|
 |---------------------------|:---------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------:|
-| Strikers					| Higher HP, but less damage											| N/A, just punch`em.																		|
-| Needlers(Shooter) 		| Stronger overall damage, but more fragile								| N/A, just shoot`em.																		|
+| Strikers					| Higher HP, but less damage											| N/A, just punch'em.																		|
+| Needlers(Shooter) 		| Stronger overall damage, but more fragile								| N/A, just shoot'em.																		|
 | Large Strikers  			| Tongue grabs player to its melee range; cannot parry the pull			| Loves pulling teammates out of bioscans, either kill or disable(Medic Gun or Foam Pistol).|
-| Scouts 					| EMP(45.0s) after scream, invul. during EMP wind-up					| EMPs disable all, but glowsticks, fog repellers, and tripmines. Tool Specialist			|
+| Scouts 					| EMP(45.0s) after scream, invul. during EMP wind-up					| EMPs disable all, but glowsticks, fog repellers, and tripmines. Try Tool Specialists!		|
 | Mothers(Birther) 			| Increased HP; Birth Children that will explode on death				| Kill the babies first, then kill the mothers fast.										|
 | Stalkers(Snatcher) 		| Significant HP increase, snatched players will take damage; cloaked	| Takes longer to kill and can kill players now. They should not be ignored.				|
 | Bloom Needlers & Flyers	| Inflicts bleed(50% Chance) for 2.5% damage over 5.0s; stackable		| Bloom Needlers are high-priority targets otherwise team member will suffer major damage.	|
@@ -161,6 +161,6 @@ This project has been in the works for years. Until now, it's only been shared p
 | Shadow 		| Mainly unchanged, slightly increased Tag time by 3s						|
 | Child			| Explode on Death, can cause a chain reaction								|
 
-## Notes
+## Extras:
 
 * If you have any feedback, please let me know on through the Thunderstore Link: https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/
