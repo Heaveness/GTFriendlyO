@@ -1,0 +1,107 @@
+{
+  "Syringes": [
+    {
+      "SyringeID": 999,
+      "Properties": {
+        "MeleeBuffTime": {
+          "Min": 0,
+          "Max": 0,
+          "Enabled": false
+        },
+        "MovementMultiplier": {
+          "Delay": {
+            "HasDelay": false,
+            "Min": 0,
+            "Max": 0
+          },
+          "Time": {
+            "Min": 0,
+            "Max": 0
+          },
+          "Min": 0,
+          "Max": 0,
+          "Enabled": false
+        },
+        "Health": {
+          "Min": 0,
+          "Max": 0,
+          "Enabled": false
+        },
+        "Ammo": {
+          "Min": 0,
+          "Max": 0,
+          "Enabled": false
+        },
+        "Tool": {
+          "Min": 0,
+          "Max": 0,
+          "Enabled": false
+        },
+        "Disinfection": {
+          "Min": 0,
+          "Max": 0,
+          "Enabled": false
+        },
+        "Infection": {
+          "Min": 0,
+          "Max": 0,
+          "Enabled": false
+        },
+        "SelfDestruct": {
+          "DelayTime": {
+            "HasDelay": false,
+            "Min": 0,
+            "Max": 0
+          },
+          "Damage": 0,
+          "Radius": 0,
+          "Enabled": false
+        },
+        "DamageOverTime": {
+          "Delay": {
+            "HasDelay": false,
+            "Min": 0,
+            "Max": 0
+          },
+          "TotalTime": {
+            "Min": 0,
+            "Max": 0
+          },
+          "DamageInterval": {
+            "RandomizeEveryInterval": false,
+            "Min": 0,
+            "Max": 0
+          },
+          "Damage": {
+            "IsTimeBased": false,
+            "Min": 0,
+            "Max": 0
+          },
+          "Enabled": false
+        },
+        "RegenOverTime": {
+          "Delay": {
+            "HasDelay": false,
+            "Min": 0,
+            "Max": 0
+          },
+          "TotalTime": {
+            "Min": 0,
+            "Max": 0
+          },
+          "RegenInterval": {
+            "RandomizeEveryInterval": false,
+            "Min": 0,
+            "Max": 0
+          },
+          "Health": {
+            "IsTimeBased": false,
+            "Min": 0,
+            "Max": 0
+          },
+          "Enabled": false
+        }
+      }
+    }
+  ]
+}

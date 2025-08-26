@@ -1,0 +1,65 @@
+[
+  {
+    "ArchetypeID": 19,
+    "MeleeArchetypeID": 0,
+    "Name": "Medic SMG",
+    "Properties": [
+      {
+        "Name": "HealthMod",
+        "HealthChangeRel": 0.005,
+        "CapRel": 1.0,
+        "CancelRegen": false,
+        "ApplyToTarget": true,
+        "Trigger": "Hit"
+      },
+      {
+        "Name": "DamageOverTime",
+        "TotalDamage": 25.0,
+        "EndDamageFrac": 2.0,
+        "Exponent": 1,
+        "PrecisionDamageMulti": 1.0,
+        "StaggerDamageMulti": 0.5,
+        "FriendlyDamageMulti": 0.0,
+        "Duration": 9.0,
+        "TickRate": 1.0,
+        "StackLimit": 2,
+        "IgnoreFalloff": false,
+        "DamageLimb": false,
+        "IgnoreArmor": true,
+        "IgnoreBackstab": true,
+        "IgnoreShotMods": false,
+        "UseParentShotMod": true,
+        "CalcShotModsPerTick": false,
+        "ApplyAttackCooldown": true,
+        "GlowColor": "#3a9fbf",
+        "GlowIntensity": 1.25,
+        "GlowRange": 1.5,
+        "Trigger": "Hit",
+        "BatchStacks": false
+      },
+      {
+        "Name": "Projectile",
+        "ProjectileType": "RagingBoss",
+        "Speed": 75,
+        "AccelScale": 1.0,
+        "AccelExponent": 1,
+        "AccelTime": 0.1,
+        "Gravity": 0,
+        "HitSize": 0,
+        "HitSizeWorld": 0,
+        "ModelScale": 0.25,
+        "EnableTrail": true,
+        "TrailColor": "#3a9fbf",
+        "GlowColor": "#3a9fbf",
+        "GlowRange": 3,
+        "DamageFriendly": true,
+        "DamageOwner": false,
+        "HitFromOwnerPos": false,
+        "HitCooldown": -1,
+        "HitIgnoreWallsDuration": 15,
+        "VisualLerpDist": 3,
+        "Lifetime": 20
+      }
+    ]
+  }
+]

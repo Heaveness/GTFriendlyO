@@ -1,0 +1,58 @@
+[
+  {
+    "ArchetypeID": 29,  
+    "MeleeArchetypeID": 0,
+    "Name": "High Cal Sniper - Wall, Armor Pierce, and Bullet Size",
+    "Properties": [
+	  {
+        "Name": "WallPierce"
+      },
+      {
+        "Name": "ArmorPierce",
+        "Pierce": 1.0,
+        "Type": "Override"
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 81,  
+    "MeleeArchetypeID": 0,
+    "Name": "Slug Shotgun - Armor Pierce",
+    "Properties": [
+      {
+        "Name": "ArmorPierce",
+        "Pierce": 0.75,
+        "Type": "Pierce"
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 0,  
+    "MeleeArchetypeID": 3,
+    "Name": "Spear - Armor Pierce and Tracker",
+    "Properties": [
+      {
+        "Name": "ArmorPierce",
+        "Pierce": 1.1,
+        "Type": "Override"
+      },
+	  {
+        "Name": "BioPing",
+        "CooldownPerTarget": 5,
+        "Trigger": "Hit"
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 0,  
+    "MeleeArchetypeID": 1,
+    "Name": "Hammer - Armor Pierce",
+    "Properties": [
+      {
+        "Name": "ArmorPierce",
+        "Pierce": 1.4,
+        "Type": "Multi"
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+--This file is auto-generated. It's not for editing!--
+
+Heal
+Desinfect
+Desinfect
+AmmunitionMain
+AmmunitionSpecial
+AmmunitionTool
+Invalid
