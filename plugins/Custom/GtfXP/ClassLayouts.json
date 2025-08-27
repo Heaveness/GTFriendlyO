@@ -39,7 +39,7 @@
         "CustomLevelUpPopupText": null,
         "CustomLevelStatsText": "Class: Covert Ops\n<color=green>Sniper/Rifle & Melee Damage 150%, Movement Spd 120%, Double Jump</color>\n<color=red>Max Health 80%, Melee & Projectile Armor 50%</color>",
         "HealthMultiplier": 0.8,
-        "MeleeDamageMultiplier": 1.45,
+        "MeleeDamageMultiplier": 1.5,
         "WeaponDamageMultiplier": 1.0,
         "CustomScaling": [
           {
@@ -347,4 +347,5 @@
       }
     ]
   }
+
 ]
