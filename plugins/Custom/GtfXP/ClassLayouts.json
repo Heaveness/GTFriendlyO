@@ -79,20 +79,20 @@
     "Header": "Shock Trooper",
     "GroupPersistentId": 0,
     "PersistentId": 10,
-    "InfoText": "Excels at close-quarter combat, but lacks range strength.\n<color=yellow>Specializes: Melee/Shotguns/Armor/Health</color>\n\n<color=green>Strengths: +20% Melee & Shotgun Damage, +20% Max Health, +30% Health Regen Speed, +40% Melee & Projectile Armor, +50% Bullet Resistance</color>\n\n<color=red>Weaknesses: -40% Ranged Damage except Specialized Guns, -20% Movement Spd.</color>",
+    "InfoText": "Excels at close-quarter combat, but lacks range strength.\n<color=yellow>Specializes: Melee/Shotguns/Armor/Health</color>\n\n<color=green>Strengths: +20% Melee & Shotgun Damage, +20% Max Health, +30% Health Regen Speed, +30% Melee & Projectile Armor, +50% Bullet Resistance</color>\n\n<color=red>Weaknesses: -40% Ranged Damage except Specialized Guns, -25% Movement Spd.</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Shock Trooper\n<color=green>Shotgun & Melee Damage 120%, Melee & Projectile Armor 140%, Max Health 120%, Bullet Resistance 150%</color>\n<color=red>Ranged Damage except Specialized Guns 60%, Movement Spd. 80%</color>",
+        "CustomLevelStatsText": "Class: Shock Trooper\n<color=green>Shotgun & Melee Damage 120%, Melee & Projectile Armor 130%, Max Health 120%, Bullet Resistance 150%</color>\n<color=red>Ranged Damage except Specialized Guns 60%, Movement Spd. 75%</color>",
         "HealthMultiplier": 1.2,
         "MeleeDamageMultiplier": 1.2,
         "WeaponDamageMultiplier": 1.0,
         "CustomScaling": [
         {
           "CustomBuff": "MovementSpeedMultiplier",
-          "Value": 0.8
+          "Value": 0.75
         },
         {
           "CustomBuff": "BulletResistance",

@@ -44,8 +44,8 @@
       "CombatShotgunDamage": 1.2,
       "ChokeModShotgunDamage": 1.2,
 	  "TripMineDamage": 0.6,
-	  "MeleeResistance": 1.4,
-      "ProjectileResistance": 1.4,
+	  "MeleeResistance": 1.3,
+      "ProjectileResistance": 1.3,
 	  "RegenerationSpeed": 1.3,
     "InfectionResistance": 1.2
     }
