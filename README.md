@@ -4,30 +4,30 @@
 
 A major overhaul of GTFO's vanilla gameplay, designed for a more casual but still fun and challenging experience with friends.
 
-As a long-time GTFO player, I've felt the base game lacked a bit of variety in certain aspects of its gameplay. After running several Rundowns with friends, we all agreed the game needed a bit more spice. This mod focuses on creating a more casual-friendly co-op experience without removing all of the tension or challenge from the game. This is NOT a hardcore or realism mod setup, nor will it ever be. Instead, it makes GTFO more accessible by giving players additional "tools" to tackle the depths. The enemies have also received some love too, so it's not completely one-sided.
+As a long-time GTFO player, I've felt the base game lacked a bit of variety in certain aspects of its gameplay. After running several Rundowns with friends, we all agreed the game needed a bit more spice. This mod focuses on creating a more casual-friendly co-op experience without removing all of the tension or challenge from the game. This is NOT a hardcore or hyper-realism mod setup, nor will it ever be. Instead, it makes GTFO more accessible by giving players additional "tools" to tackle the depths. The enemies have also received some love too, so it's not completely one-sided.
 
 Heavy inspiration: FriendlyGTFO by EcoLight and Duo Trials by ProjectZaero
 > Please note that I took the syringe customization settings from Duo Trials to reverse engineer on how it was made. I have made some changes, but the overall credit belongs to the ProjectZaero.
 
 This project has been in the works for years. Until now, it's only been shared privately with my friends. Now, I'm releasing it publicly for others to enjoy as well. Play together or die together!
 
-## Recommended
+## Important
 
-* Please note that this is only one part of a larger mod pack. For the full experience, mod-pack setup is currently in the works. **Stay tuned!**
+* Please note that this is only one part of a larger mod pack. For the full experience, mod-pack setup is currently in the works. It will be released a later date. **Stay tuned!**
 
-* Can be played Vanilla with this mod with the prerequisite mods. But it's highly recommended to play with my mod-pack for the full experience.
+* Can be played Vanilla with other mods with this mod-pack, especially client-side mods.
 
-* Most likely will NOT be compatible with other custom Rundowns that changes the same Datablocks. Otherwise, give it a try.
+* Most likely will NOT be compatible with other custom Rundowns or modpacks that changes the same Datablocks. Otherwise, give it a try and let me know.
 
 ## Major Changes
 
 ###### Players:
 
 * Increased base Health: `25.0 -> 60.0`
-* Increased base Regen Cap: `20% -> 40%`
+* Increased base Regen Cap: `20% -> 30%`
 * Increased Regen Delay after Damage: `5.0s -> 10.0s`
 * Increased Regen Delay: `1.0s -> 2.0s` 
-* Increased Regen per Second: `0.2 -> 2.0`
+* Increased Regen per Second: `0.2 -> 1.0`
 * Increased Friendly Fire Damage: `50% -> 80%`
 * Increased Fall Damage Min/Max Height: `4.0m/20.0m -> 6.0m/30.0m`
 * Increased Fall Min/Max Damage: `2.0/15.0 -> 10.0/40.0`
@@ -44,7 +44,7 @@ This project has been in the works for years. Until now, it's only been shared p
 * `Damage` roles are classes that specialize is mainly doing damage, but they tend to be more fragile.
 * `Tank` roles are classes that specialize on taking damage while also dishing out some of their own, but they tend to be on the slow side.
 * `Support` roles are classes that specialize on helping the team, but they lack either offensive or defensive capabilities.
-> Note: B-Company Division is meant for joke classes, never will be balanced or realistic.
+> Note: B-Company Division is meant for joke classes, never will be balanced or realistic. So have fun with them.
 
 | CLASS       		| ROLE      | DIVISION  | STRENGTHS 	 												| WEAKNESSES																    |
 |-------------------|-----------|-----------|:-------------------------------------------------------------:|:-----------------------------------------------------------------------------:|
@@ -111,7 +111,7 @@ This project has been in the works for years. Until now, it's only been shared p
 * Sledgehammers and Bats are meant for players who prefer loud encounters.
 * Knives and Spears are meant for players who prefer quiet engagements.
 * There is another mod called Parry, which is not included in this mod setup. But it will be for the mod-pack.
-> Note: Parry can be used on melee or projectile damage, latter can send the projectil back to sender. Rewards a tiny amount of HP and ammo.
+> Note: Parry can be used on melee or projectile damage, latter can send the projectile back to sender. 
 
 | TYPE       	| ROLE      | TRAITS  			| STRENGTHS 	 								| WEAKNESSES								    	|
 |---------------|-----------|-------------------|:---------------------------------------------:|:-------------------------------------------------:|
@@ -124,7 +124,7 @@ This project has been in the works for years. Until now, it's only been shared p
 
 * Most tool gear & items have received some tweaks. Overall increase in carrying capacity for items and sentry ammo.
 * This section will mainly showcase sentries.
-> Note: A few received major reworks, but require additional mods which will be available with my mod-pack.
+> Note: A few received major reworks, but require additional mods which will be available at a later date.
 
 | SENTRIES      | RANGE 	| QUIRKS		  									| STRENGTHS 	 									| WEAKNESSES										|
 |---------------|-----------|---------------------------------------------------|:-------------------------------------------------:|:-------------------------------------------------:|
@@ -147,7 +147,7 @@ This project has been in the works for years. Until now, it's only been shared p
 | Large Strikers  			| Tongue grabs player to its melee range; cannot parry the pull			| Loves pulling teammates out of bioscans, either kill or disable(Medic Gun or Foam Pistol).|
 | Scouts 					| EMP(45.0s) after scream, invul. during EMP wind-up					| EMPs disable all, but glowsticks, fog repellers, and tripmines. Try Tool Specialists!		|
 | Mothers(Birther) 			| Increased HP; Birth Children that will explode on death				| Kill the babies first, then kill the mothers fast.										|
-| Stalkers(Snatcher) 		| Significant HP increase, snatched players will take damage; cloaked	| Takes longer to kill and can kill players now. They should not be ignored.				|
+| Stalkers(Snatcher) 		| Significant HP increase, snatched players will take damage        	| Takes longer to kill and can kill players now. They should not be ignored.				|
 | Bloom Needlers & Flyers	| Inflicts bleed(50% Chance) for 2.5% damage over 5.0s; stackable		| Bloom Needlers are high-priority targets otherwise team member will suffer major damage.	|
 | Tanks						| Significant increase in HP & high knockback; door buster				| Significantly longer to kill, their knockback is annoying, and don`t close doors on them.	|
 
@@ -163,4 +163,4 @@ This project has been in the works for years. Until now, it's only been shared p
 
 ## Extras:
 
-* If you have any feedback, please let me know on through the Thunderstore Link: https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/
+* If you have any feedback, please let me know on through the Github Link: [Here](https://github.com/Heaveness/GTFriendlyO).
