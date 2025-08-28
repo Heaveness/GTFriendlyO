@@ -3616,7 +3616,7 @@
         "magnitude": 4.472136,
         "sqrMagnitude": 20.0
       },
-      "PiercingBullets": true,
+      "PiercingBullets": false,
       "PiercingDamageCountLimit": 2,
       "HipFireSpread": 2.0,
       "AimSpread": 0.0,
@@ -4336,7 +4336,7 @@
           "x": 0.141421363,
           "y": 0.989949465,
           "magnitude": 1.0,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 0.99999994 
         },
         "magnitude": 35.35534,
         "sqrMagnitude": 1250.0

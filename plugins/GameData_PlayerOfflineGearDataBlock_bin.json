@@ -234,14 +234,14 @@
     },
     {
       "Type": 1,
-      "GearJSON": "{\"Ver\":1,\"Name\":\"Techman Shrapnel Gauss Rifle\",\"Packet\":{\"Comps\":{\"Length\":17,\"a\":{\"c\":2,\"v\":20},\"b\":{\"c\":3,\"v\":109},\"c\":{\"c\":4,\"v\":5},\"d\":{\"c\":5,\"v\":36},\"e\":{\"c\":6,\"v\":36},\"f\":{\"c\":7,\"v\":5},\"g\":{\"c\":8,\"v\":18},\"h\":{\"c\":9,\"v\":10},\"i\":{\"c\":10,\"v\":27},\"j\":{\"c\":11,\"v\":15},\"k\":{\"c\":12,\"v\":29},\"l\":{\"c\":16,\"v\":10},\"m\":{\"c\":19,\"v\":2},\"n\":{\"c\":21,\"v\":19},\"o\":{\"c\":23,\"v\":12},\"p\":{\"c\":25,\"v\":4}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.04,\"y\":0.04},\"scale\":0.08},\"tDecalB\":{\"position\":{\"x\":0.48,\"y\":0.0},\"scale\":0.3},\"tPattern\":{\"position\":{\"x\":0.0,\"y\":0.04},\"angle\":-90.0,\"scale\":0.2}},\"publicName\":{\"data\":\"Omneco LRG\"}}}",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Techman Nano-Payload Gauss Rifle\",\"Packet\":{\"Comps\":{\"Length\":17,\"a\":{\"c\":2,\"v\":20},\"b\":{\"c\":3,\"v\":109},\"c\":{\"c\":4,\"v\":5},\"d\":{\"c\":5,\"v\":36},\"e\":{\"c\":6,\"v\":36},\"f\":{\"c\":7,\"v\":5},\"g\":{\"c\":8,\"v\":18},\"h\":{\"c\":9,\"v\":10},\"i\":{\"c\":10,\"v\":27},\"j\":{\"c\":11,\"v\":15},\"k\":{\"c\":12,\"v\":29},\"l\":{\"c\":16,\"v\":10},\"m\":{\"c\":19,\"v\":2},\"n\":{\"c\":21,\"v\":19},\"o\":{\"c\":23,\"v\":12},\"p\":{\"c\":25,\"v\":4}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.04,\"y\":0.04},\"scale\":0.08},\"tDecalB\":{\"position\":{\"x\":0.48,\"y\":0.0},\"scale\":0.3},\"tPattern\":{\"position\":{\"x\":0.0,\"y\":0.04},\"angle\":-90.0,\"scale\":0.2}},\"publicName\":{\"data\":\"Omneco LRG\"}}}",
       "name": "HELRifleSemi",
       "internalEnabled": true,
       "persistentID": 42
     },
     {
       "Type": 1,
-      "GearJSON": "{\"Ver\":1,\"Name\":\"Santonian Sledge\",\"Packet\":{\"Comps\":{\"Length\":8,\"a\":{\"c\":2,\"v\":14},\"b\":{\"c\":3,\"v\":100},\"c\":{\"c\":4,\"v\":13},\"d\":{\"c\":44,\"v\":2},\"e\":{\"c\":46,\"v\":4},\"f\":{\"c\":48,\"v\":9},\"g\":{\"c\":50,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"Santonian HDH\"}}}",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Santonian Slugger\",\"Packet\":{\"Comps\":{\"Length\":8,\"a\":{\"c\":2,\"v\":14},\"b\":{\"c\":3,\"v\":100},\"c\":{\"c\":4,\"v\":13},\"d\":{\"c\":44,\"v\":2},\"e\":{\"c\":46,\"v\":4},\"f\":{\"c\":48,\"v\":9},\"g\":{\"c\":50,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"Santonian HDH\"}}}",
       "name": "HeavyDutyHammer",
       "internalEnabled": true,
       "persistentID": 57
@@ -262,7 +262,7 @@
     },
     {
       "Type": 1,
-      "GearJSON": "{\"Ver\":1,\"Name\":\"Bataldo Knife\",\"Packet\":{\"Comps\":{\"Length\":5,\"a\":{\"c\":2,\"v\":27},\"b\":{\"c\":3,\"v\":161},\"c\":{\"c\":4,\"v\":39},\"d\":{\"c\":48,\"v\":19}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"Santonian Fixed Blade\"}}}",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Bataldo Hunter's Edge\",\"Packet\":{\"Comps\":{\"Length\":5,\"a\":{\"c\":2,\"v\":27},\"b\":{\"c\":3,\"v\":161},\"c\":{\"c\":4,\"v\":39},\"d\":{\"c\":48,\"v\":19}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"Santonian Fixed Blade\"}}}",
       "name": "Knife_02",
       "internalEnabled": true,
       "persistentID": 68
@@ -283,7 +283,7 @@
     },
     {
       "Type": 1,
-      "GearJSON": "{\"Ver\":1,\"Name\":\"Omneco Drillhead\",\"Packet\":{\"Comps\":{\"Length\":7,\"a\":{\"c\":2,\"v\":28},\"b\":{\"c\":3,\"v\":162},\"c\":{\"c\":4,\"v\":40},\"d\":{\"c\":44,\"v\":13},\"e\":{\"c\":48,\"v\":15},\"f\":{\"c\":50,\"v\":11}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"MACO Drillhead\"}}}",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Omneco GPR Drillhead\",\"Packet\":{\"Comps\":{\"Length\":7,\"a\":{\"c\":2,\"v\":28},\"b\":{\"c\":3,\"v\":162},\"c\":{\"c\":4,\"v\":40},\"d\":{\"c\":44,\"v\":13},\"e\":{\"c\":48,\"v\":15},\"f\":{\"c\":50,\"v\":11}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"MACO Drillhead\"}}}",
       "name": "Spear",
       "internalEnabled": true,
       "persistentID": 54
@@ -346,7 +346,7 @@
     },
     {
       "Type": 1,
-      "GearJSON": "{\"Ver\":1,\"Name\":\"Rickman Grabthar\",\"Packet\":{\"Comps\":{\"Length\":8,\"a\":{\"c\":2,\"v\":14},\"b\":{\"c\":3,\"v\":100},\"c\":{\"c\":4,\"v\":13},\"d\":{\"c\":44,\"v\":11},\"e\":{\"c\":46,\"v\":12},\"f\":{\"c\":48,\"v\":6},\"g\":{\"c\":50,\"v\":4}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"Sledgehammer\"}}}",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Mak'Tar Grabthar\",\"Packet\":{\"Comps\":{\"Length\":8,\"a\":{\"c\":2,\"v\":14},\"b\":{\"c\":3,\"v\":100},\"c\":{\"c\":4,\"v\":13},\"d\":{\"c\":44,\"v\":11},\"e\":{\"c\":46,\"v\":12},\"f\":{\"c\":48,\"v\":6},\"g\":{\"c\":50,\"v\":4}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"Sledgehammer\"}}}",
       "name": "Sledgehammer",
       "internalEnabled": true,
       "persistentID": 9
