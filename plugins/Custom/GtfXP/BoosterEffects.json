@@ -203,6 +203,7 @@
       "ProjectileResistance": 0.7,
 	  "ComputerProcessingSpeed": 1.5,
     "HackingProficiency": 2.0,
+    "BioscanSpeed": 1.25,
 	  "RegenerationCap": 0.5,
     "InfectionResistance": 1.2
     }
@@ -220,6 +221,19 @@
 	  "ScannerRechargeSpeed": 0.5,
 	  "RegenerationCap": 1.5,
     "InfectionResistance": 1.2
+    }
+  },
+  {
+    "ClassLayoutPersistentId": 23,
+    "ActiveLevels": [
+      0
+    ],
+    "ValueToBoosterEffects": {
+      "ProjectileResistance": 0.5,
+      "MeleeResistance": 1.8,
+      "InfectionResistance": 1.95,
+      "BioscanSpeed": 1.5,
+      "ComputerProcessingSpeed": 1.5
     }
   }
 ]

@@ -7,7 +7,7 @@
       3,
       4
     ],
-    "Name": "Combat-Division"
+    "Name": "Combat Division"
   },
   {
     "PersistentId": 1,
@@ -17,7 +17,7 @@
       3,
       4
     ],
-    "Name": "Support-Division"
+    "Name": "Support Division"
   },
   {
     "PersistentId": 2,
@@ -27,6 +27,6 @@
       3,
       4
     ],
-    "Name": "B-Company-Division"
+    "Name": "B-Company Division"
   }
 ]
