@@ -222,7 +222,7 @@
         "HeldStateData": {
         "HeldStartAnimationDuration": "Unchanged",
         "MaxHeldDuration": 10.0,
-        "DamageToPlayerPerSecond": 4.0,
+        "DamageToPlayerPerSecond": 3.0,
         "DamageOnStartHolding": "Unchanged",
         "AfterHeldRunAwayDuration": "Unchanged",
         "SpitOutStateDuration": "Unchanged",
