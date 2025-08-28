@@ -38,6 +38,7 @@
         "HitSize": 0,
         "HitSizeWorld": 0,
         "ModelScale": 1,
+        "EnableTerrainHitFX": true,
         "EnableTrail": false,
         "GlowColor": "#FF3300FF",
         "GlowRange": 0,
@@ -201,6 +202,7 @@
         "Gravity": 0,
         "HitSize": 0,
         "HitSizeWorld": 0,
+        "EnableTerrainHitFX": true,
         "ModelScale": 2,
         "EnableTrail": true,
         "GlowColor": "#FF3300FF",
@@ -250,10 +252,10 @@
       "Properties": [
         {
           "Name": "Explosive",
-          "MaxDamage": 23.0,
-          "MinDamage": 23.0,
-          "InnerRadius": 3.5,
-          "Radius": 3.5,
+          "MaxDamage": 20.0,
+          "MinDamage": 20.0,
+          "InnerRadius": 3.0,
+          "Radius": 3.0,
           "PrecisionDamageMulti": 0.8,
           "StaggerDamageMulti": 1.5,
           "IgnoreFalloff": false,
@@ -265,22 +267,22 @@
           "DamageOwner": true,
           "DamageLocks": true,
           "HitClosestFirst": true,
-          "SoundID": 704948356,
-          "EnableMineFX": true,
+          "SoundID": 606581668,
+          "EnableMineFX": false,
           "GlowColor": "#B22222",
           "GlowIntensity": 10,
           "GlowDuration": 1.0,
           "GlowFadeDuration": 0.5,
-          "Trigger": "Kill"
+          "Trigger": "KillBullet"
         },
         {
             "Name": "Shrapnel",
             "Count": 20, 
             "MaxRange": 20.0,
-            "Damage": 10.0,
+            "Damage": 2.0,
             "DamageFalloff": { "x": 50, "y": 50 },
-            "PrecisionDamageMulti": 1.2,
-            "StaggerDamageMulti": 1.1,
+            "PrecisionDamageMulti": 1.1,
+            "StaggerDamageMulti": 1.0,
             "FriendlyDamageMulti": 0.75, 
             "PierceLimit": 1,
             "WallHandling": "Avoid", 
@@ -296,32 +298,44 @@
             "DamageLocks": false, 
             "Traits": [
               {
-                "Name": "ThickBullet",
-                "HitSize": 1.5,
-                "HitSizeFriendly": 1.0
-              },
-              {
                 "Name": "Projectile",
-                "ProjectileType": "SemiTargetingBoss",
-                "MinSpeed": 50.0,
-                "MaxSpeed": 50.0,
-                "EnableTrail": true,
-                "TrailColor": "#FF0000FF",
-                "TrailWidth": 0.1,
-                "TrailTime": 0.1,
-                "Lifetime": 5.0,
-                "RicochetCount": 3,
-                "RicochetSpeedMod": 0.9,
-                "RicochetSpeedAngleFactor": 0.5,
+                "ProjectileType": "TargetingLarge",
+                "MinSpeed": 7.5,
+                "MaxSpeed": 7.5,
+                "EnableTrail": false,
+                "Lifetime": 15.0,
+                "RicochetCount": 5,
+                "RicochetSpeedMod": 1.0,
+                "RicochetSpeedAngleFactor": 1.0,
                 "RicochetOnHit": true,
-                "ModelScale": 1.25,
+                "EnableTerrainHitFX": true,
+                "ModelScale": 0.1,
                 "GlowColor": "#FF0000FF",
-                "GlowIntensity": 1.0
+                "GlowIntensity": 1.0,
+                "HomingSettings": {
+                  "InitialHomingStrength": 2.0,
+                  "InitialHomingDuration": 1.0,
+                  "HomingStrength": 5.0,
+                  "HomingDelay": 0.2,
+                  "HomingMaxDist": 50,
+                  "HomingMinDist": 1,
+                  "HomingDistExponent": 2,
+                  "TargetMode": "Normal",
+                  "TargetPriority": "Distance",
+                  "SearchAngle": 180,
+                  "SearchRange": 20,
+                  "SearchCooldown": 0.5,
+                  "SearchInitialMode": "Normal",
+                  "SearchStopMode": "None",
+                  "SearchIgnoreWalls": false,
+                  "SearchIgnoreInvisibility": false,
+                  "SearchTagOnly": false
+                }
               }
             ], 
             "HitTriggerTarget": false, 
             "RunHitTriggers": true, 
-            "Trigger": "Kill"
+            "Trigger": "KillBullet"
           }
       ]
     }

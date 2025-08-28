@@ -47,6 +47,7 @@
         "Gravity": 0,
         "HitSize": 0,
         "HitSizeWorld": 0,
+        "EnableTerrainHitFX": true,
         "ModelScale": 0.25,
         "EnableTrail": true,
         "TrailColor": "#3a9fbf",

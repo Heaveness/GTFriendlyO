@@ -6,7 +6,68 @@
     "Properties": [
       {
         "Name": "AutoTrigger"
-      }
+      },
+      {
+            "Name": "Shrapnel",
+            "Count": 1, 
+            "MaxRange": 20.0,
+            "Damage": 13.6,
+            "DamageFalloff": { "x": 50, "y": 50 },
+            "PrecisionDamageMulti": 1.1,
+            "StaggerDamageMulti": 1.0,
+            "FriendlyDamageMulti": 0.75, 
+            "PierceLimit": 1,
+            "WallHandling": "Avoid", 
+            "WallHandlingDist": 20.0, 
+            "IgnoreFalloff": false, 
+            "DamageLimb": true, 
+            "IgnoreArmor": false, 
+            "IgnoreBackstab": false, 
+            "IgnoreShotMods": true, 
+            "UseParentShotMod": true, 
+            "DamageFriendly": true, 
+            "DamageOwner": true, 
+            "DamageLocks": false, 
+            "Traits": [
+              {
+                "Name": "Projectile",
+                "ProjectileType": "TargetingSmall",
+                "MinSpeed": 120.0,
+                "MaxSpeed": 120.0,
+                "EnableTrail": true,
+                "TrailWidth": 0.1,
+                "TrailTime": 1.2,
+                "TrailCullOnDie": true,
+                "Lifetime": 1.1,
+                "EnableTerrainHitFX": true,
+                "ModelScale": 0.1,
+                "GlowColor": "#FF0000FF",
+                "GlowIntensity": 0.0,
+                "HomingSettings": {
+                  "InitialHomingStrength": 1000.0,
+                  "InitialHomingDuration": 0.5,
+                  "HomingStrength": 1.0,
+                  "HomingDelay": 0,
+                  "HomingMaxDist": 50,
+                  "HomingMinDist": 0,
+                  "HomingDistExponent": 2,
+                  "TargetMode": "Normal",
+                  "TargetPriority": "Angle",
+                  "SearchAngle": 100,
+                  "SearchRange": 10,
+                  "SearchCooldown": 0.1,
+                  "SearchInitialMode": "Normal",
+                  "SearchStopMode": "Dead",
+                  "SearchIgnoreWalls": false,
+                  "SearchIgnoreInvisibility": false,
+                  "SearchTagOnly": false
+                }
+              }
+            ], 
+            "HitTriggerTarget": false, 
+            "RunHitTriggers": true, 
+            "Trigger": "Bullet Landed Terrain"
+        }
     ]
   },
   {
@@ -16,7 +77,68 @@
     "Properties": [
       {
         "Name": "AutoTrigger"
-      }
+      },
+      {
+            "Name": "Shrapnel",
+            "Count": 1, 
+            "MaxRange": 20.0,
+            "Damage": 35.9,
+            "DamageFalloff": { "x": 50, "y": 50 },
+            "PrecisionDamageMulti": 1.1,
+            "StaggerDamageMulti": 1.0,
+            "FriendlyDamageMulti": 0.75, 
+            "PierceLimit": 1,
+            "WallHandling": "Avoid", 
+            "WallHandlingDist": 20.0, 
+            "IgnoreFalloff": false, 
+            "DamageLimb": true, 
+            "IgnoreArmor": false, 
+            "IgnoreBackstab": false, 
+            "IgnoreShotMods": true, 
+            "UseParentShotMod": true, 
+            "DamageFriendly": true, 
+            "DamageOwner": true, 
+            "DamageLocks": false, 
+            "Traits": [
+              {
+                "Name": "Projectile",
+                "ProjectileType": "TargetingSmall",
+                "MinSpeed": 120.0,
+                "MaxSpeed": 120.0,
+                "EnableTrail": true,
+                "TrailWidth": 0.1,
+                "TrailTime": 1.2,
+                "TrailCullOnDie": true,
+                "Lifetime": 1.1,
+                "EnableTerrainHitFX": true,
+                "ModelScale": 0.1,
+                "GlowColor": "#FF0000FF",
+                "GlowIntensity": 0.0,
+                "HomingSettings": {
+                  "InitialHomingStrength": 1000.0,
+                  "InitialHomingDuration": 0.5,
+                  "HomingStrength": 1.0,
+                  "HomingDelay": 0,
+                  "HomingMaxDist": 50,
+                  "HomingMinDist": 0,
+                  "HomingDistExponent": 2,
+                  "TargetMode": "Normal",
+                  "TargetPriority": "Angle",
+                  "SearchAngle": 100,
+                  "SearchRange": 10,
+                  "SearchCooldown": 0.1,
+                  "SearchInitialMode": "Normal",
+                  "SearchStopMode": "Dead",
+                  "SearchIgnoreWalls": false,
+                  "SearchIgnoreInvisibility": false,
+                  "SearchTagOnly": false
+                }
+              }
+            ], 
+            "HitTriggerTarget": false, 
+            "RunHitTriggers": true, 
+            "Trigger": "Bullet Landed Terrain"
+        }
     ]
   }
 ]

@@ -33,6 +33,7 @@
         "HitSize": 0,
         "HitSizeWorld": 0,
         "ModelScale": 1,
+        "EnableTerrainHitFX": true,
         "EnableTrail": true,
         "GlowColor": "#355E3B",
         "GlowRange": 3,
