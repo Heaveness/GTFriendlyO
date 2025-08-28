@@ -1,7 +1,102 @@
 # Changelog
 
-### **v1.1.1**
-* Fixed a mistake on Shock Trooper's armor not reflecting the changes in v1.1.0.
+### **v1.2.0** - Latest
+
+### New Class!
+* Introducing the Deprived class! Another member for the B-Company Divison.
+    * **Max Health:** `-80%`
+    * **Projectile Armor:** `-50%`
+    * **Melee Armor** `+80%`
+    * **Movement Speed:** `+30%`
+    * **Range Damage:** `+50%`
+    * **Melee Damage:** `+50%`
+    * **Initial Ammo(Tool/Gun):** `-50%`
+    * **Infection Resistance:** `95%`
+    * **Explosion Resistance:** `95%`
+    * **Bullet Resistance:** `95%`
+    * **Bleed Resistance:** `95%`
+    * **Bioscan Speed:** `+50%`
+    * **Terminal CPU Speed:** `+50%`
+    * **Double Jump** 
+> Dev Note: Another joke class to even out the system with 4-4-4 for each division. The Deprived is truly a class where you do so much damage, but aren't allowed to take a hit. Is it stupid? Yes. That's why it belongs in B-Company!!
+
+#### Class Tweaks:
+* Increased the Marine's initial Ranged Ammo from `+15% to +25%`
+* Added `Bleed Resistance` bonus to the Marine: `+50%` Res.
+* Added `Bioscan Spd.` buff to the HEL Diver: `25%` Spd.
+* Added `Infection Res.` buff to the Abhuman: `50%` Res.
+* Changed wording of some classes which said `Gun Ammo` to `Ranged Ammo`.
+* Changed wording of `Computer CPU Speed` to `Terminal Speed`.
+* Fixed wording on some of the classes' description.
+> Dev Note: Mainly buffs to certain classes. Mainly the Marine class, make them a bit more enticing to use since the other classes fill a niche. Marine should be able to handle other range enemies a bit better.
+
+#### Weapon Tweaks:
+* Updated ExtraWeaponCustomization to `v3.7.7`
+* All projectiles will show graphics when hitting terrain (bullet holes, dust, and sound).
+* Upgraded the `HEL Revolver` and `Heavy Revolver`
+    * Removed HEL Revolver piercing capability(never meant to have any).
+    * Revolver bullets will "ricochet" off walls that has a chance of hitting an enemy target(Experimental).
+* Changed the name of `Santonian Sledge` to `Santonian Slugger`
+* Changed the name of `Bataldo Knife` to `Bataldo Hunter's Edge`
+* Changed the name of `Omneco Drillhead` to `Omneco GPR Drillhead`
+* Changed the name of `Rickman Grabthar` to `Mak'Tar Grabthar`
+* Changed Gauss Rifle's full name from `Techman Shrapnel Gauss Rifle` to `Techman Nano-Payload Gauss Rifle`
+* Upgraded the `Gauss Rifle's` projectile to have homing properties.
+    * **Projectile count:** `20`
+    * **Projectile Damage:** `2.0`
+    * **Projectile Speed:** `7.5`
+    * **Initial Homing Strength:** `2.0 for 1.0s`
+    * **Base Homing Strength:** `5.0`
+    * **Projectile Lifetime:** `15.0s`
+    * **Homing Delay:** `0.2s`
+    * **Target Mode:** `Normal`
+    * **Target Priority:** `Distance`
+    * **SearchStopMode:** `None`
+> Dev Note: Techman Industries just had an upgrade to one of their arsenal. Somehow, the R&D team were able to bypass the Geneva Convention restrictions and the warranty on the Gauss Rifle. Once it delivers a paylod onto a target, nano globules will eject from a neutralized target. Afterwards, it will seek nearby targets to inflict additional injuries. Potentially saving the industry the added costs of each bullet fired. Techman Industries is not responsible for collateral damage, civilian casualties, or unexpected multi-target liquefaction.
+
+### New Mods!
+* `LightsAdjustment` by Untilted
+* `Trajectory_Lines_When_Placing` by Localia
+* `SentryGunEverywhere` by Localia
+* `PacksHelper` by Localia
+* `Parry` by CellSkippers
+* `FasterHackingMinigame` by Untilted
+* `PreciseUI` by Andocas
+* `ResourceStack` by Hikaria
+* `GTFO_ShootInTheAir` by Fody55
+* `WeaponStatShower` by DacreDOLOLO
+    * Parrying does not reward health or ammo. However, you can parry enemy projectiles back which deals 18.1 Damage w/2.0x Precision Multiplier. For reference, a regular Needler(Shooter)'s health is roughly between 30.0-40.0. You can also parry your teammates bullets w/2.0x Damage Modifier. Why? Because why not. Try parrying your Covert Ops's Sniper Rifle. Good luck!
+> Dev Note: All of these mods were intended with this pack to help even out the class dynamics. SentryGunEverywhere will help FieldTechnicians. LightsAdjustment will make flashlights, glowsticks, and etc feel more impactful. Parry will allow melee users have more ways to tank hits for the team. ResourceStack will allow for consumable pickups for Paramedic and Quartermaster. And the rest of the mods are very helpful!
+
+#### Enemy Tweak:
+* Decreased Stalker(Snatcher)'s damage per second from `4% to 3%`. Total damage from `40% to 30%` over 10.0s.
+> Dev Note: With the new change to the player's base regen cap, the snatcher's damage should reflect that. The design philsophy has always been to punish and kill players who only rely on their baseline regen cap. Having them do 10% more than regen cap doesn't seem fair anymore.
+
+#### Tool Tweaks:
+* Increased Friendly Fire damage modifier for all four sentry types by flat `10%`
+* Re-organized many of the Damage Booster Effects to properly assigned classes.
+
+#### Miscellaneous:
+* Added config files into the package to further tweak the experience.
+* New Thunderstore wiki-pages for some of the main features.
+* Fixed a few more typos. My favorite part!
+
+#### Recommended mods, but not required:
+* `Fridos_Sorted_Boosters` by Fridolin
+* `Perfect Boosters` by Localia
+* `PingEverything` by Localia
+* `BetterMaps` by GTFOModding
+* `BetterBioTracker` by GTFOModding
+* `Accurate Crosshair` by Dinorush
+* `SkipIntro` by Shadsterwolf
+* `ChatterReborn` by easternunit100
+* `MeleeTimer` by long_walter
+* `InLevelCarryOnBack` by Hikaria
+> Dev Note: These are recommended, but not needed. Some of these mods with have configs that will be packaged with the mod-pack, but not the mod itself. These aren't necessary, but nice to have on the list.
+
+### v1.1.1
+* Fixed a mistake with Shock Trooper's armor not reflecting correctly with the v1.1.0 tweaks.
+* Fixed Covert Ops class's melee damage bonus being `45%` when it should be `50%.`
 * Fixed a few more typos again!
 
 ### v1.1.0
