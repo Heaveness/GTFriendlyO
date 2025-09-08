@@ -45,7 +45,7 @@
         {
           "BoosterImplantEffect": 8,
           "MinValue": 1.1,
-          "MaxValue": 1.16
+          "MaxValue": 1.1
         }
       ],
       "RandomEffects": [
@@ -53,12 +53,12 @@
           {
             "BoosterImplantEffect": 7,
             "MinValue": 1.1,
-            "MaxValue": 1.16
+            "MaxValue": 1.1
           },
           {
             "BoosterImplantEffect": 50,
             "MinValue": 1.1,
-            "MaxValue": 1.16
+            "MaxValue": 1.1
           }
         ]
       ],
@@ -90,8 +90,8 @@
       "Effects": [
         {
           "BoosterImplantEffect": 12,
-          "MinValue": 1.15,
-          "MaxValue": 1.26
+          "MinValue": 1.1,
+          "MaxValue": 1.1
         }
       ],
       "RandomEffects": [],
@@ -123,8 +123,8 @@
       "Effects": [
         {
           "BoosterImplantEffect": 6,
-          "MinValue": 1.15,
-          "MaxValue": 1.26
+          "MinValue": 1.05,
+          "MaxValue": 1.05
         }
       ],
       "RandomEffects": [],
@@ -159,12 +159,12 @@
           {
             "BoosterImplantEffect": 10,
             "MinValue": 1.05,
-            "MaxValue": 1.16
+            "MaxValue": 1.05
           },
           {
             "BoosterImplantEffect": 11,
             "MinValue": 1.05,
-            "MaxValue": 1.16
+            "MaxValue": 1.05
           }
         ]
       ],
@@ -197,12 +197,12 @@
         {
           "BoosterImplantEffect": 10,
           "MinValue": 1.05,
-          "MaxValue": 1.11
+          "MaxValue": 1.05
         },
         {
           "BoosterImplantEffect": 11,
           "MinValue": 1.05,
-          "MaxValue": 1.11
+          "MaxValue": 1.05
         }
       ],
       "RandomEffects": [],
@@ -237,7 +237,7 @@
           {
             "BoosterImplantEffect": 54,
             "MinValue": 1.05,
-            "MaxValue": 1.21
+            "MaxValue": 1.05
           }
         ]
       ],
@@ -272,12 +272,12 @@
           {
             "BoosterImplantEffect": 52,
             "MinValue": 1.05,
-            "MaxValue": 1.16
+            "MaxValue": 1.05
           },
           {
             "BoosterImplantEffect": 53,
             "MinValue": 1.05,
-            "MaxValue": 1.16
+            "MaxValue": 1.05
           }
         ]
       ],
@@ -311,28 +311,28 @@
         [
           {
             "BoosterImplantEffect": 27,
-            "MinValue": 1.15,
-            "MaxValue": 1.26
+            "MinValue": 1.1,
+            "MaxValue": 1.1
           },
           {
             "BoosterImplantEffect": 28,
-            "MinValue": 1.1,
-            "MaxValue": 1.16
+            "MinValue": 1.05,
+            "MaxValue": 1.05
           },
           {
             "BoosterImplantEffect": 29,
             "MinValue": 1.05,
-            "MaxValue": 1.11
+            "MaxValue": 1.05
           },
           {
             "BoosterImplantEffect": 31,
-            "MinValue": 1.1,
-            "MaxValue": 1.16
+            "MinValue": 1.05,
+            "MaxValue": 1.05
           },
           {
             "BoosterImplantEffect": 32,
-            "MinValue": 1.2,
-            "MaxValue": 1.31
+            "MinValue": 1.05,
+            "MaxValue": 1.05
           }
         ]
       ],
@@ -366,18 +366,18 @@
         [
           {
             "BoosterImplantEffect": 40,
-            "MinValue": 1.2,
-            "MaxValue": 1.31
+            "MinValue": 1.1,
+            "MaxValue": 1.1
           },
           {
             "BoosterImplantEffect": 39,
-            "MinValue": 1.2,
-            "MaxValue": 1.31
+            "MinValue": 1.1,
+            "MaxValue": 1.1
           },
           {
             "BoosterImplantEffect": 33,
-            "MinValue": 1.05,
-            "MaxValue": 1.11
+            "MinValue": 1.1,
+            "MaxValue": 1.1
           }
         ]
       ],
@@ -409,8 +409,8 @@
       "Effects": [
         {
           "BoosterImplantEffect": 34,
-          "MinValue": 1.2,
-          "MaxValue": 1.41
+          "MinValue": 1.05,
+          "MaxValue": 1.05
         }
       ],
       "RandomEffects": [],
@@ -444,8 +444,8 @@
         [
           {
             "BoosterImplantEffect": 41,
-            "MinValue": 1.13,
-            "MaxValue": 1.11
+            "MinValue": 1.05,
+            "MaxValue": 1.05
           }
         ]
       ],
@@ -479,23 +479,23 @@
         [
           {
             "BoosterImplantEffect": 36,
-            "MinValue": 1.1,
-            "MaxValue": 1.21
+            "MinValue": 1.05,
+            "MaxValue": 1.05
           },
           {
             "BoosterImplantEffect": 37,
-            "MinValue": 1.1,
-            "MaxValue": 1.21
+            "MinValue": 1.05,
+            "MaxValue": 1.05
           },
           {
             "BoosterImplantEffect": 38,
-            "MinValue": 1.1,
-            "MaxValue": 1.21
+            "MinValue": 1.05,
+            "MaxValue": 1.05
           },
           {
             "BoosterImplantEffect": 5,
-            "MinValue": 1.15,
-            "MaxValue": 1.26
+            "MinValue": 1.05,
+            "MaxValue": 1.05
           }
         ]
       ],

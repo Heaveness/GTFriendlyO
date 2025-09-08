@@ -6,7 +6,7 @@
       "AnimationControllers": -4066,
       "MoveSlowerWhenInPlayerRoom": true,
       "MoveSlowerWithinTargetDistance": 10.0,
-      "GlobalAnimSpeedMulti": 0.8,
+      "GlobalAnimSpeedMulti": 0.85,
       "PathMoveAnimSpeedMulti": 1.0,
       "RotationLerp": 6.0,
       "RotationLerpWhenNotMoving": 6.0,

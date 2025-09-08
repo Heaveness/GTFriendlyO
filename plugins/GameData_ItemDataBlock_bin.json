@@ -4580,7 +4580,7 @@
       "persistentID": 225
     },
     {
-      "publicName": "IV-LP Syringe",
+      "publicName": "Heal Munitions Drain Syringe",
       "LocalizedName": 2016,
       "terminalItemShortName": "",
       "terminalItemLongName": "",
@@ -4626,12 +4626,12 @@
       "SightLookAlign": "",
       "MuzzleAlign": "",
       "BackpackAlign": "",
-      "name": "CONSUMABLE_Syringe_HealthUltra",
+      "name": "CONSUMABLE_Syringe_BioEat",
       "internalEnabled": true,
       "persistentID": 227
     },
     {
-      "publicName": "Virus Syringe",
+      "publicName": "Virus Bomb Syringe",
       "LocalizedName": 2017,
       "terminalItemShortName": "",
       "terminalItemLongName": "",
@@ -4733,7 +4733,7 @@
       "persistentID": 229
     },
     {
-      "publicName": "Surge Syringe",
+      "publicName": "Health Surge Syringe",
       "LocalizedName": 2037,
       "terminalItemShortName": "",
       "terminalItemLongName": "",
@@ -4886,7 +4886,7 @@
       "persistentID": 232
     },
     {
-      "publicName": "Antibiotic-XV-LP Syringe",
+      "publicName": "Ammo Symbiotic Regurgitant Syringe",
       "LocalizedName": 2049,
       "terminalItemShortName": "",
       "terminalItemLongName": "",
@@ -4932,12 +4932,12 @@
       "SightLookAlign": "",
       "MuzzleAlign": "",
       "BackpackAlign": "",
-      "name": "CONSUMABLE_Syringe_HealthUltraMax",
+      "name": "CONSUMABLE_Syringe_BioBarf",
       "internalEnabled": true,
       "persistentID": 233
     },
     {
-      "publicName": "Hallowed Virus Syringe",
+      "publicName": "Virus Nuke Syringe",
       "LocalizedName": 2050,
       "terminalItemShortName": "",
       "terminalItemLongName": "",

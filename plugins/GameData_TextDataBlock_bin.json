@@ -1012,7 +1012,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Artifact Heat:",
+      "English": "GTFO HEAT:",
       "Description": "In GTFO you can find artifacts around the maps. If the \"artifact heat\" of a particular mission is high, the artifacts found on this mission will be valuable and can be exchanged for other valuable items. If the \"artifact heat\" is low, the artifacts will be less valuable. So the value of artifacts go up and down like a stock, and the term \"artifact heat\" represents the \"exchange rate\" (i.e. the current value) of the artifacts in a given mission.",
       "CharacterMetaData": 2,
       "French": {
@@ -2244,7 +2244,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Exit the expedition, leave your teammates and return to the rundown interface.\n\n<size=90%><color=orange>NOTE: All collected artifacts will be LOST, you will <u>NOT</u> gain any boosters.</color></size>",
+      "English": "Exit the expedition, leave your teammates and return to the rundown interface.",
       "Description": "\"Expedition\" is GTFO's word for \"mission\" or \"map\". \"Rundown\" is GTFO's word for \"campaign\", i.e. a set of expeditions.",
       "CharacterMetaData": 2,
       "French": {
@@ -2300,7 +2300,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Retire this expedition and return ALL prisoners to the lobby\n\n<size=90%>All collected artifacts will be accounted for.</size>",
+      "English": "Retire this expedition and return ALL prisoners to the lobby",
       "Description": "\"Expedition\" is GTFO's word for \"mission\" or \"map\". \"Prisoner\" is GTFO's word for \"player\", because the player characters are prisoners.",
       "CharacterMetaData": 2,
       "French": {
@@ -32876,7 +32876,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "You have been rewarded with {0} Booster(s) in exchange for your collected artifacts",
+      "English": "",
       "Description": "A test that informs the player that the artifacts they collected during the last expedition/mission have been traded in for one or more boosters. The way the text combines the singular and plural version of \"booster\" with a parentheses around the \"s\" is intentional, to make Warden come across as rigid and machine-like. The \"{0}\" represents the number of boosters - do not alter that piece of code, just put it in the gramatically correct position in the sentence.",
       "CharacterMetaData": 2,
       "French": {
@@ -33044,7 +33044,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "You have received {0} Booster(s) to improve your chances of survival. Use them wisely. Find and retrieve artifacts to be rewarded with additional Boosters.",
+      "English": "",
       "Description": "A text that informs the player that the artifacts they collected during the last expedition/mission have been traded in for one or more boosters. This text is a little more descriptive and only used the very first time this happens. The way the text combines the singular and plural version of \"booster\" with a parentheses around the \"s\" is intentional, to make Warden come across as rigid and machine-like. The \"{0}\" represents the number of boosters - do not alter that piece of code, just put it in the gramatically correct position in the sentence.",
       "CharacterMetaData": 2,
       "French": {
@@ -52084,7 +52084,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Artifacts Collected",
+      "English": "",
       "Description": "A headline for an info box that informs the player of different data regarding their progress in collecting artifacts.",
       "CharacterMetaData": 1,
       "French": {
@@ -52140,7 +52140,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Artifacts:",
+      "English": "",
       "Description": "A text string that precedes the number that indiates how many artifacts the player has collected so far during the expedition/mission.",
       "CharacterMetaData": 1,
       "French": {
@@ -52196,7 +52196,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Booster Progress:",
+      "English": "",
       "Description": "Artifacts are traded in for boosters, and the value of artifacts fluctuate - you can't say that X amount of artifacts always grants you 1 booster. So, the \"booster progress\" value is a number that indicates how close you are to being rewarded with a booster. Once you reach a value of 1, you will get one booster.",
       "CharacterMetaData": 1,
       "French": {
@@ -53764,7 +53764,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": ">Artifact Heat at {0}, potential booster results:{1}",
+      "English": "",
       "Description": "An text string that informs the player of the \"artifact heat\" on the current expedition/mission. \"{0]\" is a placeholder for the \"artifact heat\" value, and \"{1}\" is a placeholder for a word that sums up the probability of the player being rewarded with a booster, e.g. \"poor\", \"strong\" etc.",
       "CharacterMetaData": 3,
       "French": {
@@ -53820,7 +53820,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "NULL",
+      "English": "",
       "Description": "If the \"artifact heat\" on the current expedition/mission is very low, this word sums up the probability of the player being rewarded with a booster: \"Null\", as in (virtually) non-existent.",
       "CharacterMetaData": 3,
       "French": {
@@ -53876,7 +53876,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "POOR",
+      "English": "",
       "Description": "If the \"artifact heat\" on the current expedition/mission is low, this word sums up the probability of the player being rewarded with a booster: \"Poor\", as in low probability of being rewarded.",
       "CharacterMetaData": 3,
       "French": {
@@ -53932,7 +53932,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "AVERAGE",
+      "English": "",
       "Description": "If the \"artifact heat\" on the current expedition/mission is moderate, this word sums up the probability of the player being rewarded with a booster: \"Average\", as in moderate probability of being rewarded.",
       "CharacterMetaData": 3,
       "French": {
@@ -53988,7 +53988,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "STRONG",
+      "English": "",
       "Description": "If the \"artifact heat\" on the current expedition/mission is high, this word sums up the probability of the player being rewarded with a booster: \"Strong\", as in high probability of being rewarded.",
       "CharacterMetaData": 3,
       "French": {
@@ -54044,7 +54044,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "EXCEPTIONAL",
+      "English": "",
       "Description": "If the \"artifact heat\" on the current expedition/mission is very high, this word sums up the probability of the player being rewarded with a booster: \"Exceptional\", as in very high probability of being rewarded.",
       "CharacterMetaData": 3,
       "French": {
@@ -57572,7 +57572,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Warden Artifact: {0}",
+      "English": "",
       "Description": "{0} is one of the artifact categories: Muted, Bold or Aggressive.",
       "CharacterMetaData": 1,
       "French": {
@@ -58860,7 +58860,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "A Booster Progress value exceeding {0} will be rewarded with a random Booster from the corresponding category.",
+      "English": "",
       "Description": "A text string that appears in the result screen (when you have failed or succeeded at an expedition.) This text explains the rules regarding how players are rewarded with boosters. The \"corresponding category\" bit refers to the fact that \"muted\" artifacts are rewarded with \"muted\" boosters, \"bold\" artifacts are rewarded with \"bold\" boosters and \"aggressive\" artifacts are rewarded with \"aggressive\" boosters.",
       "CharacterMetaData": 2,
       "French": {
@@ -60988,7 +60988,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Rundown Protocol 4 completed. Access from section R4E1 established. Overarching objective to <color=red>probe deeper</color> remains.\n\nBooster reward protocol in effect: Prisoners that retrieve crystal encased <color=red>artifacts</color> from around the structure will be rewarded with <color=red>Attribute Booster Modules</color>, increasing their chances of survival.\n\nFindings from locations with high <color=red>Artifact heat</color> will be rewarded more generously.\n",
+      "English": "Rundown Protocol 4 completed. Access from section R4E1 established. Overarching objective to <color=red>probe deeper</color> remains.",
       "Description": "",
       "CharacterMetaData": 2,
       "French": {
@@ -61044,7 +61044,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "<color=orange>[STATUS]</color>OBJECTIVE STACK ITERATION 6.0. <color=red>PROBE DEEPER.</color> NONCOMPLIANT SUBJECTS WILL BE RE-EDUCATED. \r\n\r\n<color=orange>[APPAREL]</color>IMPROVED PSYCHOLOGICAL CONDITION OBSERVED IN PRISONERS PROVIDED WITH OPTIONAL APPAREL. PRISONERS THAT <color=red>CLEAR EXPEDITION SECTORS</color> WILL GAIN ACCESS TO SURPLUS RESOURCES. \r\n\r\n<color=orange>[BOOSTERS]</color>BOOSTER MODULES WILL BE DISPENSED TO PRISONERS THAT <color=red>RETRIEVE CRYSTAL ENCASED ARTIFACTS.</color> OBJECTIVE STACK UPDATED. ",
+      "English": "<color=orange>[STATUS]</color>OBJECTIVE STACK ITERATION 6.0. <color=red>PROBE DEEPER.</color> NONCOMPLIANT SUBJECTS WILL BE RE-EDUCATED. \r\n\r\n<color=orange>[APPAREL]</color>IMPROVED PSYCHOLOGICAL CONDITION OBSERVED IN PRISONERS PROVIDED WITH OPTIONAL APPAREL. PRISONERS THAT <color=red>CLEAR EXPEDITION SECTORS</color> WILL GAIN ACCESS TO SURPLUS RESOURCES. OBJECTIVE STACK UPDATED. ",
       "Description": "This is a message that shows up in a popup when the player presses the INTEL button on the RundownPage.\nIt is a message from the Warden and gives information about Rundown # 6.0.\nIn this text everything appart from the Rich Text tags should be localized, even [STATUS], [BOOSTERS] and [APPAREL].",
       "CharacterMetaData": 2,
       "French": {
@@ -69668,7 +69668,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "ARTIFACT",
+      "English": "",
       "Description": "",
       "CharacterMetaData": 1,
       "French": {
@@ -69724,7 +69724,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "[{0}% Heat]",
+      "English": "",
       "Description": "{0} is a value between 0 and 100\nIn GTFO you can find artifacts around the maps. If the \"artifact heat\" of a particular mission is high, the artifacts found on this mission will be valuable and can be exchanged for other valuable items. If the \"artifact heat\" is low, the artifacts will be less valuable. So the value of artifacts go up and down like a stock, and the term \"artifact heat\" represents the \"exchange rate\" (i.e. the current value) of the artifacts in a given mission.",
       "CharacterMetaData": 1,
       "French": {
@@ -69780,7 +69780,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "SECURED 1 {0} at {1}",
+      "English": "",
       "Description": "{0} is the localization of ARTIFACT and {1} is the heat level.",
       "CharacterMetaData": 1,
       "French": {
@@ -69836,7 +69836,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": ">> UPDATED {0} BOOSTER{1} PROGRESS:",
+      "English": "",
       "Description": "{0} is the localization of the artifact category and {1} is a rich text tag.",
       "CharacterMetaData": 1,
       "French": {
@@ -95509,27 +95509,27 @@
     },
     {
       "SkipLocalization": true,
-      "English": "Healing Syringe Plus",
+      "English": "Heal Munitions Drain Syringe",
       "MaxCharacterLength": 0,
       "Description": "",
       "CharacterMetaData": 1,
       "Mood": 0,
       "ExportVersion": 2,
       "ImportVersion": 2,
-      "name": "Healing Syringe Plus",
+      "name": "Heal Munitions Drain Syringe",
       "internalEnabled": true,
       "persistentID": 2016
     },
     {
       "SkipLocalization": true,
-      "English": "Virus Syringe",
+      "English": "Virus Bomb Syringe",
       "MaxCharacterLength": 0,
       "Description": "",
       "CharacterMetaData": 1,
       "Mood": 0,
       "ExportVersion": 2,
       "ImportVersion": 2,
-      "name": "Virus Syringe",
+      "name": "Virus Bomb Syringe",
       "internalEnabled": true,
       "persistentID": 2017
     },
@@ -95548,14 +95548,14 @@
     },
     {
       "SkipLocalization": true,
-      "English": "Surge Syringe",
+      "English": "Health Surge Syringe",
       "MaxCharacterLength": 0,
       "Description": "",
       "CharacterMetaData": 1,
       "Mood": 0,
       "ExportVersion": 2,
       "ImportVersion": 2,
-      "name": "Surge Syringe",
+      "name": "Health Surge Syringe",
       "internalEnabled": true,
       "persistentID": 2037
     },
@@ -95587,27 +95587,27 @@
     },
     {
       "SkipLocalization": true,
-      "English": "Antibiotic Low Regen Syringe",
+      "English": "Ammo Symbiotic Regurgitant Syringe",
       "MaxCharacterLength": 0,
       "Description": "",
       "CharacterMetaData": 1,
       "Mood": 0,
       "ExportVersion": 2,
       "ImportVersion": 2,
-      "name": "Antibiotic Regen Syringe",
+      "name": "Ammo Symbiotic Regurgitant Syringe",
       "internalEnabled": true,
       "persistentID": 2049
     },
     {
       "SkipLocalization": true,
-      "English": "Hallowed Virus Syringe",
+      "English": "Virus Nuke Syringe",
       "MaxCharacterLength": 0,
       "Description": "",
       "CharacterMetaData": 1,
       "Mood": 0,
       "ExportVersion": 2,
       "ImportVersion": 2,
-      "name": "Hallowed Virus Syringe",
+      "name": "Virus Nuke Syringe",
       "internalEnabled": true,
       "persistentID": 2050
     },
