@@ -15,9 +15,23 @@ This project has been in the works for years. Until now, it's only been shared p
 
 * Please note that this is only a baseline modpack, more mods will be considered in the future. Mainly mods needed for a better experience. **Stay tuned!**
 
-* Can be played Vanilla with other mods with this mod-pack, especially client-side mods.
+* Can be played Vanilla with other mods with this mod-pack, especially with client-side mods. It's recommended to use a bunch of fix mods to prevent further issues with GTFO. But it's up to the players if they want them not, not necessary.
 
 * Most likely will NOT be compatible with other custom Rundowns or modpacks that changes the same Datablocks. Otherwise, give it a try and let me know.
+
+#### Recommended mods, but not required:
+* `Fridos_Sorted_Boosters` by Fridolin
+* `Perfect Boosters` by Localia
+* `PingEverything` by Localia
+* `BetterMaps` by GTFOModding
+* `BetterBioTracker` by GTFOModding
+* `Accurate Crosshair` by Dinorush
+* `SkipIntro` by Shadsterwolf
+* `ChatterReborn` by easternunit100
+* `MeleeTimer` by long_walter
+* `InLevelCarryOnBack` by Hikaria
+* `StuckEnemyFix` by hirnukuono
+> Dev Note: These are recommended, but not needed. Some of these mods with have configs that will be packaged with the mod-pack, but not the mod itself. These aren't necessary, but nice to have on the list.
 
 ## Major Changes
 
@@ -59,7 +73,7 @@ This project has been in the works for years. Until now, it's only been shared p
 | Prisoner 			| Neutral 	| B-Company | No major strengths; closer to vanilla experience                    | No major weaknesses; closer to vanilla experience                             |
 | HEL Diver 		| Damage 	| B-Company | Strong HEL gun damage; fast terminal & hacking; high movement speed | High friendly fire damage; fragile; low base HP & regen cap                   |
 | Abhuman 			| Tank 		| B-Company | Very high base HP; strong melee damage; extended hitbox/range       | Poor with terminals & sentries; low starting ammo; reduced movement           |
-| Deprived 			| Damage 	| B-Company | High resistances; strong damage; projectile armor; fast objectives  | Extremely fragile esp. against melee; low starting ammo                       |
+| Deprived 			| Damage 	| B-Company | High resistances; strong damage; melee armor; fast objectives       | Extremely fragile esp. against projectile; low starting ammo                  |
 
 ###### Weapons:
 
@@ -88,7 +102,7 @@ This project has been in the works for years. Until now, it's only been shared p
 | Malatack LX         	| Van Auken Heavy Rifle				| Standard bullets												| Hitscan			|
 | Malatack CH 4       	| Mastaba Explosive Shrapnel Rifle	| Explosive burst; charge-up; shrapnel              			| Projectile		|
 | Drekker Pres Mod 556	| Malatack Assault Rifle			| Standard bullets												| Hitscan			|
-| Buckland SBS III    	| Buckland Triple-Barrel			| Standard bullets												| Hitscan			|
+| Buckland SBS III    	| Buckland Triple-Barrel			| Standard bullets; hold aim to fire all shots		            | Hitscan			|
 | Bataldo J 300       	| Buckland Hemorrhage Shotgun		| Standard bullets; applies DoT bleed                           | Hitscan			|	
 | Bataldo Custom K330 	| Bataldo Single Slug				| High-precision slug; fast reload                              | Hitscan			|
 | Malatack HXC        	| Malatack AR-30					| Standard bullets 												| Hitscan			|
@@ -105,7 +119,7 @@ This project has been in the works for years. Until now, it's only been shared p
 | Shelling Arid 5	  	| Shelling Bolt Pistol				| Standard bullets                                  			| Hitscan			|
 | Drekker Del P1      	| Omneco Tracker Rifle				| Tags target on hit                                            | Hitscan			|
 | Köning PR 11        	| Van Auken W-Pen Sniper Rifle		| Wall-penetration bullets                                      | Hitscan			|
-| Omneco LRG          	| Techman Nano-Payload Gauss Rifle	| Nano-Burst shrapnel on kill seeks target                      | Hitscan/Projectile|
+| Omneco LRG          	| Techman Nano-Payload Gauss Rifle	| Nano-Burst Gobules on kill seeks nearby target                | Hitscan/Projectile|
 
 #### Melee:
 
@@ -149,8 +163,9 @@ This project has been in the works for years. Until now, it's only been shared p
 | Large Strikers  			| Tongue grabs player to its melee range; cannot parry the pull			| Loves pulling teammates out of bioscans, either kill or disable(Medic Gun or Foam Pistol).|
 | Scouts 					| EMP(45.0s) after scream, invul. during EMP wind-up					| EMPs disable all, but glowsticks, fog repellers, and tripmines. Try Tool Specialists!		|
 | Birther 			        | Increased HP; Birth Children that will explode on death				| Kill the babies first, then kill the mothers fast.										|
-| Stalkers(Snatcher) 		| Significant HP increase, snatched players will take damage        	| Takes longer to kill and can kill players now. They should not be ignored.				|
-| Bloom Needlers & Flyers	| Inflicts bleed(50% Chance) for 2.5% damage over 5.0s; stackable		| Bloom Needlers are high-priority targets otherwise team member will suffer major damage.	|
+| Stalkers(Snatcher) 		| Significant HP increase; snatched players take damage(3% over 10s)    | Takes longer to kill and can kill players now. They should not be ignored.				|
+| Large & Bloom Needlers	| Inflicts bleed(50% Chance) for 2.5% damage over 5.0s; stackable		| They are high-priority targets otherwise the team will suffer major damage.               |
+| Flyers                	| Fires explosive projectiles for 5% over 2.5m to 5.0m          		| Shoot them down quicky before they inflict too much AoE damage.                      	    |
 | Tanks						| Significant increase in HP & high knockback; door buster				| Significantly longer to kill, their knockback is annoying, and don`t close doors on them.	|
 
 * Variants will have traits and abilities listed above while also having extra perks mentioned below.
@@ -160,7 +175,7 @@ This project has been in the works for years. Until now, it's only been shared p
 | Large 		| Signicantly increased health and stagger resistance						|
 | Charger 		| HP Regen(80% Cap) if not damaged within 5 seconds, damage resets timer	|
 | Nightmare  	| Inflicts infection on all attacks	& scout screams							|
-| Shadow 		| Mainly unchanged, slightly increased Tag time by 3s						|
+| Shadow 		| Mainly unchanged, slightly increased Tag time by 3s	            		|
 | Child			| Explode on Death, can cause a chain reaction								|
 
 ## Extras:

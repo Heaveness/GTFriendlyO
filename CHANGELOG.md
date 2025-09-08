@@ -1,6 +1,281 @@
 # Changelog
 
-### **v1.2.0** - Latest
+### **v1.3.0** - Latest
+
+- Important note regarding boosters in the Booster Rework section. I highly reccomend you read it, thank you.
+
+### Weapon Tweaks:
+* Updated `ExtraWeaponCustomization` mod to v3.7.9
+* Replaced muzzle flash effect from all guns to pistol muzzle flashes.
+> Dev Note: For some reason this game's muzzle flash feels significantly more offensive to the eyes than any other FPS game. The flashing lights were already removed, but some guns had egregious muzzle effects. Now, it's possible to use Reserve/Full-Auto guns for longer periods of time. Unfortunately, this does make the guns feel a little less realistic. Yet, I would trade that for less eye strain in a heartbeat.
+
+### Enemy Tweaks:
+* Changed Flyer's `Bleed` projectiles to `Explosive` projectiles.
+    * Explosive Damage of `5%`
+    * Radius of `2.5m` to `5.0m`
+    * Can alert nearby enemies within explosion radius of `5.0m` to `10.0m`
+* Added Large Needler to the `Bleed` ability list.
+* Increased Child's minimum explosion damage from `1.5m` to `2.0m`
+* Improvements to Shadow variants.
+    * Fixed a mistake with Shadow enemies having the wrong amount of Tag time. It should be `10.0s` now, instead of `30.0s`
+    * Increased Shadow's health from `34.0` to `40.0`
+    * Shadow enemies can no longer be pushed or be damaged with backstab multiplier bonus.
+    * Increased Shadow enemies global speed from `80%` to `85%`(They will move/attack a bit faster)
+> Dev Note: Flyers should have a bit more identity as well as incentivize explosive resistant more. Shadow enemies felt like they need a bit more attention by giving them cloaking which will make them even harder to see with a naked eye. The Large Needler inclusion will also add more value to Bleed Resistance for the Marine class.
+
+### Class Balance:
+* Fixed class balance tweaks from v1.2.1 not reflecting properly.
+* Added `WorseHackingMiniGame` by Cactus.
+    * Disabled mod's increased hacking patterns and size. Vanilla hacking pattern.
+    * Enabled moving solution area. The solution bar will now steadily move while trying to solve.
+* All Classes(except Field Technician, EOD Specialist, HEL Diver, and Abhuman) baseline Hacking Proficiency is slightly decreased by 20%.
+    * To give you more perspective: the final third hacking pattern is now `2` solution bar instead of the default `3` bars. Field Technician's baseline is `5` bars, HEL Divers's baseline is `6` bars.
+* Adjusted Field Technician, EOD Specialist, HEL Diver, and Abhuman's Hacking Proficiency text(not values) to reflect the new lowered baseline value. Their values are untouched, only their text description.
+> Dev Note: This baseline decrease will not show up in their class descriptions, the adjusted values will go to the classes that have the biggest changes. The main reason for this change is to promote the Field Technician class to utilize their hacking skills as well as lock melters to have more value. Otherwise in worse case scenario, you will have to decide to either destroy the door or ignore a loot container. 
+
+* **Paramedic**
+    * Added `Med Efficiency` properties
+        * Gains Healing Pack Efficiency bonus of `+50%`
+    * Decreased Health Regen Delay from `-40%` to `-15%`
+    * Increased Revive Health from `+60%` to `70%`
+    * Slight improvements to class description.
+> Dev Note: Give Paradmedics more incentive to hold and use Medipacks; fulfilling their roles more. Also the Revive Health change is to increase the health given to be slightly above 50%.
+
+* **Quartermaster**
+    * Added `Supply Efficiency` properties
+        * Gains Ammo Pack Efficiency bonus of `+50%`
+    * Decreased Initial Ammo bonus from `+50%` to `+20%`
+    * Slight improvements to class description. Changed plurals to singulars for HMG/LMG/MP for better clarity.
+> Dev Note: Give Quartermaster more incentive to hold and use Ammo and Tool Resupply Packs.
+
+* **Abhuman**
+    * Increased Melee Damage bonus from `200%` to `225%`
+
+### Syringe Rework:
+* **I2-LP Heal Syringe**
+    * Removed Health Regen properties
+    * Decreased Health Recovery from `24%` to `10% - 20%` (Vanilla: 5% - 15%)
+> Dev Note: Vanilla GTFO gave 3% to 10% infection when used, which was removed. It's not a replacement for medipacks, but a decent subsitute.
+
+* **IIx Melee Syringe**
+    * Removed Healing properties
+    * Replaced with Movement Speed buff of `10%` for `300s(5min)`
+    * Decreased Melee Buff Timer from `999s(16.65min)` to `300s(5min)` (Vanilla: 8.0s)
+    * Reintroduced Infection from `0%` to `0% - 10%` (Vanilla: 3% - 10%)
+> Dev Note: Keep in mind that Melee Buff's baseline damage multiple is 3.0x. So a sledgehammer's heavy damage of 39.5 will do a total of 118.5 with the syringe(not counting boosters). The Van Auken's Sniper Rifle does a baseline damage of 125.5.
+
+* **Speed Syringe**
+    * Removed Health Regen properties
+    * Increased Movement Speed buff from `14%` to `40%`
+    * Decreased Movement Speed duration from `90s(1min30s)` to `60s(1min)`
+    * Increased Infection from `5%` to `5% - 10%`
+
+* **Adrenline Syringe**
+    * Increased Movement Speed buff from `10%` to `15%`
+    * Increased Movement Speed duration from `90s(1min30s)` to `120s(2min)`
+    * Increased Infection from `5%` to `5% to 15%`
+    * Increased Health Regen duration from `8s` to `10s`
+    * Increased Health Regen per tick from `0.4` to `0.5`
+
+* **IV-LP Syringe** Renamed to `Heal Munitions Drain Syringe`
+    * Added Main/Special/Tool Ammo properties
+        * Sacrifices `20%` of Main/Special/Tool ammo
+    * Added Health Regen properties
+        * Gain Health Regen of `1%` per second for a duration of `200s`
+    * Added Disinfection properties
+        * Applies Disinfection of `30%`
+
+* **Virus Syringe** Renamed to `Virus Bomb Syringe`
+    * Reworked all properties
+    * Increased Infection from `10%` to `15%`
+    * Added Self-Destruct properties
+        * Explosion damage of `250` over an area of `5.0m`
+        * Delay Explosion damage by `10s`
+    * Added Damage-Over-Time properties
+        * Applies DoT damage of `15.0` after delay
+        * Delay DoT damage by `10s`
+    > Dev Note: Try not to stick close to your teammates with this one.
+
+* **Antibiotic Syringe**
+    * Decreased Disinfection from `40%` to `30%`
+
+* **Surge Syringe**
+    * Removed Movement Speed properties
+    * Removed Infection properties
+    * Added Healing properties
+        * Applies Healing of `100%`
+    * Added Damage-Over-Time effect properties
+        * Applies DoT damage of total `60%` over a duration of `300s`
+        * Delay DoT damage before applying of `30s`
+
+* **Recovery Syringe**
+    * Increased Health Regen total of `20` to `30`
+    * Increased Duration to `180s(3min)`
+    * Added Movement Speed properties
+        * Applies Movement Speed decreases by `10%` over `3min`
+
+* **Rage Syringe**
+    * Reworked all properties
+    * Added Melee Buff Timer properties
+        * Applies 3x Melee Damage over a duration of `600s`
+    * Added Healing properties
+        * Applies Healing of `50%`
+    * Added Health Regen properties
+        * Applies Health Regen of total `50%` over a duration of `100s`
+    * Added Movement Speed properties
+        * Applies Movement Speed buff of `10%` over a duration of `600s`
+    * Added Infection properties
+        * Applies Infection of `25%`
+    * Added Damage-Over-Time effect properties
+        * Applies DoT Damage of `50%` over a duration of `1s`
+        * Delay DoT damage after `600s`
+
+* **Antibiotic-XV-LP Syringe** Renamed to `Ammo Symbiotic Regurgitant Syringe`
+    * Added Main/Special/Tool Ammo properties
+        * Gain `35%` of Main/Special/Tool ammo 
+    * Added Damage-Over-Time properties
+        * Applies DoT damage of total `70%` over a duration of `70s`
+        * Delay DoT damage before applying of `10s`
+    * Added Infection properties
+        * Applies Infection of `30%`
+
+* **Hallowed Virus Syringe** Renamed to `Virus Nuke Syringe`
+    * Reworked all properties
+    * Increased Infection from `20%` to `25%`
+    * Added Self-Destruct properties
+        * Explosion damage of `500` over an area of `10.0m`
+        * Delay Explosion damage by `10s`
+    * Added Damage-Over-Time properties
+        * Applies DoT damage of `25.0` within `1s` after delay
+        * Delay DoT damage by `10s`
+    > Dev Note: Yes, you will die.
+
+* **Recovery Syringe II**
+    * Increased Health Regen total of `35` to `50`
+    * Increased Duration to `180s(3min)`
+    * Added Movement Speed properties
+        * Applies Movement Speed decreases by `-15%` over `3min`
+
+* **Antibiotic-IX-REC Syringe**
+    * Decreased Disinfection from `40%` to `30%`
+    * Increased Healing from `15%` to `25%`
+    * Added Health Regen properties
+        * Gain Health Regen of `2.0` per second over a duration of `10s`
+
+>Dev Note: A lot of these tweak, rework, and balance changes are meant to make syringes have a bit more variety to them. While some of them will become niche, at least they have more interesting application based on circumstances.
+
+### Booster Rework:
+
+* Added `Custom_Boosters` mod by Endskill
+* All boosters will have 99 charges left, and will no longer be consumed.
+    * **IMPORTANT NOTE:** Please be advised that any boosters you currently own will be removed to accommodate the new custom boosters. You will be given 20 Muted, Bold, and Aggressive boosters to play around with.
+* Removed artifact pickups in-game.
+* Removed most mentions of artifact/booster module pickups on UIs, HUDS, and menus.
+> Dev Note: Disabling artifact pickups can potentially change item distribution in containers or level layout. I will observe closely for any potential issues. Please send an issue ticket in the Github, if any problems arise.
+
+* **General**
+    * Significantly decreased **Muted** Booster's bonuses which carries no negative penalties
+    * All **Bold** Boosters will carry a moderate penalty to match with equal bonus
+    * All **Aggressive** Boosters will carry a more significant penalty to match with a higher bonus
+    * All Boosters will carry their maximum penalty and bonus numbers. No more RNG on minimum/maximum stats.
+> Dev Note: A lot of boosters have mainly moved to the class system, so their power boost is not longer required. As a result this system will be nerfed heavily to keep it "balanced" between the two systems.
+
+* **Muted**
+    * Separated all Muted boosters with two effects for some, not all.
+    * Muted Boosters will carry very weak positive effects, while carry zero negative effects.
+
+* **Bold**
+    * Separated all Bold boosters with two or more effects. All Bold boosters will only carry one effect with a single condition at a time.
+
+* **Aggressive**
+    * Separated all Aggressive boosters with two or more effects. All Aggressive boosters will only carry one effect with a heavy negative effect.
+
+> Dev Note: These changes were made to prevent easily overstacking attributes with boosters and classes. Most of the original booster system were regulated to the class sytem. While it's still possible to stack on a particular attribute, the required effort is higher. This will incentize players to theorize which combination works best for yourself and the team.
+
+#### Miscellaneous:
+* Fixed README to reflect some of the newer changes.
+* Added recommended mods in the README.
+    * Removed recommend mods list from the CHANGELOG.
+
+---
+
+### v1.2.1
+
+### Class Tweaks:
+* Decreased Marine's Starting Ammo bonus from `+25%` to `+20%`
+> Dev Note: The Marine is already a solid class. With the added Bleed Resistance on top of the buffed starting ammo makes them slightly too efficient at their job.
+* Decreased Deprived's Melee Armor from `+80%` to `+60%`
+> Dev Note: I might have went a bit overboard with the Deprived class.Since a single booster can make them immune to all melee damage. It should at least require up to 2 boosters to do so. Booster rework is coming in v1.3.0 to help balance out this system.
+
+### Weapon Tweaks:
+* Removed Reload Time(0.0s) on Reserve Weapons to prevent confusion. (Cannot change Clip Size to 0, since that messes with Ammo)
+* DoT damage should no longer work on Locks.    
+
+* **Triple Barrel**
+    * Added "Holding Trigger fires continuously" trait while Hipfiring.
+    * Added "Fire all three shots at once" trait while Aiming.
+> Dev Note: Using this ability with 1 or 2 bullets remaining in the chamber will subtract from the reserve.
+* **5-B Bullpup**
+    * Increased Max Ammo Capacity from `416` to `442`
+* **3-B Carbine**
+    * Increased Damage from `3.2` to `3.3`
+* **Gauss Rifle**
+    * Increased Bullet Damage from `30.3` to `40.3`
+    * Increased Precision Multiplier from `1.1x` to `1.5x`
+    * Decreased Explosion Damage from `20.0` to `10.0`
+* **AR-30**
+    * Decreased Damage from `7.1` to `7.0`
+    * Increased Clip Size from `25` to `30`
+    * Decreased Max Ammo Capacity from `282` to `255`
+    * Decreased Reload Time from `2.0s` to `1.8s`
+    * Decreased Hipfire Spread from `2.375x` to `2.0x`
+* **Heavy SMG**
+    * Decreased Max Ammo Capacity from `417` to `391`
+* **DMR**
+    * Decreased Max Ammo Capacity from `192` to `187`
+    * Decreased Magazine Size from `15` to `10`
+    * Decreased Hipfire Spread from `2.5x` to `0.5x`
+    * Increased Pierce Limit from `0` to `1`
+    * Increased Precision Multiplier from `0.87x` to `0.97x`
+    * Increased Shot Delay from `0.25s` to `0.3s`
+* **Double-Tap**
+    * Increased Precision Multiplier from `0.9x` to `0.95x`
+    * Decreased Reload Time from `2.15s` to `2.0s`
+    * Decreased Hipfire Spread from `3.5x` to `2.5x`
+* **MP2**
+    * Increased Max Ammo Capacity from `661` to `737`
+    * Decreased Hip Spread by `0.1x`
+* **MP1**
+    * Decreased Pierce Limit from `2` to `1`
+    * Decreased Stagger Multiplier from `5.0x` to `2.0x`
+    * Increased Hip Spread by `0.1x`
+* **Reserve HMG**
+    * Increased Max Ammo Capacity from `662` to `742`
+* **Explosive Burst Rifle**
+    * Decreased Pierce Limit from `3` to `0`
+    * Increased Stagger Multiplier from `1.0x` to `1.2x`
+* **Hemorrhage Shotgun**
+    * Decreased Ammo Capacity from `147` to `110`
+* **Hemorrhage Reserve Shogun**
+    * Added Charge-up of `0.2s`
+* **Choke Shotgun**
+    * Increased Damage from `6.2` to `6.4`
+* **Revolver**
+    * Increased Precision Damage Multiplier from `0.74x` to `0.87x`
+    * Increased Stagger Multiplier from `1.0x` to `1.1x`
+* **Pump-Action Shotgun**
+    * Increased Damage from `5.0` to `5.4`
+* **Choke Mod Shotgun**
+    * Increased Damage from `5.9` to `6.2`
+> Dev Note: I decided to another balance pass on many of the weapons. A lot of them need some tweaking to reflect their new identity within the pack. Very strong weapons that can kill everthing with ease should have a bit of downside with their max ammo. Of course I am still keeping an eye on balance regularly. Feedback is very important, so please let me know on MTFO Discord or Github Repo.
+
+#### Miscellaneous:
+* Fixed typos. Phew, crisis averted!
+* Added some wiki pages! Check them out in the Thunderstore!
+
+---
+
+### v1.2.0
 
 ### New Class!
 * Introducing the Deprived class! Another member for the B-Company Divison.
@@ -52,7 +327,7 @@
     * **Target Mode:** `Normal`
     * **Target Priority:** `Distance`
     * **SearchStopMode:** `None`
-> Dev Note: Techman Industries just had an upgrade to one of their arsenal. Somehow, the R&D team were able to bypass the Geneva Convention restrictions and the warranty on the Gauss Rifle. Once it delivers a paylod onto a target, nano globules will eject from a neutralized target. Afterwards, it will seek nearby targets to inflict additional injuries. Potentially saving the industry the added costs of each bullet fired. Techman Industries is not responsible for collateral damage, civilian casualties, or unexpected multi-target liquefaction.
+> Dev Note: Techman Industries just had an upgrade to one of their arsenal. Somehow, the R&D team were able to bypass the Geneva Convention restrictions and the warranty on the Gauss Rifle. Once it delivers a payload onto a target, nano globules will eject from a neutralized target. Afterwards, it will seek nearby targets to inflict additional injuries. Potentially saving the industry the added costs of each bullet fired. Techman Industries is not responsible for collateral damage, civilian casualties, or unexpected multi-target liquefaction.
 
 ### New Mods!
 * `LightsAdjustment` by Untilted
@@ -81,23 +356,14 @@
 * New Thunderstore wiki-pages for some of the main features.
 * Fixed a few more typos. My favorite part!
 
-#### Recommended mods, but not required:
-* `Fridos_Sorted_Boosters` by Fridolin
-* `Perfect Boosters` by Localia
-* `PingEverything` by Localia
-* `BetterMaps` by GTFOModding
-* `BetterBioTracker` by GTFOModding
-* `Accurate Crosshair` by Dinorush
-* `SkipIntro` by Shadsterwolf
-* `ChatterReborn` by easternunit100
-* `MeleeTimer` by long_walter
-* `InLevelCarryOnBack` by Hikaria
-> Dev Note: These are recommended, but not needed. Some of these mods with have configs that will be packaged with the mod-pack, but not the mod itself. These aren't necessary, but nice to have on the list.
+---
 
 ### v1.1.1
 * Fixed a mistake with Shock Trooper's armor not reflecting correctly with the v1.1.0 tweaks.
 * Fixed Covert Ops class's melee damage bonus being `45%` when it should be `50%.`
 * Fixed a few more typos again!
+
+---
 
 ### v1.1.0
 
@@ -158,16 +424,22 @@
 * Fixed a little bit more typos here and there.
 > Dev Note: Final note regarding the overall vibe of this balance patch. While it's an overall nerf to the many things, keep in mind that this will incentize teams to emphasizing on their strengths while compensating for each other's weaknesses. The pack's goal is to make the experience more accessible, but don't remove all of the difficulty and challenge of the base game.
 
+---
+
 ### v1.0.2
 
 * Fixed packaging mistakes which caused files & folders to not unpack the correct way.
 * Fixed more typos. Sorry...
 * Fixed missing dependency `Junkie Syringe Pack` by ProjectZaero.
 
+---
+
 ### v1.0.1
 
 * Fixed some typos.
 * Fixed missing Github links.
+
+---
 
 ### v1.0.0
 
