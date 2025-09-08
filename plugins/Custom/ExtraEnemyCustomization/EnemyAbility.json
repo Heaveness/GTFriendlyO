@@ -87,7 +87,7 @@
         "UseExplosionCounter": true,
         "AllowedExplosionCount": 1,
         "EnemyDamageMulti": 1.0,
-        "MinRange": 1.5,
+        "MinRange": 2.0,
         "MaxRange": 2.5,
         "NoiseMinRange": 10,
         "NoiseMaxRange": 20,

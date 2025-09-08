@@ -64,7 +64,58 @@
       }
 		}
   ],
-  "ExplosiveAttackCustom": [],
+  "ExplosiveAttackCustom": [
+    {
+      "Enabled": true,
+      "DebugName": "Explosive Flyer",
+      "Target": {
+        "Mode": "PersistentID",
+        "persistentIDs": [
+          45,
+          42
+        ],
+        "nameParam": "",
+        "nameIgnoreCase": true,
+        "categories": []
+      },
+      "MeleeData": {
+        "Damage": "0%", 
+        "LightColor": "#ff1500", 
+        "KillInflictor": false,
+        "EnemyDamageMulti": 0.0, 
+        "MinRange": 0.0, 
+        "MaxRange": 0.0, 
+        "NoiseMinRange": 0.0, 
+        "NoiseMaxRange": 0.0, 
+        "NoiseType": "Detectable" 
+      },
+      "TentacleData": {
+        "Damage": "0%",
+        "LightColor": "#ff1500",
+        "KillInflictor": false,
+        "EnemyDamageMulti": 0.0,
+        "MinRange": 0.0,
+        "MaxRange": 0.0,
+        "NoiseMinRange": 0.0,
+        "NoiseMaxRange": 0.0,
+        "NoiseType": "Detectable"
+      },
+      "ProjectileExplodesOnWorld": true,
+      "ProjectileExplodesOnPlayer": true,
+      "ProjectileExplodesOnLifeTimeDone": true,
+      "ProjectileData": {
+        "Damage": "5%",
+        "LightColor": "#ff1500",
+        "KillInflictor": false,
+        "EnemyDamageMulti": 0.5,
+        "MinRange": 2.5,
+        "MaxRange": 5.0,
+        "NoiseMinRange": 5.0,
+        "NoiseMaxRange": 10.0,
+        "NoiseType": "Detectable"
+      }
+    }
+  ],
   "KnockbackAttackCustom": [
     {
 			"Enabled": true,
@@ -125,14 +176,13 @@
   "BleedAttackCustom": [
     {
 			"Enabled": true,
-			"DebugName": "Flyer And Bloom Bleeder",
+			"DebugName": "Bloom Bleeder & Big Shooter",
 			"Target": {
 				"Mode": "PersistentID",
 				"persistentIDs": [
-					45,
-          42,
           33,
-          34
+          34,
+          18
 				],
 				"nameParam": "",
 				"nameIgnoreCase": true,
