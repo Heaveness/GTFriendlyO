@@ -5,7 +5,8 @@
     "Name": "High Cal Sniper - Wall, Armor Pierce, and Bullet Size",
     "Properties": [
 	  {
-        "Name": "WallPierce"
+        "Name": "WallPierce",
+        "RequireOpenPath": false
       },
       {
         "Name": "ArmorPierce",

@@ -20,7 +20,7 @@
         "GlowColor": "#880808",
         "GlowIntensity": 1,
         "GlowRange": 1,
-        "Trigger": "Hit",
+        "Trigger": "HitEnemy",
         "BatchStacks": false
       }
     ]
@@ -46,7 +46,7 @@
 		"GlowColor": "#880808",
 		"GlowIntensity": 1,
         "GlowRange": 1,
-        "Trigger": "Hit",
+        "Trigger": "HitEnemy|Player",
         "BatchStacks": false
       }
     ]
@@ -72,7 +72,7 @@
 		"GlowColor": "#880808",
 		"GlowIntensity": 1,
         "GlowRange": 1,
-        "Trigger": "Hit",
+        "Trigger": "HitEnemy|Player",
         "BatchStacks": false
       },
 	  {
@@ -95,13 +95,13 @@
         "StackLimit": 0,
         "IgnoreFalloff": false,
         "DamageLimb": false,
-        "IgnoreArmor": false,
-        "IgnoreBackstab": true,
+        "IgnoreArmor": true,
+        "IgnoreBackstab": false,
         "IgnoreDamageMods": false,
 		"GlowColor": "#880808",
 		"GlowIntensity": 1,
         "GlowRange": 1,
-        "Trigger": "Hit",
+        "Trigger": "HitEnemy|Player",
         "BatchStacks": false
       }
     ]

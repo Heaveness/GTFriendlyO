@@ -97,7 +97,7 @@
         "IgnoreFalloff": true,
         "DamageLimb": true,
         "IgnoreArmor": false,
-        "IgnoreBackstab": true,
+        "IgnoreBackstab": false,
         "IgnoreDamageMods": false,
         "DamageFriendly": true,
         "DamageOwner": true,
@@ -252,8 +252,8 @@
       "Properties": [
         {
           "Name": "Explosive",
-          "MaxDamage": 20.0,
-          "MinDamage": 20.0,
+          "MaxDamage": 10.0,
+          "MinDamage": 10.0,
           "InnerRadius": 3.0,
           "Radius": 3.0,
           "PrecisionDamageMulti": 0.8,

@@ -75,10 +75,10 @@
     "MeleeArchetypeID": 0,
     "Name": "Heavy Revolver - Fan The Hammer",
     "Properties": [
-      {
-        "Name": "AutoTrigger"
-      },
-      {
+          {
+            "Name": "AutoTrigger"
+          },
+          {
             "Name": "Shrapnel",
             "Count": 1, 
             "MaxRange": 20.0,
@@ -138,7 +138,43 @@
             "HitTriggerTarget": false, 
             "RunHitTriggers": true, 
             "Trigger": "Bullet Landed Terrain"
+          }
+      ]
+    },
+    {
+      "ArchetypeID": 45,
+      "MeleeArchetypeID": 0,
+      "Name": "Triple Barrel - Fire at Will",
+      "Properties": [
+        {
+          "Name": "AutoTrigger"
+        },
+        {
+          "Name": "TempProperties",
+          "Duration": 999999,
+          "Trigger": {
+            "Activate": "Aim",
+            "Reset": "AimEnd"
+          },
+          "Properties": [
+            {
+              "Name": "AmmoMod",
+              "ClipChange": -2,
+              "OverflowToReserve": true,
+              "Trigger": "Fire"
+            },
+            {
+              "Name": "RecoilMod",
+              "Mod": 5.0,
+              "Duration": 999999
+            },
+            {
+              "Name": "MultiShot",
+              "Offsets": [0,0, 0,0],
+              "Spread": -1
+            }
+          ]
         }
-    ]
-  }
+      ]
+    }
 ]

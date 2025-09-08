@@ -10,7 +10,7 @@
         "CapRel": 1.0,
         "CancelRegen": false,
         "ApplyToTarget": true,
-        "Trigger": "Hit"
+        "Trigger": "HitPlayer"
       },
       {
         "Name": "DamageOverTime",
@@ -34,7 +34,7 @@
         "GlowColor": "#3a9fbf",
         "GlowIntensity": 1.25,
         "GlowRange": 1.5,
-        "Trigger": "Hit",
+        "Trigger": "HitEnemy|Player",
         "BatchStacks": false
       },
       {
