@@ -1,6 +1,180 @@
 # Changelog
 
-### **v1.3.0** - Latest
+### **v1.4.1** - Latest
+
+### Weapon Tweaks:
+* Added `MirrorWeapons` mod by Dinorush
+> Dev Note: Main and Special weapon slots have been unlocked. There is no longer a restriction to have a Special weapon in a Main slot. For example, you can carry both the Thermal Precision Rifle and Sniper Rifle or both DMRs. This will significantly open up build diversity potential for players to experiment with their chosen class. If you want to do weird or stupid loadouts like bring two sniper rifles or two HMGs as your two guns then go crazy.
+
+### Player Tweaks:
+* Decreased AmmoStandardInitial from `350` to `300`
+* Decreased AmmoStandardResourcePackMaxCap from `450` to `400`
+* Increased AmmoSpecialInitial from `250` to `300`
+* Increased AmmoSpecialMaxCap from `450` to `550`
+* Increased AmmoSpecialResourcePackMaxCap from `350` to `400`
+> Dev Note: Lots of new potential options thanks to the MirrowWeapons mod. To prevent some balancing issues, I will have to readjust a lot of the weapons to be more unified in its initial ammo, max ammo capacity, and resupply efficiency numbers. As a result, Special weapons will get an ammo buff while Main weapons will get the opposite. This would mean that Ammo Supply Efficiency will be more important than before, so try out Quartermaster and the appropriate boosters.
+
+### Ammo Tweaks:
+* All former special weapon's bullet cost has been increased between `1.0 - 10.0` based on respective weapons. This is to counteract the new increased unified maximum ammo capacity.
+
+* Malatack AR-30:
+    *  Max Ammo Capacity from `255` to ``
+* Techman Exp. Smart Rifle:
+    *  Max Ammo Capacity from `300` to ``
+* Bataldo Pump-Action:
+    *  Max Ammo Capacity from `58` to ``
+* Buckland HEL Shotgun:
+    *  Max Ammo Capacity from `140` to ``
+* Mastaba Explosive Shotgun:
+    *  Max Ammo Capacity from `30` to ``
+* Buckland Choke Shotgun:
+    *  Max Ammo Capacity from `54` to ``
+* Bataldo Heavy Revolver:
+    *  Max Ammo Capacity from `118` to ``
+* Raptus LMG:
+    *  Max Ammo Capacity from `360` to ``
+* Raptus Reserve HMG:
+    *  Max Ammo Capacity from `742` to ``
+* Mastaba Explosive Cannon:
+    *  Max Ammo Capacity from `50` to ``
+* Hanaway Hemorrhage HEL:
+    *  Max Ammo Capacity from `91` to ``
+* Shelling Bolt Pistol:
+    *  Max Ammo Capacity from `85` to ``
+* Omneco Tracker Rifle:
+    *  Max Ammo Capacity from `98` to ``
+* Van Auken's Sniper Rifle:
+    *  Max Ammo Capacity from `20` to ``
+* Techman Nano Gauss Rifle:
+    *  Max Ammo Capacity from `40` to ``
+
+---
+
+### v1.4.0
+
+### Weapon Tweaks:
+* Updated `ExtraWeaponCustomization` mod to v3.7.10
+* Changed name of `Bio-IR-Dot Tracker` to `Advanced Thermal Tracker`
+* Changed name of `Bataldo Single Slug` to `Bataldo Single Slugger`
+* Changed name of `Buckland Reserve Hemorrhage Shotty` to `Buckland Hemorrhage Shotgun`
+* Changed name of `Mastaba Explosive Shrapnel Cannon` to `Mastaba Explosive Cannon`
+* Changed name of `Mastaba Explosive Shrapnel Rifle` to `Mastaba Explosive Rifle`
+* Changed name of `Buckland Hemorrhage Shotgun` to `Buckland HEL Shotgun`
+* Changed name of `Techman Hemostasis Medic SMG` to `Techman Hemostasis Medic Gun`
+* Changed name of `Van Auken W-Pen Sniper Rifle` to `Van Auken Sniper Rifle`
+* Changed name of `Techman Nano-Payload Gauss Rifle` to `Techman Nano Gauss Rifle`
+* Renamed all weapons' bottom text to include what weapon type it is to prevent confusion with class specialization bonuses.
+    * For example: Thermal Precision Rifle(Sniper) or Heavy Assault Rifle(Rifle)
+> Dev Note: Changed names to be less of a mouthful to say. And the subtext should be players a better idea on their classes.
+
+* Added `BetterBioTracker` mod by GTFOModding.
+* Bio Tracker now has two modes: Thermal or Tracker mode.
+* ADS has been changed to old ADS(Pre-R6).
+* Decreased target sizes on radar by `20%`
+> Dev Note: Bio Tracker should feel more impactful than just a scan tool. Thermal should allow to see in the dark, but lose tracker mode. So knowing when to switch between mode is important. You can still tag enemies in both modes. Also the old ADS was simply more cinematic than the current vanilla version.
+
+### Booster Tweaks:
+* Fixed a mistake with an Aggressive Main Damage booster giving a negative Main Damage effect instead of a negative Special Damage effect.
+> Dev Note: I believe the booster system is in a somewhat decent spot in terms of balance. It should be giving players a boost to their class or playstyle.
+
+### Class Addition, Changes, & Bug Fixes:
+* Updated `GTFuckingXP` mod to v2.4.9
+* Introducing the Courier class! Another member for the B-Company Divison.
+    * **Heavy Revolver:** `+50%`
+    * **Sniper:** `+50%`
+    * **Shotgun:** `+50%`
+    * **Tripmine:** `+50%`
+    * **Movement Speed:** `+10%`
+    * **Starting Ammo/Tool:** `+20%`
+    * **Ammo Cost Efficiency(Tool/Gun):** `-20%`
+    * **Infection Resistance:** `-70%`
+    * **Explosion Resistance:** `-70%`
+    * **Bullet Resistance:** `-70%`
+    * **Bleed Resistance:** `-70%`
+> Dev Note: While this class is the fifth in the division, technically it's the B-Company's fourth class. Prisoner doesn't really count towards the class count for each division as it is just the vanilla experience. Plus I was trying really hard to find a home for the heavy revolver as it doesn't have one in any of the other classes. Heartaches by the numbers.
+
+* Re-organized all of the class's specialized weapon bonus to proper reflect their damage bonus effects.
+    * For example: Covert Op's Precision Rifle bonus was affecting assault rifles too. 
+> Dev Note: The class system utilitzes the vanilla game's booster system to affect weapons within a specific category. Unfortunately this can cause some weapon bonuses to overlap with other classes. The perfect example of this issue is the difference between a HEL shotgun and a regular shotgun. They are both shotguns but one is HEL which uses HEL weapon buffs instead of the shotgun ones.
+
+* Marine:
+    * Removed `DMR` Specialization
+        * Includes: Hanaway DMR & Hanaway Double-Tap
+    * Fixed Bullpup Rifles Specialization not working as intended
+
+* EOD Specialist: Renamed to `Demolitionist`
+    * Name was changed to sound more better and clearer.
+
+* Tool Specialist: Renamed to `Specialist`
+    * Name was altered since EOD Specialist name was changed.
+
+* Covert Ops: Renamed to `Covert Op`
+    * Increased Sniper/Precision Rifle & Melee Damage bonus from `50%` to `60%`
+    * Increased Max Health penalty from `-20%` to `-30%`
+    * Removed accidental usage of `Assault Rifle` specialization(within code)
+    * Added `DMR` Specialization
+        * Includes: Hanaway DMR & Hanaway Double-Tap
+
+* Field Technician:
+    * Added Ammo Cost Efficiency debuff of `-10%`
+    * Increased Hacking Skill bonus from `55%` to `60%`
+    * Increased Sentry CPU bonus from `30%` to `40%`
+    * Increased Sentry Damage from `30%` to `50%`
+    * Removed accidental usage of Sentry `Long-range` and `Short-range` damage bonus of `30%`.
+    * Fixed a potential issue with -40% damage reduction penalty affecting the sentry turrets.
+> Dev Note: There was an accidental addition of Long-range and Short-range damage bonus that make significant boost to sentry power that was unintended. But to prevent a potential massive nerf to their damage, I am increasing the overall base damage bonus of sentries.
+
+* Prisoner:
+    * Added a warning for difficulty.
+> Dev Note: Every other changes are still in effect, even though class system isn't being used with Prisoner. So I might as give a small warning.
+
+* Abhuman:
+    * Increased Max Health bonus from `100%` to `150%`
+    * Decreased Movement Speed penalty from `-40%` to `-30%`
+    * Fixed incorrect bonus values on the class for melee damage, range, and hitbox.
+> Dev Note: Althought this is a meme class, the negative effects are still higher than its positive counterpart. Also the class had incorrect values in its class description.
+
+### Miscellaneous:
+* Improved the README.md to provide a link to a list of recommend mods within Thunderstore's wiki. Link [Here!](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/4030-recommend-mods/)
+
+### v1.3.1
+
+### General Tweaks:
+* Fixed a mistake on installing the wrong version of ExtraWeaponCustomization mod.
+> Dev Note: Accidentally used the wrong version number 3.7.7 instead of 3.7.9 by the time of this patch comes out.
+
+### Enemy Tweaks:
+* Fixed typo regarding Shadow enemies having cloak abilities.
+> Dev Note: Cloaking was originally planned but it was buggy with Shadow enemies in particular. Instead Shadow enemies will create fog spheres when killed, Fog Repellants and Fog Turbines are a great counter.
+
+* Increased Scout's max tentacle range from `30.0m` to `60.0m`
+* Increased Scout's tentacle speed from `7.5m` to `10.0m`
+* Changed Scout's tentacle colors from `black` to `cyan`
+* Added Sound IDs to the EMP Ability.
+* Shorten the activation transition between `Shout` and `EMP` abilities.
+> Dev Note: Increased the Scout's tentacles to be more overall riskier to kill. Good positioning, long-range weapons, and/or using cover with melee will be your best options. The cyan tentacles will be more consistent with this EMP colored scream as well as bring better visibility to them. With the added sound effect, it should be much easier to tell when the EMP event is starting.
+
+* Shadow enemies will spawn fog spheres upon death.
+    * Fog Distance(expands) from minimum `3.0m` to maximum `6.0m`
+    * Fog Activation delay of `0.1s`
+    * Audio sound cue when fog appears.
+    * Fog will inflect infection with a rate of `0.05%` per second.
+    * Fog Duration of `30s`
+> Dev Note: Fog repellant and turbines are your best friend against this area-of-effect denial ability. Or kill them before they get too close to the team. Either way a Tool Specialist is a strong counter to this as long as they have the right consumable(Fog Repellant)
+
+### Weapon Tweaks:
+* Increased Tracker Precision Rifle Damage from `26.9` to `28.1`
+* Increased Tracker Precision Rifle Hipfire Spread from `3.0x` to `2.5x`
+
+### Syringe Tweaks:
+* Increased Damage from Virus Bomb Syringe from `250` to `300`
+* Increased Damage from Virus Nuke Syringe from `500` to `600`
+* Decreased Range of Virus Nuke Syringe from `10.0m` to `7.5m`
+> Dev Note: Kaboom? Yes Dauda, kaboom.
+
+---
+
+### v1.3.0
 
 - Important note regarding boosters in the Booster Rework section. I highly reccomend you read it, thank you.
 
@@ -21,7 +195,7 @@
     * Increased Shadow's health from `34.0` to `40.0`
     * Shadow enemies can no longer be pushed or be damaged with backstab multiplier bonus.
     * Increased Shadow enemies global speed from `80%` to `85%`(They will move/attack a bit faster)
-> Dev Note: Flyers should have a bit more identity as well as incentivize explosive resistant more. Shadow enemies felt like they need a bit more attention by giving them cloaking which will make them even harder to see with a naked eye. The Large Needler inclusion will also add more value to Bleed Resistance for the Marine class.
+> Dev Note: Flyers should have a bit more identity as well as incentivize explosive resistant more. Shadow enemies felt like they need a bit more attention. The Large Needler inclusion will also add more value to Bleed Resistance for the Marine class.
 
 ### Class Balance:
 * Fixed class balance tweaks from v1.2.1 not reflecting properly.
@@ -49,7 +223,7 @@
 > Dev Note: Give Quartermaster more incentive to hold and use Ammo and Tool Resupply Packs.
 
 * **Abhuman**
-    * Increased Melee Damage bonus from `200%` to `225%`
+    * Increased Melee Damage bonus from `50%` to `75%`
 
 ### Syringe Rework:
 * **I2-LP Heal Syringe**
@@ -165,7 +339,6 @@
 >Dev Note: A lot of these tweak, rework, and balance changes are meant to make syringes have a bit more variety to them. While some of them will become niche, at least they have more interesting application based on circumstances.
 
 ### Booster Rework:
-
 * Added `Custom_Boosters` mod by Endskill
 * All boosters will have 99 charges left, and will no longer be consumed.
     * **IMPORTANT NOTE:** Please be advised that any boosters you currently own will be removed to accommodate the new custom boosters. You will be given 20 Muted, Bold, and Aggressive boosters to play around with.
@@ -281,7 +454,7 @@
 * Introducing the Deprived class! Another member for the B-Company Divison.
     * **Max Health:** `-80%`
     * **Projectile Armor:** `-50%`
-    * **Melee Armor** `+80%`
+    * **Melee Armor:** `+80%`
     * **Movement Speed:** `+30%`
     * **Range Damage:** `+50%`
     * **Melee Damage:** `+50%`

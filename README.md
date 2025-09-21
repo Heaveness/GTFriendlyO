@@ -13,24 +13,14 @@ This project has been in the works for years. Until now, it's only been shared p
 
 ## Important
 
-* Please note that this is only a baseline modpack, more mods will be considered in the future. Mainly mods needed for a better experience. **Stay tuned!**
+* Please note that this is only a baseline modpack, more mods will be considered in the future. **Stay tuned!**
 
-* Can be played Vanilla with other mods with this mod-pack, especially with client-side mods. It's recommended to use a bunch of fix mods to prevent further issues with GTFO. But it's up to the players if they want them not, not necessary.
+* Can be played Vanilla with other mods with this mod-pack, especially with client-side mods. It's recommended to use a bunch of bug fix mods to prevent further issues with GTFO. But it's up to the players if they want them not, not necessary.
 
 * Most likely will NOT be compatible with other custom Rundowns or modpacks that changes the same Datablocks. Otherwise, give it a try and let me know.
 
-#### Recommended mods, but not required:
-* `Fridos_Sorted_Boosters` by Fridolin
-* `Perfect Boosters` by Localia
-* `PingEverything` by Localia
-* `BetterMaps` by GTFOModding
-* `BetterBioTracker` by GTFOModding
-* `Accurate Crosshair` by Dinorush
-* `SkipIntro` by Shadsterwolf
-* `ChatterReborn` by easternunit100
-* `MeleeTimer` by long_walter
-* `InLevelCarryOnBack` by Hikaria
-* `StuckEnemyFix` by hirnukuono
+#### Recommended mods:
+* List: [Thunderstore wiki link](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/4030-recommend-mods-wip/)
 > Dev Note: These are recommended, but not needed. Some of these mods with have configs that will be packaged with the mod-pack, but not the mod itself. These aren't necessary, but nice to have on the list.
 
 ## Major Changes
@@ -63,17 +53,18 @@ This project has been in the works for years. Until now, it's only been shared p
 | CLASS       		| ROLE      | DIVISION  | STRENGTHS 	 											          | WEAKNESSES																      |
 |-------------------|-----------|-----------|:-------------------------------------------------------------------:|:-----------------------------------------------------------------------------:|
 | Marine 			| Damage 	| Combat 	| Accurate; mid-to-long range; consistent damage                      | Low melee armor & damage                                                      |
-| Spec Ops 			| Damage 	| Combat 	| Stealth melee; high damage; high movement speed                     | Low base HP; very fragile                                                     |
-| EOD Specialist	| Damage 	| Combat 	| Crowd control AoE; big explosions; explosive resistance             | Poor tech skills (terminal, hacking, sentries)                                |
+| Covert Op 		| Damage 	| Combat 	| Stealth melee; high damage; high movement speed                     | Low base HP; very fragile                                                     |
+| Demolitionist 	| Damage 	| Combat 	| Crowd control AoE; big explosions; explosive resistance             | Poor tech skills (terminal, hacking, sentries)                                |
 | Shock Trooper 	| Tank 		| Combat 	| High armor; strong base HP; fast regen speed                        | Low damage overall; relies on shotguns & melee; slow movement speed           |
 | Paramedic 		| Support 	| Support 	| Infection immune; high revive speed & health; fast regen delay      | No offensive benefits; low starting & max ammo                                |
 | Quartermaster 	| Tank 		| Support 	| High ammo efficiency; strong starting ammo; high HP regen cap       | Very slow movement speed; low damage (except with MGs)                        |
-| Tool Specialist 	| Support 	| Support 	| Effective & efficient with all tools and items                      | Low starting & max ammo; no offensive benefits                                |
+| Specialist 	    | Support 	| Support 	| Effective & efficient with all tools and items                      | Low starting & max ammo; no offensive benefits                                |
 | Field Technician 	| Damage 	| Support 	| Stronger & faster sentries; fast terminal & hacking skills          | Low base damage (melee & ranged); low starting ammo                           |
 | Prisoner 			| Neutral 	| B-Company | No major strengths; closer to vanilla experience                    | No major weaknesses; closer to vanilla experience                             |
 | HEL Diver 		| Damage 	| B-Company | Strong HEL gun damage; fast terminal & hacking; high movement speed | High friendly fire damage; fragile; low base HP & regen cap                   |
 | Abhuman 			| Tank 		| B-Company | Very high base HP; strong melee damage; extended hitbox/range       | Poor with terminals & sentries; low starting ammo; reduced movement           |
 | Deprived 			| Damage 	| B-Company | High resistances; strong damage; melee armor; fast objectives       | Extremely fragile esp. against projectile; low starting ammo                  |
+| Courier 			| Damage 	| B-Company | A strong damage potential with precision-based weapons              | Very poor resistance to Infection/Explosion/Bullet/Bleed with lowered max ammo|
 
 ###### Weapons:
 
@@ -100,26 +91,26 @@ This project has been in the works for years. Until now, it's only been shared p
 | TR22 Hanaway        	| Hanaway DMR						| Standard bullets												| Hitscan			|
 | Hanaway PSB         	| Hanaway Double-Tap				| Standard bullets												| Hitscan			|
 | Malatack LX         	| Van Auken Heavy Rifle				| Standard bullets												| Hitscan			|
-| Malatack CH 4       	| Mastaba Explosive Shrapnel Rifle	| Explosive burst; charge-up; shrapnel              			| Projectile		|
+| Malatack CH 4       	| Mastaba Explosive Rifle	        | Explosive burst; charge-up; shrapnel              			| Projectile		|
 | Drekker Pres Mod 556	| Malatack Assault Rifle			| Standard bullets												| Hitscan			|
 | Buckland SBS III    	| Buckland Triple-Barrel			| Standard bullets; hold aim to fire all shots		            | Hitscan			|
-| Bataldo J 300       	| Buckland Hemorrhage Shotgun		| Standard bullets; applies DoT bleed                           | Hitscan			|	
-| Bataldo Custom K330 	| Bataldo Single Slug				| High-precision slug; fast reload                              | Hitscan			|
+| Bataldo J 300       	| Buckland HEL Shotgun      		| Standard bullets; applies DoT bleed                           | Hitscan			|	
+| Bataldo Custom K330 	| Bataldo Single Slugger			| High-precision slug; fast reload                              | Hitscan			|
 | Malatack HXC        	| Malatack AR-30					| Standard bullets 												| Hitscan			|
 | Drekker CLR         	| Techman Exp. Smart Rifle			| Lock-on required; auto-aim homing		                    	| Projectile/Homing	|
 | Buckland S870       	| Bataldo Pump Action				| Standard bullets												| Hitscan			|
-| Buckland AF6        	| Buckland Reserve Hemorrhage Shotty| Reserve ammo; no reload                                       | Hitscan			|
+| Buckland AF6        	| Buckland Hemorrhage Shotgun       | Reserve ammo; no reload                                       | Hitscan			|
 | Buckland INEX Drei  	| Mastaba Explosive Shotgun			| Explosive rounds; charge-up                                   | Projectile		|
 | Buckland XDIST2     	| Buckland Choke Shotgun			| Standard bullets												| Hitscan			|
 | Mastaba R66         	| Bataldo Heavy Revolver			| Hold trigger for rapid fire; richochet on terrain             | Hitscan			|
 | Techman Arbalist V  	| Raptus LMG						| Standard bullets                                              | Hitscan			|
 | Techman Veruta XII  	| Raptus Reserve HMG				| Reserve ammo; no reload                                       | Hitscan			|
-| Techman Klust 6     	| Mastaba Explosive Shrapnel Cannon	| Explosive burst; charge-up; shrapnel					    	| Projectile/Gravity|
+| Techman Klust 6     	| Mastaba Explosive Cannon      	| Explosive burst; charge-up; shrapnel					    	| Projectile/Gravity|
 | Omneco Exp1         	| Hanaway Hemorrhage HEL			| Standard bullets; applies DoT                                 | Hitscan			|
 | Shelling Arid 5	  	| Shelling Bolt Pistol				| Standard bullets                                  			| Hitscan			|
 | Drekker Del P1      	| Omneco Tracker Rifle				| Tags target on hit                                            | Hitscan			|
-| Köning PR 11        	| Van Auken W-Pen Sniper Rifle		| Wall-penetration bullets                                      | Hitscan			|
-| Omneco LRG          	| Techman Nano-Payload Gauss Rifle	| Nano-Burst Gobules on kill seeks nearby target                | Hitscan/Projectile|
+| Köning PR 11        	| Van Auken Sniper Rifle    		| Wall-penetration bullets                                      | Hitscan			|
+| Omneco LRG          	| Techman Nano Gauss Rifle      	| Nano-Burst Gobules on kill seeks nearby target                | Hitscan/Projectile|
 
 #### Melee:
 
@@ -147,7 +138,7 @@ This project has been in the works for years. Until now, it's only been shared p
 | Burst Turret	| Medium	| Burst Fire, Shot Delays cause leaks in defense	| Consistent Damage, & Reliable						| Easily Overwhelmed & Requires Sufficient Space	|
 | Auto Turret 	| Short	 	| Holds Choke Points, but wastes a lot of bullets	| High Stagger Damage, & High Ammo Cap				| Poor Accuracy, & Very Ammo Hungry					|
 | Sniper Turret	| Long		| Alt. to snipers, but fires at Tagged targets ONLY	| Very High Single-target Damage, & Ammo Efficient	| Poor Defense, & Long Setup						|
-| Shotgun 		| Short		| Destroys Choke Points, but struggles w/open rooms	| High Close-Range Damage, & CTRL+ALT Delete chokes	| Placement Dependent, & Quite Ammo Hungry			|
+| Shotgun Turret| Short		| Destroys Choke Points, but struggles w/open rooms	| High Close-Range Damage, & CTRL+ALT Delete chokes	| Placement Dependent, & Quite Ammo Hungry			|
 
 #### Enemies:
 
@@ -161,11 +152,11 @@ This project has been in the works for years. Until now, it's only been shared p
 | Strikers					| Higher HP, but less damage											| N/A, just punch'em.																		|
 | Needlers(Shooter) 		| Stronger overall damage, but more fragile								| N/A, just shoot'em.																		|
 | Large Strikers  			| Tongue grabs player to its melee range; cannot parry the pull			| Loves pulling teammates out of bioscans, either kill or disable(Medic Gun or Foam Pistol).|
-| Scouts 					| EMP(45.0s) after scream, invul. during EMP wind-up					| EMPs disable all, but glowsticks, fog repellers, and tripmines. Try Tool Specialists!		|
+| Scouts 					| EMP(45.0s) after scream, invul. during EMP wind-up; Longer feelers	| EMPs disable all, but glowsticks, fog repellers, and tripmines. Try the Specialist class!	|
 | Birther 			        | Increased HP; Birth Children that will explode on death				| Kill the babies first, then kill the mothers fast.										|
 | Stalkers(Snatcher) 		| Significant HP increase; snatched players take damage(3% over 10s)    | Takes longer to kill and can kill players now. They should not be ignored.				|
 | Large & Bloom Needlers	| Inflicts bleed(50% Chance) for 2.5% damage over 5.0s; stackable		| They are high-priority targets otherwise the team will suffer major damage.               |
-| Flyers                	| Fires explosive projectiles for 5% over 2.5m to 5.0m          		| Shoot them down quicky before they inflict too much AoE damage.                      	    |
+| Flyers                	| Fires explosive projectiles for 5% damage over 2.5m to 5.0m          	| Shoot them down quicky before they inflict too much AoE damage.                      	    |
 | Tanks						| Significant increase in HP & high knockback; door buster				| Significantly longer to kill, their knockback is annoying, and don`t close doors on them.	|
 
 * Variants will have traits and abilities listed above while also having extra perks mentioned below.
@@ -175,7 +166,7 @@ This project has been in the works for years. Until now, it's only been shared p
 | Large 		| Signicantly increased health and stagger resistance						|
 | Charger 		| HP Regen(80% Cap) if not damaged within 5 seconds, damage resets timer	|
 | Nightmare  	| Inflicts infection on all attacks	& scout screams							|
-| Shadow 		| Mainly unchanged, slightly increased Tag time by 3s	            		|
+| Shadow 		| Infected Fog Spheres on death, slightly increased Tag time by 3s	        |
 | Child			| Explode on Death, can cause a chain reaction								|
 
 ## Extras:
