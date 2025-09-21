@@ -3,7 +3,7 @@
     "Header": "Marine",
     "GroupPersistentId": 0,
     "PersistentId": 9,
-    "InfoText": "Excels at ranged combat, but lacks melee strength.\n<color=yellow>Specializes: Assault Rifles/Bullpup Rifles/Carbines/DMRs</color>\n\n<color=green>Strengths: +40% Specialized Ranged Damage, +30% Projectile Armor, +50% Bleed Res., +20% Initial Ranged Ammo</color>\n\n<color=red>Weaknesses: -40% Melee Armor & Damage</color>",
+    "InfoText": "Excels at ranged combat, but lacks melee strength.\n<color=yellow>Specializes: Assault Rifles/Bullpup Rifles/Carbines</color>\n\n<color=green>Strengths: +40% Specialized Ranged Damage, +30% Projectile Armor, +50% Bleed Res., +20% Initial Ranged Ammo</color>\n\n<color=red>Weaknesses: -40% Melee Armor & Damage</color>",
     "Levels": [
       {
         "LevelNumber": 0,
@@ -33,18 +33,18 @@
     ]
   },
   {
-    "Header": "Covert Ops",
+    "Header": "Covert Op",
     "GroupPersistentId": 0,
     "PersistentId": 8,
-    "InfoText": "Excels at speed and precision, but lacks durability.\n<color=yellow>Specializes: Melee/Snipers/Precision Rifles/Movement Spd.</color>\n\n<color=green>Strengths: +50% Sniper/Precision Rifle & Melee Damage, +20% Movement Spd., Double Jump</color>\n\n<color=red>Weaknesses: -50% Melee & Projectile Armor, -20% Max Health</color>",
+    "InfoText": "Excels at speed and precision, but lacks durability.\n<color=yellow>Specializes: Melee/Snipers/DMRs/Movement Spd.</color>\n\n<color=green>Strengths: +60% Sniper Rifle/DMR & Melee Damage, +20% Movement Spd., Double Jump</color>\n\n<color=red>Weaknesses: -50% Melee & Projectile Armor, -30% Max Health</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Covert Ops\n<color=green>Sniper/Rifle & Melee Damage 150%, Movement Spd 120%, Double Jump</color>\n<color=red>Max Health 80%, Melee & Projectile Armor 50%</color>",
-        "HealthMultiplier": 0.8,
-        "MeleeDamageMultiplier": 1.5,
+        "CustomLevelStatsText": "Class: Covert Op\n<color=green>Sniper Rifle/DMR & Melee Damage 160%, Movement Spd 120%, Double Jump</color>\n<color=red>Max Health 70%, Melee & Projectile Armor 50%</color>",
+        "HealthMultiplier": 0.7,
+        "MeleeDamageMultiplier": 1.6,
         "WeaponDamageMultiplier": 1.0,
         "CustomScaling": [
           {
@@ -57,7 +57,7 @@
     ]
   },
   {
-    "Header": "EOD Specialist",
+    "Header": "Demolitionist",
     "GroupPersistentId": 0,
     "PersistentId": 11,
     "InfoText": "Excels at explosive ordnances, but lacks precision and hacking.\n<color=yellow>Specializes: Explosive Resistance/Tripmines/Explosive Cannon & Rifle</color>\n\n<color=green>Strengths: +30% Burst Cannon/Rifle Damage, +50% Tripmine Damage, +80% Explosive Resistance</color>\n\n<color=red>Weaknesses: -30% Ranged Damage except Specialized Guns, -55% Hacking Skills, -50% Terminal CPU, -50% Sentry CPU, -30% Sentry Damage</color>",
@@ -66,7 +66,7 @@
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: EOD Specialist\n<color=green>Explosive Cannon/Rifle 130%, Tripmine Damage 150%, Explosive Res. 180%</color>\n<color=red>Ranged Damage except Specialized Guns 70%, Hacking Skill 45%, Terminal CPU 50%, Sentry CPU 50%, Sentry Damage 70%</color>",
+        "CustomLevelStatsText": "Class: Demolitionist\n<color=green>Explosive Cannon/Rifle 130%, Tripmine Damage 150%, Explosive Res. 180%</color>\n<color=red>Ranged Damage except Specialized Guns 70%, Hacking Skill 45%, Terminal CPU 50%, Sentry CPU 50%, Sentry Damage 70%</color>",
         "HealthMultiplier": 1.0,
         "MeleeDamageMultiplier": 1.0,
         "WeaponDamageMultiplier": 1.0,
@@ -187,16 +187,16 @@
     ]
   },
   {
-    "Header": "Tool Specialist",
+    "Header": "Specialist",
     "GroupPersistentId": 1,
     "PersistentId": 14,
-    "InfoText": "Excels at utility support, but lacks any offensive & defensive benefits.\n<color=yellow>Specializes: Fog Repeller & Turbine/Biotracker/Glowstick/Glue Gun</color>\n\n<color=green>Strengths: +25% Glue Strength & Efficiency, +150% Glowstick Power, +50% Bioscan Spd. & Scanner Recharge, +75% Fog Repeller/Turbine Power, +30% Tool Cost Efficiency</color>\n\n<color=red>Weaknesses: -30% Initial Ammo, Ammo Cost Efficiency -30%</color>",
+    "InfoText": "Excels at utility support, but lacks any offensive & defensive benefits.\n<color=yellow>Specializes: Fog Repeller & Turbine/Biotracker/Glowstick/Glue Gun</color>\n\n<color=green>Strengths: +25% Glue Strength & Efficiency, +150% Glowstick Power, +50% Bioscan Spd. & Scanner Recharge, +75% Fog Repeller/Turbine Power, +30% Tool Cost Efficiency</color>\n\n<color=red>Weaknesses: -30% Initial Ammo, -30% Ammo Cost Efficiency</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Tool Specialist\n<color=green>Glue Strength & Efficiency 125%, Glowstick Power 250%, Bioscan Spd. & Scanner Recharge 150%, Fog Repeller/Turbine Power 175%, Tool Cost Efficiency 130%</color>\n<color=red>Initial Ammo 70%, Ammo Cost Efficiency 70%</color>",
+        "CustomLevelStatsText": "Class: Specialist\n<color=green>Glue Strength & Efficiency 125%, Glowstick Power 250%, Bioscan Spd. & Scanner Recharge 150%, Fog Repeller/Turbine Power 175%, Tool Cost Efficiency 130%</color>\n<color=red>Initial Ammo 70%, Ammo Cost Efficiency 70%</color>",
         "HealthMultiplier": 1,
         "MeleeDamageMultiplier": 1,
         "WeaponDamageMultiplier": 1,
@@ -227,20 +227,24 @@
     "Header": "Field Technician",
     "GroupPersistentId": 1,
     "PersistentId": 15,
-    "InfoText": "Excels at sentries & hacking, but lacks offensive benefits.\n<color=yellow>Specializes: Sentry/Computer Processing Power/Hacking Skill</color>\n\n<color=green>Strengths: +30% Sentry Damage, +30% Sentry CPUs, +40% Initial Tool Ammo, +55% Hacking Skill, +50% Terminal CPU, +75% Bullet Resistance, Double Jump</color>\n\n<color=red>Weaknesses: -30% Initial Ranged Ammo, -40% Ranged & Melee Damage</color>",
+    "InfoText": "Excels at sentries & hacking, but lacks offensive benefits.\n<color=yellow>Specializes: Sentry/Computer Processing Power/Hacking Skill</color>\n\n<color=green>Strengths: +50% Sentry Damage, +40% Sentry CPUs, +40% Initial Tool Ammo, +60% Hacking Skill, +50% Terminal CPU, +75% Bullet Resistance, Double Jump</color>\n\n<color=red>Weaknesses: -30% Initial Ranged Ammo, -40% Ranged & Melee Damage, -10% Ammo Cost Efficiency</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Field Technician\n<color=green>Sentry Damage 130%, Sentry CPUs 130%, Initial Tool Ammo 140%, Hacking Skill 155%, Terminal CPU 150%, Bullet Resistance 175%</color>\n<color=red>Initial Ranged Ammo 70%, Ranged & Melee Damage 60%</color>",
+        "CustomLevelStatsText": "Class: Field Technician\n<color=green>Sentry Damage 150%, Sentry CPUs 140%, Initial Tool Ammo 140%, Hacking Skill 160%, Terminal CPU 150%, Bullet Resistance 175%</color>\n<color=red>Initial Ranged Ammo 70%, Ranged & Melee Damage 60%, Ammo Cost Efficiency 90%</color>",
         "HealthMultiplier": 1,
         "MeleeDamageMultiplier": 0.6,
-        "WeaponDamageMultiplier": 0.6,
+        "WeaponDamageMultiplier": 1.0,
         "CustomScaling": [
           {
             "CustomBuff": "BulletResistance",
             "Value": 1.75
+          },
+          {
+            "CustomBuff": "AmmoEfficiency",
+            "Value": 0.89
           }
         ],
         "LevelUpBonus": [
@@ -264,13 +268,13 @@
     "Header": "Prisoner",
     "GroupPersistentId": 2,
     "PersistentId": 20,
-    "InfoText": "You get no benefits or detriments from the class system. More akin to the regular experience.",
+    "InfoText": "You get no benefits or detriments from the class system. More akin to the regular experience.\n\n<color=red>Warning: This class may be more challenging to play because other changes made outside the class system is still applied.</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Prisoner\nYou are fodder, complete the objectives. Make no mistake, failure will result in a fate worse than death. Are we clear?",
+        "CustomLevelStatsText": "Class: Prisoner\nYou are fodder, complete the objectives. Make no mistake, failure will result in a fate worse than death.",
         "HealthMultiplier": 1,
         "MeleeDamageMultiplier": 1,
         "WeaponDamageMultiplier": 1,
@@ -311,28 +315,28 @@
     "Header": "Abhuman",
     "GroupPersistentId": 2,
     "PersistentId": 22,
-    "InfoText": "Big strong. Not smart. Hit hard. Good friend. Follow orders. Kill h-h-h-eretics. That's plan! Lubb me Emprah, sah!\n<color=yellow>Specializes: Health & Melee</color>\n\n<color=green>Strengths: +100% Max Health, +50% Health Regen Cap, +50%, Melee Damage, +125% Melee Range & Hitbox</color>\n\n<color=red>Weaknesses: -50% Initial Weapon Ammo, -70% Hacking Skill, -50% Terminal CPU & Sentry CPU, -40% Movement Spd., -50% Bioscan Spd. & Recharge Spd.</color>",
+    "InfoText": "Big strong. Not smart. Hit hard. Good friend. Follow orders. Kill h-h-h-eretics. That's plan! Lubb me Emprah, sah!\n<color=yellow>Specializes: Health & Melee</color>\n\n<color=green>Strengths: +150% Max Health, +50% Health Regen Cap, +75% Melee Damage, +25% Melee Range & Hitbox</color>\n\n<color=red>Weaknesses: -50% Initial Weapon Ammo, -70% Hacking Skill, -50% Terminal CPU & Sentry CPU, -30% Movement Spd., -50% Bioscan Spd. & Recharge Spd.</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Abhuman\n<color=green>Max Health 200%, Health Regen Cap 150%, Melee Damage 225%, Melee Range & Hitbox 120%</color>\n<color=red>Initial Weapon Ammo 50%, Hacking Skill 30%, Terminal CPU & Sentry CPU 50%, Movement Spd. 60%, Bioscan Spd. & Recharge Spd. 50%</color>",
-        "HealthMultiplier": 2.0,
-        "MeleeDamageMultiplier": 2.25,
+        "CustomLevelStatsText": "Class: Abhuman\n<color=green>Max Health 250%, Health Regen Cap 150%, Melee Damage 175%, Melee Range & Hitbox 125%</color>\n<color=red>Initial Weapon Ammo 50%, Hacking Skill 30%, Terminal CPU & Sentry CPU 50%, Movement Spd. 70%, Bioscan Spd. & Recharge Spd. 50%</color>",
+        "HealthMultiplier": 2.5,
+        "MeleeDamageMultiplier": 1.75,
         "WeaponDamageMultiplier": 1,
         "CustomScaling": [
           {
             "CustomBuff": "MovementSpeedMultiplier",
-            "Value": 0.6
+            "Value": 0.7
           },
           {
             "CustomBuff": "MeleeRangeMultiplier",
-            "Value": 1.2
+            "Value": 1.25
           },
           {
             "CustomBuff": "MeleeHitBoxSizeMultiplier",
-            "Value": 1.2
+            "Value": 1.25
           }
         ],
         "LevelUpBonus": [
@@ -396,6 +400,63 @@
           {
             "SingleBuff": "InitialAmmoTool",
             "Value": -0.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Header": "Courier",
+    "GroupPersistentId": 2,
+    "PersistentId": 24,
+    "InfoText": "Hardly spoke to folks around him, didn't have too much to say. No one dared to ask his business, no one dared to make a slip.\n<color=yellow>Specializes: The stranger there among them had a big iron on his hip.</color>\n\n<color=green>Strengths: +50% Heavy Revolver/Sniper/Shotgun/Tripmine, +10% Movement Spd., +20% Initial Ammo/Tool</color>\n\n<color=red>Weaknesses: -70% Infection/Explosion/Bullet/Bleed Res., -20% Ammo/Tool Cost Efficiency</color>",
+    "Levels": [
+      {
+        "LevelNumber": 0,
+        "TotalXpRequired": 0,
+        "CustomLevelUpPopupText": null,
+        "CustomLevelStatsText": "Class: Courier\n<color=green>Heavy Revolver/Sniper/Shotgun/Tripmine 150%, Movement Spd. 110%, Initial Ammo/Tool 120%</color>\n<color=red>Infection/Explosion/Bullet/Bleed Res. 30%, Ammo/Tool Cost Efficiency 80%</color>",
+        "HealthMultiplier": 1.0,
+        "MeleeDamageMultiplier": 1.0,
+        "WeaponDamageMultiplier": 1.0,
+        "CustomScaling": [
+          {
+            "CustomBuff": "MovementSpeedMultiplier",
+            "Value": 1.1
+          },
+          {
+            "CustomBuff": "BleedResistance",
+            "Value": 0.3
+          },
+          {
+            "CustomBuff": "BulletResistance",
+            "Value": 0.3
+          },
+          {
+            "CustomBuff": "ExplosionResistance",
+            "Value": 0.3
+          },
+          {
+            "CustomBuff": "AmmoEfficiency",
+            "Value": 0.79
+          },
+          {
+            "CustomBuff": "ToolEfficiency",
+            "Value": 0.79
+          }
+        ],
+        "LevelUpBonus": [
+          {
+            "SingleBuff": "AmmunitionMain",
+            "Value": 0.2
+          },
+		      {
+            "SingleBuff": "AmmunitionSpecial",
+            "Value": 0.2
+          },
+          {
+            "SingleBuff": "InitialAmmoTool",
+            "Value": 0.2
           }
         ]
       }
