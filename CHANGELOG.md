@@ -2,9 +2,24 @@
 
 ### **v1.4.1** - Latest
 
+### Class Tweaks:
+* Paramedic:
+    * Decreased Medipack Efficiency bonus from `+50%` to `+30%`
+* Quartermaster:
+    * Decreased Supply Pack Efficiency bonus from `+50%` to `+30%`
+> Dev Note: I might have overtuned this bonus after more testing and receiving feedback.
+
+### Booster Tweaks:
+* Decreased Muted/Bold/Aggressive Medipack Efficiency by flat `5%`
+* Decreased Muted/Bold/Aggressive Supply Pack Efficiency by flat `5%`
+> Dev Note: Similar to the class tweaks on the same bonuses, this was slightly overtuned. The total potential value with boosters stacked has decreased from `45%` to `30%`.
+
 ### Weapon Tweaks:
 * Added `MirrorWeapons` mod by Dinorush
-> Dev Note: Main and Special weapon slots have been unlocked. There is no longer a restriction to have a Special weapon in a Main slot. For example, you can carry both the Thermal Precision Rifle and Sniper Rifle or both DMRs. This will significantly open up build diversity potential for players to experiment with their chosen class. If you want to do weird or stupid loadouts like bring two sniper rifles or two HMGs as your two guns then go crazy.
+> Dev Note: Main and Special weapon slots have been unlocked. There is no longer a restriction to have a Special weapon in a Main slot. For example, you can carry both the Thermal Precision Rifle and Sniper Rifle or both DMRs. This will significantly open up build diversity potential for players to experiment with their chosen class.
+* Rearranged all weapons to be easier to scroll through the expanded list. It's in `alphabetical` order based on the weapon's brand not its actual name.
+* Disabled the option to equip two of the same weapons in both slots.
+> Dev Note: You cannot equip two Van Auken's Sniper Rifle in both slots. Sorry.
 
 ### Player Tweaks:
 * Decreased AmmoStandardInitial from `350` to `300`
@@ -12,41 +27,11 @@
 * Increased AmmoSpecialInitial from `250` to `300`
 * Increased AmmoSpecialMaxCap from `450` to `550`
 * Increased AmmoSpecialResourcePackMaxCap from `350` to `400`
-> Dev Note: Lots of new potential options thanks to the MirrowWeapons mod. To prevent some balancing issues, I will have to readjust a lot of the weapons to be more unified in its initial ammo, max ammo capacity, and resupply efficiency numbers. As a result, Special weapons will get an ammo buff while Main weapons will get the opposite. This would mean that Ammo Supply Efficiency will be more important than before, so try out Quartermaster and the appropriate boosters.
+> Dev Note: Lots of new potential options thanks to the MirrorWeapons mod. To prevent some balancing issues, I will have to readjust a lot of the weapons to be more unified in its initial ammo, max ammo capacity, and resupply efficiency numbers. As a result, Special weapons will get an ammo buff while Main weapons will get the opposite. This would mean that Ammo Supply Efficiency will be more important than before, so try out Quartermaster and the appropriate boosters.
 
 ### Ammo Tweaks:
-* All former special weapon's bullet cost has been increased between `1.0 - 10.0` based on respective weapons. This is to counteract the new increased unified maximum ammo capacity.
-
-* Malatack AR-30:
-    *  Max Ammo Capacity from `255` to ``
-* Techman Exp. Smart Rifle:
-    *  Max Ammo Capacity from `300` to ``
-* Bataldo Pump-Action:
-    *  Max Ammo Capacity from `58` to ``
-* Buckland HEL Shotgun:
-    *  Max Ammo Capacity from `140` to ``
-* Mastaba Explosive Shotgun:
-    *  Max Ammo Capacity from `30` to ``
-* Buckland Choke Shotgun:
-    *  Max Ammo Capacity from `54` to ``
-* Bataldo Heavy Revolver:
-    *  Max Ammo Capacity from `118` to ``
-* Raptus LMG:
-    *  Max Ammo Capacity from `360` to ``
-* Raptus Reserve HMG:
-    *  Max Ammo Capacity from `742` to ``
-* Mastaba Explosive Cannon:
-    *  Max Ammo Capacity from `50` to ``
-* Hanaway Hemorrhage HEL:
-    *  Max Ammo Capacity from `91` to ``
-* Shelling Bolt Pistol:
-    *  Max Ammo Capacity from `85` to ``
-* Omneco Tracker Rifle:
-    *  Max Ammo Capacity from `98` to ``
-* Van Auken's Sniper Rifle:
-    *  Max Ammo Capacity from `20` to ``
-* Techman Nano Gauss Rifle:
-    *  Max Ammo Capacity from `40` to ``
+* All former special weapon's bullet cost has been increased between `0.1 - 5.0` based on respective weapons. 
+> Dev Note: This was done to counteract the new increased unified maximum ammo capacity.
 
 ---
 

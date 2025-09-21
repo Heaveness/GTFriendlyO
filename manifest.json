@@ -1,6 +1,6 @@
 {
     "name": "GTFriendlyO",
-    "version_number": "1.4.0",
+    "version_number": "1.4.1",
     "website_url": "https://github.com/Heaveness/GTFriendlyO",
     "description": "A major overhaul of GTFO's vanilla gameplay, designed for a more casual but still fun and challenging experience with friends.",
     "dependencies": [
@@ -28,6 +28,7 @@
         "DacreDOLOLO-WeaponStatShower-1.4.0",
         "Endskill-Custom_Boosters-1.2.0",
         "Cactus-WorseHackingMiniGame-1.0.0",
-        "GTFOModding-BetterBioTracker-1.0.1"
+        "GTFOModding-BetterBioTracker-1.0.1",
+        "Dinorush-MirrorWeapons-1.0.0"
     ]
 }
