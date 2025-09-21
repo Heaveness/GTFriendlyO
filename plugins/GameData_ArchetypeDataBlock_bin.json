@@ -667,7 +667,7 @@
       "PrecisionDamageMulti": 0.8,
       "DefaultClipSize": 30,
       "DefaultReloadTime": 1.8,
-      "CostOfBullet": 2.0,
+      "CostOfBullet": 2.44,
       "ShotDelay": 0.095,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -867,7 +867,7 @@
       "PrecisionDamageMulti": 1.3,
       "DefaultClipSize": 36,
       "DefaultReloadTime": 1.7,
-      "CostOfBullet": 1.7,
+      "CostOfBullet": 2.08,
       "ShotDelay": 0.1,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -1449,7 +1449,7 @@
       "PrecisionDamageMulti": 0.8,
       "DefaultClipSize": 10,
       "DefaultReloadTime": 3.3,
-      "CostOfBullet": 5.5,
+      "CostOfBullet": 6.75,
       "ShotDelay": 0.1,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -1546,7 +1546,7 @@
       "PrecisionDamageMulti": 0.734,
       "DefaultClipSize": 5,
       "DefaultReloadTime": 4.0,
-      "CostOfBullet": 10.0,
+      "CostOfBullet": 12.0,
       "ShotDelay": 0.06,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -1643,7 +1643,7 @@
       "PrecisionDamageMulti": 0.7413,
       "DefaultClipSize": 60,
       "DefaultReloadTime": 3.4,
-      "CostOfBullet": 1.5,
+      "CostOfBullet": 1.83,
       "ShotDelay": 0.13,
       "ShellCasingSize": 1.5,
       "ShellCasingSpeedRange": {
@@ -1740,7 +1740,7 @@
       "PrecisionDamageMulti": 0.7413,
       "DefaultClipSize": 100,
       "DefaultReloadTime": 5.4,
-      "CostOfBullet": 0.7,
+      "CostOfBullet": 0.856,
       "ShotDelay": 0.08,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -2425,7 +2425,7 @@
       "PrecisionDamageMulti": 4.0,
       "DefaultClipSize": 2,
       "DefaultReloadTime": 4.3,
-      "CostOfBullet": 25.0,
+      "CostOfBullet": 30.0,
       "ShotDelay": 2.0,
       "ShellCasingSize": 3.0,
       "ShellCasingSpeedRange": {
@@ -2813,7 +2813,7 @@
       "PrecisionDamageMulti": 1.0,
       "DefaultClipSize": 8,
       "DefaultReloadTime": 3.0,
-      "CostOfBullet": 9.0,
+      "CostOfBullet": 11.0,
       "ShotDelay": 0.6,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -3013,7 +3013,7 @@
       "PrecisionDamageMulti": 0.7333,
       "DefaultClipSize": 4,
       "DefaultReloadTime": 3.2,
-      "CostOfBullet": 17.0,
+      "CostOfBullet": 21.0,
       "ShotDelay": 0.65,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -3110,7 +3110,7 @@
       "PrecisionDamageMulti": 1.0,
       "DefaultClipSize": 4,
       "DefaultReloadTime": 2.7,
-      "CostOfBullet": 9.0,
+      "CostOfBullet": 11.0,
       "ShotDelay": 0.05,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -3304,7 +3304,7 @@
       "PrecisionDamageMulti": 0.7413,
       "DefaultClipSize": 10,
       "DefaultReloadTime": 3.0,
-      "CostOfBullet": 5.5,
+      "CostOfBullet": 6.1,
       "ShotDelay": 0.2625,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -3504,7 +3504,7 @@
       "PrecisionDamageMulti": 0.95,
       "DefaultClipSize": 6,
       "DefaultReloadTime": 2.15,
-      "CostOfBullet": 4.0,
+      "CostOfBullet": 4.9,
       "ShotDelay": 0.25,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -3860,7 +3860,7 @@
       "PrecisionDamageMulti": 1.5,
       "DefaultClipSize": 3,
       "DefaultReloadTime": 3.5,
-      "CostOfBullet": 12.0,
+      "CostOfBullet": 14.5,
       "ShotDelay": 0.1,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -3957,7 +3957,7 @@
       "PrecisionDamageMulti": 1.3,
       "DefaultClipSize": 8,
       "DefaultReloadTime": 2.7,
-      "CostOfBullet": 5.0,
+      "CostOfBullet": 6.1,
       "ShotDelay": 0.28,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -4151,7 +4151,7 @@
       "PrecisionDamageMulti": 0.7413,
       "DefaultClipSize": 5,
       "DefaultReloadTime": 2.6,
-      "CostOfBullet": 5.6,
+      "CostOfBullet": 6.8,
       "ShotDelay": 0.9,
       "ShellCasingSize": 1.9,
       "ShellCasingSpeedRange": {
