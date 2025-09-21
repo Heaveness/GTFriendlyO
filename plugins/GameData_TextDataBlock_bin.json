@@ -48332,7 +48332,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Rifle",
+      "English": "Semi-Auto Rifle (Assault Rifle)",
       "Description": "A firearm category.",
       "CharacterMetaData": 1,
       "French": {
@@ -48444,7 +48444,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Rifle",
+      "English": "Semi-Auto Rifle (Assault Rifle)",
       "Description": "A firearm category.",
       "CharacterMetaData": 1,
       "French": {
@@ -48556,7 +48556,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Explosive Burst Rifle",
+      "English": "3-Burst Rifle (Explosive)",
       "Description": "A firearm category.",
       "CharacterMetaData": 1,
       "French": {
@@ -48668,7 +48668,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Assault Rifle",
+      "English": "Extended Mag AR (Assault Rifle)",
       "Description": "A firearm category.",
       "CharacterMetaData": 1,
       "French": {
@@ -48892,7 +48892,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Heavy Assault Rifle",
+      "English": "Full-Auto Heavy Rifle (Assault Rifle)",
       "Description": "A firearm category.",
       "CharacterMetaData": 1,
       "French": {
@@ -49004,7 +49004,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Lock-on Homing Rifle",
+      "English": "Lock-On Homing Subgun (SMG)",
       "Description": "A firearm category.",
       "CharacterMetaData": 1,
       "French": {
@@ -49060,7 +49060,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "3-Burst Carbine",
+      "English": "3-Burst Rifle (Carbine)",
       "Description": "A firearm category.",
       "CharacterMetaData": 1,
       "French": {
@@ -49172,7 +49172,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Heavy SMG",
+      "English": "Heavy Subgun (SMG)",
       "Description": "A firearm category.",
       "CharacterMetaData": 1,
       "French": {
@@ -49284,7 +49284,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Healing/Venomous SMG",
+      "English": "Healing/Venomous Subgun (SMG)",
       "Description": "A firearm category.",
       "CharacterMetaData": 1,
       "French": {
@@ -49396,7 +49396,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "HEL Gun",
+      "English": "Hemorrhage Long Arm (HEL)",
       "Description": "A firearm category. \"HEL\" stands for \"Hybrid Electrothermal Light-gas\", which is the propulsion system that launches the weapon's projectiles.",
       "CharacterMetaData": 1,
       "French": {
@@ -49508,7 +49508,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Explosive Burst Cannon",
+      "English": "Burst Cannon (Explosive)",
       "Description": "A firearm category.",
       "CharacterMetaData": 1,
       "French": {
@@ -49620,7 +49620,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Light Machine Gun",
+      "English": "Light Machine Gun (LMG)",
       "Description": "A firearm category.",
       "CharacterMetaData": 1,
       "French": {
@@ -49732,7 +49732,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Heavy Machine Gun",
+      "English": "Heavy Machine Gun (HMG)",
       "Description": "A firearm category.",
       "CharacterMetaData": 1,
       "French": {
@@ -49844,7 +49844,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "DMR",
+      "English": "Designated Marksman Rifle (DMR)",
       "Description": "A firearm category. \"DMR\" stands for \"designated marksman rifle.\"",
       "CharacterMetaData": 1,
       "French": {
@@ -49956,7 +49956,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "DMR",
+      "English": "Designated Marksman Rifle (DMR)",
       "Description": "A firearm category. \"DMR\" stands for \"designated marksman rifle.\"",
       "CharacterMetaData": 1,
       "French": {
@@ -50068,7 +50068,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "2-Burst Rifle",
+      "English": "2-Burst Rifle (DMR)",
       "Description": "A firearm category.",
       "CharacterMetaData": 1,
       "French": {
@@ -50180,7 +50180,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Wall-Pen Sniper",
+      "English": "Wall-Pen Long Arm (Sniper)",
       "Description": "A firearm category.",
       "CharacterMetaData": 1,
       "French": {
@@ -50292,7 +50292,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Shotgun",
+      "English": "Pump-Action Scattergun (Shotgun)",
       "Description": "A firearm category.",
       "CharacterMetaData": 1,
       "French": {
@@ -50460,7 +50460,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Choke Mod Shotgun",
+      "English": "Choke Mod Scattergun (Shotgun)",
       "Description": "A firearm category. A \"choke\" is a modification to the muzzle of the shotgun, which concentrates the pellets being shot so that the weapon is more accurate/precise.",
       "CharacterMetaData": 1,
       "French": {
@@ -50572,7 +50572,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Combat Shotgun",
+      "English": "Reserve Combat Scattergun (Shotgun)",
       "Description": "A firearm category.",
       "CharacterMetaData": 1,
       "French": {
@@ -50684,7 +50684,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Heavy Fan Revolver",
+      "English": "Heavy Fan Handcannon (Revolver)",
       "Description": "A firearm category.",
       "CharacterMetaData": 1,
       "French": {
@@ -50796,7 +50796,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "HEL Fan Revolver",
+      "English": "Fan Handcannon (HEL)",
       "Description": "A firearm category. \"HEL\" stands for \"Hybrid Electrothermal Light-gas\", which is the propulsion system that launches the weapon's projectiles.",
       "CharacterMetaData": 1,
       "French": {
@@ -50908,7 +50908,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "HEL Gauss Rifle",
+      "English": "Nano-Gauss Long Arm (HEL)",
       "Description": "A firearm category. \"HEL\" stands for \"Hybrid Electrothermal Light-gas\", which is the propulsion system that launches the weapon's projectiles.",
       "CharacterMetaData": 1,
       "French": {
@@ -51020,7 +51020,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Bio-Tag Pistol",
+      "English": "Bio-Tag Sidearm (Pistol)",
       "Description": "A firearm category.",
       "CharacterMetaData": 1,
       "French": {
@@ -51132,7 +51132,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Machine Pistol",
+      "English": "Full-Auto Sidearm (MP)",
       "Description": "A firearm category. A \"machine pistol\" is a fully automatic pistol.",
       "CharacterMetaData": 1,
       "French": {
@@ -51244,7 +51244,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "HEL Machine Pistol",
+      "English": "Reserve Full-Auto Sidearm (MP)",
       "Description": "A firearm category. An \"autopistol\" is a fully automatic pistol with staggering rounds. \"HEL\" stands for \"Hybrid Electrothermal Light-gas\", which is the propulsion system that launches the weapon's projectiles.\n\nIt's usually left intact, as \"HEL\".",
       "CharacterMetaData": 1,
       "French": {
@@ -51356,7 +51356,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Sawed-Off Shotgun",
+      "English": "Sawed-Off Scattergun (Shotgun)",
       "Description": "A firearm category.",
       "CharacterMetaData": 1,
       "French": {
@@ -51468,7 +51468,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "5-Burst Bullpup Rifle",
+      "English": "5-Burst Rifle (Bullpup)",
       "Description": "A firearm category. A \"bullpup\" firearm is one whose action is located behind the trigger instead of in front of it. This creates an overall more compact and maneuverable weapon",
       "CharacterMetaData": 1,
       "French": {
@@ -51580,7 +51580,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Targeting Sniper Sentry",
+      "English": "Bio-Target Sniper Turret (Sentry)",
       "Description": "A sentry gun category. A \"sniper sentry\" will fire more powerful semi automatic gunfire at targets at a long range.",
       "CharacterMetaData": 1,
       "French": {
@@ -51692,7 +51692,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "3-Burst Sentry",
+      "English": "3-Burst Turret (Sentry)",
       "Description": "A sentry gun category. A \"burst sentry\" will fire in bursts at targets.",
       "CharacterMetaData": 1,
       "French": {
@@ -51804,7 +51804,7 @@
     {
       "SkipLocalization": true,
       "MachineTranslation": false,
-      "English": "HEL MG Sentry",
+      "English": "HMG Turret (Sentry)",
       "Description": "A sentry gun category. An \"auto sentry\" will fire at targets with fully automatic gunfire.",
       "CharacterMetaData": 1,
       "French": {
@@ -51916,7 +51916,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Shotgun Sentry",
+      "English": "Shotgun Turret (Sentry)",
       "Description": "A sentry gun category.",
       "CharacterMetaData": 1,
       "French": {
@@ -86860,7 +86860,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Explosive Spread Shotgun",
+      "English": "Explosive Spread Scattergun (Shotgun)",
       "Description": "A type of shotgun",
       "CharacterMetaData": 1,
       "French": {
@@ -124592,7 +124592,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Thermal PDW",
+      "English": "Thermal Subgun (SMG)",
       "Description": "A firearm category.",
       "CharacterMetaData": 1,
       "French": {
@@ -124704,7 +124704,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "High Caliber Pistol",
+      "English": "High-Cal Sidearm (Pistol)",
       "Description": "",
       "CharacterMetaData": 1,
       "French": {
@@ -124816,7 +124816,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "HEL Shotgun",
+      "English": "Hemorrhage Scattergun (HEL)",
       "Description": "",
       "CharacterMetaData": 1,
       "French": {
@@ -124928,7 +124928,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Thermal Precision Rifle",
+      "English": "Thermal Long Arm (Sniper)",
       "Description": "A firearm category.",
       "CharacterMetaData": 1,
       "French": {
@@ -187984,7 +187984,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "Slug Shotgun",
+      "English": "Single Round Slugger (Shotgun)",
       "Description": "Weapon category name",
       "CharacterMetaData": 1,
       "French": {
@@ -188096,7 +188096,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "C-Foam Pistol",
+      "English": "C-Foam Sidearm (Pistol)",
       "Description": "A firearm category.",
       "CharacterMetaData": 1,
       "French": {
