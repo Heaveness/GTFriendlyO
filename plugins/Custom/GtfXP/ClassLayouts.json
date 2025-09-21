@@ -112,13 +112,13 @@
     "Header": "Paramedic",
     "GroupPersistentId": 1,
     "PersistentId": 12,
-    "InfoText": "Excels at player revives, infection, and support, but lacks offensive & defensive benefits.\n<color=yellow>Specializes: SMGs/Pistols/Player Revive</color>\n\n<color=green>Strengths: +100% Infection Res., +100% Revive Spd., +70% Revive Health, +50% Medipack Efficiency, -15% Health Regen Delay, +25% Bullet Resistance, Double Jump</color>\n\n<color=red>Weaknesses: -50% Ranged Damage except Specialized Guns, -25% Initial Ammo, -20% Max Weapon Ammo</color>",
+    "InfoText": "Excels at player revives, infection, and support, but lacks offensive & defensive benefits.\n<color=yellow>Specializes: SMGs/Pistols/Player Revive</color>\n\n<color=green>Strengths: +100% Infection Res., +100% Revive Spd., +70% Revive Health, +30% Medipack Efficiency, -15% Health Regen Delay, +25% Bullet Resistance, Double Jump</color>\n\n<color=red>Weaknesses: -50% Ranged Damage except Specialized Guns, -25% Initial Ammo, -20% Max Weapon Ammo</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Paramedic\n<color=green>Infection Res. 100%, Revive Spd. 200%, Revive Health 170%, Medipack Efficiency 150%, Health Regen Delay 85%, Bullet Resistance 125%</color>\n<color=red>Ranged Damage except Specialized Guns 50%, Initial Ranged Ammo 75%, Max Weapon Ammo 80%</color>",
+        "CustomLevelStatsText": "Class: Paramedic\n<color=green>Infection Res. 100%, Revive Spd. 200%, Revive Health 170%, Medipack Efficiency 130%, Health Regen Delay 85%, Bullet Resistance 125%</color>\n<color=red>Ranged Damage except Specialized Guns 50%, Initial Ranged Ammo 75%, Max Weapon Ammo 80%</color>",
         "HealthMultiplier": 1,
         "MeleeDamageMultiplier": 1,
         "WeaponDamageMultiplier": 1,
@@ -153,13 +153,13 @@
     "Header": "Quartermaster",
     "GroupPersistentId": 1,
     "PersistentId": 13,
-    "InfoText": "Excels at ammo efficiency and suppression, but lacks speed.\n<color=yellow>Specializes: HMG/LMG/MP/Max Ammo/Higher Regen Cap</color>\n\n<color=green>Strengths: +20% HMG/LMG/MP Damage, +30% Ammo Cost Efficiency, +20% Initial Ranged Ammo, +50% Supply Pack Efficiency, +40% Health Regen Cap</color>\n\n<color=red>Weaknesses: -50% Damage except Specialized Guns, -40% Movement Spd.</color>",
+    "InfoText": "Excels at ammo efficiency and suppression, but lacks speed.\n<color=yellow>Specializes: HMG/LMG/MP/Max Ammo/Higher Regen Cap</color>\n\n<color=green>Strengths: +20% HMG/LMG/MP Damage, +30% Ammo Cost Efficiency, +20% Initial Ranged Ammo, +30% Supply Pack Efficiency, +40% Health Regen Cap</color>\n\n<color=red>Weaknesses: -50% Damage except Specialized Guns, -40% Movement Spd.</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Quartermaster\n<color=green>HMG/LMG/MP Damage 120%, Ammo Cost Efficiency 130%, Initial Ranged Ammo 120%, Supply Pack Efficiency 150%, Health Regen Cap 140%</color>\n<color=red>Damage except Specialized Guns 50%, Movement Spd. 40%</color>",
+        "CustomLevelStatsText": "Class: Quartermaster\n<color=green>HMG/LMG/MP Damage 120%, Ammo Cost Efficiency 130%, Initial Ranged Ammo 120%, Supply Pack Efficiency 130%, Health Regen Cap 140%</color>\n<color=red>Damage except Specialized Guns 50%, Movement Spd. 40%</color>",
         "HealthMultiplier": 1,
         "MeleeDamageMultiplier": 1,
         "WeaponDamageMultiplier": 1,
