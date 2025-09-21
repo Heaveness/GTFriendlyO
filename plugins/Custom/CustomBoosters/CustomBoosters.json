@@ -68,7 +68,7 @@
           "Description": "Subject will get more out of MediPacks.",
           "DescriptionNegative": "Subject will get less out of MediPacks.",
           "EffectCategory": "Health",
-          "Value": 1.1
+          "Value": 1.06
         }
       ],
       "Conditions": []
@@ -212,7 +212,7 @@
           "Description": "Subject will get more out of ammo and tool refill packs.",
           "DescriptionNegative": "Subject will get less out of ammo and tool refill packs.",
           "EffectCategory": "Tool",
-          "Value": 1.1
+          "Value": 1.06
         }
       ],
       "Conditions": []
@@ -505,7 +505,7 @@
           "Description": "Subject will get more out of MediPacks.",
           "DescriptionNegative": "Subject will get less out of MediPacks.",
           "EffectCategory": "Health",
-          "Value": 1.16
+          "Value": 1.1
         }
       ],
       "Conditions": [
@@ -698,7 +698,7 @@
           "Description": "Subject will get more out of ammo and tool refill packs.",
           "DescriptionNegative": "Subject will get less out of ammo and tool refill packs.",
           "EffectCategory": "Tool",
-          "Value": 1.16
+          "Value": 1.1
         }
       ],
       "Conditions": [
@@ -1081,7 +1081,7 @@
           "Description": "Subject will get more out of MediPacks.",
           "DescriptionNegative": "Subject will get less out of MediPacks.",
           "EffectCategory": "Health",
-          "Value": 1.2
+          "Value": 1.16
         },
         {
           "Effect": "AmmoSupport",
@@ -1315,7 +1315,7 @@
           "Description": "Subject will get more out of ammo and tool refill packs.",
           "DescriptionNegative": "Subject will get less out of ammo and tool refill packs.",
           "EffectCategory": "Tool",
-          "Value": 1.2
+          "Value": 1.16
         },
         {
           "Effect": "HealSupport",
@@ -1624,11 +1624,11 @@
           "Value": 1.16
         },
         {
-          "Effect": "StandardWeaponDamage",
-          "PublicShortName": "MaW-D",
-          "PublicName": "Main damage",
-          "Description": "Subject will deal more damage with their main weapon.",
-          "DescriptionNegative": "Subject will deal less damage with their main weapon.",
+          "Effect": "SpecialWeaponDamage",
+          "PublicShortName": "SpW-D",
+          "PublicName": "Special damage",
+          "Description": "Subject will deal more damage with their special weapon.",
+          "DescriptionNegative": "Subject will deal less damage with their special weapon.",
           "EffectCategory": "Damage",
           "Value": 0.7
         }
