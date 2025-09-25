@@ -2,5 +2,5 @@
     "ExplosionAbility": false,
     "DoubleJumpAbility":true,
     "StartingXp":false,
-    "LivingBioAbility":false
+    "LivingBioAbility":true
 }
