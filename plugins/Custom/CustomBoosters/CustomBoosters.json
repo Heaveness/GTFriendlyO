@@ -14,7 +14,7 @@
           "Description": "Subject's health regeneration cap is raised.",
           "DescriptionNegative": "Subject's health regeneration cap is lowered.",
           "EffectCategory": "Health",
-          "Value": 1.06
+          "Value": 1.1
         },
         {
           "Effect": "RegenerationSpeed",
@@ -122,7 +122,7 @@
           "Description": "Subject takes reduced damage from explosions.",
           "DescriptionNegative": "Subject takes increased damage from explosions.",
           "EffectCategory": "Health",
-          "Value": 1.06
+          "Value": 1.1
         }
       ],
       "Conditions": []
@@ -140,7 +140,7 @@
           "Description": "Subject will be more resistant against infection.",
           "DescriptionNegative": "Subject will be less resistant against infection.",
           "EffectCategory": "Health",
-          "Value": 1.06
+          "Value": 1.1
         }
       ],
       "Conditions": []
@@ -293,7 +293,7 @@
           "Description": "Subject's sentry gun will deal more damage.",
           "DescriptionNegative": "Subject's sentry gun will deal less damage.",
           "EffectCategory": "Damage",
-          "Value": 1.06
+          "Value": 1.1
         }
       ],
       "Conditions": []
@@ -383,7 +383,7 @@
           "Description": "Subject will deal more damage with their main weapon.",
           "DescriptionNegative": "Subject will deal less damage with their main weapon.",
           "EffectCategory": "Damage",
-          "Value": 1.06
+          "Value": 1.1
         }
       ],
       "Conditions": []
@@ -401,7 +401,7 @@
           "Description": "Subject will deal more damage with their special weapon.",
           "DescriptionNegative": "Subject will deal less damage with their special weapon.",
           "EffectCategory": "Damage",
-          "Value": 1.06
+          "Value": 1.1
         }
       ],
       "Conditions": []
@@ -437,7 +437,7 @@
           "Description": "Subject's health regeneration cap is raised.",
           "DescriptionNegative": "Subject's health regeneration cap is lowered.",
           "EffectCategory": "Health",
-          "Value": 1.1
+          "Value": 1.16
         },
         {
           "Effect": "RegenerationSpeed",
@@ -451,10 +451,10 @@
       ],
       "Conditions": [
         {
-          "Condition": "HasLowHealth",
+          "Condition": "IsNextToTeammate",
           "PublicShortName": "",
-          "PublicName": "Low health",
-          "Description": "Subject must have below 50% health for booster to be active."
+          "PublicName": "Human proximity",
+          "Description": "Subject must be within 7 meters of another human for booster to be active."
         }
       ]
     },
@@ -580,7 +580,7 @@
           "Description": "Subject takes reduced damage from explosions.",
           "DescriptionNegative": "Subject takes increased damage from explosions.",
           "EffectCategory": "Health",
-          "Value": 1.1
+          "Value": 1.16
         }
       ],
       "Conditions": [
@@ -605,7 +605,7 @@
           "Description": "Subject will be more resistant against infection.",
           "DescriptionNegative": "Subject will be less resistant against infection.",
           "EffectCategory": "Health",
-          "Value": 1.1
+          "Value": 1.16
         }
       ],
       "Conditions": [
@@ -800,7 +800,7 @@
           "Description": "Subject's sentry gun will deal more damage.",
           "DescriptionNegative": "Subject's sentry gun will deal less damage.",
           "EffectCategory": "Damage",
-          "Value": 1.1
+          "Value": 1.16
         }
       ],
       "Conditions": [
@@ -875,7 +875,7 @@
           "Description": "Subject will deal more damage with their main weapon.",
           "DescriptionNegative": "Subject will deal less damage with their main weapon.",
           "EffectCategory": "Damage",
-          "Value": 1.1
+          "Value": 1.16
         }
       ],
       "Conditions": [
@@ -900,7 +900,7 @@
           "Description": "Subject will deal more damage with their special weapon.",
           "DescriptionNegative": "Subject will deal less damage with their special weapon.",
           "EffectCategory": "Damage",
-          "Value": 1.1
+          "Value": 1.16
         }
       ],
       "Conditions": [
@@ -925,7 +925,7 @@
           "Description": "Subject will deal more damage with their main weapon.",
           "DescriptionNegative": "Subject will deal less damage with their main weapon.",
           "EffectCategory": "Damage",
-          "Value": 1.1
+          "Value": 1.16
         }
       ],
       "Conditions": [
@@ -950,7 +950,7 @@
           "Description": "Subject will deal more damage with their special weapon.",
           "DescriptionNegative": "Subject will deal less damage with their special weapon.",
           "EffectCategory": "Damage",
-          "Value": 1.1
+          "Value": 1.16
         }
       ],
       "Conditions": [
@@ -1000,7 +1000,7 @@
           "Description": "Subject's health regeneration cap is raised.",
           "DescriptionNegative": "Subject's health regeneration cap is lowered.",
           "EffectCategory": "Health",
-          "Value": 1.16
+          "Value": 1.2
         },
         {
           "Effect": "RegenerationSpeed",
@@ -1162,7 +1162,7 @@
           "Description": "Subject takes reduced damage from explosions.",
           "DescriptionNegative": "Subject takes increased damage from explosions.",
           "EffectCategory": "Health",
-          "Value": 1.16
+          "Value": 1.2
         },
         {
           "Effect": "TripMineDamage",
@@ -1189,7 +1189,7 @@
           "Description": "Subject will be more resistant against infection.",
           "DescriptionNegative": "Subject will be less resistant against infection.",
           "EffectCategory": "Health",
-          "Value": 1.16
+          "Value": 1.2
         },
         {
           "Effect": "FogRepellerEffect",
@@ -1432,7 +1432,7 @@
           "Description": "Subject will overclock its sentry gun, giving it increased detection, rotation and firing speed.",
           "DescriptionNegative": "Subject will deploy sentry guns with decreased detection, rotation and firing speed.",
           "EffectCategory": "Tool",
-          "Value": 1.16
+          "Value": 1.2
         },
         {
           "Effect": "SentryGunDamage",
@@ -1441,7 +1441,7 @@
           "Description": "Subject's sentry gun will deal more damage.",
           "DescriptionNegative": "Subject's sentry gun will deal less damage.",
           "EffectCategory": "Damage",
-          "Value": 1.16
+          "Value": 1.2
         },
         {
           "Effect": "HackingProficiency",
@@ -1450,7 +1450,7 @@
           "Description": "Subject will find hacking puzzles easier to complete.",
           "DescriptionNegative": "Subject will find hacking puzzles harder to complete.",
           "EffectCategory": "ProcessingSpeed",
-          "Value": 0.75
+          "Value": 0.7
         },
         {
           "Effect": "ComputerProcessingSpeed",
@@ -1459,7 +1459,7 @@
           "Description": "Subject will process computer-related tasks faster.",
           "DescriptionNegative": "Subject will process computer-related tasks slower.",
           "EffectCategory": "ProcessingSpeed",
-          "Value": 0.75
+          "Value": 0.7
         }
       ],
       "Conditions": []
@@ -1621,7 +1621,7 @@
           "Description": "Subject will deal more damage with their main weapon.",
           "DescriptionNegative": "Subject will deal less damage with their main weapon.",
           "EffectCategory": "Damage",
-          "Value": 1.16
+          "Value": 1.2
         },
         {
           "Effect": "SpecialWeaponDamage",
@@ -1648,7 +1648,7 @@
           "Description": "Subject will deal more damage with their special weapon.",
           "DescriptionNegative": "Subject will deal less damage with their special weapon.",
           "EffectCategory": "Damage",
-          "Value": 1.16
+          "Value": 1.2
         },
         {
           "Effect": "StandardWeaponDamage",
