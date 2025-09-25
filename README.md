@@ -7,21 +7,21 @@ A major overhaul of GTFO's vanilla gameplay, designed for a more casual but stil
 As a long-time GTFO player, I've felt the base game lacked a bit of variety in certain aspects of its gameplay. After running several Rundowns with friends, we all agreed the game needed a bit more spice. This mod focuses on creating a more casual-friendly co-op experience without removing all of the tension or challenge from the game. This is NOT a hardcore or hyper-realism mod setup, nor will it ever be. Instead, it makes GTFO more accessible by giving players additional "tools" to tackle the depths. The enemies have also received some love too, so it's not completely one-sided.
 
 Heavy inspiration: FriendlyGTFO by EcoLight and Duo Trials by ProjectZaero
-> Please note that I took the syringe customization settings from Duo Trials to reverse engineer on how it was made. I have made some changes, but the overall credit belongs to the ProjectZaero. Currently working on a re-work of the syringes.
+> Please note that I took the syringe customization settings from Duo Trials to reverse engineer how it was made. I have made some changes, but the overall credit belongs to the ProjectZaero. Currently working on a re-work of the syringes.
 
 This project has been in the works for years. Until now, it's only been shared privately with my friends. Now, I'm releasing it publicly for others to enjoy as well. Play together or die together!
 
 ## Important
 
-* Please note that this is only a baseline modpack, more mods will be considered in the future. **Stay tuned!**
+* Please note that this is only a baseline modpack; more mods will be considered in the future. Check the status and future content in the wiki for updates. **Stay tuned & check [here!](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/3972-current-status-future-patches/)**
 
-* Can be played Vanilla with other mods with this mod-pack, especially with client-side mods. It's recommended to use a bunch of bug fix mods to prevent further issues with GTFO. But it's up to the players if they want them not, not necessary.
+* Can be played Vanilla with other mods with this mod-pack, especially with client-side mods. It's recommended to use several bug fix mods to prevent further issues with GTFO. But it's up to the players if they want them or not. It's not necessary to add them in. Recommended mod list: [here](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/4030-recommend-mods/)
 
 * Most likely will NOT be compatible with other custom Rundowns or modpacks that changes the same Datablocks. Otherwise, give it a try and let me know.
 
 #### Recommended mods:
 * List: [Thunderstore wiki link](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/4030-recommend-mods-wip/)
-> Dev Note: These are recommended, but not needed. Some of these mods with have configs that will be packaged with the mod-pack, but not the mod itself. These aren't necessary, but nice to have on the list.
+> Dev Note: These are recommended, but not needed. Some of these mods will have configs that might be packaged with the mod-pack, but not the mod itself. These aren't necessary, but nice to have on the list.
 
 ## Major Changes
 
@@ -36,18 +36,18 @@ This project has been in the works for years. Until now, it's only been shared p
 * Increased Fall Damage Min/Max Height: `4.0m/20.0m -> 6.0m/30.0m`
 * Increased Fall Min/Max Damage: `2.0/15.0 -> 10.0/40.0`
 * Increased base Walk/Sprint/Crouch/Ladder Spd. and Footstep Length by `0.5-1.0`. 
-* Rewored Stamina Cost across the board. Overall higher cost in combat, but faster regen out of combat.
+* Reworked Stamina Cost across the board. Overall, higher cost in combat but faster regen out of combat.
 * Higher starting ammo and cap.
 * Decreased ammo supply efficiency from Ammo-Packs.
 
 ###### Classes:
 
-* All classes have distinct roles with pros and cons. There is no leveling system, all classes get their stats at the start.
+* All classes have distinct roles with pros and cons. There is no levelling system, all classes get their stats at the start.
 * Meant to be played with 2+ players.
-* All classes can do damage, some do it better than others. Boosters/Syringes can be used to further buff or debuff attributes.
-* `Damage` roles are classes that specialize is mainly doing damage, but they tend to be more fragile.
-* `Tank` roles are classes that specialize on taking damage while also dishing out some of their own, but they tend to be on the slow side.
-* `Support` roles are classes that specialize on helping the team, but they lack either offensive or defensive capabilities.
+* All classes can deal damage, some do it better than others. Boosters/Syringes can be used to further buff or debuff attributes.
+* `Damage` roles are classes that specialize mainly dishing out damage, but they tend to be more fragile.
+* `Tank` roles are classes that specialize in taking damage while also dishing out some of their own, but they tend to be on the slow side.
+* `Support` roles are classes that specialize in helping the team, but they lack either offensive or defensive capabilities.
 > Dev Note: B-Company Division is meant for joke classes, never will be balanced or realistic. So have fun with them.
 
 | CLASS       		| ROLE      | DIVISION  | STRENGTHS 	 											          | WEAKNESSES																      |
@@ -70,11 +70,11 @@ This project has been in the works for years. Until now, it's only been shared p
 
 - All of the Main and Special weapons have either been overhauled, reworked or tweaked.
 - Muzzle flash has been mostly removed as my friends and I am photosensitive.
-- Significantly changes were made to create synergies between weapons and classes.
-- Promotes more build diversity and team compositions.
-- Silence CC does not mean silent weapon, it's the capability to temporarily disable some enemy abilties such as non-boss tongues.
+- Significant changes were made to create synergies between weapons and classes.
+- Promotes more diverse team compositions with unique build synergies.
+- Silence CC does not mean silent weapon, it's the capability to temporarily disable some enemy abilities such as non-boss tongues.
 - DoT stands for Damage-over-Time effect that deals damage based on ticks per second.
-- Reserve Ammo means there is not reloading, as the weapon utilize the whole ammo reserve.
+- Reserve Ammo means there is no reloading, as the weapon utilizes the whole ammo reserve.
 
 | ORIGINAL NAME			| NEW NAME							| TRAIT															| BALLISTICS		|
 |-----------------------|-----------------------------------|:-------------------------------------------------------------:|:-----------------:|
@@ -117,8 +117,8 @@ This project has been in the works for years. Until now, it's only been shared p
 * All four melee types have been reworked to be more distinct from each other.
 * Sledgehammers and Bats are meant for players who prefer loud encounters.
 * Knives and Spears are meant for players who prefer quiet engagements.
-* There is another mod called Parry, which is not included in this mod setup. But it will be for the mod-pack.
-> Dev Note: Parry can be used on melee or projectile damage, latter can send the projectile back to sender. 
+* You can parry all melee and projectiles, but you cannot parry the CC itself. For example, a Giant Striker can still pull you even though you parried the tentacle.
+> Dev Note: Parrying projectiles allows you to send them back towards your crosshair. 
 
 | TYPE       	| ROLE      | TRAITS  			| STRENGTHS 	 								| WEAKNESSES								    	|
 |---------------|-----------|-------------------|:---------------------------------------------:|:-------------------------------------------------:|
@@ -143,7 +143,7 @@ This project has been in the works for years. Until now, it's only been shared p
 #### Enemies:
 
 * All enemies have had their base and limb health increased to keep them balanced against the players' new power scaling.
-* Minimum base health increase of 20.0 while larger elites and bosses received massive health increase.
+* Minimum base health increase of 20.0 while larger elites and bosses received a massive health increase.
 * Each Enemy/Variant received new quirks to improve their strengths and solidify their identities.
 * Some names were changed to keep a consistent identification. For example: `Shooter -> Needler`
 
@@ -159,7 +159,7 @@ This project has been in the works for years. Until now, it's only been shared p
 | Flyers                	| Fires explosive projectiles for 5% damage over 2.5m to 5.0m          	| Shoot them down quicky before they inflict too much AoE damage.                      	    |
 | Tanks						| Significant increase in HP & high knockback; door buster				| Significantly longer to kill, their knockback is annoying, and don`t close doors on them.	|
 
-* Variants will have traits and abilities listed above while also having extra perks mentioned below.
+* Variants will still have their traits and abilities listed above while also having extra perks mentioned below.
 
 | VARIANTS      | TRAITS 																	|
 |---------------|:-------------------------------------------------------------------------:|

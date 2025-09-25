@@ -1,6 +1,6 @@
 {
     "name": "GTFriendlyO",
-    "version_number": "1.4.1",
+    "version_number": "1.4.2",
     "website_url": "https://github.com/Heaveness/GTFriendlyO",
     "description": "A major overhaul of GTFO's vanilla gameplay, designed for a more casual but still fun and challenging experience with friends.",
     "dependencies": [
@@ -12,7 +12,7 @@
         "Panthr75-ExtraSyringeCustomization-0.3.7",
         "GTFOModding-InjectLib-1.1.0",
         "hirnukuono-EEC_H-1.8.19",
-        "Dinorush-ExtraToolCustomization-1.5.3",
+        "Dinorush-ExtraToolCustomization-1.5.4",
         "dakkhuza-FloatingTextAPI-1.0.5",
         "Frog-DoubleJump-1.0.6",
         "Endskill-GTFuckingXP-2.4.9",
@@ -29,6 +29,10 @@
         "Endskill-Custom_Boosters-1.2.0",
         "Cactus-WorseHackingMiniGame-1.0.0",
         "GTFOModding-BetterBioTracker-1.0.1",
-        "Dinorush-MirrorWeapons-1.0.0"
+        "Dinorush-MirrorWeapons-1.0.0",
+        "long_walter-MeleeTimer-0.0.2",
+        "Localia-PingEverything-3.0.1",
+        "Shadsterwolf-SkipIntro-1.0.0",
+        "GTFOModding-SentryAmmoPercentageScreen-1.0.0"
     ]
 }

@@ -1,6 +1,50 @@
 # Changelog
 
-### **v1.4.1** - Latest
+### **v1.4.2** - Latest
+
+### Player Tweaks:
+* Added a decimal point for health and infection bar to give a more accurate reading.
+
+### Mod Additions:
+- Updated `ExtraToolCustomization` mod to the latest version by this patch's release.
+- Added `Skip Intro` mod by Shadsterwolf
+- Added `Ping Everything` mod by Localia
+- Added `SentryAmmoPercentageScreen` mod by GTFOModding
+- Added `Melee Timer` mod by long_walter
+> Dev Note: While I believe bug fix and QoL mods should be up to the players to decide what to add in. After multiple playthroughs and tests I got sick and tired of seeing that intro cutscene. The Ping Everything is there to make communications between players easier especially for Bio Tracker user. Sentry Ammo Percentage is to check how much ammo you have left after placing sentries down. Melee Timer is just to give players a better indicator for how long they can hold onto the charge. These are all small mods, so it shouldn't greatly affect gameplay except subtly enhance it.
+
+### Class Tweaks:
+* Paramedic:
+    * Increased Regen Delay bonus from `-15%` to `-20%`
+    * Decreased Initial Ammo penalty from `-25%` to `-20%`
+> Dev Note: Changes to regen cap has made the earlier nerf patch a little too harsh for this class.
+* Quartermaster:
+    * Increased Regen Cap bonus from `+40%` to `+55%`
+> Dev Note: Once I figured out how the Regen Cap was being calculated, adjustments were made to the class. With a full Regen Cap booster it is possible to get +100% Regen Cap bonus which will raise the class's regen cap from 30% to 60% max health.
+* Courier:
+    * Removed Movement Speed bonus of `+10%`
+    * Added `Living Bio Tracker` ability. This class will automatically tag all hostile targets within the same room.
+> Dev Note: Make the Courier have a more unique identity than a Covert Op 2.0. Now your targets are marked for you, claim your bounty.
+
+### Booster Tweaks:
+* Fixed Aggressive Sentry Speed and Damage booster giving the wrong values.
+* Increased Muted/Bold/Aggressive `Regen Cap` booster by flat `5%`(total potential value from `30%` to `45%`)
+* Changed Bold Regen Cap booster conditional from `Low Health` to `Human Proximity`
+> Dev Note: Recently I figured out how regen cap is calculated. Regen cap boosters don't add directly to the base 30%. Instead, they are applied multiplicative. For example, a `+45%` booster raises the cap from `30%` to roughly `43.5%`, not flat `75%`. 
+* Increased Muted/Bold/Aggressive `Damage` booster by flat `5%`(total potential value from `30%` to `45%`)
+* Increased Muted/Bold/Aggressive `Sentry Damage` booster by flat `5%`(total potential value from `30%` to `45%`)
+* Increased Muted/Bold/Aggressive `Explosion Resistance` booster by flat `5%`(total potential value from `30%` to `45%`)
+* Increased Muted/Bold/Aggressive `Infection Resistance` booster by flat `5%`(total potential value from `30%` to `45%`)
+> Dev Note: Some boosters needed a bit more power as scaling for certain values were not worth taking over the others.
+
+### Enemy Tweaks:
+* Scout:
+    * Significantly tighten the interval between scout scream and EMP event to prevent killing the scout before the EMP event is triggered.
+
+### Miscellaneous:
+* Fixed a large number of README typos.
+
+### v1.4.1
 
 ### Class Tweaks:
 * Paramedic:
