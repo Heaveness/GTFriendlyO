@@ -20,19 +20,12 @@
           "UpdateInterval": 0.15,
           "ForceExitOnConditionMismatch": false,
           "AllowedMode": "Combat",
+          "AllowedModeTransitionTime": 0.0,
           "KeepOnDead": false,
           "AllowWhileAttack": true,
           "State": {
-            "Mode": "AllowStates",
-            "States": [
-              "ScoutScream",
-              "ScoutDetection",
-              "ShooterAttack",
-              "Scream",
-              "Knockdown",
-              "KnockdownRecover",
-              "Hitreact"
-            ]
+            "Mode": "None",
+            "States": []
           },
           "DistanceWithLOS": {
             "Mode": "AlwaysAllow",
@@ -75,11 +68,53 @@
           "AbilityName": "Explode Small"
         }
       ]
+    },
+    {
+      "Enabled": true,
+      "DebugName": "Shadow Fog Explode",
+      "Target": {
+        "Mode": "PersistentID",
+        "persistentIDs": [
+          21,
+          35
+        ],
+        "nameParam": "",
+        "nameIgnoreCase": true
+      },
+      "Abilities": [
+        {
+          "AllowedMode": "Combat",
+          "Delay": 0.1,
+          "AbilityName": "Fog"
+        }
+      ]
     }
   ],
   "Abilities": {
     "Chain": [],
-    "FogSphere": [],
+    "FogSphere": [
+      {
+        "SoundEventID": 2967491444,
+        "ColorMin": "#013220",
+        "ColorMax": "#013220",
+        "IntensityMin": 1,
+        "IntensityMax": 1,
+        "RangeMin": 3,
+        "RangeMax": 6,
+        "DensityMin": 0,
+        "DensityMax": 0.5,
+        "DensityAmountMin": 0,
+        "DensityAmountMax": 0.5,
+        "Duration": 35,
+        "EffectVolume": {
+          "Enabled": true,
+          "Contents": "Infection",
+          "Modification": "Inflict",
+          "Scale": 0.005
+        },
+        "Name": "Fog"
+      }
+    ],
     "Explosion": [
       {
         "Damage": 6,
@@ -102,7 +137,7 @@
     "Cloak": [],
     "EMP": [
       {
-        "ChargeUpSoundId": 1777084894,
+        "ChargeUpSoundId": 2166385205,
         "ActivateSoundId": 1479064690,
         "ChargeUpAnimation": "AbilityUse",
         "ActivateAnimation": "AbilityUseOut",
