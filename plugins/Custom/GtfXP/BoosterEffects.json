@@ -166,7 +166,7 @@
       "AutoPistolDamage": 1.2,
       "MachineGunDamage": 1.2,
       "MachinePistolDamage": 1.2,
-      "RegenerationCap": 1.4,
+      "RegenerationCap": 1.55,
       "InfectionResistance": 1.2,
       "HackingProficiency": 0.8
     }
