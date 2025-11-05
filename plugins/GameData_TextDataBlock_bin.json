@@ -54324,7 +54324,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "<color=orange>Balanced</color>\nMedium Range\nHigh Damage",
+      "English": "",
       "Description": "A short description of what advantages melee weapons have, and how they're used. I.e. they can be used to kill enemies silently (as opposed to firearms which are loud), it requires you to be close to the target, and you can charge up the attack to make it more powerful.",
       "CharacterMetaData": 1,
       "French": {
@@ -54380,7 +54380,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "<color=orange>Precision damage bonus</color>\nLong Range\nSlow\nHigh damage\n",
+      "English": "",
       "Description": "A short description of what advantages melee weapons have, and how they're used. I.e. they can be used to kill enemies silently (as opposed to firearms which are loud), it requires you to be close to the target, and you can charge up the attack to make it more powerful.",
       "CharacterMetaData": 1,
       "French": {
@@ -54436,7 +54436,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "<color=orange>Precision damage bonus</color>\nShort Range\nQuick\nMedium damage",
+      "English": "",
       "Description": "A short description of what advantages melee weapons have, and how they're used. I.e. they can be used to kill enemies silently (as opposed to firearms which are loud), it requires you to be close to the target, and you can charge up the attack to make it more powerful.",
       "CharacterMetaData": 1,
       "French": {
@@ -54492,7 +54492,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "<color=orange>Uncomplicated and Effective</color>\nShort Range\nQuick\nMedium damage",
+      "English": "",
       "Description": "A short description of what advantages melee weapons have, and how they're used. I.e. they can be used to kill enemies silently (as opposed to firearms which are loud), it requires you to be close to the target, and you can charge up the attack to make it more powerful.",
       "CharacterMetaData": 1,
       "French": {

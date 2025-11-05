@@ -148,14 +148,14 @@
       "persistentID": 70
     },
     {
-      "PublicName": 721,
-      "Description": 722,
+      "PublicName": "Semi-Auto Rifle (Assault Rifle)",
+      "Description": "<color=yellow>Traits: Solid All-Rounder</color>",
       "FireMode": 0,
       "RecoilDataID": 12,
       "DamageBoosterEffect": 64,
-      "Damage": 6.9,
+      "Damage": 8.1,
       "DamageFalloff": {
-        "x": 22.0,
+        "x": 23.0,
         "y": 80.0,
         "normalized": {
           "x": 0.265156478,
@@ -166,12 +166,12 @@
         "magnitude": 82.96987,
         "sqrMagnitude": 6884.0
       },
-      "StaggerDamageMulti": 1.75,
-      "PrecisionDamageMulti": 0.8667,
-      "DefaultClipSize": 25,
+      "StaggerDamageMulti": 0.8,
+      "PrecisionDamageMulti": 0.9,
+      "DefaultClipSize": 20,
       "DefaultReloadTime": 1.9,
-      "CostOfBullet": 2.8,
-      "ShotDelay": 0.16,
+      "CostOfBullet": 3.0,
+      "ShotDelay": 0.3,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
         "x": 3.0,
@@ -199,8 +199,8 @@
       },
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
-      "HipFireSpread": 1.0,
-      "AimSpread": 0.0,
+      "HipFireSpread": 1.5,
+      "AimSpread": 0.3,
       "EquipTransitionTime": 0.45,
       "EquipSequence": [
         {
@@ -245,14 +245,14 @@
       "persistentID": 1
     },
     {
-      "PublicName": 723,
-      "Description": 724,
+      "PublicName": "3-Burst Rifle (Explosive)",
+      "Description": "<color=yellow>Traits: Explosive rounds, 3 Round Burst, & Team-killer</color>",
       "FireMode": 1,
       "RecoilDataID": 8,
       "DamageBoosterEffect": 65,
-      "Damage": 8.5,
+      "Damage": 15.5,
       "DamageFalloff": {
-        "x": 30.0,
+        "x": 20.0,
         "y": 85.0,
         "normalized": {
           "x": 0.229039341,
@@ -263,11 +263,11 @@
         "magnitude": 87.32124,
         "sqrMagnitude": 7625.0
       },
-      "StaggerDamageMulti": 1.2,
-      "PrecisionDamageMulti": 1.0,
+      "StaggerDamageMulti": 1.5,
+      "PrecisionDamageMulti": 0.65,
       "DefaultClipSize": 12,
       "DefaultReloadTime": 3.8,
-      "CostOfBullet": 8.0,
+      "CostOfBullet": 9.1,
       "ShotDelay": 0.25,
       "ShellCasingSize": 2.0,
       "ShellCasingSpeedRange": {
@@ -342,14 +342,14 @@
       "persistentID": 3
     },
     {
-      "PublicName": 725,
-      "Description": 726,
+      "PublicName": "Drum Mag AR (Assault Rifle)",
+      "Description": "<color=yellow>Trait: Large Magazine & Clip</color>",
       "FireMode": 2,
       "RecoilDataID": 13,
       "DamageBoosterEffect": 53,
       "Damage": 3.0,
       "DamageFalloff": {
-        "x": 10.0,
+        "x": 17.0,
         "y": 70.0,
         "normalized": {
           "x": 0.141421363,
@@ -360,11 +360,11 @@
         "magnitude": 70.71068,
         "sqrMagnitude": 5000.0
       },
-      "StaggerDamageMulti": 1.0,
-      "PrecisionDamageMulti": 0.8,
+      "StaggerDamageMulti": 1.3,
+      "PrecisionDamageMulti": 0.65,
       "DefaultClipSize": 60,
       "DefaultReloadTime": 2.5,
-      "CostOfBullet": 1.47,
+      "CostOfBullet": 1.4,
       "ShotDelay": 0.086,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -393,8 +393,8 @@
       },
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
-      "HipFireSpread": 2.0,
-      "AimSpread": 0.0,
+      "HipFireSpread": 1.6,
+      "AimSpread": 0.9,
       "EquipTransitionTime": 0.45,
       "EquipSequence": [
         {
@@ -639,14 +639,14 @@
       "persistentID": 67
     },
     {
-      "PublicName": 727,
-      "Description": 728,
+      "PublicName": "Full-Auto Light Rifle (Assault Rifle)",
+      "Description": "<color=yellow>Traits: Solid All-Rounder</color>",
       "FireMode": 2,
       "RecoilDataID": 42,
       "DamageBoosterEffect": 53,
-      "Damage": 7.0,
+      "Damage": 6.5,
       "DamageFalloff": {
-        "x": 20.0,
+        "x": 21.0,
         "y": 80.0,
         "normalized": {
           "x": 0.148340449,
@@ -663,11 +663,11 @@
         "magnitude": 80.895,
         "sqrMagnitude": 6544.0
       },
-      "StaggerDamageMulti": 1.0,
-      "PrecisionDamageMulti": 0.8,
+      "StaggerDamageMulti": 0.9,
+      "PrecisionDamageMulti": 0.9,
       "DefaultClipSize": 30,
-      "DefaultReloadTime": 1.8,
-      "CostOfBullet": 2.44,
+      "DefaultReloadTime": 1.7,
+      "CostOfBullet": 2.0,
       "ShotDelay": 0.095,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -696,8 +696,8 @@
       },
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
-      "HipFireSpread": 2.0,
-      "AimSpread": 0.0,
+      "HipFireSpread": 1.4,
+      "AimSpread": 0.6,
       "EquipTransitionTime": 0.5,
       "EquipSequence": [
         {
@@ -839,14 +839,14 @@
       "persistentID": 16
     },
     {
-      "PublicName": 730,
-      "Description": 4085860013,
+      "PublicName": "Lock-On Homing Subgun (SMG)",
+      "Description": "<color=yellow>Traits: Auto Aim & Homing projectiles(Weakspots)</color>",
       "FireMode": 2,
       "RecoilDataID": 15,
       "DamageBoosterEffect": 51,
       "Damage": 5.8,
       "DamageFalloff": {
-        "x": 10.0,
+        "x": 15.0,
         "y": 50.0,
         "normalized": {
           "x": 0.13663739,
@@ -864,7 +864,7 @@
         "sqrMagnitude": 3428.0
       },
       "StaggerDamageMulti": 0.5,
-      "PrecisionDamageMulti": 1.3,
+      "PrecisionDamageMulti": 1.4,
       "DefaultClipSize": 36,
       "DefaultReloadTime": 1.7,
       "CostOfBullet": 2.08,
@@ -896,8 +896,8 @@
       },
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
-      "HipFireSpread": 1.0,
-      "AimSpread": 0.0,
+      "HipFireSpread": 1.5,
+      "AimSpread": 0.2,
       "EquipTransitionTime": 0.3,
       "EquipSequence": [
         {
@@ -942,14 +942,14 @@
       "persistentID": 17
     },
     {
-      "PublicName": 731,
-      "Description": 732,
+      "PublicName": "3-Burst Rifle (Carbine)",
+      "Description": "<color=yellow>Traits: 3 Round Burst</color>",
       "FireMode": 1,
       "RecoilDataID": 14,
       "DamageBoosterEffect": 54,
-      "Damage": 3.3,
+      "Damage": 3.4,
       "DamageFalloff": {
-        "x": 10.0,
+        "x": 22.0,
         "y": 65.0,
         "normalized": {
           "x": 0.152057186,
@@ -961,7 +961,7 @@
         "sqrMagnitude": 4325.0
       },
       "StaggerDamageMulti": 1.0,
-      "PrecisionDamageMulti": 0.7413333,
+      "PrecisionDamageMulti": 0.85,
       "DefaultClipSize": 30,
       "DefaultReloadTime": 1.9,
       "CostOfBullet": 1.3,
@@ -993,8 +993,8 @@
       },
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
-      "HipFireSpread": 1.0,
-      "AimSpread": 0.0,
+      "HipFireSpread": 1.3,
+      "AimSpread": 0.4,
       "EquipTransitionTime": 0.4,
       "EquipSequence": [
         {
@@ -1136,14 +1136,14 @@
       "persistentID": 20
     },
     {
-      "PublicName": 733,
-      "Description": 734,
+      "PublicName": "Heavy Subgun (SMG)",
+      "Description": "<color=yellow>Traits: Precise Shots for SMG</color>",
       "FireMode": 0,
       "RecoilDataID": 43,
       "DamageBoosterEffect": 51,
-      "Damage": 5.7,
+      "Damage": 6.0,
       "DamageFalloff": {
-        "x": 9.0,
+        "x": 14.0,
         "y": 60.0,
         "normalized": {
           "x": 0.115880705,
@@ -1154,12 +1154,12 @@
         "magnitude": 60.40695,
         "sqrMagnitude": 3649.0
       },
-      "StaggerDamageMulti": 1.0,
-      "PrecisionDamageMulti": 0.8,
+      "StaggerDamageMulti": 1.2,
+      "PrecisionDamageMulti": 0.7,
       "DefaultClipSize": 25,
       "DefaultReloadTime": 1.55,
-      "CostOfBullet": 1.5,
-      "ShotDelay": 0.12,
+      "CostOfBullet": 1.55,
+      "ShotDelay": 0.20,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
         "x": 3.0,
@@ -1187,8 +1187,8 @@
       },
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
-      "HipFireSpread": 2.0,
-      "AimSpread": 0.0,
+      "HipFireSpread": 2.3,
+      "AimSpread": 0.3,
       "EquipTransitionTime": 0.45,
       "EquipSequence": [
         {
@@ -1233,14 +1233,14 @@
       "persistentID": 69
     },
     {
-      "PublicName": 349438891,
-      "Description": 3012451471,
+      "PublicName": "Bio-Tag Subgun (SMG)",
+      "Description": "<color=yellow>Traits: Thermal scope, Tagging rounds, and Turret synergy</color>",
       "FireMode": 2,
       "RecoilDataID": 48,
       "DamageBoosterEffect": 51,
-      "Damage": 3.0,
+      "Damage": 3.2,
       "DamageFalloff": {
-        "x": 6.0,
+        "x": 9.0,
         "y": 47.0,
         "normalized": {
           "x": 0.105786055,
@@ -1251,11 +1251,11 @@
         "magnitude": 47.26521,
         "sqrMagnitude": 2234.0
       },
-      "StaggerDamageMulti": 1.0,
-      "PrecisionDamageMulti": 0.7413,
-      "DefaultClipSize": 20,
+      "StaggerDamageMulti": 1.5,
+      "PrecisionDamageMulti": 0.65,
+      "DefaultClipSize": 22,
       "DefaultReloadTime": 1.3,
-      "CostOfBullet": 1.4,
+      "CostOfBullet": 1.5,
       "ShotDelay": 0.06,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -1284,8 +1284,8 @@
       },
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
-      "HipFireSpread": 1.25,
-      "AimSpread": 0.0,
+      "HipFireSpread": 1.0,
+      "AimSpread": 0.6,
       "EquipTransitionTime": 0.35,
       "EquipSequence": [
         {
@@ -1330,12 +1330,12 @@
       "persistentID": 77
     },
     {
-      "PublicName": 735,
-      "Description": 736,
+      "PublicName": "Healing/Venomous Subgun (SMG)",
+      "Description": "<color=yellow>Traits: Healing darts(ally) & Venom darts(enemy) & Ability disabler(except Scout screams)</color>",
       "FireMode": 1,
       "RecoilDataID": 2,
       "DamageBoosterEffect": 51,
-      "Damage": 0.1,
+      "Damage": 1.0,
       "DamageFalloff": {
         "x": 12.0,
         "y": 55.0,
@@ -1348,8 +1348,8 @@
         "magnitude": 55.3263054,
         "sqrMagnitude": 3061.0
       },
-      "StaggerDamageMulti": 1.0,
-      "PrecisionDamageMulti": 1.00,
+      "StaggerDamageMulti": 10.0,
+      "PrecisionDamageMulti": 0.65,
       "DefaultClipSize": 10,
       "DefaultReloadTime": 1.8,
       "CostOfBullet": 6.1,
@@ -1381,7 +1381,7 @@
       },
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
-      "HipFireSpread": 0.05,
+      "HipFireSpread": 0.1,
       "AimSpread": 0.0,
       "EquipTransitionTime": 0.4,
       "EquipSequence": [
@@ -1427,14 +1427,14 @@
       "persistentID": 19
     },
     {
-      "PublicName": 737,
-      "Description": 738,
-      "FireMode": 0,
+      "PublicName": "Hemorrhage Long Arm (HEL)",
+      "Description": "<color=yellow>Traits: Unstackable strong DoT bleed</color>",
+      "FireMode": 1,
       "RecoilDataID": 4,
       "DamageBoosterEffect": 56,
       "Damage": 20.7,
       "DamageFalloff": {
-        "x": 16.0,
+        "x": 26.0,
         "y": 90.0,
         "normalized": {
           "x": 0.164398983,
@@ -1445,8 +1445,8 @@
         "magnitude": 91.24144,
         "sqrMagnitude": 8325.0
       },
-      "StaggerDamageMulti": 1.0,
-      "PrecisionDamageMulti": 0.8,
+      "StaggerDamageMulti": 0.8,
+      "PrecisionDamageMulti": 1.0,
       "DefaultClipSize": 10,
       "DefaultReloadTime": 3.3,
       "CostOfBullet": 6.75,
@@ -1478,8 +1478,8 @@
       },
       "PiercingBullets": true,
       "PiercingDamageCountLimit": 4,
-      "HipFireSpread": 1.7,
-      "AimSpread": 0.0,
+      "HipFireSpread": 2.2,
+      "AimSpread": 0.1,
       "EquipTransitionTime": 0.6,
       "EquipSequence": [
         {
@@ -1499,7 +1499,7 @@
       "ShotgunBulletCount": 0,
       "ShotgunConeSize": 0,
       "ShotgunBulletSpread": 0,
-      "SpecialChargetupTime": 0.25,
+      "SpecialChargetupTime": 0.2,
       "SpecialCooldownTime": 0.0,
       "SpecialSemiBurstCountTimeout": 0.0,
       "Sentry_StartFireDelay": 1.0,
@@ -1524,12 +1524,12 @@
       "persistentID": 21
     },
     {
-      "PublicName": 739,
-      "Description": 740,
+      "PublicName": "Burst Cannon (Explosive)",
+      "Description": "<color=yellow>Traits: Hold Aim to Rapid Fire, Explosive rounds, Projectile gravity, & Team-killer</color>",
       "FireMode": 1,
       "RecoilDataID": 24,
       "DamageBoosterEffect": 61,
-      "Damage": 5.9,
+      "Damage": 3.1,
       "DamageFalloff": {
         "x": 20.0,
         "y": 80.0,
@@ -1542,11 +1542,11 @@
         "magnitude": 81.394104,
         "sqrMagnitude": 6625.0
       },
-      "StaggerDamageMulti": 1.0,
-      "PrecisionDamageMulti": 0.734,
-      "DefaultClipSize": 5,
-      "DefaultReloadTime": 4.0,
-      "CostOfBullet": 12.0,
+      "StaggerDamageMulti": 1.75,
+      "PrecisionDamageMulti": 0.55,
+      "DefaultClipSize": 6,
+      "DefaultReloadTime": 4.5,
+      "CostOfBullet": 15.0,
       "ShotDelay": 0.06,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -1575,9 +1575,9 @@
       },
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
-      "HipFireSpread": 0.5,
-      "AimSpread": 0.1,
-      "EquipTransitionTime": 0.8,
+      "HipFireSpread": 0.7,
+      "AimSpread": 0.3,
+      "EquipTransitionTime": 1.0,
       "EquipSequence": [
         {
           "TriggerTime": 0.0,
@@ -1621,14 +1621,14 @@
       "persistentID": 22
     },
     {
-      "PublicName": 741,
-      "Description": 742,
+      "PublicName": "Light Machine Gun (LMG)",
+      "Description": "<color=yellow>Traits: Large magazine & Suppressive fire</color>",
       "FireMode": 2,
       "RecoilDataID": 25,
       "DamageBoosterEffect": 62,
       "Damage": 8.2,
       "DamageFalloff": {
-        "x": 16.0,
+        "x": 20.0,
         "y": 80.0,
         "normalized": {
           "x": 0.184288532,
@@ -1639,11 +1639,11 @@
         "magnitude": 81.394104,
         "sqrMagnitude": 6625.0
       },
-      "StaggerDamageMulti": 1.0,
-      "PrecisionDamageMulti": 0.7413,
-      "DefaultClipSize": 60,
+      "StaggerDamageMulti": 0.8,
+      "PrecisionDamageMulti": 0.8,
+      "DefaultClipSize": 70,
       "DefaultReloadTime": 3.4,
-      "CostOfBullet": 1.83,
+      "CostOfBullet": 1.6,
       "ShotDelay": 0.13,
       "ShellCasingSize": 1.5,
       "ShellCasingSpeedRange": {
@@ -1670,10 +1670,10 @@
         "magnitude": 5.83095169,
         "sqrMagnitude": 34.0
       },
-      "PiercingBullets": false,
-      "PiercingDamageCountLimit": 5,
-      "HipFireSpread": 2.0,
-      "AimSpread": 0.0,
+      "PiercingBullets": true,
+      "PiercingDamageCountLimit": 1,
+      "HipFireSpread": 1.6,
+      "AimSpread": 1.0,
       "EquipTransitionTime": 0.6,
       "EquipSequence": [
         {
@@ -1718,14 +1718,14 @@
       "persistentID": 23
     },
     {
-      "PublicName": 743,
-      "Description": 744,
+      "PublicName": "Heavy Machine Gun (HMG)",
+      "Description": "<color=yellow>Traits: Reserve Ammo(no reload) & Hold Trigger to Accelerate</color>",
       "FireMode": 2,
       "RecoilDataID": 34,
       "DamageBoosterEffect": 62,
       "Damage": 4.6,
       "DamageFalloff": {
-        "x": 16.0,
+        "x": 20.0,
         "y": 80.0,
         "normalized": {
           "x": 0.184288532,
@@ -1736,12 +1736,12 @@
         "magnitude": 81.394104,
         "sqrMagnitude": 6625.0
       },
-      "StaggerDamageMulti": 1.45,
-      "PrecisionDamageMulti": 0.7413,
+      "StaggerDamageMulti": 1.7,
+      "PrecisionDamageMulti": 0.65,
       "DefaultClipSize": 100,
       "DefaultReloadTime": 5.4,
-      "CostOfBullet": 0.856,
-      "ShotDelay": 0.08,
+      "CostOfBullet": 0.7,
+      "ShotDelay": 0.2,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
         "x": 3.0,
@@ -1767,10 +1767,10 @@
         "magnitude": 5.83095169,
         "sqrMagnitude": 34.0
       },
-      "PiercingBullets": false,
-      "PiercingDamageCountLimit": 5,
-      "HipFireSpread": 3.0,
-      "AimSpread": 0.0,
+      "PiercingBullets": true,
+      "PiercingDamageCountLimit": 1,
+      "HipFireSpread": 2.4,
+      "AimSpread": 1.5,
       "EquipTransitionTime": 0.6,
       "EquipSequence": [
         {
@@ -1790,7 +1790,7 @@
       "ShotgunBulletCount": 0,
       "ShotgunConeSize": 0,
       "ShotgunBulletSpread": 0,
-      "SpecialChargetupTime": 0.6,
+      "SpecialChargetupTime": 0.5,
       "SpecialCooldownTime": 0.3,
       "SpecialSemiBurstCountTimeout": 0.0,
       "Sentry_StartFireDelay": 1.0,
@@ -1912,14 +1912,14 @@
       "persistentID": 24
     },
     {
-      "PublicName": 745,
-      "Description": 746,
+      "PublicName": "Designated Marksman Rifle (DMR)",
+      "Description": "<color=yellow>Traits: Precise shots & Long range</color>",
       "FireMode": 0,
       "RecoilDataID": 7,
       "DamageBoosterEffect": 52,
       "Damage": 10.1,
       "DamageFalloff": {
-        "x": 50.0,
+        "x": 35.0,
         "y": 100.0,
         "normalized": {
           "x": 0.4472136,
@@ -1930,8 +1930,8 @@
         "magnitude": 111.8034,
         "sqrMagnitude": 12500.0
       },
-      "StaggerDamageMulti": 1.0,
-      "PrecisionDamageMulti": 0.97,
+      "StaggerDamageMulti": 0.65,
+      "PrecisionDamageMulti": 1.0,
       "DefaultClipSize": 10,
       "DefaultReloadTime": 2.3,
       "CostOfBullet": 3.1,
@@ -1963,8 +1963,8 @@
       },
       "PiercingBullets": true,
       "PiercingDamageCountLimit": 1,
-      "HipFireSpread": 0.5,
-      "AimSpread": 0.0,
+      "HipFireSpread": 1.0,
+      "AimSpread": 0.1,
       "EquipTransitionTime": 0.6,
       "EquipSequence": [
         {
@@ -2106,14 +2106,14 @@
       "persistentID": 68
     },
     {
-      "PublicName": 749,
-      "Description": 750,
+      "PublicName": "2-Burst Rifle (DMR)",
+      "Description": "<color=yellow>Traits: High stagger & Double shot</color>",
       "FireMode": 1,
       "RecoilDataID": 16,
       "DamageBoosterEffect": 66,
       "Damage": 7.9,
       "DamageFalloff": {
-        "x": 40.0,
+        "x": 25.0,
         "y": 90.0,
         "normalized": {
           "x": 0.40613845,
@@ -2124,8 +2124,8 @@
         "magnitude": 98.48858,
         "sqrMagnitude": 9700.0
       },
-      "StaggerDamageMulti": 1.0,
-      "PrecisionDamageMulti": 0.95,
+      "StaggerDamageMulti": 1.4,
+      "PrecisionDamageMulti": 0.75,
       "DefaultClipSize": 14,
       "DefaultReloadTime": 2.0,
       "CostOfBullet": 2.6,
@@ -2157,8 +2157,8 @@
       },
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
-      "HipFireSpread": 2.5,
-      "AimSpread": 0.0,
+      "HipFireSpread": 2.0,
+      "AimSpread": 0.5,
       "EquipTransitionTime": 0.6,
       "EquipSequence": [
         {
@@ -2403,14 +2403,14 @@
       "persistentID": 28
     },
     {
-      "PublicName": 751,
-      "Description": 752,
+      "PublicName": "Wall-Pen Long Arm (Sniper)",
+      "Description": "<color=yellow>Traits: Wall/Object penetration(except past locked security rooms) & Thermal Assist Scope</color>",
       "FireMode": 0,
       "RecoilDataID": 9,
       "DamageBoosterEffect": 60,
       "Damage": 125.5,
       "DamageFalloff": {
-        "x": 80.0,
+        "x": 60.0,
         "y": 100.0,
         "normalized": {
           "x": 0.51449573,
@@ -2454,7 +2454,7 @@
       },
       "PiercingBullets": true,
       "PiercingDamageCountLimit": 10,
-      "HipFireSpread": 1.0,
+      "HipFireSpread": 10.0,
       "AimSpread": 0.0,
       "EquipTransitionTime": 1.2,
       "EquipSequence": [
@@ -2791,14 +2791,14 @@
       "persistentID": 32
     },
     {
-      "PublicName": 753,
-      "Description": 754,
+      "PublicName": "Pump-Action Scattergun (Shotgun)",
+      "Description": "<color=yellow>Traits: Pump-action & Heavy stagger</color>",
       "FireMode": 0,
       "RecoilDataID": 6,
       "DamageBoosterEffect": 58,
       "Damage": 5.4,
       "DamageFalloff": {
-        "x": 5.0,
+        "x": 6.0,
         "y": 40.0,
         "normalized": {
           "x": 0.0995037258,
@@ -2809,10 +2809,10 @@
         "magnitude": 40.1995,
         "sqrMagnitude": 1616.0
       },
-      "StaggerDamageMulti": 2.0,
-      "PrecisionDamageMulti": 1.0,
+      "StaggerDamageMulti": 2.5,
+      "PrecisionDamageMulti": 0.75,
       "DefaultClipSize": 8,
-      "DefaultReloadTime": 3.0,
+      "DefaultReloadTime": 2.5,
       "CostOfBullet": 11.0,
       "ShotDelay": 0.6,
       "ShellCasingSize": 1.0,
@@ -2842,7 +2842,7 @@
       },
       "PiercingBullets": true,
       "PiercingDamageCountLimit": 2,
-      "HipFireSpread": 1.0,
+      "HipFireSpread": 0.0,
       "AimSpread": 0.0,
       "EquipTransitionTime": 0.35,
       "EquipSequence": [
@@ -2888,14 +2888,14 @@
       "persistentID": 33
     },
     {
-      "PublicName": 3837272169,
-      "Description": 922859417,
+      "PublicName": "Single Round Slugger (Shotgun)",
+      "Description": "<color=yellow>Traits: Slug rounds & Single shot action</color>",
       "FireMode": 0,
       "RecoilDataID": 50,
       "DamageBoosterEffect": 58,
-      "Damage": 55.6,
+      "Damage": 55.0,
       "DamageFalloff": {
-        "x": 30.0,
+        "x": 25.0,
         "y": 40.0,
         "normalized": {
           "x": 0.148340449,
@@ -2912,11 +2912,11 @@
         "magnitude": 40.4475,
         "sqrMagnitude": 1636.0
       },
-      "StaggerDamageMulti": 1.0,
-      "PrecisionDamageMulti": 1.5,
+      "StaggerDamageMulti": 0.8,
+      "PrecisionDamageMulti": 1.6,
       "DefaultClipSize": 1,
-      "DefaultReloadTime": 1.3,
-      "CostOfBullet": 11.0,
+      "DefaultReloadTime": 2.0,
+      "CostOfBullet": 9.2,
       "ShotDelay": 0.75,
       "ShellCasingSize": 1.5,
       "ShellCasingSpeedRange": {
@@ -2945,7 +2945,7 @@
       },
       "PiercingBullets": true,
       "PiercingDamageCountLimit": 3,
-      "HipFireSpread": 2.0,
+      "HipFireSpread": 0.0,
       "AimSpread": 0.0,
       "EquipTransitionTime": 0.6,
       "EquipSequence": [
@@ -2991,14 +2991,14 @@
       "persistentID": 81
     },
     {
-      "PublicName": 1399,
-      "Description": 1400,
+      "PublicName": "Explosive Scattergun (Shotgun)",
+      "Description": "<color=yellow>Traits: Explosive Rounds & Team-killer</color>",
       "FireMode": 0,
       "RecoilDataID": 44,
       "DamageBoosterEffect": 58,
       "Damage": 0.5,
       "DamageFalloff": {
-        "x": 5.0,
+        "x": 6.0,
         "y": 30.0,
         "normalized": {
           "x": 0.132163718,
@@ -3010,7 +3010,7 @@
         "sqrMagnitude": 916.0
       },
       "StaggerDamageMulti": 2.0,
-      "PrecisionDamageMulti": 0.7333,
+      "PrecisionDamageMulti": 0.45,
       "DefaultClipSize": 4,
       "DefaultReloadTime": 3.2,
       "CostOfBullet": 21.0,
@@ -3088,14 +3088,14 @@
       "persistentID": 72
     },
     {
-      "PublicName": 755,
-      "Description": 756,
+      "PublicName": "Choke Mod Scattergun (Shotgun)",
+      "Description": "<color=yellow>Traits: Tight spread</color>",
       "FireMode": 1,
       "RecoilDataID": 20,
       "DamageBoosterEffect": 69,
-      "Damage": 6.4,
+      "Damage": 7.0,
       "DamageFalloff": {
-        "x": 16.0,
+        "x": 20.0,
         "y": 80.0,
         "normalized": {
           "x": 0.184288532,
@@ -3107,10 +3107,10 @@
         "sqrMagnitude": 6625.0
       },
       "StaggerDamageMulti": 1.5,
-      "PrecisionDamageMulti": 1.0,
-      "DefaultClipSize": 4,
+      "PrecisionDamageMulti": 0.9,
+      "DefaultClipSize": 5,
       "DefaultReloadTime": 2.7,
-      "CostOfBullet": 11.0,
+      "CostOfBullet": 10.0,
       "ShotDelay": 0.05,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -3139,8 +3139,8 @@
       },
       "PiercingBullets": true,
       "PiercingDamageCountLimit": 1,
-      "HipFireSpread": 10.0,
-      "AimSpread": 10.0,
+      "HipFireSpread": 0.0,
+      "AimSpread": 0.0,
       "EquipTransitionTime": 1.0,
       "EquipSequence": [
         {
@@ -3157,7 +3157,7 @@
       "AimSequence": [],
       "BurstDelay": 0.01,
       "BurstShotCount": 1,
-      "ShotgunBulletCount": 8,
+      "ShotgunBulletCount": 5,
       "ShotgunConeSize": 0,
       "ShotgunBulletSpread": 1,
       "SpecialChargetupTime": 0.0,
@@ -3185,8 +3185,8 @@
       "persistentID": 34
     },
     {
-      "PublicName": 757,
-      "Description": 758,
+      "PublicName": "Reserve Scattergun (Shotgun)",
+      "Description": "<color=yellow>Traits: Stacking DoT bleed</color>",
       "FireMode": 2,
       "RecoilDataID": 21,
       "DamageBoosterEffect": 68,
@@ -3204,7 +3204,7 @@
         "sqrMagnitude": 2050.0
       },
       "StaggerDamageMulti": 2.0,
-      "PrecisionDamageMulti": 0.875,
+      "PrecisionDamageMulti": 0.75,
       "DefaultClipSize": 12,
       "DefaultReloadTime": 2.83,
       "CostOfBullet": 3.5,
@@ -3236,7 +3236,7 @@
       },
       "PiercingBullets": true,
       "PiercingDamageCountLimit": 2,
-      "HipFireSpread": 2.0,
+      "HipFireSpread": 0.0,
       "AimSpread": 0.0,
       "EquipTransitionTime": 0.35,
       "EquipSequence": [
@@ -3254,9 +3254,9 @@
       "AimSequence": [],
       "BurstDelay": 0.0,
       "BurstShotCount": 0,
-      "ShotgunBulletCount": 8,
-      "ShotgunConeSize": 3,
-      "ShotgunBulletSpread": 2,
+      "ShotgunBulletCount": 10,
+      "ShotgunConeSize": 4,
+      "ShotgunBulletSpread": 4,
       "SpecialChargetupTime": 0.2,
       "SpecialCooldownTime": 0.2,
       "SpecialSemiBurstCountTimeout": 0.0,
@@ -3282,14 +3282,14 @@
       "persistentID": 35
     },
     {
-      "PublicName": 4180792222,
-      "Description": 1709775864,
+      "PublicName": "Hemorrhage Scattergun (HEL)",
+      "Description": "<color=yellow>Traits: Stacking DoT bleed</color>",
       "FireMode": 2,
       "RecoilDataID": 46,
       "DamageBoosterEffect": 58,
       "Damage": 2.1,
       "DamageFalloff": {
-        "x": 5.0,
+        "x": 6.0,
         "y": 40.0,
         "normalized": {
           "x": 0.0995037258,
@@ -3301,7 +3301,7 @@
         "sqrMagnitude": 1616.0
       },
       "StaggerDamageMulti": 2.0,
-      "PrecisionDamageMulti": 0.7413,
+      "PrecisionDamageMulti": 0.75,
       "DefaultClipSize": 10,
       "DefaultReloadTime": 3.0,
       "CostOfBullet": 6.1,
@@ -3333,8 +3333,8 @@
       },
       "PiercingBullets": true,
       "PiercingDamageCountLimit": 2,
-      "HipFireSpread": 2.2,
-      "AimSpread": 2.2,
+      "HipFireSpread": 2.0,
+      "AimSpread": 1.5,
       "EquipTransitionTime": 0.35,
       "EquipSequence": [
         {
@@ -3476,14 +3476,14 @@
       "persistentID": 36
     },
     {
-      "PublicName": 759,
-      "Description": 760,
+      "PublicName": "Heavy Fan Handcannon (Revolver)",
+      "Description": "<color=yellow>Traits: Ricochet rounds, High precision, & Hold trigger for rapid fire</color>",
       "FireMode": 0,
       "RecoilDataID": 5,
       "DamageBoosterEffect": 59,
-      "Damage": 35.9,
+      "Damage": 10.0,
       "DamageFalloff": {
-        "x": 20.0,
+        "x": 21.0,
         "y": 80.0,
         "normalized": {
           "x": 0.148340449,
@@ -3500,11 +3500,11 @@
         "magnitude": 80.895,
         "sqrMagnitude": 6544.0
       },
-      "StaggerDamageMulti": 1.0,
-      "PrecisionDamageMulti": 0.95,
+      "StaggerDamageMulti": 0.9,
+      "PrecisionDamageMulti": 6.25,
       "DefaultClipSize": 6,
-      "DefaultReloadTime": 2.15,
-      "CostOfBullet": 4.9,
+      "DefaultReloadTime": 2.1,
+      "CostOfBullet": 5.5,
       "ShotDelay": 0.25,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -3533,8 +3533,8 @@
       },
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
-      "HipFireSpread": 1.0,
-      "AimSpread": 0.0,
+      "HipFireSpread": 1.5,
+      "AimSpread": 0.3,
       "EquipTransitionTime": 0.25,
       "EquipSequence": [
         {
@@ -3579,14 +3579,14 @@
       "persistentID": 37
     },
     {
-      "PublicName": 761,
-      "Description": 762,
-      "FireMode": 1,
+      "PublicName": "Fan Handcannon (HEL)",
+      "Description": "<color=yellow>Traits: Ricochet rounds, High precision, & Hold trigger for rapid fire</color>",
+      "FireMode": 0,
       "RecoilDataID": 22,
       "DamageBoosterEffect": 56,
-      "Damage": 13.6,
+      "Damage": 5.0,
       "DamageFalloff": {
-        "x": 10.0,
+        "x": 13.0,
         "y": 80.0,
         "normalized": {
           "x": 0.12403474,
@@ -3597,11 +3597,11 @@
         "magnitude": 80.6225739,
         "sqrMagnitude": 6500.0
       },
-      "StaggerDamageMulti": 1.1,
-      "PrecisionDamageMulti": 0.87,
+      "StaggerDamageMulti": 0.85,
+      "PrecisionDamageMulti": 4.25,
       "DefaultClipSize": 6,
-      "DefaultReloadTime": 2.2,
-      "CostOfBullet": 4.5,
+      "DefaultReloadTime": 2.1,
+      "CostOfBullet": 5.0,
       "ShotDelay": 0.25,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -3618,8 +3618,8 @@
       },
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 2,
-      "HipFireSpread": 2.0,
-      "AimSpread": 0.0,
+      "HipFireSpread": 2.5,
+      "AimSpread": 0.15,
       "EquipTransitionTime": 0.4,
       "EquipSequence": [
         {
@@ -3838,14 +3838,14 @@
       "persistentID": 40
     },
     {
-      "PublicName": 763,
-      "Description": 764,
+      "PublicName": "Nano-Gauss Long Arm (HEL)",
+      "Description": "<color=yellow>Traits: Kill explosion with seeking Nano Gobules</color>",
       "FireMode": 0,
       "RecoilDataID": 41,
       "DamageBoosterEffect": 56,
-      "Damage": 40.3,
+      "Damage": 50.5,
       "DamageFalloff": {
-        "x": 40.0,
+        "x": 50.0,
         "y": 80.0,
         "normalized": {
           "x": 0.4472136,
@@ -3856,11 +3856,11 @@
         "magnitude": 89.44272,
         "sqrMagnitude": 8000.0
       },
-      "StaggerDamageMulti": 1.0,
-      "PrecisionDamageMulti": 1.5,
-      "DefaultClipSize": 3,
-      "DefaultReloadTime": 3.5,
-      "CostOfBullet": 14.5,
+      "StaggerDamageMulti": 1.5,
+      "PrecisionDamageMulti": 2.0,
+      "DefaultClipSize": 5,
+      "DefaultReloadTime": 3.0,
+      "CostOfBullet": 15.5,
       "ShotDelay": 0.1,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -3889,7 +3889,7 @@
       },
       "PiercingBullets": true,
       "PiercingDamageCountLimit": 5,
-      "HipFireSpread": 2.0,
+      "HipFireSpread": 7.5,
       "AimSpread": 0.0,
       "EquipTransitionTime": 0.8,
       "EquipSequence": [
@@ -3935,14 +3935,14 @@
       "persistentID": 65
     },
     {
-      "PublicName": 272025066,
-      "Description": 958451622,
+      "PublicName": "Bio-Tag Long Arm (Sniper)",
+      "Description": "<color=yellow>Traits: Thermal scope, Tagging rounds, & Turret synergy</color>",
       "FireMode": 2,
       "RecoilDataID": 49,
       "DamageBoosterEffect": 60,
       "Damage": 28.1,
       "DamageFalloff": {
-        "x": 40.0,
+        "x": 45.0,
         "y": 70.0,
         "normalized": {
           "x": 0.3939193,
@@ -3953,8 +3953,8 @@
         "magnitude": 76.15773,
         "sqrMagnitude": 5800.0
       },
-      "StaggerDamageMulti": 1.0,
-      "PrecisionDamageMulti": 1.3,
+      "StaggerDamageMulti": 2.0,
+      "PrecisionDamageMulti": 1.2,
       "DefaultClipSize": 8,
       "DefaultReloadTime": 2.7,
       "CostOfBullet": 6.1,
@@ -3986,7 +3986,7 @@
       },
       "PiercingBullets": true,
       "PiercingDamageCountLimit": 1,
-      "HipFireSpread": 2.5,
+      "HipFireSpread": 5.0,
       "AimSpread": 0.0,
       "EquipTransitionTime": 0.8,
       "EquipSequence": [
@@ -4032,14 +4032,14 @@
       "persistentID": 79
     },
     {
-      "PublicName": 765,
-      "Description": 766,
+      "PublicName": "Bio-Tag Sidearm (Pistol)",
+      "Description": "<color=yellow>Traits: Tagging rounds & Turret synergy</color>",
       "FireMode": 0,
       "RecoilDataID": 3,
       "DamageBoosterEffect": 50,
       "Damage": 5.7,
       "DamageFalloff": {
-        "x": 9.0,
+        "x": 11.0,
         "y": 45.0,
         "normalized": {
           "x": 0.196116135,
@@ -4050,8 +4050,8 @@
         "magnitude": 45.8911743,
         "sqrMagnitude": 2106.0
       },
-      "StaggerDamageMulti": 1.5,
-      "PrecisionDamageMulti": 0.8667,
+      "StaggerDamageMulti": 2.0,
+      "PrecisionDamageMulti": 0.65,
       "DefaultClipSize": 15,
       "DefaultReloadTime": 1.3,
       "CostOfBullet": 2.4,
@@ -4083,8 +4083,8 @@
       },
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
-      "HipFireSpread": 1.0,
-      "AimSpread": 0.0,
+      "HipFireSpread": 1.3,
+      "AimSpread": 0.05,
       "EquipTransitionTime": 0.3,
       "EquipSequence": [
         {
@@ -4129,14 +4129,14 @@
       "persistentID": 41
     },
     {
-      "PublicName": 2193357087,
-      "Description": 709337157,
+      "PublicName": "High-Cal Sidearm (Pistol)",
+      "Description": "<color=yellow>Traits: High Stagger Power & Solid Damage Output</color>",
       "FireMode": 0,
       "RecoilDataID": 47,
       "DamageBoosterEffect": 50,
       "Damage": 45.2,
       "DamageFalloff": {
-        "x": 25.0,
+        "x": 18.0,
         "y": 65.0,
         "normalized": {
           "x": 0.122155204,
@@ -4147,8 +4147,8 @@
         "magnitude": 65.4904556,
         "sqrMagnitude": 4289.0
       },
-      "StaggerDamageMulti": 1.0,
-      "PrecisionDamageMulti": 0.7413,
+      "StaggerDamageMulti": 1.5,
+      "PrecisionDamageMulti": 0.6,
       "DefaultClipSize": 5,
       "DefaultReloadTime": 2.6,
       "CostOfBullet": 6.8,
@@ -4180,8 +4180,8 @@
       },
       "PiercingBullets": true,
       "PiercingDamageCountLimit": 2,
-      "HipFireSpread": 2.0,
-      "AimSpread": 0.0,
+      "HipFireSpread": 2.5,
+      "AimSpread": 0.15,
       "EquipTransitionTime": 0.5,
       "EquipSequence": [
         {
@@ -4226,14 +4226,14 @@
       "persistentID": 80
     },
     {
-      "PublicName": 1282527880,
-      "Description": 1698285781,
+      "PublicName": "C-Foam Sidearm (Pistol)",
+      "Description": "<color=yellow>Traits: Foam rounds, Barricade doors, & Armor weakening</color>",
       "FireMode": 0,
       "RecoilDataID": 18,
       "DamageBoosterEffect": 50,
-      "Damage": 0.1,
+      "Damage": 1.0,
       "DamageFalloff": {
-        "x": 7.0,
+        "x": 10.0,
         "y": 47.0,
         "normalized": {
           "x": 0.1473113,
@@ -4244,8 +4244,8 @@
         "magnitude": 47.5184174,
         "sqrMagnitude": 2258.0
       },
-      "StaggerDamageMulti": 1.0,
-      "PrecisionDamageMulti": 0.8667,
+      "StaggerDamageMulti": 10.0,
+      "PrecisionDamageMulti": 0.5,
       "DefaultClipSize": 6,
       "DefaultReloadTime": 0.0,
       "CostOfBullet": 6.5,
@@ -4277,7 +4277,7 @@
       },
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
-      "HipFireSpread": 0.5,
+      "HipFireSpread": 0.4,
       "AimSpread": 0.0,
       "EquipTransitionTime": 0.3,
       "EquipSequence": [
@@ -4323,14 +4323,14 @@
       "persistentID": 42
     },
     {
-      "PublicName": 767,
-      "Description": 768,
+      "PublicName": "Full-Auto Sidearm (MP)",
+      "Description": "<color=yellow>Traits: High Fire Rate & High Precision for a MP</color>",
       "FireMode": 2,
       "RecoilDataID": 19,
       "DamageBoosterEffect": 63,
       "Damage": 2.8,
       "DamageFalloff": {
-        "x": 6.0,
+        "x": 7.0,
         "y": 35.0,
         "normalized": {
           "x": 0.141421363,
@@ -4341,8 +4341,8 @@
         "magnitude": 35.35534,
         "sqrMagnitude": 1250.0
       },
-      "StaggerDamageMulti": 1.0,
-      "PrecisionDamageMulti": 0.7413,
+      "StaggerDamageMulti": 0.5,
+      "PrecisionDamageMulti": 0.85,
       "DefaultClipSize": 50,
       "DefaultReloadTime": 1.1,
       "CostOfBullet": 0.8,
@@ -4374,8 +4374,8 @@
       },
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
-      "HipFireSpread": 1.9,
-      "AimSpread": 0.0,
+      "HipFireSpread": 1.4,
+      "AimSpread": 0.5,
       "EquipTransitionTime": 0.3,
       "EquipSequence": [
         {
@@ -4420,14 +4420,14 @@
       "persistentID": 43
     },
     {
-      "PublicName": 769,
-      "Description": 770,
+      "PublicName": "Reserve Full-Auto Sidearm (MP)",
+      "Description": "<color=yellow>Traits: Reserve Ammo(no reload) & High stagger</color>",
       "FireMode": 2,
       "RecoilDataID": 19,
       "DamageBoosterEffect": 55,
       "Damage": 1.8,
       "DamageFalloff": {
-        "x": 6.0,
+        "x": 5.0,
         "y": 55.0,
         "normalized": {
           "x": 0.090535745,
@@ -4438,8 +4438,8 @@
         "magnitude": 55.2268066,
         "sqrMagnitude": 3050.0
       },
-      "StaggerDamageMulti": 1.5,
-      "PrecisionDamageMulti": 0.7413,
+      "StaggerDamageMulti": 2.0,
+      "PrecisionDamageMulti": 0.65,
       "DefaultClipSize": 75,
       "DefaultReloadTime": 0.0,
       "CostOfBullet": 0.4,
@@ -4471,8 +4471,8 @@
       },
       "PiercingBullets": true,
       "PiercingDamageCountLimit": 2,
-      "HipFireSpread": 2.1,
-      "AimSpread": 0.0,
+      "HipFireSpread": 1.7,
+      "AimSpread": 0.8,
       "EquipTransitionTime": 0.3,
       "EquipSequence": [
         {
@@ -4614,14 +4614,14 @@
       "persistentID": 44
     },
     {
-      "PublicName": 771,
-      "Description": 772,
+      "PublicName": "Sawed-Off Scattergun (Shotgun)",
+      "Description": "<color=yellow>Traits: Hold Aim to fire 3 rounds & Hold Trigger for Rapid Fire</color>",
       "FireMode": 0,
       "RecoilDataID": 28,
       "DamageBoosterEffect": 58,
       "Damage": 5.0,
       "DamageFalloff": {
-        "x": 6.0,
+        "x": 5.0,
         "y": 40.0,
         "normalized": {
           "x": 0.148340449,
@@ -4639,7 +4639,7 @@
         "sqrMagnitude": 1636.0
       },
       "StaggerDamageMulti": 2.0,
-      "PrecisionDamageMulti": 0.7413,
+      "PrecisionDamageMulti": 0.75,
       "DefaultClipSize": 3,
       "DefaultReloadTime": 1.4,
       "CostOfBullet": 8.0,
@@ -4717,14 +4717,14 @@
       "persistentID": 45
     },
     {
-      "PublicName": 773,
-      "Description": 774,
+      "PublicName": "5-Burst Rifle (Bullpup)",
+      "Description": "<color=yellow>Traits: 5 Round Burst</color>",
       "FireMode": 1,
       "RecoilDataID": 31,
       "DamageBoosterEffect": 67,
       "Damage": 3.1,
       "DamageFalloff": {
-        "x": 10.0,
+        "x": 18.0,
         "y": 65.0,
         "normalized": {
           "x": 0.152057186,
@@ -4735,11 +4735,11 @@
         "magnitude": 65.76473,
         "sqrMagnitude": 4325.0
       },
-      "StaggerDamageMulti": 1.0,
-      "PrecisionDamageMulti": 1.0,
+      "StaggerDamageMulti": 1.3,
+      "PrecisionDamageMulti": 0.75,
       "DefaultClipSize": 50,
       "DefaultReloadTime": 2.3,
-      "CostOfBullet": 1.4,
+      "CostOfBullet": 1.2,
       "ShotDelay": 0.055,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -4768,8 +4768,8 @@
       },
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
-      "HipFireSpread": 2.5,
-      "AimSpread": 0.0,
+      "HipFireSpread": 2.0,
+      "AimSpread": 1.0,
       "EquipTransitionTime": 0.5,
       "EquipSequence": [
         {
@@ -5011,27 +5011,27 @@
       "PublicName": 0,
       "Description": 0,
       "FireMode": 3,
-      "RecoilDataID": 31,
-      "DamageBoosterEffect": 0,
-      "Damage": 2.0,
+      "RecoilDataID": 24,
+      "DamageBoosterEffect": 61,
+      "Damage": 5.9,
       "DamageFalloff": {
-        "x": 10.0,
-        "y": 70.0,
+        "x": 20.0,
+        "y": 80.0,
         "normalized": {
-          "x": 0.141421363,
-          "y": 0.989949465,
+          "x": 0.184288532,
+          "y": 0.9828722,
           "magnitude": 1.0,
-          "sqrMagnitude": 0.99999994
+          "sqrMagnitude": 1.0
         },
-        "magnitude": 70.71068,
-        "sqrMagnitude": 5000.0
+        "magnitude": 81.394104,
+        "sqrMagnitude": 6625.0
       },
-      "StaggerDamageMulti": 1.0,
-      "PrecisionDamageMulti": 1.0,
-      "DefaultClipSize": 25,
-      "DefaultReloadTime": 3.0,
-      "CostOfBullet": 1.0,
-      "ShotDelay": 0.055,
+      "StaggerDamageMulti": 1.75,
+      "PrecisionDamageMulti": 0.55,
+      "DefaultClipSize": 6,
+      "DefaultReloadTime": 4.0,
+      "CostOfBullet": 12.0,
+      "ShotDelay": 1.05,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
         "x": 3.0,
@@ -5059,30 +5059,30 @@
       },
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
-      "HipFireSpread": 1.0,
-      "AimSpread": 0.0,
-      "EquipTransitionTime": 0.5,
+      "HipFireSpread": 0.7,
+      "AimSpread": 0.3,
+      "EquipTransitionTime": 0.8,
       "EquipSequence": [
         {
           "TriggerTime": 0.0,
           "Type": 0,
-          "StringData": "Front_Bullpup_1_equip_weaponmovement"
+          "StringData": "Front_Machinegun_1_equip_weaponmovement"
         },
         {
           "TriggerTime": 2.0,
           "Type": 7
         }
       ],
-      "AimTransitionTime": 0.4,
+      "AimTransitionTime": 0.35,
       "AimSequence": [],
       "BurstDelay": 0.0,
-      "BurstShotCount": 0,
+      "BurstShotCount": 1,
       "ShotgunBulletCount": 0,
       "ShotgunConeSize": 0,
       "ShotgunBulletSpread": 0,
-      "SpecialChargetupTime": 0.0,
-      "SpecialCooldownTime": 0.0,
-      "SpecialSemiBurstCountTimeout": 0.0,
+      "SpecialChargetupTime": 0.4,
+      "SpecialCooldownTime": 0.1,
+      "SpecialSemiBurstCountTimeout": 0.5,
       "Sentry_StartFireDelay": 1.0,
       "Sentry_RotationSpeed": 4.0,
       "Sentry_DetectionMaxRange": 25.0,
@@ -5105,14 +5105,14 @@
       "persistentID": 53
     },
     {
-      "PublicName": 775,
-      "Description": 776,
+      "PublicName": "Bio-Target Sniper Turret (Sentry)",
+      "Description": "<color=yellow>Traits: Fires at Tags only & Long range</color>",
       "FireMode": 0,
       "RecoilDataID": 12,
       "DamageBoosterEffect": 103,
       "Damage": 85.5,
       "DamageFalloff": {
-        "x": 70.0,
+        "x": 60.0,
         "y": 100.0,
         "normalized": {
           "x": 0.287347883,
@@ -5128,7 +5128,7 @@
       "DefaultClipSize": 10,
       "DefaultReloadTime": 1.8,
       "CostOfBullet": 17.0,
-      "ShotDelay": 2.1,
+      "ShotDelay": 2.5,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
         "x": 3.0,
@@ -5202,14 +5202,14 @@
       "persistentID": 54
     },
     {
-      "PublicName": 777,
-      "Description": 778,
+      "PublicName": "4-Burst Turret (Sentry)",
+      "Description": "<color=yellow>Traits: 4 Round Burst & Middle Range</color>",
       "FireMode": 1,
       "RecoilDataID": 8,
       "DamageBoosterEffect": 103,
-      "Damage": 4.5,
+      "Damage": 4.6,
       "DamageFalloff": {
-        "x": 20.0,
+        "x": 30.0,
         "y": 40.0,
         "normalized": {
           "x": 0.242535621,
@@ -5225,7 +5225,7 @@
       "DefaultClipSize": 24,
       "DefaultReloadTime": 1.8,
       "CostOfBullet": 2.05,
-      "ShotDelay": 0.045,
+      "ShotDelay": 0.5,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
         "x": 3.0,
@@ -5269,8 +5269,8 @@
       ],
       "AimTransitionTime": 0.35,
       "AimSequence": [],
-      "BurstDelay": 1.0,
-      "BurstShotCount": 3,
+      "BurstDelay": 2.0,
+      "BurstShotCount": 4,
       "ShotgunBulletCount": 0,
       "ShotgunConeSize": 0,
       "ShotgunBulletSpread": 0,
@@ -5299,14 +5299,14 @@
       "persistentID": 55
     },
     {
-      "PublicName": 779,
-      "Description": 780,
+      "PublicName": "HMG Turret (Sentry)",
+      "Description": "<color=yellow>Traits: High Stagger & High Fire Rate</color>",
       "FireMode": 2,
       "RecoilDataID": 13,
       "DamageBoosterEffect": 103,
-      "Damage": 1.7,
+      "Damage": 1.6,
       "DamageFalloff": {
-        "x": 10.0,
+        "x": 15.0,
         "y": 70.0,
         "normalized": {
           "x": 0.141421363,
@@ -5317,12 +5317,12 @@
         "magnitude": 70.71068,
         "sqrMagnitude": 5000.0
       },
-      "StaggerDamageMulti": 2.5,
+      "StaggerDamageMulti": 3.0,
       "PrecisionDamageMulti": 0.8,
       "DefaultClipSize": 30,
       "DefaultReloadTime": 1.8,
-      "CostOfBullet": 0.8,
-      "ShotDelay": 0.08,
+      "CostOfBullet": 0.55,
+      "ShotDelay": 0.1,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
         "x": 3.0,
@@ -5349,7 +5349,7 @@
         "sqrMagnitude": 34.0
       },
       "PiercingBullets": true,
-      "PiercingDamageCountLimit": 1,
+      "PiercingDamageCountLimit": 2,
       "HipFireSpread": 2.0,
       "AimSpread": 0.0,
       "EquipTransitionTime": 0.45,
@@ -5396,14 +5396,14 @@
       "persistentID": 57
     },
     {
-      "PublicName": 781,
-      "Description": 782,
+      "PublicName": "Shotgun Turret (Sentry)",
+      "Description": "<color=yellow>Traits: Shotgun & Close-Range</color>",
       "FireMode": 0,
       "RecoilDataID": 6,
       "DamageBoosterEffect": 103,
       "Damage": 5.8,
       "DamageFalloff": {
-        "x": 5.0,
+        "x": 10.0,
         "y": 40.0,
         "normalized": {
           "x": 0.0995037258,
@@ -5419,7 +5419,7 @@
       "DefaultClipSize": 10,
       "DefaultReloadTime": 3.0,
       "CostOfBullet": 1.2,
-      "ShotDelay": 1.25,
+      "ShotDelay": 1.3,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
         "x": 3.0,
@@ -5445,8 +5445,8 @@
         "magnitude": 5.83095169,
         "sqrMagnitude": 34.0
       },
-      "PiercingBullets": false,
-      "PiercingDamageCountLimit": 5,
+      "PiercingBullets": true,
+      "PiercingDamageCountLimit": 1,
       "HipFireSpread": 1.0,
       "AimSpread": 0.0,
       "EquipTransitionTime": 0.35,

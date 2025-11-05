@@ -531,7 +531,7 @@
     },
     {
       "PublicName": "Bio Tracker",
-      "Description": 818,
+      "Description": "",
       "BaseItem": 28,
       "HUDIcon": "",
       "IconRotationOffset": 0.0,
@@ -569,7 +569,7 @@
     },
     {
       "PublicName": "C-Foam Launcher",
-      "Description": 819,
+      "Description": "",
       "BaseItem": 73,
       "HUDIcon": "",
       "IconRotationOffset": 0.0,
@@ -620,7 +620,7 @@
     },
     {
       "PublicName": "Mine deployer",
-      "Description": 820,
+      "Description": "",
       "BaseItem": 37,
       "HUDIcon": "",
       "IconRotationOffset": 0.0,
