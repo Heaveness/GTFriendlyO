@@ -4,13 +4,13 @@
     "MeleeArchetypeID": 0,
     "Name": "High Cal Sniper - Wall, Armor Pierce, and Bullet Size",
     "Properties": [
-	  {
+	    {
         "Name": "WallPierce",
         "RequireOpenPath": false
       },
       {
         "Name": "ArmorPierce",
-        "Pierce": 1.0,
+        "Pierce": 1.1,
         "Type": "Override"
       }
     ]
@@ -24,6 +24,15 @@
         "Name": "ArmorPierce",
         "Pierce": 0.75,
         "Type": "Pierce"
+      },
+      {
+        "Name": "ReloadMod",
+        "Mod": 2.0,
+        "Cap": 2.0,
+        "Duration": 2.5,
+        "StackType": "Add",
+        "StackLayer": "Mult",
+        "Trigger": "KillBullet"
       }
     ]
   },
@@ -37,7 +46,7 @@
         "Pierce": 1.1,
         "Type": "Override"
       },
-	  {
+	    {
         "Name": "BioPing",
         "CooldownPerTarget": 5,
         "Trigger": "Hit"

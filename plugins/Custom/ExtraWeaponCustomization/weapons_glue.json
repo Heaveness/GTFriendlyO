@@ -16,7 +16,7 @@
         "BubbleExpandSpeed": 0.1,
         "BubbleOnDoors": true,
         "BubbleIgnoreModifiers": true,
-        "FoamTime": 5.0,
+        "FoamTime": 6.0,
         "FoamTimeType": "Override",
         "IgnoreFalloff": false,
         "IgnoreBooster": false,
@@ -24,9 +24,9 @@
       },
       {
         "Name": "ArmorShred",
-        "Mod": 0.8,               
-        "Cap": 0.6,              
-        "Duration": 5.0,          
+        "Mod": 1.3,               
+        "Cap": 1.3,              
+        "Duration": 6.0,          
         "StackType": "Multiply",  
         "CombineModifiers": false,
         "Trigger": "Hit"
@@ -44,6 +44,20 @@
         "ResetWhileFull": true,
         "DelayAfterTrigger": 3.0,
         "Trigger": "End Firing"
+      },
+      {
+        "Name": "Noise",
+        "SoundID": 2634318532,
+        "LocalSoundOnly": true,
+        "Trigger": {
+          "Name": "Clip",
+          "ClipMin": 5,
+          "ClipMax": 6,
+          "AmountAtMin": 0,
+          "AmountAtMax": 1,
+          "Exponent": 8.0,
+          "FlipExponent": false
+        }
       }
     ]
   }

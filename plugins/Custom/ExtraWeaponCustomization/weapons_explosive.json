@@ -4,7 +4,7 @@
     "MeleeArchetypeID": 0,
     "Name": "Burst Cannon - Explosive Shrapnel",
     "Properties": [
-      {
+    {
 		"Name": "Explosive",
         "MaxDamage": 45,
         "MinDamage": 35,
@@ -17,6 +17,7 @@
         "IgnoreArmor": false,
         "IgnoreBackstab": true,
         "IgnoreDamageMods": false,
+        "UseParentShotMod": true,
         "DamageFriendly": true,
         "DamageOwner": true,
         "HitClosestFirst": true,
@@ -63,7 +64,7 @@
         "DamageLimb": true, 
         "IgnoreArmor": false, 
         "IgnoreBackstab": false, 
-        "IgnoreShotMods": true, 
+        "IgnoreShotMods": false, 
         "UseParentShotMod": true, 
         "DamageFriendly": true, 
         "DamageOwner": true, 
@@ -78,6 +79,33 @@
         "HitTriggerTarget": false, 
         "RunHitTriggers": true, 
         "Trigger": "BulletLanded"
+      },
+      {
+          "Name": "TempProperties",
+          "Duration": 999999,
+          "Trigger": {
+            "Activate": "Aim",
+            "Reset": "AimEnd"
+          },
+          "Properties": [
+          {
+            "Name": "AutoTrigger"
+          },
+          {
+            "Name": "DataSwap",
+            "ArchetypeID": 53,
+            "AudioID": 0,
+            "Duration": 999999,
+            "EndBurst": true,
+            "EndCharge": true,
+            "KeepMagCost": false,
+            "Trigger": 
+            {
+              "Activate": "Aim",
+              "Reset": "AimEnd"
+            }
+          }
+        ]
       }
     ]
   },
@@ -88,8 +116,8 @@
     "Properties": [
       {
         "Name": "Explosive",
-        "MaxDamage": 15,
-        "MinDamage": 15,
+        "MaxDamage": 11,
+        "MinDamage": 11,
         "InnerRadius": 2.5,
         "Radius": 2.5,
         "PrecisionDamageMulti": 0.7,
@@ -99,6 +127,7 @@
         "IgnoreArmor": false,
         "IgnoreBackstab": false,
         "IgnoreDamageMods": false,
+        "UseParentShotMod": true,
         "DamageFriendly": true,
         "DamageOwner": true,
         "DamageLocks": true,
@@ -181,6 +210,7 @@
         "IgnoreArmor": false,
         "IgnoreBackstab": false,
         "IgnoreDamageMods": false,
+        "UseParentShotMod": true,
         "DamageFriendly": true,
         "DamageOwner": true,
         "DamageLocks": true,
@@ -191,6 +221,12 @@
         "GlowColor": "#FF3300FF",
         "GlowDuration": 0.5,
         "GlowFadeDuration": 1.0
+      },
+      {
+          "Name": "Noise",
+          "SoundID": 2759590332,
+          "LocalSoundOnly": true,
+          "Trigger": "Reload" 
       },
 	    {
         "Name": "Projectile",
@@ -232,16 +268,17 @@
         "IgnoreArmor": false,
         "IgnoreBackstab": true,
         "IgnoreDamageMods": false,
+        "UseParentShotMod": true,
 		    "DamageFriendly": false,
         "DamageOwner": false,
         "HitClosestFirst": true,
-        "SoundID": 606581668,
+        "SoundID": 4114824873,
         "EnableMineFX": false,
         "GlowColor": "#B22222",
         "GlowIntensity": 5,
         "GlowDuration": 1.0,
         "GlowFadeDuration": 0.5,
-        "Trigger": "Kill"
+        "Trigger": "KillMelee"
       }
     ]
   },
@@ -263,17 +300,63 @@
           "IgnoreArmor": false,
           "IgnoreBackstab": true,
           "IgnoreDamageMods": false,
+          "UseParentShotMod": true,
           "DamageFriendly": true,
           "DamageOwner": true,
           "DamageLocks": true,
           "HitClosestFirst": true,
-          "SoundID": 606581668,
-          "EnableMineFX": false,
+          "SoundID": 4114824873,
+          "EnableMineFX": true,
           "GlowColor": "#B22222",
           "GlowIntensity": 10,
           "GlowDuration": 1.0,
           "GlowFadeDuration": 0.5,
           "Trigger": "KillBullet"
+        },
+        {
+          "Name": "Noise",
+          "SoundID": 3452648105,
+          "LocalSoundOnly": true,
+          "Trigger": "Pre Shot" 
+        },
+        {
+          "Name": "Noise",
+          "SoundID": 3011689453,
+          "LocalSoundOnly": true,
+          "Trigger": "Reload" 
+        },
+        {
+          "Name": "Projectile",
+          "ProjectileType": "RagingBoss",
+          "Speed": 60,
+          "AccelScale": 2.0,
+          "AccelExponent": 1,
+          "AccelTime": 0.2,
+          "Gravity": 0,
+          "HitSize": 0,
+          "HitSizeFriendly": 0,
+          "HitSizeWorld": 0,
+          "ModelScale": 10,
+          "EnableTerrainHitFX": true,
+          "EnableTrail": true,
+          "TrailColor": "#FF0000",
+          "TrailWidth": 0.1,
+          "TrailTime": 0.8,
+          "TrailCullOnDie": false,
+          "GlowColor": "#FF0000",
+          "GlowIntensity": 1,
+          "GlowRange": 4,
+          "DamageFriendly": true,
+          "DamageOwner": false,
+          "HitFromOwnerPos": false,
+          "HitCooldown": -1,
+          "HitIgnoreWallsDuration": 15,
+          "RicochetCount": 0,
+          "RicochetSpeedMod": 0,
+          "RicochetSpeedAngleFactor": 0,
+          "VisualLerpDist": 3,
+          "Lifetime": 60,
+          "HomingSettings": {}
         },
         {
             "Name": "Shrapnel",

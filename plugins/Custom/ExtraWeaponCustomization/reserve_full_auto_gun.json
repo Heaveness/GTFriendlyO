@@ -4,8 +4,31 @@
     "MeleeArchetypeID": 0,
     "Name": "Heavy Machine Gun - Full Auto Ammo",
     "Properties": [
-	  {
+	    {
         "Name": "ReserveClip"
+      },
+      {
+        "Name": "Accelerate",
+        "EndShotDelay": 0,
+        "EndFireRate": 0,
+        "EndFireRateMod": 3.5,
+        "FireRateStackLayer": "Mult",
+        "EndDamageMod": 1,
+        "DamageStackLayer": "Mult",
+        "AccelTime": 2.5,
+        "AccelExponent": 1.3,
+        "DecelTime": 0.6,
+        "DecelDelay": 0.2,
+        "ResetTrigger": "Start Firing"
+      },
+      {
+        "Name": "RecoilMod",
+        "Mod": 0.8,
+        "Cap": 0,
+        "Duration": 0,
+        "StackType": "Add",
+        "StackLayer": "Mult",
+        "Trigger": "Invalid"
       }
     ]
   },

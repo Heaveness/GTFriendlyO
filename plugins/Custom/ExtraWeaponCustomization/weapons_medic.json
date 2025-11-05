@@ -6,11 +6,17 @@
     "Properties": [
       {
         "Name": "HealthMod",
-        "HealthChangeRel": 0.005,
+        "HealthChangeRel": 0.0062,
         "CapRel": 1.0,
         "CancelRegen": false,
         "ApplyToTarget": true,
         "Trigger": "HitPlayer"
+      },
+      {
+          "Name": "Noise",
+          "SoundID": 1993625518,
+          "LocalSoundOnly": true,
+          "Trigger": "Reload" 
       },
       {
         "Name": "DamageOverTime",

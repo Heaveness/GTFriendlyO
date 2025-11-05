@@ -6,6 +6,7 @@
     "Properties": [
 		{
 		  "Name": "AutoAim",
+      "ID": "LockID",
 		  "HipActive": true,
 		  "AimActive": true,
 		  "Angle": 5,
@@ -22,6 +23,18 @@
 		  "FavorLookPoint": true,
 		  "HomingOnly": true
 		},
+    {
+      "Name": "Noise",
+      "SoundID": 3296652221,
+      "LocalSoundOnly": true,
+      "Trigger": "LockID" 
+    },
+    {
+      "Name": "Noise",
+      "SoundID": 2904485454,
+      "LocalSoundOnly": true,
+      "Trigger": "Reload" 
+    },
 		{
         "Name": "Projectile",
         "ProjectileType": "InfectionBomb",
