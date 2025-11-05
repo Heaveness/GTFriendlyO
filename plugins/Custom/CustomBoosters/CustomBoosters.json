@@ -50,7 +50,7 @@
           "Description": "Subject will revive allies with additional health.",
           "DescriptionNegative": "Subject will revive allies with less health.",
           "EffectCategory": "Health",
-          "Value": 1.06
+          "Value": 1.1
         }
       ],
       "Conditions": []
@@ -480,7 +480,7 @@
           "Description": "Subject will revive allies with additional health.",
           "DescriptionNegative": "Subject will revive allies with less health.",
           "EffectCategory": "Health",
-          "Value": 1.1
+          "Value": 1.16
         }
       ],
       "Conditions": [
@@ -1045,7 +1045,7 @@
           "Description": "Subject will revive allies with additional health.",
           "DescriptionNegative": "Subject will revive allies with less health.",
           "EffectCategory": "Health",
-          "Value": 1.16
+          "Value": 1.2
         },
         {
           "Effect": "ScannerRechargeSpeed",
