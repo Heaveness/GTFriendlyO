@@ -1,17 +1,17 @@
 {
     "name": "GTFriendlyO",
-    "version_number": "1.4.2",
+    "version_number": "2.0.1",
     "website_url": "https://github.com/Heaveness/GTFriendlyO",
     "description": "A major overhaul of GTFO's vanilla gameplay, designed for a more casual but still fun and challenging experience with friends.",
     "dependencies": [
         "BepInEx-BepInExPack_GTFO-3.2.2",
         "dakkhuza-MTFO-4.6.2",
         "Dinorush-MovementSpeedAPI-1.1.0",
-        "Dinorush-ExtraWeaponCustomization-3.7.10",
+        "Dinorush-ExtraWeaponCustomization-4.2.3",
         "ProjectZaero-Junkie_Syringe_Pack-2.6.0",
-        "Panthr75-ExtraSyringeCustomization-0.3.7",
+        "Panthr75-ExtraSyringeCustomization-0.3.8",
         "GTFOModding-InjectLib-1.1.0",
-        "hirnukuono-EEC_H-1.8.19",
+        "hirnukuono-EEC_H-1.8.21",
         "Dinorush-ExtraToolCustomization-1.5.4",
         "dakkhuza-FloatingTextAPI-1.0.5",
         "Frog-DoubleJump-1.0.6",
@@ -25,7 +25,7 @@
         "Andocas-PreciseUI-0.3.2",
         "Hikaria-ResourceStack-2.1.1",
         "Fody55-GTFO_ShootInTheAir-2.0.1",
-        "DacreDOLOLO-WeaponStatShower-1.4.0",
+        "Amorously-DescriptiveWeaponStatShower-1.5.1",
         "Endskill-Custom_Boosters-1.2.0",
         "Cactus-WorseHackingMiniGame-1.0.0",
         "GTFOModding-BetterBioTracker-1.0.1",
@@ -33,6 +33,12 @@
         "long_walter-MeleeTimer-0.0.2",
         "Localia-PingEverything-3.0.1",
         "Shadsterwolf-SkipIntro-1.0.0",
-        "GTFOModding-SentryAmmoPercentageScreen-1.0.0"
+        "GTFOModding-SentryAmmoPercentageScreen-1.0.0",
+        "Amorously-AmorLib-1.0.5",
+        "Ound9-O9_Custom_GearPart-0.0.9",
+        "DarkEmperor-DS2_Custom_Gear_Parts-0.1.4",
+        "easternunit100-BetterBots-0.1.7",
+        "Dinorush-DropItemFixed-0.1.6",
+        "easternunit100-ChatterReborn-0.4.1"
     ]
 }

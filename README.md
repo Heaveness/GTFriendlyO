@@ -13,7 +13,7 @@ This project has been in the works for years. Until now, it's only been shared p
 
 ## Important
 
-* Please note that this is only a baseline modpack; more mods will be considered in the future. Check the status and future content in the wiki for updates. **Stay tuned & check [here!](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/3972-current-status-future-patches/)**
+* Please note that this modpack; not a plugin. Check the status and future content in the wiki for updates. **Stay tuned & check [here!](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/3972-current-status-future-patches/)**
 
 * Can be played Vanilla with other mods with this mod-pack, especially with client-side mods. It's recommended to use several bug fix mods to prevent further issues with GTFO. But it's up to the players if they want them or not. It's not necessary to add them in. Recommended mod list: [here](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/4030-recommend-mods/)
 
@@ -22,6 +22,9 @@ This project has been in the works for years. Until now, it's only been shared p
 #### Recommended mods:
 * List: [Thunderstore wiki link](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/4030-recommend-mods-wip/)
 > Dev Note: These are recommended, but not needed. Some of these mods will have configs that might be packaged with the mod-pack, but not the mod itself. These aren't necessary, but nice to have on the list.
+
+* Recommend to check out the_tavern's [AutogenRundown](https://thunderstore.io/c/gtfo/p/the_tavern/AutogenRundown/) mod, especially **AFTER** you have finished GTFO's vanilla rundowns. It provides new rundowns generated daily, weekly, monthly, and each season. Automatic Rundown generation, using procedural seed based generation!
+    * Additional work may be required to achieve better compatibility. Some features from GTFriendlyO or AutogenRundown may not work well with each other.
 
 ## Major Changes
 
@@ -55,7 +58,7 @@ This project has been in the works for years. Until now, it's only been shared p
 | Marine 			| Damage 	| Combat 	| Accurate; mid-to-long range; consistent damage                      | Low melee armor & damage                                                      |
 | Covert Op 		| Damage 	| Combat 	| Stealth melee; high damage; high movement speed                     | Low base HP; very fragile                                                     |
 | Demolitionist 	| Damage 	| Combat 	| Crowd control AoE; big explosions; explosive resistance             | Poor tech skills (terminal, hacking, sentries)                                |
-| Shock Trooper 	| Tank 		| Combat 	| High armor; strong base HP; fast regen speed                        | Low damage overall; relies on shotguns & melee; slow movement speed           |
+| Shock Trooper 	| Tank 		| Combat 	| High armor; strong base HP; fast regen speed                        | Bioscans take longer to finish, slow movement speed                           |
 | Paramedic 		| Support 	| Support 	| Infection immune; high revive speed & health; fast regen delay      | No offensive benefits; low starting & max ammo                                |
 | Quartermaster 	| Tank 		| Support 	| High ammo efficiency; strong starting ammo; high HP regen cap       | Very slow movement speed; low damage (except with MGs)                        |
 | Specialist 	    | Support 	| Support 	| Effective & efficient with all tools and items                      | Low starting & max ammo; no offensive benefits                                |
@@ -64,7 +67,7 @@ This project has been in the works for years. Until now, it's only been shared p
 | HEL Diver 		| Damage 	| B-Company | Strong HEL gun damage; fast terminal & hacking; high movement speed | High friendly fire damage; fragile; low base HP & regen cap                   |
 | Abhuman 			| Tank 		| B-Company | Very high base HP; strong melee damage; extended hitbox/range       | Poor with terminals & sentries; low starting ammo; reduced movement           |
 | Deprived 			| Damage 	| B-Company | High resistances; strong damage; melee armor; fast objectives       | Extremely fragile esp. against projectile; low starting ammo                  |
-| Courier 			| Damage 	| B-Company | A strong damage potential with precision-based weapons              | Very poor resistance to Infection/Explosion/Bullet/Bleed with lowered max ammo|
+| Courier 			| Damage 	| B-Company | Strong damage potential with precision-based weapons, Auto Bio-Tag  | Very poor resistance to Infection/Explosion/Bullet/Bleed with lowered max ammo|
 
 ###### Weapons:
 
@@ -104,13 +107,13 @@ This project has been in the works for years. Until now, it's only been shared p
 | Buckland XDIST2     	| Buckland Choke Shotgun			| Standard bullets												| Hitscan			|
 | Mastaba R66         	| Bataldo Heavy Revolver			| Hold trigger for rapid fire; richochet on terrain             | Hitscan			|
 | Techman Arbalist V  	| Raptus LMG						| Standard bullets                                              | Hitscan			|
-| Techman Veruta XII  	| Raptus Reserve HMG				| Reserve ammo; no reload                                       | Hitscan			|
-| Techman Klust 6     	| Mastaba Explosive Cannon      	| Explosive burst; charge-up; shrapnel					    	| Projectile/Gravity|
-| Omneco Exp1         	| Hanaway Hemorrhage HEL			| Standard bullets; applies DoT                                 | Hitscan			|
+| Techman Veruta XII  	| Raptus Reserve HMG				| Reserve ammo; no reload, fire to accelerate                   | Hitscan			|
+| Techman Klust 6     	| Mastaba Explosive Cannon      	| Explosive burst; charge-up; shrapnel; Aim to fire quickly 	| Projectile/Gravity|
+| Omneco Exp1         	| Hanaway Hemorrhage HEL			| Standard bullets; applies DoT, Lock-on for aiming only        | Hitscan			|
 | Shelling Arid 5	  	| Shelling Bolt Pistol				| Standard bullets                                  			| Hitscan			|
 | Drekker Del P1      	| Omneco Tracker Rifle				| Tags target on hit                                            | Hitscan			|
 | Köning PR 11        	| Van Auken Sniper Rifle    		| Wall-penetration bullets                                      | Hitscan			|
-| Omneco LRG          	| Techman Nano Gauss Rifle      	| Nano-Burst Gobules on kill seeks nearby target                | Hitscan/Projectile|
+| Omneco LRG          	| Techman Nano Gauss Rifle      	| Nano-Burst Gobules on kill seeks nearby target                | Projectile        |
 
 #### Melee:
 

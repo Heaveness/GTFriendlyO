@@ -1,6 +1,459 @@
 # Changelog
 
-### **v1.4.2** - Latest
+## **v2.0.1** - Latest
+
+
+
+### Class Tweaks
+* Courier
+    * Increased Infection/Explosion/Bullet/Bleed Res. penalty from `70%` to `75%`
+    * Removed Initial Tool Ammo bonus.
+> Dev Note: I have received some feedback regarding the Courier class being very fun, which is good. But also on it being too strong. The Living Bio Tracker ability is extremely powerful tool which I cannot adjust directly. So I have bring the class down a bit, but not too much. I want people to still enjoy playing this class. This is still a meme class, so balance isn't its main focus.
+
+### Weapon Tweaks
+* Fixed Weapon Animation for player models in third person
+    * 
+    * 
+    * 
+
+### Misc.
+* Updated `ExtraWeaponCustomization` mod
+* Updated `ExtraEnemyCustomization` mod
+* Updated `ExtraSyringeCustomization` mod
+
+
+---
+
+### v2.0.0 Final Major Update
+
+### Weapon Rework(Precision & Stagger Multiplier):
+* The vanilla GTFO baseline precision is 0.74x because it is added on top of enemy's weakspot multipliers. Each enemy has their own weakspot multiplier which I will not provide here, they haven't changed from vanilla values.
+> Dev Note: This will however might change how some weapons will feel overall.  Many of these values were left mostly untouched as I did not know how to properly calculate the damage numbers. After some research, I was able to figure out a decent middle ground between precision and stagger. As a result, some guns might feel stronger or weaker after this update but I believe it's important for the pack's overall health.
+
+**Baseline Precision:** 0.74x --> 0.75x
+
+**Baseline Stagger:** 1.0x --> 1.0x
+
+
+| Weapon Name                 | Precision (Old) | Precision (New) | Stagger (Old) | Stagger (New)  |
+|-----------------------------|:---------------:|:---------------:|:-------------:|:--------------:|
+| Tracker Pistol              | 0.87x           | 0.65x           | 1.50x         | 2.00x          |
+| Foam Pistol                 | 0.87x           | 0.50x           | 1.00x         | 10.00x*        |
+| HEL Revolver                | 0.74x           | 4.25x*          | 1.00x         | 0.85x          |
+| MP2                         | 0.74x           | 0.85x           | 1.00x         | 0.50x          |
+| Reserve MP1                 | 0.74x           | 0.65x           | 2.00x         | 2.00x          |
+| 5-B Bullpup                 | 1.00x           | 0.75x           | 1.00x         | 1.30x          |
+| Hemostasis Medic Gun        | 1.00x           | 0.65x           | 1.00x         | 10.00x*        |
+| Tracker PDW                 | 0.74x           | 0.65x           | 1.00x         | 1.50x          |
+| Heavy SMG                   | 0.80x           | 0.70x           | 1.00x         | 1.20x          |
+| 3-B Carbine                 | 0.74x           | 0.85x           | 1.00x         | 1.00x          |
+| DMR                         | 0.97x           | 1.00x           | 1.00x         | 0.65x          |
+| Double-Tap                  | 0.95x           | 0.75x           | 1.00x         | 1.40x          |
+| Heavy Rifle                 | 0.80x           | 0.65x           | 1.00x         | 1.30x          |
+| Explosive Burst Rifle       | 1.00x           | 0.65x           | 1.20x         | 1.50x          |
+| Assault Rifle               | 0.87x           | 0.90x           | 1.75x         | 0.80x          |
+| Triple-Barrel               | 0.74x           | 0.75x           | 2.00x         | 2.00x          |
+| HEL Shotgun                 | 0.74x           | 0.75x           | 2.00x         | 2.00x          |
+| Single Slugger              | 1.50x           | 1.60x           | 1.00x         | 0.80x          |
+| AR-30                       | 0.80x           | 0.90x           | 1.00x         | 0.90x          |
+| Experimental Smart Rifle    | 1.30x           | 1.40x           | 0.50x         | 0.50x          |
+| Pump-Action                 | 1.00x           | 0.75x           | 2.00x         | 2.50x          |
+| Hemorrhage Shotgun          | 0.88x           | 0.75x           | 2.00x         | 2.00x          |
+| Explosive Shotgun           | 0.73x           | 0.45x           | 2.00x         | 2.00x          |
+| Choke Shotgun               | 1.00x           | 0.90x           | 2.00x         | 1.50x          |
+| Heavy Revolver              | 0.95x           | 6.25x*          | 1.00x         | 0.90x          |
+| LMG                         | 0.74x           | 0.80x           | 1.00x         | 0.80x          |
+| Reserve HMG                 | 0.74x           | 0.65x           | 1.45x         | 1.70x          |
+| Explosive Cannon            | 0.73x           | 0.55x           | 1.00x         | 1.75x          |
+| Hemorrhage HEL              | 0.80x           | 1.00x           | 1.00x         | 0.80x          |
+| Bolt Pistol                 | 0.74x           | 0.60x           | 1.00x         | 1.50x          |
+| Tracker Rifle               | 1.30x           | 1.20x           | 1.00x         | 2.00x          |
+| Sniper Rifle                | 4.00x           | 4.00x           | 3.00x         | 3.00x          |
+| Nano Gauss Rifle            | 1.10x           | 2.00x           | 1.00x         | 1.50x          |
+* Certain weapons have a reason for the exaggerated multiplier values. Please check the **Weapon Tweaks** section below this patch(*).
+
+### Weapon Rework(Effective Range):
+* Changes made to effective range to better reflect a weapon's role in conjunction with their class roles.
+> Dev Note: The values here was mainly done through feeling alone. After figuring out a more consistent and better method, I decided to rebalance the nature of damage falloffs.
+
+| Weapon Name               | Effective Range (Old) | Effective Range (New) |
+|---------------------------|:---------------------:|:---------------------:|
+| Tracker Pistol            | 9.0m                  | 11.0m                 |
+| Foam Pistol               | 7.0m                  | 10.0m                 |
+| HEL Revolver              | 10.0m                 | 13.0m                 |
+| MP2                       | 6.0m                  | 7.0m                  |
+| Reserve MP1               | 6.0m                  | 5.0m                  |
+| 5-B Bullpup               | 10.0m                 | 18.0m                 |
+| Hemostasis Medic Gun      | 12.0m                 | 12.0m                 |
+| Tracker PDW               | 6.0m                  | 9.0m                  |
+| Heavy SMG                 | 9.0m                  | 14.0m                 |
+| 3-B Carbine               | 10.0m                 | 22.0m                 |
+| DMR                       | 50.0m                 | 35.0m                 |
+| Double-Tap                | 40.0m                 | 25.0m                 |
+| Heavy Rifle               | 10.0m                 | 17.0m                 |
+| Explosive Rifle           | 30.0m                 | 20.0m                 |
+| Assault Rifle             | 22.0m                 | 23.0m                 |
+| Triple-Barrel             | 6.0m                  | 5.0m                  |
+| HEL Shotgun               | 5.0m                  | 6.0m                  |
+| Single Slugger            | 30.0m                 | 25.0m                 |
+| AR-30                     | 20.0m                 | 21.0m                 |
+| Experimental Smart Rifle  | 10.0m                 | 15.0m                 |
+| Pump-Action               | 5.0m                  | 6.0m                  |
+| Hemorrhage Shotgun        | 8.0m                  | 8.0m                  |
+| Explosive Shotgun         | 5.0m                  | 6.0m                  |
+| Choke Shotgun             | 16.0m                 | 14.0m                 |
+| Heavy Revolver            | 20.0m                 | 21.0m                 |
+| LMG                       | 16.0m                 | 20.0m                 |
+| Reserve HMG               | 16.0m                 | 18.0m                 |
+| Explosive Cannon          | 20.0m                 | 20.0m                 |
+| Hemorrhage HEL            | 16.0m                 | 26.0m                 |
+| Bolt Pistol               | 25.0m                 | 18.0m                 |
+| Tracker Rifle             | 40.0m                 | 45.0m                 |
+| Sniper Rifle              | 80.0m                 | 60.0m                 |
+| Nano Gauss Rifle          | 40.0m                 | 50.0m                 |
+
+### Weapon Rework(Hipfire/Aimed Spread):
+* Changes made to both hipfire spread and aimed spread for all guns to further differentiate between precision and spray weapons. Some weapons might be an exception to this rule.
+    * Moderately increased Aimed spread for all spray guns(Scatter).
+        * Slightly decreased Hipfire spread.
+    * Moderately increased Hipfire spread for all precision guns(Stabilized). 
+        * Slightly increased Aimed Spread for some guns.
+* Added Weapon Class definition for each gun:
+    * All Spray guns are classified as `Scatter`
+    * All Precision guns are classified as `Stabilized`
+    * All Mixed guns are classified as `Hybrid`
+    * Any Support guns are classified as `Utility`
+> Dev Note: This update has massively increased in scope in the last two weeks. The goal is to finalize the overall feeling of all the guns for this final major update. Hipfire spread exists to simulate difficulty making accurate shots based on the gun's muzzle "climb"(other than recoil) and Aimed spread was to show off "bracing" the gun to make better controlled shots. But I noticed all guns especially spray like LMGs and Shotguns have 100% accuracy while aiming. This can cause some guns feel more like a different version of another gun, which can make some classes feel less impactful and unique to their identity. So these changes are made to help simulate the difference between a precision(Stabilized) and spray(Scatter) weapon.
+
+| Weapon Name              | Hipfire (Old) | Hipfire (New) | Aimed (Old) | Aimed (New) | Class      |
+| ------------------------ | :-----------: | :-----------: | :---------: | :---------: | :--------: |
+| Tracker Pistol           | 1.00x         | 1.30x         | 0.00x       | 0.05x       | Stabilized |
+| Foam Pistol              | 0.50x         | 0.40x         | 0.00x       | 0.00x       | Utility    |
+| HEL Revolver             | 2.00x         | 2.50x         | 0.00x       | 0.15x       | Stabilized |
+| MP2                      | 1.90x         | 1.40x         | 0.00x       | 0.50x       | Scatter    |
+| Reserve MP1              | 2.10x         | 1.70x         | 0.00x       | 0.80x       | Scatter    |
+| 5-B Bullpup              | 2.50x         | 2.00x         | 0.00x       | 1.00x       | Scatter    |
+| Hemostasis Medic Gun     | 0.05x         | 0.10x         | 0.00x       | 0.00x       | Utility    |
+| Tracker PDW              | 1.25x         | 1.00x         | 0.00x       | 0.60x       | Scatter    |
+| Heavy SMG                | 2.00x         | 2.30x         | 0.00x       | 0.30x       | Stabilized |
+| 3-B Carbine              | 1.00x         | 1.30x         | 0.00x       | 0.40x       | Hybrid     |
+| DMR                      | 0.50x         | 1.00x         | 0.00x       | 0.10x       | Stabilized |
+| Double-Tap               | 2.50x         | 2.00x         | 0.00x       | 0.50x       | Hybrid     |
+| Heavy Rifle              | 2.00x         | 1.60x         | 0.00x       | 0.90x       | Scatter    |
+| Explosive Burst Rifle    | 2.50x         | 2.00x         | 0.00x       | 0.60x       | Hybrid     |
+| Assault Rifle            | 1.00x         | 1.50x         | 0.00x       | 0.30x       | Stabilized |
+| Triple-Barrel*           | 0.00x*        | 0.00x*        | 0.00x*      | 0.00x*      | Scatter    |
+| HEL Shotgun*             | 0.00x*        | 0.00x*        | 0.00x*      | 0.00x*      | Scatter    |
+| Single Slugger*          | 0.00x*        | 0.00x*        | 0.00x*      | 0.00x*      | Stabilized |
+| AR-30                    | 2.00x         | 1.40x         | 0.00x       | 0.60x       | Scatter    |
+| Experimental Smart Rifle | 1.25x         | 1.50x         | 0.00x       | 0.20x       | Stabilized |
+| Pump-Action*             | 0.00x*        | 0.00x*        | 0.00x*      | 0.00x*      | Scatter    |
+| Hemorrhage Shotgun*      | 0.00x*        | 0.00x*        | 0.00x*      | 0.00x*      | Scatter    |
+| Explosive Shotgun *      | 0.00x*        | 0.00x*        | 0.00x*      | 0.00x*      | Scatter    |
+| Choke Shotgun*           | 0.00x*        | 0.00x*        | 0.00x*      | 0.00x*      | Hybrid     |
+| Heavy Revolver           | 1.00x         | 1.50x         | 0.00x       | 0.30x       | Stabilized |
+| LMG                      | 2.00x         | 1.60x         | 0.00x       | 1.00x       | Scatter    |
+| Reserve HMG              | 3.00x         | 2.40x         | 0.00x       | 1.50x       | Scatter    |
+| Explosive Cannon         | 0.50x         | 0.70x         | 0.10x       | 0.30x       | Hybrid     |
+| Hemorrhage HEL           | 1.70x         | 2.20x         | 0.00x       | 0.10x       | Stabilized |
+| Bolt Pistol              | 2.00x         | 2.50x         | 0.00x       | 0.15x       | Stabilized |
+| Tracker Rifle            | 2.50x         | 5.00x         | 0.00x       | 0.00x       | Stabilized |
+| Sniper Rifle             | 1.00x         | 10.00x        | 0.00x       | 0.00x       | Stabilized |
+| Nano Gauss Rifle         | 2.00x         | 7.50x         | 0.00x       | 0.00x       | Stabilized |
+* *Shotguns do not use regular spread, they use `Shotgun Cone Size` and `Shotgun Bullet Spread`
+
+### Weapon Changes(Gear Parts):
+* Added `O9 Custom GearPart` mod by Ound9
+* Added `DS2 Custom Gear Parts` mod by DarkEmperor
+* Changed/Added/Removed Gear Parts for some of the guns.
+> Dev Note: Not a fan of how some guns did not have good scopes or the overall design of a few guns didn't match with their custom weapon properties. Some guns looked like clones of other firearms, so this should give them a new fresh coat of paint.
+
+* Hemostasis Medic Gun:
+    * Changed `Front Part` to resemble a "sniper rifle" inspired by a certain female egyptian sniper
+    * Changed `Sight Part`
+    * Changed `Magazine Part`
+    * Changed `Receiver Part`
+> Dev Note: Yes, I know it doesn't look like a SMG anymore. Techman Biotechnics is a weird manufacturing company.
+* Heavy SMG:
+    * Changed `Front Part`
+    * Changed `Receiver Part`
+    * Changed `Magazine Part`
+    * Changed `Sight Part` 
+* Pump-Action Shotgun:
+    * Changed `Receiver Part`
+* Hemorrhage Shotgun:
+    * Changed `Receiver Part`
+    * Changed `Magazine Part`
+    * Changed `Stock Part` 
+* Experimental Smart Rifle:
+    * Changed `Front Part`
+    * Changed `Receiver Part`
+    * Changed `Magazine Part`
+    * Changed `Stock Part`
+* Explosive Shotgun:
+    * Changed `Front Part`
+    * Changed `Receiver Part`
+    * Changed `Sight Part`
+    * Changed `Stock Part`
+* Heavy Revolver:
+    * Changed `Front Part` to have a `scope`
+    * Changed `Stock Part`
+* LMG:
+    * Changed `Magazine Part`
+* Reserve HMG:
+    * Changed `Front Part` into a `Minigun` (Yes I know it's not )
+    * Changed `Stock Part`
+    * Changed `Receiver Part`
+* Explosive Cannon:
+    * Changed `Front Part` to look like a grenade launcher
+    * Removed `Magazine Part`
+    * Changed `Receiver Part`
+    * Removed `Sight Part`
+* Hemorrhage HEL:
+    * Changed `Front Part`
+    * Changed `Receiver Part`
+    * Changed `Magazine Part`
+    * Changed `Sight Part`
+* Bolt Pistol:
+    * Changed `Front Part`
+* Sniper Rifle:
+    * Changed the `Scope Part` to also have a `thermal attachment` as well as a `scope`
+* Nano Gauss Rifle:
+    * Changed the `Front Part` to resemble a `Railgun`
+    * Changed `Scope Part`
+    * Changed `Receiver Part`
+    * Changed `Stock Part`
+    * Removed `Magazine Part`
+* HMG Turret:
+    * Changed `Front Part`
+    * Changed `Receiver Part`
+* Shotgun Turret:
+    * Changed `Front Part`
+
+### Weapon Tweaks:
+* Properly rearranged weapon's list based on alphabetical order.
+* Updated `ExtraWeaponCustomization` mod to v3.7.11
+* Bots and Turrets can now utilize most of EWC's custom properties. For example explosive, biotag, projectile(not recommended, they will miss a lot), and etc.
+* Switched `WeaponStatShower` mod by DacreDOLOLO to `DescriptiveWeaponStatShower` by Amorously.
+    * Feel free to remove the WeaponStatShower mod from the list. It will still be fine to have both, but the newer version will be loaded instead of the original mod.
+* Added a brief description for all guns with traits.
+* Added sound effects for some weapons with missing and awkward animations.
+* Added `AmorLib` mod by Amorously. A new dependency for EWC with v3.7.11 update.
+* Fixed some weapons with incorrect sub-names such as `Thermal Subgun` to `Thermal Bio-Tag Subgun`
+* Hemostasis Medic Gun:
+    * Increased Direct Damage from `0.1` to `1.0`
+> Dev Note: The main reason for the both medic gun and foam pistol direct damage tweaks is to scale with new Stagger Multiplier changes.
+* Nano Foam Pistol:
+    * Increased Direct Damage from `0.1` to `1.0`
+    * Increased Armor Shred debuff from `20%` to `30%`
+    * Decreased Armor Shred cap from `40%` to `30%`
+    * Increased duration of both Armor Shred and Foam from `5.0s` to `6.0s`
+    * Added sound effect once the magazine reaches 6.0; even while holstered. 
+> Dev Note: Foam Pistol should have overall better feeling during combat. Now players requires only one shot to maximize the armor shred potential.
+* HEL Revolver: **Rework**
+    * Decreased Direct Damage from `13.6` to `5.0`
+    * Increased Precision Multiplier from `0.9x` to `4.2x`
+    * Decreased Max Ammo Capacity from `128` to `116`
+    * Decreased Reload time from `2.2s` to `2.1s`
+* Heavy Revolver: **Rework**
+    * Renamed from `Bataldo Heavy Revolver` to `Van Auken Heavy Revolver`
+    * Decreased Direct Damage from `35.9` to `10.0`
+    * Increased Precision Multiplier from `0.95x` to `6.2x`
+    * Decreased Max Ammo Capacity from `118` to `106`
+    * Decreased Reload time from `2.15s` to `2.1s`
+> Dev Note: I want revolvers to have a more unique identity to the other sidearms by having it rely on precision shots to do actual damage while body shots are heavily discouraged. Ricochet bullets will automatically try to hit weakspots than any other body parts.
+* 5-B Bullpup:
+    * Increased Max Ammo Capacity from `442` to `508`
+* Tracker PDW:
+    * Increased Direct Damage from `3.0` to `3.2`
+    * Increased Magazine Size from `20` to `22`
+    * Decreased Max Ammo Capacity from `412` to `388`
+* Heavy SMG:
+    * Increased Shot Delay from `0.12s` to `0.20s`
+    * Increased Direct Damage from `5.7` to `6.0`
+    * Decreased Max Ammo Capacity from `391` to `379`
+* 3-B Carbine:
+    * Increased Direct Damage from `3.3` to `3.4`
+* Single Slug Shotgun:
+    * Decreased Direct Damage from `55.6` to `55.0`
+    * Increased Max Ammo Capacity from `51` to `60`
+    * Increased Reload Time from `1.3s` to `2.0s`
+    * Added `Reload Speed` modifier on Kill
+        * Any enemy kill with the slugger will lower the reload time from `2.0s` to `1.0s` for a short duration
+        * The buff duration is `2.5s`
+> Dev Note: Makes the slugger a more interesting weapon. The higher base reload time will incentize players to make accurate shots. Then getting kills will reward the player with a faster reload buff.
+* Heavy Rifle:
+    * Increased Max Ammo Capacity from `434` to `452`
+* Medic Gun:
+    * Increased Healing from `0.5%` to `0.62%` per tick
+> Dev Note: This is to compensate from the previous patch that increased Medic Gun's damage to 1.0. This change accidentally made them hurt the players more too. As a certain wise medic once said "If you do it wrong, it's going to hurt. If you do it right, it's going to hurt a lot."
+* Assault Rifle:
+    * Increased Direct Damage from `6.9` to `8.1`
+    * Decreased Magazine Size from `25` to `20`
+    * Decreased Max Ammo Capacity from `221` to `203`
+    * Increased Shot Delay from `0.16s` to `0.3s`
+* AR-30:
+    * Decreased Direct Damage from `7.0` to `6.5`
+    * Increased Max Ammo Capacity from `255` to `305`
+    * Decreased Reload Time from `1.8s` to `1.7s`
+* Exp. Smart Rifle:
+    * Added sound effect to the Lock-on System
+* Explosive Rifle:
+    * Decreased Explosion Damage from `15.0` to `11.0`
+    * Increased Direct Damage from `8.5` to `15.5`
+    * Decreased Max Ammo Capacity from `80` to `72`
+* Explosive Cannon:
+    * Increased Direct Damage from `5.9` to `3.1`
+    * Increased Magazine Size from `5` to `6`
+    * Decreased Max Ammo Capacity from `50` to `42`
+    * Increased Reload Time from `4.0s` to `4.5s`
+    * Increased Equip Time from `0.8s` to `1.0s`
+    * Added `Hold Aim to Rapid Fire` property
+> Dev Note: Changed Explosive Cannon to have a stronger identity to the Explosive Rifle and Shotgun. It will feel more like a traditional grenade launcher.
+* Choke Mod Shotgun:
+    * Increased Direct Damage from `6.4` to `8.8`
+    * Increased Magazine Size from `4` to `5`
+    * Increased Max Ammo Capacity from `54` to `60`
+    * Decreased Pellet Count from `8` to `5`
+* Pump-Action Shotgun:
+    * Decreased Reload Time from `3.0s` to `2.5s`
+* Hemorrhage Shotgun:
+    * Decreased Shotgun Cone Size from `2` to `4`
+    * Increased Shotgun Bullet Spread from `2` to `4`
+    * Increased Shotgun Bullet Count from `8` to `10`
+* Hemorrhage HEL:
+    * Increased Damage Over Time Bleed from `19.0` to `25.0`
+    * Decrease Charge Up Time from `0.25s` to `0.2s`
+    * Added `Auto Aim` Property only while Aiming.
+* LMG:
+    * Added Bullet Pierce Limit of `+1`
+    * Increased Magazine Size from `60` to `70`
+    * Increased Max Ammo Capacity from `360` to `413`
+* Reserve HMG:
+    * Added Bullet Pierce Limit of `+1`
+    * Decreased Charge Up Time from `0.6s` to `0.5s`
+    * Increased Shot Delay from `0.08s` to `0.2s`
+    * Increased Max Ammo Capacity from `742` to `885`
+    * Added `Accelerate` property.
+        * HMG will fire significantly faster the longer you hold the trigger.
+    * Added `Recoil` property.
+        * Decreased the overall recoil of the gun since it is insanely high and impossible to control.
+> Dev Note: The LMG and HMG should be feel more useful to utilize against crowds. The new HMG is a lot of fun!
+* Nano-Gauss Rifle:
+    * Increased Direct Damage from `40.3` to `50.5`
+    * Increased Magazine Size from `4` to `5`
+    * Decreased Reload Time from `3.5s` to `3.0s`
+    * Changed from `Hitscan` to `Projectile`
+
+### Tool Tweaks:
+* Sniper Sentry:
+    * Increased Shot Delay from `2.1s` to `2.5s`
+    * Decreased Effective Range from `70.0m` to `60.0m`
+* Burst Sentry:
+    * Increased Direct Damage from `4.5` to `4.6`
+    * Increased Burst Shot Count from `3` to `4`
+    * Increased Burst Shot Delay from `1.0s` to `2.0s`
+    * Increased Effective Range from `20.0m` to `30.0m`
+* Machine Gun Sentry:
+    * Increased Stagger Multiplier from `2.5x` to `3.0x`
+    * Decreased Spread Fire from `2.0x` to `1.5x`
+    * Decreased Direct Damage from `1.7` to `1.6`
+    * Increased Shot Delay from `0.8s` to `1.0s`
+    * Increased Pierce Limit from `1` to `2`
+    * Increased Max Ammo Capacity from `1096` to `1594`
+    * Added `Ammo Usage` property of `-1`
+    * Added `Multishot` property of `+1`. Fires a second bullet for double damage, but wastes ammo twice as fast!
+    * Increased Effective Range from `10.0m` to `15.0m`
+* Shotgun Sentry:
+    * Increased Shot Delay from `1.25s` to `1.3s`
+    * Increased Pierce Limit from `0` to `1`
+    * Increased Effective Range from `5.0m` to `7.5m`
+> Dev Note: With the recent patches that buffed turrets and Field Technicians, they are incredibly powerful. So I realized that increasing the delays between the shots will prevent some hard scaling. I will look closely to make adjustments where needed.
+
+### Melee Tweaks:
+* Sledgehammer:
+    * Decreased Max Charge Time for Heavy Attack from `3.5s` to `3.0s`
+* Spear:
+    * Decreased Max Charge Time for Heavy Attack from `4.2s` to `3.7s`
+* Bat:
+    * Increased Max Charge Time for Heavy Attack from `1.5s` to `2.0s`
+    * Fixed explosive kills triggering by any death from original explosion. Now the Explosion will only occur by the player's kill.
+> Dev Note: I am trying to make Sledgehammer and Spear be a little less clunky when charging for a Heavy. Bat is very strong, so I am only making their heavy swing take longer to charge.
+
+### Player Tweaks:
+* Decreased the `AmmoStandardInitial` & `AmmoSpecialInitial` from `300` to `250` (Starting Ammo for Main and Special weapon slots)
+* Increased the `ResourcePackMaxCap` from `400` to `500`
+    * Old:
+        * 13% = 94 HMG
+        * 14% = 200 MP1
+    * New(w/3 booster):
+        * 16%(21%) = 117(154) HMG
+        * 17%(23%) = 250(330) MP1
+    * Quartermaster(w/3 booster): Keep note that classes with higher or lower Ammo/Tool cost efficiency will have different supply values.
+        * 21%(26%) = 198(247) HMG
+        * 23%(28%) = 426(531) MP1
+> Dev Note: This change was to elevate potential issues with the new unified ammo reserves from a previous patch. Some guns simply became difficulty to maintain and was forced to use melee. While I believe players being forced to use melee when little or no ammo is fine as it increases the tension and challenge. I also believe that being constantly forced to melee will only hurt the enjoyment of pure ranged classes. So a player or class that really specializes on Supply Pack Efficiency should feel more impactful, but the baseline increase should prevent it from being 100% necessary(especially in some missions). Hopefully, this will give players a bit more freedom to choose.
+
+### Class Tweaks:
+* All Classes(except Shock Trooper, Demolitionist, Deprived, Courier)
+    * Decreased Baseline Explosive Resistance by `-20%`
+> Dev Note: I'm not a fan of just nerfing explosive weapons' numbers because they should be fun to use. But I also believe that they are on the over-performing side. So the changes should affect more in the player's decision making. That's why they should have a higher chance of killing your teammates!
+
+* Marine:
+    * Increased Bleed Resistance bonus from `+50%` to `+70%`
+    * Increased Melee Armor & Damage penalty from `-40%` to `-50%`
+
+* Shock Trooper:
+    * Increased Max Health bonus from `+20%` to `+30%`
+    * Added Explosive Resistance of `+30%`
+    * Added Bio Scan Speed penalty of `-20%`
+> Dev Note: While I'm not a fan of nerfing a class. Unfortunately, the Shock Trooper has a lot of versatility with shotgun choices and great stat bonuses. Their only "real" penalty is the negative movement speed if they ignore the other weapons. So this change is to incentivize the class to move out of bioscans to rush towards enemies instead of hanging back for objectives. Also the explosion resistance will punish Shock Troopers less if there is a Demolitionist in the team. This does mean that any full-team scans will take 20% longer with this class, which can be countered if paired with the Specialist class or boosters. So weigh your options with the team.
+
+* Quartermaster:
+    * Increased Regen Cap bonus from `+55%` to `65%`
+> Dev Note: The class needed a bit more health regen cap to reach roughly 49% - 50% baseline cap; It's occasionally off by a few percent what with free will and all.
+
+* Specialist:
+    * Decreased Bioscan Spd. & Scanner Recharge from `+50%` to `+30%`
+> Dev Note: This is a very powerful booster effect, which can trivialize some of the bio scan objectives on certain missions. It should have some level of synergy/counter with the Shock Trooper if both classes are in the same lobby.
+
+* Field Technician:
+    * Decreased Sentry CPUs from `+40%` to `+30%`
+
+* HEL Diver:
+    * Increased HEL Damage bonus from `+75%` to `+100%`
+    * Increased Bullet Resistance penalty from `-25%` to `-50%`
+
+* Abhuman:
+    * Increased Melee Hitbox & Range bonus from `+25%` to `+40%`
+
+### Booster Tweaks:
+* Increased Muted/Bold/Aggressive `Revive Health` booster by flat `5%`(total potential value from `30%` to `45%`)
+
+### Syringe Tweaks:
+* Virus Bomb Syringe:
+    * Increased Damage from `300` to `350`
+    * Increased Range from `5.0m` to `7.5m`
+    * Increased Infection from `15%` to `25%`
+
+* Virus Nuke Syringe:
+    * Increased Damage from `600` to `700`
+    * Increased Range from `7.5m` to `15.0m`
+    * Increased Infection from `25%` to `50%`
+> Dev Note: These syringes were designed as last-resort crowd clearers with a heavy infection penalty. However, players might notice that infection resistance can be negated with enough resistance stat booster. In particular, a particular support class(Paramedic) may find themselves uniquely suited for a high-risk high-reward detonation plan. Although, use it with utmost care as it can easily kill your living teammates too.
+
+### QoL Additions:
+
+* Added `ChatterReborn` mod by *easternunit100*
+> Dev Note: Makes communication easier between players without having to always use voice chat to relay all of the information. The characters themselves should be doing some of the lifting.
+* Added `DropItemFixed` mod by *Dinorush*
+> Dev Note: This is to make the inventory management feel less of a hassle. Often players would have to play a weird game of picking up different items just to trade with another player.
+* Added `BetterBots` mod by *easternunit100*
+> Dev Note: This is probably the most controversal addition on this list, but EWC(Extra Weapon Customization) mod works with bots now. This is improve their AI so they don't get stuck on certain terrain especially during scans. It will also prevent them from opening containers themselves which will cause them to grab an item immediately. They will only grab if the player opens them first. Be warned... do **NOT** give bots `explosive` weapons.
+
+---
+
+### v1.4.2
 
 ### Player Tweaks:
 * Added a decimal point for health and infection bar to give a more accurate reading.
@@ -43,6 +496,8 @@
 
 ### Miscellaneous:
 * Fixed a large number of README typos.
+
+---
 
 ### v1.4.1
 
@@ -196,8 +651,8 @@
 * Increased Tracker Precision Rifle Hipfire Spread from `3.0x` to `2.5x`
 
 ### Syringe Tweaks:
-* Increased Damage from Virus Bomb Syringe from `250` to `300`
-* Increased Damage from Virus Nuke Syringe from `500` to `600`
+* Increased Damage for Virus Bomb Syringe from `250` to `300`
+* Increased Damage for Virus Nuke Syringe from `500` to `600`
 * Decreased Range of Virus Nuke Syringe from `10.0m` to `7.5m`
 > Dev Note: Kaboom? Yes Dauda, kaboom.
 
