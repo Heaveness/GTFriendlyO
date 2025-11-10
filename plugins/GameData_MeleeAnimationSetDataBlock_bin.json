@@ -3,7 +3,7 @@
   "Blocks": [
     {
       "HoldToChargeTime": 0.3,
-      "MaxDamageChargeTime": 3.0,
+      "MaxDamageChargeTime": 2.5,
       "AutoAttackTime": 5.3,
       "AutoAttackWarningTime": 3.9,
       "FPIdleAnim": {
@@ -535,7 +535,7 @@
     },
     {
       "HoldToChargeTime": 0.2,
-      "MaxDamageChargeTime": 3.7,
+      "MaxDamageChargeTime": 3.0,
       "AutoAttackTime": 10.5,
       "AutoAttackWarningTime": 9.0,
       "FPIdleAnim": {

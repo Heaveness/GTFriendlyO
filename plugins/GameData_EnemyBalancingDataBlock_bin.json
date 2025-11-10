@@ -88,7 +88,7 @@
                 "magnitude": 0.4,
                 "sqrMagnitude": 0.160000011
             },
-            "ScoutTentacleCount": 50,
+            "ScoutTentacleCount": 60,
             "name": "Striker_Berserk",
             "internalEnabled": true,
             "persistentID": 40
@@ -371,7 +371,7 @@
         },
         {
             "Health": {
-                "HealthMax": 400.0,
+                "HealthMax": 450.0,
                 "DamageUntilHitreact": 250.0,
                 "BodypartHealth": 200.0,
                 "WeakspotDamageMulti": 0.5,
@@ -717,8 +717,8 @@
             "EnemyCollisionPlayerMovementReduction": 0.5,
             "EnemyCollisionMinimumMoveSpeedModifier": 0.5,
             "ScoutTentaclesMoveOutMultiplier": 4.0,
-            "ScoutTentaclesMoveInTime": 3.0,
-            "ScoutTentaclesMoveInDetectedTime": 1.0,
+            "ScoutTentaclesMoveInTime": 6.0,
+            "ScoutTentaclesMoveInDetectedTime": 1.5,
             "ScoutTentacleSourceExpansionOffset": 0.4,
             "ScoutTentacleAngleMinMax": {
                 "x": -0.4,
@@ -732,7 +732,7 @@
                 "magnitude": 0.4,
                 "sqrMagnitude": 0.160000011
             },
-            "ScoutTentacleCount": 50,
+            "ScoutTentacleCount": 60,
             "name": "Scout",
             "internalEnabled": true,
             "persistentID": 20
@@ -824,7 +824,7 @@
                 "magnitude": 0.4,
                 "sqrMagnitude": 0.160000011
             },
-            "ScoutTentacleCount": 50,
+            "ScoutTentacleCount": 60,
             "name": "Scout_Bullrush",
             "internalEnabled": true,
             "persistentID": 33
@@ -870,14 +870,14 @@
                 "magnitude": 0.4,
                 "sqrMagnitude": 0.160000011
             },
-            "ScoutTentacleCount": 50,
+            "ScoutTentacleCount": 60,
             "name": "Scout_Nightmare",
             "internalEnabled": true,
             "persistentID": 41
         },
         {
             "Health": {
-                "HealthMax": 275.0,
+                "HealthMax": 300.0,
                 "DamageUntilHitreact": 120.0,
                 "BodypartHealth": 50.0,
                 "WeakspotDamageMulti": 1.2,
