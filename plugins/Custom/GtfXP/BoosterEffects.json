@@ -246,8 +246,8 @@
       "ComputerProcessingSpeed": 0.5,
       "HackingProficiency": 0.1,
       "SentryGunSpeed": 0.5,
-      "BioscanSpeed": 0.5,
-      "ScannerRechargeSpeed": 0.5,
+      "BioscanSpeed": 0.6,
+      "ScannerRechargeSpeed": 0.6,
       "RegenerationCap": 1.5,
       "InfectionResistance": 1.2
     }
@@ -278,7 +278,7 @@
       "CombatShotgunDamage": 1.5,
       "ChokeModShotgunDamage": 1.5,
       "ShotgunDamage": 1.5,
-      "InfectionResistance": 0.5,
+      "InfectionResistance": 0.4,
       "HackingProficiency": 0.8
     }
   }

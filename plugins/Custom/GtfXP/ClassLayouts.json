@@ -347,13 +347,13 @@
     "Header": "Abhuman",
     "GroupPersistentId": 2,
     "PersistentId": 22,
-    "InfoText": "Big strong. Not smart. Hit hard. Good friend. Follow orders. Kill h-h-h-eretics. That's plan! Lubb me Emprah, sah!\n<color=yellow>Specializes: Health & Melee</color>\n\n<color=green>Strengths: +150% Max Health, +50% Health Regen Cap, +75% Melee Damage, +40% Melee Range & Hitbox</color>\n\n<color=red>Weaknesses: -50% Initial Weapon Ammo, -70% Hacking Skill, -50% Terminal CPU & Sentry CPU, -30% Movement Spd., -50% Bioscan Spd. & Recharge Spd.</color>",
+    "InfoText": "Big strong. Not smart. Hit hard. Good friend. Follow orders. Kill h-h-h-eretics. That's plan! Lubb me Emprah, sah!\n<color=yellow>Specializes: Health & Melee</color>\n\n<color=green>Strengths: +150% Max Health, +50% Health Regen Cap, +75% Melee Damage, +40% Melee Range & Hitbox</color>\n\n<color=red>Weaknesses: -50% Initial Weapon Ammo, -70% Hacking Skill, -50% Terminal CPU & Sentry CPU, -30% Movement Spd., -40% Bioscan Spd. & Recharge Spd.</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Abhuman\n<color=green>Max Health 250%, Health Regen Cap 150%, Melee Damage 175%, Melee Range & Hitbox 140%</color>\n<color=red>Initial Weapon Ammo 50%, Hacking Skill 30%, Terminal CPU & Sentry CPU 50%, Movement Spd. 70%, Bioscan Spd. & Recharge Spd. 50%</color>",
+        "CustomLevelStatsText": "Class: Abhuman\n<color=green>Max Health 250%, Health Regen Cap 150%, Melee Damage 175%, Melee Range & Hitbox 140%</color>\n<color=red>Initial Weapon Ammo 50%, Hacking Skill 30%, Terminal CPU & Sentry CPU 50%, Movement Spd. 70%, Bioscan Spd. & Recharge Spd. 60%</color>",
         "HealthMultiplier": 2.5,
         "MeleeDamageMultiplier": 1.75,
         "WeaponDamageMultiplier": 1,
@@ -445,28 +445,28 @@
     "Header": "Courier",
     "GroupPersistentId": 2,
     "PersistentId": 24,
-    "InfoText": "Hardly spoke to folks around him, didn't have too much to say. No one dared to ask his business, no one dared to make a slip.\n<color=yellow>Specializes: The stranger there among them had a big iron on his hip.</color>\n\n<color=green>Strengths: +50% Heavy Revolver/Sniper/Shotgun/Tripmine, +20% Initial Ammo/Tool, Living Bio Tracker</color>\n\n<color=red>Weaknesses: -70% Infection/Explosion/Bullet/Bleed Res., -20% Ammo/Tool Cost Efficiency</color>",
+    "InfoText": "Hardly spoke to folks around him, didn't have too much to say. No one dared to ask his business, no one dared to make a slip.\n<color=yellow>Specializes: The stranger there among them had a big iron on his hip.</color>\n\n<color=green>Strengths: +50% Revolver/Sniper/Shotgun/Tripmine, +20% Initial Ammo, Living Bio Tracker</color>\n\n<color=red>Weaknesses: -80% Infection/Explosion/Bullet/Bleed Res., -20% Ammo/Tool Cost Efficiency</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Courier\n<color=green>Heavy Revolver/Sniper/Shotgun/Tripmine 150%, Initial Ammo/Tool 120%, Living Bio Tracker</color>\n<color=red>Infection/Explosion/Bullet/Bleed Res. 30%, Ammo/Tool Cost Efficiency 80%</color>",
+        "CustomLevelStatsText": "Class: Courier\n<color=green>Revolver/Sniper/Shotgun/Tripmine 150%, Initial Ammo 120%, Living Bio Tracker</color>\n<color=red>Infection/Explosion/Bullet/Bleed Res. 20%, Ammo/Tool Cost Efficiency 80%</color>",
         "HealthMultiplier": 1.0,
         "MeleeDamageMultiplier": 1.0,
         "WeaponDamageMultiplier": 1.0,
         "CustomScaling": [
           {
             "CustomBuff": "BleedResistance",
-            "Value": 0.3
+            "Value": 0.2
           },
           {
             "CustomBuff": "BulletResistance",
-            "Value": 0.3
+            "Value": 0.2
           },
           {
             "CustomBuff": "ExplosionResistance",
-            "Value": 0.3
+            "Value": 0.2
           },
           {
             "CustomBuff": "AmmoEfficiency",
@@ -484,10 +484,6 @@
           },
 		      {
             "SingleBuff": "AmmunitionSpecial",
-            "Value": 0.2
-          },
-          {
-            "SingleBuff": "InitialAmmoTool",
             "Value": 0.2
           }
         ]
