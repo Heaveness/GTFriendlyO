@@ -174,7 +174,77 @@
               "Spread": -1
             }
           ]
+        },
+        {
+          "Name": "ShotMod",
+          "Mod": 1.25,
+          "Duration": 3.0,
+          "StatType": "Damage",
+          "DamageType": "Melee",
+          "StackLayer": "Multiply",
+          "Trigger": "HitEnemy",
+          "Cap": 1.25
         }
       ]
-    }
+    },
+    {
+    "ArchetypeID": 78,  
+    "MeleeArchetypeID": 0,
+    "Name": "Foam Shotgun",
+    "Properties": [
+          {
+            "Name": "RecoilMod",
+            "Mod": 2.0,
+            "Duration": 999999
+          },
+          {
+            "Name": "Noise",
+            "SoundID": 2634318532,
+            "LocalSoundOnly": true,
+            "Trigger": "Reload" 
+          },
+          {
+            "Name": "TempProperties",
+            "Duration": 999999,
+            "Trigger": {
+              "Activate": "Aim",
+              "Reset": "AimEnd"
+            },
+            "Properties": [
+              {
+                "Name": "AmmoMod",
+                "ClipChange": -1,
+                "OverflowToReserve": true,
+                "Trigger": "Fire"
+              },
+              {
+                "Name": "Foam",
+                "Amount": 1.0,
+                "PrecisionAmountMulti": 0.0,
+                "IgnoreArmor": false,
+                "IgnoreBackstab": false,
+                "IgnoreDamageMods": false,
+                "BubbleAmount": 3.0,
+                "BubbleStrength": 3.0,
+                "BubbleExpandSpeed": 0.1,
+                "BubbleOnDoors": false,
+                "BubbleIgnoreModifiers": true,
+                "FoamTime": 5.0,
+                "FoamTimeType": "Override",
+                "IgnoreFalloff": false,
+                "IgnoreBooster": false,
+                "Trigger": "HitEnemy"
+              },
+              {
+                "Name": "SpeedMod",
+                "Mod": 1.2,
+                "Duration": 5.0,
+                "StackLayer": "Multiply",
+                "Trigger": "HitEnemy",
+                "Cap": 1.2
+              }
+            ]
+          }
+      ]
+  }
 ]

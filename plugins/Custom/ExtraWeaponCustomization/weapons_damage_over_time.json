@@ -114,31 +114,5 @@
         ]
       }
     ]
-  },
-  {
-    "ArchetypeID": 78,  
-    "MeleeArchetypeID": 0,
-    "Name": "HEL Shotgun - Damage Over Time",
-    "Properties": [
-      {
-        "Name": "DamageOverTime",
-        "TotalDamage": 3,
-        "PrecisionDamageMulti": 1.1,
-        "StaggerDamageMulti": 0.7,
-        "Duration": 2,
-        "TickRate": 2,
-        "StackLimit": 0,
-        "IgnoreFalloff": false,
-        "DamageLimb": false,
-        "IgnoreArmor": true,
-        "IgnoreBackstab": false,
-        "IgnoreDamageMods": false,
-		"GlowColor": "#880808",
-		"GlowIntensity": 1,
-        "GlowRange": 1,
-        "Trigger": "HitEnemy|Player",
-        "BatchStacks": false
-      }
-    ]
   }
 ]
