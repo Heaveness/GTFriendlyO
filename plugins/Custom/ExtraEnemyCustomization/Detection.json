@@ -10,19 +10,37 @@
         "nameIgnoreCase": true,
         "categories": []
       },
-      "TendrilCount": 50, 
+      "TendrilCount": 60, 
       "TendrilAngleOffset": 0.0, 
       "TendrilStepAngle": 7.2, 
       "TendrilMinYSpread": -0.4, 
       "TendrilMaxYSpread": 0.0, 
       "TendrilOutTimer": 20.0, 
-      "Distance": 60.0, 
-      "StepDistance": 10.0, 
-      "RetractTime": 2.5, 
-      "RetractTimeDetected": 1.5,
+      "Distance": 40.0, 
+      "StepDistance": 2.5, 
+      "RetractTime": 1.0, 
+      "RetractTimeDetected": 0.5,
       "NormalColor": "cyan",
       "DetectColor": "red"
     }
   ],
-  "ScoutAnimCustom": []
+  "ScoutAnimCustom": [
+    {
+      "Enabled": true,
+      "DebugName": "Scout_Randomly Bend",
+      "Target": {
+        "Mode": "NameContains",
+        "persistentIDs": [],
+        "nameParam": "Scout",
+        "nameIgnoreCase": true,
+        "categories": []
+      },
+      "RandomType": "PerEnemy",
+      "BendAnimation": "AbilityUse",
+      "StandAnimation": "AbilityUse",
+      "ChanceToBend": 0.0,
+      "OverridePullingAnimation": true,
+      "PullingAnimation": "AbilityUse"
+    }
+  ]
 }
