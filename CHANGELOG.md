@@ -1,26 +1,111 @@
 # Changelog
 
 ## **v2.0.1** - Latest
+> Dev Note: This patch is to fix some of the issues arised from the previous update. As well as improving on other aspects that was missed/ignored with that update.
 
-
-
-### Class Tweaks
-* Courier
-    * Increased Infection/Explosion/Bullet/Bleed Res. penalty from `70%` to `75%`
+### Class Tweaks:
+* Courier:
+    * Increased Infection/Explosion/Bullet/Bleed Res. penalty from `70%` to `80%`
     * Removed Initial Tool Ammo bonus.
-> Dev Note: I have received some feedback regarding the Courier class being very fun, which is good. But also on it being too strong. The Living Bio Tracker ability is extremely powerful tool which I cannot adjust directly. So I have bring the class down a bit, but not too much. I want people to still enjoy playing this class. This is still a meme class, so balance isn't its main focus.
+> Dev Note: I have received some feedback regarding the Courier class being very fun, which is good. But also on it being too strong. The Living Bio Tracker ability is extremely powerful tool which I cannot adjust directly. So I have bring the class down a bit, but not too much. I still want people to enjoy playing this class. This is a meme class so balance isn't its main focus, but I know when a class is a bit too powerful that it can overshadow others.
+* Field Technician:
+    * Decreased Sentry CPUs from `+30%` to `+20%`
+* Abhuman:
+    * Decreased Bioscan Speed & Recharge Speed penalty from `-50%` to `-40%`
 
-### Weapon Tweaks
-* Fixed Weapon Animation for player models in third person
-    * 
-    * 
-    * 
+### Enemy Tweaks:
+* Striker Giant:
+    * Increased Max Health from `400` to `450`
+* Needler Giant:
+    * Increased Max Health from `275` to `300`
+* Scout:
+    * Changed Scout feeler animation (it should stay standing even when retracting)
+    * Decreased Movement Detection Distance from `8.0m` to `1.0m` (allows players to get closer without immediately triggering reactionary feelers)
+    * Decreased Minimum Weapon Detection from `10.0m` to `5.0m` (easier to stealth kill around target without 100% alerting)
+    * Increased Max Tentacle count from `50` to `60` (more feelers)
+    * Decreased Tentacles Speed from `10.0m` to `2.5m` per second (slower than Vanilla's 7.5m)
+    * Decreased Time to Retract Tentacles from `2.5s` to `1.0s` (faster to finish retracting)
+    * Decreased Max Distance of Tentacles from `60.0m` to `40.0m` (shorter feelers)
+> Dev Note: Scouts should be less frustrating to deal with in specific rundowns where multiple are present in a room. With these new changes, players can just barely move out of the way of their feelers; even while at baseline crouching speed. Classes with faster movement speed will have much easier time; especially the Covert Op class. The increased tentacle count will often be shot downwards by their AI, which prevents players from being too close prematurely. Timing is key.
+
+### Weapon Tweaks & Fixes:
+* Removed Relax position for all guns to prevent some animation issues.
+* Foam Pistol:
+    * Increased Foam & Armor Shred Duration from `6.0s` to `10.0s`
+    * Decreased Armor Shred debuff from `-30%` to `-20%`
+* HEL Shotgun: **Rework**
+    * Renamed Buckland HEL Shotgun to `Buckland Foam Shotgun`
+    * Fixed accidental mistake of this gun using (HEL) booster effect, it should say it is using Shotgun modifier.
+    * Foam Shotgun will have two different stats based on hipfire and aim mode.
+    * Hipfire: Shotgun
+        * Fire Mode: Semi-Auto
+        * Direct Damage: `9.5`
+        * Pellet Count: `6`
+        * Effective Range: `8.0m`
+        * Magazine Size: `8`
+        * Max Ammo Capacity: `66`
+        * Reload Time: `2.0s`
+        * Ammo Cost per shot: `-1`
+        * Pierce Limit: `1`
+    * Aimed: Foam
+        * Fire Mode: Semi-Auto
+        * Foams on Enemy Hit only
+        * Foam Duration: `5.0s`
+        * Foam does NOT barricade doors
+        * Ammo Cost per shot: `-2`
+        * Movement Speed of `+20%`
+        * Speed Duration: `5.0s`
+    * Changed `Front Part`
+    * Changed `Receiver Part`
+    * Changed `Sight Part`
+> Dev Note: Main reason for this change is because the original HEL shotgun was not using the HEL booster effect. Unfortuntely, this makes this gun redundant as another gun fills a similar role. 
+* Single Slugger:
+    * Changed `Front Part`
+    * Changed `Sight Part`
+* LMG:
+    * Decreased Direct Damage from `8.2` to `8.0`
+    * Increased Magazine Size from `70` to `100`
+    * Increased Max Ammo Capacity from `413` to `500`
+* Reserve HMG:
+> Dev Note: I am aware there is a third-person model issue with this gun. It is being held upside down, unfortunately I have tried numerous methods to no avail. I will give up on it otherwise this update will never come out. I will look into a fix in the future, if I feel like it.
+    * Decreased Direct Damage from `4.6` to `4.0`
+    * Increased Stagger Multiplier from `1.7x` to `1.8x`
+    * Increased Max Ammo Capacity from `885` to `1000`
+    * Changed `Magazine Part`
+    * Changed `Stock Part`
+> Dev Note: Fire away like nothing else matters in the world.
+* Heavy Rifle:
+    * Changed `Sight Part`
+    * Increased Direct Damage from `3.0` to `3.1`
+    * Increased Magazine Size from `60` to `70`
+    * Increased Max Ammo Capacity from `452` to `528`
+* Burst Cannon:
+    * Fixed the gun having the wrong temporary stats while aiming.
+* Triple Barrel Shotgun:
+    * Decreased Direct Damage from `5.0` to `4.0`
+    * Increased Reload Time from `1.4s` to `1.5s`
+    * Decreased Equip Time from `0.33s` to `0.2s`
+    * Added `Melee Damage` modifier
+        * Grants non-stacking melee buff of `+25%` 
+        * Over a duration of `3.0s`
+        * Activates on `Enemy Hit` only
+
+### Melee Tweaks:
+* Sledgehammer:
+    * Decreased Max Charge Time for Heavy Attack from `3.0s` to `2.7s`
+* Spear:
+    * Decreased Max Charge Time for Heavy Attack from `3.7s` to `3.2s`
+> Dev Note: These two melee weapons should feel less clunkier to use. This is additional decrease from the last patch.
+
+### Player Tweaks:
+* Increased the `AmmoStandardInitial` & `AmmoSpecialInitial` from `250` to `275` (Starting Ammo for Main and Special weapon slots)
+> Dev Note: I might have made the nerf this aspect a bit too harshly from the previous update.
 
 ### Misc.
 * Updated `ExtraWeaponCustomization` mod
+* Updated `MovementSpeedAPI` mod
 * Updated `ExtraEnemyCustomization` mod
 * Updated `ExtraSyringeCustomization` mod
-
 
 ---
 
@@ -53,7 +138,7 @@
 | Explosive Burst Rifle       | 1.00x           | 0.65x           | 1.20x         | 1.50x          |
 | Assault Rifle               | 0.87x           | 0.90x           | 1.75x         | 0.80x          |
 | Triple-Barrel               | 0.74x           | 0.75x           | 2.00x         | 2.00x          |
-| HEL Shotgun                 | 0.74x           | 0.75x           | 2.00x         | 2.00x          |
+| HEL Shotgun(Name Changed)   | 0.74x           | 0.75x           | 2.00x         | 2.00x          |
 | Single Slugger              | 1.50x           | 1.60x           | 1.00x         | 0.80x          |
 | AR-30                       | 0.80x           | 0.90x           | 1.00x         | 0.90x          |
 | Experimental Smart Rifle    | 1.30x           | 1.40x           | 0.50x         | 0.50x          |

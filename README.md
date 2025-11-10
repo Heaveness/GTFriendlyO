@@ -1,15 +1,15 @@
 # GTFriendlyO
 
-## Description
+### Description
 
 A major overhaul of GTFO's vanilla gameplay, designed for a more casual but still fun and challenging experience with friends.
 
 As a long-time GTFO player, I've felt the base game lacked a bit of variety in certain aspects of its gameplay. After running several Rundowns with friends, we all agreed the game needed a bit more spice. This mod focuses on creating a more casual-friendly co-op experience without removing all of the tension or challenge from the game. This is NOT a hardcore or hyper-realism mod setup, nor will it ever be. Instead, it makes GTFO more accessible by giving players additional "tools" to tackle the depths. The enemies have also received some love too, so it's not completely one-sided.
 
 Heavy inspiration: FriendlyGTFO by EcoLight and Duo Trials by ProjectZaero
-> Please note that I took the syringe customization settings from Duo Trials to reverse engineer how it was made. I have made some changes, but the overall credit belongs to the ProjectZaero. Currently working on a re-work of the syringes.
+> Please note that I took the syringe customization settings from Duo Trials to reverse engineer how it was made. I have made some major changes, but the overall credit belongs to the ProjectZaero. Check the wiki for more information.
 
-This project has been in the works for years. Until now, it's only been shared privately with my friends. Now, I'm releasing it publicly for others to enjoy as well. Play together or die together!
+This project has been in the works for many years. It's only been shared privately with my friends until recently. Now, I'm releasing it publicly for others to enjoy as well. Play together or die together! But most importantly, have fun!
 
 ## Important
 
@@ -19,7 +19,7 @@ This project has been in the works for years. Until now, it's only been shared p
 
 * Most likely will NOT be compatible with other custom Rundowns or modpacks that changes the same Datablocks. Otherwise, give it a try and let me know.
 
-#### Recommended mods:
+### Recommended mods:
 * List: [Thunderstore wiki link](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/4030-recommend-mods-wip/)
 > Dev Note: These are recommended, but not needed. Some of these mods will have configs that might be packaged with the mod-pack, but not the mod itself. These aren't necessary, but nice to have on the list.
 
@@ -28,7 +28,7 @@ This project has been in the works for years. Until now, it's only been shared p
 
 ## Major Changes
 
-###### Players:
+### Players:
 
 * Increased base Health: `25.0 -> 60.0`
 * Increased base Regen Cap: `20% -> 30%`
@@ -43,7 +43,7 @@ This project has been in the works for years. Until now, it's only been shared p
 * Higher starting ammo and cap.
 * Decreased ammo supply efficiency from Ammo-Packs.
 
-###### Classes:
+### Classes:
 
 * All classes have distinct roles with pros and cons. There is no levelling system, all classes get their stats at the start.
 * Meant to be played with 2+ players.
@@ -69,7 +69,7 @@ This project has been in the works for years. Until now, it's only been shared p
 | Deprived 			| Damage 	| B-Company | High resistances; strong damage; melee armor; fast objectives       | Extremely fragile esp. against projectile; low starting ammo                  |
 | Courier 			| Damage 	| B-Company | Strong damage potential with precision-based weapons, Auto Bio-Tag  | Very poor resistance to Infection/Explosion/Bullet/Bleed with lowered max ammo|
 
-###### Weapons:
+### Weapons:
 
 - All of the Main and Special weapons have either been overhauled, reworked or tweaked.
 - Muzzle flash has been mostly removed as my friends and I am photosensitive.
@@ -84,20 +84,20 @@ This project has been in the works for years. Until now, it's only been shared p
 | Shelling S49        	| Shelling Tracker Pistol			| Tags target on hit											| Hitscan			|
 | Shelling Nano       	| Shelling Foam Pistol				| Foams targets; shreds armor					        		| Hitscan			|
 | Bataldo 3RB	 	  	| Bataldo Revolver					| Hold trigger for rapid fire; richochet on terrain             | Hitscan			|
-| Raptus Treffen 2    	| Raptus MP2						| Full-auto; 50-round mag				            			| Hitscan			|
+| Raptus Treffen 2    	| Raptus MP2						| Full-auto                          	            			| Hitscan			|
 | Raptus Steigro      	| Raptus Reserve MP1				| Reserve ammo; no reload               						| Hitscan			|
-| Accrat Golok DA     	| Accrat 5-B Bullpup				| 5-round burst fire            								| Hitscan			|
+| Accrat Golok DA     	| Accrat 5-B Bullpup				| Standard bullets; 5-round burst fire           				| Hitscan			|
 | Van Auken LTC5      	| Techman Hemostasis Medic Gun		| Heal allies / Venom enemies; silence CC       		        | Projectile		|
 | Accrat STB          	| Omneco Tracker PDW				| Tags target; thermal scope       								| Hitscan			|
 | Accrat ND6          	| Van Auken Heavy SMG				| Standard bullets												| Hitscan			|
-| Van Auken Cab F4    	| Accrat 3-B Carbine				| 3-round burst; Standard bullets	                            | Hitscan			|
-| TR22 Hanaway        	| Hanaway DMR						| Standard bullets												| Hitscan			|
-| Hanaway PSB         	| Hanaway Double-Tap				| Standard bullets												| Hitscan			|
+| Van Auken Cab F4    	| Accrat 3-B Carbine				| Standard bullets; 3-round burst 	                            | Hitscan			|
+| TR22 Hanaway        	| Hanaway DMR						| Standard bullets; Precision             						| Hitscan			|
+| Hanaway PSB         	| Hanaway Double-Tap				| Standard bullets; Stagger										| Hitscan			|
 | Malatack LX         	| Van Auken Heavy Rifle				| Standard bullets												| Hitscan			|
 | Malatack CH 4       	| Mastaba Explosive Rifle	        | Explosive burst; charge-up; shrapnel              			| Projectile		|
 | Drekker Pres Mod 556	| Malatack Assault Rifle			| Standard bullets												| Hitscan			|
 | Buckland SBS III    	| Buckland Triple-Barrel			| Standard bullets; hold aim to fire all shots		            | Hitscan			|
-| Bataldo J 300       	| Buckland HEL Shotgun      		| Standard bullets; applies DoT bleed                           | Hitscan			|	
+| Bataldo J 300       	| Buckland Foam Shotgun      		| Standard bullets; applies Foam when aimed; Speed on Foam Hits | Hitscan			|	
 | Bataldo Custom K330 	| Bataldo Single Slugger			| High-precision slug; fast reload                              | Hitscan			|
 | Malatack HXC        	| Malatack AR-30					| Standard bullets 												| Hitscan			|
 | Drekker CLR         	| Techman Exp. Smart Rifle			| Lock-on required; auto-aim homing		                    	| Projectile/Homing	|
@@ -112,10 +112,10 @@ This project has been in the works for years. Until now, it's only been shared p
 | Omneco Exp1         	| Hanaway Hemorrhage HEL			| Standard bullets; applies DoT, Lock-on for aiming only        | Hitscan			|
 | Shelling Arid 5	  	| Shelling Bolt Pistol				| Standard bullets                                  			| Hitscan			|
 | Drekker Del P1      	| Omneco Tracker Rifle				| Tags target on hit                                            | Hitscan			|
-| Köning PR 11        	| Van Auken Sniper Rifle    		| Wall-penetration bullets                                      | Hitscan			|
+| Köning PR 11        	| Van Auken Sniper Rifle    		| Wall-penetration bullets; Thermal assist                      | Hitscan			|
 | Omneco LRG          	| Techman Nano Gauss Rifle      	| Nano-Burst Gobules on kill seeks nearby target                | Projectile        |
 
-#### Melee:
+### Melee:
 
 * All four melee types have been reworked to be more distinct from each other.
 * Sledgehammers and Bats are meant for players who prefer loud encounters.
@@ -130,7 +130,7 @@ This project has been in the works for years. Until now, it's only been shared p
 | Spears		| Silent 	| Tagging Effect 	| High Hitbox Range & Precision Multiplier		| High Stamina Cost, & Long Charge Time				|
 | Bats 			| Loud 		| Explosive Kills 	| High Light Damage & Low Stamina Cost			| Low Precision/Stealth Damage, & Low Heavy Damage	|
 
-#### Tools:
+### Tools:
 
 * Most tool gear & items have received some tweaks. Overall increase in carrying capacity for items and sentry ammo.
 * This section will mainly showcase sentries.
@@ -143,7 +143,7 @@ This project has been in the works for years. Until now, it's only been shared p
 | Sniper Turret	| Long		| Alt. to snipers, but fires at Tagged targets ONLY	| Very High Single-target Damage, & Ammo Efficient	| Poor Defense, & Long Setup						|
 | Shotgun Turret| Short		| Destroys Choke Points, but struggles w/open rooms	| High Close-Range Damage, & CTRL+ALT Delete chokes	| Placement Dependent, & Quite Ammo Hungry			|
 
-#### Enemies:
+### Enemies:
 
 * All enemies have had their base and limb health increased to keep them balanced against the players' new power scaling.
 * Minimum base health increase of 20.0 while larger elites and bosses received a massive health increase.
@@ -154,11 +154,11 @@ This project has been in the works for years. Until now, it's only been shared p
 |---------------------------|:---------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------:|
 | Strikers					| Higher HP, but less damage											| N/A, just punch'em.																		|
 | Needlers(Shooter) 		| Stronger overall damage, but more fragile								| N/A, just shoot'em.																		|
-| Large Strikers  			| Tongue grabs player to its melee range; cannot parry the pull			| Loves pulling teammates out of bioscans, either kill or disable(Medic Gun or Foam Pistol).|
+| Strikers Giants 			| Tongue grabs player to its melee range; cannot parry the pull			| Loves pulling teammates out of bioscans, either kill or disable(Medic Gun or Foam).       |
 | Scouts 					| EMP(45.0s) after scream, invul. during EMP wind-up; Longer feelers	| EMPs disable all, but glowsticks, fog repellers, and tripmines. Try the Specialist class!	|
-| Birther 			        | Increased HP; Birth Children that will explode on death				| Kill the babies first, then kill the mothers fast.										|
+| Birther 			        | Increased HP; Birth Children that will explode on death				| Kill the babies first, then kill the mother fast.	     									|
 | Stalkers(Snatcher) 		| Significant HP increase; snatched players take damage(3% over 10s)    | Takes longer to kill and can kill players now. They should not be ignored.				|
-| Large & Bloom Needlers	| Inflicts bleed(50% Chance) for 2.5% damage over 5.0s; stackable		| They are high-priority targets otherwise the team will suffer major damage.               |
+| Giant & Bloom Needlers	| Inflicts bleed(50% Chance) for 2.5% damage over 5.0s; stackable		| They are high-priority targets otherwise the team will suffer major damage.               |
 | Flyers                	| Fires explosive projectiles for 5% damage over 2.5m to 5.0m          	| Shoot them down quicky before they inflict too much AoE damage.                      	    |
 | Tanks						| Significant increase in HP & high knockback; door buster				| Significantly longer to kill, their knockback is annoying, and don`t close doors on them.	|
 
@@ -166,13 +166,13 @@ This project has been in the works for years. Until now, it's only been shared p
 
 | VARIANTS      | TRAITS 																	|
 |---------------|:-------------------------------------------------------------------------:|
-| Large 		| Signicantly increased health and stagger resistance						|
+| Giant 		| Signicantly increased health and stagger resistance						|
 | Charger 		| HP Regen(80% Cap) if not damaged within 5 seconds, damage resets timer	|
 | Nightmare  	| Inflicts infection on all attacks	& scout screams							|
 | Shadow 		| Infected Fog Spheres on death, slightly increased Tag time by 3s	        |
 | Child			| Explode on Death, can cause a chain reaction								|
 
-## Extras:
+### Extras:
 
 * If you have any feedback, please let me know through the Github Link: [Here](https://github.com/Heaveness/GTFriendlyO).
     * Open a ticket under "Issue" tab if you are unsure where to send feedback. 

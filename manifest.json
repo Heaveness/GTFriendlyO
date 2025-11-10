@@ -6,10 +6,10 @@
     "dependencies": [
         "BepInEx-BepInExPack_GTFO-3.2.2",
         "dakkhuza-MTFO-4.6.2",
-        "Dinorush-MovementSpeedAPI-1.1.0",
-        "Dinorush-ExtraWeaponCustomization-4.2.3",
+        "Dinorush-MovementSpeedAPI-1.1.2",
+        "Dinorush-ExtraWeaponCustomization-4.2.4",
         "ProjectZaero-Junkie_Syringe_Pack-2.6.0",
-        "Panthr75-ExtraSyringeCustomization-0.3.8",
+        "Panthr75-ExtraSyringeCustomization-0.3.9",
         "GTFOModding-InjectLib-1.1.0",
         "hirnukuono-EEC_H-1.8.21",
         "Dinorush-ExtraToolCustomization-1.5.4",
@@ -39,6 +39,7 @@
         "DarkEmperor-DS2_Custom_Gear_Parts-0.1.4",
         "easternunit100-BetterBots-0.1.7",
         "Dinorush-DropItemFixed-0.1.6",
+        "Dinorush-SpreadStartingAmmo-1.0.2",
         "easternunit100-ChatterReborn-0.4.1"
     ]
 }
