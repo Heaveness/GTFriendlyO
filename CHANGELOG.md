@@ -67,13 +67,12 @@
     * Increased Magazine Size from `70` to `100`
     * Increased Max Ammo Capacity from `413` to `500`
 * Reserve HMG:
-> Dev Note: I am aware there is a third-person model issue with this gun. It is being held upside down, unfortunately I have tried numerous methods to no avail. I will give up on it otherwise this update will never come out. I will look into a fix in the future, if I feel like it.
     * Decreased Direct Damage from `4.6` to `4.0`
     * Increased Stagger Multiplier from `1.7x` to `1.8x`
     * Increased Max Ammo Capacity from `885` to `1000`
     * Changed `Magazine Part`
     * Changed `Stock Part`
-> Dev Note: Fire away like nothing else matters in the world.
+> Dev Note: I am aware there is a third-person model issue with this gun. It is being held upside down, unfortunately I have tried numerous methods to no avail. I will give up on it otherwise this update will never come out. I will look into a fix in the future, if I feel like it.
 * Heavy Rifle:
     * Changed `Sight Part`
     * Increased Direct Damage from `3.0` to `3.1`
