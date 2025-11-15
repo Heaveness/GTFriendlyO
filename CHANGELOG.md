@@ -1,6 +1,62 @@
 # Changelog
 
-## **v2.0.1** - Latest
+## **v2.0.3** - Latest
+* Dev Note: If you have any feedback on the modpack, please do not hesitate to comment in the github issue tab [here](https://github.com/Heaveness/GTFriendlyO/issues)!
+
+### Updates:
+* Updated `ExtraWeaponCustomization` mod
+* Updated `GTFuckingXP` mod
+* Removed `SpreadStartingAmmo` mod <= **IMPORTANT**
+> Dev Note: the SpreadStartingAmmo mod was an accidentally addition to the mod pack. I apologize for its inclusion, it was not my intention to add this one. If you already have it installed, please REMOVE it as it breaks balancing.
+
+### Enemy Tweaks:
+* Striker Giant:
+    * Increased Body Part Health from `200` to `300`
+> Dev Note: This is to prevent the weakspot part(head) from breaking too soon against high-powered weapons. Their overall health did not increase from this change. It just means the sniper rifle can consistently kill Giants with two shots to the head without worrying about the head breaking.
+
+### Weapon Fixes:
+* Reserve HMG:
+    * Fixed third person model of the gun being upside down.
+> Dev Note: I think I have found the main culprit of this problem. It should be fixed now.
+* HEL Revolver:
+    * Fixed HEL Revolver not having proper reload animations.
+    * Changed `Stock Part`
+* Explosive Cannon:
+    * Decreased ChargeUp Time from `0.9s` to `0.8s`
+    * Fixed Aimed Acceleration modifier not working. It should properly fire quickly again.
+
+---
+
+### v2.0.2
+
+### Tweaks:
+* Reserve MP1:
+    * Increased Stagger Multiplier from `2.0x` to `3.5x`
+> Dev Note: This was a mistake by lowering the MP1's stagger power. This change with its base damage has unintentional made this gun significantly worse by accident. My apologies on that oversight.
+
+### Syringe Fixes:
+* Added wiki page for Syringe Information.
+* Fixed Advanced Slow Healing Syringe using the wrong healing value of `0.2` instead of `0.4`
+    * Changed healing value from `0.2` to `0.4` (total health of `24.0`)
+* Fixed Masterful Slow Healing Syringe using the wrong name.
+    * Proper Name: Antibiotic-IX-REC Syringe
+
+### Fixes:
+* Added more dialogue options from `ChatterReborn` mod for specific situations:
+    * Fog Turbine
+    * Callout Teammates (ping teammates)
+    * Keycard Pickup
+    * Random Comments
+* Fixed Triple-Barrel Description. (it wasn't suppose to have numbers)
+* Fixed Single Slugger Description. (Forgot to mention faster reload speed on kill bonus)
+> Dev Note: Fixed some inconsistency in the descriptions. Numbers will be given in the wiki page, not in-game as it clutters the space. Sadly, the game automatically shrinks the text size if there is too much.
+* Fixed typos in README file
+* Fixed typos in CHANGELOG file
+> Dev Note: Been awhile, whoops! ~(ツ)~
+
+---
+
+### v2.0.1
 > Dev Note: This patch is to fix some of the issues arised from the previous update. As well as improving on other aspects that was missed/ignored with that update.
 
 ### Class Tweaks:
@@ -98,7 +154,7 @@
 
 ### Player Tweaks:
 * Increased the `AmmoStandardInitial` & `AmmoSpecialInitial` from `250` to `275` (Starting Ammo for Main and Special weapon slots)
-> Dev Note: I might have made the nerf this aspect a bit too harshly from the previous update.
+> Dev Note: I might have nerfed this aspect a bit too harshly from the previous update.
 
 ### Misc.
 * Updated `ExtraWeaponCustomization` mod
