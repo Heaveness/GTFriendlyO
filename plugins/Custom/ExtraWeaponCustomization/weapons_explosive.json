@@ -85,7 +85,7 @@
           "Duration": 999999,
           "Trigger": {
             "Activate": "Aim",
-            "Reset": "AimEnd"
+            "Reset": "Aim End"
           },
           "Properties": [
           {
@@ -102,7 +102,7 @@
             "Trigger": 
             {
               "Activate": "Aim",
-              "Reset": "AimEnd"
+              "Reset": "Aim End"
             }
           }
         ]
