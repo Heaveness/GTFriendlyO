@@ -202,30 +202,8 @@
       "SyringeID": 228,
       "Properties": {
         "Infection": {
-          "Min": 0.15,
-          "Max": 0.15,
-          "Enabled": true
-        },
-        "DamageOverTime": {
-          "Delay": {
-            "HasDelay": true,
-            "Min": 10,
-            "Max": 10
-          },
-          "TotalTime": {
-            "Min": 1,
-            "Max": 1
-          },
-          "DamageInterval": {
-            "RandomizeEveryInterval": false,
-            "Min": 1,
-            "Max": 1
-          },
-          "Damage": {
-            "IsTimeBased": false,
-            "Min": 15,
-            "Max": 15
-          },
+          "Min": 0.25,
+          "Max": 0.25,
           "Enabled": true
         },
         "SelfDestruct": {
@@ -234,8 +212,8 @@
             "Min": 15,
             "Max": 15
           },
-          "Damage": 250,
-          "Radius": 5.0,
+          "Damage": 350,
+          "Radius": 7.5,
           "Enabled": true
         }
       }
@@ -244,30 +222,8 @@
       "SyringeID": 234,
       "Properties": {
         "Infection": {
-          "Min": 0.25,
-          "Max": 0.25,
-          "Enabled": true
-        },
-        "DamageOverTime": {
-          "Delay": {
-            "HasDelay": true,
-            "Min": 10,
-            "Max": 10
-          },
-          "TotalTime": {
-            "Min": 1,
-            "Max": 1
-          },
-          "DamageInterval": {
-            "RandomizeEveryInterval": false,
-            "Min": 1,
-            "Max": 1
-          },
-          "Damage": {
-            "IsTimeBased": false,
-            "Min": 25,
-            "Max": 25
-          },
+          "Min": 0.5,
+          "Max": 0.5,
           "Enabled": true
         },
         "SelfDestruct": {
@@ -276,8 +232,8 @@
             "Min": 10,
             "Max": 10
           },
-          "Damage": 500,
-          "Radius": 10.0,
+          "Damage": 700,
+          "Radius": 15.0,
           "Enabled": true
         }
       }
@@ -399,8 +355,8 @@
           },
           "Health": {
             "IsTimeBased": false,
-            "Min": 0.2,
-            "Max": 0.2
+            "Min": 0.4,
+            "Max": 0.4
           },
           "Enabled": true
         }
