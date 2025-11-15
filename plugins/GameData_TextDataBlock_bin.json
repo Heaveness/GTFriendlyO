@@ -95626,14 +95626,14 @@
     },
     {
       "SkipLocalization": true,
-      "English": "Masterful Slow Healing Syringe",
+      "English": "Antibiotic-IX-REC Syringe",
       "MaxCharacterLength": 0,
       "Description": "",
       "CharacterMetaData": 1,
       "Mood": 0,
       "ExportVersion": 2,
       "ImportVersion": 2,
-      "name": "Healing Syringe Slow III",
+      "name": "Antibiotic-IX-REC Syringe",
       "internalEnabled": true,
       "persistentID": 2061
     },

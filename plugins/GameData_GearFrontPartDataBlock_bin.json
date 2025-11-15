@@ -6442,14 +6442,6 @@
         {
           "AlignType": 5,
           "AlignName": "Front_Flash"
-        },
-        {
-          "AlignType": 8,
-          "AlignName": "RightHand"
-        },
-        {
-          "AlignType": 7,
-          "AlignName": "LeftHand"
         }
       ],
       "FireSequence": [

@@ -270,10 +270,6 @@
         {
           "AlignType": 8,
           "AlignName": "RightHand"
-        },
-        {
-          "AlignType": 7,
-          "AlignName": "LeftHand"
         }
       ],
       "FireSequence": [
@@ -308,10 +304,6 @@
         {
           "AlignType": 8,
           "AlignName": "RightHand"
-        },
-        {
-          "AlignType": 7,
-          "AlignName": "LeftHand"
         }
       ],
       "FireSequence": [],
@@ -1043,10 +1035,6 @@
         {
           "AlignType": 8,
           "AlignName": "RightHand"
-        },
-        {
-          "AlignType": 7,
-          "AlignName": "LeftHand"
         }
       ],
       "FireSequence": [
