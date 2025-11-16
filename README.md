@@ -87,7 +87,7 @@ This project has been in the works for many years. It's only been shared private
 | Raptus Treffen 2    	| Raptus MP2						| Full-auto                          	            			| Hitscan			|
 | Raptus Steigro      	| Raptus Reserve MP1				| Reserve ammo; no reload               						| Hitscan			|
 | Accrat Golok DA     	| Accrat 5-B Bullpup				| Standard bullets; 5-round burst fire           				| Hitscan			|
-| Van Auken LTC5      	| Techman Hemostasis Medic Gun		| Heal allies / Venom enemies; silence CC       		        | Projectile		|
+| Van Auken LTC5      	| Techman Hemostasis Medic Gun		| Heal allies / Venom enemies; silence CC; kills restore 1 ammo | Projectile		|
 | Accrat STB          	| Omneco Tracker PDW				| Tags target; thermal scope       								| Hitscan			|
 | Accrat ND6          	| Van Auken Heavy SMG				| Standard bullets												| Hitscan			|
 | Van Auken Cab F4    	| Accrat 3-B Carbine				| Standard bullets; 3-round burst 	                            | Hitscan			|
@@ -123,12 +123,12 @@ This project has been in the works for many years. It's only been shared private
 * You can parry all melee and projectiles, but you cannot parry the CC itself. For example, a Giant Striker can still pull you even though you parried the tentacle.
 > Dev Note: Parrying projectiles allows you to send them back towards your crosshair. 
 
-| TYPE       	| ROLE      | TRAITS  			| STRENGTHS 	 								| WEAKNESSES								    	|
-|---------------|-----------|-------------------|:---------------------------------------------:|:-------------------------------------------------:|
-| Sledgehammer	| Loud 		| Armor Piercing	| High Heavy Damage & Stagger Multplier		    | High Stamina Cost, & Sluggish						|
-| Knives 		| Silent 	| Bleed Effect		| High Stealth/Backstab Damage & Fast Spd.		| Low Base Damage & Short Range						|
-| Spears		| Silent 	| Tagging Effect 	| High Hitbox Range & Precision Multiplier		| High Stamina Cost, & Long Charge Time				|
-| Bats 			| Loud 		| Explosive Kills 	| High Light Damage & Low Stamina Cost			| Low Precision/Stealth Damage, & Low Heavy Damage	|
+| TYPE       	| ROLE      | TRAITS  			         | STRENGTHS 	 								| WEAKNESSES								    	|
+|:--------------|:----------|:---------------------------|:---------------------------------------------|:--------------------------------------------------|
+| Sledgehammer	| Loud 		| Armor Shred Debuff         | High Heavy Damage & Stagger Multplier		| High Stamina Cost, & Sluggish						|
+| Knives 		| Silent 	| Bleed Damage		         | High Stealth/Backstab Damage & Fast Spd.		| Low Base Damage & Short Range						|
+| Spears		| Silent 	| Bio-Tag & Armor Pierce 	 | High Hitbox Range & Precision Multiplier		| High Stamina Cost, & Long Charge Time				|
+| Bats 			| Loud 		| Stagger Explosive Kills  	 | High Light Damage & Low Stamina Cost			| Low Precision/Stealth Damage, & Low Heavy Damage	|
 
 ### Tools:
 
@@ -150,17 +150,17 @@ This project has been in the works for many years. It's only been shared private
 * Each Enemy/Variant received new quirks to improve their strengths and solidify their identities.
 * Some names were changed to keep a consistent identification. For example: `Shooter -> Needler`
 
-| ENEMIES      				| ABILITIES/TRAITS  													| NOTES																						|
-|---------------------------|:---------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------:|
-| Strikers					| Higher HP, but less damage											| N/A, just punch'em.																		|
-| Needlers(Shooter) 		| Stronger overall damage, but more fragile								| N/A, just shoot'em.																		|
-| Strikers Giants 			| Tongue grabs player to its melee range; cannot parry the pull			| Loves pulling teammates out of bioscans, either kill or disable(Medic Gun or Foam).       |
-| Scouts 					| EMP(45.0s) after scream, invul. during EMP wind-up; Longer feelers	| EMPs disable all, but glowsticks, fog repellers, and tripmines. Try the Specialist class!	|
-| Birther 			        | Increased HP; Birth Children that will explode on death				| Kill the babies first, then kill the mother fast.	     									|
-| Stalkers(Snatcher) 		| Significant HP increase; snatched players take damage(3% over 10s)    | Takes longer to kill and can kill players now. They should not be ignored.				|
-| Giant & Bloom Needlers	| Inflicts bleed(50% Chance) for 2.5% damage over 5.0s; stackable		| They are high-priority targets otherwise the team will suffer major damage.               |
-| Flyers                	| Fires explosive projectiles for 5% damage over 2.5m to 5.0m          	| Shoot them down quicky before they inflict too much AoE damage.                      	    |
-| Tanks						| Significant increase in HP & high knockback; door buster				| Significantly longer to kill, their knockback is annoying, and don`t close doors on them.	|
+| ENEMIES      				 | ABILITIES/TRAITS  													 | NOTES																					|
+|----------------------------|:---------------------------------------------------------------------:|:----------------------------------------------------------------------------------------:|
+| Strikers					 | Higher HP, but less damage											 | N/A, just punch'em.																		|
+| Needlers(Shooter) 		 | Stronger overall damage, but more fragile							 | N/A, just shoot'em.																		|
+| Strikers Giants 			 | Tongue grabs player to its melee range; cannot parry the pull		 | Loves pulling teammates out of bioscans, either kill or disable(Medic Gun or Foam).      |
+| Scouts 					 | EMP(45.0s) after scream, invul. during EMP wind-up; Longer feelers	 | EMPs disable all, but glowsticks, fog repellers, and tripmines. Try the Specialist class!|
+| Birther 			         | Increased HP; Birth Children that will explode on death				 | Kill the babies first, then kill the mother fast.	     								|
+| Stalkers(Snatcher/Pouncer) | Significant HP; snatched players take damage(3% over 10s); glue immune| Takes longer to kill and can kill players now. They should not be ignored.				|
+| Giant & Bloom Needlers	 | Inflicts bleed(50% Chance) for 2.5% damage over 5.0s; stackable		 | They are high-priority targets otherwise the team will suffer major damage.              |
+| Flyers                	 | Fires explosive projectiles for 5% damage over 2.5m to 5.0m           | Shoot them down quicky before they inflict too much AoE damage.                          |
+| Tanks						 | Significant increase in HP & high knockback; door buster				 | Significantly longer to kill, their knockback is annoying, and don`t close doors on them.|
 
 * Variants will still have their traits and abilities listed above while also having extra perks mentioned below.
 

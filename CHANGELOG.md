@@ -1,11 +1,75 @@
 # Changelog
 
-## **v2.0.3** - Latest
-* Dev Note: If you have any feedback on the modpack, please do not hesitate to comment in the github issue tab [here](https://github.com/Heaveness/GTFriendlyO/issues)!
+## **v2.0.4** - Latest
 
 ### Updates:
-* Updated `ExtraWeaponCustomization` mod
-* Updated `GTFuckingXP` mod
+* Updated `ExtraWeaponCustomization` mod.
+* Updated `GTFuckingXP` mod.
+* Updated README file.
+
+### Weapon Fixes:
+* Foam Pistol:
+    * Fixed the improper armor shred values during foam. It should properly apply the `-20%` armor debuff(increasing damage from most sources).
+> Dev Note: Originally it was applying the wrong amount of armor shred which was giving a tiny buff that was negligible at best. It should properly apply the right amount.
+* Medic Gun:
+    * Added `Ammo Mod` property
+    * Killing an enemy with the venom darts will restore `1.0` ammo back into the reserve.
+        * Does **NOT** refund more than 1 dart per kill.
+> Dev Note: While the medic gun should primarily be used to heal teammates. And the venom darts on only enemies. Unfortunately, the low ammo efficiency and low overall damage made players only save it for larger targets for its silence debuff. Effectively making the gun undesirable in many horde situations. With this change you will receive 1.0 ammo back after a kill(it will NOT refund more than 1, even if you use more than 2 darts to kill). Which often only happens on smaller targets, so it's not as punishing.
+* Fixed HEL Revolver and Heavy Revolver's ricochet bullet using the old version of the revolver's stat.
+* HEL Revolver:
+    * Decreased Ricochet's Direct Damage from `13.6` to `5.0`   
+    * Increased Ricochet's Precision Multiplier from `1.1x` to `3.5x` (Lower than baseline by 0.75x)
+    * Decreased Ricochet's Stagger Multiplier from `1.0x` to `0.65x` (Lower than baseline by 0.2x)
+    * Decreased Ricochet's Effective Range from `50.0m` to `20.0m`
+* Heavy Revolver:
+    * Decreased Ricochet's Direct Damage from `35.9` to `10.0` 
+    * Increased Ricochet's Precision Multiplier from `1.1x` to `5.5x` (Lower than baseline by 0.75x)
+    * Decreased Ricochet's Stagger Multiplier from `1.0x` to `0.7x` (Lower than baseline by 0.2x)
+    * Decreased Ricochet's Effective Range from `50.0m` to `20.0m`
+> Dev Note: I have completely forgotten to change the ricochet bullet's stats to the current base gun's values. It still had the old stats which unintentionally made it too strong. Other the side note, the ricochet aspect created bad habits out of the player. There was little to no punishment for simply firing wildly. The gun should still be fun enough on its own, but it's not as abuseable as before.
+
+### Melee Fixes & Tweaks:
+* Fixed melee weapons using the wrong noise levels:
+    * 0: Wakes up sleepers in 7m from hitting locks or the ground.
+    * 1: Wakes up sleepers in 4m from hitting locks or the ground. Also has reduced chance to trigger long range aggro
+        * Knife: 1
+        * Spear: 1
+        * Sledgehammer: 0
+        * Bat: 0
+* Sledgehammer:
+    * Removed `Armor Pierce` property
+    * Added `Armor Shred` property
+        * Applies armor shred of `-30%` for `4.0s` on hit; non-stackable
+        * Requires charge up bar of `40%` to acquire `half` of the armor shred modifier. 
+        * Requires charge up bar of `100%` to acquire `full` armor shred debuff. 
+        * Any charge in-between will give varying armor shred values.
+> Dev Note: This slight rework was to make sledgehammers differ a bit from the Spear's flat armor pierce. Instead I gave the sledgehammer a party buff by making the target take more damage from most sources for a short duration.
+* Knife:
+    * Increased Light Backstab Multiplier from `2.0x` to `2.1x`
+    * Increased Heavy Backstab Multiplier from `2.5x` to `2.6x`
+    * Decreased Total DoT Damage from `6.0` to `5.0`
+    * Decreased stack limit from `unlimited` to `4`
+    * Increased DoT timer from `3.0s` to `4.0s` (takes a little longer to reach total damage)
+> Dev Note: This is sort of a nerf to the knife's potential damage with infinite bleed stacks. It's a powerful tool that can dominate stealth runs, but the unlimited bleed stacking gave it insane damage potential with the right methods. I just want to prevent cheesing without decreasing its stealth capabilities. 
+* Spear:
+    * Removed can hit multiple targets, unintentional.
+    * Increased Armor Pierce bonus from `+10%` to `+15%`
+> Dev Note: Spears piercing multiple targets never worked properly and it was awkward to capitalize; served no real purpose.
+* Bat:
+    * Decreased Explosion Damage from `10.0` to `5.0`
+    * Increased Explosion Stagger Multiplier from `1.5x` to `3.5x`
+> Dev Note: Lowered the explosion damage but increased the stagger damage potential since this weapon has always been a crowd control melee option.
+
+---
+
+### v2.0.3
+
+* Dev Note: If you have any feedback on the modpack, please do not hesitate to comment in the github issue tab [here](https://github.com/Heaveness/GTFriendlyO/issues)!
+
+### Mod Updates:
+* Updated `ExtraWeaponCustomization` mod.
+* Updated `GTFuckingXP` mod.
 * Removed `SpreadStartingAmmo` mod <= **IMPORTANT**
 > Dev Note: the SpreadStartingAmmo mod was an accidentally addition to the mod pack. I apologize for its inclusion, it was not my intention to add this one. If you already have it installed, please REMOVE it as it breaks balancing.
 
