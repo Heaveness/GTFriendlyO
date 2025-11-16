@@ -3,7 +3,7 @@
   "Blocks": [
     {
       "PublicName": "Hammer",
-      "NoiseLevel": 4,
+      "NoiseLevel": 0,
       "ChargedAttackDamage": 39.5,
       "LightAttackDamage": 13.8,
       "LightStaggerMulti": 2.0,
@@ -51,7 +51,7 @@
     },
     {
       "PublicName": "Knife",
-      "NoiseLevel": 0,
+      "NoiseLevel": 1,
       "ChargedAttackDamage": 8.5,
       "LightAttackDamage": 2.5,
       "LightStaggerMulti": 0.2,
@@ -60,8 +60,8 @@
       "ChargedPrecisionMulti": 1.65,
       "LightEnvironmentMulti": 0.8,
       "ChargedEnvironmentMulti": 1.0,
-      "LightBackstabberMulti": 2.0,
-      "ChargedBackstabberMulti": 2.5,
+      "LightBackstabberMulti": 2.1,
+      "ChargedBackstabberMulti": 2.6,
       "LightSleeperMulti": 2.0,
       "ChargedSleeperMulti": 2.5,
       "SkipLimbDestruction": false,
@@ -116,7 +116,7 @@
       "CameraDamageRayLength": 3.5,
       "AttackSphereRadius": 0.15,
       "PushDamageSphereRadius": 1.0,
-      "CanHitMultipleEnemies": true,
+      "CanHitMultipleEnemies": false,
       "EvaluateHoldBeforeAttack": true,
       "PlayImpactEffect": true,
       "AllowRunningWhenCharging": true,
@@ -147,7 +147,7 @@
     },
     {
       "PublicName": "Bat",
-      "NoiseLevel": 2,
+      "NoiseLevel": 0,
       "ChargedAttackDamage": 14.5,
       "LightAttackDamage": 11.8,
       "LightStaggerMulti": 1.5,
