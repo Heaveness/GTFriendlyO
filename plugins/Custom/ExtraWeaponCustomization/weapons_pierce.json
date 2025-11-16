@@ -43,7 +43,7 @@
     "Properties": [
       {
         "Name": "ArmorPierce",
-        "Pierce": 1.1,
+        "Pierce": 1.15,
         "Type": "Override"
       },
 	    {
@@ -56,12 +56,22 @@
   {
     "ArchetypeID": 0,  
     "MeleeArchetypeID": 1,
-    "Name": "Hammer - Armor Pierce",
+    "Name": "Hammer - Armor Shred",
     "Properties": [
       {
-        "Name": "ArmorPierce",
-        "Pierce": 1.4,
-        "Type": "Multi"
+        "Name": "ArmorShred",
+        "Mod": 2.3,                             
+        "Duration": 4.0,          
+        "StackType": "Override",  
+        "CombineModifiers": false,
+        "Trigger": {
+          "Name": "ChargeLanded",
+          "Min": 0.5,
+          "Max": 1.0,
+          "Exponent": 3,
+          "MinRequired": 0.4,
+          "MaxRequired": 1.0
+        }
       }
     ]
   }

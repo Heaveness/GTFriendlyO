@@ -257,12 +257,12 @@
     "Properties": [
       {
         "Name": "Explosive",
-        "MaxDamage": 10.0,
-        "MinDamage": 10.0,
-        "InnerRadius": 2.5,
+        "MaxDamage": 5.0,
+        "MinDamage": 5.0,
+        "InnerRadius": 3.0,
         "Radius": 2.5,
         "PrecisionDamageMulti": 0.8,
-        "StaggerDamageMulti": 1.5,
+        "StaggerDamageMulti": 3.5,
         "IgnoreFalloff": false,
         "DamageLimb": true,
         "IgnoreArmor": false,

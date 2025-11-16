@@ -6,12 +6,12 @@
     "Properties": [
       {
         "Name": "DamageOverTime",
-        "TotalDamage": 6,
+        "TotalDamage": 5.0,
         "PrecisionDamageMulti": 1.2,
         "StaggerDamageMulti": 0.5,
-        "Duration": 3,
+        "Duration": 4,
         "TickRate": 1,
-        "StackLimit": 0,
+        "StackLimit": 4,
         "IgnoreFalloff": true,
         "DamageLimb": false,
         "IgnoreArmor": true,

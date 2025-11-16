@@ -24,10 +24,9 @@
       },
       {
         "Name": "ArmorShred",
-        "Mod": 1.2,               
-        "Cap": 1.2,              
+        "Mod": 2.2,             
         "Duration": 10.0,          
-        "StackType": "Multiply",  
+        "StackType": "Override",  
         "CombineModifiers": false,
         "Trigger": "Hit"
       },

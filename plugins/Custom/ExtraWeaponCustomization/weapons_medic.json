@@ -66,6 +66,21 @@
         "HitIgnoreWallsDuration": 15,
         "VisualLerpDist": 3,
         "Lifetime": 20
+      },
+      {
+        "Name": "AmmoMod",
+        "ReserveChange": 1.0,
+        "ClipChange": 0.0,
+        "OverflowToBounds": false,
+        "PullFromReserve": false,
+        "UseRawAmmo": false,
+        "BypassReserveCap": false,
+        "ReceiverSlot": "None",
+        "Trigger": {
+          "Name": "Kill",
+          "MaxDelay": 0.5,
+          "RequireLastHit": true
+        }
       }
     ]
   }
