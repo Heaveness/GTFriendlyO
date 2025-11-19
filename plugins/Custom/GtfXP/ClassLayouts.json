@@ -10,7 +10,7 @@
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
         "CustomLevelStatsText": "Class: Marine\n<color=green>Specialized Ranged Damage: 140%, Projectile Armor 130%, Bleed Res. 170%, Initial Ranged Ammo 120%</color>\n<color=red>Melee Armor & Damage 50%</color>",
-        "HealthMultiplier": 1,
+        "HealthMultiplier": 1.0,
         "MeleeDamageMultiplier": 0.5,
         "WeaponDamageMultiplier": 1.0,
         "CustomScaling": [
@@ -131,9 +131,9 @@
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
         "CustomLevelStatsText": "Class: Paramedic\n<color=green>Infection Res. 100%, Revive Spd. 200%, Revive Health 170%, Medipack Efficiency 130%, Health Regen Delay 85%, Bullet Resistance 125%</color>\n<color=red>Ranged Damage except Specialized Guns 50%, Initial Ranged Ammo 80%, Ammo Cost Efficiency 80%</color>",
-        "HealthMultiplier": 1,
-        "MeleeDamageMultiplier": 1,
-        "WeaponDamageMultiplier": 1,
+        "HealthMultiplier": 1.0,
+        "MeleeDamageMultiplier": 1.0,
+        "WeaponDamageMultiplier": 1.0,
         "CustomScaling": [
           {
             "CustomBuff": "RegenStartDelayMultiplier",
@@ -175,10 +175,10 @@
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Quartermaster\n<color=green>HMG/LMG/MP Damage 120%, Ammo Cost Efficiency 130%, Initial Ranged Ammo 120%, Supply Pack Efficiency 130%, Health Regen Cap 165%</color>\n<color=red>Damage except Specialized Guns 50%, Movement Spd. 40%</color>",
-        "HealthMultiplier": 1,
-        "MeleeDamageMultiplier": 1,
-        "WeaponDamageMultiplier": 1,
+        "CustomLevelStatsText": "Class: Quartermaster\n<color=green>HMG/LMG/MP Damage 120%, Ammo Cost Efficiency 130%, Initial Ranged Ammo 120%, Supply Pack Efficiency 130%, Health Regen Cap 165%</color>\n<color=red>Damage except Specialized Guns 50%, Movement Spd. 60%</color>",
+        "HealthMultiplier": 1.0,
+        "MeleeDamageMultiplier": 1.0,
+        "WeaponDamageMultiplier": 1.0,
         "CustomScaling": [
           {
             "CustomBuff": "MovementSpeedMultiplier",
@@ -189,8 +189,8 @@
             "Value": 1.31
           },
           {
-              "CustomBuff": "ExplosionResistance",
-              "Value": 0.8
+            "CustomBuff": "ExplosionResistance",
+            "Value": 0.8
           }
         ],
         "LevelUpBonus": [
@@ -217,9 +217,9 @@
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
         "CustomLevelStatsText": "Class: Specialist\n<color=green>Glue Strength & Efficiency 125%, Glowstick Power 250%, Bioscan Spd. & Scanner Recharge 130%, Fog Repeller/Turbine Power 175%, Tool Cost Efficiency 130%</color>\n<color=red>Initial Ammo 70%, Ammo Cost Efficiency 70%</color>",
-        "HealthMultiplier": 1,
-        "MeleeDamageMultiplier": 1,
-        "WeaponDamageMultiplier": 1,
+        "HealthMultiplier": 1.0,
+        "MeleeDamageMultiplier": 1.0,
+        "WeaponDamageMultiplier": 1.0,
         "CustomScaling": [
           {
             "CustomBuff": "AmmoEfficiency",
@@ -258,7 +258,7 @@
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
         "CustomLevelStatsText": "Class: Field Technician\n<color=green>Sentry Damage 150%, Sentry CPUs 130%, Initial Tool Ammo 140%, Hacking Skill 160%, Terminal CPU 150%, Bullet Resistance 175%</color>\n<color=red>Initial Ranged Ammo 70%, Ranged & Melee Damage 60%, Ammo Cost Efficiency 90%</color>",
-        "HealthMultiplier": 1,
+        "HealthMultiplier": 1.0,
         "MeleeDamageMultiplier": 0.6,
         "WeaponDamageMultiplier": 1.0,
         "CustomScaling": [
@@ -303,9 +303,9 @@
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
         "CustomLevelStatsText": "Class: Prisoner\nYou are fodder, complete the objectives. Make no mistake, failure will result in a fate worse than death.",
-        "HealthMultiplier": 1,
-        "MeleeDamageMultiplier": 1,
-        "WeaponDamageMultiplier": 1,
+        "HealthMultiplier": 1.0,
+        "MeleeDamageMultiplier": 1.0,
+        "WeaponDamageMultiplier": 1.0,
         "CustomScaling": [],
         "LevelUpBonus": []
       }
@@ -323,8 +323,8 @@
         "CustomLevelUpPopupText": null,
         "CustomLevelStatsText": "Class: HEL Diver\n<color=green>HEL Damage 200%, Bioscan Spd. 125%, Terminal CPU 150%, Hacking Skill 180%, Movement Spd. 120%</color>\n<color=red>Bullet Resistance 75%, Projectile & Melee Armor 70%, Max Health 50%, Health Regen Cap 50%</color>",
         "HealthMultiplier": 0.5,
-        "MeleeDamageMultiplier": 1,
-        "WeaponDamageMultiplier": 1,
+        "MeleeDamageMultiplier": 1.0,
+        "WeaponDamageMultiplier": 1.0,
         "CustomScaling": [
           {
             "CustomBuff": "MovementSpeedMultiplier",
@@ -356,7 +356,7 @@
         "CustomLevelStatsText": "Class: Abhuman\n<color=green>Max Health 250%, Health Regen Cap 150%, Melee Damage 175%, Melee Range & Hitbox 140%</color>\n<color=red>Initial Weapon Ammo 50%, Hacking Skill 30%, Terminal CPU & Sentry CPU 50%, Movement Spd. 70%, Bioscan Spd. & Recharge Spd. 60%</color>",
         "HealthMultiplier": 2.5,
         "MeleeDamageMultiplier": 1.75,
-        "WeaponDamageMultiplier": 1,
+        "WeaponDamageMultiplier": 1.0,
         "CustomScaling": [
           {
             "CustomBuff": "MovementSpeedMultiplier",
