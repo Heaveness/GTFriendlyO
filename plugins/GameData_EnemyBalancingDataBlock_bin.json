@@ -373,8 +373,8 @@
             "Health": {
                 "HealthMax": 450.0,
                 "DamageUntilHitreact": 250.0,
-                "BodypartHealth": 300.0,
-                "WeakspotDamageMulti": 0.5,
+                "BodypartHealth": 450.0,
+                "WeakspotDamageMulti": 0.6,
                 "ArmorDamageMulti": 0.3,
                 "HitreactOnLimbDestruction": 4,
                 "TryForceHitreactOnLimbDestruction": true

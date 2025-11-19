@@ -301,7 +301,7 @@
       "GUIShowAmmoInfinite": false,
       "canMoveQuick": true,
       "BlockToolAmmoRefill": false,
-      "ClassAmmoCostFactor": 2.5,
+      "ClassAmmoCostFactor": 1.6,
       "ConsumableAmmoMin": 0,
       "ConsumableAmmoMax": 0,
       "audioEventEquip": "GlueGunEquip",
