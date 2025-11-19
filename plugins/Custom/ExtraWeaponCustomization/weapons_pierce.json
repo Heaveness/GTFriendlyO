@@ -10,7 +10,7 @@
       },
       {
         "Name": "ArmorPierce",
-        "Pierce": 1.1,
+        "Pierce": 1.2,
         "Type": "Override"
       }
     ]
