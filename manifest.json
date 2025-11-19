@@ -1,6 +1,6 @@
 {
     "name": "GTFriendlyO",
-    "version_number": "2.0.4",
+    "version_number": "2.0.6",
     "website_url": "https://github.com/Heaveness/GTFriendlyO",
     "description": "A major overhaul of GTFO's vanilla gameplay, designed for a more casual but still fun and challenging experience with friends.",
     "dependencies": [
@@ -37,8 +37,9 @@
         "Amorously-AmorLib-1.0.5",
         "Ound9-O9_Custom_GearPart-0.0.9",
         "DarkEmperor-DS2_Custom_Gear_Parts-0.1.4",
-        "easternunit100-BetterBots-0.1.7",
+        "easternunit100-BetterBots-0.1.8",
         "Dinorush-DropItemFixed-0.1.6",
+        "Dinorush-SpreadStartingAmmo-1.0.2",
         "easternunit100-ChatterReborn-0.4.1"
     ]
 }

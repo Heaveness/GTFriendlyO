@@ -1,6 +1,108 @@
 # Changelog
 
-## **v2.0.4** - Latest
+## **v2.0.6** - Latest
+
+### Emergency Hotfix:
+
+* Fixed some changes not included in v2.0.5 by accident.
+> Dev Note: Apologies, I accidentally uploaded the wrong changes into v2.0.5
+
+---
+
+### v2.0.5
+
+### Mod Additions:
+* Added `SpreadStartingAmmo` mod by Dinorush
+* Ammo is spread from a pool given to players on startup based on how many players are present. If a player/bot joins then the pool is reduced to accommodate the new player(s), dismissing the slot will not refund the lost ammo from the distribution.
+    * 1 Player: 4x ammo
+    * 2 Players: 2x ammo 
+    * 3 Players: 1.33x ammo
+    * 4 Players: 1x ammo (Bots count as players)
+> Dev Note: Originally this was added in accidentally in v2.0.2, but after a second(& third) opinion on it. I was told I was overthinking the issue and in long-term should balance the game for smaller lobbies. This should make solos, duos, and trios have more enjoyable time. Since my modpack was forcing 3-4 player lobbies in the later rundowns.
+* Updated `BetterBots` mod
+
+### Weapon Fixes & Tweaks:
+* Bolt Pistol:
+    * Increased Precision Multiplier from `0.6x` to `0.7x`
+    * Increased Stagger Multiplier from `1.5x` to `2.0x`
+> Dev Note: Previously the Bolt Pistol was able to one shot a scout reliably, but the recent changes on precision and stagger has unintentionally made it awkward. It should be possible to one shot scouts properly at any direction.
+* Tracker Rifle:
+    * Increased Direct Damage from `28.1` to `35.1`
+    * Increased Precision Multiplier from `1.2x` to `2.0x`
+    * Decreased Stagger Multiplier from `2.0x` to `1.5x`
+* Nano Gauss Rifle:
+    * Increased Direct Damage from `50.5` to `55.5`
+    * Increased Projectile Speed from `60` to `65`
+    * Increased Projectile Hit Size by `0.2m`
+    * Increased Precision Multiplier from `2.0x` to `4.0x`
+    * Increased Stagger Multiplier from `1.5x` to `2.0x`
+* Sniper Rifle:
+    * Increased Armor Pierce from `10%` to `20%`
+    * Increased Precision Multiplier from `4.0x` to `6.0x`
+> Dev Note: Fixed an issue where the Sniper Rifles has trouble killing Giants since their increased base health. A sniper rifle should feel powerful in the right hands.
+* Reserve HMG:
+    * Increased Stagger Multiplier from `1.8x` to `2.0x`
+    * Once again trying to fix this gun's first person model after fixing the third person model from a previous patch.
+> Dev Note: Getting sick and tired of trying to fix this gun... Alright, if it doesn't get fixed by this patch then I am going to just move on. I am losing time over this pointless bug.
+
+### Turret Fixes & Tweaks:
+* Added "More effective against Tagged" for all turrets.
+* Fixed wrong values for Stagger Multiplier against tagged targets.
+* Sniper Turret:
+    * Increased Tagged Stagger Multiplier from `1.0x` to `1.1x`
+* Burst Turret:
+    * Increased Burst Delay from `1.0s` to `2.0s`
+    * Decreased Shot Delay from `0.5s` to `0.1s`
+    * Increased Tagged Stagger Multiplier from `1.0x` to `1.15x`
+* HMG Turret:
+    * Increased Tagged Stagger Multiplier from `1.0x` to `1.25x`
+* Shotgun Turret:
+    * Decreased Shot Delay from `1.3s` to `1.0s`
+    * Increased Tagged Stagger Multiplier from `1.0x` to `1.2x`
+> Dev Note: Fixed the awkward shooting of the burst and shotgun turrets that made it very jarring to use in close-mid range engagements. I may have overdone the shot delay, apologies on my part.
+
+### Tool Fixes & Tweaks:
+* C-Foam Launcher:
+    * Increased Max Ammo Capacity from `100` to `156`
+* Mine Deployer:
+    * Increased Radius from `2.5m` to `3.0m`
+    * Increased Minimum Distance from `3.0m` to `5.0m`
+    * Decreased Maximum Distance from `15.0m` to `10.0m`
+    * Increased Minimum Explosive Damage from `30` to `75`
+    * Increased Maximum Explosive Damage from `100` to `125`
+    * Increased Stagger Force from `1200` to `1300`
+    * Increased Arming Time from `0.3s` to `1.0s`
+    * Increased Placement Time from `0.4s` to `1.0s`
+    * Increased Pickup Time from `0.4s` to `1.0s`
+* Consumable Mine:
+    * Increased Radius from `2.5m` to `3.0m`
+    * Increased Minimum Distance from `1.5m` to `3.0m`
+    * Decreased Maximum Distance from `15.0m` to `10.0m`
+    * Increased Minimum Explosive Damage from `15` to `40`
+    * Increased Maximum Explosive Damage from `60` to `75`
+    * Increased Stagger Force from `800` to `900`
+    * Increased Arming Time from `0.3s` to `0.5s`
+    * Increased Placement Time from `0.4s` to `0.5s`
+    * Increased Pickup Time from `0.4s` to `0.5s`
+    * Decreased Placement Cooldown from `1.0s` to `0.5s`
+> Dev Note: After some feedback and playtesting, I found them to have lost a lot of their strength. They struggle to kill even the lower tier enemies.
+
+### Enemy Fixes & Tweaks:
+* Added underline text for all tagged enemies to help separate the name and healthbar for visual clarity.
+* Shadows:
+    * Fixed this variant not creating infected fog spheres on death when hibernating.
+* Striker Giants:
+    * Increased Body Part Health from `300` to `450`
+    * Increased Weakspot Damage Multiplier from `0.4x` to `0.6x`
+> Dev Note: Still wasn't enough to make precision weapons rewarding against these targets. Now their head should be same health as their baseline health. As well as high-cal sniper should be able to kill Giants in one shot to the head.
+
+### Class Fixes:
+* Quartermaster:
+    * Fixed a typo wrong info text regarding movement speed while in-game.
+
+---
+
+### v2.0.4
 
 ### Updates:
 * Updated `ExtraWeaponCustomization` mod.
