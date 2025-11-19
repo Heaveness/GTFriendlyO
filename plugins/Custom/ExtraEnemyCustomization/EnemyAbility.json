@@ -83,7 +83,7 @@
       },
       "Abilities": [
         {
-          "AllowedMode": "Combat",
+          "AllowedMode": "Hibernate | Combat",
           "Delay": 0.1,
           "AbilityName": "Fog"
         }

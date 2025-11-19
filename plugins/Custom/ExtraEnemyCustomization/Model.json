@@ -24,7 +24,7 @@
 	  },
 	  "SpriteName": "marker_regular.png",
 	  "MarkerColor": "#FFFFFF",
-	  "MarkerText": "<size=200%>Striker\n[HP_BAR]</size>",
+	  "MarkerText": "<size=200%><u>Striker</u>\n[HP_BAR]</size>",
 	  "MarkerTextHealthBarFormat": {
 		"Count": 10,
 		"FilledBarText": "|",
@@ -51,7 +51,7 @@
 		},
 		"SpriteName": "marker_special.png",
 		"MarkerColor": "#FFFF66",
-		"MarkerText": "<size=200%>Striker Charger\n[HP_BAR]</size>",
+		"MarkerText": "<size=200%><u>Striker Charger</u>\n[HP_BAR]</size>",
 		"MarkerTextHealthBarFormat": {
 		  "Count": 10,
 		  "FilledBarText": "|",
@@ -78,7 +78,7 @@
 	  },
 	  "SpriteName": "marker_special.png",
 	  "MarkerColor": "#FFCC00",
-	  "MarkerText": "<size=200%>Nightmare Striker\n[HP_BAR]</size>",
+	  "MarkerText": "<size=200%><u>Nightmare Striker</u>\n[HP_BAR]</size>",
 	  "MarkerTextHealthBarFormat": {
 		"Count": 10,
 		"FilledBarText": "|",
@@ -105,7 +105,7 @@
 		},
 		"SpriteName": "marker_special.png",
 		"MarkerColor": "#FFCC00",
-		"MarkerText": "<size=200%>Striker Prime\n[HP_BAR]</size>",
+		"MarkerText": "<size=200%><u>Striker Prime</u>\n[HP_BAR]</size>",
 		"MarkerTextHealthBarFormat": {
 		  "Count": 10,
 		  "FilledBarText": "|",
@@ -132,7 +132,7 @@
 	  },
 	  "SpriteName": "marker_weakling.png",
 	  "MarkerColor": "#808080",
-	  "MarkerText": "<size=200%>Volatile Child\n[HP_BAR]</size>",
+	  "MarkerText": "<size=200%><u>Volatile Child</u>\n[HP_BAR]</size>",
 	  "MarkerTextHealthBarFormat": {
 		"Count": 10,
 		"FilledBarText": "|",
@@ -159,7 +159,7 @@
 		},
 		"SpriteName": "marker_weakling.png",
 		"MarkerColor": "#808080",
-		"MarkerText": "<size=200%>Volatile Nightmare Child\n[HP_BAR]</size>",
+		"MarkerText": "<size=200%><u>Volatile Nightmare Child</u>\n[HP_BAR]</size>",
 		"MarkerTextHealthBarFormat": {
 		  "Count": 10,
 		  "FilledBarText": "|",
@@ -187,7 +187,7 @@
 		},
 		"SpriteName": "marker_regular.png",
 		"MarkerColor": "#FFFF66",
-		"MarkerText": "<size=200%>Striker Giant\n[HP_BAR]</size>",
+		"MarkerText": "<size=200%><u>Striker Giant</u>\n[HP_BAR]</size>",
 		"MarkerTextHealthBarFormat": {
 		  "Count": 10,
 		  "FilledBarText": "|",
@@ -214,7 +214,7 @@
 		},
 		"SpriteName": "marker_special.png",
 		"MarkerColor": "#FFCC00",
-		"MarkerText": "<size=200%>Nightmare Striker Giant\n[HP_BAR]</size>",
+		"MarkerText": "<size=200%><u>Nightmare Striker Giant</u>\n[HP_BAR]</size>",
 		"MarkerTextHealthBarFormat": {
 		  "Count": 10,
 		  "FilledBarText": "|",
@@ -241,7 +241,7 @@
 		},
 		"SpriteName": "marker_special.png",
 		"MarkerColor": "#FFCC00",
-		"MarkerText": "<size=200%>Striker Giant Charger\n[HP_BAR]</size>",
+		"MarkerText": "<size=200%><u>Striker Giant Charger</u>\n[HP_BAR]</size>",
 		"MarkerTextHealthBarFormat": {
 		  "Count": 10,
 		  "FilledBarText": "|",
@@ -268,7 +268,7 @@
 	  },
 	  "SpriteName": "marker_shadow.png",
 	  "MarkerColor": "#301934",
-	  "MarkerText": "<size=200%>Shadow\n[HP_BAR]</size>",
+	  "MarkerText": "<size=200%><u>Shadow</u>\n[HP_BAR]</size>",
 	  "MarkerTextHealthBarFormat": {
 		"Count": 10,
 		"FilledBarText": "|",
@@ -295,7 +295,7 @@
 		},
 		"SpriteName": "marker_shadow.png",
 		"MarkerColor": "#FFCC00",
-		"MarkerText": "<size=200%>Shadow Giant\n[HP_BAR]</size>",
+		"MarkerText": "<size=200%><u>Shadow Giant</u>\n[HP_BAR]</size>",
 		"MarkerTextHealthBarFormat": {
 		  "Count": 10,
 		  "FilledBarText": "|",
@@ -322,7 +322,7 @@
 		},
 		"SpriteName": "marker_shadow.png",
 		"MarkerColor": "#FFCC00",
-		"MarkerText": "<size=200%>Shadow Scout\n[HP_BAR]</size>",
+		"MarkerText": "<size=200%><u>Shadow Scout</u>\n[HP_BAR]</size>",
 		"MarkerTextHealthBarFormat": {
 		  "Count": 10,
 		  "FilledBarText": "|",
@@ -350,7 +350,7 @@
 	  },
 	  "SpriteName": "marker_regular.png",
 	  "MarkerColor": "#FFFFFF",
-	  "MarkerText": "<size=200%>Needler\n[HP_BAR]</size>",
+	  "MarkerText": "<size=200%><u>Needler</u>\n[HP_BAR]</size>",
 	  "MarkerTextHealthBarFormat": {
 		"Count": 10,
 		"FilledBarText": "|",
@@ -377,7 +377,7 @@
 		},
 		"SpriteName": "marker_special.png",
 		"MarkerColor": "#FFCC00",
-		"MarkerText": "<size=200%>Nightmare Needler\n[HP_BAR]</size>",
+		"MarkerText": "<size=200%><u>Nightmare Needler</u>\n[HP_BAR]</size>",
 		"MarkerTextHealthBarFormat": {
 		  "Count": 10,
 		  "FilledBarText": "|",
@@ -405,7 +405,7 @@
 	  },
 	  "SpriteName": "marker_special.png",
 	  "MarkerColor": "#FFCC00",
-	  "MarkerText": "<size=200%>Bloom Needler\n[HP_BAR]</size>",
+	  "MarkerText": "<size=200%><u>Bloom Needler</u>\n[HP_BAR]</size>",
 	  "MarkerTextHealthBarFormat": {
 		"Count": 10,
 		"FilledBarText": "|",
@@ -432,7 +432,7 @@
 		},
 		"SpriteName": "marker_special.png",
 		"MarkerColor": "#FFFF66",
-		"MarkerText": "<size=200%>Needler Giant\n[HP_BAR]</size>",
+		"MarkerText": "<size=200%><u>Needler Giant</u>\n[HP_BAR]</size>",
 		"MarkerTextHealthBarFormat": {
 		  "Count": 10,
 		  "FilledBarText": "|",
@@ -459,7 +459,7 @@
 	  },
 	  "SpriteName": "marker_regular.png",
 	  "MarkerColor": "#FFFFFF",
-	  "MarkerText": "<size=200%>Flyer\n[HP_BAR]</size>",
+	  "MarkerText": "<size=200%><u>Flyer</u>\n[HP_BAR]</size>",
 	  "MarkerTextHealthBarFormat": {
 		"Count": 10,
 		"FilledBarText": "|",
@@ -486,7 +486,7 @@
 	  },
 	  "SpriteName": "marker_special.png",
 	  "MarkerColor": "#FFFF66",
-	  "MarkerText": "<size=200%>Flyer Giant\n[HP_BAR]</size>",
+	  "MarkerText": "<size=200%><u>Flyer Giant</u>\n[HP_BAR]</size>",
 	  "MarkerTextHealthBarFormat": {
 		"Count": 10,
 		"FilledBarText": "|",
@@ -513,7 +513,7 @@
 	  },
 	  "SpriteName": "marker_elite.png",
 	  "MarkerColor": "#FFCC00",
-	  "MarkerText": "<size=200%>Scout\n[HP_BAR]</size>",
+	  "MarkerText": "<size=200%><u>Scout</u>\n[HP_BAR]</size>",
 	  "MarkerTextHealthBarFormat": {
 		"Count": 10,
 		"FilledBarText": "|",
@@ -540,7 +540,7 @@
 	  },
 	  "SpriteName": "marker_elite.png",
 	  "MarkerColor": "#FFCC00",
-	  "MarkerText": "<size=200%>Nimble Scout\n[HP_BAR]</size>",
+	  "MarkerText": "<size=200%><u>Nimble Scout</u>\n[HP_BAR]</size>",
 	  "MarkerTextHealthBarFormat": {
 		"Count": 10,
 		"FilledBarText": "|",
@@ -567,7 +567,7 @@
 	  },
 	  "SpriteName": "marker_elite.png",
 	  "MarkerColor": "#FF8800",
-	  "MarkerText": "<size=200%>Scout Charger\n[HP_BAR]</size>",
+	  "MarkerText": "<size=200%><u>Scout Charger</u>\n[HP_BAR]</size>",
 	  "MarkerTextHealthBarFormat": {
 		"Count": 10,
 		"FilledBarText": "|",
@@ -594,7 +594,7 @@
 	  },
 	  "SpriteName": "marker_elite.png",
 	  "MarkerColor": "#FF8800",
-	  "MarkerText": "<size=200%>Nightmare Scout\n[HP_BAR]</size>",
+	  "MarkerText": "<size=200%><u>Nightmare Scout</u>\n[HP_BAR]</size>",
 	  "MarkerTextHealthBarFormat": {
 		"Count": 10,
 		"FilledBarText": "|",
@@ -621,7 +621,7 @@
 		},
 		"SpriteName": "marker_boss.png",
 		"MarkerColor": "#FFFF66",
-		"MarkerText": "<size=200%>Birther\n[HP_BAR]</size>",
+		"MarkerText": "<size=200%><u>Birther</u>\n[HP_BAR]</size>",
 		"MarkerTextHealthBarFormat": {
 		  "Count": 10,
 		  "FilledBarText": "|",
@@ -648,7 +648,7 @@
 		},
 		"SpriteName": "marker_bossclass2.png",
 		"MarkerColor": "#FFCC00",
-		"MarkerText": "<size=200%>Birther Prime\n[HP_BAR]</size>",
+		"MarkerText": "<size=200%><u>Birther Prime</u>\n[HP_BAR]</size>",
 		"MarkerTextHealthBarFormat": {
 		  "Count": 10,
 		  "FilledBarText": "|",
@@ -675,7 +675,7 @@
 		},
 		"SpriteName": "marker_bossclass3.png",
 		"MarkerColor": "#FF8800",
-		"MarkerText": "<size=200%>Progenitor Mother\n[HP_BAR]</size>",
+		"MarkerText": "<size=200%><u>Progenitor Mother</u>\n[HP_BAR]</size>",
 		"MarkerTextHealthBarFormat": {
 		  "Count": 10,
 		  "FilledBarText": "|",
@@ -702,7 +702,7 @@
 	  },
 	  "SpriteName": "marker_miniboss.png",
 	  "MarkerColor": "#FFCC00",
-	  "MarkerText": "<size=200%>Tank\n[HP_BAR]</size>",
+	  "MarkerText": "<size=200%><u>Tank</u>\n[HP_BAR]</size>",
 	  "MarkerTextHealthBarFormat": {
 		"Count": 10,
 		"FilledBarText": "|",
@@ -729,7 +729,7 @@
 	  },
 	  "SpriteName": "marker_boss.png",
 	  "MarkerColor": "#FF8800",
-	  "MarkerText": "<size=200%>Tank Prime\n[HP_BAR]</size>",
+	  "MarkerText": "<size=200%><u>Tank Prime</u>\n[HP_BAR]</size>",
 	  "MarkerTextHealthBarFormat": {
 		"Count": 10,
 		"FilledBarText": "|",
@@ -756,7 +756,7 @@
 	  },
 	  "SpriteName": "marker_boss.png",
 	  "MarkerColor": "#FF8800",
-	  "MarkerText": "<size=200%>Kraken\n[HP_BAR]</size>",
+	  "MarkerText": "<size=200%><u>Kraken</u>\n[HP_BAR]</size>",
 	  "MarkerTextHealthBarFormat": {
 		"Count": 10,
 		"FilledBarText": "|",
@@ -783,7 +783,7 @@
 	  },
 	  "SpriteName": "marker_bossclass2.png",
 	  "MarkerColor": "#FF8800",
-	  "MarkerText": "<size=200%>Kraken Prime\n[HP_BAR]</size>",
+	  "MarkerText": "<size=200%><u>Kraken Prime</u>\n[HP_BAR]</size>",
 	  "MarkerTextHealthBarFormat": {
 		"Count": 10,
 		"FilledBarText": "|",
@@ -810,7 +810,7 @@
 	  },
 	  "SpriteName": "marker_afflicted.png",
 	  "MarkerColor": "#FF8800",
-	  "MarkerText": "<size=200%>Stalker\n[HP_BAR]</size>",
+	  "MarkerText": "<size=200%><u>Stalker</u>\n[HP_BAR]</size>",
 	  "MarkerTextHealthBarFormat": {
 		"Count": 10,
 		"FilledBarText": "|",
@@ -837,7 +837,7 @@
 	  },
 	  "SpriteName": "marker_bossclass3.png",
 	  "MarkerColor": "#FF1A1A",
-	  "MarkerText": "<size=200%>Progenitor Kraken\n[HP_BAR]</size>",
+	  "MarkerText": "<size=200%><u>Progenitor Kraken</u>\n[HP_BAR]</size>",
 	  "MarkerTextHealthBarFormat": {
 		"Count": 10,
 		"FilledBarText": "|",
@@ -864,7 +864,7 @@
 		},
 		"SpriteName": "marker_bossclass3.png",
 		"MarkerColor": "#FF1A1A",
-		"MarkerText": "<size=200%>Progenitor Squid\n[HP_BAR]</size>",
+		"MarkerText": "<size=200%><u>Progenitor Squid</u>\n[HP_BAR]</size>",
 		"MarkerTextHealthBarFormat": {
 		  "Count": 10,
 		  "FilledBarText": "|",
