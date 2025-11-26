@@ -5,7 +5,7 @@
             "Health": {
                 "HealthMax": 40.0,
                 "DamageUntilHitreact": 15.0,
-                "BodypartHealth": 24.0,
+                "BodypartHealth": 20.0,
                "WeakspotDamageMulti": 1.5,
                 "ArmorDamageMulti": 0.3,
                 "HitreactOnLimbDestruction": 4,
@@ -51,7 +51,7 @@
             "Health": {
                 "HealthMax": 54.5,
                 "DamageUntilHitreact": 30.0,
-                "BodypartHealth": 51.5,
+                "BodypartHealth": 31.5,
                 "WeakspotDamageMulti": 1.0,
                 "ArmorDamageMulti": 0.3,
                 "HitreactOnLimbDestruction": 4,
@@ -235,7 +235,7 @@
             "Health": {
                 "HealthMax": 6000.0,
                 "DamageUntilHitreact": 5100.0,
-                "BodypartHealth": 1000.5,
+                "BodypartHealth": 1000.0,
                "WeakspotDamageMulti": 1.5,
                 "ArmorDamageMulti": 0.001,
                 "HitreactOnLimbDestruction": 1,
@@ -281,7 +281,7 @@
             "Health": {
                 "HealthMax": 56.0,
                 "DamageUntilHitreact": 16.5,
-                "BodypartHealth": 12.0,
+                "BodypartHealth": 22.0,
                 "WeakspotDamageMulti": 0.0,
                 "ArmorDamageMulti": 0.3,
                 "HitreactOnLimbDestruction": 4,
@@ -373,7 +373,7 @@
             "Health": {
                 "HealthMax": 450.0,
                 "DamageUntilHitreact": 250.0,
-                "BodypartHealth": 450.0,
+                "BodypartHealth": 175.0,
                 "WeakspotDamageMulti": 0.6,
                 "ArmorDamageMulti": 0.3,
                 "HitreactOnLimbDestruction": 4,
@@ -417,9 +417,9 @@
         },
         {
             "Health": {
-                "HealthMax": 900.0,
-                "DamageUntilHitreact": 690.0,
-                "BodypartHealth": 900.0,
+                "HealthMax": 600.0,
+                "DamageUntilHitreact": 200.0,
+                "BodypartHealth": 250.0,
                 "WeakspotDamageMulti": 0.1,
                 "ArmorDamageMulti": 0.3,
                 "HitreactOnLimbDestruction": 4,
@@ -511,7 +511,7 @@
             "Health": {
                 "HealthMax": 31.5,
                 "DamageUntilHitreact": 15.0,
-                "BodypartHealth": 27.5,
+                "BodypartHealth": 20.5,
                "WeakspotDamageMulti": 1.5,
                 "ArmorDamageMulti": 0.3,
                 "HitreactOnLimbDestruction": 4,
@@ -833,7 +833,7 @@
             "Health": {
                 "HealthMax": 120.0,
                 "DamageUntilHitreact": 25.0,
-                "BodypartHealth": 120.0,
+                "BodypartHealth": 80.0,
                 "WeakspotDamageMulti": 1.5,
                 "ArmorDamageMulti": 0.3,
                 "HitreactOnLimbDestruction": 4,
@@ -1107,11 +1107,11 @@
         },
         {
             "Health": {
-                "HealthMax": 4000.0,
+                "HealthMax": 3500.0,
                 "DamageUntilHitreact": 2000.0,
-                "BodypartHealth": 4000.0,
+                "BodypartHealth": 2500.0,
                 "WeakspotDamageMulti": 1.0,
-                "ArmorDamageMulti": 0.2,
+                "ArmorDamageM   ulti": 0.2,
                 "HitreactOnLimbDestruction": 4,
                 "TryForceHitreactOnLimbDestruction": true
             },
@@ -1126,7 +1126,7 @@
             "TentacleAttackDamage": 12.0,
             "MeleeAttackDamage": 12.5,
             "MeleeAttackDamageCheckRadius": 1.0,
-            "TagTime": 60.0,
+            "TagTime": 30.0,
             "EnemyCollisionRadius": 1.4,
             "EnemyCollisionPlayerMovementReduction": 0.98,
             "EnemyCollisionMinimumMoveSpeedModifier": 0.2,
