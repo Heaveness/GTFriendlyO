@@ -296,7 +296,7 @@
     "Header": "Prisoner",
     "GroupPersistentId": 2,
     "PersistentId": 20,
-    "InfoText": "You get no benefits or detriments from the class system. More akin to the regular experience.\n\n<color=red>Warning: This class may be more challenging to play because other changes made outside the class system is still applied.</color>",
+    "InfoText": "You get no benefits or detriments from the class system. More akin to the regular experience.\n\n<color=red>Warning: This class may be more challenging to play because other changes made outside the class system are still applied.</color>",
     "Levels": [
       {
         "LevelNumber": 0,
