@@ -65,7 +65,7 @@
         "StackType": "Override",  
         "CombineModifiers": false,
         "Trigger": {
-          "Name": "ChargeLanded",
+          "Name": "Charge",
           "Min": 0.5,
           "Max": 1.0,
           "Exponent": 3,

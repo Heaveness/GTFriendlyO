@@ -13,10 +13,19 @@
         "Trigger": "HitPlayer"
       },
       {
-          "Name": "Noise",
-          "SoundID": 1993625518,
-          "LocalSoundOnly": true,
-          "Trigger": "Reload" 
+        "Name": "InfectionMod",
+        "InfectionChangeRel": -0.0031,
+        "CapRel": -1.0,
+        "ApplyToTarget": true,
+        "ApplyToBots": true,
+        "EnableFX": true,
+        "Trigger": "HitPlayer"
+      },
+      {
+        "Name": "Noise",
+        "SoundID": 1993625518,
+        "LocalSoundOnly": true,
+        "Trigger": "Reload" 
       },
       {
         "Name": "DamageOverTime",
@@ -26,7 +35,7 @@
         "PrecisionDamageMulti": 1.0,
         "StaggerDamageMulti": 0.5,
         "FriendlyDamageMulti": 0.0,
-        "Duration": 9.0,
+        "Duration": 9.5,
         "TickRate": 1.0,
         "StackLimit": 2,
         "IgnoreFalloff": false,
