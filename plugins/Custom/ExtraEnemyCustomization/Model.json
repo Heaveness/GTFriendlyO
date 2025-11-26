@@ -419,6 +419,33 @@
 	  "AllowMarkingOnHibernate": false
 	},
 	{
+	  "Enabled": true,
+	  "DebugName": "Shooter_Infected_Reg",
+	  "Target": {
+		"Mode": "PersistentID",
+		"persistentIDs": [
+		  34
+		],
+		"nameParam": "",
+		"nameIgnoreCase": true,
+		"categories": []
+	  },
+	  "SpriteName": "marker_special.png",
+	  "MarkerColor": "#FFCC00",
+	  "MarkerText": "<size=200%><u>Infected Needler</u>\n[HP_BAR]</size>",
+	  "MarkerTextHealthBarFormat": {
+		"Count": 10,
+		"FilledBarText": "|",
+		"EmptyBarText": " "
+	  },
+	  "BlinkIn": true,
+	  "Blink": true,
+	  "BlinkDuration": 0.5,
+	  "BlinkMinDelay": 0.1,
+	  "BlinkMaxDelay": 0.5,
+	  "AllowMarkingOnHibernate": false
+	},
+	{
 		"Enabled": true,
 		"DebugName": "ShooterBig",
 		"Target": {

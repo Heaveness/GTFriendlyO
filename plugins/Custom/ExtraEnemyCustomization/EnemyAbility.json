@@ -105,12 +105,12 @@
         "DensityMax": 0.5,
         "DensityAmountMin": 0,
         "DensityAmountMax": 0.5,
-        "Duration": 35,
+        "Duration": 30,
         "EffectVolume": {
           "Enabled": true,
           "Contents": "Infection",
           "Modification": "Inflict",
-          "Scale": 0.005
+          "Scale": 0.003
         },
         "Name": "Fog"
       }

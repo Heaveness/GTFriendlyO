@@ -38,7 +38,8 @@
           53,
           63,
           62,
-          52
+          52,
+          34
 				],
 				"nameParam": "",
 				"nameIgnoreCase": true,
@@ -57,7 +58,7 @@
 				"ScreenLiquidRange": 5.0
 			},
       "ProjectileData": {
-        "Infection": "1%",
+        "Infection": "0.5%",
         "SoundEventID": 676801566,
         "UseEffect": true,
         "ScreenLiquidRange": 5.0
@@ -108,8 +109,8 @@
         "LightColor": "#ff1500",
         "KillInflictor": false,
         "EnemyDamageMulti": 0.5,
-        "MinRange": 2.5,
-        "MaxRange": 5.0,
+        "MinRange": 2.0,
+        "MaxRange": 4.0,
         "NoiseMinRange": 5.0,
         "NoiseMaxRange": 10.0,
         "NoiseType": "Detectable"
@@ -181,19 +182,22 @@
 				"Mode": "PersistentID",
 				"persistentIDs": [
           33,
-          34,
-          18
+          18,
+          40,
+          20,
+          54,
+          41
 				],
 				"nameParam": "",
 				"nameIgnoreCase": true,
 				"categories": []
 			},
 			"ProjectileData": {
-        "Damage": "0.5%",
+        "Damage": "2%",
         "ChanceToBleed": 0.5,
-        "Interval": 1.0,
-        "Duration": 5.0,
-        "CanBeStacked": true,
+        "Interval": 2.0,
+        "Duration": 10.5,
+        "CanBeStacked": false,
         "HasLiquid": true,
         "LiquidSetting": "enemyBlood_SmallRandomStreak",
         "OverrideBleedingTextID": 0
