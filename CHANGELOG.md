@@ -1,6 +1,77 @@
 # Changelog
 
-## **v2.0.6** - Latest
+## **v2.0.8** - Latest
+
+* Emergency Hotfix:
+    * Fixed an error with one of the gun's properties.
+> Dev Note: Apologies, I should really triple check these things.
+
+---
+
+### v2.0.7 - Latest
+
+### Weapon Tweak:
+* Updated `ExtraWeaponCustomization` mod
+* Medic Gun:
+    * Increased Dart Duration from `9.0s` to `9.5s` (To prevent potential loss of time from packet loss)
+    * Added `Disinfect` property
+    * Each dart will disinfect players for `0.31%` per second for a duration of `9.5s` 
+> Dev Note: With the new recent update to EWC mod, I can give the medic gun a stronger support presence by adding disinfect properties. It's half the rate of the healing property, so disinfection packs aren't pushed out by this gun's existence.
+
+### Enemy Body Part Health Tweaks:
+* Striker:
+    * Decreased Body Part Health from `24.0` to `20.0`
+* Nightmare Striker:
+    * Decreased Body Part Health from `51.5` to `31.5`
+* Striker Charger:
+    * Increased Body Part Health from `12.0` to `22.0`
+* Striker Giant:
+    * Decreased Body Part Health from `450.0` to `1.0`
+* Nightmare Striker Giant:
+    * Decreased Max Health from `900.0` to `600.0`
+    * Decreased Hit Reaction Threshold from `960.0` to `200.0`
+    * Decreased Body Part Health from `900.0` to `250.0`
+> Dev Note: With the recent changes to sniper rifles, they reliably kill giants now. But the lack of visual feedback made it look awkward when Giants didn't lose any limbs. Visually it should feel satisfying instead of being demoralised by their tankiness. The increase in the Giant's bodypart health from patch v2.0.5 might have an overall negative effect.
+* Nightmare Needler:
+    * Decreased Body Part Health from `27.5` to `20.5`
+* Nightmare Scout:
+    * Decreased Body Part Health from `120.0` to `80.0`
+* Stalker:
+    * Decreased Max Health from `4000.0` to `3500.0`
+    * Decreased Body Part Health from `4000.0` to `2500.0`
+    * Decreased Tag Time from `60.0s` to `30.0s`
+> Dev Note: As much as I believe the stalker is significantly better than the original counterpart. The tankiness did make it a bullet sponge. So that's why I am lowering its overall health while still being a threat that should NOT be ignored. The decreased tag time will also incentivize bio scanners to keep a close eye on them for the team.
+
+### Enemy Fixes & Tweaks:
+* Removed Projectile Settings from EEC to prevent issues with enemy abilities.
+* Nightmares Variants:
+    * Decreased Projectile Infection Rate from `1%` to `0.5%`
+* Enemy Bleed Effect:
+    * Enemy Bleed NO longer stacks; continued application can refresh active bleed duration
+    * Fixed Bleed doing the wrong amount of damage
+    * Added Bleed properties to Scouts(except Nightmare Scouts)
+    * Increased Bleed Damage from `0.4%` to `2%`
+    * Increased Damage Interval from `1.0s` to `2.0s`
+    * Increased Bleed Duration from `5.0s` to `10.5s`
+> Dev Note: The change to bleed is to tackle this odd bug with EEC where it sometimes chooses to do max health damage based on Player Health and just simple flat percentile damage. This can sometimes do an ungodly amounts of damage when hit multiple times. Health pack will also remove bleeding.
+* Flyer:
+    * Decreased Explosion Minimum Range from `2.5m` to `2.0m`
+    * Decreased Explosion Maximum Range from `5.0m` to `4.0m`
+* Shadow:
+    * Decreased Infection Fog Rate from `0.5%` to `0.3%` per second
+    * Decreased Infection Fog Duration from `35.0s` to `30.0s` 
+> Dev Note: The Fog Spheres are doing its job by zoning players. But it might be doing too well at its job at some missions, especially on maps without any adequate disinfection options. Also Fog Sphere infection rate stack on each other which can potentially kill a player if they aren't paying attention.
+
+### Melee Fixes:
+* Sledgehammer:
+    * Fixed Sledgehammer Armor Shred not working because of invalid trigger setting.
+
+### Misc Fixes:
+* Minor format improvements to README file.
+
+---
+
+## v2.0.6
 
 ### Emergency Hotfix:
 
@@ -129,7 +200,7 @@
     * Increased Ricochet's Precision Multiplier from `1.1x` to `5.5x` (Lower than baseline by 0.75x)
     * Decreased Ricochet's Stagger Multiplier from `1.0x` to `0.7x` (Lower than baseline by 0.2x)
     * Decreased Ricochet's Effective Range from `50.0m` to `20.0m`
-> Dev Note: I have completely forgotten to change the ricochet bullet's stats to the current base gun's values. It still had the old stats which unintentionally made it too strong. Other the side note, the ricochet aspect created bad habits out of the player. There was little to no punishment for simply firing wildly. The gun should still be fun enough on its own, but it's not as abuseable as before.
+> Dev Note: I have completely forgotten to change the ricochet bullet's stats to the current base gun's values. It still had the old stats which unintentionally made it too strong. On the side note, the ricochet aspect created bad habits out of the player. There was little to no punishment for simply firing wildly. The gun should still be fun enough on its own, but it's not as abuseable as before.
 
 ### Melee Fixes & Tweaks:
 * Fixed melee weapons using the wrong noise levels:

@@ -54,7 +54,7 @@ This project has been in the works for many years. It's only been shared private
 > Dev Note: B-Company Division is meant for joke classes, never will be balanced or realistic. So have fun with them.
 
 | CLASS       		| ROLE      | DIVISION  | STRENGTHS 	 											          | WEAKNESSES																      |
-|-------------------|-----------|-----------|:-------------------------------------------------------------------:|:-----------------------------------------------------------------------------:|
+|-------------------|-----------|-----------|:--------------------------------------------------------------------|:------------------------------------------------------------------------------|
 | Marine 			| Damage 	| Combat 	| Accurate; mid-to-long range; consistent damage                      | Low melee armor & damage                                                      |
 | Covert Op 		| Damage 	| Combat 	| Stealth melee; high damage; high movement speed                     | Low base HP; very fragile                                                     |
 | Demolitionist 	| Damage 	| Combat 	| Crowd control AoE; big explosions; explosive resistance             | Poor tech skills (terminal, hacking, sentries)                                |
@@ -80,14 +80,14 @@ This project has been in the works for many years. It's only been shared private
 - Reserve Ammo means there is no reloading, as the weapon utilizes the whole ammo reserve.
 
 | ORIGINAL NAME			| NEW NAME							| TRAIT															| BALLISTICS		|
-|-----------------------|-----------------------------------|:-------------------------------------------------------------:|:-----------------:|
+|:----------------------|:----------------------------------|:--------------------------------------------------------------|:-----------------:|
 | Shelling S49        	| Shelling Tracker Pistol			| Tags target on hit											| Hitscan			|
 | Shelling Nano       	| Shelling Foam Pistol				| Foams targets; shreds armor					        		| Hitscan			|
 | Bataldo 3RB	 	  	| Bataldo Revolver					| Hold trigger for rapid fire; richochet on terrain             | Hitscan			|
 | Raptus Treffen 2    	| Raptus MP2						| Full-auto                          	            			| Hitscan			|
 | Raptus Steigro      	| Raptus Reserve MP1				| Reserve ammo; no reload               						| Hitscan			|
 | Accrat Golok DA     	| Accrat 5-B Bullpup				| Standard bullets; 5-round burst fire           				| Hitscan			|
-| Van Auken LTC5      	| Techman Hemostasis Medic Gun		| Heal allies / Venom enemies; silence CC; kills restore 1 ammo | Projectile		|
+| Van Auken LTC5      	| Techman Hemostasis Medic Gun		| Heal/Disinfect allies & Venom/Silence enemies; kills restore 1 ammo | Projectile		|
 | Accrat STB          	| Omneco Tracker PDW				| Tags target; thermal scope       								| Hitscan			|
 | Accrat ND6          	| Van Auken Heavy SMG				| Standard bullets												| Hitscan			|
 | Van Auken Cab F4    	| Accrat 3-B Carbine				| Standard bullets; 3-round burst 	                            | Hitscan			|
@@ -137,7 +137,7 @@ This project has been in the works for many years. It's only been shared private
 > Dev Note: The ResourceStacking mod will be an important upgrade for consumables.
 
 | SENTRIES      | RANGE 	| QUIRKS		  									| STRENGTHS 	 									| WEAKNESSES										|
-|---------------|-----------|---------------------------------------------------|:-------------------------------------------------:|:-------------------------------------------------:|
+|---------------|-----------|---------------------------------------------------|:--------------------------------------------------|:--------------------------------------------------|
 | Burst Turret	| Medium	| Burst Fire, Shot Delays cause leaks in defense	| Consistent Damage, & Reliable						| Easily Overwhelmed & Requires Sufficient Space	|
 | Auto Turret 	| Short	 	| Holds Choke Points, but wastes a lot of bullets	| High Stagger Damage, & High Ammo Cap				| Poor Accuracy, & Very Ammo Hungry					|
 | Sniper Turret	| Long		| Alt. to snipers, but fires at Tagged targets ONLY	| Very High Single-target Damage, & Ammo Efficient	| Poor Defense, & Long Setup						|
@@ -151,7 +151,7 @@ This project has been in the works for many years. It's only been shared private
 * Some names were changed to keep a consistent identification. For example: `Shooter -> Needler`
 
 | ENEMIES      				 | ABILITIES/TRAITS  													 | NOTES																					|
-|----------------------------|:---------------------------------------------------------------------:|:----------------------------------------------------------------------------------------:|
+|----------------------------|:----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
 | Strikers					 | Higher HP, but less damage											 | N/A, just punch'em.																		|
 | Needlers(Shooter) 		 | Stronger overall damage, but more fragile							 | N/A, just shoot'em.																		|
 | Strikers Giants 			 | Tongue grabs player to its melee range; cannot parry the pull		 | Loves pulling teammates out of bioscans, either kill or disable(Medic Gun or Foam).      |
@@ -164,13 +164,13 @@ This project has been in the works for many years. It's only been shared private
 
 * Variants will still have their traits and abilities listed above while also having extra perks mentioned below.
 
-| VARIANTS      | TRAITS 																	|
-|---------------|:-------------------------------------------------------------------------:|
-| Giant 		| Signicantly increased health and stagger resistance						|
-| Charger 		| HP Regen(80% Cap) if not damaged within 5 seconds, damage resets timer	|
-| Nightmare  	| Inflicts infection on all attacks	& scout screams							|
-| Shadow 		| Infected Fog Spheres on death, slightly increased Tag time by 3s	        |
-| Child			| Explode on Death, can cause a chain reaction								|
+| VARIANTS  | TRAITS 															    |
+|-----------|:----------------------------------------------------------------------|
+| Giant 	| Signficantly increased health and stagger resistance					|
+| Charger 	| HP Regen(80% Cap) if not damaged within 5 seconds, damage resets timer|
+| Nightmare | Inflicts infection on all attacks	& scout screams						|
+| Shadow 	| Infected fog spheres on death, slightly increased Tag time by 3s	    |
+| Child		| Explode on death, can cause a chain reaction							|
 
 ### Extras:
 
