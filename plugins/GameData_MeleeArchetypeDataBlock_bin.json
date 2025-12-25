@@ -28,7 +28,7 @@
       "MeleeAnimationSet": 1,
       "MeleeSFXSet": 1,
       "ChargedAttackStaminaCost": {
-        "baseStaminaCostInCombat": 0.35,
+        "baseStaminaCostInCombat": 0.3,
         "baseStaminaCostOutOfCombat": 0.3,
         "resetRestingTimerInCombat": false,
         "resetRestingTimerOutOfCombat": true
@@ -124,13 +124,13 @@
       "MeleeAnimationSet": 3,
       "MeleeSFXSet": 3,
       "ChargedAttackStaminaCost": {
-        "baseStaminaCostInCombat": 0.3,
+        "baseStaminaCostInCombat": 0.25,
         "baseStaminaCostOutOfCombat": 0.25,
         "resetRestingTimerInCombat": false,
         "resetRestingTimerOutOfCombat": true
       },
       "LightAttackStaminaCost": {
-        "baseStaminaCostInCombat": 0.25,
+        "baseStaminaCostInCombat": 0.2,
         "baseStaminaCostOutOfCombat": 0.2,
         "resetRestingTimerInCombat": false,
         "resetRestingTimerOutOfCombat": true
