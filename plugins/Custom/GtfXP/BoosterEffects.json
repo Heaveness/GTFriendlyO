@@ -11,7 +11,7 @@
       "CarbineDamage": 1.4,
       "TripMineDamage": 0.6,
       "MeleeResistance": 0.5,
-      "ProjectileResistance": 1.3,
+      "ProjectileResistance": 1.4,
       "InfectionResistance": 1.2,
       "HackingProficiency": 0.8
     }
@@ -243,9 +243,9 @@
       0
     ],
     "ValueToBoosterEffects": {	  
-      "ComputerProcessingSpeed": 0.5,
+      "ComputerProcessingSpeed": 0.3,
       "HackingProficiency": 0.1,
-      "SentryGunSpeed": 0.5,
+      "SentryGunSpeed": 0.3,
       "BioscanSpeed": 0.6,
       "ScannerRechargeSpeed": 0.6,
       "RegenerationCap": 1.5,
@@ -258,7 +258,7 @@
       0
     ],
     "ValueToBoosterEffects": {
-      "ProjectileResistance": 0.5,
+      "ProjectileResistance": 0.4,
       "MeleeResistance": 1.6,
       "InfectionResistance": 1.95,
       "BioscanSpeed": 1.5,
