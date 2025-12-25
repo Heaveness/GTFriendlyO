@@ -311,7 +311,7 @@
           "Description": "Subject will start off with more ammo for their main weapon.",
           "DescriptionNegative": "Subject will start off with less ammo for their main weapon.",
           "EffectCategory": "InitialState",
-          "Value": 1.1
+          "Value": 1.15
         }
       ],
       "Conditions": []
@@ -329,7 +329,7 @@
           "Description": "Subject will start off with more ammo for their special weapon.",
           "DescriptionNegative": "Subject will start off with less ammo for their special weapon.",
           "EffectCategory": "InitialState",
-          "Value": 1.1
+          "Value": 1.15
         }
       ],
       "Conditions": []
@@ -830,10 +830,10 @@
       ],
       "Conditions": [
         {
-          "Condition": "HasHighHealth",
+          "Condition": "IsNextToGlowstick",
           "PublicShortName": "",
-          "PublicName": "High health",
-          "Description": "Subject must have above 50% health for booster to be active."
+          "PublicName": "Glowstick radius",
+          "Description": "Subject must be within the radius of a glowstick for booster to be active."
         }
       ]
     },
@@ -855,10 +855,10 @@
       ],
       "Conditions": [
         {
-          "Condition": "HasLowHealth",
+          "Condition": "IsInFogRepellerRadius",
           "PublicShortName": "",
-          "PublicName": "Low health",
-          "Description": "Subject must have below 50% health for booster to be active."
+          "PublicName": "Fog repeller radius",
+          "Description": "Subject must be within the radius of a fog repeller for booster to be active."
         }
       ]
     },
@@ -1477,7 +1477,7 @@
           "Description": "Subject will start off with more ammo for their main weapon.",
           "DescriptionNegative": "Subject will start off with less ammo for their main weapon.",
           "EffectCategory": "InitialState",
-          "Value": 1.2
+          "Value": 1.25
         },
         {
           "Effect": "InitialAmmoSpecial",
@@ -1513,7 +1513,7 @@
           "Description": "Subject will start off with more ammo for their special weapon.",
           "DescriptionNegative": "Subject will start off with less ammo for their special weapon.",
           "EffectCategory": "InitialState",
-          "Value": 1.2
+          "Value": 1.25
         },
         {
           "Effect": "InitialAmmoStandard",
