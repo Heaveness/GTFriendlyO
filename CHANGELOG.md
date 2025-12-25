@@ -1,6 +1,77 @@
 # Changelog
 
-## **v2.0.8** - Latest
+## **v2.0.9** - Latest
+
+### Mod Update & Fixes:
+* Replaced `MovementSpeedAPI` mod with `ModifierAPI` mod by Dinorush
+    * Please remove the depreciated mod from the list. I have removed the mod from the manifest list so you should be able to disable/uninstall it now.
+* Updated `ExtraWeaponCustomization` mod
+* Updated `ExtraToolCustomization` mod
+* Updated `GTFuckingXP` mod
+* Added `EnemyAnimationFix` mod by Dinorush
+    * Fixes several enemy bugs for both clients and host regarding their animations and attack behavior. 
+* Added `DMRReloadFix` mod by randomuserhi
+    * Fixes an annoying bug when reloading guns that leaves 1 bullet missing in the magainze.
+* Added `DoorEnemyFixUpdated` mod by Dinorush
+    * Fixes Tripmines and C-Foam touching enemies through closed doors which will cause them to trigger prematurely and waste the resource. 
+* Added `ReDownFix` mod by Dinorush
+    * Fixes clients getting downed from taking any damage shortly after a revive. This is to prevent players from getting killed immediately after a successful revive caused by the long animation.
+* Added `PierceBugFix` mod by tru0067
+    * Fixes piercing so that piercing shots hit the advertised number of enemies. Originally piercing beyond five were ignored by the system and some enemies used up more than one piercing; effectively decreasing their utility.
+> Dev Note: While I did say that bug fix mods is up to the players to add to their list, but some bugs are just too annoying to ignore. It's problematic enough that it can negatively effect the overall experience. Note that these are all related to gameplay.
+
+### Class Tweaks:
+* Added `Melee Attack Speed` modifier to certain classes.
+* Marine:
+    * Increased Bleed Resistance from `+70%` to `+90%`
+    * Increased Projectile Armor boon from `+30%` to `+40%`
+    * Added `Melee Attack Speed` property
+        * Class decreases `Melee Attack Speed` by `-50%`
+> Dev Note: These changes should help further Marine's role within the group as a solid all-rounder range class against enemy projectiles. Your melee should really be your last resort. Effective and efficient use of ammo is key to this class.
+* Shock Trooper:
+    * Fixed typos within the text description
+    * Fixed class not showing the Health Regen bonus when in-game
+    * Removed `Melee Damage` property of `+20%`
+    * Added `Melee Attack Speed` property
+        * Class increases `Melee Attack Speed` by `+30%`
+> Dev Note: Giving the Shock Trooper a different identity with their melee compare to Covert Op class. The new attack speed should pair better with the Bat and Sledgehammer to provide better support and crowd control.
+* Abhuman:
+    * Increased Melee Damage from `+75%` to `+100%`
+    * Increased Terminal & Sentry CPU penalty from `-50%` to `-70%`
+    * Added `Melee Attack Speed` property
+        * Class decreases `Melee Attack Speed` by `-30%`
+> Dev Note: With the removal of Shock Trooper's melee damage, it would make more sense in giving the Abhuman that role of melee powerhouse. To prevent melee spam potential, it's important to reign in their attack speed. This would make them clunkier, but one melee swing is what you truly need anyways. Also stop touching the terminals slab!
+* Deprived:
+    * Increased Projectile Armor penalty from `-50%` to `-60%`
+    * Added `Melee Attack Speed` property
+        * Class increases `Melee Attack Speed` by `+50%` 
+> Dev Note: This class is suppose to be a fast-paced high-rish high-reward class. The slow melee from Sledgehammer and Spear made it limited in terms of melee options. Hopefully this will make them more viable as well as make the faster weapons more enjoyable.
+
+### Booster Tweaks:
+* Initial Main/Special Ammo Boosters:
+    * Increased Muted Ammo Bonus from `+10%` to `+15%`
+    * Increased Aggressive Ammo Bonus from `+20%` to `+25%`
+> Dev Note: Since this booster doesn't have a Bold version, it should get a small buff to its other two versions to make up for it.
+* Bold Melee Boosters:
+    * Changed Booster Condition from `Low Health` to `Glowstick Radius`
+    * Changed Booster Condition from `High Health` to `Fog Repeller Radius`
+> Dev Note: This was to done to "fix" a problem regarding the condition not meeting based on description. The 50% was not always based on max health but the old vanilla GTFO health. Hopefully, this will make the booster more predictable. This will have great potential with the Specialist Class and boosters that buff the new conditions. For example: a regular class requires 5.0m to activate glowstick condition but with Specialist it can be extended to 12.0m.
+
+### Melee Tweaks:
+* Sledge Hammer:
+    * Decreased Stamina Cost while in combat from `35%` to `30%` per Heavy swing.
+* Spear:
+    * Decreased Stamina Cost while in combat from `35%` to `25%` per Heavy swing.
+    * Decreased Stamina Cost while out of combat from `30%` to `25%` per Heavy swing.
+    * Decreased Stamina Cost while in combat from `25%` to `20%` per Light swing.
+> Dev Note: This change is done to make 2 handed weapons feel less debilitating to use with the new Attack Speed modifiers. 
+
+### Misc. Fixes:
+* Fixed wording in `v2.0.7` changelog that stated Striker Giant's new Body Part Health was `1.0` when it should have been `175.0`.
+
+---
+
+### v2.0.8
 
 * Emergency Hotfix:
     * Fixed an error with one of the gun's properties.
@@ -8,7 +79,7 @@
 
 ---
 
-### v2.0.7 - Latest
+### v2.0.7
 
 ### Weapon Tweak:
 * Updated `ExtraWeaponCustomization` mod
@@ -26,7 +97,7 @@
 * Striker Charger:
     * Increased Body Part Health from `12.0` to `22.0`
 * Striker Giant:
-    * Decreased Body Part Health from `450.0` to `1.0`
+    * Decreased Body Part Health from `450.0` to `175.0`
 * Nightmare Striker Giant:
     * Decreased Max Health from `900.0` to `600.0`
     * Decreased Hit Reaction Threshold from `960.0` to `200.0`
@@ -71,7 +142,7 @@
 
 ---
 
-## v2.0.6
+### v2.0.6
 
 ### Emergency Hotfix:
 
