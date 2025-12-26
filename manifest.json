@@ -1,11 +1,12 @@
 {
     "name": "GTFriendlyO",
-    "version_number": "2.0.9",
+    "version_number": "2.0.10",
     "website_url": "https://github.com/Heaveness/GTFriendlyO",
     "description": "A major overhaul of GTFO's vanilla gameplay, designed for a more casual but still fun and challenging experience with friends.",
     "dependencies": [
         "BepInEx-BepInExPack_GTFO-3.2.2",
         "dakkhuza-MTFO-4.6.2",
+        "Dinorush-MovementSpeedAPI-1.1.2",
         "Dinorush-ModifierAPI-1.2.0",
         "Dinorush-ExtraWeaponCustomization-4.5.2",
         "ProjectZaero-Junkie_Syringe_Pack-2.6.0",

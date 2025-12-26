@@ -1,10 +1,17 @@
 # Changelog
 
-## **v2.0.9** - Latest
+## **v2.0.10** - Latest
+
+* Emergency Hotfix:
+    * Updated `MovementSpeedAPI` mod 
+    * Added `MovementSpeedAPI` mod back into the manifest
+> Dev Note: I realized I cannot remove this mod since there are still other mods that require it. Please disregard my previous instruction in v2.0.9 about removing this mod. Keep it for now, sorry about that.
+
+---
+
+### v2.0.9
 
 ### Mod Update & Fixes:
-* Replaced `MovementSpeedAPI` mod with `ModifierAPI` mod by Dinorush
-    * Please remove the depreciated mod from the list. I have removed the mod from the manifest list so you should be able to disable/uninstall it now.
 * Updated `ExtraWeaponCustomization` mod
 * Updated `ExtraToolCustomization` mod
 * Updated `GTFuckingXP` mod
