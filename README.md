@@ -157,8 +157,8 @@ This project has been in the works for many years. It's only been shared private
 | Strikers Giants 			 | Tongue grabs player to its melee range; cannot parry the pull		 | Loves pulling teammates out of bioscans, either kill or disable(Medic Gun or Foam).      |
 | Scouts 					 | EMP(45.0s) after scream, invul. during EMP wind-up; Longer feelers	 | EMPs disable all, but glowsticks, fog repellers, and tripmines. Try the Specialist class!|
 | Birther 			         | Increased HP; Birth Children that will explode on death				 | Kill the babies first, then kill the mother fast.	     								|
-| Stalkers(Snatcher/Pouncer) | Significant HP; snatched players take damage(3% over 10s); glue immune| Takes longer to kill and can kill players now. They should not be ignored.				|
-| Giant & Bloom Needlers	 | Inflicts bleed(50% Chance) for 2.5% damage over 5.0s; stackable		 | They are high-priority targets otherwise the team will suffer major damage.              |
+| Stalkers(Snatcher/Pouncer) | Snatched players take damage & Fast Dashes but long CDs; glue immune  | Takes longer to kill and can kill players now. They should not be ignored.				|
+| Giant & Bloom Needlers	 | Inflicts bleed(50% Chance) for 10.0% damage over 10.0s; nonstackable	 | They are high-priority targets otherwise the team will suffer major damage.              |
 | Flyers                	 | Fires explosive projectiles for 5% damage over 2.5m to 5.0m           | Shoot them down quicky before they inflict too much AoE damage.                          |
 | Tanks						 | Significant increase in HP & high knockback; door buster				 | Significantly longer to kill, their knockback is annoying, and don`t close doors on them.|
 

@@ -1,6 +1,49 @@
 # Changelog
 
-## **v2.0.10** - Latest
+## **v2.1.0** - Latest
+
+### Mod Updates:
+* Updated `EnemyAnimationFix` mod
+* Updated `AmorLib` mod
+* Updated `ModifierAPI` mod
+* Updated `ExtraWeaponCustomization` mod
+* Updated `ExtraSyringeCustomization` mod
+    * Removed `MovementSpeedAPI` mod
+> Dev Note: With ESC mod updated with the new dependency, I can remove the old depreciated mod. MovementSpeedAPI is no longer needed anymore and can be safely removed from the modpack. But it will have to be manually removed by the player if they already have it. All I can do is remove it from the manifest so it's no longer required to have it active. It is safe to remove MovementSpeedAPI from your list.
+* Added `StrongerPlayer` mod by Chaxi
+    * Ability to sprint while holding onto objective items such as Fog Turbines, Battery Cells, and other large objects that require both hands.
+
+### Enemy Tweaks:
+* Stalker(Snatcher):
+    * Decreased Health from `3500` to `700`
+    * Decreased Damage Until React from `2000` to `500`
+    * Decreased Bodypart Health from `2500` to `600`
+    * Increased Initial Held Damage from `0.0` to `5.0`
+    * Decreased Tag Time from `30.0s` to `20.0s`
+    * Increased Dash Cooldown from `5.0s` to `13.0s`
+    * Increased Runaway Duration from `5.0s` to `13.0s`
+    * Increased Dash Speed Modifier from `1.0x` to `2.0x`
+> Dev Note: After some feedback, the health on the Stalker was overtuned which created a problem with rundowns that had multiples of them running around. This led to an issue where they just became a huge mag dump fest that provided no real challenge or fun to the overall gameplay. So I am significantly lowering their health which should be less than a regular Tank but still higher than a Giant. But to keep their threat level high, I have increased their overal dash speed to catch players off-guard when it attacks. To prevent them from spamming the dash, I have increased the cooldown between attacks.
+* Kraken(Boss):
+    * Decreased Health from `9000` to `7000`
+    * Inreased Bodypart Health from `1800` to `2000`
+* Tank:
+    * Decreased Glue Tolerance from `25.0` to `20.0`
+
+### Weapon Tweaks:
+* Nano Gauss Rifle:
+    * Decreased Shrapnel(Gobules) count from `20.0` to `10.0`
+    * Increased Shrapnel(Gobules) damage from `2.0` to `4.0`
+> Dev Note: I have noticed that whenever the nano-gauss killed an enemy it would have a lag spike because of the excessive amounts of nano gobules that spawn off of the dead bodies. So I decided to lower the amount, but increase the damage. It still does exactly total damage of 40.0 as before, but less taxing on the game's system itself.
+
+### Misc. Tweaks:
+* ChatterReborn:
+    * Removed banter whenever someone carried the Fog Turbine.
+> Dev Note: Constantly hearing the same comment over and over again so degrading on the ear during a long session.
+
+---
+
+### v2.0.10
 
 * Emergency Hotfix:
     * Updated `MovementSpeedAPI` mod 
@@ -18,7 +61,7 @@
 * Added `EnemyAnimationFix` mod by Dinorush
     * Fixes several enemy bugs for both clients and host regarding their animations and attack behavior. 
 * Added `DMRReloadFix` mod by randomuserhi
-    * Fixes an annoying bug when reloading guns that leaves 1 bullet missing in the magainze.
+    * Fixes an annoying bug when reloading guns that leaves 1 bullet missing in the magazine.
 * Added `DoorEnemyFixUpdated` mod by Dinorush
     * Fixes Tripmines and C-Foam touching enemies through closed doors which will cause them to trigger prematurely and waste the resource. 
 * Added `ReDownFix` mod by Dinorush
@@ -52,7 +95,7 @@
     * Increased Projectile Armor penalty from `-50%` to `-60%`
     * Added `Melee Attack Speed` property
         * Class increases `Melee Attack Speed` by `+50%` 
-> Dev Note: This class is suppose to be a fast-paced high-rish high-reward class. The slow melee from Sledgehammer and Spear made it limited in terms of melee options. Hopefully this will make them more viable as well as make the faster weapons more enjoyable.
+> Dev Note: This class is suppose to be a fast-paced high-risk high-reward class. The slow melee from Sledgehammer and Spear made it limited in terms of melee options. Hopefully this will make them more viable as well as make the faster weapons more enjoyable.
 
 ### Booster Tweaks:
 * Initial Main/Special Ammo Boosters:
