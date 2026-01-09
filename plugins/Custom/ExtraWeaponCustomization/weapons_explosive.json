@@ -360,9 +360,9 @@
         },
         {
             "Name": "Shrapnel",
-            "Count": 20, 
+            "Count": 10, 
             "MaxRange": 20.0,
-            "Damage": 2.0,
+            "Damage": 4.0,
             "DamageFalloff": { "x": 50, "y": 50 },
             "PrecisionDamageMulti": 1.1,
             "StaggerDamageMulti": 1.0,
