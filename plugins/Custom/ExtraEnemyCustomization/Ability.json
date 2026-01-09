@@ -252,8 +252,8 @@
   ],
   "PouncerCustom": [
       {
-        "DashCooldownMin": "Unchanged",
-        "DashCooldownMax": "Unchanged",
+        "DashCooldownMin": 13.0,
+        "DashCooldownMax": 13.0,
         "DashMaxTime": "Unchanged",
         "ChargeDuration": "Unchanged",
         "ConsumeDuration": "Unchanged",
@@ -270,15 +270,15 @@
         "Enable1PConsumeVFX": "Unchanged",
         "Enable3PConsumeVFX": "Unchanged",
         "DashMovementModifier": {
-        "SpeedModifier": "Unchanged",
+        "SpeedModifier": 2.0,
         "AccelerationModifier": "Unchanged"
 		    },
         "HeldStateData": {
         "HeldStartAnimationDuration": "Unchanged",
         "MaxHeldDuration": 10.0,
         "DamageToPlayerPerSecond": 3.0,
-        "DamageOnStartHolding": "Unchanged",
-        "AfterHeldRunAwayDuration": "Unchanged",
+        "DamageOnStartHolding": 5.0,
+        "AfterHeldRunAwayDuration": 13.0,
         "SpitOutStateDuration": "Unchanged",
         "ValidatePlayerDimension": "Unchanged",
         "PathingData": {
