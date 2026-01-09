@@ -931,7 +931,7 @@
                 "HitreactOnLimbDestruction": 2,
                 "TryForceHitreactOnLimbDestruction": false
             },
-            "GlueTolerance": 25.0,
+            "GlueTolerance": 20.0,
             "GlueFadeOutTime": 15.0,
             "CanBePushed": false,
             "ForbidTwitchHit": true,
@@ -1015,9 +1015,9 @@
         },
         {
             "Health": {
-                "HealthMax": 9360.0,
+                "HealthMax": 7360.0,
                 "DamageUntilHitreact": 2500.0,
-                "BodypartHealth": 1875.0,
+                "BodypartHealth": 2075.0,
                 "WeakspotDamageMulti": 0.5,
                 "ArmorDamageMulti": 0.001,
                 "HitreactOnLimbDestruction": 1,
@@ -1061,9 +1061,9 @@
         },
         {
             "Health": {
-                "HealthMax": 7020.0,
+                "HealthMax": 5020.0,
                 "DamageUntilHitreact": 2300.0,
-                "BodypartHealth": 1405.0,
+                "BodypartHealth": 2005.0,
                 "WeakspotDamageMulti": 0.7,
                 "ArmorDamageMulti": 0.001,
                 "HitreactOnLimbDestruction": 1,
@@ -1107,16 +1107,16 @@
         },
         {
             "Health": {
-                "HealthMax": 3500.0,
-                "DamageUntilHitreact": 2000.0,
-                "BodypartHealth": 2500.0,
+                "HealthMax": 700.0,
+                "DamageUntilHitreact": 500.0,
+                "BodypartHealth": 600.0,
                 "WeakspotDamageMulti": 1.0,
                 "ArmorDamageM   ulti": 0.2,
                 "HitreactOnLimbDestruction": 4,
                 "TryForceHitreactOnLimbDestruction": true
             },
             "GlueTolerance": 1000000.0,
-            "GlueFadeOutTime": 8.0,
+            "GlueFadeOutTime": 6.0,
             "CanBePushed": false,
             "ForbidTwitchHit": true,
             "AllowDamgeBonusFromBehind": true,
@@ -1126,7 +1126,7 @@
             "TentacleAttackDamage": 12.0,
             "MeleeAttackDamage": 12.5,
             "MeleeAttackDamageCheckRadius": 1.0,
-            "TagTime": 30.0,
+            "TagTime": 20.0,
             "EnemyCollisionRadius": 1.4,
             "EnemyCollisionPlayerMovementReduction": 0.98,
             "EnemyCollisionMinimumMoveSpeedModifier": 0.2,
