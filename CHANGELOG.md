@@ -9,8 +9,16 @@
 * Added `Minimap` mod by HazardousMonkey
     * Located at Bottom Left section.
     * Change config settings to fit your needs.
-    * Toggle default key: `M`
+    * Toggle default key: `M` (Recommend you either change your default Map key or this one. I use `TAB` for my map keybind)
     * Zoom Control: ALT + WheelDown/WheelUp
+    * Recommended(optional) HUD size settings:
+        * Compass: `80%`
+        * Inventory: `100%` - `120%`
+        * Chat: `90%`
+        * Statusbar: `100%`
+        * Subtitles: `100%`
+        * Objective: `90%`
+        * Intel: `90%`
 * Updated `EnemyAnimationFix` mod
 * Updated `MirrorWeapons` mod
 * Updated `GTFuckingXP` mod
