@@ -125,7 +125,7 @@
         }
       ],
       "FireSequence": [],
-      "name": "Receiver_SMG_2b",
+      "name": "Receiver_SMG_22",
       "internalEnabled": true,
       "persistentID": 23
     },
@@ -491,7 +491,7 @@
         }
       ],
       "FireSequence": [],
-      "name": "Receiver_SMG_2",
+      "name": "Receiver_SMG_222",
       "internalEnabled": true,
       "persistentID": 52
     },
@@ -510,7 +510,7 @@
         }
       ],
       "FireSequence": [],
-      "name": "Receiver_SMG_3",
+      "name": "Receiver_SMG_33",
       "internalEnabled": true,
       "persistentID": 53
     },
@@ -528,7 +528,7 @@
         }
       ],
       "FireSequence": [],
-      "name": "Receiver_Rifle_1",
+      "name": "Receiver_Rifle_11",
       "internalEnabled": true,
       "persistentID": 54
     },
@@ -546,7 +546,7 @@
         }
       ],
       "FireSequence": [],
-      "name": "Receiver_SMG_1",
+      "name": "Receiver_SMG_11",
       "internalEnabled": true,
       "persistentID": 55
     },
@@ -564,7 +564,7 @@
         }
       ],
       "FireSequence": [],
-      "name": "Receiver_SMG_1",
+      "name": "Receiver_SMG_111",
       "internalEnabled": true,
       "persistentID": 56
     },
@@ -582,7 +582,7 @@
         }
       ],
       "FireSequence": [],
-      "name": "Receiver_SMG_1",
+      "name": "Receiver_SMG_1111",
       "internalEnabled": true,
       "persistentID": 57
     },
@@ -600,7 +600,7 @@
         }
       ],
       "FireSequence": [],
-      "name": "Receiver_SMG_1",
+      "name": "Receiver_SMG_11111",
       "internalEnabled": true,
       "persistentID": 58
     },
@@ -618,7 +618,7 @@
         }
       ],
       "FireSequence": [],
-      "name": "Receiver_SMG_2b",
+      "name": "Receiver_SMG_2222",
       "internalEnabled": true,
       "persistentID": 59
     },

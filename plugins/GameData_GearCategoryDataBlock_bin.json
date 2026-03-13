@@ -184,6 +184,25 @@
     {
       "PublicName": 0,
       "Description": 0,
+      "BaseItem": 191,
+      "HUDIcon": "",
+      "IconRotationOffset": 0.0,
+      "IconZoomOffset": 0.0,
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": 0,
+      "SemiArchetype": 101,
+      "BurstArchetype": 101,
+      "AutoArchetype": 101,
+      "SemiBurstArchetype": 101,
+      "MeleeArchetype": 0,
+      "PartAlignPriority": [],
+      "name": "Flamethrower",
+      "internalEnabled": true,
+      "persistentID": 100
+    },
+    {
+      "PublicName": 0,
+      "Description": 0,
       "BaseItem": 108,
       "HUDIcon": "",
       "IconRotationOffset": 0.0,
@@ -619,6 +638,38 @@
       "persistentID": 12
     },
     {
+      "PublicName": "Missile Sentry Gun",
+      "Description": 0,
+      "BaseItem": 98,
+      "HUDIcon": "",
+      "IconRotationOffset": 0.0,
+      "IconZoomOffset": 0.0,
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": 0,
+      "SemiArchetype": 61,
+      "BurstArchetype": 61,
+      "AutoArchetype": 61,
+      "SemiBurstArchetype": 61,
+      "MeleeArchetype": 0,
+      "PartAlignPriority": [
+        {
+          "AlignType": 7,
+          "PartPrio": [
+            27
+          ]
+        },
+        {
+          "AlignType": 8,
+          "PartPrio": [
+            27
+          ]
+        }
+      ],
+      "name": "MissileSentryGun",
+      "internalEnabled": true,
+      "persistentID": 40
+    },
+    {
       "PublicName": "Mine deployer",
       "Description": "",
       "BaseItem": 37,
@@ -636,6 +687,44 @@
       "name": "TripMine",
       "internalEnabled": true,
       "persistentID": 13
+    },
+    {
+      "PublicName": "Foam Mine deployer",
+      "Description": "",
+      "BaseItem": 203,
+      "HUDIcon": "",
+      "IconRotationOffset": 0.0,
+      "IconZoomOffset": 0.0,
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": 0,
+      "SemiArchetype": 0,
+      "BurstArchetype": 0,
+      "AutoArchetype": 0,
+      "SemiBurstArchetype": 0,
+      "MeleeArchetype": 0,
+      "PartAlignPriority": [],
+      "name": "FoamTripMine",
+      "internalEnabled": true,
+      "persistentID": 201
+    },
+    {
+      "PublicName": 0,
+      "Description": 0,
+      "BaseItem": 201,
+      "HUDIcon": "",
+      "IconRotationOffset": 0.0,
+      "IconZoomOffset": 0.0,
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": 0,
+      "SemiArchetype": 201,
+      "BurstArchetype": 201,
+      "AutoArchetype": 201,
+      "SemiBurstArchetype": 201,
+      "MeleeArchetype": 0,
+      "PartAlignPriority": [],
+      "name": "ToolRescue",
+      "internalEnabled": true,
+      "persistentID": 202
     },
     {
       "PublicName": "Mapper drone",

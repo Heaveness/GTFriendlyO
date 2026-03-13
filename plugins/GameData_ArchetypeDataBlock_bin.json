@@ -59,7 +59,7 @@
       "Damage": 4.0,
       "DamageFalloff": {
         "x": 25.0,
-        "y": 100.0,
+        "y": 50.0,
         "normalized": {
           "x": 0.242535621,
           "y": 0.9701425,
@@ -156,7 +156,7 @@
       "Damage": 8.1,
       "DamageFalloff": {
         "x": 23.0,
-        "y": 80.0,
+        "y": 46.0,
         "normalized": {
           "x": 0.265156478,
           "y": 0.964205444,
@@ -253,7 +253,7 @@
       "Damage": 15.5,
       "DamageFalloff": {
         "x": 20.0,
-        "y": 85.0,
+        "y": 40.0,
         "normalized": {
           "x": 0.229039341,
           "y": 0.9734172,
@@ -350,7 +350,7 @@
       "Damage": 3.1,
       "DamageFalloff": {
         "x": 17.0,
-        "y": 70.0,
+        "y": 34.0,
         "normalized": {
           "x": 0.141421363,
           "y": 0.989949465,
@@ -446,8 +446,8 @@
       "DamageBoosterEffect": 53,
       "Damage": 5.8,
       "DamageFalloff": {
-        "x": 5.0,
-        "y": 50.0,
+        "x": 7.0,
+        "y": 14.0,
         "normalized": {
           "x": 0.09950372,
           "y": 0.9950372,
@@ -544,7 +544,7 @@
       "Damage": 3.7,
       "DamageFalloff": {
         "x": 12.0,
-        "y": 80.0,
+        "y": 24.0,
         "normalized": {
           "x": 0.148340449,
           "y": 0.9889363,
@@ -647,7 +647,7 @@
       "Damage": 6.5,
       "DamageFalloff": {
         "x": 21.0,
-        "y": 80.0,
+        "y": 42.0,
         "normalized": {
           "x": 0.148340449,
           "y": 0.9889363,
@@ -750,7 +750,7 @@
       "Damage": 26.7,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 100.0,
+        "y": 80.0,
         "normalized": {
           "x": 0.3713907,
           "y": 0.9284767,
@@ -847,7 +847,7 @@
       "Damage": 5.8,
       "DamageFalloff": {
         "x": 15.0,
-        "y": 50.0,
+        "y": 30.0,
         "normalized": {
           "x": 0.13663739,
           "y": 0.9906211,
@@ -950,7 +950,7 @@
       "Damage": 3.4,
       "DamageFalloff": {
         "x": 22.0,
-        "y": 65.0,
+        "y": 44.0,
         "normalized": {
           "x": 0.152057186,
           "y": 0.9883717,
@@ -1047,7 +1047,7 @@
       "Damage": 26.7,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 100.0,
+        "y": 80.0,
         "normalized": {
           "x": 0.3713907,
           "y": 0.9284767,
@@ -1144,7 +1144,7 @@
       "Damage": 6.0,
       "DamageFalloff": {
         "x": 14.0,
-        "y": 60.0,
+        "y": 28.0,
         "normalized": {
           "x": 0.115880705,
           "y": 0.9932632,
@@ -1240,8 +1240,8 @@
       "DamageBoosterEffect": 51,
       "Damage": 3.2,
       "DamageFalloff": {
-        "x": 9.0,
-        "y": 47.0,
+        "x": 10.0,
+        "y": 20.0,
         "normalized": {
           "x": 0.105786055,
           "y": 0.994388938,
@@ -1338,7 +1338,7 @@
       "Damage": 1.0,
       "DamageFalloff": {
         "x": 12.0,
-        "y": 55.0,
+        "y": 24.0,
         "normalized": {
           "x": 0.108447507,
           "y": 0.9941022,
@@ -1435,7 +1435,7 @@
       "Damage": 20.7,
       "DamageFalloff": {
         "x": 26.0,
-        "y": 90.0,
+        "y": 52.0,
         "normalized": {
           "x": 0.164398983,
           "y": 0.9863939,
@@ -1532,7 +1532,7 @@
       "Damage": 3.1,
       "DamageFalloff": {
         "x": 20.0,
-        "y": 80.0,
+        "y": 40.0,
         "normalized": {
           "x": 0.184288532,
           "y": 0.9828722,
@@ -1629,7 +1629,7 @@
       "Damage": 8.0,
       "DamageFalloff": {
         "x": 20.0,
-        "y": 80.0,
+        "y": 40.0,
         "normalized": {
           "x": 0.184288532,
           "y": 0.9828722,
@@ -1726,7 +1726,7 @@
       "Damage": 4.0,
       "DamageFalloff": {
         "x": 20.0,
-        "y": 80.0,
+        "y": 40.0,
         "normalized": {
           "x": 0.184288532,
           "y": 0.9828722,
@@ -1739,7 +1739,7 @@
       "StaggerDamageMulti": 2.0,
       "PrecisionDamageMulti": 0.65,
       "DefaultClipSize": 100,
-      "DefaultReloadTime": 5.4,
+      "DefaultReloadTime": 1.0,
       "CostOfBullet": 0.611,
       "ShotDelay": 0.2,
       "ShellCasingSize": 1.0,
@@ -1823,7 +1823,7 @@
       "Damage": 26.7,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 100.0,
+        "y": 80.0,
         "normalized": {
           "x": 0.3713907,
           "y": 0.9284767,
@@ -1920,7 +1920,7 @@
       "Damage": 10.1,
       "DamageFalloff": {
         "x": 35.0,
-        "y": 100.0,
+        "y": 70.0,
         "normalized": {
           "x": 0.4472136,
           "y": 0.8944272,
@@ -2114,7 +2114,7 @@
       "Damage": 7.9,
       "DamageFalloff": {
         "x": 25.0,
-        "y": 90.0,
+        "y": 50.0,
         "normalized": {
           "x": 0.40613845,
           "y": 0.913811564,
@@ -2211,7 +2211,7 @@
       "Damage": 5.4,
       "DamageFalloff": {
         "x": 30.0,
-        "y": 80.0,
+        "y": 60.0,
         "normalized": {
           "x": 0.351123422,
           "y": 0.9363291,
@@ -2314,7 +2314,7 @@
       "Damage": 26.7,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 100.0,
+        "y": 80.0,
         "normalized": {
           "x": 0.3713907,
           "y": 0.9284767,
@@ -2411,7 +2411,7 @@
       "Damage": 125.5,
       "DamageFalloff": {
         "x": 60.0,
-        "y": 100.0,
+        "y": 120.0,
         "normalized": {
           "x": 0.51449573,
           "y": 0.8574929,
@@ -2508,7 +2508,7 @@
       "Damage": 20.0,
       "DamageFalloff": {
         "x": 55.0,
-        "y": 100.0,
+        "y": 110.0,
         "normalized": {
           "x": 0.481918752,
           "y": 0.876215935,
@@ -2702,7 +2702,7 @@
       "Damage": 26.7,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 100.0,
+        "y": 80.0,
         "normalized": {
           "x": 0.3713907,
           "y": 0.9284767,
@@ -2798,8 +2798,8 @@
       "DamageBoosterEffect": 58,
       "Damage": 5.4,
       "DamageFalloff": {
-        "x": 6.0,
-        "y": 40.0,
+        "x": 7.0,
+        "y": 14.0,
         "normalized": {
           "x": 0.0995037258,
           "y": 0.9950372,
@@ -2896,7 +2896,7 @@
       "Damage": 55.0,
       "DamageFalloff": {
         "x": 25.0,
-        "y": 40.0,
+        "y": 50.0,
         "normalized": {
           "x": 0.148340449,
           "y": 0.9889363,
@@ -2998,8 +2998,8 @@
       "DamageBoosterEffect": 58,
       "Damage": 0.5,
       "DamageFalloff": {
-        "x": 6.0,
-        "y": 30.0,
+        "x": 7.0,
+        "y": 14.0,
         "normalized": {
           "x": 0.132163718,
           "y": 0.9912279,
@@ -3062,7 +3062,7 @@
       "BurstShotCount": 1,
       "ShotgunBulletCount": 36,
       "ShotgunConeSize": 5,
-      "ShotgunBulletSpread": 5,
+      "ShotgunBulletSpread": 2,
       "SpecialChargetupTime": 0.4,
       "SpecialCooldownTime": 0.75,
       "SpecialSemiBurstCountTimeout": 0.0,
@@ -3096,7 +3096,7 @@
       "Damage": 7.0,
       "DamageFalloff": {
         "x": 20.0,
-        "y": 80.0,
+        "y": 40.0,
         "normalized": {
           "x": 0.184288532,
           "y": 0.9828722,
@@ -3192,8 +3192,8 @@
       "DamageBoosterEffect": 68,
       "Damage": 0.8,
       "DamageFalloff": {
-        "x": 8.0,
-        "y": 45.0,
+        "x": 9.0,
+        "y": 18.0,
         "normalized": {
           "x": 0.11043153,
           "y": 0.9938838,
@@ -3206,7 +3206,7 @@
       "StaggerDamageMulti": 2.0,
       "PrecisionDamageMulti": 0.75,
       "DefaultClipSize": 12,
-      "DefaultReloadTime": 2.83,
+      "DefaultReloadTime": 1.0,
       "CostOfBullet": 3.5,
       "ShotDelay": 0.25,
       "ShellCasingSize": 1.0,
@@ -3289,8 +3289,8 @@
       "DamageBoosterEffect": 58,
       "Damage": 9.5,
       "DamageFalloff": {
-        "x": 8.0,
-        "y": 40.0,
+        "x": 9.0,
+        "y": 18.0,
         "normalized": {
           "x": 0.0995037258,
           "y": 0.9950372,
@@ -3387,7 +3387,7 @@
       "Damage": 26.7,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 100.0,
+        "y": 80.0,
         "normalized": {
           "x": 0.3713907,
           "y": 0.9284767,
@@ -3484,7 +3484,7 @@
       "Damage": 10.0,
       "DamageFalloff": {
         "x": 21.0,
-        "y": 80.0,
+        "y": 42.0,
         "normalized": {
           "x": 0.148340449,
           "y": 0.9889363,
@@ -3587,7 +3587,7 @@
       "Damage": 5.0,
       "DamageFalloff": {
         "x": 13.0,
-        "y": 80.0,
+        "y": 26.0,
         "normalized": {
           "x": 0.12403474,
           "y": 0.9922779,
@@ -3672,7 +3672,7 @@
       "Damage": 9.4,
       "DamageFalloff": {
         "x": 10.0,
-        "y": 60.0,
+        "y": 20.0,
         "normalized": {
           "x": 0.164398983,
           "y": 0.9863939,
@@ -3759,7 +3759,7 @@
       "Damage": 26.7,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 100.0,
+        "y": 80.0,
         "normalized": {
           "x": 0.3713907,
           "y": 0.9284767,
@@ -3846,7 +3846,7 @@
       "Damage": 55.5,
       "DamageFalloff": {
         "x": 50.0,
-        "y": 80.0,
+        "y": 100.0,
         "normalized": {
           "x": 0.4472136,
           "y": 0.8944272,
@@ -3943,7 +3943,7 @@
       "Damage": 35.1,
       "DamageFalloff": {
         "x": 45.0,
-        "y": 70.0,
+        "y": 90.0,
         "normalized": {
           "x": 0.3939193,
           "y": 0.919145048,
@@ -4039,8 +4039,8 @@
       "DamageBoosterEffect": 50,
       "Damage": 5.7,
       "DamageFalloff": {
-        "x": 11.0,
-        "y": 45.0,
+        "x": 12.0,
+        "y": 24.0,
         "normalized": {
           "x": 0.196116135,
           "y": 0.9805807,
@@ -4137,7 +4137,7 @@
       "Damage": 45.2,
       "DamageFalloff": {
         "x": 18.0,
-        "y": 65.0,
+        "y": 36.0,
         "normalized": {
           "x": 0.122155204,
           "y": 0.992511034,
@@ -4234,7 +4234,7 @@
       "Damage": 1.0,
       "DamageFalloff": {
         "x": 10.0,
-        "y": 47.0,
+        "y": 20.0,
         "normalized": {
           "x": 0.1473113,
           "y": 0.9890902,
@@ -4247,7 +4247,7 @@
       "StaggerDamageMulti": 10.0,
       "PrecisionDamageMulti": 0.5,
       "DefaultClipSize": 6,
-      "DefaultReloadTime": 0.0,
+      "DefaultReloadTime": 1.0,
       "CostOfBullet": 6.5,
       "ShotDelay": 0.06,
       "ShellCasingSize": 1.0,
@@ -4331,7 +4331,7 @@
       "Damage": 2.8,
       "DamageFalloff": {
         "x": 7.0,
-        "y": 35.0,
+        "y": 14.0,
         "normalized": {
           "x": 0.141421363,
           "y": 0.989949465,
@@ -4343,7 +4343,7 @@
       },
       "StaggerDamageMulti": 0.5,
       "PrecisionDamageMulti": 0.85,
-      "DefaultClipSize": 50,
+      "DefaultClipSize": 60,
       "DefaultReloadTime": 1.1,
       "CostOfBullet": 0.8,
       "ShotDelay": 0.04,
@@ -4375,7 +4375,7 @@
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
       "HipFireSpread": 1.4,
-      "AimSpread": 0.5,
+      "AimSpread": 0.4,
       "EquipTransitionTime": 0.3,
       "EquipSequence": [
         {
@@ -4427,8 +4427,8 @@
       "DamageBoosterEffect": 55,
       "Damage": 1.8,
       "DamageFalloff": {
-        "x": 5.0,
-        "y": 55.0,
+        "x": 6.0,
+        "y": 12.0,
         "normalized": {
           "x": 0.090535745,
           "y": 0.9958932,
@@ -4441,7 +4441,7 @@
       "StaggerDamageMulti": 3.5,
       "PrecisionDamageMulti": 0.65,
       "DefaultClipSize": 75,
-      "DefaultReloadTime": 0.0,
+      "DefaultReloadTime": 1.0,
       "CostOfBullet": 0.4,
       "ShotDelay": 0.058,
       "ShellCasingSize": 1.0,
@@ -4525,7 +4525,7 @@
       "Damage": 26.7,
       "DamageFalloff": {
         "x": 40.0,
-        "y": 100.0,
+        "y": 80.0,
         "normalized": {
           "x": 0.3713907,
           "y": 0.9284767,
@@ -4621,8 +4621,8 @@
       "DamageBoosterEffect": 58,
       "Damage": 4.0,
       "DamageFalloff": {
-        "x": 5.0,
-        "y": 40.0,
+        "x": 6.0,
+        "y": 12.0,
         "normalized": {
           "x": 0.148340449,
           "y": 0.9889363,
@@ -4725,7 +4725,7 @@
       "Damage": 3.1,
       "DamageFalloff": {
         "x": 18.0,
-        "y": 65.0,
+        "y": 36.0,
         "normalized": {
           "x": 0.152057186,
           "y": 0.9883717,
@@ -4821,8 +4821,8 @@
       "DamageBoosterEffect": 58,
       "Damage": 1.0,
       "DamageFalloff": {
-        "x": 8.0,
-        "y": 40.0,
+        "x": 9.0,
+        "y": 18.0,
         "normalized": {
           "x": 0.0995037258,
           "y": 0.9950372,
@@ -4919,7 +4919,7 @@
       "Damage": 4.0,
       "DamageFalloff": {
         "x": 25.0,
-        "y": 90.0,
+        "y": 50.0,
         "normalized": {
           "x": 0.267643869,
           "y": 0.9635179,
@@ -5016,7 +5016,7 @@
       "Damage": 3.1,
       "DamageFalloff": {
         "x": 20.0,
-        "y": 80.0,
+        "y": 40.0,
         "normalized": {
           "x": 0.184288532,
           "y": 0.9828722,
@@ -5104,16 +5104,113 @@
       "internalEnabled": true,
       "persistentID": 53
     },
+        {
+      "PublicName": "Search & Rescue Tool",
+      "Description": "<color=yellow>Traits: Hipfire Glowstick, Aimed Fog Repeller, & Reserve Ammo(no reload)</color>",
+      "FireMode": 1,
+      "RecoilDataID": 49,
+      "DamageBoosterEffect": 60,
+      "Damage": 0.0,
+      "DamageFalloff": {
+        "x": 35.0,
+        "y": 70.0,
+        "normalized": {
+          "x": 0.3939193,
+          "y": 0.919145048,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 76.15773,
+        "sqrMagnitude": 5800.0
+      },
+      "StaggerDamageMulti": 1.0,
+      "PrecisionDamageMulti": 1.0,
+      "DefaultClipSize": 2,
+      "DefaultReloadTime": 1.0,
+      "CostOfBullet": 13.5,
+      "ShotDelay": 0.5,
+      "ShellCasingSize": 1.0,
+      "ShellCasingSpeedRange": {
+        "x": 3.0,
+        "y": 5.0,
+        "normalized": {
+          "x": 0.5144958,
+          "y": 0.857493,
+          "normalized": {
+            "x": 0.51449573,
+            "y": 0.857492864,
+            "normalized": {
+              "x": 0.5144958,
+              "y": 0.8574929,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
+          },
+          "magnitude": 1.00000012,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 5.83095169,
+        "sqrMagnitude": 34.0
+      },
+      "PiercingBullets": false,
+      "PiercingDamageCountLimit": 1,
+      "HipFireSpread": 0.0,
+      "AimSpread": 0.0,
+      "EquipTransitionTime": 0.8,
+      "EquipSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": 0,
+          "StringData": "AutoShotgun_Draw_Front3_equip_weaponmovement"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": 7
+        }
+      ],
+      "AimTransitionTime": 0.4,
+      "AimSequence": [],
+      "BurstDelay": 0.0,
+      "BurstShotCount": 0,
+      "ShotgunBulletCount": 0,
+      "ShotgunConeSize": 0,
+      "ShotgunBulletSpread": 0,
+      "SpecialChargetupTime": 1.0,
+      "SpecialCooldownTime": 0.0,
+      "SpecialSemiBurstCountTimeout": 0.0,
+      "Sentry_StartFireDelay": 1.0,
+      "Sentry_RotationSpeed": 4.0,
+      "Sentry_DetectionMaxRange": 25.0,
+      "Sentry_DetectionMaxAngle": 30.0,
+      "Sentry_FireTowardsTargetInsteadOfForward": false,
+      "Sentry_ForceAimTowardsBody": false,
+      "Sentry_LongRangeThreshold": 999.0,
+      "Sentry_ShortRangeThreshold": 0.0,
+      "Sentry_LegacyEnemyDetection": true,
+      "Sentry_FireTagOnly": false,
+      "Sentry_PrioTag": false,
+      "Sentry_StartFireDelayTagMulti": 1.0,
+      "Sentry_RotationSpeedTagMulti": 1.0,
+      "Sentry_DamageTagMulti": 1.0,
+      "Sentry_StaggerDamageTagMulti": 1.0,
+      "Sentry_CostOfBulletTagMulti": 1.0,
+      "Sentry_ShotDelayTagMulti": 1.0,
+      "name": "GEAR_Rescue",
+      "internalEnabled": true,
+      "persistentID": 201
+    },
     {
       "PublicName": "Bio-Target Sniper Turret (Sentry)",
       "Description": "<color=yellow>Traits: Fires at Tags only & Long range</color>",
       "FireMode": 0,
       "RecoilDataID": 12,
       "DamageBoosterEffect": 103,
-      "Damage": 85.5,
+      "Damage": 90.5,
       "DamageFalloff": {
         "x": 60.0,
-        "y": 100.0,
+        "y": 120.0,
         "normalized": {
           "x": 0.287347883,
           "y": 0.957826257,
@@ -5207,10 +5304,10 @@
       "FireMode": 1,
       "RecoilDataID": 8,
       "DamageBoosterEffect": 103,
-      "Damage": 4.6,
+      "Damage": 5.2,
       "DamageFalloff": {
         "x": 30.0,
-        "y": 40.0,
+        "y": 60.0,
         "normalized": {
           "x": 0.242535621,
           "y": 0.9701425,
@@ -5225,7 +5322,7 @@
       "DefaultClipSize": 24,
       "DefaultReloadTime": 1.8,
       "CostOfBullet": 2.05,
-      "ShotDelay": 0.1,
+      "ShotDelay": 0.05,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
         "x": 3.0,
@@ -5304,10 +5401,10 @@
       "FireMode": 2,
       "RecoilDataID": 13,
       "DamageBoosterEffect": 103,
-      "Damage": 1.6,
+      "Damage": 1.7,
       "DamageFalloff": {
         "x": 15.0,
-        "y": 70.0,
+        "y": 30.0,
         "normalized": {
           "x": 0.141421363,
           "y": 0.989949465,
@@ -5401,10 +5498,10 @@
       "FireMode": 0,
       "RecoilDataID": 6,
       "DamageBoosterEffect": 103,
-      "Damage": 5.9,
+      "Damage": 6.0,
       "DamageFalloff": {
         "x": 10.0,
-        "y": 40.0,
+        "y": 20.0,
         "normalized": {
           "x": 0.0995037258,
           "y": 0.9950372,
@@ -5418,8 +5515,8 @@
       "PrecisionDamageMulti": 0.9,
       "DefaultClipSize": 10,
       "DefaultReloadTime": 3.0,
-      "CostOfBullet": 1.2,
-      "ShotDelay": 1.0,
+      "CostOfBullet": 0.9,
+      "ShotDelay": 0.75,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
         "x": 3.0,
@@ -5466,7 +5563,7 @@
       "AimSequence": [],
       "BurstDelay": 0.0,
       "BurstShotCount": 0,
-      "ShotgunBulletCount": 7,
+      "ShotgunBulletCount": 8,
       "ShotgunConeSize": 3,
       "ShotgunBulletSpread": 2,
       "SpecialChargetupTime": 0.0,
@@ -5474,7 +5571,7 @@
       "SpecialSemiBurstCountTimeout": 0.0,
       "Sentry_StartFireDelay": 0.5,
       "Sentry_RotationSpeed": 10.0,
-      "Sentry_DetectionMaxRange": 15.0,
+      "Sentry_DetectionMaxRange": 20.0,
       "Sentry_DetectionMaxAngle": 60.0,
       "Sentry_FireTowardsTargetInsteadOfForward": false,
       "Sentry_ForceAimTowardsBody": true,
@@ -5492,6 +5589,200 @@
       "name": "GEAR_SentryGun_Shotgun_Semi",
       "internalEnabled": true,
       "persistentID": 58
+    },
+    {
+      "PublicName": "Bio-Target Missile Turret (Sentry)",
+      "Description": 0,
+      "FireMode": 0,
+      "RecoilDataID": 12,
+      "DamageBoosterEffect": 103,
+      "Damage": 5.0,
+      "DamageFalloff": {
+        "x": 40.0,
+        "y": 80.0,
+        "normalized": {
+          "x": 0.287347883,
+          "y": 0.957826257,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 104.403069,
+        "sqrMagnitude": 10900.0
+      },
+      "StaggerDamageMulti": 1.2,
+      "PrecisionDamageMulti": 2.0,
+      "DefaultClipSize": 1,
+      "DefaultReloadTime": 1.0,
+      "CostOfBullet": 57.0,
+      "ShotDelay": 4.5,
+      "ShellCasingSize": 1.0,
+      "ShellCasingSpeedRange": {
+        "x": 3.0,
+        "y": 5.0,
+        "normalized": {
+          "x": 0.5144958,
+          "y": 0.857493,
+          "normalized": {
+            "x": 0.51449573,
+            "y": 0.857492864,
+            "normalized": {
+              "x": 0.5144958,
+              "y": 0.8574929,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
+          },
+          "magnitude": 1.00000012,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 5.83095169,
+        "sqrMagnitude": 34.0
+      },
+      "PiercingBullets": false,
+      "PiercingDamageCountLimit": 0,
+      "HipFireSpread": 0.0,
+      "AimSpread": 0.0,
+      "EquipTransitionTime": 0.45,
+      "EquipSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": 0,
+          "StringData": "Front_Rifle_equip_weaponmovement"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": 7
+        }
+      ],
+      "AimTransitionTime": 0.35,
+      "AimSequence": [],
+      "BurstDelay": 0.0,
+      "BurstShotCount": 0,
+      "ShotgunBulletCount": 0, 
+      "ShotgunConeSize": 0,
+      "ShotgunBulletSpread": 0,
+      "SpecialChargetupTime": 0.0,
+      "SpecialCooldownTime": 0.0,
+      "SpecialSemiBurstCountTimeout": 0.0,
+      "Sentry_StartFireDelay": 2.0,
+      "Sentry_RotationSpeed": 4.0,
+      "Sentry_DetectionMaxRange": 50.0,
+      "Sentry_DetectionMaxAngle": 35.0,
+      "Sentry_FireTowardsTargetInsteadOfForward": true,
+      "Sentry_ForceAimTowardsBody": true,
+      "Sentry_LongRangeThreshold": 999.0,
+      "Sentry_ShortRangeThreshold": 1.5,
+      "Sentry_LegacyEnemyDetection": false,
+      "Sentry_FireTagOnly": true,
+      "Sentry_PrioTag": true,
+      "Sentry_StartFireDelayTagMulti": 0.75,
+      "Sentry_RotationSpeedTagMulti": 1.5,
+      "Sentry_DamageTagMulti": 1.1,
+      "Sentry_StaggerDamageTagMulti": 1.15,
+      "Sentry_CostOfBulletTagMulti": 0.7,
+      "Sentry_ShotDelayTagMulti": 0.8,
+      "name": "GEAR_SentryGun_Semi_Missile",
+      "internalEnabled": true,
+      "persistentID": 61
+    },
+    {
+      "PublicName": "Exterminatus Flamer",
+      "Description": "<color=yellow>Traits: DoT damage(Stackable), Explosion Kill Spreads 1 Stack, Reserve Clip Regen(no reload), & Hold Trigger to Accelerate</color>",
+      "FireMode": 2,
+      "RecoilDataID": 34,
+      "DamageBoosterEffect": 62,
+      "Damage": 1.0,
+      "DamageFalloff": {
+        "x": 10.0,
+        "y": 20.0,
+        "normalized": {
+          "x": 0.184288532,
+          "y": 0.9828722,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 81.394104,
+        "sqrMagnitude": 6625.0
+      },
+      "StaggerDamageMulti": 10.0,
+      "PrecisionDamageMulti": 0.65,
+      "DefaultClipSize": 100,
+      "DefaultReloadTime": 1.0,
+      "CostOfBullet": 0.2775,
+      "ShotDelay": 0.2,
+      "ShellCasingSize": 1.0,
+      "ShellCasingSpeedRange": {
+        "x": 3.0,
+        "y": 5.0,
+        "normalized": {
+          "x": 0.5144958,
+          "y": 0.857493,
+          "normalized": {
+            "x": 0.51449573,
+            "y": 0.857492864,
+            "normalized": {
+              "x": 0.5144958,
+              "y": 0.8574929,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
+          },
+          "magnitude": 1.00000012,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 5.83095169,
+        "sqrMagnitude": 34.0
+      },
+      "PiercingBullets": true,
+      "PiercingDamageCountLimit": 2,
+      "HipFireSpread": 2.0,
+      "AimSpread": 1.25,
+      "EquipTransitionTime": 0.6,
+      "EquipSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": 0,
+          "StringData": "Front_Machinegun_1_equip_weaponmovement"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": 7
+        }
+      ],
+      "AimTransitionTime": 0.35,
+      "AimSequence": [],
+      "BurstDelay": 0.0,
+      "BurstShotCount": 0,
+      "ShotgunBulletCount": 0,
+      "ShotgunConeSize": 0,
+      "ShotgunBulletSpread": 0,
+      "SpecialChargetupTime": 0.4,
+      "SpecialCooldownTime": 0.3,
+      "SpecialSemiBurstCountTimeout": 0.0,
+      "Sentry_StartFireDelay": 1.0,
+      "Sentry_RotationSpeed": 4.0,
+      "Sentry_DetectionMaxRange": 25.0,
+      "Sentry_DetectionMaxAngle": 30.0,
+      "Sentry_FireTowardsTargetInsteadOfForward": false,
+      "Sentry_ForceAimTowardsBody": false,
+      "Sentry_LongRangeThreshold": 999.0,
+      "Sentry_ShortRangeThreshold": 0.0,
+      "Sentry_LegacyEnemyDetection": true,
+      "Sentry_FireTagOnly": false,
+      "Sentry_PrioTag": false,
+      "Sentry_StartFireDelayTagMulti": 1.0,
+      "Sentry_RotationSpeedTagMulti": 1.0,
+      "Sentry_DamageTagMulti": 1.0,
+      "Sentry_StaggerDamageTagMulti": 1.0,
+      "Sentry_CostOfBulletTagMulti": 1.0,
+      "Sentry_ShotDelayTagMulti": 1.0,
+      "name": "GEAR_Flamethower",
+      "internalEnabled": true,
+      "persistentID": 101
     }
   ],
   "LastPersistentID": 81

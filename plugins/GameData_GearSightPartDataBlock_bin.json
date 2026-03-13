@@ -1053,7 +1053,7 @@
           "WorldFovZoom": 25,
           "ZoomSensitivityModifier": 1.0
         },
-        "name": "Sight_13",
+        "name": "Sight_133",
         "internalEnabled": true,
         "persistentID": 51
       },
@@ -1096,7 +1096,7 @@
         "WorldFovZoom": 25,
         "ZoomSensitivityModifier": 1.0
       },
-      "name": "Sight_13",
+      "name": "Sight_1333",
       "internalEnabled": true,
       "persistentID": 53
     },

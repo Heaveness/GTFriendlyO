@@ -35900,7 +35900,7 @@
     {
       "SkipLocalization": false,
       "MachineTranslation": false,
-      "English": "[{0} uses left]",
+      "English": "[Infinite Uses]",
       "Description": "Counting how many uses are left of a multi-dose booster (a performance enhancing drug). Only translate the \"uses left\" part, leac the brackets. \"{0}\" represents the number of boosters; just put these characters in the gramatically correct place in the sentence.",
       "CharacterMetaData": 2,
       "French": {

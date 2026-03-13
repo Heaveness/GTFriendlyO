@@ -1037,7 +1037,7 @@
           "Type": 7
         }
       ],
-      "name": "Front_Rifle_3",
+      "name": "Front_Rifle_33",
       "internalEnabled": true,
       "persistentID": 14
     },
@@ -1885,7 +1885,7 @@
           "Type": 7
         }
       ],
-      "name": "Front_Shotgun_1",
+      "name": "Front_Shotgun_11",
       "internalEnabled": true,
       "persistentID": 22
     },
@@ -4123,7 +4123,7 @@
         }
       ],
       "ReloadSequence": [],
-      "name": "Front_Bullpop_1",
+      "name": "Front_Bullpop_11",
       "internalEnabled": true,
       "persistentID": 55
     },
@@ -4167,7 +4167,7 @@
         }
       ],
       "ReloadSequence": [],
-      "name": "Front_Bullpop_1",
+      "name": "Front_Bullpop_111",
       "internalEnabled": true,
       "persistentID": 56
     },
@@ -4280,7 +4280,7 @@
           "Type": 7
         }
       ],
-      "name": "Front_AutoShotgun_1",
+      "name": "Front_AutoShotgun_11",
       "internalEnabled": true,
       "persistentID": 57
     },
@@ -4393,7 +4393,7 @@
           "Type": 7
         }
       ],
-      "name": "Front_AutoShotgun_1",
+      "name": "Front_AutoShotgun_111",
       "internalEnabled": true,
       "persistentID": 58
     },
@@ -4579,7 +4579,7 @@
         }
       ],
       "ReloadSequence": [],
-      "name": "Front_Bullpop_1",
+      "name": "Front_Bullpop_1111",
       "internalEnabled": true,
       "persistentID": 60
     },
@@ -4699,7 +4699,7 @@
           "Type": 7
         }
       ],
-      "name": "Front_Rifle_2",
+      "name": "Front_Rifle_22",
       "internalEnabled": true,
       "persistentID": 61
     },
@@ -4907,7 +4907,7 @@
           "Type": 7
         }
       ],
-      "name": "Front_Shotgun_3",
+      "name": "Front_Shotgun_33",
       "internalEnabled": true,
       "persistentID": 63
     },
@@ -5033,7 +5033,7 @@
           "Type": 7
         }
       ],
-      "name": "Front_MachineGun_2",
+      "name": "Front_MachineGun_22",
       "internalEnabled": true,
       "persistentID": 64
     },
@@ -5156,7 +5156,7 @@
           "Type": 7
         }
       ],
-      "name": "Front_SMG_4",
+      "name": "Front_SMG_44",
       "internalEnabled": true,
       "persistentID": 65
     },
@@ -5281,7 +5281,7 @@
           "Type": 7
         }
       ],
-      "name": "Front_Rifle_1",
+      "name": "Front_Rifle_11",
       "internalEnabled": true,
       "persistentID": 66
     },
@@ -5399,7 +5399,7 @@
           "StringData": "generic_reload_grab_heavy_weapon"
         }
       ],
-      "name": "Front_SMG_2",
+      "name": "Front_SMG_22",
       "internalEnabled": true,
       "persistentID": 67
     },
@@ -5472,7 +5472,7 @@
           "Type": 7
         }
       ],
-      "name": "Front_AutoShotgun_4",
+      "name": "Front_AutoShotgun_44",
       "internalEnabled": true,
       "persistentID": 68
     },
@@ -5621,7 +5621,7 @@
           "Type": 7
         }
       ],
-      "name": "Front_Revolver_2",
+      "name": "Front_Revolver_22",
       "internalEnabled": true,
       "persistentID": 69
     },
@@ -5751,7 +5751,7 @@
           "Type": 7
         }
       ],
-      "name": "Front_Revolver_1",
+      "name": "Front_Revolver_11",
       "internalEnabled": true,
       "persistentID": 70
     },
@@ -5824,7 +5824,7 @@
           "Type": 7
         }
       ],
-      "name": "Front_AutoShotgun_4",
+      "name": "Front_AutoShotgun_444",
       "internalEnabled": true,
       "persistentID": 71
     },
@@ -5949,7 +5949,7 @@
           "Type": 7
         }
       ],
-      "name": "Front_Rifle_1",
+      "name": "Front_Rifle_111",
       "internalEnabled": true,
       "persistentID": 72
     },
@@ -6069,7 +6069,7 @@
           "Type": 7
         }
       ],
-      "name": "Front_MachineGun_1",
+      "name": "Front_MachineGun_11",
       "internalEnabled": true,
       "persistentID": 73
     },

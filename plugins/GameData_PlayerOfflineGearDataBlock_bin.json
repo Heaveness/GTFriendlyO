@@ -144,7 +144,7 @@
     },
     {
       "Type": 1,
-      "GearJSON": "{\"Ver\":1,\"Name\":\"Raptus MP2\",\"Packet\":{\"Comps\":{\"Length\":17,\"a\":{\"c\":1,\"v\":2},\"b\":{\"c\":2,\"v\":8},\"c\":{\"c\":3,\"v\":108},\"d\":{\"c\":4,\"v\":21},\"e\":{\"c\":5,\"v\":1},\"f\":{\"c\":6,\"v\":1},\"g\":{\"c\":7,\"v\":1},\"h\":{\"c\":8,\"v\":19},\"i\":{\"c\":9,\"v\":12},\"j\":{\"c\":10,\"v\":20},\"k\":{\"c\":11,\"v\":20},\"l\":{\"c\":12,\"v\":40},\"m\":{\"c\":16,\"v\":18},\"n\":{\"c\":19,\"v\":18},\"o\":{\"c\":23,\"v\":5},\"p\":{\"c\":25,\"v\":3}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":-0.09,\"y\":0.03},\"scale\":0.2},\"tDecalB\":{\"position\":{\"x\":-0.1,\"y\":0.04},\"scale\":0.2},\"tPattern\":{\"position\":{\"x\":-0.07,\"y\":0.03},\"angle\":-90.0,\"scale\":0.1}},\"publicName\":{\"data\":\"Raptus Treffen 2\"}}}\n",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Raptus MP2\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":2},\"b\":{\"c\":2,\"v\":8},\"c\":{\"c\":3,\"v\":108},\"d\":{\"c\":4,\"v\":21},\"e\":{\"c\":5,\"v\":1},\"f\":{\"c\":6,\"v\":1},\"g\":{\"c\":7,\"v\":1},\"h\":{\"c\":8,\"v\":19},\"i\":{\"c\":9,\"v\":12},\"j\":{\"c\":10,\"v\":20},\"k\":{\"c\":11,\"v\":20},\"l\":{\"c\":12,\"v\":40},\"m\":{\"c\":16,\"v\":18},\"n\":{\"c\":19,\"v\":18},\"o\":{\"c\":21,\"v\":48},\"p\":{\"c\":23,\"v\":5},\"q\":{\"c\":25,\"v\":3}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":-0.09,\"y\":0.03},\"scale\":0.2},\"tDecalB\":{\"position\":{\"x\":-0.1,\"y\":0.04},\"scale\":0.2},\"tPattern\":{\"position\":{\"x\":-0.07,\"y\":0.03},\"angle\":-90.0,\"scale\":0.1}},\"publicName\":{\"data\":\"Raptus Treffen 2\"}}}\n",
       "name": "Pistolauto",
       "internalEnabled": true,
       "persistentID": 29
@@ -166,7 +166,6 @@
     {
       "Type": 1,
       "GearJSON": "{\"Ver\":1,\"Name\":\"Raptus Reserve HMG\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":2},\"b\":{\"c\":2,\"v\":19},\"c\":{\"c\":3,\"v\":109},\"d\":{\"c\":4,\"v\":3},\"e\":{\"c\":5,\"v\":39},\"f\":{\"c\":6,\"v\":1},\"g\":{\"c\":7,\"v\":3},\"h\":{\"c\":8,\"v\":10},\"i\":{\"c\":9,\"v\":10},\"j\":{\"c\":10,\"v\":13},\"k\":{\"c\":11,\"v\":14},\"l\":{\"c\":12,\"v\":77},\"m\":{\"c\":16,\"v\":58},\"n\":{\"c\":19,\"v\":3},\"o\":{\"c\":21,\"v\":5},\"p\":{\"c\":23,\"v\":11},\"q\":{\"c\":25,\"v\":6}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.1,\"y\":0.02},\"angle\":180.0,\"scale\":0.4},\"tDecalB\":{\"position\":{\"x\":-0.07,\"y\":0.03},\"angle\":-90.0,\"scale\":0.05},\"tPattern\":{\"angle\":-90.0,\"scale\":0.1}},\"publicName\":{\"data\":\"TechMan Veruta XII\"}}}",
-      
       "name": "MachinegunAuto",
       "internalEnabled": true,
       "persistentID": 38
@@ -194,14 +193,14 @@
     },
     {
       "Type": 1,
-      "GearJSON": "{\"Ver\":1,\"Name\":\"TechMan Exp. Smart Rifle\",\"Packet\":{\"Comps\":{\"Length\":17,\"a\":{\"c\":2,\"v\":24},\"b\":{\"c\":3,\"v\":109},\"c\":{\"c\":4,\"v\":49},\"d\":{\"c\":5,\"v\":2},\"e\":{\"c\":6,\"v\":1},\"f\":{\"c\":7,\"v\":1},\"g\":{\"c\":8,\"v\":15},\"h\":{\"c\":9,\"v\":5},\"i\":{\"c\":10,\"v\":17},\"j\":{\"c\":11,\"v\":17},\"k\":{\"c\":12,\"v\":52},\"l\":{\"c\":16,\"v\":59},\"m\":{\"c\":19,\"v\":51},\"n\":{\"c\":21,\"v\":50},\"o\":{\"c\":23,\"v\":0},\"p\":{\"c\":25,\"v\":3}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.07,\"normalized\":{\"x\":1.0,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.07,\"sqrMagnitude\":0.0049},\"angle\":45.0,\"scale\":0.1},\"tDecalB\":{\"position\":{\"x\":0.075,\"y\":0.003,\"normalized\":{\"x\":0.99920094,\"y\":0.0399680361,\"magnitude\":1.0,\"sqrMagnitude\":0.99999994},\"magnitude\":0.07505998,\"sqrMagnitude\":0.00563400052},\"angle\":45.0,\"scale\":0.1},\"tPattern\":{\"position\":{\"x\":0.02,\"normalized\":{\"x\":1.0,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.02,\"sqrMagnitude\":0.0004},\"angle\":200.0,\"scale\":0.5}},\"publicName\":{\"data\":\"SMG Semi\"}}}\n",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"TechMan Exp. Smart Rifle\",\"Packet\":{\"Comps\":{\"Length\":17,\"a\":{\"c\":2,\"v\":24},\"b\":{\"c\":3,\"v\":109},\"c\":{\"c\":4,\"v\":49},\"d\":{\"c\":5,\"v\":2},\"e\":{\"c\":6,\"v\":1},\"f\":{\"c\":7,\"v\":1},\"g\":{\"c\":8,\"v\":15},\"h\":{\"c\":9,\"v\":5},\"i\":{\"c\":10,\"v\":17},\"j\":{\"c\":11,\"v\":17},\"k\":{\"c\":12,\"v\":52},\"l\":{\"c\":16,\"v\":59},\"m\":{\"c\":19,\"v\":51},\"n\":{\"c\":21,\"v\":56},\"o\":{\"c\":23,\"v\":0},\"p\":{\"c\":25,\"v\":3}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.07,\"normalized\":{\"x\":1.0,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.07,\"sqrMagnitude\":0.0049},\"angle\":45.0,\"scale\":0.1},\"tDecalB\":{\"position\":{\"x\":0.075,\"y\":0.003,\"normalized\":{\"x\":0.99920094,\"y\":0.0399680361,\"magnitude\":1.0,\"sqrMagnitude\":0.99999994},\"magnitude\":0.07505998,\"sqrMagnitude\":0.00563400052},\"angle\":45.0,\"scale\":0.1},\"tPattern\":{\"position\":{\"x\":0.02,\"normalized\":{\"x\":1.0,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.02,\"sqrMagnitude\":0.0004},\"angle\":200.0,\"scale\":0.5}},\"publicName\":{\"data\":\"SMG Semi\"}}}\n",
       "name": "SMGSemi",
       "internalEnabled": true,
       "persistentID": 66
     },
     {
       "Type": 1,
-      "GearJSON": "{\"Ver\":1,\"Name\":\"Techman Hemostasis Medic Gun\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":2},\"b\":{\"c\":2,\"v\":2},\"c\":{\"c\":3,\"v\":108},\"d\":{\"c\":4,\"v\":2},\"e\":{\"c\":5,\"v\":2},\"f\":{\"c\":6,\"v\":1},\"g\":{\"c\":7,\"v\":1},\"h\":{\"c\":8,\"v\":15},\"i\":{\"c\":9,\"v\":5},\"j\":{\"c\":10,\"v\":17},\"k\":{\"c\":11,\"v\":17},\"l\":{\"c\":12,\"v\":68},\"m\":{\"c\":16,\"v\":57},\"n\":{\"c\":19,\"v\":5},\"o\":{\"c\":21,\"v\":56},\"p\":{\"c\":23,\"v\":3},\"q\":{\"c\":25,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.07,\"y\":0.0},\"angle\":45.0,\"scale\":0.1},\"tDecalB\":{\"position\":{\"x\":0.075,\"y\":0.003},\"angle\":45.0,\"scale\":0.1},\"tPattern\":{\"position\":{\"x\":0.02,\"y\":0.0},\"angle\":200.0,\"scale\":0.5}},\"publicName\":{\"data\":\"Van Auken LTC5\"}}}",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Techman Hemostasis Medic Gun\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":2},\"b\":{\"c\":2,\"v\":2},\"c\":{\"c\":3,\"v\":108},\"d\":{\"c\":4,\"v\":2},\"e\":{\"c\":5,\"v\":2},\"f\":{\"c\":6,\"v\":1},\"g\":{\"c\":7,\"v\":1},\"h\":{\"c\":8,\"v\":15},\"i\":{\"c\":9,\"v\":5},\"j\":{\"c\":10,\"v\":17},\"k\":{\"c\":11,\"v\":17},\"l\":{\"c\":12,\"v\":68},\"m\":{\"c\":16,\"v\":56},\"n\":{\"c\":19,\"v\":5},\"o\":{\"c\":21,\"v\":54},\"p\":{\"c\":23,\"v\":3},\"q\":{\"c\":25,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.07,\"y\":0.0},\"angle\":45.0,\"scale\":0.1},\"tDecalB\":{\"position\":{\"x\":0.075,\"y\":0.003},\"angle\":45.0,\"scale\":0.1},\"tPattern\":{\"position\":{\"x\":0.02,\"y\":0.0},\"angle\":200.0,\"scale\":0.5}},\"publicName\":{\"data\":\"Van Auken LTC5\"}}}",
       "name": "SMGAuto",
       "internalEnabled": true,
       "persistentID": 4
@@ -299,10 +298,24 @@
     },
     {
       "Type": 1,
-      "GearJSON": "{\"Ver\":1,\"Name\":\"Advanced Thermal Tracker\",\"Packet\":{\"Comps\":{\"Length\":9,\"a\":{\"c\":2,\"v\":9},\"b\":{\"c\":3,\"v\":28},\"c\":{\"c\":4,\"v\":10},\"d\":{\"c\":27,\"v\":10},\"e\":{\"c\":30,\"v\":3},\"f\":{\"c\":33,\"v\":3},\"g\":{\"c\":40,\"v\":2},\"h\":{\"c\":42,\"v\":3}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"D-tek Optron IV\"}}}",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Techman Advanced Thermal Tracker\",\"Packet\":{\"Comps\":{\"Length\":9,\"a\":{\"c\":2,\"v\":9},\"b\":{\"c\":3,\"v\":28},\"c\":{\"c\":4,\"v\":10},\"d\":{\"c\":27,\"v\":10},\"e\":{\"c\":30,\"v\":3},\"f\":{\"c\":33,\"v\":3},\"g\":{\"c\":40,\"v\":2},\"h\":{\"c\":42,\"v\":3}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"D-tek Optron IV\"}}}",
       "name": "Bio_Tracker",
       "internalEnabled": true,
       "persistentID": 18
+    },
+    {
+      "Type": 1,
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Mastaba Search & Rescue\",\"Packet\":{\"Comps\":{\"Length\":16,\"a\":{\"c\":1,\"v\":0},\"b\":{\"c\":2,\"v\":202},\"c\":{\"c\":3,\"v\":201},\"d\":{\"c\":4,\"v\":2},\"e\":{\"c\":5,\"v\":52},\"f\":{\"c\":6,\"v\":1},\"g\":{\"c\":7,\"v\":1},\"h\":{\"c\":8,\"v\":15},\"i\":{\"c\":9,\"v\":5},\"j\":{\"c\":10,\"v\":17},\"k\":{\"c\":11,\"v\":17},\"l\":{\"c\":12,\"v\":87},\"m\":{\"c\":16,\"v\":8},\"n\":{\"c\":19,\"v\":8},\"o\":{\"c\":25,\"v\":3}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.07,\"y\":0.0},\"angle\":45.0,\"scale\":0.1},\"tDecalB\":{\"position\":{\"x\":0.075,\"y\":0.003},\"angle\":45.0,\"scale\":0.1},\"tPattern\":{\"position\":{\"x\":0.02,\"y\":0.0},\"angle\":200.0,\"scale\":0.5}},\"publicName\":{\"data\":\"LTC5\"}}}",
+      "name": "Tool_Rescue",
+      "internalEnabled": true,
+      "persistentID": 5001
+    },
+    {
+      "Type": 1,
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Stalwart C-Foam Snare Tool\",\"Packet\":{\"Comps\":{\"Length\":11,\"a\":{\"c\":2,\"v\":201},\"b\":{\"c\":3,\"v\":203},\"c\":{\"c\":4,\"v\":14},\"d\":{\"c\":27,\"v\":15},\"e\":{\"c\":30,\"v\":2},\"f\":{\"c\":33,\"v\":2},\"g\":{\"c\":36,\"v\":1},\"h\":{\"c\":37,\"v\":1},\"i\":{\"c\":40,\"v\":3},\"j\":{\"c\":42,\"v\":7}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{  \"data\":\"Krieger FO4\"}}}",
+      "name": "Foam_Mine_Deployer",
+      "internalEnabled": true,
+      "persistentID": 22
     },
     {
       "Type": 1,
@@ -313,10 +326,17 @@
     },
     {
       "Type": 1,
-      "GearJSON": "{\"Ver\":1,\"Name\":\"Krieg Homeland Defense\",\"Packet\":{\"Comps\":{\"Length\":10,\"a\":{\"c\":2,\"v\":13},\"b\":{\"c\":3,\"v\":37},\"c\":{\"c\":4,\"v\":14},\"d\":{\"c\":27,\"v\":12},\"e\":{\"c\":30,\"v\":2},\"f\":{\"c\":33,\"v\":2},\"g\":{\"c\":37,\"v\":1},\"h\":{\"c\":40,\"v\":1},\"i\":{\"c\":42,\"v\":6}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"Krieger O4\"}}}",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Krieg Homeland Defense Tool\",\"Packet\":{\"Comps\":{\"Length\":10,\"a\":{\"c\":2,\"v\":13},\"b\":{\"c\":3,\"v\":37},\"c\":{\"c\":4,\"v\":14},\"d\":{\"c\":27,\"v\":12},\"e\":{\"c\":30,\"v\":2},\"f\":{\"c\":33,\"v\":2},\"g\":{\"c\":37,\"v\":1},\"h\":{\"c\":40,\"v\":1},\"i\":{\"c\":42,\"v\":6}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"Krieger O4\"}}}",
       "name": "Mine_Deployer",
       "internalEnabled": true,
       "persistentID": 20
+    },
+    {
+      "Type": 1,
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Krieg Exterminatus Flamer Tool\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":2},\"b\":{\"c\":2,\"v\":100},\"c\":{\"c\":3,\"v\":191},\"d\":{\"c\":4,\"v\":3},\"e\":{\"c\":5,\"v\":52},\"f\":{\"c\":6,\"v\":1},\"g\":{\"c\":7,\"v\":3},\"h\":{\"c\":8,\"v\":10},\"i\":{\"c\":9,\"v\":10},\"j\":{\"c\":10,\"v\":13},\"k\":{\"c\":11,\"v\":14},\"l\":{\"c\":12,\"v\":67},\"m\":{\"c\":16,\"v\":8},\"n\":{\"c\":19,\"v\":57},\"o\":{\"c\":21,\"v\":49},\"p\":{\"c\":23,\"v\":11},\"q\":{\"c\":25,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.1,\"y\":0.02},\"angle\":180.0,\"scale\":0.4},\"tDecalB\":{\"position\":{\"x\":-0.07,\"y\":0.03},\"angle\":-90.0,\"scale\":0.05},\"tPattern\":{\"angle\":-90.0,\"scale\":0.1}},\"publicName\":{\"data\":\"XII\"}}}",
+      "name": "Flamethrower",
+      "internalEnabled": true,
+      "persistentID":5000
     },
     {
       "Type": 1,
@@ -334,7 +354,7 @@
     },
     {
       "Type": 1,
-      "GearJSON": "{\"Ver\":1,\"Name\":\"Autotek Tagged Sniper Turret\",\"Packet\":{\"Comps\":{\"Length\":11,\"a\":{\"c\":1,\"v\":10},\"b\":{\"c\":2,\"v\":12},\"c\":{\"c\":3,\"v\":97},\"d\":{\"c\":4,\"v\":11},\"e\":{\"c\":5,\"v\":36},\"f\":{\"c\":12,\"v\":19},\"g\":{\"c\":16,\"v\":1},\"h\":{\"c\":27,\"v\":9},\"i\":{\"c\":40,\"v\":1},\"j\":{\"c\":42,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"Autotek 51 RSG\"}}}",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Autotek Bio-Tag Sniper Turret\",\"Packet\":{\"Comps\":{\"Length\":11,\"a\":{\"c\":1,\"v\":10},\"b\":{\"c\":2,\"v\":12},\"c\":{\"c\":3,\"v\":97},\"d\":{\"c\":4,\"v\":11},\"e\":{\"c\":5,\"v\":36},\"f\":{\"c\":12,\"v\":19},\"g\":{\"c\":16,\"v\":1},\"h\":{\"c\":27,\"v\":9},\"i\":{\"c\":40,\"v\":1},\"j\":{\"c\":42,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"Autotek 51 RSG\"}}}",
       "name": "SentryGun_Semi_Sniper",
       "internalEnabled": true,
       "persistentID": 23
@@ -345,6 +365,13 @@
       "name": "SentryGun_ShotgunSemi",
       "internalEnabled": true,
       "persistentID": 25
+    },
+    {
+      "Type": 1,
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Mastaba Bio-Tag Missile Turret\",\"Packet\":{\"Comps\":{\"Length\":11,\"a\":{\"c\":1,\"v\":10},\"b\":{\"c\":2,\"v\":40},\"c\":{\"c\":3,\"v\":98},\"d\":{\"c\":4,\"v\":11},\"e\":{\"c\":5,\"v\":36},\"f\":{\"c\":12,\"v\":74},\"g\":{\"c\":16,\"v\":1},\"h\":{\"c\":27,\"v\":9},\"i\":{\"c\":40,\"v\":1},\"j\":{\"c\":42,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{\"data\":\"Mastaba Missile\"}}}",
+      "name": "SentryGun_Semi_Missile",
+      "internalEnabled": true,
+      "persistentID": 32
     },
     {
       "Type": 1,
