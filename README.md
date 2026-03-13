@@ -1,17 +1,17 @@
 # GTFriendlyO
 
-### Description
+### Description:
 
-A major overhaul of GTFO's vanilla gameplay, designed for a more casual but still fun and challenging experience with friends.
+A major overhaul of GTFO's vanilla gameplay, designed for a bit more casual but still fun, challenging, and rewarding experience with friends.
 
-As a long-time GTFO player, I've felt the base game lacked a bit of variety in certain aspects of its gameplay. After running several Rundowns with friends, we all agreed the game needed a bit more spice. This mod focuses on creating a more casual-friendly co-op experience without removing all of the tension or challenge from the game. This is NOT a hardcore or hyper-realism mod setup, nor will it ever be. Instead, it makes GTFO more accessible by giving players additional "tools" to tackle the depths. The enemies have also received some love too, so it's not completely one-sided.
+As a long-time GTFO player, I've felt the base game lacked a bit of variety in certain aspects of its gameplay. After running several Rundowns with friends, we all agreed the game needed a bit more spice. This mod focuses on creating a more casual-friendly co-op experience **WITHOUT** removing all of the tension or challenge from the game. This is NOT a hardcore or hyper-realism mod setup, nor will it ever be. Instead, it makes GTFO more accessible by giving players additional "tools" to tackle the depths. The enemies have also received some love too, so it's not completely one-sided powerup.
 
 Heavy inspiration: FriendlyGTFO by EcoLight and Duo Trials by ProjectZaero
 > Please note that I took the syringe customization settings from Duo Trials to reverse engineer how it was made. I have made some major changes, but the overall credit belongs to the ProjectZaero. Check the wiki for more information.
 
 This project has been in the works for many years. It's only been shared privately with my friends until recently. Now, I'm releasing it publicly for others to enjoy as well. Play together or die together! But most importantly, have fun!
 
-## Important
+## Important:
 
 * Please note that this modpack; not a plugin. Check the status and future content in the wiki for updates. **Stay tuned & check [here!](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/3972-current-status-future-patches/)**
 
@@ -26,8 +26,9 @@ This project has been in the works for many years. It's only been shared private
 * Recommend to check out the_tavern's [AutogenRundown](https://thunderstore.io/c/gtfo/p/the_tavern/AutogenRundown/) mod, especially **AFTER** you have finished GTFO's vanilla rundowns. It provides new rundowns generated daily, weekly, monthly, and each season. Automatic Rundown generation, using procedural seed based generation!
     * Additional work may be required to achieve better compatibility. Some features from GTFriendlyO or AutogenRundown may not work well with each other.
 
-## Major Changes
+* When playing heavily modded rundowns, there is always a higher chance of checksum generation fails. Even the vanilla game had similar issues, especially for AMD users. It can be frustrating and difficult to fix on my end. This mod is not a solution, but a bandaid fix: [BypassGenerationChecksum](https://thunderstore.io/c/gtfo/p/Andocas/BypassGenerationChecksum/)
 
+## Major Changes:
 ### Players:
 
 * Increased base Health: `25.0 -> 60.0`
@@ -40,8 +41,10 @@ This project has been in the works for many years. It's only been shared private
 * Increased Fall Min/Max Damage: `2.0/15.0 -> 10.0/40.0`
 * Increased base Walk/Sprint/Crouch/Ladder Spd. and Footstep Length by `0.5-1.0`. 
 * Reworked Stamina Cost across the board. Overall, higher cost in combat but faster regen out of combat.
-* Higher starting ammo and cap.
-* Decreased ammo supply efficiency from Ammo-Packs.
+* Different starting ammo and cap based on class system.
+* Different ammo/medipack supply efficiency based on class system.
+* Decreased base Hacking Proficiency to `-20%`
+* Increased base Infection Resistance to `20%`
 
 ### Classes:
 
@@ -136,12 +139,16 @@ This project has been in the works for many years. It's only been shared private
 * This section will mainly showcase sentries.
 > Dev Note: The ResourceStacking mod will be an important upgrade for consumables.
 
-| SENTRIES      | RANGE 	| QUIRKS		  									| STRENGTHS 	 									| WEAKNESSES										|
-|---------------|-----------|---------------------------------------------------|:--------------------------------------------------|:--------------------------------------------------|
-| Burst Turret	| Medium	| Burst Fire, Shot Delays cause leaks in defense	| Consistent Damage, & Reliable						| Easily Overwhelmed & Requires Sufficient Space	|
-| Auto Turret 	| Short	 	| Holds Choke Points, but wastes a lot of bullets	| High Stagger Damage, & High Ammo Cap				| Poor Accuracy, & Very Ammo Hungry					|
-| Sniper Turret	| Long		| Alt. to snipers, but fires at Tagged targets ONLY	| Very High Single-target Damage, & Ammo Efficient	| Poor Defense, & Long Setup						|
-| Shotgun Turret| Short		| Destroys Choke Points, but struggles w/open rooms	| High Close-Range Damage, & CTRL+ALT Delete chokes	| Placement Dependent, & Quite Ammo Hungry			|
+| SENTRIES       | RANGE 	| QUIRKS		  									| STRENGTHS 	 									| WEAKNESSES										|
+|----------------|----------|---------------------------------------------------|:--------------------------------------------------|:--------------------------------------------------|
+| Burst Turret	 | Medium	| Burst fire, shot delays cause leaks in defense	| Consistent Damage, & Reliable						| Easily Overwhelmed & Requires Sufficient Space	|
+| Auto Turret 	 | Short	| Holds choke points, but wastes a lot of bullets	| High Stagger Damage, & High Ammo Cap				| Poor Accuracy, & Very Ammo Hungry					|
+| Sniper Turret	 | Long		| Alt. to snipers, but fires at tagged targets ONLY	| Very High Single-target Damage, & Ammo Efficient	| Poor Defense, & Long Setup						|
+| Shotgun Turret | Short	| Destroys Choke Points, but struggles w/open rooms	| High Close Damage, & CTRL+ALT+DEL choke points	| Placement Dependent, & Quite Ammo Hungry			|
+| Missile Turret | Long		| Large AoE, shoots at tagged ONLY, friendly fire   | High AoE Damage, great crowd control          	| Very Placement Dependent, & Low Ammo Count     	|
+| Search & Rescue| Medium	| Glowstick Hipfire shots, Fog Repeller Aimed shots | Great utility tool, procs booster effects       	| No Damage, Low Ammo, takes up a tool slot        	|
+| C-Foam Mines   | Short	| Tripwire mines, C-foam payload                    | High C-Foam payload count, No friendly fire      	| No Damage, terrain and placement dependent     	|
+| Flamethrower   | Short	| Large flames and explosive kills that apply DoTs  | Solid DoT Damage, Stagger, and crowd control     	| Low Direct Damage, and long time to kill      	|
 
 ### Enemies:
 
