@@ -163,7 +163,7 @@
       {
         "Name": "Projectile",
         "ProjectileType": "NotTargetingSmallPellet",
-        "Speed": 7,
+        "Speed": 8,
         "AccelScale": 1.0,
         "AccelExponent": 1,
         "AccelTime": 0.1,
@@ -198,7 +198,7 @@
       },
       {
         "Name": "AmmoRegen",
-        "ClipRegen": 6.0,
+        "ClipRegen": 5.0,
         "ReserveRegen": 0.0,
         "OverflowToReserve": false,
         "PullFromReserve": true,
