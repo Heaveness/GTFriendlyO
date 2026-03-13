@@ -221,6 +221,7 @@
     * Pierce Targets: `2.0`
     * Stagger Multiplier: `10.0x`
     * Ballistics Type: `Slow Projectile Gravity`
+    * Projectile Speed: `8.0m` per second
     * Projectile Lifetime: `5.0s`
     * Damage-Over-Time per Stack: `6.0`
     * DoT Stack Limit: `10`
@@ -229,6 +230,7 @@
     * DoT Stagger Multiplier: `1.0x`
     * DoT Friendly Multiplier: `0.5x`
     * Cannot Reload, Clip Regen from Reserves after Firing
+    * Clip Regen: `5.0` per second
     * Clip Regen Delay: `3.0s`
     * Max Ammo: `1000`
     * Clip Size: `100`
@@ -253,6 +255,10 @@
 * Initial Tool Ammo `Aggressive` Booster:
     * Increased Tool ammo bonus from `20%` to `35%`
 > Dev Note: I still realized the total calculation of having both was a net neutral bonus while the others were not. So I boosted their numbers to incentize using them, if you choose to do so.
+* Regen Cap/Speed `Bold` Booster:
+    * Changed Condition from `Human Proximity` to `Glowstick Radius`
+* Tripmine Damage `Bold` Booster:
+    * Changed Condition from `Holding Tool` to `Human Proximity`
 
 ### Miscellaneous Fixes:
 * Fixed various issues:
