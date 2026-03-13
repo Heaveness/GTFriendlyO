@@ -311,7 +311,7 @@
           "Description": "Subject will start off with more ammo for their main weapon.",
           "DescriptionNegative": "Subject will start off with less ammo for their main weapon.",
           "EffectCategory": "InitialState",
-          "Value": 1.15
+          "Value": 1.16
         }
       ],
       "Conditions": []
@@ -329,7 +329,7 @@
           "Description": "Subject will start off with more ammo for their special weapon.",
           "DescriptionNegative": "Subject will start off with less ammo for their special weapon.",
           "EffectCategory": "InitialState",
-          "Value": 1.15
+          "Value": 1.16
         }
       ],
       "Conditions": []
@@ -347,7 +347,7 @@
           "Description": "Subject will start off with more ammo for their tool.",
           "DescriptionNegative": "Subject will start off with less ammo for their tool.",
           "EffectCategory": "InitialState",
-          "Value": 1.1
+          "Value": 1.16
         }
       ],
       "Conditions": []
@@ -1477,7 +1477,7 @@
           "Description": "Subject will start off with more ammo for their main weapon.",
           "DescriptionNegative": "Subject will start off with less ammo for their main weapon.",
           "EffectCategory": "InitialState",
-          "Value": 1.25
+          "Value": 1.35
         },
         {
           "Effect": "InitialAmmoSpecial",
@@ -1513,7 +1513,7 @@
           "Description": "Subject will start off with more ammo for their special weapon.",
           "DescriptionNegative": "Subject will start off with less ammo for their special weapon.",
           "EffectCategory": "InitialState",
-          "Value": 1.25
+          "Value": 1.35
         },
         {
           "Effect": "InitialAmmoStandard",
@@ -1549,7 +1549,7 @@
           "Description": "Subject will start off with more ammo for their tool.",
           "DescriptionNegative": "Subject will start off with less ammo for their tool.",
           "EffectCategory": "InitialState",
-          "Value": 1.2
+          "Value": 1.35
         },
         {
           "Effect": "InitialAmmoStandard",
