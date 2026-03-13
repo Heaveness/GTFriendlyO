@@ -1,0 +1,19 @@
+--This file is auto-generated. It's not for editing!--
+
+MeleeRangeMultiplier
+MeleeHitBoxSizeMultiplier
+MeleeAttackSpeedMultiplier
+MovementSpeedMultiplier
+JumpVelInitialPlus
+JumpGravityMulDefaultPlus
+JumpGravityMulButtonReleased
+JumpGravityMulAfterPeakPlus
+JumpGravityMulFallingPlus
+JumpVerticalVelocityMaxPlus
+RegenStartDelayMultiplier
+BleedResistance
+AmmoEfficiency
+ToolEfficiency
+ExplosionResistance
+BulletResistance
+Invalid

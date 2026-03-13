@@ -1,0 +1,6 @@
+--This file is auto-generated. It's not for editing!--
+
+AmmunitionMainMultiplier
+AmmunitionSpecialMultiplier
+AmmunitionToolMultiplier
+Invalid

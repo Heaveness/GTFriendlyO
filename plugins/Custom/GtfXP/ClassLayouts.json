@@ -3,7 +3,7 @@
     "Header": "Marine",
     "GroupPersistentId": 0,
     "PersistentId": 9,
-    "InfoText": "Excels at ranged combat, but lacks melee strength.\n<color=yellow>Specializes: Assault Rifles/Bullpup Rifles/Carbines</color>\n\n<color=green>Strengths: +40% Specialized Ranged Damage, +40% Projectile Armor, +90% Bleed Res., +20% Initial Ranged Ammo</color>\n\n<color=red>Weaknesses: -50% Melee Armor/Damage/Attack Spd.</color>",
+    "InfoText": "Excels at ranged combat, but lacks melee strength.\n<color=yellow>Specializes: Assault Rifles/Bullpup Rifles/Carbines</color>\n\n<color=green>Strengths: \n+40% Specialized Ranged Damage, \n+40% Projectile Armor, \n+90% Bleed Res., \n+20% Initial Ranged Ammo</color>\n\n<color=red>Weaknesses: \n-50% Melee Armor/Damage/Attack Spd.</color>",
     "Levels": [
       {
         "LevelNumber": 0,
@@ -44,7 +44,7 @@
     "Header": "Covert Op",
     "GroupPersistentId": 0,
     "PersistentId": 8,
-    "InfoText": "Excels at Spd. and precision, but lacks durability.\n<color=yellow>Specializes: Melee/Snipers/DMRs/Movement Spd.</color>\n\n<color=green>Strengths: +60% Sniper Rifle/DMR & Melee Damage, +20% Movement Spd., Double Jump</color>\n\n<color=red>Weaknesses: -50% Melee & Projectile Armor, -30% Max Health</color>",
+    "InfoText": "Excels at Spd. and precision, but lacks durability.\n<color=yellow>Specializes: Melee/Snipers/DMRs/Movement Spd.</color>\n\n<color=green>Strengths: \n+60% Sniper Rifle/DMR & Melee Damage, \n+20% Movement Spd., \nDouble Jump</color>\n\n<color=red>Weaknesses: \n-50% Melee & Projectile Armor, \n-30% Max Health</color>",
     "Levels": [
       {
         "LevelNumber": 0,
@@ -72,7 +72,7 @@
     "Header": "Demolitionist",
     "GroupPersistentId": 0,
     "PersistentId": 11,
-    "InfoText": "Excels at explosive ordnances, but lacks precision and hacking.\n<color=yellow>Specializes: Explosive Resistance/Tripmines/Explosive Cannon & Rifle</color>\n\n<color=green>Strengths: +30% Burst Cannon/Rifle Damage, +50% Tripmine Damage, +80% Explosive Resistance</color>\n\n<color=red>Weaknesses: -30% Ranged Damage except Specialized Guns, -55% Hacking Skills, -50% Terminal CPU, -50% Sentry CPU, -30% Sentry Damage</color>",
+    "InfoText": "Excels at explosive ordnances, but lacks precision and hacking.\n<color=yellow>Specializes: Explosive Resistance/Tripmines/Explosive Cannon & Rifle</color>\n\n<color=green>Strengths: \n+30% Burst Cannon/Rifle Damage, \n+50% Tripmine Damage, \n+80% Explosive Resistance</color>\n\n<color=red>Weaknesses: \n-30% Ranged Damage except Specialized Guns, \n-55% Hacking Skills, \n-50% Terminal CPU, \n-50% Sentry CPU, \n-30% Sentry Damage</color>",
     "Levels": [
       {
         "LevelNumber": 0,
@@ -96,7 +96,7 @@
     "Header": "Shock Trooper",
     "GroupPersistentId": 0,
     "PersistentId": 10,
-    "InfoText": "Excels at close-quarter combat, but lacks range strength.\n<color=yellow>Specializes: Melee/Shotguns/Armor/Health</color>\n\n<color=green>Strengths: +20% Shotgun Damage, +30% Melee Attack Spd., +30% Max Health & Health Regen Spd., +30% Melee/Projectile/Explosion Armor, +50% Bullet Resistance</color>\n\n<color=red>Weaknesses: -40% Ranged Damage except Specialized Guns, -25% Movement Spd., -20% Bioscan Spd.</color>",
+    "InfoText": "Excels at close-quarter combat, but lacks range strength.\n<color=yellow>Specializes: Melee/Shotguns/Armor/Health</color>\n\n<color=green>Strengths: \n+20% Shotgun Damage, \n+30% Melee Attack Spd., \n+30% Max Health & Health Regen Spd., \n+30% Melee/Projectile/Explosion Armor, \n+50% Bullet Resistance</color>\n\n<color=red>Weaknesses: \n-40% Ranged Damage except Specialized Guns, \n-25% Movement Spd., \n-20% Bioscan Spd.</color>",
     "Levels": [
       {
         "LevelNumber": 0,
@@ -132,7 +132,7 @@
     "Header": "Paramedic",
     "GroupPersistentId": 1,
     "PersistentId": 12,
-    "InfoText": "Excels at player revives, infection resistance, and support, but lacks offensive & defensive benefits.\n<color=yellow>Specializes: SMGs/Pistols/Player Revive</color>\n\n<color=green>Strengths: +100% Infection Res., +100% Revive Spd., +70% Revive Health, +30% Medipack Efficiency, -20% Health Regen Delay, +25% Bullet Resistance, Double Jump</color>\n\n<color=red>Weaknesses: -50% Ranged Damage except Specialized Guns, -20% Initial Ammo, -20% Ammo Cost Efficiency</color>",
+    "InfoText": "Excels at player revives, infection resistance, and support, but lacks offensive & defensive benefits.\n<color=yellow>Specializes: SMGs/Pistols/Player Revive</color>\n\n<color=green>Strengths: \n+100% Infection Res., \n+100% Revive Spd., \n+70% Revive Health, \n+30% Medipack Efficiency, \n-20% Health Regen Delay, \n+25% Bullet Resistance, Double Jump</color>\n\n<color=red>Weaknesses: \n-50% Ranged Damage except Specialized Guns, \n-20% Initial Ammo, \n-20% Ammo Cost Efficiency</color>",
     "Levels": [
       {
         "LevelNumber": 0,
@@ -177,7 +177,7 @@
     "Header": "Quartermaster",
     "GroupPersistentId": 1,
     "PersistentId": 13,
-    "InfoText": "Excels at ammo efficiency and suppression, but lacks Spd..\n<color=yellow>Specializes: HMG/LMG/MP/Max Ammo/Higher Regen Cap</color>\n\n<color=green>Strengths: +20% HMG/LMG/MP Damage, +30% Ammo Cost Efficiency, +20% Initial Ranged Ammo, +30% Supply Pack Efficiency, +65% Health Regen Cap</color>\n\n<color=red>Weaknesses: -50% Damage except Specialized Guns, -40% Movement Spd.</color>",
+    "InfoText": "Excels at ammo efficiency and suppression, but lacks Spd..\n<color=yellow>Specializes: HMG/LMG/MP/Max Ammo/Higher Regen Cap</color>\n\n<color=green>Strengths: \n+20% HMG/LMG/MP Damage, \n+30% Ammo Cost Efficiency, \n+20% Initial Ranged Ammo, \n+30% Supply Pack Efficiency, \n+65% Health Regen Cap</color>\n\n<color=red>Weaknesses: \n-50% Damage except Specialized Guns, \n-40% Movement Spd.</color>",
     "Levels": [
       {
         "LevelNumber": 0,
@@ -218,13 +218,13 @@
     "Header": "Specialist",
     "GroupPersistentId": 1,
     "PersistentId": 14,
-    "InfoText": "Excels at utility support, but lacks any offensive & defensive benefits.\n<color=yellow>Specializes: Fog Repeller & Turbine/Biotracker/Glowstick/Glue Gun</color>\n\n<color=green>Strengths: +25% Glue Strength & Efficiency, +150% Glowstick Power, +30% Bioscan Spd. & Scanner Recharge, +75% Fog Repeller/Turbine Power, +30% Tool Cost Efficiency</color>\n\n<color=red>Weaknesses: -30% Initial Ammo, -30% Ammo Cost Efficiency</color>",
+    "InfoText": "Excels at utility support, but lacks any offensive & defensive benefits.\n<color=yellow>Specializes: Fog Repeller & Turbine/Biotracker/Glowstick/Glue Gun</color>\n\n<color=green>Strengths: \n+30% Glue Strength & Efficiency, \n+175% Glowstick Power, \n+30% Bioscan Spd. & Scanner Recharge, \n+80% Fog Repeller/Turbine Power, \n+30% Tool Cost Efficiency</color>\n\n<color=red>Weaknesses: \n-30% Initial Ammo, \n-30% Ammo Cost Efficiency</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Specialist\n<color=green>Glue Strength & Efficiency 125%, Glowstick Power 250%, Bioscan Spd. & Scanner Recharge 130%, Fog Repeller/Turbine Power 175%, Tool Cost Efficiency 130%</color>\n<color=red>Initial Ammo 70%, Ammo Cost Efficiency 70%</color>",
+        "CustomLevelStatsText": "Class: Specialist\n<color=green>Glue Strength & Efficiency 130%, Glowstick Power 275%, Bioscan Spd. & Scanner Recharge 130%, Fog Repeller/Turbine Power 180%, Tool Cost Efficiency 130%</color>\n<color=red>Initial Ammo 70%, Ammo Cost Efficiency 70%</color>",
         "HealthMultiplier": 1.0,
         "MeleeDamageMultiplier": 1.0,
         "WeaponDamageMultiplier": 1.0,
@@ -259,13 +259,13 @@
     "Header": "Field Technician",
     "GroupPersistentId": 1,
     "PersistentId": 15,
-    "InfoText": "Excels at sentries & hacking, but lacks offensive benefits.\n<color=yellow>Specializes: Sentry/Computer Processing Power/Hacking Skill</color>\n\n<color=green>Strengths: +50% Sentry Damage, +30% Sentry CPUs, +40% Initial Tool Ammo, +60% Hacking Skill, +50% Terminal CPU, +75% Bullet Resistance, Double Jump</color>\n\n<color=red>Weaknesses: -30% Initial Ranged Ammo, -40% Ranged & Melee Damage, -10% Ammo Cost Efficiency</color>",
+    "InfoText": "Excels at sentries & hacking, but lacks offensive benefits.\n<color=yellow>Specializes: Sentry/Computer Processing Power/Hacking Skill</color>\n\n<color=green>Strengths: \n+40% Sentry Damage, \n+30% Sentry CPUs, \n+50% Initial Tool Ammo, \n+60% Hacking Skill, \n+50% Terminal CPU, \n+75% Bullet Resistance, \nDouble Jump</color>\n\n<color=red>Weaknesses: \n-30% Initial Ranged Ammo, \n-40% Ranged & Melee Damage, \n-10% Ammo Cost Efficiency</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Field Technician\n<color=green>Sentry Damage 150%, Sentry CPUs 130%, Initial Tool Ammo 140%, Hacking Skill 160%, Terminal CPU 150%, Bullet Resistance 175%</color>\n<color=red>Initial Ranged Ammo 70%, Ranged & Melee Damage 60%, Ammo Cost Efficiency 90%</color>",
+        "CustomLevelStatsText": "Class: Field Technician\n<color=green>Sentry Damage 140%, Sentry CPUs 130%, Initial Tool Ammo 150%, Hacking Skill 160%, Terminal CPU 150%, Bullet Resistance 175%</color>\n<color=red>Initial Ranged Ammo 70%, Ranged & Melee Damage 60%, Ammo Cost Efficiency 90%</color>",
         "HealthMultiplier": 1.0,
         "MeleeDamageMultiplier": 0.6,
         "WeaponDamageMultiplier": 1.0,
@@ -294,7 +294,7 @@
           },
 		  {
             "SingleBuff": "AmmunitionTool",
-            "Value": 0.4
+            "Value": 0.5
           }
 		]
       }
@@ -304,7 +304,7 @@
     "Header": "Prisoner",
     "GroupPersistentId": 2,
     "PersistentId": 20,
-    "InfoText": "You get no benefits or detriments from the class system. More akin to the regular experience.\n\n<color=red>Warning: This class may be more challenging to play because other changes made outside the class system are still applied.</color>",
+    "InfoText": "You get no benefits or detriments from the class system. More akin to the regular experience.\n\n<color=red>Warning: This class might be more challenging to play because of the other changes made outside the class system that are still applied.</color>",
     "Levels": [
       {
         "LevelNumber": 0,
@@ -323,7 +323,7 @@
     "Header": "HEL Diver",
     "GroupPersistentId": 2,
     "PersistentId": 21,
-    "InfoText": "Spread our message of Freedom & Liberty with an iron fist!\n<color=yellow>Specializes: HEL Weapons</color>\n\n<color=green>Strengths: +100% HEL Damage, +25% Bioscan Spd., +50% Terminal CPU, +80% Hacking Skill, +20% Movement Spd.</color>\n\n<color=red>Weaknesses: -50% Bullet Resistance, -30% Projectile & Melee Armor, -50% Max Health, -50% Health Regen Cap</color>",
+    "InfoText": "Spread our peaceful message of Freedom & Liberty with an iron fist!\n<color=yellow>Specializes: What's the moral difference, if any, between a civilian and a citizen?</color>\n\n<color=green>Strengths: \n+100% HEL Damage, \n+25% Bioscan Spd., \n+50% Terminal CPU, \n+80% Hacking Skill, \n+20% Movement Spd.</color>\n\n<color=red>Weaknesses: \n-50% Bullet Resistance, \n-30% Projectile & Melee Armor, \n-50% Max Health, \n-50% Health Regen Cap</color>",
     "Levels": [
       {
         "LevelNumber": 0,
@@ -355,7 +355,7 @@
     "Header": "Abhuman",
     "GroupPersistentId": 2,
     "PersistentId": 22,
-    "InfoText": "Big strong. Not smart. Hit hard. Good friend. Follow orders. Kill h-h-h-eretics. That's plan! Lubb me Emprah, sah!\n<color=yellow>Specializes: Health & Melee</color>\n\n<color=green>Strengths: +150% Max Health, +50% Health Regen Cap, +100% Melee Damage, +40% Melee Range & Hitbox</color>\n\n<color=red>Weaknesses: -50% Initial Weapon Ammo, -70% Hacking Skill, -70% Terminal & Sentry CPU, -30% Movement Spd. & Melee Attack Spd., -40% Bioscan Spd. & Recharge Spd.</color>",
+    "InfoText": "Big strong. Not smart. Hit hard. Good friend. Follow orders. Kill h-h-h-eretics. That's plan! Lubb me Emprah, sah!\n<color=yellow>Specializes: Health & Melee</color>\n\n<color=green>Strengths: \n+150% Max Health, \n+50% Health Regen Cap, \n+100% Melee Damage, \n+40% Melee Range & Hitbox</color>\n\n<color=red>Weaknesses: \n-50% Initial Weapon Ammo, \n-70% Hacking Skill, \n-70% Terminal & Sentry CPU, \n-30% Movement Spd. & Melee Attack Spd., \n-40% Bioscan Spd. & Recharge Spd.</color>",
     "Levels": [
       {
         "LevelNumber": 0,
@@ -408,7 +408,7 @@
     "Header": "Deprived",
     "GroupPersistentId": 2,
     "PersistentId": 23,
-    "InfoText": "Blessed are the broken, forsaken by the Lords. To cleanse the impure, for such is their pious duty.\n<color=yellow>Specializes: Filled with fervor beyond measure, yet bound by fleeting flesh.</color>\n\n<color=green>Strengths: +50% Ranged/Melee Damage & Melee Attack Spd., +30% Movement Spd., +60% Melee Armor, +95% Infection/Explosion/Bullets/Bleed Res., +50% Bioscan Spd., +50% Terminal CPU Spd., Double Jump</color>\n\n<color=red>Weaknesses: -80% Max Health, -60% Projectile Armor, -50% Initial Ammo</color>",
+    "InfoText": "Blessed are the broken, forsaken by the Lords. To cleanse the impure, for such is their pious duty.\n<color=yellow>Specializes: Filled with fervor beyond measure, yet bound by fleeting flesh.</color>\n\n<color=green>Strengths: \n+50% Ranged/Melee Damage & Melee Attack Spd., \n+30% Movement Spd., \n+60% Melee Armor, \n+95% Infection/Explosion/Bullets/Bleed Res., \n+50% Bioscan Spd., \n+50% Terminal CPU Spd., \nDouble Jump</color>\n\n<color=red>Weaknesses: \n-80% Max Health, \n-60% Projectile Armor, \n-50% Initial Ammo</color>",
     "Levels": [
       {
         "LevelNumber": 0,
@@ -461,7 +461,7 @@
     "Header": "Courier",
     "GroupPersistentId": 2,
     "PersistentId": 24,
-    "InfoText": "Hardly spoke to folks around him, didn't have too much to say. No one dared to ask his business, no one dared to make a slip.\n<color=yellow>Specializes: The stranger there among them had a big iron on his hip.</color>\n\n<color=green>Strengths: +50% Revolver/Sniper/Shotgun/Tripmine, +20% Initial Ammo, Living Bio Tracker</color>\n\n<color=red>Weaknesses: -80% Infection/Explosion/Bullet/Bleed Res., -20% Ammo/Tool Cost Efficiency</color>",
+    "InfoText": "Hardly spoke to folks around him, didn't have too much to say. No one dared to ask his business, no one dared to make a slip.\n<color=yellow>Specializes: The stranger there among them had a big iron on his hip.</color>\n\n<color=green>Strengths: \n+50% Revolver/Sniper/Shotgun/Tripmine, \n+20% Initial Ammo, \nLiving Bio Tracker</color>\n\n<color=red>Weaknesses: \n-80% Infection/Explosion/Bullet/Bleed Res., \n-20% Ammo/Tool Cost Efficiency</color>",
     "Levels": [
       {
         "LevelNumber": 0,
