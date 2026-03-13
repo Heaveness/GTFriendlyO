@@ -4,14 +4,25 @@
     "Name": "Mine Deployer",
     "Delay": 1.0,
     "Radius": 3.0,
-    "DistanceMin": 5,
-    "DistanceMax": 10,
+    "DistanceMin": 6,
+    "DistanceMax": 12,
     "DamageMin": 75,
     "DamageMax": 125,
     "Force": 1300,
-    "PlacementTime": 1.0,
-    "PlacementCooldown": 1,
-    "PickupTime": 1.0
+    "PlacementTime": 1.5,
+    "PlacementCooldown": 1.5,
+    "PickupTime": 2.0,
+    "FoamData": null,
+    "BeamData": {
+      "Color": "#FF0000", 
+      "Width": 1, 
+      "Length": 12 
+    },
+    "LightData": {
+      "Color": "#FF0000", 
+      "Intensity": 0.03, 
+      "Range": 1 
+    }
   },
   {
     "ItemID": 139,
@@ -25,6 +36,77 @@
     "Force": 900,
     "PlacementTime": 0.5,
     "PlacementCooldown": 0.5,
-    "PickupTime": 0.5
+    "PickupTime": 0.5,
+    "FoamData": null,
+    "BeamData": {
+      "Color": "#FF0000", 
+      "Width": 1, 
+      "Length": 10 
+    },
+    "LightData": {
+      "Color": "#FF0000", 
+      "Intensity": 0.03, 
+      "Range": 1 
+    }
+  },
+  {
+    "OfflineID": 22,
+    "ItemID": 203,
+    "Name": "Foam Mine Deployer",
+    "Delay": 0.5,
+    "Radius": 2,
+    "DistanceMin": 7.5,
+    "DistanceMax": 15,
+    "PlacementTime": 2.0,
+    "PlacementCooldown": 2.0,
+    "PickupTime": 2.0,
+    "FoamData": {
+      "BubbleDelay": 0, 
+      "BubbleCount": 22,
+      "BubbleAngle": 14,
+      "BubbleSpeedMin": 7, 
+      "BubbleSpeedMax": 13,
+      "BubbleBatchCooldown": 0.25
+    },
+    "BeamData": {
+      "Color": "#0062FFFF",
+      "Width": 1,
+      "Length": 15
+    },
+    "LightData": {
+      "Color": "#208CFFFF",
+      "Intensity": 0.3,
+      "Range": 0.8
+    }
+  },
+  {
+    "OfflineID": 0,
+    "ItemID": 144,
+    "Name": "Consumable Foam Mine",
+    "Delay": 0.1,
+    "Radius": 2,
+    "DistanceMin": 5,
+    "DistanceMax": 10,
+    "PlacementTime": 0.5,
+    "PlacementCooldown": 0.5,
+    "PickupTime": 0.5,
+    "FoamData": {
+      "BubbleDelay": 0, 
+      "BubbleCount": 16,
+      "BubbleAngle": 14,
+      "BubbleSpeedMin": 7, 
+      "BubbleSpeedMax": 13,
+      "BubbleBatchCooldown": 0.25
+    },
+    "BeamData": {
+      "Color": "#0062FFFF",
+      "Width": 1,
+      "Length": 10
+    },
+    "LightData": {
+      "Color": "#208CFFFF",
+      "Intensity": 0.3,
+      "Range": 0.8
+    }
   }
 ]
