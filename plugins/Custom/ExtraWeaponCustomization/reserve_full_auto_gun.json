@@ -29,6 +29,119 @@
         "StackType": "Add",
         "StackLayer": "Mult",
         "Trigger": "Invalid"
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Properties": [
+          {
+            "Name": "Push",
+            "Force": 0,
+            "Offset": [0, 0],
+            "ApplyToTarget": false,
+            "Trigger": "Fire",
+            "VerticalScale": 0
+          }
+        ],
+        "Trigger": {
+          "Activate": "Crouch",
+          "Reset": "CrouchEnd"
+        }
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Properties": [
+          {
+            "Name": "Push",
+            "Force": -0.1,
+            "Offset": [0, 0],
+            "ApplyToTarget": false,
+            "Trigger": "Fire"
+          }
+        ],
+        "Trigger": {
+          "Activate": "Jump",
+          "Reset": "JumpEnd"
+        }
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Properties": [
+          {
+            "Name": "Push",
+            "Force": -0.05,
+            "Offset": [0, 0],
+            "ApplyToTarget": false,
+            "VerticalScale": 0,
+            "Trigger": "Fire"
+          }
+        ],
+        "Trigger": {
+          "Activate": ["CrouchEnd", "JumpEnd", "Drop"],
+          "Reset": ["Crouch", "Jump"]
+        }
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 23,  
+    "MeleeArchetypeID": 0,
+    "Name": "LMG - Knockback",
+    "Properties": [
+	    {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Properties": [
+          {
+            "Name": "Push",
+            "Force": 0,
+            "Offset": [0, 0],
+            "ApplyToTarget": false,
+            "Trigger": "Fire",
+            "VerticalScale": 0
+          }
+        ],
+        "Trigger": {
+          "Activate": "Crouch",
+          "Reset": "CrouchEnd"
+        }
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Properties": [
+          {
+            "Name": "Push",
+            "Force": -0.5,
+            "Offset": [0, 0],
+            "ApplyToTarget": false,
+            "Trigger": "Fire"
+          }
+        ],
+        "Trigger": {
+          "Activate": "Jump",
+          "Reset": "JumpEnd"
+        }
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Properties": [
+          {
+            "Name": "Push",
+            "Force": -0.3,
+            "Offset": [0, 0],
+            "ApplyToTarget": false,
+            "VerticalScale": 0,
+            "Trigger": "Fire"
+          }
+        ],
+        "Trigger": {
+          "Activate": ["CrouchEnd", "JumpEnd", "Drop"],
+          "Reset": ["Crouch", "Jump"]
+        }
       }
     ]
   },
@@ -39,6 +152,170 @@
     "Properties": [
 	  {
         "Name": "ReserveClip"
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 101,  
+    "MeleeArchetypeID": 0,
+    "Name": "Flamer Tool - DoT Reserve",
+    "Properties": [
+      {
+        "Name": "Projectile",
+        "ProjectileType": "NotTargetingSmallPellet",
+        "Speed": 7,
+        "AccelScale": 1.0,
+        "AccelExponent": 1,
+        "AccelTime": 0.1,
+        "Gravity": 1,
+        "HitSize": 0.5,
+        "HitSizeWorld": 0,
+        "EnableTerrainHitFX": false,
+        "ModelScale": 1,
+        "EnableTrail": true,
+        "TrailColor": "#CD352E",
+        "TrailCullOnDie": false,
+        "GlowColor": "#CD352E",
+        "GlowIntensity": 0.25,
+        "GlowRange": 10,
+        "DamageFriendly": true,
+        "DamageOwner": false,
+        "HitFromOwnerPos": false,
+        "HitCooldown": -1,
+        "HitIgnoreWallsDuration": 15,
+        "RicochetCount": 5,
+        "RicochetSpeedMod": 0.05,
+        "RicochetSpeedAngleFactor": 0,
+        "RicochetIgnorePlayers": false,
+        "RicochetResetHits": false,
+        "RicochetOnHit": false,
+        "FlyingSoundID": 964554856,
+        "DestroyedSoundID": 964554856,
+        "StopFlyingSoundOnDestroy": false,
+        "HitCheckCooldown": 0.2,
+        "VisualLerpDist": 5,
+        "Lifetime": 6
+      },
+      {
+        "Name": "AmmoRegen",
+        "ClipRegen": 6.0,
+        "ReserveRegen": 0.0,
+        "OverflowToReserve": false,
+        "PullFromReserve": true,
+        "UseRawAmmo": false,
+        "BypassReserveCap": false,
+        "AllowReload": false,
+        "ActiveInHolster": true,
+        "ResetWhileFull": true,
+        "DelayAfterTrigger": 3.0,
+        "Trigger": "Fire"
+      },
+      {
+        "Name": "Noise",
+        "SoundID": 2759590332,
+        "LocalSoundOnly": true,
+        "Trigger": {
+          "Name": "Clip",
+          "ClipMin": 99,
+          "ClipMax": 100,
+          "AmountAtMin": 0,
+          "AmountAtMax": 1,
+          "Exponent": 8.0,
+          "FlipExponent": false
+        }
+      },
+      {
+        "Name": "Noise",
+        "SoundID": 2118104127,
+        "LocalSoundOnly": false,
+        "Trigger": {
+          "Name": "Clip",
+          "ClipMin": 0,
+          "ClipMax": 1,
+          "AmountAtMin": 1,
+          "AmountAtMax": 0,
+          "Exponent": 8.0,
+          "FlipExponent": true
+        }
+      },
+      {
+        "Name": "Accelerate",
+        "EndShotDelay": 0,
+        "EndFireRate": 0,
+        "EndFireRateMod": 3.5,
+        "FireRateStackLayer": "Mult",
+        "EndDamageMod": 1,
+        "DamageStackLayer": "Mult",
+        "AccelTime": 2.5,
+        "AccelExponent": 1.3,
+        "DecelTime": 0.6,
+        "DecelDelay": 0.2,
+        "ResetTrigger": "Start Firing"
+      },
+      {
+        "Name": "RecoilMod",
+        "Mod": 0.8,
+        "Cap": 0,
+        "Duration": 0,
+        "StackType": "Add",
+        "StackLayer": "Mult",
+        "Trigger": "Invalid"
+      },
+      {
+        "Name": "MultiShot",
+        "Offsets": [[-1,1],[-1,-1],[1,-1],[-1,1]],
+        "Spread": 5
+      },
+      {
+        "Name": "DamageOverTime",
+        "TotalDamage": 6.0,
+        "PrecisionDamageMulti": 0.5,
+        "StaggerDamageMulti": 1.0,
+        "FriendlyDamageMulti": 0.5,
+        "Duration": 10,
+        "TickRate": 2,
+        "StackLimit": 10,
+        "IgnoreFalloff": true,
+        "DamageLimb": true,
+        "IgnoreArmor": true,
+        "IgnoreBackstab": false,
+        "IgnoreDamageMods": true,
+        "GlowColor": "#CD352E",
+        "GlowIntensity": 0.25,
+        "GlowRange": 2,
+        "Trigger": "HitEnemy|HitPlayer",
+        "BatchStacks": false
+      },
+      {
+        "Name": "Explosive",
+        "MaxDamage": 1.0,
+        "MinDamage": 1.0,
+        "InnerRadius": 3.5,
+        "Radius": 3.5,
+        "PrecisionDamageMulti": 1.0,
+        "StaggerDamageMulti": 5.0,
+        "IgnoreFalloff": false,
+        "DamageLimb": true,
+        "IgnoreArmor": false,
+        "IgnoreBackstab": true,
+        "IgnoreDamageMods": true,
+        "UseParentShotMod": false,
+        "DamageFriendly": true,
+        "DamageOwner": false,
+        "DamageLocks": false,
+        "HitClosestFirst": true,
+        "SoundID": 1519697496,
+        "EnableMineFX": false,
+        "GlowColor": "#B22222",
+        "GlowIntensity": 10,
+        "GlowDuration": 1.1,
+        "GlowFadeDuration": 0.5,
+        "Trigger": "KillEnemy"
+      },
+      {
+        "Name": "HitmarkerCooldown",
+        "Cooldown": 0,
+        "CooldownPerTarget": 1.0
       }
     ]
   }

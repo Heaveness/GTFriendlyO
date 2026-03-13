@@ -12,6 +12,119 @@
         "Name": "ArmorPierce",
         "Pierce": 1.2,
         "Type": "Override"
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Properties": [
+          {
+            "Name": "Push",
+            "Force": -2,
+            "Offset": [0, 0],
+            "ApplyToTarget": false,
+            "VerticalScale": 0,
+            "Trigger": "Fire"
+          }
+        ],
+        "Trigger": {
+          "Activate": "Crouch",
+          "Reset": "CrouchEnd"
+        }
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Properties": [
+          {
+            "Name": "Push",
+            "Force": -8,
+            "Offset": [0, 0],
+            "ApplyToTarget": false,
+            "Trigger": "Fire"
+          }
+        ],
+        "Trigger": {
+          "Activate": "Jump",
+          "Reset": "JumpEnd"
+        }
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Properties": [
+          {
+            "Name": "Push",
+            "Force": -4,
+            "Offset": [0, 0],
+            "ApplyToTarget": false,
+            "VerticalScale": 0,
+            "Trigger": "Fire"
+          }
+        ],
+        "Trigger": {
+          "Activate": ["CrouchEnd", "JumpEnd", "Drop"],
+          "Reset": ["Crouch", "Jump"]
+        }
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 80,  
+    "MeleeArchetypeID": 0,
+    "Name": "High Cal Pistol - Knockback",
+    "Properties": [
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Properties": [
+          {
+            "Name": "Push",
+            "Force": -1,
+            "Offset": [0, 0],
+            "ApplyToTarget": false,
+            "VerticalScale": 0,
+            "Trigger": "Fire"
+          }
+        ],
+        "Trigger": {
+          "Activate": "Crouch",
+          "Reset": "CrouchEnd"
+        }
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Properties": [
+          {
+            "Name": "Push",
+            "Force": -4,
+            "Offset": [0, 0],
+            "ApplyToTarget": false,
+            "Trigger": "Fire"
+          }
+        ],
+        "Trigger": {
+          "Activate": "Jump",
+          "Reset": "JumpEnd"
+        }
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Properties": [
+          {
+            "Name": "Push",
+            "Force": -2,
+            "Offset": [0, 0],
+            "ApplyToTarget": false,
+            "VerticalScale": 0,
+            "Trigger": "Fire"
+          }
+        ],
+        "Trigger": {
+          "Activate": ["CrouchEnd", "JumpEnd", "Drop"],
+          "Reset": ["Crouch", "Jump"]
+        }
       }
     ]
   },
@@ -65,7 +178,7 @@
         "StackType": "Override",  
         "CombineModifiers": false,
         "Trigger": {
-          "Name": "Charge",
+          "Name": "Charge End",
           "Min": 0.5,
           "Max": 1.0,
           "Exponent": 3,

@@ -79,6 +79,59 @@
             "Name": "AutoTrigger"
           },
           {
+            "Name": "TempProperties",
+            "Duration": 999999,
+            "Properties": [
+              {
+                "Name": "Push",
+                "Force": -1,
+                "Offset": [0, 0],
+                "ApplyToTarget": false,
+                "VerticalScale": 0,
+                "Trigger": "Fire"
+              }
+            ],
+            "Trigger": {
+              "Activate": "Crouch",
+              "Reset": "CrouchEnd"
+            }
+          },
+          {
+            "Name": "TempProperties",
+            "Duration": 999999,
+            "Properties": [
+              {
+                "Name": "Push",
+                "Force": -4,
+                "Offset": [0, 0],
+                "ApplyToTarget": false,
+                "Trigger": "Fire"
+              }
+            ],
+            "Trigger": {
+              "Activate": "Jump",
+              "Reset": "JumpEnd"
+            }
+          },
+          {
+            "Name": "TempProperties",
+            "Duration": 999999,
+            "Properties": [
+              {
+                "Name": "Push",
+                "Force": -2,
+                "Offset": [0, 0],
+                "ApplyToTarget": false,
+                "VerticalScale": 0,
+                "Trigger": "Fire"
+              }
+            ],
+            "Trigger": {
+              "Activate": ["CrouchEnd", "JumpEnd", "Drop"],
+              "Reset": ["Crouch", "Jump"]
+            }
+          },
+          {
             "Name": "Shrapnel",
             "Count": 1, 
             "MaxRange": 20.0,
@@ -172,6 +225,13 @@
               "Name": "MultiShot",
               "Offsets": [0,0, 0,0],
               "Spread": -1
+            },
+            {
+              "Name": "Push",
+              "Force": -12,
+              "Offset": [0, 0],
+              "ApplyToTarget": false,
+              "Trigger": "Fire"
             }
           ]
         },

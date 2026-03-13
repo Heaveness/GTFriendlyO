@@ -73,7 +73,7 @@
         "HitFromOwnerPos": false,
         "HitCooldown": -1,
         "HitIgnoreWallsDuration": 15,
-        "VisualLerpDist": 3,
+        "VisualLerpDist": 5,
         "Lifetime": 20
       },
       {
@@ -90,6 +90,11 @@
           "MaxDelay": 0.5,
           "RequireLastHit": true
         }
+      },
+      {
+        "Name": "HitmarkerCooldown",
+        "Cooldown": 0,
+        "CooldownPerTarget": 1.0
       }
     ]
   }

@@ -4,8 +4,8 @@
     "MeleeArchetypeID": 0,
     "Name": "Burst Cannon - Explosive Shrapnel",
     "Properties": [
-    {
-		"Name": "Explosive",
+      {
+		    "Name": "Explosive",
         "MaxDamage": 45,
         "MinDamage": 35,
         "InnerRadius": 1.0,
@@ -223,10 +223,10 @@
         "GlowFadeDuration": 1.0
       },
       {
-          "Name": "Noise",
-          "SoundID": 2759590332,
-          "LocalSoundOnly": true,
-          "Trigger": "Reload" 
+        "Name": "Noise",
+        "SoundID": 2759590332,
+        "LocalSoundOnly": true,
+        "Trigger": "Reload" 
       },
 	    {
         "Name": "Projectile",
@@ -247,7 +247,92 @@
         "DamageOwner": false,
         "VisualLerpDist": 5,
         "Lifetime": 20
-	  }
+	    },
+      {
+        "Name": "Shrapnel",
+        "Count": 2, 
+        "MaxRange": 10.0,
+        "Damage": 5.0,
+        "DamageFalloff": { "x": 50, "y": 50 },
+        "PrecisionDamageMulti": 1.1,
+        "StaggerDamageMulti": 1.2,
+        "FriendlyDamageMulti": 0.5, 
+        "PierceLimit": 1,
+        "WallHandling": "Avoid", 
+        "WallHandlingDist": 10.0, 
+        "IgnoreFalloff": false, 
+        "DamageLimb": true, 
+        "IgnoreArmor": false, 
+        "IgnoreBackstab": false, 
+        "IgnoreShotMods": true, 
+        "UseParentShotMod": true, 
+        "DamageFriendly": true, 
+        "DamageOwner": true, 
+        "DamageLocks": false, 
+        "Traits": [
+          {
+            "Name": "ThickBullet",
+            "HitSize": 1.5,
+            "HitSizeFriendly": 1.0
+          }
+        ], 
+        "HitTriggerTarget": false, 
+        "RunHitTriggers": true, 
+        "Trigger": "BulletLanded"
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Properties": [
+          {
+            "Name": "Push",
+            "Force": -1,
+            "Offset": [0, 0],
+            "ApplyToTarget": false,
+            "Trigger": "Fire",
+            "VerticalScale": 0
+          }
+        ],
+        "Trigger": {
+          "Activate": "Crouch",
+          "Reset": "CrouchEnd"
+        }
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Properties": [
+          {
+            "Name": "Push",
+            "Force": -6.0,
+            "Offset": [0, 0],
+            "ApplyToTarget": false,
+            "Trigger": "Fire"
+          }
+        ],
+        "Trigger": {
+          "Activate": "Jump",
+          "Reset": "JumpEnd"
+        }
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Properties": [
+          {
+            "Name": "Push",
+            "Force": -3.0,
+            "Offset": [0, 0],
+            "ApplyToTarget": false,
+            "VerticalScale": 0,
+            "Trigger": "Fire"
+          }
+        ],
+        "Trigger": {
+          "Activate": ["CrouchEnd", "JumpEnd", "Drop"],
+          "Reset": ["Crouch", "Jump"]
+        }
+      }
     ]
   },
   {
@@ -305,13 +390,66 @@
           "DamageOwner": true,
           "DamageLocks": true,
           "HitClosestFirst": true,
-          "SoundID": 4114824873,
+          "SoundID": 2806903738,
           "EnableMineFX": true,
           "GlowColor": "#B22222",
           "GlowIntensity": 10,
           "GlowDuration": 1.0,
           "GlowFadeDuration": 0.5,
           "Trigger": "KillBullet"
+        },
+        {
+          "Name": "TempProperties",
+          "Duration": 999999,
+          "Properties": [
+            {
+              "Name": "Push",
+              "Force": -3,
+              "Offset": [0, 0],
+              "ApplyToTarget": false,
+              "VerticalScale": 0,
+              "Trigger": "Fire"
+            }
+          ],
+          "Trigger": {
+            "Activate": "Crouch",
+            "Reset": "CrouchEnd"
+          }
+        },
+        {
+          "Name": "TempProperties",
+          "Duration": 999999,
+          "Properties": [
+            {
+              "Name": "Push",
+              "Force": -10,
+              "Offset": [0, 0],
+              "ApplyToTarget": false,
+              "Trigger": "Fire"
+            }
+          ],
+          "Trigger": {
+            "Activate": "Jump",
+            "Reset": "JumpEnd"
+          }
+        },
+        {
+          "Name": "TempProperties",
+          "Duration": 999999,
+          "Properties": [
+            {
+              "Name": "Push",
+              "Force": -5,
+              "Offset": [0, 0],
+              "ApplyToTarget": false,
+              "VerticalScale": 0,
+              "Trigger": "Fire"
+            }
+          ],
+          "Trigger": {
+            "Activate": ["CrouchEnd", "JumpEnd", "Drop"],
+            "Reset": ["Crouch", "Jump"]
+          }
         },
         {
           "Name": "Noise",
@@ -354,7 +492,7 @@
           "RicochetCount": 0,
           "RicochetSpeedMod": 0,
           "RicochetSpeedAngleFactor": 0,
-          "VisualLerpDist": 3,
+          "VisualLerpDist": 4,
           "Lifetime": 60,
           "HomingSettings": {}
         },

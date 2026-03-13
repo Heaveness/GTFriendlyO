@@ -1,0 +1,100 @@
+[
+  {
+    "ArchetypeID": 201,
+    "MeleeArchetypeID": 0,
+    "Name": "Cave & Rescue - Pull",
+    "Properties": [
+      {
+          "Name": "TempProperties",
+          "Duration": 999999,
+          "Override": true,
+          "Trigger": {
+            "Activate": "Aim",
+            "Reset": "AimEnd"
+          },
+          "Properties": [
+            {
+              "Name": "Projectile",
+              "ItemID": 117,
+              "MinSpeed": 20,
+              "MaxSpeed": 20
+            },
+            {
+              "Name": "AmmoMod",
+              "ClipChange": -1,
+              "OverflowToReserve": true,
+              "Trigger": "Pre Fire"
+            },
+            {
+              "Name": "ReserveClip"
+            },
+            {
+              "Name": "AmmoRegen",
+              "ClipRegen": 2.0,
+              "ReserveRegen": 0.0,
+              "OverflowToReserve": false,
+              "PullFromReserve": true,
+              "UseRawAmmo": false,
+              "BypassReserveCap": false,
+              "AllowReload": false,
+              "ActiveInHolster": true,
+              "ResetWhileFull": true,
+              "DelayAfterTrigger": 1.0,
+              "Trigger": "Fire"
+            },
+            {
+              "Name": "Noise",
+              "SoundID": 2138546262,
+              "LocalSoundOnly": false,
+              "Trigger": "Fire" 
+            },
+            {
+              "Name": "Silence",
+              "WakeupRadius": 0,
+              "AlertRadius": 0,
+              "AlertAmount": 0,
+              "FakeAlertRadius": 0,
+              "CrossDoorMode": "None"
+            }
+          ]
+      },
+      {
+        "Name": "ReserveClip"
+      },
+      {
+        "Name": "AmmoRegen",
+        "ClipRegen": 2.0,
+        "ReserveRegen": 0.0,
+        "OverflowToReserve": false,
+        "PullFromReserve": true,
+        "UseRawAmmo": false,
+        "BypassReserveCap": false,
+        "AllowReload": false,
+        "ActiveInHolster": true,
+        "ResetWhileFull": true,
+        "DelayAfterTrigger": 1.0,
+        "Trigger": "Wield"
+      },
+      {
+        "Name": "Projectile",
+        "ItemID": 174,
+        "MinSpeed": 30,
+        "MaxSpeed": 30
+      },
+      {
+        "Name": "Noise",
+        "SoundID": 1485381151,
+        "LocalSoundOnly": false,
+        "Trigger": "Fire" 
+      },
+      {
+        "Name": "Silence",
+        "WakeupRadius": 0,
+        "AlertRadius": 0,
+        "AlertAmount": 0,
+        "FakeAlertRadius": 0,
+        "CrossDoorMode": "None"
+      }
+    ]
+  }
+]

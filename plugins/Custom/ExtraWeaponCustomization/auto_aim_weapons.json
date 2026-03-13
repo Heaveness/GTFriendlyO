@@ -58,7 +58,7 @@
         "RicochetCount": 1,
         "RicochetSpeedMod": 1,
         "RicochetSpeedAngleFactor": 0,
-        "VisualLerpDist": 3,
+        "VisualLerpDist": 4,
         "Lifetime": 30,
         "HomingSettings": {
           "InitialHomingStrength": 10.0,
