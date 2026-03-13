@@ -8,7 +8,8 @@
     "ScanDelay": 0.75,
     "PlacementTime": 0.4,
     "PickupTime": 1.0,
-    "ScanColor": "#3D85C6"
+    "ScanColor": "#3D85C6",
+    "TargetColor": "#FF0000"
   },
   {
     "ArchetypeID": 57,
@@ -19,7 +20,8 @@
     "ScanDelay": 1.5,
     "PlacementTime": 0.5,
     "PickupTime": 0.7,
-    "ScanColor": "#6AA84F"
+    "ScanColor": "#6AA84F",
+    "TargetColor": "#FF0000"
   },
   {
     "ArchetypeID": 55,
@@ -30,7 +32,8 @@
     "ScanDelay": 1.0,
     "PlacementTime": 0.4,
     "PickupTime": 0.9,
-    "ScanColor": "#F1C232"
+    "ScanColor": "#F1C232",
+    "TargetColor": "#FF0000"
   },
   {
     "ArchetypeID": 58,
@@ -41,6 +44,19 @@
     "ScanDelay": 1.25,
     "PlacementTime": 0.5,
     "PickupTime": 0.8,
-    "ScanColor": "#674EA7"
+    "ScanColor": "#674EA7",
+    "TargetColor": "#FF0000"
+  },
+  {
+    "ArchetypeID": 61,
+    "Name": "Sentry Gun - Missile",
+    "BackDamage": false,
+    "FriendlyDamageMulti": 0.5,
+    "DeployTime": 6,
+    "ScanDelay": 1.0,
+    "PlacementTime": 0.5,
+    "PickupTime": 1.5,
+    "ScanColor": "#964B00",
+    "TargetColor": "#FF0000"
   }
 ]
