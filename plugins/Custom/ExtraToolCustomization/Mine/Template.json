@@ -62,7 +62,7 @@
     "PickupTime": 2.0,
     "FoamData": {
       "BubbleDelay": 0, 
-      "BubbleCount": 22,
+      "BubbleCount": 25,
       "BubbleAngle": 14,
       "BubbleSpeedMin": 7, 
       "BubbleSpeedMax": 13,
