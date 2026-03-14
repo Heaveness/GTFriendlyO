@@ -183,7 +183,7 @@
     * Minimum Effective Distance: `7.5m`
     * Maximum Effective Distance: `15.0m`
     * Beam Length: `15.0m`
-    * Foam Bubble Count: `22`
+    * Foam Bubble Count: `25`
     * Placement Time/Cooldown/Pickup: `2.0s`
 > Dev Note: The purpose for this weapon is for supports and demolitionist to have a different non-lethal alternative to the explosive mines. I will be carefully observing if this support item is worth bringing compare to others.
 * **Mastaba Search & Rescue:**
@@ -195,14 +195,14 @@
         * Costs: `2` ammo per shot
         * Will trigger `booster conditionals`
         * Effected by `boosters/class`
-    * Max Ammo: `20`
+    * Max Ammo: `30`
     * Silence:
         * Wake Up Radius: `4.0m`
         * Alert Radius: `8.0m`
         * Alert Amount: `40%` (Sleepers awake at 100%)
 > Dev Note: The ability to use Glowsticks and Fog Repellers on demand can help teammates significantly in rundowns that originally had none of these items spawn. While it can take up a Tool spot, it will open up your utility slot for other items.
 * **Bio-Tag Rocket Turret:**
-* There is no stat description for this turret because of issues with vanilla GTFO not playing nice with another mod. Unfortunately, I cannot fix it on my end.
+* There is no stat description for this turret because of issues with vanilla GTFO not playing nice with another mod. Unfortunately, I cannot fix it on my end. Please refer to the wiki for stats.
     * Direct Damage: `5.0`
     * Explosive Damage: `40.0`
     * Explosive Radius: `4.5m`
