@@ -182,7 +182,7 @@
         "DamageOwner": false,
         "HitFromOwnerPos": false,
         "HitCooldown": -1,
-        "HitIgnoreWallsDuration": 15,
+        "HitIgnoreWallsDuration": -1,
         "RicochetCount": 5,
         "RicochetSpeedMod": 0.05,
         "RicochetSpeedAngleFactor": 0,
