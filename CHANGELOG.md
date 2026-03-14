@@ -66,7 +66,7 @@
     * Increased Effective Range from `5.0m` to `6.0m`
 * MP2:
     * Increased Effective Range from `6.0m` to `7.0m`
-* Reserve Shotgun:
+* Hemorrhage Shotgun:
     * Increased Effective Range from `8.0m` to `9.0m`
 * Foam Shotgun:
     * Increased Effective Range from `8.0m` to `9.0m`
@@ -97,7 +97,7 @@
     * Added `Push` property when using `Aim` Trait
         * Standing/Crouching/Jumping: `-12.0m`
 > Dev Note: Base force does not take in account gravity, movement direction, obstacles and friction. Most often the distance covered here is less because of the factors mentioned above. Of course this might cause you to get stuck in certain objects or obstacles, so use with caution.
-* High-Cal Pistol:
+* Bolt Pistol:
     * Added `Push` property when shooting based on standing/crouching/jumping
         * Standing: `-2.0m`
         * Crouching: `-1.0m`
@@ -131,7 +131,7 @@
 * Explosive Shotgun:
     * Added `Push` property when shooting based on standing/crouching/jumping
         * Standing: `-3.0m`
-        * Crouching: `1.0m`
+        * Crouching: `-1.0m`
         * Jumping: `-6.0m`
 > Dev Note: You will be pushed back when shooting and can use it to get to hard-to-reach areas. Also you can even use it to create space in tight situations, if you jump and shoot. For guns like the HMG/LMG, Snipers, and High-Cal Pistol is to sell their overall firepower. Additionally it incentizes players to crouch when shooting.
 
