@@ -174,7 +174,7 @@
       {
         "Name": "ArmorShred",
         "Mod": 2.3,                             
-        "Duration": 4.0,          
+        "Duration": 4.5,          
         "StackType": "Override",  
         "CombineModifiers": false,
         "Trigger": {
