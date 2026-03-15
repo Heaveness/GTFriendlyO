@@ -56,6 +56,7 @@
     * You won't feel much difference on smaller rooms or maps. You might feel some difference on medium rooms. And you will feel especially on larger rooms.
     * Of course the exception are short-range guns(Shotguns and SMGs) will require players to fight in closer engagments. So to compensate, their low effective ranges were slightly increased.
 * Improved Visual Lerp Distance for projectile guns for better visual feedback when shooting.
+* Projectiles now trigger tripmines.
 * Triple Barrel Shotgun:
     * Increased Effective Range from `5.0m` to `6.0m`
 * Pump Action Shotgun:
@@ -160,8 +161,13 @@
     * Decreased Maximum Effective Distance from `12.0m` to `10.0m`
     * Decreased Beam Length from `20.0m` to `10.0m`
     * Decreased Foam Bubble Count from `17` to `15`
+    * Increased Placement Range from `2.5m` to `3.0m`
     * Decreased Placement Cooldown from `2.0s` to `0.5s`
 > Dev Note: These changes are to align with the explosive mines for better consistency.
+* Consumable Explosive Mine:
+    * Increased Placement Range from `2.5m` to `3.0m`
+* Explosive Mine Deployer:
+    * Increased Placement Range from `2.5m` to `6.0m`
 * 4-Burst Turret:
     * Increased Direct Damage from `4.6` to `5.2`
     * Decreased Shot Delay from `0.1s` to `0.05s`
@@ -184,6 +190,7 @@
     * Maximum Effective Distance: `15.0m`
     * Beam Length: `15.0m`
     * Foam Bubble Count: `25`
+    * Placement Range: `6.0m`
     * Placement Time/Cooldown/Pickup: `2.0s`
 > Dev Note: The purpose for this weapon is for supports and demolitionist to have a different non-lethal alternative to the explosive mines. I will be carefully observing if this support item is worth bringing compare to others.
 * **Mastaba Search & Rescue:**
@@ -252,6 +259,11 @@
     * Flames will "stay" on the ground up to a few seconds which will apply damage
 > Dev Note: This tool usage is on the higher-end of the performance, so on lower-end PCs there might be noticeable impacts when using this weapon. Please let me know on my [Github](https://github.com/Heaveness/GTFriendlyO/issues) issue page if there are problems.
 
+### Melee Tweaks:
+* Sledgehammer:
+    * Increased Armor Shred Duration from `4.0s` to `4.5s`
+> Dev Note: This tiny change is to prevent potential loss of packets(lag) when applying it on a target. 
+
 ### Booster Tweaks:
 * Changed text from `99 Uses Left` to `Infinite Uses`
 * Initial Main/Special Ammo `Muted` Booster:
@@ -276,6 +288,7 @@
     * Fixed errors regarding reserve shotgun and explosive shotgun's spread being not considered.
 * Updated README.md file
     * Added more tools into the tool section
+    * Improved the tagline of the modpack to better describe the modpack's vision.
 
 ---
 

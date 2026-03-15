@@ -2,17 +2,17 @@
     "name": "GTFriendlyO",
     "version_number": "2.2.0",
     "website_url": "https://github.com/Heaveness/GTFriendlyO",
-    "description": "A major overhaul of GTFO's vanilla gameplay, designed for a bit more casual but still fun, challenging, and rewarding experience with friends.",
+    "description": "A major overhaul of GTFO's vanilla gameplay, designed to bring more depth WITHOUT sacrificing the challenging and rewarding experience with friends.",
     "dependencies": [
         "BepInEx-BepInExPack_GTFO-3.2.2",
         "dakkhuza-MTFO-4.6.3",
         "Dinorush-ModifierAPI-1.2.1",
-        "Dinorush-ExtraWeaponCustomization-4.8.1",
+        "Dinorush-ExtraWeaponCustomization-4.9.0",
         "ProjectZaero-Junkie_Syringe_Pack-2.6.0",
         "Panthr75-ExtraSyringeCustomization-0.3.11",
         "GTFOModding-InjectLib-1.1.0",
         "hirnukuono-EEC_H-1.8.24",
-        "Dinorush-ExtraToolCustomization-1.6.0",
+        "Dinorush-ExtraToolCustomization-1.6.1",
         "dakkhuza-FloatingTextAPI-1.0.5",
         "Endskill-GTFuckingXP-2.5.7",
         "Untilted-LightsAdjustment-1.1.2",
@@ -47,7 +47,7 @@
         "Dinorush-ReDownFix-1.0.1",
         "tru0067-PierceBugFix-1.2.2",
         "GTFOModding-WeaponIconPlus-1.8.0",
-        "HazardousMonkey-Minimap-1.0.1",
-        "food-Spectate-1.5.8"
+        "HazardousMonkey-Minimap-1.1.0",
+        "food-Spectate-1.5.9"
     ]
 }

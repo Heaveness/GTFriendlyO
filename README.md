@@ -2,7 +2,7 @@
 
 ### Description:
 
-A major overhaul of GTFO's vanilla gameplay, designed for a bit more casual but still fun, challenging, and rewarding experience with friends.
+A major overhaul of GTFO's vanilla gameplay, designed to bring more depth WITHOUT sacrificing the challenging and rewarding experience with friends.
 
 As a long-time GTFO player, I've felt the base game lacked a bit of variety in certain aspects of its gameplay. After running several Rundowns with friends, we all agreed the game needed a bit more spice. This mod focuses on creating a more casual-friendly co-op experience **WITHOUT** removing all of the tension or challenge from the game. This is NOT a hardcore or hyper-realism mod setup, nor will it ever be. Instead, it makes GTFO more accessible by giving players additional "tools" to tackle the depths. The enemies have also received some love too, so it's not completely one-sided powerup.
 
