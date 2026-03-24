@@ -12,7 +12,8 @@
 ### Mod Updates + Additions:
 * Updated `ExtraWeaponCustomization` mod
 * Updated `Spectate` mod
-* 
+* Added `PingableJunkieSyringes` mod by JarheadHME
+    * Custom syringes weren't showing nor were they pingable which can cause a couple of issues of miscommunications.
 
 ### Weapon Additions:
 * Added `2` new custom weapon!
@@ -26,8 +27,8 @@
     * Pierce Targets: `1.0`
     * Effective Range: `30.0m`
     * Hit Size: `+0.25m`
-    * Stagger Multiplier: `2.0x`
-    * Precision Multiplier: `3.0x`
+    * Stagger Multiplier: `1.5x`
+    * Precision Multiplier: `2.75x`
     * Silenced, does not alert enemies
     * Regular Bolts: (Default Keybind: KeypadPeriod[KeyConfig3])
         * Ballistics Type: `Fast Projectile Low Gravity`
@@ -50,7 +51,7 @@
         * Foam Chance: `Override Guaranteed`
         * Foam Doors: `Yes`
         * Foam Door Requirements: `1` bolt if you hit the door after the first foam bolt hits
-> Dev Note: The first "silent" weapon in the pack. To prevent this weapon's imbalance nature, I made it limited its effectiveness to mainly stealth. As the damage will be significantly more reliable in stealth scenarios. Its low max ammo capacity encourages players to shoot with purpose, as kills will refund only 1 ammo per target.
+> Dev Note: The first "silent" weapon in the pack. To prevent this weapon's potential imbalance nature, the damage will be significantly more reliable in stealth scenarios. Its low max ammo capacity encourages players to shoot with purpose, as kills will refund only 1 ammo per target.
 
 * **Techman Wisp Thrower:**
 * An experimental entity that floats mid-air and attacks nearby targets until it bursts into several quills at the end of its life.
