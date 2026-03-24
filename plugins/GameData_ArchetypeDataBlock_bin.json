@@ -1333,7 +1333,7 @@
       "PublicName": "Healing/Venomous Subgun (SMG)",
       "Description": "<color=yellow>Traits: Healing darts(ally) & Venom darts(enemy) & Ability disabler(except Scout screams)</color>",
       "FireMode": 1,
-      "RecoilDataID": 2,
+      "RecoilDataID": 11,
       "DamageBoosterEffect": 51,
       "Damage": 1.0,
       "DamageFalloff": {
@@ -1343,7 +1343,7 @@
           "x": 0.108447507,
           "y": 0.9941022,
           "magnitude": 1.0,
-          "sqrMagnitude": 1.0
+          "sqrMagnitude": 1.0 
         },
         "magnitude": 55.3263054,
         "sqrMagnitude": 3061.0
@@ -1398,7 +1398,7 @@
       "AimTransitionTime": 0.25,
       "AimSequence": [],
       "BurstDelay": 1.0,
-      "BurstShotCount": 2,
+      "BurstShotCount": 1,
       "ShotgunBulletCount": 0,
       "ShotgunConeSize": 0,
       "ShotgunBulletSpread": 0,
@@ -2813,7 +2813,7 @@
       "PrecisionDamageMulti": 0.75,
       "DefaultClipSize": 8,
       "DefaultReloadTime": 2.5,
-      "CostOfBullet": 11.0,
+      "CostOfBullet": 8.8,
       "ShotDelay": 0.6,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -4642,7 +4642,7 @@
       "PrecisionDamageMulti": 0.75,
       "DefaultClipSize": 3,
       "DefaultReloadTime": 1.5,
-      "CostOfBullet": 8.0,
+      "CostOfBullet": 7.0,
       "ShotDelay": 0.25,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -5366,7 +5366,7 @@
       ],
       "AimTransitionTime": 0.35,
       "AimSequence": [],
-      "BurstDelay": 2.0,
+      "BurstDelay": 1.8,
       "BurstShotCount": 4,
       "ShotgunBulletCount": 0,
       "ShotgunConeSize": 0,
@@ -5693,7 +5693,7 @@
       "FireMode": 2,
       "RecoilDataID": 34,
       "DamageBoosterEffect": 62,
-      "Damage": 1.0,
+      "Damage": 0.5,
       "DamageFalloff": {
         "x": 10.0,
         "y": 20.0,
@@ -5783,6 +5783,206 @@
       "name": "GEAR_Flamethower",
       "internalEnabled": true,
       "persistentID": 101
+    },
+    {
+      "PublicName": "Hunting Crossbow (DMR)",
+      "Description": "<color=yellow>Traits: Silent/Accurate/Recoiless, Switch between Regular/Naplam/Foam payload(EWC keybind configs), & Refund 1 ammo per target killed w/Regular </color>",
+      "FireMode": 0,
+      "RecoilDataID": 11,
+      "DamageBoosterEffect": 52,
+      "Damage": 10.0,
+      "DamageFalloff": {
+        "x": 35.0,
+        "y": 70.0,
+        "normalized": {
+          "x": 0.148340449,
+          "y": 0.9889363,
+          "normalized": {
+            "x": 0.148340464,
+            "y": 0.988936365,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 40.4475,
+        "sqrMagnitude": 1636.0
+      },
+      "StaggerDamageMulti": 2.0,
+      "PrecisionDamageMulti": 3.0,
+      "DefaultClipSize": 1,
+      "DefaultReloadTime": 3.5,
+      "CostOfBullet": 38.0,
+      "ShotDelay": 0.75,
+      "ShellCasingSize": 1.5,
+      "ShellCasingSpeedRange": {
+        "x": 3.0,
+        "y": 5.0,
+        "normalized": {
+          "x": 0.5144958,
+          "y": 0.857493,
+          "normalized": {
+            "x": 0.51449573,
+            "y": 0.857492864,
+            "normalized": {
+              "x": 0.5144958,
+              "y": 0.8574929,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
+          },
+          "magnitude": 1.00000012,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 5.83095169,
+        "sqrMagnitude": 34.0
+      },
+      "PiercingBullets": true,
+      "PiercingDamageCountLimit": 1,
+      "HipFireSpread": 0.0,
+      "AimSpread": 0.0,
+      "EquipTransitionTime": 0.6,
+      "EquipSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": 0,
+          "StringData": "Front_Shotgun_3_equip_weaponmovement"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": 7
+        }
+      ],
+      "AimTransitionTime": 0.3,
+      "AimSequence": [],
+      "BurstDelay": 0.0,
+      "BurstShotCount": 0,
+      "ShotgunBulletCount": 0,
+      "ShotgunConeSize": 0,
+      "ShotgunBulletSpread": 0,
+      "SpecialChargetupTime": 0.0,
+      "SpecialCooldownTime": 0.0,
+      "SpecialSemiBurstCountTimeout": 0.0,
+      "Sentry_StartFireDelay": 1.0,
+      "Sentry_RotationSpeed": 4.0,
+      "Sentry_DetectionMaxRange": 25.0,
+      "Sentry_DetectionMaxAngle": 30.0,
+      "Sentry_FireTowardsTargetInsteadOfForward": false,
+      "Sentry_ForceAimTowardsBody": false,
+      "Sentry_LongRangeThreshold": 999.0,
+      "Sentry_ShortRangeThreshold": 0.0,
+      "Sentry_LegacyEnemyDetection": true,
+      "Sentry_FireTagOnly": false,
+      "Sentry_PrioTag": false,
+      "Sentry_StartFireDelayTagMulti": 1.0,
+      "Sentry_RotationSpeedTagMulti": 1.0,
+      "Sentry_DamageTagMulti": 1.0,
+      "Sentry_StaggerDamageTagMulti": 1.0,
+      "Sentry_CostOfBulletTagMulti": 1.0,
+      "Sentry_ShotDelayTagMulti": 1.0,
+      "name": "GEAR_Crossbow",
+      "internalEnabled": true,
+      "persistentID": 105
+    },
+    {
+      "PublicName": "Wisp Launcher (???)",
+      "Description": "<color=yellow>Traits: Clip Regen after delay(no reload), & Wisp fires 2 homing quills at nearby targets</color>",
+      "FireMode": 1,
+      "RecoilDataID": 24,
+      "DamageBoosterEffect": 61,
+      "Damage": 1.0,
+      "DamageFalloff": {
+        "x": 25.0,
+        "y": 50.0,
+        "normalized": {
+          "x": 0.184288532,
+          "y": 0.9828722,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 81.394104,
+        "sqrMagnitude": 6625.0
+      },
+      "StaggerDamageMulti": 0.5,
+      "PrecisionDamageMulti": 1.1,
+      "DefaultClipSize": 2,
+      "DefaultReloadTime": 10.5,
+      "CostOfBullet": 17.9,
+      "ShotDelay": 0.06,
+      "ShellCasingSize": 1.0,
+      "ShellCasingSpeedRange": {
+        "x": 3.0,
+        "y": 5.0,
+        "normalized": {
+          "x": 0.5144958,
+          "y": 0.857493,
+          "normalized": {
+            "x": 0.51449573,
+            "y": 0.857492864,
+            "normalized": {
+              "x": 0.5144958,
+              "y": 0.8574929,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
+          },
+          "magnitude": 1.00000012,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 5.83095169,
+        "sqrMagnitude": 34.0
+      },
+      "PiercingBullets": false,
+      "PiercingDamageCountLimit": 5,
+      "HipFireSpread": 0.0,
+      "AimSpread": 0.0,
+      "EquipTransitionTime": 1.0,
+      "EquipSequence": [
+        {
+          "TriggerTime": 0.0,
+          "Type": 0,
+          "StringData": "Front_Machinegun_1_equip_weaponmovement"
+        },
+        {
+          "TriggerTime": 2.0,
+          "Type": 7
+        }
+      ],
+      "AimTransitionTime": 0.35,
+      "AimSequence": [],
+      "BurstDelay": 0.3,
+      "BurstShotCount": 1,
+      "ShotgunBulletCount": 0,
+      "ShotgunConeSize": 0,
+      "ShotgunBulletSpread": 0,
+      "SpecialChargetupTime": 0.8,
+      "SpecialCooldownTime": 0.5,
+      "SpecialSemiBurstCountTimeout": 0.5,
+      "Sentry_StartFireDelay": 1.0,
+      "Sentry_RotationSpeed": 4.0,
+      "Sentry_DetectionMaxRange": 25.0,
+      "Sentry_DetectionMaxAngle": 30.0,
+      "Sentry_FireTowardsTargetInsteadOfForward": false,
+      "Sentry_ForceAimTowardsBody": false,
+      "Sentry_LongRangeThreshold": 999.0,
+      "Sentry_ShortRangeThreshold": 0.0,
+      "Sentry_LegacyEnemyDetection": true,
+      "Sentry_FireTagOnly": false,
+      "Sentry_PrioTag": false,
+      "Sentry_StartFireDelayTagMulti": 1.0,
+      "Sentry_RotationSpeedTagMulti": 1.0,
+      "Sentry_DamageTagMulti": 1.0,
+      "Sentry_StaggerDamageTagMulti": 1.0,
+      "Sentry_CostOfBulletTagMulti": 1.0,
+      "Sentry_ShotDelayTagMulti": 1.0,
+      "name": "GEAR_Wisp_Launcher",
+      "internalEnabled": true,
+      "persistentID": 102
     }
   ],
   "LastPersistentID": 81

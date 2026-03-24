@@ -95,6 +95,13 @@
     },
     {
       "Type": 1,
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Hanaway Hunting Crossbow\",\"Packet\":{\"Comps\":{\"Length\":15,\"a\":{\"c\":2,\"v\":103},\"b\":{\"c\":3,\"v\":108},\"c\":{\"c\":4,\"v\":6},\"d\":{\"c\":5,\"v\":52},\"e\":{\"c\":6,\"v\":1},\"f\":{\"c\":8,\"v\":18},\"g\":{\"c\":9,\"v\":13},\"h\":{\"c\":10,\"v\":22},\"i\":{\"c\":11,\"v\":22},\"j\":{\"c\":12,\"v\":95},\"k\":{\"c\":16,\"v\":12},\"l\":{\"c\":19,\"v\":9},\"m\":{\"c\":21,\"v\":50},\"n\":{\"c\":25,\"v\":5}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":-0.202,\"y\":0.012,\"normalized\":{\"x\":-0.9982401,\"y\":0.05930139,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.20235613,\"sqrMagnitude\":0.0409480035},\"scale\":0.07},\"tDecalB\":{\"position\":{\"x\":-0.2,\"y\":0.01,\"normalized\":{\"x\":-0.9987523,\"y\":0.0499376133,\"normalized\":{\"x\":-0.998752356,\"y\":0.049937617,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.99999994,\"sqrMagnitude\":0.99999994},\"magnitude\":0.200249851,\"sqrMagnitude\":0.0401},\"scale\":0.07},\"tPattern\":{\"position\":{\"x\":-0.1,\"y\":0.032,\"normalized\":{\"x\":-0.9524241,\"y\":0.3047757,\"normalized\":{\"x\":-0.952424169,\"y\":0.304775745,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.99999994,\"sqrMagnitude\":0.99999994},\"magnitude\":0.104995243,\"sqrMagnitude\":0.011024},\"angle\":-140.0,\"scale\":0.1}},\"publicName\":{\"data\":\"Hanaway K330\"}}}",
+      "name": "Crossbow",
+      "internalEnabled": true,
+      "persistentID": 100
+    },
+    {
+      "Type": 1,
       "GearJSON": "{\"Ver\":1,\"Name\":\"Malatack AR-30\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":2},\"b\":{\"c\":2,\"v\":22},\"c\":{\"c\":3,\"v\":109},\"d\":{\"c\":4,\"v\":1},\"e\":{\"c\":5,\"v\":42},\"f\":{\"c\":6,\"v\":1},\"g\":{\"c\":7,\"v\":3},\"h\":{\"c\":8,\"v\":17},\"i\":{\"c\":9,\"v\":6},\"j\":{\"c\":10,\"v\":12},\"k\":{\"c\":11,\"v\":12},\"l\":{\"c\":12,\"v\":28},\"m\":{\"c\":16,\"v\":9},\"n\":{\"c\":19,\"v\":3},\"o\":{\"c\":21,\"v\":45},\"p\":{\"c\":23,\"v\":1},\"q\":{\"c\":25,\"v\":5}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.045,\"y\":0.025,\"normalized\":{\"x\":0.8741573,\"y\":0.48564294,\"magnitude\":1.0,\"sqrMagnitude\":1.00000012},\"magnitude\":0.05147815,\"sqrMagnitude\":0.00265000015},\"angle\":90.0,\"scale\":0.1},\"tDecalB\":{\"position\":{\"x\":0.05,\"y\":0.03,\"normalized\":{\"x\":0.857493,\"y\":0.51449573,\"magnitude\":1.0,\"sqrMagnitude\":1.00000012},\"magnitude\":0.0583095178,\"sqrMagnitude\":0.0034},\"angle\":90.0,\"scale\":0.1},\"tPattern\":{\"position\":{\"x\":0.05,\"y\":0.03,\"normalized\":{\"x\":0.857493,\"y\":0.51449573,\"magnitude\":1.0,\"sqrMagnitude\":1.00000012},\"magnitude\":0.0583095178,\"sqrMagnitude\":0.0034},\"angle\":-90.0,\"scale\":0.1}},\"publicName\":{\"data\":\"Malatack HXC\"}}}",
       "name": "RifleHeavyAuto",
       "internalEnabled": true,
@@ -137,7 +144,7 @@
     },
     {
       "Type": 1,
-      "GearJSON": "{\"Ver\":1,\"Name\":\"Omneco Tracker Rifle\",\"Packet\":{\"Comps\":{\"Length\":17,\"a\":{\"c\":2,\"v\":34},\"b\":{\"c\":3,\"v\":109},\"c\":{\"c\":4,\"v\":47},\"d\":{\"c\":5,\"v\":51},\"e\":{\"c\":6,\"v\":1},\"f\":{\"c\":7,\"v\":5},\"g\":{\"c\":8,\"v\":18},\"h\":{\"c\":9,\"v\":10},\"i\":{\"c\":10,\"v\":27},\"j\":{\"c\":11,\"v\":15},\"k\":{\"c\":12,\"v\":19},\"l\":{\"c\":16,\"v\":1},\"m\":{\"c\":19,\"v\":1},\"n\":{\"c\":21,\"v\":14},\"o\":{\"c\":23,\"v\":12},\"p\":{\"c\":25,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.04,\"y\":0.04,\"normalized\":{\"x\":0.707106769,\"y\":0.707106769,\"magnitude\":1.0,\"sqrMagnitude\":0.99999994},\"magnitude\":0.05656854,\"sqrMagnitude\":0.0032},\"scale\":0.08},\"tDecalB\":{\"position\":{\"x\":0.48,\"normalized\":{\"x\":1.0,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.48,\"sqrMagnitude\":0.2304},\"scale\":0.3},\"tPattern\":{\"position\":{\"y\":0.04,\"normalized\":{\"y\":1.0,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.04,\"sqrMagnitude\":0.0016},\"angle\":-90.0,\"scale\":0.2}},\"publicName\":{\"data\":\"Drekker DEL P1\"}}}",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Omneco Tracker Rifle\",\"Packet\":{\"Comps\":{\"Length\":17,\"a\":{\"c\":2,\"v\":34},\"b\":{\"c\":3,\"v\":109},\"c\":{\"c\":4,\"v\":47},\"d\":{\"c\":5,\"v\":51},\"e\":{\"c\":6,\"v\":1},\"f\":{\"c\":7,\"v\":5},\"g\":{\"c\":8,\"v\":18},\"h\":{\"c\":9,\"v\":10},\"i\":{\"c\":10,\"v\":27},\"j\":{\"c\":11,\"v\":15},\"k\":{\"c\":12,\"v\":92},\"l\":{\"c\":16,\"v\":9},\"m\":{\"c\":19,\"v\":1},\"n\":{\"c\":21,\"v\":14},\"o\":{\"c\":23,\"v\":1},\"p\":{\"c\":25,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.04,\"y\":0.04,\"normalized\":{\"x\":0.707106769,\"y\":0.707106769,\"magnitude\":1.0,\"sqrMagnitude\":0.99999994},\"magnitude\":0.05656854,\"sqrMagnitude\":0.0032},\"scale\":0.08},\"tDecalB\":{\"position\":{\"x\":0.48,\"normalized\":{\"x\":1.0,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.48,\"sqrMagnitude\":0.2304},\"scale\":0.3},\"tPattern\":{\"position\":{\"y\":0.04,\"normalized\":{\"y\":1.0,\"magnitude\":1.0,\"sqrMagnitude\":1.0},\"magnitude\":0.04,\"sqrMagnitude\":0.0016},\"angle\":-90.0,\"scale\":0.2}},\"publicName\":{\"data\":\"Drekker DEL P1\"}}}",
       "name": "Precision_Rifle",
       "internalEnabled": true,
       "persistentID": 62
@@ -214,7 +221,14 @@
     },
     {
       "Type": 1,
-      "GearJSON": "{\"Ver\":1,\"Name\":\"Van Auken Heavy Revolver\",\"Packet\":{\"Comps\":{\"Length\":14,\"a\":{\"c\":2,\"v\":7},\"b\":{\"c\":3,\"v\":109},\"c\":{\"c\":4,\"v\":7},\"d\":{\"c\":5,\"v\":29},\"e\":{\"c\":6,\"v\":1},\"f\":{\"c\":8,\"v\":7},\"g\":{\"c\":9,\"v\":14},\"h\":{\"c\":10,\"v\":20},\"i\":{\"c\":11,\"v\":35},\"j\":{\"c\":12,\"v\":70},\"k\":{\"c\":16,\"v\":16},\"l\":{\"c\":19,\"v\":59},\"m\":{\"c\":25,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.17,\"y\":0.02},\"scale\":0.06},\"tDecalB\":{\"position\":{\"x\":0.17,\"y\":-0.015},\"scale\":0.2},\"tPattern\":{\"position\":{\"x\":0.24,\"y\":0.0},\"scale\":0.5}},\"publicName\":{\"data\":\"Mastaba R66\"}}}",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Techman Wisp Launcher\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":1},\"b\":{\"c\":2,\"v\":105},\"c\":{\"c\":3,\"v\":109},\"d\":{\"c\":4,\"v\":3},\"e\":{\"c\":5,\"v\":52},\"f\":{\"c\":6,\"v\":1},\"g\":{\"c\":8,\"v\":18},\"h\":{\"c\":9,\"v\":8},\"i\":{\"c\":10,\"v\":27},\"j\":{\"c\":11,\"v\":26},\"k\":{\"c\":12,\"v\":97},\"l\":{\"c\":16,\"v\":57},\"m\":{\"c\":19,\"v\":0},\"n\":{\"c\":21,\"v\":11},\"o\":{\"c\":23,\"v\":0},\"p\":{\"c\":25,\"v\":5}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":-0.05,\"y\":0.01},\"scale\":0.1},\"tDecalB\":{\"position\":{\"x\":-0.05,\"y\":0.01},\"scale\":0.1},\"tPattern\":{\"position\":{\"x\":0.17,\"y\":0.05},\"angle\":-135.0,\"scale\":0.2}},\"publicName\":{\"data\":\"TechMan Klust 6\"}}}",
+      "name": "WispLauncher",
+      "internalEnabled": true,
+      "persistentID": 103
+    },
+    {
+      "Type": 1,
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Van Auken Heavy Revolver\",\"Packet\":{\"Comps\":{\"Length\":14,\"a\":{\"c\":2,\"v\":7},\"b\":{\"c\":3,\"v\":109},\"c\":{\"c\":4,\"v\":7},\"d\":{\"c\":5,\"v\":29},\"e\":{\"c\":6,\"v\":1},\"f\":{\"c\":8,\"v\":7},\"g\":{\"c\":9,\"v\":14},\"h\":{\"c\":10,\"v\":20},\"i\":{\"c\":11,\"v\":35},\"j\":{\"c\":12,\"v\":70},\"k\":{\"c\":16,\"v\":16},\"l\":{\"c\":19,\"v\":14},\"m\":{\"c\":25,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.17,\"y\":0.02},\"scale\":0.06},\"tDecalB\":{\"position\":{\"x\":0.17,\"y\":-0.015},\"scale\":0.2},\"tPattern\":{\"position\":{\"x\":0.24,\"y\":0.0},\"scale\":0.5}},\"publicName\":{\"data\":\"Mastaba R66\"}}}",
       "name": "RevolverSemi",
       "internalEnabled": true,
       "persistentID": 15
@@ -305,7 +319,7 @@
     },
     {
       "Type": 1,
-      "GearJSON": "{\"Ver\":1,\"Name\":\"Mastaba Search & Rescue\",\"Packet\":{\"Comps\":{\"Length\":16,\"a\":{\"c\":1,\"v\":0},\"b\":{\"c\":2,\"v\":202},\"c\":{\"c\":3,\"v\":201},\"d\":{\"c\":4,\"v\":2},\"e\":{\"c\":5,\"v\":52},\"f\":{\"c\":6,\"v\":1},\"g\":{\"c\":7,\"v\":1},\"h\":{\"c\":8,\"v\":15},\"i\":{\"c\":9,\"v\":5},\"j\":{\"c\":10,\"v\":17},\"k\":{\"c\":11,\"v\":17},\"l\":{\"c\":12,\"v\":87},\"m\":{\"c\":16,\"v\":8},\"n\":{\"c\":19,\"v\":8},\"o\":{\"c\":25,\"v\":3}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.07,\"y\":0.0},\"angle\":45.0,\"scale\":0.1},\"tDecalB\":{\"position\":{\"x\":0.075,\"y\":0.003},\"angle\":45.0,\"scale\":0.1},\"tPattern\":{\"position\":{\"x\":0.02,\"y\":0.0},\"angle\":200.0,\"scale\":0.5}},\"publicName\":{\"data\":\"LTC5\"}}}",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Mastaba Search & Rescue\",\"Packet\":{\"Comps\":{\"Length\":15,\"a\":{\"c\":1,\"v\":0},\"b\":{\"c\":2,\"v\":202},\"c\":{\"c\":3,\"v\":201},\"d\":{\"c\":4,\"v\":2},\"e\":{\"c\":5,\"v\":52},\"f\":{\"c\":6,\"v\":1},\"g\":{\"c\":8,\"v\":15},\"h\":{\"c\":9,\"v\":5},\"i\":{\"c\":10,\"v\":17},\"j\":{\"c\":11,\"v\":17},\"k\":{\"c\":12,\"v\":87},\"l\":{\"c\":16,\"v\":8},\"m\":{\"c\":19,\"v\":8},\"n\":{\"c\":25,\"v\":3}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.07,\"y\":0.0},\"angle\":45.0,\"scale\":0.1},\"tDecalB\":{\"position\":{\"x\":0.075,\"y\":0.003},\"angle\":45.0,\"scale\":0.1},\"tPattern\":{\"position\":{\"x\":0.02,\"y\":0.0},\"angle\":200.0,\"scale\":0.5}},\"publicName\":{\"data\":\"LTC5\"}}}",
       "name": "Tool_Rescue",
       "internalEnabled": true,
       "persistentID": 5001
@@ -333,7 +347,7 @@
     },
     {
       "Type": 1,
-      "GearJSON": "{\"Ver\":1,\"Name\":\"Krieg Exterminatus Flamer Tool\",\"Packet\":{\"Comps\":{\"Length\":18,\"a\":{\"c\":1,\"v\":2},\"b\":{\"c\":2,\"v\":100},\"c\":{\"c\":3,\"v\":191},\"d\":{\"c\":4,\"v\":3},\"e\":{\"c\":5,\"v\":52},\"f\":{\"c\":6,\"v\":1},\"g\":{\"c\":7,\"v\":3},\"h\":{\"c\":8,\"v\":10},\"i\":{\"c\":9,\"v\":10},\"j\":{\"c\":10,\"v\":13},\"k\":{\"c\":11,\"v\":14},\"l\":{\"c\":12,\"v\":67},\"m\":{\"c\":16,\"v\":8},\"n\":{\"c\":19,\"v\":57},\"o\":{\"c\":21,\"v\":49},\"p\":{\"c\":23,\"v\":11},\"q\":{\"c\":25,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.1,\"y\":0.02},\"angle\":180.0,\"scale\":0.4},\"tDecalB\":{\"position\":{\"x\":-0.07,\"y\":0.03},\"angle\":-90.0,\"scale\":0.05},\"tPattern\":{\"angle\":-90.0,\"scale\":0.1}},\"publicName\":{\"data\":\"XII\"}}}",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Krieg Exterminatus Flamer Tool\",\"Packet\":{\"Comps\":{\"Length\":17,\"a\":{\"c\":1,\"v\":2},\"b\":{\"c\":2,\"v\":100},\"c\":{\"c\":3,\"v\":191},\"d\":{\"c\":4,\"v\":3},\"e\":{\"c\":5,\"v\":52},\"f\":{\"c\":6,\"v\":1},\"g\":{\"c\":8,\"v\":10},\"h\":{\"c\":9,\"v\":10},\"i\":{\"c\":10,\"v\":13},\"j\":{\"c\":11,\"v\":14},\"k\":{\"c\":12,\"v\":67},\"l\":{\"c\":16,\"v\":8},\"m\":{\"c\":19,\"v\":57},\"n\":{\"c\":21,\"v\":33},\"o\":{\"c\":23,\"v\":11},\"p\":{\"c\":25,\"v\":2}},\"MatTrans\":{\"tDecalA\":{\"position\":{\"x\":0.1,\"y\":0.02},\"angle\":180.0,\"scale\":0.4},\"tDecalB\":{\"position\":{\"x\":-0.07,\"y\":0.03},\"angle\":-90.0,\"scale\":0.05},\"tPattern\":{\"angle\":-90.0,\"scale\":0.1}},\"publicName\":{\"data\":\"XII\"}}}",
       "name": "Flamethrower",
       "internalEnabled": true,
       "persistentID":5000

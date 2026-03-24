@@ -2045,18 +2045,8 @@
       ],
       "eventOnChargeupEnd3D": "PrecisionChargeUpEnd",
       "eventOnCooldownEnd3D": "PrecisionCooldownEnd",
-      "eventOnSyncedBurstFirePerShot3D": [
-        "PrecisionBodyA3D",
-        "PrecisionMechA3D",
-        "PrecisionNoiseA3D",
-        "PrecisionWet3D"
-      ],
-      "eventOnSyncedAutoFirePerShot3D": [
-        "PrecisionBodyA3D",
-        "PrecisionMechA3D",
-        "PrecisionNoiseA3D",
-        "PrecisionWet3D"
-      ],
+      "eventOnSyncedBurstFirePerShot3D": [],
+      "eventOnSyncedAutoFirePerShot3D": [],
       "eventClick": "PrecisionDryFire",
       "eventReload": "PrecisionReload",
       "TriggerBurstAudioForEachShot": true,
