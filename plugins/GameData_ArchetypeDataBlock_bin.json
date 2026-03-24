@@ -1331,7 +1331,7 @@
     },
     {
       "PublicName": "Healing/Venomous Subgun (SMG)",
-      "Description": "<color=yellow>Traits: Healing darts(ally) & Venom darts(enemy) & Ability disabler(except Scout screams)</color>",
+      "Description": "<color=yellow>Traits: Darts can heal/damage, switch Between 3 modes(Healing/Disinfect, Movement Spd/Stamina, or Armor/Stamina), & Ability disabler(except Scout's Scream)</color>",
       "FireMode": 1,
       "RecoilDataID": 11,
       "DamageBoosterEffect": 51,
@@ -5785,7 +5785,7 @@
       "persistentID": 101
     },
     {
-      "PublicName": "Hunting Crossbow (DMR)",
+      "PublicName": "Hunting Crossbow (???)",
       "Description": "<color=yellow>Traits: Silent/Accurate/Recoiless, Switch between Regular/Naplam/Foam payload(EWC keybind configs), & Refund 1 ammo per target killed w/Regular </color>",
       "FireMode": 0,
       "RecoilDataID": 11,
@@ -5809,8 +5809,8 @@
         "magnitude": 40.4475,
         "sqrMagnitude": 1636.0
       },
-      "StaggerDamageMulti": 2.0,
-      "PrecisionDamageMulti": 3.0,
+      "StaggerDamageMulti": 1.5,
+      "PrecisionDamageMulti": 2.75,
       "DefaultClipSize": 1,
       "DefaultReloadTime": 3.5,
       "CostOfBullet": 38.0,
@@ -5889,7 +5889,7 @@
     },
     {
       "PublicName": "Wisp Launcher (???)",
-      "Description": "<color=yellow>Traits: Clip Regen after delay(no reload), & Wisp fires 2 homing quills at nearby targets</color>",
+      "Description": "<color=yellow>Traits: Clip Regen after delay(no reload), Wisp provides light, & Wisp fires 2 homing quills at nearby targets</color>",
       "FireMode": 1,
       "RecoilDataID": 24,
       "DamageBoosterEffect": 61,
@@ -5938,10 +5938,10 @@
         "sqrMagnitude": 34.0
       },
       "PiercingBullets": false,
-      "PiercingDamageCountLimit": 5,
+      "PiercingDamageCountLimit": 0,
       "HipFireSpread": 0.0,
       "AimSpread": 0.0,
-      "EquipTransitionTime": 1.0,
+      "EquipTransitionTime": 1.5,
       "EquipSequence": [
         {
           "TriggerTime": 0.0,
