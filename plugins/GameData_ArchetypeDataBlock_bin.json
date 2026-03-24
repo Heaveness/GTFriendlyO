@@ -1337,8 +1337,8 @@
       "DamageBoosterEffect": 51,
       "Damage": 1.0,
       "DamageFalloff": {
-        "x": 12.0,
-        "y": 24.0,
+        "x": 20.0,
+        "y": 40.0,
         "normalized": {
           "x": 0.108447507,
           "y": 0.9941022,
@@ -1434,8 +1434,8 @@
       "DamageBoosterEffect": 56,
       "Damage": 20.7,
       "DamageFalloff": {
-        "x": 26.0,
-        "y": 52.0,
+        "x": 35.0,
+        "y": 70.0,
         "normalized": {
           "x": 0.164398983,
           "y": 0.9863939,
