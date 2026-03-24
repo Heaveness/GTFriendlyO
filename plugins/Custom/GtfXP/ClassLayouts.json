@@ -218,13 +218,13 @@
     "Header": "Specialist",
     "GroupPersistentId": 1,
     "PersistentId": 14,
-    "InfoText": "Excels at utility support, but lacks any offensive & defensive benefits.\n<color=yellow>Specializes: Fog Repeller & Turbine/Biotracker/Glowstick/Glue Gun</color>\n\n<color=green>Strengths: \n+30% Glue Strength & Efficiency, \n+175% Glowstick Power, \n+30% Bioscan Spd. & Scanner Recharge, \n+80% Fog Repeller/Turbine Power, \n+30% Tool Cost Efficiency</color>\n\n<color=red>Weaknesses: \n-30% Initial Ammo, \n-30% Ammo Cost Efficiency</color>",
+    "InfoText": "Excels at utility support, but lacks any offensive & defensive benefits.\n<color=yellow>Specializes: Fog Repeller & Turbine/Biotracker/Glowstick/Glue Gun</color>\n\n<color=green>Strengths: \n+30% Glue Strength & Efficiency, \n+175% Glowstick Power, \n+30% Bioscan Spd. & Scanner Recharge, \n+100% Fog Repeller/Turbine Power, \n+30% Tool Cost Efficiency</color>\n\n<color=red>Weaknesses: \n-40% Initial Gun Ammo, \n-30% Ammo Cost Efficiency</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Specialist\n<color=green>Glue Strength & Efficiency 130%, Glowstick Power 275%, Bioscan Spd. & Scanner Recharge 130%, Fog Repeller/Turbine Power 180%, Tool Cost Efficiency 130%</color>\n<color=red>Initial Ammo 70%, Ammo Cost Efficiency 70%</color>",
+        "CustomLevelStatsText": "Class: Specialist\n<color=green>Glue Strength & Efficiency 130%, Glowstick Power 275%, Bioscan Spd. & Scanner Recharge 130%, Fog Repeller/Turbine Power 200%, Tool Cost Efficiency 130%</color>\n<color=red>Initial Gun Ammo 60%, Ammo Cost Efficiency 70%</color>",
         "HealthMultiplier": 1.0,
         "MeleeDamageMultiplier": 1.0,
         "WeaponDamageMultiplier": 1.0,
@@ -245,11 +245,11 @@
         "LevelUpBonus": [
 		  {
             "SingleBuff": "AmmunitionMain",
-            "Value": -0.3
+            "Value": -0.4
           },
 		  {
             "SingleBuff": "AmmunitionSpecial",
-            "Value": -0.3
+            "Value": -0.4
           }
 		]
       }

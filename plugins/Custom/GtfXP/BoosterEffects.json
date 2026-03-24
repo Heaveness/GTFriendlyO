@@ -183,7 +183,7 @@
       "GlueStrength": 1.3,
       "GlueEfficiency": 1.3,
       "GlowstickEffect": 2.75,
-      "FogRepellerEffect": 1.8,
+      "FogRepellerEffect": 2.0,
       "InfectionResistance": 1.2,
       "HackingProficiency": 0.8
     }
