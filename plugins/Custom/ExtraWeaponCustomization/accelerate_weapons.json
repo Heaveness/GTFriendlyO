@@ -12,13 +12,14 @@
             "Count": 1, 
             "MaxRange": 20.0,
             "Damage": 5.0,
-            "DamageFalloff": { "x": 20, "y": 20 },
+            "DamageFalloff": { "x": 20, "y": 40 },
             "PrecisionDamageMulti": 3.5,
             "StaggerDamageMulti": 0.65,
             "FriendlyDamageMulti": 0.75, 
             "PierceLimit": 1,
+            "FireFrom": "HitNormal",
             "WallHandling": "Avoid", 
-            "WallHandlingDist": 20.0, 
+            "WallHandlingDist": 1.0, 
             "IgnoreFalloff": false, 
             "DamageLimb": true, 
             "IgnoreArmor": false, 
@@ -66,7 +67,7 @@
             ], 
             "HitTriggerTarget": false, 
             "RunHitTriggers": true, 
-            "Trigger": "Bullet Landed Terrain"
+            "Trigger": "BulletLanded Terrain"
         }
     ]
   },
@@ -78,6 +79,7 @@
           {
             "Name": "AutoTrigger"
           },
+
           {
             "Name": "TempProperties",
             "Duration": 999999,
@@ -136,13 +138,14 @@
             "Count": 1, 
             "MaxRange": 20.0,
             "Damage": 10.0,
-            "DamageFalloff": { "x": 20, "y": 20 },
+            "DamageFalloff": { "x": 20, "y": 40 },
             "PrecisionDamageMulti": 5.5,
             "StaggerDamageMulti": 0.7,
             "FriendlyDamageMulti": 0.75, 
             "PierceLimit": 1,
+            "FireFrom": "HitNormal",
             "WallHandling": "Avoid", 
-            "WallHandlingDist": 20.0, 
+            "WallHandlingDist": 1.0, 
             "IgnoreFalloff": false, 
             "DamageLimb": true, 
             "IgnoreArmor": false, 
@@ -190,7 +193,7 @@
             ], 
             "HitTriggerTarget": false, 
             "RunHitTriggers": true, 
-            "Trigger": "Bullet Landed Terrain"
+            "Trigger": "BulletLanded Terrain"
           }
       ]
     },

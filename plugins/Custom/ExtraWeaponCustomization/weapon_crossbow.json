@@ -1,0 +1,278 @@
+[
+    {
+    "ArchetypeID": 105,  
+    "MeleeArchetypeID": 0,
+    "Name": "Hunting Crossbow - Special Arrows",
+    "Properties": [
+      {
+        "Name": "Projectile",
+        "ProjectileType": "TargetingTiny",
+        "Speed": 50,
+        "Gravity": 1.75,
+        "HitSize": 0.25,
+        "EnableTrail": true,
+        "TrailTime": 0.5,
+        "TrailCullOnDie": false,
+        "Lifetime": 20
+      },
+      {
+        "Name": "Noise",
+        "SoundID": 1064229658,
+        "LocalSoundOnly": false,
+        "Trigger": "KeyUpConfig3" 
+      },
+      {
+        "Name": "Noise",
+        "SoundID": 1723689396,
+        "LocalSoundOnly": false,
+        "Trigger": "Fire" 
+      },
+      {
+        "Name": "Noise",
+        "SoundID": 259548989,
+        "LocalSoundOnly": false,
+        "Trigger": "Reload Start" 
+      },
+      {
+        "Name": "Noise",
+        "SoundID": 430792103,
+        "LocalSoundOnly": false,
+        "Trigger": "Reload" 
+      },
+      {
+        "Name": "Silence",
+        "WakeupRadius": 0,
+        "AlertRadius": 0,
+        "AlertAmount": 0,
+        "FakeAlertRadius": 0,
+        "CrossDoorMode": "None"
+      },
+      {
+        "Name": "BackstabMulti",
+        "BackstabDamageMulti": 3.0
+      },
+      {
+        "Name": "AmmoMod",
+        "ReserveChange": 1.0,
+        "ClipChange": 0.0,
+        "OverflowToBounds": false,
+        "PullFromReserve": false,
+        "UseRawAmmo": false,
+        "BypassReserveCap": false,
+        "ReceiverSlot": "None",
+        "Trigger": {
+          "Name": "Kill",
+          "MaxDelay": 6.0,
+          "RequireLastHit": false
+        }
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Override": true,
+        "Trigger": {
+          "Activate": "KeyConfig1",
+          "Reset": ["KeyConfig2", "KeyConfig3"]
+        },
+        "Properties": [
+          {
+            "Name": "Projectile",
+            "ID": "Flyby",
+            "ProjectileType": "RagingBoss",
+            "Speed": 5,
+            "Gravity": 0,
+            "HitSize": 0.5,
+            "GlowColor": "#CD352E",
+            "GlowIntensity": 0.05,
+            "GlowRange": 10,
+            "EnableTrail": true,
+            "TrailColor": "#CD352E",
+            "TrailCullOnDie": false,
+            "AliveTriggerInterval": 0.1,
+            "AliveTriggerDelay": 0.75,
+            "Lifetime": 5
+          },
+          {
+            "Name": "Noise",
+            "SoundID": 4131751239,
+            "LocalSoundOnly": false,
+            "Trigger": "KeyUpConfig1" 
+          },
+          {
+            "Name": "Noise",
+            "SoundID": 1723689396,
+            "LocalSoundOnly": false,
+            "Trigger": "Pre Fire" 
+          },
+          {
+            "Name": "Noise",
+            "SoundID": 964554856,
+            "LocalSoundOnly": false,
+            "Trigger": "Fire" 
+          },
+          {
+            "Name": "Noise",
+            "SoundID": 943028201,
+            "LocalSoundOnly": false,
+            "Trigger": "Reload Start" 
+          },
+          {
+            "Name": "Noise",
+            "SoundID": 943028201,
+            "LocalSoundOnly": false,
+            "Trigger": "Reload" 
+          },
+          {
+            "Name": "Shrapnel",
+            "Count": 3,
+            "Damage": 1,
+            "MaxAngle": 360,
+            "Traits": [
+              {
+                "Name": "Projectile",
+                "ProjectileType": "NotTargetingSmallPellet",
+                "Speed": 1,
+                "AccelScale": 1.0,
+                "AccelExponent": 1,
+                "AccelTime": 0.1,
+                "Gravity": 1,
+                "HitSize": 0.5,
+                "HitSizeWorld": 0,
+                "EnableTerrainHitFX": false,
+                "ModelScale": 1,
+                "EnableTrail": true,
+                "TrailColor": "#CD352E",
+                "TrailCullOnDie": false,
+                "GlowColor": "#CD352E",
+                "GlowIntensity": 0.05,
+                "GlowRange": 10,
+                "DamageFriendly": true,
+                "DamageOwner": false,
+                "HitFromOwnerPos": false,
+                "HitCooldown": -1,
+                "HitIgnoreWallsDuration": -1,
+                "RicochetCount": 5,
+                "RicochetSpeedMod": 0.05,
+                "RicochetSpeedAngleFactor": 0,
+                "RicochetIgnorePlayers": false,
+                "RicochetResetHits": false,
+                "RicochetOnHit": false,
+                "FlyingSoundID": 964554856,
+                "DestroyedSoundID": 964554856,
+                "StopFlyingSoundOnDestroy": false,
+                "HitCheckCooldown": 0.2,
+                "VisualLerpDist": 5,
+                "Lifetime": 10
+              }
+            ], 
+            "Trigger": {
+              "Name": "Reference",
+              "ID": "Flyby",
+              "Callback": "Alive"
+            }
+          },
+          {
+            "Name": "DamageOverTime",
+            "TotalDamage": 14.0,
+            "PrecisionDamageMulti": 0.5,
+            "StaggerDamageMulti": 1.0,
+            "FriendlyDamageMulti": 0.5,
+            "Duration": 10,
+            "TickRate": 2,
+            "StackLimit": 3,
+            "IgnoreFalloff": true,
+            "DamageLimb": true,
+            "IgnoreArmor": true,
+            "IgnoreBackstab": false,
+            "IgnoreDamageMods": true,
+            "GlowColor": "#CD352E",
+            "GlowIntensity": 0.25,
+            "GlowRange": 2,
+            "Trigger": "HitEnemy|HitPlayer",
+            "BatchStacks": false
+          }
+        ]
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Override": true,
+        "Trigger": {
+          "Activate": "KeyConfig2",
+          "Reset": ["KeyConfig1", "KeyConfig3"]
+        },
+        "Properties": [ 
+          {
+            "Name": "Projectile",
+            "ProjectileType": "TargetingLarge",
+            "Speed": 40,
+            "Gravity": 15,
+            "HitSize": 0.5,
+            "ModelScale": 0.25,
+            "EnableTrail": true,
+            "TrailTime": 0.5,
+            "TrailCullOnDie": false,
+            "EnableTerrainHitFX": false,
+            "Lifetime": 5
+          },
+          {
+            "Name": "Noise",
+            "SoundID": 3366272423,
+            "LocalSoundOnly": false,
+            "Trigger": "KeyUpConfig2" 
+          },
+          {
+            "Name": "Noise",
+            "SoundID": 1723689396,
+            "LocalSoundOnly": false,
+            "Trigger": "Pre Fire" 
+          },
+          {
+            "Name": "Noise",
+            "SoundID": 1040172773,
+            "LocalSoundOnly": false,
+            "Trigger": "Fire" 
+          },
+          {
+            "Name": "Noise",
+            "SoundID": 943028201,
+            "LocalSoundOnly": false,
+            "Trigger": "Reload Start" 
+          },
+          {
+            "Name": "Noise",
+            "SoundID": 943028201,
+            "LocalSoundOnly": false,
+            "Trigger": "Reload" 
+          },
+          {
+            "Name": "Silence",
+            "WakeupRadius": 0,
+            "AlertRadius": 0,
+            "AlertAmount": 0,
+            "FakeAlertRadius": 0,
+            "CrossDoorMode": "None"
+          },
+          {
+            "Name": "Foam",
+            "Amount": 10.0,
+            "PrecisionAmountMulti": 0.0,
+            "IgnoreArmor": false,
+            "IgnoreBackstab": false,
+            "IgnoreDamageMods": false,
+            "BubbleAmount": 30.0,
+            "BubbleStrength": 10.0,
+            "BubbleExpandSpeed": 0.5,
+            "BubbleOnDoors": true,
+            "BubbleIgnoreModifiers": true,
+            "FoamTime": 8.5,
+            "FoamTimeType": "Override",
+            "IgnoreFalloff": false,
+            "IgnoreBooster": false,
+            "Trigger": "BulletLanded"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -176,7 +176,7 @@
         "TrailColor": "#CD352E",
         "TrailCullOnDie": false,
         "GlowColor": "#CD352E",
-        "GlowIntensity": 0.25,
+        "GlowIntensity": 0.05,
         "GlowRange": 10,
         "DamageFriendly": true,
         "DamageOwner": false,

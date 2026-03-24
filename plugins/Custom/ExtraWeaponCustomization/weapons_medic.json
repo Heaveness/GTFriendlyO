@@ -5,54 +5,6 @@
     "Name": "Medic SMG",
     "Properties": [
       {
-        "Name": "HealthMod",
-        "HealthChangeRel": 0.0062,
-        "CapRel": 1.0,
-        "CancelRegen": false,
-        "ApplyToTarget": true,
-        "Trigger": "HitPlayer"
-      },
-      {
-        "Name": "InfectionMod",
-        "InfectionChangeRel": -0.0031,
-        "CapRel": -1.0,
-        "ApplyToTarget": true,
-        "ApplyToBots": true,
-        "EnableFX": true,
-        "Trigger": "HitPlayer"
-      },
-      {
-        "Name": "Noise",
-        "SoundID": 1993625518,
-        "LocalSoundOnly": true,
-        "Trigger": "Reload" 
-      },
-      {
-        "Name": "DamageOverTime",
-        "TotalDamage": 25.0,
-        "EndDamageFrac": 2.0,
-        "Exponent": 1,
-        "PrecisionDamageMulti": 1.0,
-        "StaggerDamageMulti": 0.5,
-        "FriendlyDamageMulti": 0.0,
-        "Duration": 9.5,
-        "TickRate": 1.0,
-        "StackLimit": 2,
-        "IgnoreFalloff": false,
-        "DamageLimb": false,
-        "IgnoreArmor": true,
-        "IgnoreBackstab": true,
-        "IgnoreShotMods": false,
-        "UseParentShotMod": true,
-        "CalcShotModsPerTick": false,
-        "ApplyAttackCooldown": true,
-        "GlowColor": "#3a9fbf",
-        "GlowIntensity": 1.25,
-        "GlowRange": 1.5,
-        "Trigger": "HitEnemy|Player",
-        "BatchStacks": false
-      },
-      {
         "Name": "Projectile",
         "ProjectileType": "RagingBoss",
         "Speed": 75,
@@ -77,6 +29,76 @@
         "Lifetime": 20
       },
       {
+        "Name": "MultiShot",
+        "Offsets": [[0,0]],
+        "Spread": -1,
+        "IgnoreSpreadMod": true
+      },
+      {
+        "Name": "AmmoMod",
+        "ClipChange": -1,
+        "OverflowToReserve": true,
+        "Trigger": "Fire"
+      },
+      {
+        "Name": "HealthMod",
+        "HealthChangeRel": 0.0062,
+        "CapRel": 1.0,
+        "CancelRegen": false,
+        "ApplyToTarget": true,
+        "Trigger": "HitPlayer"
+      },
+      {
+        "Name": "InfectionMod",
+        "InfectionChangeRel": -0.0031,
+        "CapRel": -1.0,
+        "ApplyToTarget": true,
+        "ApplyToBots": true,
+        "EnableFX": true,
+        "Trigger": "HitPlayer"
+      },
+      {
+        "Name": "DamageOverTime",
+        "TotalDamage": 25.0,
+        "EndDamageFrac": 2.0,
+        "Exponent": 1,
+        "PrecisionDamageMulti": 1.2,
+        "StaggerDamageMulti": 0.0,
+        "FriendlyDamageMulti": 0.0,
+        "Duration": 9.5,
+        "TickRate": 1.0,
+        "StackLimit": 2,
+        "IgnoreFalloff": false,
+        "DamageLimb": false,
+        "IgnoreArmor": true,
+        "IgnoreBackstab": true,
+        "IgnoreShotMods": false,
+        "UseParentShotMod": true,
+        "CalcShotModsPerTick": false,
+        "ApplyAttackCooldown": true,
+        "GlowColor": "#3a9fbf",
+        "GlowIntensity": 1.25,
+        "GlowRange": 1.5,
+        "Trigger": "HitEnemy",
+        "BatchStacks": false
+      },
+      {
+        "Name": "DamageOverTime",
+        "Duration": 9.5,
+        "TickRate": 1.0,
+        "StackLimit": 1,
+        "GlowColor": "#3a9fbf",
+        "GlowIntensity": 1.25,
+        "GlowRange": 1.5,
+        "Trigger": "HitPlayer"
+      },
+      {
+        "Name": "Noise",
+        "SoundID": 1993625518,
+        "LocalSoundOnly": true,
+        "Trigger": "Reload" 
+      },
+      {
         "Name": "AmmoMod",
         "ReserveChange": 1.0,
         "ClipChange": 0.0,
@@ -87,14 +109,300 @@
         "ReceiverSlot": "None",
         "Trigger": {
           "Name": "Kill",
-          "MaxDelay": 0.5,
-          "RequireLastHit": true
+          "MaxDelay": 10.0,
+          "RequireLastHit": false
         }
+      },
+      {
+        "Name": "Noise",
+        "SoundID": 1064229658,
+        "LocalSoundOnly": false,
+        "Trigger": "KeyUpConfig3" 
       },
       {
         "Name": "HitmarkerCooldown",
         "Cooldown": 0,
         "CooldownPerTarget": 1.0
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Override": true,
+        "Trigger": {
+          "Activate": "KeyConfig1",
+          "Reset": ["KeyConfig2", "KeyConfig3"]
+        },
+        "Properties": [
+          {
+            "Name": "Projectile",
+            "ProjectileType": "RagingBoss",
+            "Speed": 75,
+            "AccelScale": 1.0,
+            "AccelExponent": 1,
+            "AccelTime": 0.1,
+            "Gravity": 0,
+            "HitSize": 0,
+            "HitSizeWorld": 0,
+            "EnableTerrainHitFX": true,
+            "ModelScale": 0.25,
+            "EnableTrail": true,
+            "TrailColor": "#F1C232",
+            "GlowColor": "#F1C232",
+            "GlowRange": 3,
+            "DamageFriendly": true,
+            "DamageOwner": false,
+            "HitFromOwnerPos": false,
+            "HitCooldown": -1,
+            "HitIgnoreWallsDuration": 15,
+            "VisualLerpDist": 5,
+            "Lifetime": 20
+          },
+          {
+            "Name": "HealthMod",
+            "HealthChangeRel": 0.0062,
+            "CapRel": 1.0,
+            "CancelRegen": false,
+            "ApplyToTarget": true,
+            "Trigger": "HitPlayer"
+          },
+          {
+            "Name": "SpeedMod",
+            "Mod": 1.2,
+            "Cap": 0,
+            "Duration": 10.0,
+            "CombineModifiers": false,
+            "CombineDecayTime": 0,
+            "CombineCap": 0,
+            "StackType": "Override",
+            "InnerStackType": "Override",
+            "StackLayer": "Multiply",
+            "ApplyToTarget": true,
+            "Trigger": {
+              "Name": "HitPlayer",
+              "MaxPerShot": 1
+            }
+          },
+          {
+            "Name": "StaminaMod",
+            "StaminaChange": 0.2,
+            "Cap": -1,
+            "CancelRegen": false,
+            "ApplyToTarget": true,
+            "Trigger": {
+              "Name": "HitPlayer",
+              "MaxPerShot": 1
+            }
+          },
+          {
+            "Name": "DamageOverTime",
+            "TotalDamage": 1.0,
+            "EndDamageFrac": 2.0,
+            "Exponent": 1,
+            "PrecisionDamageMulti": 0.0,
+            "StaggerDamageMulti": 30.0,
+            "FriendlyDamageMulti": 0.0,
+            "Duration": 10.1,
+            "TickRate": 1.0,
+            "StackLimit": 2,
+            "IgnoreFalloff": false,
+            "DamageLimb": false,
+            "IgnoreArmor": true,
+            "IgnoreBackstab": true,
+            "IgnoreShotMods": false,
+            "UseParentShotMod": true,
+            "CalcShotModsPerTick": false,
+            "ApplyAttackCooldown": true,
+            "GlowColor": "#F1C232",
+            "GlowIntensity": 1.25,
+            "GlowRange": 1.5,
+            "Trigger": "HitEnemy",
+            "BatchStacks": false
+          },
+          {
+            "Name": "DamageOverTime",
+            "Duration": 10.1,
+            "TickRate": 1.0,
+            "StackLimit": 1,
+            "GlowColor": "#F1C232",
+            "GlowIntensity": 1.25,
+            "GlowRange": 1.5,
+            "Trigger": "HitPlayer"
+          },
+          {
+            "Name": "Noise",
+            "SoundID": 4131751239,
+            "LocalSoundOnly": false,
+            "Trigger": "KeyUpConfig1" 
+          },
+          {
+            "Name": "Noise",
+            "SoundID": 1993625518,
+            "LocalSoundOnly": true,
+            "Trigger": "Reload" 
+          },
+          {
+            "Name": "AmmoMod",
+            "ReserveChange": 1.0,
+            "ClipChange": 0.0,
+            "OverflowToBounds": false,
+            "PullFromReserve": false,
+            "UseRawAmmo": false,
+            "BypassReserveCap": false,
+            "ReceiverSlot": "None",
+            "Trigger": {
+              "Name": "Kill",
+              "MaxDelay": 10.0,
+              "RequireLastHit": false
+            }
+          }
+        ]
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Override": true,
+        "Trigger": {
+          "Activate": "KeyConfig2",
+          "Reset": ["KeyConfig1", "KeyConfig3"]
+        },
+        "Properties": [
+          {
+            "Name": "Projectile",
+            "ProjectileType": "RagingBoss",
+            "Speed": 75,
+            "AccelScale": 1.0,
+            "AccelExponent": 1,
+            "AccelTime": 0.1,
+            "Gravity": 0,
+            "HitSize": 0,
+            "HitSizeWorld": 0,
+            "EnableTerrainHitFX": true,
+            "ModelScale": 0.25,
+            "EnableTrail": true,
+            "TrailColor": "#674EA7",
+            "GlowColor": "#674EA7",
+            "GlowRange": 3,
+            "DamageFriendly": true,
+            "DamageOwner": false,
+            "HitFromOwnerPos": false,
+            "HitCooldown": -1,
+            "HitIgnoreWallsDuration": 15,
+            "VisualLerpDist": 5,
+            "Lifetime": 20
+          },
+          {
+            "Name": "HealthMod",
+            "HealthChangeRel": 0.0062,
+            "CapRel": 1.0,
+            "CancelRegen": false,
+            "ApplyToTarget": true,
+            "Trigger": "HitPlayer"
+          },
+          {
+            "Name": "ArmorMod",
+            "Mod": 1.2,
+            "Immune": false,
+            "DamageType": "Any",
+            "Cap": 0,
+            "Duration": 10.1,
+            "CombineModifiers": false,
+            "CombineDecayTime": 0,
+            "CombineCap": 0,
+            "StackType": "Override",
+            "InnerStackType": "Override",
+            "StackLayer": "Multiply",
+            "ApplyToTarget": true,
+            "GlobalID": 0,
+            "Trigger": {
+              "Name": "HitPlayer",
+              "MaxPerShot": 1
+            }
+          },
+          {
+            "Name": "StaminaMod",
+            "StaminaChange": 0.2,
+            "Cap": -1,
+            "CancelRegen": false,
+            "ApplyToTarget": true,
+            "Trigger": {
+              "Name": "HitPlayer",
+              "MaxPerShot": 1
+            }
+          },
+          {
+            "Name": "ArmorShred",
+            "Mod": 2.2,             
+            "Duration": 10.0,          
+            "StackType": "Override",  
+            "CombineModifiers": false,
+            "Trigger": {
+              "Name": "HitEnemy",
+              "MaxPerShot": 1
+            }
+          },
+          {
+            "Name": "DamageOverTime",
+            "TotalDamage": 10.0,
+            "EndDamageFrac": 2.0,
+            "Exponent": 1,
+            "PrecisionDamageMulti": 0.75,
+            "StaggerDamageMulti": 1.0,
+            "FriendlyDamageMulti": 0.0,
+            "Duration": 10.0,
+            "TickRate": 1.0,
+            "StackLimit": 2,
+            "IgnoreFalloff": false,
+            "DamageLimb": false,
+            "IgnoreArmor": true,
+            "IgnoreBackstab": true,
+            "IgnoreShotMods": false,
+            "UseParentShotMod": true,
+            "CalcShotModsPerTick": false,
+            "ApplyAttackCooldown": true,
+            "GlowColor": "#674EA7",
+            "GlowIntensity": 1.25,
+            "GlowRange": 1.5,
+            "Trigger": "HitEnemy",
+            "BatchStacks": false
+          },
+          {
+            "Name": "DamageOverTime",
+            "Duration": 10.1,
+            "TickRate": 1.0,
+            "StackLimit": 1,
+            "GlowColor": "#674EA7",
+            "GlowIntensity": 1.25,
+            "GlowRange": 1.5,
+            "Trigger": "HitPlayer"
+          },
+          {
+            "Name": "Noise",
+            "SoundID": 3366272423,
+            "LocalSoundOnly": false,
+            "Trigger": "KeyUpConfig2" 
+          },
+          {
+            "Name": "Noise",
+            "SoundID": 1993625518,
+            "LocalSoundOnly": true,
+            "Trigger": "Reload" 
+          },
+          {
+            "Name": "AmmoMod",
+            "ReserveChange": 1.0,
+            "ClipChange": 0.0,
+            "OverflowToBounds": false,
+            "PullFromReserve": false,
+            "UseRawAmmo": false,
+            "BypassReserveCap": false,
+            "ReceiverSlot": "None",
+            "Trigger": {
+              "Name": "Kill",
+              "MaxDelay": 10.0,
+              "RequireLastHit": false
+            }
+          }
+        ]
       }
     ]
   }

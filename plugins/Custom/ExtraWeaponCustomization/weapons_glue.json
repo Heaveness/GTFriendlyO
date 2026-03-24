@@ -13,7 +13,7 @@
         "IgnoreDamageMods": false,
         "BubbleAmount": 18.0,
         "BubbleStrength": 10.0,
-        "BubbleExpandSpeed": 0.1,
+        "BubbleExpandSpeed": 0.25,
         "BubbleOnDoors": true,
         "BubbleIgnoreModifiers": true,
         "FoamTime": 10.0,
@@ -24,11 +24,11 @@
       },
       {
         "Name": "ArmorShred",
-        "Mod": 2.2,             
+        "Mod": 2.3,             
         "Duration": 10.0,          
         "StackType": "Override",  
         "CombineModifiers": false,
-        "Trigger": "Hit"
+        "Trigger": "HitEnemy"
       },
       {
         "Name": "AmmoRegen",
