@@ -97,9 +97,10 @@
 
 * Medic Gun **Rework**:
     * Increased Max Delay Requirement for Ammo Refund from `0.5s` to `10.0s` (The maximum allowed delay in seconds between hitting the enemy and it dying.)
-    * Decreased Baseline Projectile Count from `2` to `1` to prep for the different modes
+    * Decreased Baseline Projectile Count from `2` to `1` to prep for the different modes additions
     * Removed Last Hit kill requirement to refund ammo back
-    * Changed Recoil and Accuracy to be signifcantly more reliable
+    * Increased Effective Range from `12.0m` to `20.0m`
+    * Changed `Recoil` and `Accuracy` to be signifcantly more reliable
     * Players hit by healing darts should no longer constantly complain or grunt in pain during its duration
     * Reworked the function of this gun by adding a keybind trigger to switch between three modes with different effects.
     * Different modes can be stack individually with each other, but not with the same mode. For example: Stagger(Mode 2) + Armor Shred(Mode 3)
@@ -164,6 +165,11 @@
     * Changed `Magazine` Part
     * Increased Direct Damage from `35.1` to `40.1`
 > Dev Note: While the Tracker Rifle is doing its job, I feel like its damage is still struggling to kill even smaller targets compare to DMRs. Also, I personally did not enjoy the look of the rifle.
+* Hemorrhage HEL Rifle:
+    * Increased Effective Range from `26.0m` to `35.0m`
+    * Decreased Lock-on Angle Requirement from `3` to `2` degrees
+    * Decreased Lock-on Time from `1.0s` to `0.5s`
+    * Increased Lock-on Decay Time from `0.6s` to `0.8s`
 * Pump-Action Shotgun:
     * Increased Max Ammo from `58` to `70`
 * Triple Barrel Shotgun:
@@ -976,7 +982,6 @@
 **Baseline Precision:** 0.74x --> 0.75x
 
 **Baseline Stagger:** 1.0x --> 1.0x
-
 
 | Weapon Name                 | Precision (Old) | Precision (New) | Stagger (Old) | Stagger (New)  |
 |-----------------------------|:---------------:|:---------------:|:-------------:|:--------------:|
