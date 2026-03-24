@@ -2,7 +2,7 @@
 
 ### Description:
 
-A major overhaul of GTFO's vanilla gameplay, designed to bring more depth WITHOUT sacrificing the challenging and rewarding experience with friends.
+A major overhaul to vanilla GTFO's gameplay, designed to bring more depth WITHOUT sacrificing the fun and rewarding experiences with friends.
 
 As a long-time GTFO player, I've felt the base game lacked a bit of variety in certain aspects of its gameplay. After running several Rundowns with friends, we all agreed the game needed a bit more spice. This mod focuses on creating a more casual-friendly co-op experience **WITHOUT** removing all of the tension or challenge from the game. This is NOT a hardcore or hyper-realism mod setup, nor will it ever be. Instead, it makes GTFO more accessible by giving players additional "tools" to tackle the depths. The enemies have also received some love too, so it's not completely one-sided powerup.
 
@@ -18,6 +18,9 @@ This project has been in the works for many years. It's only been shared private
 * Can be played Vanilla with other mods with this mod-pack, especially with client-side mods. It's recommended to use several bug fix mods to prevent further issues with GTFO. But it's up to the players if they want them or not. It's not necessary to add them in. Recommended mod list: [here](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/4030-recommend-mods/)
 
 * Most likely will NOT be compatible with other custom Rundowns or modpacks that changes the same Datablocks. Otherwise, give it a try and let me know.
+
+* With the addition of keybind-based triggers that came along with `v2.3.0`. **PLEASE** check the EWC(ExtraWeaponCustomization) config and change the keybind to YOUR settings. I am aware that not everyone have keypads for their keyboards. 
+    * Go to `Edit Config` within Thunderstore client -> Search for `ExtraWeaponCustomization.cfg` -> `Edit Config` -> Change keybinds 1 through 4 under `Keybind Settings` section
 
 ### Recommended mods:
 * List: [Thunderstore wiki link](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/4030-recommend-mods-wip/)
