@@ -93,7 +93,7 @@ This project has been in the works for many years. It's only been shared private
 | Raptus Treffen 2    	| Raptus MP2						| Full-auto                          	            			| Hitscan			|
 | Raptus Steigro      	| Raptus Reserve MP1				| Reserve ammo; no reload               						| Hitscan			|
 | Accrat Golok DA     	| Accrat 5-B Bullpup				| Standard bullets; 5-round burst fire           				| Hitscan			|
-| Van Auken LTC5      	| Techman Hemostasis Medic Gun		| Heal/Disinfect allies & Venom/Silence enemies; kills restore 1 ammo | Projectile		|
+| Van Auken LTC5      	| Techman Hemostasis Medic Gun		| Darts can heal/damage, switch between 3 modes(Healing/Disinfect, Movement Spd/Stamina, & Armor/Stamina) | Projectile		|
 | Accrat STB          	| Omneco Tracker PDW				| Tags target; thermal scope       								| Hitscan			|
 | Accrat ND6          	| Van Auken Heavy SMG				| Standard bullets												| Hitscan			|
 | Van Auken Cab F4    	| Accrat 3-B Carbine				| Standard bullets; 3-round burst 	                            | Hitscan			|
@@ -120,6 +120,8 @@ This project has been in the works for many years. It's only been shared private
 | Drekker Del P1      	| Omneco Tracker Rifle				| Tags target on hit                                            | Hitscan			|
 | Köning PR 11        	| Van Auken Sniper Rifle    		| Wall-penetration bullets; Thermal assist                      | Hitscan			|
 | Omneco LRG          	| Techman Nano Gauss Rifle      	| Nano-Burst Gobules on kill seeks nearby target                | Projectile        |
+| N/A               	| Hanaway Hunting Crossbow    		| Silent, & switch between three modes(Regular, Napalm, & Foam) | Projectile/Gravity|
+| N/A                  	| Techman Wisp Launcher           	| Launches Wisp that attacks nearby targets                     | Projectile        |
 
 ### Melee:
 

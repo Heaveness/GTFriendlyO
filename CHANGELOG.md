@@ -14,6 +14,8 @@
 * Updated `Spectate` mod
 * Added `PingableJunkieSyringes` mod by JarheadHME
     * Custom syringes weren't showing nor were they pingable which can cause a couple of issues of miscommunications.
+* Updated `DescriptiveWeaponStatShower` mod
+    * Fixed custom turrets not having any stats shown in the tool select.
 
 ### Weapon Additions:
 * Added `2` new custom weapon!
