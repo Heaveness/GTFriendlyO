@@ -12,8 +12,9 @@
 ### Mod Updates + Additions:
 * Updated `ExtraWeaponCustomization` mod
 * Updated `Spectate` mod
+* Updated `BetterBots` mod
 * Added `PingableJunkieSyringes` mod by JarheadHME
-    * Custom syringes weren't showing nor were they pingable which can cause a couple of issues of miscommunications.
+    * Custom syringes weren't pingable which can cause some miscommunications.
 * Updated `DescriptiveWeaponStatShower` mod
     * Fixed custom turrets not having any stats shown in the tool select.
 
@@ -24,19 +25,19 @@
 * One of the most complex weapon added so far. Switch between three payloads: Regular, Napalm, and Foam bolts. Each payload has specific properties for different situations
     * Direct Damage: `10.0`
     * Clip Size: `1`
-    * Max Ammo `15`
+    * Max Ammo `20`
     * Reload Time: `3.5s`
     * Pierce Targets: `1.0`
     * Effective Range: `30.0m`
     * Hit Size: `+0.25m`
     * Stagger Multiplier: `1.5x`
-    * Precision Multiplier: `2.75x`
+    * Precision Multiplier: `3.0x`
     * Silenced, does not alert enemies
     * Regular Bolts: (Default Keybind: KeypadPeriod[KeyConfig3])
         * Ballistics Type: `Fast Projectile Low Gravity`
-        * Backstab Multiplier: `3.0x`
+        * Backstab Multiplier: `2.0x`
         * Recovers only `1.0` ammo per target killed
-        * Max Delay requirement for ammo refund: `6.0s`
+        * Max Delay requirement for ammo refund: `7.0s`
     * Napalm Bolts: (Default Keybind: KeypadEnter[KeyConfig1])
         * Ballistics Type: `Slow Projectile No Gravity`
         * Not Silenced, will alert enemies
@@ -57,14 +58,14 @@
 
 * **Techman Wisp Thrower:**
 * An experimental entity that floats mid-air and attacks nearby targets until it bursts into several quills at the end of its life.
-    * Max Ammo: `32`
+    * Max Ammo: `40`
     * Clip Size: `2`
-    * No Reload, Clip Regen after `10.5s` delay after firing
+    * No Reload, Clip Regen after `16.5s` delay after last firing
     * Clip Regen active while holstered
-    * Launched Wisps will bounce off walls and objects before stopping to prevent dying on impact.
-    * Wisp Lifetime: `10.0s`
+    * Launched Wisps will bounce off walls and objects before stopping to prevent dying on impact. Direct hits with entity will instantly kill the wisp.
+    * Wisp Lifetime: `15.0s`
     * Wisp Direct Damage: `1.0`
-    * Wisp Quill Damage: `6.0`
+    * Wisp Quill Damage: `5.0`
     * Wisp Quill Ricochet: `3`
     * Wisp Precision Multiplier: `1.1x`
     * Wisp Stagger Multiplier: `0.5x`
@@ -73,34 +74,18 @@
     * Wisp Launch Delay Attack: `1.0s`
     * Wisp Attack Speed: `2` Quills per `0.5s`
     * Wisp Death Quill Count: `10`
-    * Wisp Death Quill Damage: `6.0`
+    * Wisp Death Quill Damage: `5.0`
     * Wisp Quill Max Range: `25.0m`
 > Dev Note: An interesting weapon that has multiple uses. It has a good area denial which should pair well with trip mines and turrets. Also, it provides light which is great during EMP events or dark rundowns.
 
-### Class Tweaks:
-* Specialist:
-    * Increased Fog Repeller/Turbine Power from `+80%` to `+100%`
-    * Increased Initial Ammo Penalty from `-30%` to `-40%`
-> Dev Note: With the new mod mentioned below, I can adjust the values that make the consumable more reliable in its duration. The Specialist should feel a lot more powerful against the Fog mechanics, but the constant buffs in recent patches should result in a nerf somewhere to counter balance.
-
-### Weapon/Tool Tweaks + Fixes:
-* Added `FogRepellerModifier` mod
-    * Fog Repeller Consumable:
-        * Increased Lifetime Duration from `70.0s` to `132.0s`
-        * Decreased Base Range from `11.0m` to `8.0m` (with Specialist's +100% buff: `16.0m`)
-        * Increased Grow Duration from `8.0s` to `12.0s`
-        * Increased Shrink Duration from `10.0s` to `6.0s`
-        * Increased Fog Density Removal from `-7.0` to `-8.0`
-        * Decreased Minimum Consumable Loot Count from `5` to `4`
-        * Decreased Maximum Consumable & Carry Limit Loot Count from `10` to `8`
-> Dev Note: I have been waiting for a mod like this since this pack's initial release. To balance the significant lifetime duration increase, they should take longer to fully grow and shrink much faster. Also decreased their carry limit to counteract too.
-
+### Weapon Tweaks + Fixes:
 * Medic Gun **Rework**:
     * Increased Max Delay Requirement for Ammo Refund from `0.5s` to `10.0s` (The maximum allowed delay in seconds between hitting the enemy and it dying.)
     * Decreased Baseline Projectile Count from `2` to `1` to prep for the different modes additions
     * Removed Last Hit kill requirement to refund ammo back
     * Increased Effective Range from `12.0m` to `20.0m`
     * Changed `Recoil` and `Accuracy` to be signifcantly more reliable
+    * Increased Max Ammo from `100` to `110`
     * Players hit by healing darts should no longer constantly complain or grunt in pain during its duration
     * Reworked the function of this gun by adding a keybind trigger to switch between three modes with different effects.
     * Different modes can be stack individually with each other, but not with the same mode. For example: Stagger(Mode 2) + Armor Shred(Mode 3)
@@ -146,6 +131,12 @@
                 * Increased Stagger Multiplier from `0.5x` to `1.0x`
             * Enemy Silence(CC)
 > Dev Note: Here I am modifying the medic gun again. With these new changes, it will add a lot more complexity to the gun itself. Effectively making it the defacto "support" weapon.
+* HMG:
+    * Added `ThickBullet` property:
+        * Added `0.3m` to projectile hitbox
+* LMG:
+    * Added `ThickBullet` property:
+        * Added `0.3m` to projectile hitbox
 * Glue Pistol:
     * Increased Glue Bubble Expansion Speed from `0.1x` to `0.25x`
     * Increased Armor Shred from `-20%` to `-30%`
@@ -155,10 +146,10 @@
     * Decreased Projectile Lifetime from `30.0s` to `10.0s`
     * Increased Minimum Projectile Distance from `10.0m` to `25.0m`
     * Added `Shrapnel` property:
-        * A failsafe mechanism to lower the impact of orbiting projectiles
->Dev Note: Once a projectile times out around a target, a shrapnel similar to the original will spawn where it timed out. This projectile will have a significantly stronger homing strength and angle which should properly hit its intended target more consistently. Orbiting projectiles might still get destroyed on a object or terrain.
+        * A simple failsafe mechanism to lower the impact of orbiting projectiles
+>Dev Note: Once a projectile times out around a target, a shrapnel similar to the original will spawn. This projectile will have a significantly stronger homing strength and angle which should properly hit its intended target more consistently. Orbiting projectiles might still get destroyed on a object or terrain.
 * Heavy Revolver:
-    * Changed `Stock` Part to prevent log spamming issues.
+    * Changed `Stock` Part to prevent a log spamming issue.
 * Tracker Rifle:
     * Changed `Front` Part
     * Changed `Receiver` Part
@@ -170,12 +161,62 @@
     * Decreased Lock-on Angle Requirement from `3` to `2` degrees
     * Decreased Lock-on Time from `1.0s` to `0.5s`
     * Increased Lock-on Decay Time from `0.6s` to `0.8s`
+> Dev Note: A very strong precision rifle, but its auto-aim feature felt very clunky. Hopefully this will make it more useable in chaotic moments.
 * Pump-Action Shotgun:
     * Increased Max Ammo from `58` to `70`
 * Triple Barrel Shotgun:
     * Increased Max Ammo from `71` to `81`
+
+### Class Tweaks:
+* Specialist:
+    * Increased Fog Repeller/Turbine Power from `+80%` to `+100%`
+    * Increased Initial Ammo Penalty from `-30%` to `-40%`
+    * Decreased Ammo Cost Efficiency Penalty from `-30%` to `-20%`
+> Dev Note: With the new mod mentioned below, I can adjust the values that make the consumable more reliable in its duration. The Specialist should feel a lot more powerful against the Fog mechanics, but the constant buffs in recent patches should result in a nerf somewhere to counter balance.
+
+* Paramedic:
+    * Decreased Ammo Cost Efficiency Penalty from `-20%` to `-15%`
+
+* Quartermaster:
+    * Decreased Damage Penalty from `-50%` to `-40%`
+    * Added Initial Tool Ammo Penalty of `-20%`
+
+### Booster Tweaks:
+* Revive Spd. & Health `Muted` Booster:
+    * Increased Revive Speed bonus from `+10%` to `+20%`
+* Revive Spd. & Health `Bold` Booster:
+    * Increased Revive Speed bonus from `+15%` to `+25%`
+* Revive Spd. & Health `Aggressive` Booster:
+    * Increased Revive Speed bonus from `+20%` to `+30%`
+> Dev Note: The nature of revive speed works off the game's baseline 4.0s to 5.0s. So 45% is not worth a lot to risk taking all three boosters, now its 75% in the right condition which feel much more impactful.
+
+### Tool Tweaks + Fixes:
+* Added `FogRepellerModifier` mod
+    * Fog Repeller Consumable:
+        * Increased Lifetime Duration from `70.0s` to `132.0s`
+        * Decreased Base Range from `11.0m` to `10.0m` (with Specialist's +100% buff: `20.0m`)
+        * Increased Grow Duration from `8.0s` to `12.0s`
+        * Increased Shrink Duration from `10.0s` to `6.0s`
+        * Increased Fog Density Removal from `-7.0` to `-8.0`
+        * Decreased Minimum Consumable Loot Count from `5` to `4`
+        * Decreased Maximum Consumable & Carry Limit Loot Count from `10` to `8`
+> Dev Note: I have been waiting for a mod like this since this pack's initial release. To balance the significant lifetime duration increase, they should take longer to fully grow and shrink much faster. Also decreased their carry limit to counteract too.
+* Search & Rescue Tool: **Improvement**
+    * Increased Max Ammo from `30` to `40`
+    * Changed aimed function to keybind-based modes
+        * Mode 1:
+            * Glowstick Launcher
+            * Activated by using specific keybind trigger(Default Keybind: KeypadEnter[KeyConfig1])
+            * Decreased Projectile Speed from `30.0m` to `25.0m` per second
+        * Mode 2:
+            * Fog Repeller Launcher
+            * Activated by using specific keybind trigger(Default Keybind: KeypadPlus[KeyConfig2])
+            * Decreased Projectile Speed from `20.0m` to `15.0m` per second
 * 4-Burst Sentry:
     * Decreased Burst Delay from `2.0s` to `1.8s`
+* Missile Sentry:
+    * Fixed explosion not having friendly fire multiplier. *Oops...*
+    * Increased Friendly Fire Multiplier from `-50%` to `-70%`
 > Dev Note: I want to slightly lower the Burst turret's clunkiness to be a bit more reliable on maps that have tight corners.
 * Exterminatus Flamer:
     * Removed Shell Casing ejection sound effects
@@ -183,7 +224,7 @@
     * Changed `Scope` Part
     * Decreased Direct Damage from `1.0` to `0.5`
     * Decreased Projectile Glow Intensity from `0.25` to `0.05` (still bright, but not as before)
-> Dev Note: I removed the scope as it was pointless; replaced with iron sight. Also long exposure to the flamethrower gave me eye strain...
+> Dev Note: I removed the scope as it was pointless; replaced with iron sight. Also the long exposure to the flamethrower was giving me eye strain...
 * Search & Rescue Tool:
     * Removed Shell Casing ejection sound effects
     * Removed 3D Shooting sound effects for other players within the lobby
