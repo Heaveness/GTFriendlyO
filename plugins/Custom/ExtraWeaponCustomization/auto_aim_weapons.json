@@ -25,14 +25,12 @@
 		},
     {
       "Name": "Noise",
-      "SoundID": 3296652221,
-      "LocalSoundOnly": true,
+      "LocalSoundID": 3296652221,
       "Trigger": "LockID" 
     },
     {
       "Name": "Noise",
       "SoundID": 2904485454,
-      "LocalSoundOnly": true,
       "Trigger": "Reload" 
     },
 		{

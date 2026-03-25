@@ -220,8 +220,7 @@
       },
       {
         "Name": "Noise",
-        "SoundID": 2759590332,
-        "LocalSoundOnly": true,
+        "LocalSoundID": 2759590332,
         "Trigger": {
           "Name": "Clip",
           "ClipMin": 99,
@@ -235,7 +234,6 @@
       {
         "Name": "Noise",
         "SoundID": 2118104127,
-        "LocalSoundOnly": false,
         "Trigger": {
           "Name": "Clip",
           "ClipMin": 0,

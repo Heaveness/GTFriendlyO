@@ -84,8 +84,7 @@
       },
       {
         "Name": "Noise",
-        "SoundID": 1993625518,
-        "LocalSoundOnly": true,
+        "LocalSoundID": 1993625518,
         "Trigger": "Reload" 
       },
       {
@@ -106,7 +105,6 @@
       {
         "Name": "Noise",
         "SoundID": 1064229658,
-        "LocalSoundOnly": false,
         "Trigger": "KeyUpConfig3" 
       },
       {
@@ -221,13 +219,11 @@
           {
             "Name": "Noise",
             "SoundID": 4131751239,
-            "LocalSoundOnly": false,
             "Trigger": "KeyUpConfig1" 
           },
           {
             "Name": "Noise",
-            "SoundID": 1993625518,
-            "LocalSoundOnly": true,
+            "LocalSoundID": 1993625518,
             "Trigger": "Reload" 
           },
           {
@@ -368,13 +364,11 @@
           {
             "Name": "Noise",
             "SoundID": 3366272423,
-            "LocalSoundOnly": false,
             "Trigger": "KeyUpConfig2" 
           },
           {
             "Name": "Noise",
-            "SoundID": 1993625518,
-            "LocalSoundOnly": true,
+            "LocalSoundID": 1993625518,
             "Trigger": "Reload" 
           },
           {

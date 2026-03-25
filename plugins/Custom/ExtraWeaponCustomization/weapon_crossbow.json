@@ -18,25 +18,21 @@
       {
         "Name": "Noise",
         "SoundID": 1064229658,
-        "LocalSoundOnly": false,
         "Trigger": "KeyUpConfig3" 
       },
       {
         "Name": "Noise",
         "SoundID": 1723689396,
-        "LocalSoundOnly": false,
         "Trigger": "Fire" 
       },
       {
         "Name": "Noise",
         "SoundID": 259548989,
-        "LocalSoundOnly": false,
         "Trigger": "Reload Start" 
       },
       {
         "Name": "Noise",
         "SoundID": 430792103,
-        "LocalSoundOnly": false,
         "Trigger": "Reload" 
       },
       {
@@ -100,31 +96,26 @@
           {
             "Name": "Noise",
             "SoundID": 4131751239,
-            "LocalSoundOnly": false,
             "Trigger": "KeyUpConfig1" 
           },
           {
             "Name": "Noise",
             "SoundID": 1723689396,
-            "LocalSoundOnly": false,
             "Trigger": "Pre Fire" 
           },
           {
             "Name": "Noise",
             "SoundID": 964554856,
-            "LocalSoundOnly": false,
             "Trigger": "Fire" 
           },
           {
             "Name": "Noise",
             "SoundID": 943028201,
-            "LocalSoundOnly": false,
             "Trigger": "Reload Start" 
           },
           {
             "Name": "Noise",
             "SoundID": 943028201,
-            "LocalSoundOnly": false,
             "Trigger": "Reload" 
           },
           {
@@ -223,31 +214,26 @@
           {
             "Name": "Noise",
             "SoundID": 3366272423,
-            "LocalSoundOnly": false,
             "Trigger": "KeyUpConfig2" 
           },
           {
             "Name": "Noise",
             "SoundID": 1723689396,
-            "LocalSoundOnly": false,
             "Trigger": "Pre Fire" 
           },
           {
             "Name": "Noise",
             "SoundID": 1040172773,
-            "LocalSoundOnly": false,
             "Trigger": "Fire" 
           },
           {
             "Name": "Noise",
             "SoundID": 943028201,
-            "LocalSoundOnly": false,
             "Trigger": "Reload Start" 
           },
           {
             "Name": "Noise",
             "SoundID": 943028201,
-            "LocalSoundOnly": false,
             "Trigger": "Reload" 
           },
           {

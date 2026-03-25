@@ -45,13 +45,11 @@
           {
             "Name": "Noise",
             "SoundID": 2138546262,
-            "LocalSoundOnly": false,
             "Trigger": "Fire" 
           },
           {
             "Name": "Noise",
             "SoundID": 3366272423,
-            "LocalSoundOnly": false,
             "Trigger": "KeyUpConfig2" 
           },
           {
@@ -67,7 +65,6 @@
       {
         "Name": "Noise",
         "SoundID": 4131751239,
-        "LocalSoundOnly": false,
         "Trigger": "KeyUpConfig1" 
       },
       {
@@ -96,7 +93,6 @@
       {
         "Name": "Noise",
         "SoundID": 1485381151,
-        "LocalSoundOnly": false,
         "Trigger": "Fire" 
       },
       {
