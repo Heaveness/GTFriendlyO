@@ -41,7 +41,7 @@
           "Description": "Subject will revive others at increased speed.",
           "DescriptionNegative": "Subject will revive others at decreased speed.",
           "EffectCategory": "Health",
-          "Value": 1.1
+          "Value": 1.2
         },
         {
           "Effect": "ReviveStartHealthSupport",
@@ -471,7 +471,7 @@
           "Description": "Subject will revive others at increased speed.",
           "DescriptionNegative": "Subject will revive others at decreased speed.",
           "EffectCategory": "Health",
-          "Value": 1.16
+          "Value": 1.25
         },
         {
           "Effect": "ReviveStartHealthSupport",
@@ -1036,7 +1036,7 @@
           "Description": "Subject will revive others at increased speed.",
           "DescriptionNegative": "Subject will revive others at decreased speed.",
           "EffectCategory": "Health",
-          "Value": 1.2
+          "Value": 1.31
         },
         {
           "Effect": "ReviveStartHealthSupport",
