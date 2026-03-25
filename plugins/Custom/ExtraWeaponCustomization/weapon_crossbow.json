@@ -48,8 +48,13 @@
         "CrossDoorMode": "None"
       },
       {
+        "Name": "ArmorPierce",
+        "Pierce": 1.1,
+        "Type": "Override"
+      },
+      {
         "Name": "BackstabMulti",
-        "BackstabDamageMulti": 2.0
+        "BackstabDamageMulti": 2.25
       },
       {
         "Name": "AmmoMod",
