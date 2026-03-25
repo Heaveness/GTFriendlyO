@@ -1331,7 +1331,7 @@
     },
     {
       "PublicName": "Healing/Venomous Subgun (SMG)",
-      "Description": "<color=yellow>Traits: Darts can heal/damage, switch Between 3 modes(Healing/Disinfect, Movement Spd/Stamina, or Armor/Stamina), & Ability disabler(except Scout's Scream)</color>",
+      "Description": "<color=yellow>Traits: Darts can heal/damage, switch Between 3 modes(Healing/Disinfect, Movement Spd/Stamina, or Armor/Stamina)[EWC config for keybinds], & Ability disabler(except Scout's Scream)</color>",
       "FireMode": 1,
       "RecoilDataID": 11,
       "DamageBoosterEffect": 51,
@@ -5106,7 +5106,7 @@
     },
         {
       "PublicName": "Search & Rescue Tool",
-      "Description": "<color=yellow>Traits: Hipfire Glowstick, Aimed Fog Repeller, & Reserve Ammo(no reload)</color>",
+      "Description": "<color=yellow>Traits: Switch between 2 modes(Glowstick/Fog Repeller)[EWC config for keybinds], & Reserve Ammo(no reload)</color>",
       "FireMode": 1,
       "RecoilDataID": 49,
       "DamageBoosterEffect": 60,
@@ -5786,7 +5786,7 @@
     },
     {
       "PublicName": "Hunting Crossbow (???)",
-      "Description": "<color=yellow>Traits: Silent/Accurate/Recoiless, Switch between Regular/Naplam/Foam payload(EWC keybind configs), & Refund 1 ammo per target killed w/Regular </color>",
+      "Description": "<color=yellow>Traits: Silent/Accurate/Recoiless, Switch between Regular/Naplam/Foam payload[EWC config for keybinds], & Refund 1 ammo per target killed w/Regular </color>",
       "FireMode": 0,
       "RecoilDataID": 11,
       "DamageBoosterEffect": 52,
@@ -5810,7 +5810,7 @@
         "sqrMagnitude": 1636.0
       },
       "StaggerDamageMulti": 1.5,
-      "PrecisionDamageMulti": 3.0,
+      "PrecisionDamageMulti": 3.25,
       "DefaultClipSize": 1,
       "DefaultReloadTime": 3.5,
       "CostOfBullet": 28.0,
