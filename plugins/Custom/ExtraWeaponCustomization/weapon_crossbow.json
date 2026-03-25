@@ -49,7 +49,7 @@
       },
       {
         "Name": "BackstabMulti",
-        "BackstabDamageMulti": 3.0
+        "BackstabDamageMulti": 2.0
       },
       {
         "Name": "AmmoMod",
@@ -62,7 +62,7 @@
         "ReceiverSlot": "None",
         "Trigger": {
           "Name": "Kill",
-          "MaxDelay": 6.0,
+          "MaxDelay": 7.0,
           "RequireLastHit": false
         }
       },

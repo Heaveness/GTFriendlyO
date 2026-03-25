@@ -225,7 +225,7 @@
       {
         "Name": "Noise",
         "SoundID": 2759590332,
-        "LocalSoundOnly": true,
+        "LocalSoundOnly": false,
         "Trigger": "Reload" 
       },
 	    {
@@ -251,15 +251,13 @@
       {
         "Name": "Shrapnel",
         "Count": 2, 
-        "MaxRange": 10.0,
+        "MaxRange": 15.0,
         "Damage": 5.0,
         "DamageFalloff": { "x": 50, "y": 50 },
         "PrecisionDamageMulti": 1.1,
         "StaggerDamageMulti": 1.2,
         "FriendlyDamageMulti": 0.5, 
         "PierceLimit": 1,
-        "WallHandling": "Avoid", 
-        "WallHandlingDist": 10.0, 
         "IgnoreFalloff": false, 
         "DamageLimb": true, 
         "IgnoreArmor": false, 
@@ -454,13 +452,13 @@
         {
           "Name": "Noise",
           "SoundID": 3452648105,
-          "LocalSoundOnly": true,
+          "LocalSoundOnly": false,
           "Trigger": "Pre Shot" 
         },
         {
           "Name": "Noise",
           "SoundID": 3011689453,
-          "LocalSoundOnly": true,
+          "LocalSoundOnly": false,
           "Trigger": "Reload" 
         },
         {

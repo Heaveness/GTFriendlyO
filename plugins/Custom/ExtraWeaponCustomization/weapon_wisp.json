@@ -15,7 +15,7 @@
         "AllowReload": false,
         "ActiveInHolster": true,
         "ResetWhileFull": true,
-        "DelayAfterTrigger": 10.5,
+        "DelayAfterTrigger": 16.5,
         "Trigger": "Fire"
       },
       {
@@ -64,12 +64,12 @@
         "GlowRange": 10,
         "AliveTriggerDelay": 1.0,
         "AliveTriggerInterval": 0.5,
-        "Lifetime": 10.0
+        "Lifetime": 15.0
       },
       {
         "Name": "Shrapnel",
         "Count": 2,
-        "Damage": 6.0,
+        "Damage": 5.0,
         "PrecisionDamageMulti": 1.1,
         "StaggerDamageMulti": 0.5,
         "FriendlyDamageMulti": 0.5,
@@ -166,7 +166,7 @@
       {
         "Name": "Shrapnel",
         "Count": 10,
-        "Damage": 6.0,
+        "Damage": 5.0,
         "PrecisionDamageMulti": 1.1,
         "StaggerDamageMulti": 0.5,
         "FriendlyDamageMulti": 0.5,

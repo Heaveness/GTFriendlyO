@@ -79,18 +79,8 @@
         "GlowColor": "#3a9fbf",
         "GlowIntensity": 1.25,
         "GlowRange": 1.5,
-        "Trigger": "HitEnemy",
+        "Trigger": "HitEnemy|Player",
         "BatchStacks": false
-      },
-      {
-        "Name": "DamageOverTime",
-        "Duration": 9.5,
-        "TickRate": 1.0,
-        "StackLimit": 1,
-        "GlowColor": "#3a9fbf",
-        "GlowIntensity": 1.25,
-        "GlowRange": 1.5,
-        "Trigger": "HitPlayer"
       },
       {
         "Name": "Noise",
@@ -159,7 +149,7 @@
           },
           {
             "Name": "HealthMod",
-            "HealthChangeRel": 0.0062,
+            "HealthChangeRel": 0.0095,
             "CapRel": 1.0,
             "CancelRegen": false,
             "ApplyToTarget": true,
@@ -292,7 +282,7 @@
           },
           {
             "Name": "HealthMod",
-            "HealthChangeRel": 0.0062,
+            "HealthChangeRel": 0.0095,
             "CapRel": 1.0,
             "CancelRegen": false,
             "ApplyToTarget": true,

@@ -22,6 +22,10 @@
         "ResetTrigger": "Start Firing"
       },
       {
+        "Name": "ThickBullet",
+        "HitSize": 0.3
+      },
+      {
         "Name": "RecoilMod",
         "Mod": 0.8,
         "Cap": 0,
@@ -90,6 +94,10 @@
     "MeleeArchetypeID": 0,
     "Name": "LMG - Knockback",
     "Properties": [
+      {
+        "Name": "ThickBullet",
+        "HitSize": 0.3
+      },
 	    {
         "Name": "TempProperties",
         "Duration": 999999,

@@ -30,6 +30,7 @@
         "Radius": 4.5,
         "PrecisionDamageMulti": 0.5,
         "StaggerDamageMulti": 2.5,
+        "FriendlyDamageMulti": 0.3,
         "IgnoreFalloff": true,
         "DamageLimb": true,
         "IgnoreArmor": false,
