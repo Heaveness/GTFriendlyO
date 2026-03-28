@@ -14,6 +14,10 @@ This project has been in the works for many years. It's only been shared private
 ## Important:
 
 * Please note that this modpack; not a plugin. Check the status and future content in the wiki for updates. **Stay tuned & check [here!](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/3972-current-status-future-patches/)**
+    * General Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/issues/9)
+    * Enemy Balance Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/issues/8)
+    * Class Balance Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/issues/7)
+    * Weapon Balance Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/issues/6)
 
 * Can be played Vanilla with other mods with this mod-pack, especially with client-side mods. It's recommended to use several bug fix mods to prevent further issues with GTFO. But it's up to the players if they want them or not. It's not necessary to add them in. Recommended mod list: [here](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/4030-recommend-mods/)
 
@@ -101,11 +105,11 @@ This project has been in the works for many years. It's only been shared private
 | Hanaway PSB         	| Hanaway Double-Tap				| Standard bullets; Stagger										| Hitscan			|
 | Malatack LX         	| Van Auken Heavy Rifle				| Standard bullets												| Hitscan			|
 | Malatack CH 4       	| Mastaba Explosive Rifle	        | Explosive burst; charge-up; shrapnel              			| Projectile		|
-| Drekker Pres Mod 556	| Malatack Assault Rifle			| Standard bullets												| Hitscan			|
+| Drekker Pres Mod 556	| Malatack Assault Rifle			| Standard bullets; switch between semi and full auto fire		| Hitscan			|
 | Buckland SBS III    	| Buckland Triple-Barrel			| Standard bullets; hold aim to fire all shots		            | Hitscan			|
 | Bataldo J 300       	| Buckland Foam Shotgun      		| Standard bullets; applies Foam when aimed; Speed on Foam Hits | Hitscan			|	
 | Bataldo Custom K330 	| Bataldo Single Slugger			| High-precision slug; fast reload                              | Hitscan			|
-| Malatack HXC        	| Malatack AR-30					| Standard bullets 												| Hitscan			|
+| Malatack HXC        	| Malatack GL AR					| Standard bullets; 4-burst, grenade launcher attachment         Hitscan			|
 | Drekker CLR         	| Techman Exp. Smart Rifle			| Lock-on required; auto-aim homing		                    	| Projectile/Homing	|
 | Buckland S870       	| Bataldo Pump Action				| Standard bullets												| Hitscan			|
 | Buckland AF6        	| Buckland Hemorrhage Shotgun       | Reserve ammo; no reload                                       | Hitscan			|
@@ -122,6 +126,7 @@ This project has been in the works for many years. It's only been shared private
 | Omneco LRG          	| Techman Nano Gauss Rifle      	| Nano-Burst Gobules on kill seeks nearby target                | Projectile        |
 | N/A               	| Hanaway Hunting Crossbow    		| Silent, & switch between three modes(Regular, Napalm, & Foam) | Projectile/Gravity|
 | N/A                  	| Techman Wisp Launcher           	| Launches Wisp that attacks nearby targets                     | Projectile        |
+| N/A                  	| Van Auken Beam Rifle           	| High single target damage, require no reloadm, burn DoT on hit| Projectile        |
 
 ### Melee:
 
@@ -154,6 +159,7 @@ This project has been in the works for many years. It's only been shared private
 | Search & Rescue| Medium	| Glowstick Hipfire shots, Fog Repeller Aimed shots | Great utility tool, procs booster effects       	| No Damage, Low Ammo, takes up a tool slot        	|
 | C-Foam Mines   | Short	| Tripwire mines, C-foam payload                    | High C-Foam payload count, No friendly fire      	| No Damage, terrain and placement dependent     	|
 | Flamethrower   | Short	| Large flames and explosive kills that apply DoTs  | Solid DoT Damage, Stagger, and crowd control     	| Low Direct Damage, and long time to kill      	|
+| RYN0 Annihilator| Medium	| Very long shot delay(30s), explosion rounds       | Large Radius, very high AoE damage             	| Extremely low ammo, and very easy friendly fire  	|
 
 ### Enemies:
 
@@ -166,12 +172,12 @@ This project has been in the works for many years. It's only been shared private
 |----------------------------|:----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
 | Strikers					 | Higher HP, but less damage											 | N/A, just punch'em.																		|
 | Needlers(Shooter) 		 | Stronger overall damage, but more fragile							 | N/A, just shoot'em.																		|
-| Strikers Giants 			 | Tongue grabs player to its melee range; cannot parry the pull		 | Loves pulling teammates out of bioscans, either kill or disable(Medic Gun or Foam).      |
-| Scouts 					 | EMP(45.0s) after scream, invul. during EMP wind-up; Longer feelers	 | EMPs disable all, but glowsticks, fog repellers, and tripmines. Try the Specialist class!|
+| Strikers Giants 			 | Tongue grabs player to its melee range; cannot parry the pull, but can counter with timed double jump during pull		 | Loves pulling teammates out of bioscans, either kill quickly or disable(Medic Gun or Foam).      |
+| Scouts 					 | EMP(45.0s) after scream, invul. during EMP wind-up; Longer feelers, but visible	 | EMPs disable most electronics. Try the Specialist class!|
 | Birther 			         | Increased HP; Birth Children that will explode on death				 | Kill the babies first, then kill the mother fast.	     								|
 | Stalkers(Snatcher/Pouncer) | Snatched players take damage & Fast Dashes but long CDs; glue immune  | Takes longer to kill and can kill players now. They should not be ignored.				|
-| Giant & Bloom Needlers	 | Inflicts bleed(50% Chance) for 10.0% damage over 10.0s; nonstackable	 | They are high-priority targets otherwise the team will suffer major damage.              |
-| Flyers                	 | Fires explosive projectiles for 5% damage over 2.5m to 5.0m           | Shoot them down quicky before they inflict too much AoE damage.                          |
+| Giant & Bloom Needlers	 | Inflicts bleed(50% Chance) for 10.0% max HP damage over 10.0s; nonstackable	 | They are high-priority targets otherwise the team will suffer major damage.              |
+| Flyers                	 | Fires explosive projectiles for 5% damage over 2.0m to 4.0m           | Shoot them down quicky before they inflict too much AoE damage.                          |
 | Tanks						 | Significant increase in HP & high knockback; door buster				 | Significantly longer to kill, their knockback is annoying, and don`t close doors on them.|
 
 * Variants will still have their traits and abilities listed above while also having extra perks mentioned below.

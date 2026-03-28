@@ -10,15 +10,15 @@
 * Please let me know on my [Github](https://github.com/Heaveness/GTFriendlyO/issues) issue page if there are problems or if you have feedback. Thanks and have fun! 
 
 ### Mod Updates + Additions:
-* Updated `ExtraWeaponCustomization` mod
 * Updated `Spectate` mod
 * Updated `BetterBots` mod
-* Added `PingableJunkieSyringes` mod by JarheadHME
-    * Custom syringes weren't pingable which can cause some miscommunications.
-* Updated `DescriptiveWeaponStatShower` mod
-    * Fixed custom turrets not having any stats shown in the tool select.
+* Updated `AmorLib` mod
 
 ### Weapon Additions:
+* Updated `ExtraWeaponCustomization` mod
+* Added `Ound9 gearpart II` mod by Ound9
+* Added `ReloadTimer` mod by zooooox
+* Removed the text, only the reload circle will be kept
 * Added `2` new custom weapon!
 * Bots cannot use the different weapon mode feature, so they will always default to mode 1 of the crossbow and medic gun. It is highly recommended you do not give weapons to bots that require nuance to use properly.
 * **Hanaway Hunting Crossbow:**
@@ -31,11 +31,16 @@
     * Effective Range: `30.0m`
     * Hit Size: `+0.25m`
     * Stagger Multiplier: `1.5x`
-    * Precision Multiplier: `3.0x`
+    * Precision Multiplier: `3.25x`
     * Silenced, does not alert enemies
+    * Added `Push` property when shooting based on standing/crouching/jumping
+        * Standing: `-2.5m`
+        * Crouching: `-1.0m`
+        * Jumping: `5.0m`
     * Regular Bolts: (Default Keybind: KeypadPeriod[KeyConfig3])
         * Ballistics Type: `Fast Projectile Low Gravity`
-        * Backstab Multiplier: `2.0x`
+        * Armor Pierce: `+10%`
+        * Backstab Multiplier: `2.25x`
         * Recovers only `1.0` ammo per target killed
         * Max Delay requirement for ammo refund: `7.0s`
     * Napalm Bolts: (Default Keybind: KeypadEnter[KeyConfig1])
@@ -48,14 +53,14 @@
         * DoT Tick Rate: `2.0s`
         * DoT Stack Limit: `3`
         * Friendly Fire Multiplier: `0.5x`
+        * Drops `1` Red Glowstick when the projectile times out or dies
     * Foam Bolts: (Default Keybind: KeypadPlus[KeyConfig2])
         * Ballistics Type: `Fast Projectile Mid Gravity`
-        * Foam Time: `8.5s`
+        * Foam Time: `16.0s`
         * Foam Chance: `Override Guaranteed`
         * Foam Doors: `Yes`
         * Foam Door Requirements: `1` bolt if you hit the door after the first foam bolt hits
 > Dev Note: The first "silent" weapon in the pack. To prevent this weapon's potential imbalance nature, the damage will be significantly more reliable in stealth scenarios. Its low max ammo capacity encourages players to shoot with purpose, as kills will refund only 1 ammo per target.
-
 * **Techman Wisp Thrower:**
 * An experimental entity that floats mid-air and attacks nearby targets until it bursts into several quills at the end of its life.
     * Max Ammo: `40`
@@ -77,6 +82,48 @@
     * Wisp Death Quill Damage: `5.0`
     * Wisp Quill Max Range: `25.0m`
 > Dev Note: An interesting weapon that has multiple uses. It has a good area denial which should pair well with trip mines and turrets. Also, it provides light which is great during EMP events or dark rundowns.
+* **Van Auken Exp. Beam Rifle:**
+* A manufactured copy of a patented prototype beam rifle in collabration with Techman Biotechnics.
+    * Direct Damage: `1.0`
+    * Reserve Ammo, no reload
+    * Clip Regen up to `100` after Shot Delay
+    * Max Ammo: `100`
+    * Clip Size: `100`
+    * Pierce Limit: `1` 
+    * Fires `1` continuous beam costs `100` rounds
+    * Damage increases continuous hitting a single target for the whole beam. 
+        * Up to `1.5x` damage cap for normal shots as it stacks 1 at a time
+        * Up to `2.0x` damage cap for weakspot shots as it stacks 2 at a time
+        * Duration lasts `2.5s` then rapidly decays. Continued hits from the user will refresh the duration
+    * Shot Delay: `2.0s`
+    * DoT Damage: `1.0`
+    * DoT Duration: `10.0s`
+    * DoT Tick Rate: `2`
+    * DoT Stack Limit: `100`
+    * Shrapnel Count: `0.1`
+    * Shrapnel Direct Damage: `0.1`
+    * Shrapnel can contribute to DoT stacks
+> Dev Note: Thanks to FE3, Dinorush, and EWC for the template to create this weapon. It's a concept that looks a little weird, but might have a niche usage. Does a significant amount of damage to single target, it is not recommended to spray fire as the base damage is very low.
+## Tool Additions:
+* **Van Auken RYN0 Annihilator:**
+* An extremely dangerous weapon from Van Auken's armory, capable of killing almost anything within the area. Truly a tool of destruction!
+    * Direct Damage: `100`
+    * Reserve Ammo, no reload
+    * Max Ammo: `6`
+    * Clip Size: `1`
+    * Shot Delay: `30.0s`
+    * Charge Up Time: `2.0s`
+    * Explosion Minimum Damage: `400.0`
+    * Explosion Maximum Damage: `700.0`
+    * Explosion Outer Radius: `10.0m`
+    * Explosion Inner Radius: `5.0m`
+    * Stagger Multiplier: `5.0x`
+    * Friendly Fire Multiplier: `0.1x`
+    * Push based on shooting during standing/crouching/jumping:
+        * Standing: ``
+        * Crouching: ``
+        * Jumping: ``
+> Dev Note: This is a meme weapon/tool and a little nod to one of the best sci-fi action game series.
 
 ### Weapon Tweaks + Fixes:
 * Medic Gun **Rework**:
@@ -133,14 +180,82 @@
 > Dev Note: Here I am modifying the medic gun again. With these new changes, it will add a lot more complexity to the gun itself. Effectively making it the defacto "support" weapon.
 * HMG:
     * Added `ThickBullet` property:
-        * Added `0.3m` to projectile hitbox
+        * Added `0.2m` to projectile hitbox
 * LMG:
     * Added `ThickBullet` property:
-        * Added `0.3m` to projectile hitbox
+        * Added `0.2m` to projectile hitbox
+* Reserve MP1:
+    * Added `ThickBullet` property:
+        * Added `0.15m` to projectile hitbox
+* MP2:
+    * Added `ThickBullet` property:
+        * Added `0.15m` to projectile hitbox
+* Drum Mag AR:
+    * Increased Reload Time from `2.5s` to `2.8s`
+    * Added `ThickBullet` property:
+        * Added `0.15m` to projectile hitbox
+> Dev Note: It should feel a little less punishing to spray into a crowd in a general area
+* Full-Auto Light AR: **Rework**
+    * Changed name from `Full-Auto Light AR` to `4-B Nade Launcher AR`
+    * Changed `Scope` Part (improved the FOV & zoom of this scope)
+    * Changed `Receiver` Part
+    * Changed `Front` Part
+    * Changed `Magazine` Part
+    * Changed `Stock` Part
+    * Decreased Hipfire Spread from `1.4x` to `1.0x`
+    * Decreased Aimed Spread from `0.6x` to `0.4x`
+    * Decreased Direct Damage from `6.5` to `5.0`
+    * Decreased Clip Size from `30` to `20`
+    * Increased Reload Time from `1.7s` to `2.2s`
+    * Increased Max Ammo from `305` to `400`
+    * Added `Explosive` property
+        * Assault Rifle:
+            * Activated by using specific keybind trigger(Default Keybind: KeypadEnter[KeyConfig1])
+            * Changes Accuracy and Recoil data to `Bullpup`
+            * Direct Damage: `4.0`
+            * Burst Count: `4`
+        * Nade Launcher:
+            * Activated by using specific keybind trigger(Default Keybind: KeypadPlus[KeyConfig2])
+            * Changes Accuracy and Recoil data to `Rifle`
+            * Direct Damage: `1.0`
+            * Pulls from reserve ammo; does not use clip unless reserve is empty
+            * Explosive Bullet Cost: `-20`
+            * Explosion Minimum Damage(Inner): `20.0`
+            * Explosion Maximum Damage(Outer): `40.0`
+            * Explosion Outer Radius: `4.0m`
+            * Explosion Inner Radius: `2.0m`
+            * Stagger Multiplier: `2.0x`
+            * Damages `Owner` and `Friendly`
+            * Friendly Fire Multiplier: `0.75x`
+            * Shrapnel Count: `10`
+            * Shrapnel Damage: `5.0`
+* Semi-Auto AR **Rework**
+    * Changed name from `Semi-Auto Rifle` to `Semi/Full-Auto Rifle`
+    * Changed `Scope` Part
+    * Changed `Receiver` Part
+    * Changed `Front` Part
+    * Changed `Magazine` Part
+    * Changed `Stock` Part
+    * Changed `Flashlight` Part
+    * Decreased Direct Damage from `8.1` to `7.5`
+    * Increased Reload Time from `1.9s` to `2.6s`
+    * Increased Clip Size from `20` to `45`
+    * Increased Max Ammo from `203` to `295`
+    * Added two modes: Switch between Semi-Auto and Full-Auto
+        * Semi-Auto:
+            * Activated by using specific keybind trigger(Default Keybind: KeypadEnter[KeyConfig1])
+        * Full-Auto:
+            * Activated by using specific keybind trigger(Default Keybind: KeypadPlus[KeyConfig2])
+> Dev Note: These two guns need a bit more love as they were basically two of the same. Also they sort of lacked identity compare to the other rifles.
 * Glue Pistol:
     * Increased Glue Bubble Expansion Speed from `0.1x` to `0.25x`
     * Increased Armor Shred from `-20%` to `-30%`
+    * Switched `ArmorShred` to `ShotModDebuff` property:
+        * Applies `+30%` increased base damage(excluding precision & stagger) debuff on an enemy target for all sources
+> Dev Note: With a lot of new options to foam targets, the Foam Pistol lost a lot of its place in the roster. So I am switching the armorshred to a "Increase Damage Taken" debuff on the target that is unique to this gun only.
 * Exp. Smart Rifle:
+    * Changed `Front` Part
+    * Changed `Receiver` Part
     * Added Trail Color similar to Glow Color
     * Decreased Projectile Speed from `45.0m` to `25.0m` per second
     * Decreased Projectile Lifetime from `30.0s` to `10.0s`
@@ -150,6 +265,11 @@
 >Dev Note: Once a projectile times out around a target, a shrapnel similar to the original will spawn. This projectile will have a significantly stronger homing strength and angle which should properly hit its intended target more consistently. Orbiting projectiles might still get destroyed on a object or terrain.
 * Heavy Revolver:
     * Changed `Stock` Part to prevent a log spamming issue.
+* Tracker Pistol:
+    * Changed `Front` Part(Scope Attachment)
+* Tracker PDW:
+    * Changed `Front` Part
+    * Changed `Receiver` Part
 * Tracker Rifle:
     * Changed `Front` Part
     * Changed `Receiver` Part
@@ -166,22 +286,42 @@
     * Increased Max Ammo from `58` to `70`
 * Triple Barrel Shotgun:
     * Increased Max Ammo from `71` to `81`
+* Explosive Burst Rifle:
+    * Changed `Receiver` Part
+    * changed `Sight` Part
+* Explosive Shotgun:
+    * Changed `Receiver` Part
+    * changed `Front` Part
+* W-Pen Sniper:
+    * Changed `Front` Part
+    * Changed `Receiver` Part
+    * Changed `Sight` Part
+    * Removed `Magazine` Part
+    * Increased Push for both Standing & Jumping by `+2.0m`
+    * Decreased Push for Crouching by `-1.0m`
+* Nano Gauss Rifle:
+    * changed `Receiver` Part
+    * Increased Push for both Standing & Jumping by `+2.0m`
+    * Decreased Push for Crouching by `-1.0m` 
 
 ### Class Tweaks:
+* Updated `GTFuckingXP` mod
 * Specialist:
     * Increased Fog Repeller/Turbine Power from `+80%` to `+100%`
     * Increased Initial Ammo Penalty from `-30%` to `-40%`
     * Decreased Ammo Cost Efficiency Penalty from `-30%` to `-20%`
-> Dev Note: With the new mod mentioned below, I can adjust the values that make the consumable more reliable in its duration. The Specialist should feel a lot more powerful against the Fog mechanics, but the constant buffs in recent patches should result in a nerf somewhere to counter balance.
+> Dev Note: The Specialist should feel a lot more powerful against the Fog mechanics, but the constant buffs in recent patches should result in a nerf somewhere to counter balance.
 
 * Paramedic:
     * Decreased Ammo Cost Efficiency Penalty from `-20%` to `-15%`
 
 * Quartermaster:
-    * Decreased Damage Penalty from `-50%` to `-40%`
+    * Decreased Damage Penalty from `-50%` to `-30%`
     * Added Initial Tool Ammo Penalty of `-20%`
 
 ### Booster Tweaks:
+* Added `PingableJunkieSyringes` mod by JarheadHME
+    * Custom syringes weren't pingable which can cause some miscommunications
 * Revive Spd. & Health `Muted` Booster:
     * Increased Revive Speed bonus from `+10%` to `+20%`
 * Revive Spd. & Health `Bold` Booster:
@@ -191,16 +331,11 @@
 > Dev Note: The nature of revive speed works off the game's baseline 4.0s to 5.0s. So 45% is not worth a lot to risk taking all three boosters, now its 75% in the right condition which feel much more impactful.
 
 ### Tool Tweaks + Fixes:
-* Added `FogRepellerModifier` mod
-    * Fog Repeller Consumable:
-        * Increased Lifetime Duration from `70.0s` to `132.0s`
-        * Decreased Base Range from `11.0m` to `10.0m` (with Specialist's +100% buff: `20.0m`)
-        * Increased Grow Duration from `8.0s` to `12.0s`
-        * Increased Shrink Duration from `10.0s` to `6.0s`
-        * Increased Fog Density Removal from `-7.0` to `-8.0`
-        * Decreased Minimum Consumable Loot Count from `5` to `4`
-        * Decreased Maximum Consumable & Carry Limit Loot Count from `10` to `8`
-> Dev Note: I have been waiting for a mod like this since this pack's initial release. To balance the significant lifetime duration increase, they should take longer to fully grow and shrink much faster. Also decreased their carry limit to counteract too.
+* Updated `DescriptiveWeaponStatShower` mod
+    * Fixed custom turrets not having any stats shown in the tool select sceen
+* Fog Repeller Consumable:
+     * Decreased Minimum Consumable Loot Count from `5` to `4`
+     * Decreased Maximum Consumable & Carry Limit Loot Count from `10` to `8`
 * Search & Rescue Tool: **Improvement**
     * Increased Max Ammo from `30` to `40`
     * Changed aimed function to keybind-based modes
@@ -215,6 +350,7 @@
 * 4-Burst Sentry:
     * Decreased Burst Delay from `2.0s` to `1.8s`
 * Missile Sentry:
+    * Added text description for traits
     * Fixed explosion not having friendly fire multiplier. *Oops...*
     * Increased Friendly Fire Multiplier from `-50%` to `-70%`
 > Dev Note: I want to slightly lower the Burst turret's clunkiness to be a bit more reliable on maps that have tight corners.
@@ -241,6 +377,7 @@
 
 ### Miscellaneous Fixes:
 * Changed the wording on the pack's tagline description again
+* Updated README.md file
 * Updated CHANGELOG.md file
     * Fixed typos in CHANGELOG.md for v2.2.0
     * Removed old patch notes pre-v2.0 to save space for Thunderstore character limit. Check Github Repo for old changelog.
@@ -274,12 +411,10 @@
 * Updated `EEC H` mod
 * Added `Spectate` mod by food
     * Spectate your teammates upon death(downed)
-> Dev Note: This mod should create a more enjoyable experience for teams. Watching your screen on the ground which could last up to several minutes is not really a fun time. It's more enjoyable when you can see what is going on with your teammates by the time of your death.
 
 ### Class Tweaks:
 * Updated `GTFuckingXP` mod
     * Removed `DoubleJump` mod dependecy (You're free to remove this mod)
-> Dev Note: Latest update removed dependency on this mod and implemented its own double jump feature.
 * Improved text organization on class selection screen to improve readability.
 * HEL Diver:
     * Changed class description to match tone similar to the other B-Company Division members
@@ -288,7 +423,6 @@
     * Increased Glue Strength & Efficiency from `+25%` to `+30%`
     * Increased Fog Repeller/Turbine Power from `+75%` to `+80%`
     * Increased Glowstick Power from `+150%` to `+175%`
-> Dev Note: Slightly increasing their power scaling to make them more enticing to play as a secondary or replacement support compare to the Paramedic.
 
 * Field Technician:
     * Increased Initial Tool Ammo from `+40%` to `+50%`
@@ -320,12 +454,10 @@
     * Increased Effective Range from `9.0m` to `10.0m`
 * Tracker Pistol:
     * Increased Effective Range from `11.0m` to `12.0m`
-> Dev Note: Currently the numbers for majority of guns had very high maximum effective range which made minimum effective ranges almost pointless past its number. A gun's damage should falloff more significantly after the minimum range has past. Otherwise a large maximum range will make the gun, up to 99%, effective till it is reached. The default numbers were generally around 60.0m+ for most guns, not intentional.
 * Added `Hitmarker Cooldown` of `1.0s` for all DoT weapons to prevent excessive sound effects.
 * Medic Gun:
     * Changed `Sight` Part
     * Changed `Receiver` Part
-> Dev Note: Even though this gun is classified as SMG, it acts like a precision rifle. It's so Paramedic players do not get penalized for using this gun. That's why it is a weird circumstance.
 * Exp. Smart Rifle:
     * Changed `Sight` Part
 * MP2:
@@ -333,7 +465,6 @@
     * Decreased Aim Spread from `0.5x` to `0.4x`
     * Increased Clip Size from `50` to `60`
     * Increased Max Ammo from `737` to `747`
-> Dev Note: It should feel a bit better to use overall without pushing out the MP1.
 * Explosive Shotgun:
     * Added `Shrapnel` property
         * Shrapnel Damage: `5.0`
@@ -342,7 +473,6 @@
 * Triple Barrel Shotgun:
     * Added `Push` property when using `Aim` Trait
         * Standing/Crouching/Jumping: `-12.0m`
-> Dev Note: Base force does not take in account gravity, movement direction, obstacles and friction. Most often the distance covered here is less because of the factors mentioned above. Of course this might cause you to get stuck in certain objects or obstacles, so use with caution.
 * Bolt Pistol:
     * Added `Push` property when shooting based on standing/crouching/jumping
         * Standing: `-2.0m`
@@ -379,7 +509,6 @@
         * Standing: `-3.0m`
         * Crouching: `-1.0m`
         * Jumping: `-6.0m`
-> Dev Note: You will be pushed back when shooting and can use it to get to hard-to-reach areas. Also you can even use it to create space in tight situations, if you jump and shoot. For guns like the HMG/LMG, Snipers, and High-Cal Pistol is to sell their overall firepower. Additionally it incentizes players to crouch when shooting.
 
 ### Tool Addition & Tweaks:
 * Updated `ExtraToolCustomization` mod
@@ -394,7 +523,6 @@
     * Increased Placement Cooldown from `1.0s` to `1.5s`
     * Increased Pickup Time from `1.0s` to `2.0s`
     * Increased Placement Range from `2.5m` to `6.0m`    
-> Dev Note: Some changes were made to the explosive mine deployer to help differentiate with the new foam mines at a visual glance. Slightly increased its effectiveness and a small QoL with its beam length. But made it harder to do quick drive-by placements and pickups to exploit its power. It should be a tool that rewards careful planning and placements.
 * Consumable Foam Tripmine:
     * Increased Firing Delay from `0.0s` to `0.1s`
     * Increased Minimum Effective Distance from `2.5m` to `3.0m`
@@ -403,7 +531,6 @@
     * Decreased Foam Bubble Count from `17` to `15`
     * Increased Placement Range from `2.5m` to `3.0m`
     * Decreased Placement Cooldown from `2.0s` to `0.5s`
-> Dev Note: These changes are to align with the explosive mines for better consistency.
 * Consumable Explosive Mine:
     * Increased Placement Range from `2.5m` to `3.0m`
 * Advanced Bio Tracker:
@@ -420,13 +547,11 @@
     * Increased Pellet Count from `7` to `8`
     * Decreased Shot Delay from `1.0s` to `0.75s`
     * Increased Max Ammo from `91` to `121`
-> Dev Note: Lowered the clunkiness of these two turrets.
 * HMG Turret:
     * Increased Direct Damage from `1.6` to `1.7`
 * Sniper Turret:
     * Increased Direct Damage from `85.5` to `90.5`
 * Added four **NEW** tools! C-Foam Snare, Cave & Rescue, Exterminatus Flamer and Rocket Sentry
-> Dev Note: Please note that bots are unable to use new tools.
 * **C-Foam Snare:(C-Foam Mine Deployer):**
     * Max Ammo: `15`
     * Firing Delay: `0.5s`
@@ -436,7 +561,6 @@
     * Foam Bubble Count: `25`
     * Placement Range: `6.0m`
     * Placement Time/Cooldown/Pickup: `2.0s`
-> Dev Note: The purpose for this weapon is for supports and demolitionist to have a different non-lethal alternative to the explosive mines. I will be carefully observing if this support item is worth bringing compare to others.
 * **Mastaba Search & Rescue:**
     * Primary Fire mode: `Glowstick Launcher`
         * Costs: `1` ammo per shot
@@ -451,7 +575,6 @@
         * Wake Up Radius: `4.0m`
         * Alert Radius: `8.0m`
         * Alert Amount: `40%` (Sleepers awake at 100%)
-> Dev Note: The ability to use Glowsticks and Fog Repellers on demand can help teammates significantly in rundowns that originally had none of these items spawn. While it can take up a Tool spot, it will open up your utility slot for other items.
 * **Bio-Tag Rocket Turret:**
 * There is no stat description for this turret because of issues with vanilla GTFO not playing nice with another mod. Unfortunately, I cannot fix it on my end. Please refer to the wiki for stats.
     * Direct Damage: `5.0`
@@ -472,7 +595,6 @@
     * Deploy Time: `6.0s`
     * Scan Delay: `1.0s`
     * Scan Color: `Purple`
-> Dev Note: Another alternative choice for Field Technician or sentry users to utilize as an AoE option. Very effective against enemies and teammates!
 * **Exterminatus Flamer:**
     * Direct Damage: `1.0`
     * Multishot: `5.0x`
@@ -501,12 +623,10 @@
     * Slow Fire Rate, must Accelerate to increase Fire Rate
     * Flames will ricochet off of walls at an extremely slow speed
     * Flames will "stay" on the ground up to a few seconds which will apply damage
-> Dev Note: This tool usage is on the higher-end of the performance, so on lower-end PCs there might be noticeable impacts when using this weapon. Please let me know on my [Github](https://github.com/Heaveness/GTFriendlyO/issues) issue page if there are problems.
 
 ### Melee Tweaks:
 * Sledgehammer:
     * Increased Armor Shred Duration from `4.0s` to `4.5s`
-> Dev Note: This tiny change is to prevent potential loss of packets(lag) when applying it on a target. 
 
 ### Booster Tweaks:
 * Changed text from `99 Uses Left` to `Infinite Uses`
@@ -518,13 +638,13 @@
     * Increased Tool ammo bonus from `10%` to `15%`
 * Initial Tool Ammo `Aggressive` Booster:
     * Increased Tool ammo bonus from `20%` to `35%`
-> Dev Note: I still realized the total calculation of having both was a net neutral bonus while the others were not. So I boosted their numbers to incentize using them, if you choose to do so.
 * Regen Cap/Speed `Bold` Booster:
     * Changed Condition from `Human Proximity` to `Glowstick Radius`
 * Tripmine Damage `Bold` Booster:
     * Changed Condition from `Holding Tool` to `Human Proximity`
 
-### Miscellaneous Fixes:
+### Miscellaneous Tweaks + Fixes:
+* Moved Minimap location
 * Fixed various issues:
     * Fixed errors of duplicate weapon gear parts
     * Fixed Gear Category duplicate data blocks
@@ -546,7 +666,6 @@
 * Updated `ExtraWeaponCustomization` mod
 * Updated `ExtraSyringeCustomization` mod
     * Removed `MovementSpeedAPI` mod
-> Dev Note: With ESC mod updated with the new dependency, I can remove the old depreciated mod. MovementSpeedAPI is no longer needed anymore and can be safely removed from the modpack. But it will have to be manually removed by the player if they already have it. All I can do is remove it from the manifest so it's no longer required to have it active. It is safe to remove MovementSpeedAPI from your list.
 * Added `StrongerPlayer` mod by Chaxi
     * Ability to sprint while holding onto objective items such as Fog Turbines, Battery Cells, and other large objects that require both hands.
 
@@ -560,7 +679,6 @@
     * Increased Dash Cooldown from `5.0s` to `13.0s`
     * Increased Runaway Duration from `5.0s` to `13.0s`
     * Increased Dash Speed Modifier from `1.0x` to `2.0x`
-> Dev Note: After some feedback, the health on the Stalker was overtuned which created a problem with rundowns that had multiples of them running around. This led to an issue where they just became a huge mag dump fest that provided no real challenge or fun to the overall gameplay. So I am significantly lowering their health which should be less than a regular Tank but still higher than a Giant. But to keep their threat level high, I have increased their overall dash speed to catch players off-guard when it attacks. To prevent them from spamming the dash, I have increased the cooldown between attacks.
 * Kraken(Boss):
     * Decreased Health from `9000` to `7000`
     * Increased Bodypart Health from `1800` to `2000`
@@ -571,12 +689,10 @@
 * Nano Gauss Rifle:
     * Decreased Shrapnel(Gobules) count from `20.0` to `10.0`
     * Increased Shrapnel(Gobules) damage from `2.0` to `4.0`
-> Dev Note: I have noticed that whenever the nano-gauss killed an enemy it would cause a lag spike because of the excessive amounts of nano gobules that spawn off of the dead bodies. So I decided to lower the amount, but increase the damage. It still does exactly total damage of 40.0 as before, but less taxing on the game's system.
 
 ### Misc. Tweaks:
 * ChatterReborn:
     * Removed banter whenever someone carried the Fog Turbine.
-> Dev Note: Constantly hearing the same comment over and over again is so degrading on the ear during long play sessions.
 
 ---
 
