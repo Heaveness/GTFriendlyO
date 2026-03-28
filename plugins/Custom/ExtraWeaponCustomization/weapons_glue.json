@@ -23,11 +23,17 @@
         "Trigger": "BulletLanded"
       },
       {
-        "Name": "ArmorShred",
-        "Mod": 2.3,             
-        "Duration": 10.0,          
-        "StackType": "Override",  
-        "CombineModifiers": false,
+        "Name": "ShotModDebuff",
+        "Mod": 1.3,
+        "StatType": "Damage",
+        "DamageType": "Any",
+        "Cap": 1.3,
+        "Duration": 10.0,
+        "StackType": "Override",
+        "InnerStackType": "Override",
+        "StackLayer": "Multiply",
+        "DebuffID": 0,
+        "GlobalID": 0,
         "Trigger": "HitEnemy"
       },
       {

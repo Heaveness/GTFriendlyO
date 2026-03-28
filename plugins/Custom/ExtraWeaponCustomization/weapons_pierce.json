@@ -19,7 +19,7 @@
         "Properties": [
           {
             "Name": "Push",
-            "Force": -2,
+            "Force": -1,
             "Offset": [0, 0],
             "ApplyToTarget": false,
             "VerticalScale": 0,
@@ -37,7 +37,7 @@
         "Properties": [
           {
             "Name": "Push",
-            "Force": -8,
+            "Force": -10,
             "Offset": [0, 0],
             "ApplyToTarget": false,
             "Trigger": "Fire"
@@ -54,7 +54,7 @@
         "Properties": [
           {
             "Name": "Push",
-            "Force": -4,
+            "Force": -6,
             "Offset": [0, 0],
             "ApplyToTarget": false,
             "VerticalScale": 0,

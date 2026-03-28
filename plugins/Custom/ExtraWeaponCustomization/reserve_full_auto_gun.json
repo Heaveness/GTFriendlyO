@@ -23,7 +23,7 @@
       },
       {
         "Name": "ThickBullet",
-        "HitSize": 0.3
+        "HitSize": 0.25
       },
       {
         "Name": "RecoilMod",
@@ -96,7 +96,7 @@
     "Properties": [
       {
         "Name": "ThickBullet",
-        "HitSize": 0.3
+        "HitSize": 0.25
       },
 	    {
         "Name": "TempProperties",
@@ -158,8 +158,34 @@
     "MeleeArchetypeID": 0,
     "Name": "Drum Mag Machine Pistol - Full Auto Ammo",
     "Properties": [
-	  {
+	    {
         "Name": "ReserveClip"
+      },
+      {
+        "Name": "ThickBullet",
+        "HitSize": 0.15
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 43,  
+    "MeleeArchetypeID": 0,
+    "Name": "Machine Pistol - Thicker Bullets",
+    "Properties": [
+      {
+        "Name": "ThickBullet",
+        "HitSize": 0.15
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 5,  
+    "MeleeArchetypeID": 0,
+    "Name": "Drum Mag AR - Thicker Bullets",
+    "Properties": [
+      {
+        "Name": "ThickBullet",
+        "HitSize": 0.15
       }
     ]
   },

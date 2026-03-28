@@ -401,7 +401,7 @@
           "Properties": [
             {
               "Name": "Push",
-              "Force": -3,
+              "Force": -2,
               "Offset": [0, 0],
               "ApplyToTarget": false,
               "VerticalScale": 0,
@@ -419,7 +419,7 @@
           "Properties": [
             {
               "Name": "Push",
-              "Force": -10,
+              "Force": -12,
               "Offset": [0, 0],
               "ApplyToTarget": false,
               "Trigger": "Fire"
@@ -436,7 +436,7 @@
           "Properties": [
             {
               "Name": "Push",
-              "Force": -5,
+              "Force": -7,
               "Offset": [0, 0],
               "ApplyToTarget": false,
               "VerticalScale": 0,
@@ -552,6 +552,159 @@
           "HitTriggerTarget": false, 
           "RunHitTriggers": true, 
           "Trigger": "KillBullet"
+        }
+      ]
+    },
+    {
+    "ArchetypeID": 1000,
+      "MeleeArchetypeID": 0,
+      "Name": "RYN0 - Death",
+      "Properties": [
+        {
+          "Name": "Explosive",
+          "MaxDamage": 700.0,
+          "MinDamage": 400.0,
+          "InnerRadius": 7.5,
+          "Radius": 15.0,
+          "PrecisionDamageMulti": 1.0,
+          "StaggerDamageMulti": 5.0,
+          "FriendlyDamageMulti": 0.1,
+          "IgnoreFalloff": true,
+          "DamageLimb": true,
+          "IgnoreArmor": false,
+          "IgnoreBackstab": false,
+          "IgnoreDamageMods": true,
+          "UseParentShotMod": false,
+          "DamageFriendly": true,
+          "DamageOwner": true,
+          "DamageLocks": true,
+          "HitClosestFirst": true,
+          "SoundID": 2209036113,
+          "EnableMineFX": true,
+          "GlowColor": "#B22222",
+          "GlowIntensity": 5,
+          "GlowDuration": 1.0,
+          "GlowRange": 10,
+          "GlowFadeDuration": 0.5,
+          "Trigger": "BulletLanded"
+        },
+        {
+          "Name": "Projectile",
+          "ProjectileType": "RagingBoss",
+          "Speed": 65,
+          "AccelScale": 2.0,
+          "AccelExponent": 1,
+          "AccelTime": 0.2,
+          "Gravity": 0,
+          "HitSize": 0.2,
+          "HitSizeFriendly": 0,
+          "HitSizeWorld": 0,
+          "ModelScale": 10,
+          "EnableTerrainHitFX": true,
+          "EnableTrail": true,
+          "TrailColor": "#FF0000",
+          "TrailWidth": 0.1,
+          "TrailTime": 0.8,
+          "TrailCullOnDie": false,
+          "GlowColor": "#FF0000",
+          "GlowIntensity": 1,
+          "GlowRange": 4,
+          "DamageFriendly": true,
+          "DamageOwner": false,
+          "HitFromOwnerPos": false,
+          "HitCooldown": -1,
+          "HitIgnoreWallsDuration": 15,
+          "RicochetCount": 0,
+          "RicochetSpeedMod": 0,
+          "RicochetSpeedAngleFactor": 0,
+          "VisualLerpDist": 5,
+          "Lifetime": 30,
+          "HomingSettings": {}
+        },
+        {
+          "Name": "AmmoRegen",
+          "ClipRegen": 100.0,
+          "ReserveRegen": 0.0,
+          "OverflowToReserve": false,
+          "PullFromReserve": true,
+          "UseRawAmmo": false,
+          "BypassReserveCap": false,
+          "AllowReload": false,
+          "ActiveInHolster": true,
+          "ResetWhileFull": true,
+          "DelayAfterTrigger": 30.0,
+          "Trigger": "Fire"
+        },
+        {
+          "Name": "TempProperties",
+          "Duration": 999999,
+          "Properties": [
+            {
+              "Name": "Push",
+              "Force": -6,
+              "Offset": [0, 0],
+              "ApplyToTarget": false,
+              "VerticalScale": 0,
+              "Trigger": "Fire"
+            }
+          ],
+          "Trigger": {
+            "Activate": "Crouch",
+            "Reset": "CrouchEnd"
+          }
+        },
+        {
+          "Name": "TempProperties",
+          "Duration": 999999,
+          "Properties": [
+            {
+              "Name": "Push",
+              "Force": -16,
+              "Offset": [0, 0],
+              "ApplyToTarget": false,
+              "Trigger": "Fire"
+            }
+          ],
+          "Trigger": {
+            "Activate": "Jump",
+            "Reset": "JumpEnd"
+          }
+        },
+        {
+          "Name": "TempProperties",
+          "Duration": 999999,
+          "Properties": [
+            {
+              "Name": "Push",
+              "Force": -12,
+              "Offset": [0, 0],
+              "ApplyToTarget": false,
+              "VerticalScale": 0,
+              "Trigger": "Fire"
+            }
+          ],
+          "Trigger": {
+            "Activate": ["CrouchEnd", "JumpEnd", "Drop"],
+            "Reset": ["Crouch", "Jump"]
+          }
+        },
+        {
+          "Name": "Noise",
+          "SoundID": 2209036113,
+          "Trigger": "Pre Shot" 
+        },
+        {
+          "Name": "Noise",
+          "LocalSoundID": 2759590332,
+          "Trigger": {
+            "Name": "Clip",
+            "ClipMin": 0,
+            "ClipMax": 1,
+            "AmountAtMin": 0,
+            "AmountAtMax": 1,
+            "Exponent": 1.0,
+            "FlipExponent": false
+          }
         }
       ]
     }

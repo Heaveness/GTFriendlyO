@@ -141,5 +141,157 @@
       }
     }
     ]
+  },
+  {
+    "ArchetypeID": 120,  
+    "MeleeArchetypeID": 0,
+    "Name": "Beam Rifle - Laser",
+    "Properties": [
+    {
+      "Name": "EnforceFireRate"
+    },
+    {
+      "Name": "ForceFire",
+      "RequiredState": "All"
+    },
+    {
+      "Name": "Projectile",
+      "ID": "Laser",
+      "ProjectileType": "RagingBoss",
+      "Speed": 200,
+      "AccelScale": 2.0,
+      "AccelExponent": 1,
+      "AccelTime": 0.2,
+      "Gravity": 0,
+      "HitSize": 0.5,
+      "HitSizeWorld": 0,
+      "ModelScale": 2,
+      "EnableTerrainHitFX": true,
+      "EnableTrail": true,
+      "TrailColor": "#CD352E",
+      "TrailWidth": 0.2,
+      "TrailTime": 1.5,
+      "TrailCullOnDie": true,
+      "GlowColor": "#CD352E",
+      "GlowRange": 0,
+      "DamageFriendly": true,
+      "DamageOwner": false,
+      "HitFromOwnerPos": false,
+      "HitCooldown": -1,
+      "HitIgnoreWallsDuration": 15,
+      "VisualLerpDist": 5,
+      "Lifetime": 20,
+      "HomingSettings": {}
+    },
+    {
+      "Name": "Shrapnel",
+      "Count": 1,
+      "Damage": 0.1,
+      "MaxAngle": 360,
+      "Traits": [
+        {
+          "Name": "Projectile",
+          "ProjectileType": "NotTargetingSmallPellet",
+          "Speed": 0.1,
+          "AccelScale": 0.1,
+          "AccelExponent": 1,
+          "AccelTime": 0.1,
+          "Gravity": 5,
+          "HitSize": 0.5,
+          "HitSizeWorld": 0,
+          "EnableTerrainHitFX": false,
+          "ModelScale": 1,
+          "EnableTrail": true,
+          "TrailColor": "#CD352E",
+          "TrailCullOnDie": false,
+          "GlowColor": "#CD352E",
+          "GlowIntensity": 0.05,
+          "GlowRange": 10,
+          "DamageFriendly": true,
+          "DamageOwner": false,
+          "HitFromOwnerPos": false,
+          "HitCooldown": -1,
+          "HitIgnoreWallsDuration": -1,
+          "RicochetCount": 5,
+          "RicochetSpeedMod": 0.05,
+          "RicochetSpeedAngleFactor": 0,
+          "RicochetIgnorePlayers": false,
+          "RicochetResetHits": false,
+          "RicochetOnHit": false,
+          "DestroyedSoundID": 964554856,
+          "HitCheckCooldown": 0.2,
+          "VisualLerpDist": 5,
+          "Lifetime": 10
+        }
+      ], 
+      "Trigger": {
+        "Name": "Reference",
+        "ID": "Laser",
+        "Callback": "Destroyed"
+      }
+    },
+    {
+      "Name": "DamageOverTime",
+      "TotalDamage": 1,
+      "PrecisionDamageMulti": 1.0,
+      "StaggerDamageMulti": 0.5,
+      "Duration": 10,
+      "TickRate": 2,
+      "StackLimit": 100,
+      "IgnoreFalloff": false,
+      "DamageLimb": true,
+      "IgnoreArmor": true,
+      "IgnoreBackstab": true,
+      "IgnoreDamageMods": false,
+		  "GlowColor": "#CD352E",
+		  "GlowIntensity": 1,
+      "GlowRange": 1.2,
+      "HitmarkerCooldown": 1,
+      "Trigger": "HitEnemy|Player",
+      "BatchStacks": false
+    },
+    {
+      "Name": "ShotModPerTarget",
+      "Mod": 1.005,
+      "Cap": 2.0,
+      "Duration": 2.5,
+      "CombineModifiers": true,
+      "DecayTime": 0.01,
+      "StackType": "Add",
+      "StackLayer": "Max",
+      "Trigger": {
+        "Activate": ["Hit", "HitWeakspot"]
+      }
+    },
+    {
+      "Name": "AmmoCap",
+      "AmmoCapRel": 1.223,
+      "ApplyOnDrop": true
+    },
+    {
+      "Name": "ReserveClip"
+    },
+    {
+      "Name": "Noise",
+      "SoundID": 3651609125,
+      "Trigger": {
+        "Activate": "Fire",
+        "Cooldown": 2.0
+      }
+    },
+    {
+      "Name": "Noise",
+      "SoundID": 3489322645,
+      "Trigger": {
+        "Activate": "Charge Start",
+        "Cooldown": 1.0
+      }
+    },
+    {
+      "Name": "Noise",
+      "SoundID": 2118104127,
+      "Trigger": "End Firing" 
+    }
+  ]
   }
 ]

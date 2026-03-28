@@ -198,6 +198,178 @@
       ]
     },
     {
+      "ArchetypeID": 73,
+      "MeleeArchetypeID": 0,
+      "Name": "Burst Assault Rifle - Nade Launcher",
+      "Properties": [
+        {
+          "Name": "AutoTrigger"
+        },
+        {
+          "Name": "Noise",
+          "LocalSoundID": 943028201,
+          "Trigger": "KeyUpConfig1"
+        },
+        {
+          "Name": "TempProperties",
+          "Duration": 999999,
+          "Override": true,
+          "Trigger": {
+            "Activate": "KeyConfig2",
+            "Reset": ["KeyConfig1"]
+          },
+          "Properties": [
+            {
+              "Name": "DataSwap",
+              "ArchetypeID": 1001,
+              "AudioID": 43,
+              "Duration": 999999,
+              "EndBurst": false,
+              "EndCharge": false,
+              "EndFiring": true,
+              "KeepMagCost": true,
+              "Trigger": "Invalid"
+            },
+            {
+              "Name": "Projectile",
+              "ProjectileType": "RagingBoss",
+              "Speed": 45,
+              "AccelScale": 1,
+              "AccelExponent": 1,
+              "AccelTime": 0.001,
+              "Gravity": 25,
+              "HitSize": 0,
+              "HitSizeWorld": 0,
+              "ModelScale": 1,
+              "EnableTerrainHitFX": true,
+              "EnableTrail": false,
+              "GlowColor": "#FF3300FF",
+              "GlowRange": 0,
+              "DamageFriendly": true,
+              "DamageOwner": false,
+              "VisualLerpDist": 5,
+              "Lifetime": 20
+            },
+            {
+              "Name": "Explosive",
+              "MaxDamage": 40,
+              "MinDamage": 20,
+              "InnerRadius": 2.0,
+              "Radius": 4.0,
+              "PrecisionDamageMulti": 0.5,
+              "StaggerDamageMulti": 2.0,
+              "FriendlyDamageMulti": 0.75,
+              "IgnoreFalloff": true,
+              "DamageLimb": true,
+              "IgnoreArmor": false,
+              "IgnoreBackstab": true,
+              "IgnoreDamageMods": false,
+              "UseParentShotMod": true,
+              "DamageFriendly": true,
+              "DamageOwner": true,
+              "HitClosestFirst": true,
+              "Trigger": "BulletLanded",
+              "SoundID": 704948356,
+              "EnableMineFX": true,
+              "GlowColor": "#FF3300FF",
+              "GlowDuration": 0.5,
+              "GlowFadeDuration": 1.0
+            },
+            {
+              "Name": "Shrapnel",
+              "Count": 10, 
+              "MaxRange": 15.0,
+              "Damage": 5.0,
+              "DamageFalloff": { "x": 50, "y": 50 },
+              "PrecisionDamageMulti": 1.1,
+              "StaggerDamageMulti": 1.2,
+              "FriendlyDamageMulti": 0.5, 
+              "PierceLimit": 2,
+              "WallHandling": "Avoid", 
+              "WallHandlingDist": 15.0, 
+              "IgnoreFalloff": false, 
+              "DamageLimb": true, 
+              "IgnoreArmor": false, 
+              "IgnoreBackstab": false, 
+              "IgnoreShotMods": false, 
+              "UseParentShotMod": true, 
+              "DamageFriendly": true, 
+              "DamageOwner": true, 
+              "DamageLocks": false, 
+              "Traits": [
+                {
+                  "Name": "ThickBullet",
+                  "HitSize": 1.75,
+                  "HitSizeFriendly": 1.0
+                }
+              ], 
+              "HitTriggerTarget": false, 
+              "RunHitTriggers": true, 
+              "Trigger": "BulletLanded"
+            },
+            {
+              "Name": "AmmoMod",
+              "ClipChange": 1,
+              "ReserveChange": -19,
+              "OverflowToReserve": false,
+              "PullFromReserve": true,
+              "Trigger": "Fire"
+            },
+            {
+              "Name": "Noise",
+              "LocalSoundID": 4028300057,
+              "Trigger": "KeyUpConfig2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ArchetypeID": 1,  
+      "MeleeArchetypeID": 0,
+      "Name": "AR - Semi or Full Auto",
+      "Properties": [
+        {
+          "Name": "Noise",
+          "LocalSoundID": 943028201,
+          "Trigger": "KeyUpConfig1" 
+        },
+        {
+          "Name": "TempProperties",
+          "Duration": 999999,
+          "Override": true,
+          "Trigger": {
+            "Activate": "KeyConfig2",
+            "Reset": ["KeyConfig1"]
+          },
+          "Properties": [ 
+            {
+              "Name": "AutoTrigger"
+            },
+            {
+              "Name": "FireRateMod",
+              "Mod": 3,
+              "Cap": 0,
+              "Duration": 999999,
+              "CombineModifiers": false,
+              "CombineDecayTime": 0,
+              "CombineCap": 0,
+              "StackType": "Override",
+              "InnerStackType": "Override",
+              "StackLayer": "Multiply",
+              "ForceUpdate": true,
+              "Trigger": "Invalid"
+            },
+            {
+              "Name": "Noise",
+              "LocalSoundID": 4028300057,
+              "Trigger": "KeyUpConfig2" 
+            }
+          ]
+        }
+      ]
+    },
+    {
       "ArchetypeID": 45,
       "MeleeArchetypeID": 0,
       "Name": "Triple Barrel - Fire at Will",

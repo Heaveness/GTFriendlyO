@@ -168,6 +168,24 @@
             }
           },
           {
+            "Name": "Shrapnel",
+            "Count": 1,
+            "Damage": 1,
+            "MaxAngle": 360,
+            "Traits": [
+              {
+                "Name": "Projectile",
+                "ItemID": 130,
+                "Speed": 0
+              }
+            ], 
+            "Trigger": {
+              "Name": "Reference",
+              "ID": "Flyby",
+              "Callback": "Destroyed"
+            }
+          },
+          {
             "Name": "DamageOverTime",
             "TotalDamage": 14.0,
             "PrecisionDamageMulti": 0.5,
@@ -201,15 +219,15 @@
           {
             "Name": "Projectile",
             "ProjectileType": "TargetingLarge",
-            "Speed": 40,
+            "Speed": 30,
             "Gravity": 15,
             "HitSize": 0.5,
-            "ModelScale": 0.25,
+            "ModelScale": 0.5,
             "EnableTrail": true,
             "TrailTime": 0.5,
             "TrailCullOnDie": false,
             "EnableTerrainHitFX": false,
-            "Lifetime": 5
+            "Lifetime": 1
           },
           {
             "Name": "Noise",
@@ -256,7 +274,7 @@
             "BubbleExpandSpeed": 0.5,
             "BubbleOnDoors": true,
             "BubbleIgnoreModifiers": true,
-            "FoamTime": 8.5,
+            "FoamTime": 16.0,
             "FoamTimeType": "Override",
             "IgnoreFalloff": false,
             "IgnoreBooster": false,
