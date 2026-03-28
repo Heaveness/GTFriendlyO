@@ -679,6 +679,97 @@
       "name": "Receiver_SMG_02",
       "internalEnabled": true,
       "persistentID": 62
+    },
+    {
+      "General": {
+        "Model": "Assets/Ound9GearpartA2/Receiver_SCSG_1.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": 30,
+        "BundleShard": 0
+      },
+      "Aligns": [
+        {
+          "AlignType": 4,
+          "AlignName": "Receiver_Sight"
+        }
+      ],
+      "FireSequence": [],
+      "name": "Receiver_SCSG_1",
+      "internalEnabled": true,
+      "persistentID": 63
+    },
+    {
+      "General": {
+        "Model": "Assets/Ound9GearpartA1/Receiver_Arca_1.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": 30,
+        "BundleShard": 0
+      },
+      "Aligns": [
+        {
+          "AlignType": 4,
+          "AlignName": "Receiver_Sight"
+        }
+      ],
+      "FireSequence": [],
+      "name": "Receiver_Arca_1",
+      "internalEnabled": true,
+      "persistentID": 64
+    },
+    {
+      "General": {
+        "PublicName": "Gun Receiver 2",
+        "Model": "Assets/Ound9GearpartA1/Receiver_Railgun_1.prefab",
+        "GearCategoryFilter": 1,
+        "AssetBundle": 30,
+        "BundleShard": 11
+      },
+      "Aligns": [
+        {
+          "AlignType": 4,
+          "AlignName": "Receiver_Sight"
+        }
+      ],
+      "FireSequence": [],
+      "name": "Receiver_Railgun_1",
+      "internalEnabled": true,
+      "persistentID": 65
+    },
+    {
+      "General": {
+        "Model": "Assets/Ound9GearpartA1/Receiver_CrystalSG_1.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": 30,
+        "BundleShard": 0
+      },
+      "Aligns": [
+        {
+          "AlignType": 4,
+          "AlignName": "Receiver_Sight"
+        }
+      ],
+      "FireSequence": [],
+      "name": "Receiver_CrystalSG_1",
+      "internalEnabled": true,
+      "persistentID": 66
+    },
+    {
+      "General": {
+        "Model": "Assets/Ound9GearpartA1/Receiver_CrystalSG_2.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": 30,
+        "BundleShard": 0
+      },
+      "Aligns": [
+        {
+          "AlignType": 4,
+          "AlignName": "Receiver_Sight"
+        }
+      ],
+      "FireSequence": [],
+      "name": "Receiver_CrystalSG_2",
+      "internalEnabled": true,
+      "persistentID": 67
     }
   ],
   "LastPersistentID": 23

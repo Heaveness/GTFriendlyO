@@ -1325,6 +1325,54 @@
       "name": "Stock_UZI_01",
       "internalEnabled": true,
       "persistentID": 61
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_Bullpop_1.prefab",
+        "Children": [],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Stock_Bullpup_1",
+        "RightHandGripAnim": "Stock_Bullpup_1",
+        "AssetBundle": 40,
+        "BundleShard": 5
+      },
+      "Aligns": [
+        {
+          "AlignType": 8,
+          "AlignName": "RightHand"
+        },
+        {
+          "AlignType": 2,
+          "AlignName": "a_Mag"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [],
+      "name": "Stock_SCSG_1",
+      "internalEnabled": true,
+      "persistentID": 62
+    },
+    {
+      "General": {
+        "Model": "Assets/AssetPrefabs/Items/Gear/Parts/Stocks/Stock_Pistol_1.prefab",
+        "Children": [],
+        "GearCategoryFilter": 0,
+        "LeftHandGripAnim": "Stock_Pistol_1",
+        "RightHandGripAnim": "Stock_Pistol_1",
+        "AssetBundle": 40,
+        "BundleShard": 6
+      },
+      "Aligns": [
+        {
+          "AlignType": 8,
+          "AlignName": "RightHand"
+        }
+      ],
+      "FireSequence": [],
+      "ReloadSequence": [],
+      "name": "Stock_MicroCarbine_1",
+      "internalEnabled": true,
+      "persistentID": 63
     }
   ],
   "LastPersistentID": 22

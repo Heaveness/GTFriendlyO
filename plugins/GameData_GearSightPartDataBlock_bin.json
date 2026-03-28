@@ -521,8 +521,8 @@
         }
       ],
       "SightProperties": {
-        "GearFovZoom": 4,
-        "WorldFovZoom": 17,
+        "GearFovZoom": 7,
+        "WorldFovZoom": 33,
         "ZoomSensitivityModifier": 1.0
       },
       "name": "Sight_22",
@@ -1187,6 +1187,28 @@
       "name": "Sight_Pistol_01",
       "internalEnabled": true,
       "persistentID": 57
+    },
+    {
+      "General": {
+        "Model": "Assets/Ound9GearpartA4/SightSP_1.prefab",
+        "GearCategoryFilter": 0,
+        "AssetBundle": 50,
+        "BundleShard": 8
+      },
+      "Aligns": [
+        {
+          "AlignType": 6,
+          "AlignName": "Sight_Align"
+        }
+      ],
+      "SightProperties": {
+        "GearFovZoom": 10,
+        "WorldFovZoom": 17,
+        "ZoomSensitivityModifier": 1.0
+      },
+      "name": "SightSP_1",
+      "internalEnabled": true,
+      "persistentID": 58
     }
   ],
   "LastPersistentID": 50
