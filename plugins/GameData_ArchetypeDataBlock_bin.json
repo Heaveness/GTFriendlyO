@@ -6208,7 +6208,7 @@
       "DefaultClipSize": 1,
       "DefaultReloadTime": 1.0,
       "CostOfBullet": 50.0,
-      "ShotDelay": 0.5,
+      "ShotDelay": 0.25,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
         "x": 3.0,
