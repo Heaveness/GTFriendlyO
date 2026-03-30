@@ -241,7 +241,7 @@
         "AllowReload": false,
         "ActiveInHolster": true,
         "ResetWhileFull": true,
-        "DelayAfterTrigger": 3.0,
+        "DelayAfterTrigger": 5.0,
         "Trigger": "Fire"
       },
       {
