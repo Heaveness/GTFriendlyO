@@ -33,8 +33,6 @@ This project has been in the works for many years. It's only been shared private
 * Recommend to check out the_tavern's [AutogenRundown](https://thunderstore.io/c/gtfo/p/the_tavern/AutogenRundown/) mod, especially **AFTER** you have finished GTFO's vanilla rundowns. It provides new rundowns generated daily, weekly, monthly, and each season. Automatic Rundown generation, using procedural seed based generation!
     * Additional work may be required to achieve better compatibility. Some features from GTFriendlyO or AutogenRundown may not work well with each other.
 
-* When playing heavily modded rundowns, there is always a higher chance of checksum generation fails. Even the vanilla game had similar issues, especially for AMD users. It can be frustrating and difficult to fix on my end. This mod is not a solution, but a bandaid fix: [BypassGenerationChecksum](https://thunderstore.io/c/gtfo/p/Andocas/BypassGenerationChecksum/)
-
 ## Major Changes:
 ### Players:
 
