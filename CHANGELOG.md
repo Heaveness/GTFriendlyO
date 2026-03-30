@@ -17,7 +17,6 @@
 ### Weapon Additions:
 * Updated `ExtraWeaponCustomization` mod
 * Added `Ound9 gearpart II` mod by Ound9
-* Added `ReloadTimer` mod by zooooox
 * Removed the text, only the reload circle will be kept
 * Added `2` new custom weapon!
 * Bots cannot use the different weapon mode feature, so they will always default to mode 1 of the crossbow and medic gun. It is highly recommended you do not give weapons to bots that require nuance to use properly.
@@ -111,8 +110,8 @@
     * Reserve Ammo, no reload
     * Max Ammo: `6`
     * Clip Size: `1`
-    * Shot Delay: `30.0s`
-    * Charge Up Time: `2.0s`
+    * Clip Regen after Shot Delay: `30.0s`
+    * Charge Up Time: `2.5s`
     * Explosion Minimum Damage: `400.0`
     * Explosion Maximum Damage: `700.0`
     * Explosion Outer Radius: `10.0m`
@@ -120,10 +119,10 @@
     * Stagger Multiplier: `5.0x`
     * Friendly Fire Multiplier: `0.1x`
     * Push based on shooting during standing/crouching/jumping:
-        * Standing: ``
-        * Crouching: ``
-        * Jumping: ``
-> Dev Note: This is a meme weapon/tool and a little nod to one of the best sci-fi action game series.
+        * Standing: `-14.0m`
+        * Crouching: `-8.0m`
+        * Jumping: `-18.0m`
+> Dev Note: This is a meme weapon/tool and a little nod to one of the best sci-fi action-adventure game series ever made.
 
 ### Weapon Tweaks + Fixes:
 * Medic Gun **Rework**:
@@ -219,11 +218,11 @@
             * Changes Accuracy and Recoil data to `Rifle`
             * Direct Damage: `1.0`
             * Pulls from reserve ammo; does not use clip unless reserve is empty
-            * Explosive Bullet Cost: `-20`
-            * Explosion Minimum Damage(Inner): `20.0`
-            * Explosion Maximum Damage(Outer): `40.0`
-            * Explosion Outer Radius: `4.0m`
-            * Explosion Inner Radius: `2.0m`
+            * Explosive Bullet Cost: `-15`
+            * Explosion Minimum Damage(Inner): `25.0`
+            * Explosion Maximum Damage(Outer): `45.0`
+            * Explosion Outer Radius: `4.5m`
+            * Explosion Inner Radius: `2.5m`
             * Stagger Multiplier: `2.0x`
             * Damages `Owner` and `Friendly`
             * Friendly Fire Multiplier: `0.75x`
@@ -292,6 +291,9 @@
 * Explosive Shotgun:
     * Changed `Receiver` Part
     * changed `Front` Part
+* Explosive Cannon:
+    * Increased Maximum Explosion Damage from `45.0` to `50.0`
+    * Increased Minimum Explosion Damage from `35.0` to `40.0`
 * W-Pen Sniper:
     * Changed `Front` Part
     * Changed `Receiver` Part
@@ -331,6 +333,7 @@
 > Dev Note: The nature of revive speed works off the game's baseline 4.0s to 5.0s. So 45% is not worth a lot to risk taking all three boosters, now its 75% in the right condition which feel much more impactful.
 
 ### Tool Tweaks + Fixes:
+* Updated `ExtraToolCustomization` mod
 * Updated `DescriptiveWeaponStatShower` mod
     * Fixed custom turrets not having any stats shown in the tool select sceen
 * Fog Repeller Consumable:
@@ -360,6 +363,7 @@
     * Changed `Scope` Part
     * Decreased Direct Damage from `1.0` to `0.5`
     * Decreased Projectile Glow Intensity from `0.25` to `0.05` (still bright, but not as before)
+    * Increased Clip Regen Delay from `3.0s` to `5.0s`
 > Dev Note: I removed the scope as it was pointless; replaced with iron sight. Also the long exposure to the flamethrower was giving me eye strain...
 * Search & Rescue Tool:
     * Removed Shell Casing ejection sound effects
@@ -367,6 +371,15 @@
 > Dev Note: You should no longer hear your teammate's vanilla default gun shots when using these weapons, only the appropriate ones.
 
 ### Melee Tweaks + Fixes:
+* Spear:
+    * Increased Armor Pierce from `+15%` to `+20%`
+    * Added `Push` Property when sprinting and charging heavy:
+        * Sprint + Charge: `8.0m`
+            * Based on charge amount starting from `50%`(4.0m) to `100%`(8.0m)
+    * Added `ShotMod` Property when sprinting and charging heavy:
+        * Increases damage of melee by `+30%`
+            * Based on charge amount starting from `50%`(+15%) to `100%`(+30%)
+> Dev Note: While I want to keep the Spear as a stealth melee. The knife is simply just too good at its job, and I do not want to nerf it. Instead I give the Spear more skill expression. You can use this lunge for a speed boost or kill a target quickly. Time it correctly and you can kill without alerting the room.
 * Sledgehammer:
     * Fixed armor shred modifier not working correctly
     * Increased Armor Shred from `-30%` to `-40%`
