@@ -6,8 +6,8 @@
     "Properties": [
       {
 		    "Name": "Explosive",
-        "MaxDamage": 45,
-        "MinDamage": 35,
+        "MaxDamage": 50,
+        "MinDamage": 40,
         "InnerRadius": 1.0,
         "Radius": 5.0,
         "PrecisionDamageMulti": 0.5,
@@ -636,12 +636,44 @@
           "Trigger": "Fire"
         },
         {
+          "Name": "Shrapnel",
+          "Count": 60, 
+          "MaxRange": 15.0,
+          "Damage": 5.0,
+          "DamageFalloff": { "x": 50, "y": 50 },
+          "PrecisionDamageMulti": 1.1,
+          "StaggerDamageMulti": 1.2,
+          "FriendlyDamageMulti": 0.5, 
+          "PierceLimit": 2,
+          "WallHandling": "Avoid", 
+          "WallHandlingDist": 15.0, 
+          "IgnoreFalloff": false, 
+          "DamageLimb": true, 
+          "IgnoreArmor": false, 
+          "IgnoreBackstab": false, 
+          "IgnoreShotMods": false, 
+          "UseParentShotMod": true, 
+          "DamageFriendly": true, 
+          "DamageOwner": true, 
+          "DamageLocks": false, 
+          "Traits": [
+            {
+              "Name": "ThickBullet",
+              "HitSize": 1.75,
+              "HitSizeFriendly": 1.0
+            }
+          ], 
+          "HitTriggerTarget": false, 
+          "RunHitTriggers": true, 
+          "Trigger": "BulletLanded"
+        },
+        {
           "Name": "TempProperties",
           "Duration": 999999,
           "Properties": [
             {
               "Name": "Push",
-              "Force": -6,
+              "Force": -8,
               "Offset": [0, 0],
               "ApplyToTarget": false,
               "VerticalScale": 0,
@@ -659,7 +691,7 @@
           "Properties": [
             {
               "Name": "Push",
-              "Force": -16,
+              "Force": -18,
               "Offset": [0, 0],
               "ApplyToTarget": false,
               "Trigger": "Fire"
@@ -676,7 +708,7 @@
           "Properties": [
             {
               "Name": "Push",
-              "Force": -12,
+              "Force": -14,
               "Offset": [0, 0],
               "ApplyToTarget": false,
               "VerticalScale": 0,

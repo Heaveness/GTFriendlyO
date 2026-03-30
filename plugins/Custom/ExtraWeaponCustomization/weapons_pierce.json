@@ -156,13 +156,55 @@
     "Properties": [
       {
         "Name": "ArmorPierce",
-        "Pierce": 1.15,
+        "Pierce": 1.2,
         "Type": "Override"
       },
 	    {
         "Name": "BioPing",
         "CooldownPerTarget": 5,
         "Trigger": "Hit"
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Properties": [
+          {
+            "Name": "Push",
+            "Force": 8,
+            "Offset": [0, 0],
+            "ApplyToTarget": false,
+            "VerticalScale": 0,
+            "Trigger": {
+              "Name": "Charge End",
+              "Min": 0.5,
+              "Max": 1.0,
+              "Exponent": 3,
+              "MinRequired": 0.5,
+              "MaxRequired": 1.0
+            }
+          },
+          {
+            "Name": "ShotMod",
+            "Mod": 1.3,
+            "StatType": "Damage",
+            "Cap": 1.3,
+            "Duration": 999999,
+            "StackType": "Override",
+            "StackLayer": "Multiply",
+            "Trigger": {
+              "Name": "Charge End",
+              "Min": 0.5,
+              "Max": 1.0,
+              "Exponent": 3,
+              "MinRequired": 0.5,
+              "MaxRequired": 1.0
+            }
+          }
+        ],
+        "Trigger": {
+          "Activate": "Sprint",
+          "Reset": ["Sprint End", "Crouch", "Jump", "JumpEnd", "CrouchEnd"]
+        }
       }
     ]
   },
