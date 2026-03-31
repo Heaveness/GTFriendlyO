@@ -249,7 +249,7 @@
         * Full-Auto:
             * Activated by using specific keybind trigger(Default Keybind: KeypadPlus[KeyConfig2])
 > Dev Note: These two guns need a bit more love as they were basically two of the same. Also they sort of lacked identity compare to the other rifles.
-* Glue Pistol:
+* Foam Pistol:
     * Increased Glue Bubble Expansion Speed from `0.1x` to `0.25x`
     * Increased Armor Shred from `-20%` to `-30%`
     * Switched `ArmorShred` to `ShotModDebuff` property:
