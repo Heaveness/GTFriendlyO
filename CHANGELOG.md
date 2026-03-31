@@ -18,7 +18,7 @@
 * Updated `ExtraWeaponCustomization` mod
 * Added `Ound9 gearpart II` mod by Ound9
 * Removed the text, only the reload circle will be kept
-* Added `2` new custom weapon!
+* Added `3` new custom weapon!
 * Bots cannot use the different weapon mode feature, so they will always default to mode 1 of the crossbow and medic gun. It is highly recommended you do not give weapons to bots that require nuance to use properly.
 * **Hanaway Hunting Crossbow:**
 * One of the most complex weapon added so far. Switch between three payloads: Regular, Napalm, and Foam bolts. Each payload has specific properties for different situations
@@ -116,6 +116,8 @@
     * Explosion Maximum Damage: `700.0`
     * Explosion Outer Radius: `10.0m`
     * Explosion Inner Radius: `5.0m`
+    * Shrapnel Count: `60`
+    * Shrapnel Damage: `5.0`
     * Stagger Multiplier: `5.0x`
     * Friendly Fire Multiplier: `0.1x`
     * Push based on shooting during standing/crouching/jumping:
@@ -341,6 +343,8 @@
      * Decreased Maximum Consumable & Carry Limit Loot Count from `10` to `8`
 * Search & Rescue Tool: **Improvement**
     * Increased Max Ammo from `30` to `40`
+    * Removed Shell Casing ejection sound effects
+    * Removed 3D Shooting sound effects for other players within the lobby
     * Changed aimed function to keybind-based modes
         * Mode 1:
             * Glowstick Launcher
@@ -350,6 +354,7 @@
             * Fog Repeller Launcher
             * Activated by using specific keybind trigger(Default Keybind: KeypadPlus[KeyConfig2])
             * Decreased Projectile Speed from `20.0m` to `15.0m` per second
+> Dev Note: You should no longer hear your teammate's vanilla default gun shots when using these weapons, only the appropriate ones.
 * 4-Burst Sentry:
     * Decreased Burst Delay from `2.0s` to `1.8s`
 * Missile Sentry:
@@ -365,10 +370,6 @@
     * Decreased Projectile Glow Intensity from `0.25` to `0.05` (still bright, but not as before)
     * Increased Clip Regen Delay from `3.0s` to `5.0s`
 > Dev Note: I removed the scope as it was pointless; replaced with iron sight. Also the long exposure to the flamethrower was giving me eye strain...
-* Search & Rescue Tool:
-    * Removed Shell Casing ejection sound effects
-    * Removed 3D Shooting sound effects for other players within the lobby
-> Dev Note: You should no longer hear your teammate's vanilla default gun shots when using these weapons, only the appropriate ones.
 
 ### Melee Tweaks + Fixes:
 * Spear:
