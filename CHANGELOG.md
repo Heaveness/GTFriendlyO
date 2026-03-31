@@ -103,7 +103,8 @@
     * Shrapnel Direct Damage: `0.1`
     * Shrapnel can contribute to DoT stacks
 > Dev Note: Thanks to FE3, Dinorush, and EWC for the template to create this weapon. It's a concept that looks a little weird, but might have a niche usage. Does a significant amount of damage to single target, it is not recommended to spray fire as the base damage is very low.
-## Tool Additions:
+### Tool Additions:
+* Added `1` new custom tool!
 * **Van Auken RYN0 Annihilator:**
 * An extremely dangerous weapon from Van Auken's armory, capable of killing almost anything within the area. Truly a tool of destruction!
     * Direct Damage: `100`
