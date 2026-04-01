@@ -14,6 +14,11 @@
         "Type": "Override"
       },
       {
+        "Name": "ThickBullet",
+        "HitSize": 0.2,
+        "HitSizeFriendly": 0.2
+      },
+      {
         "Name": "TempProperties",
         "Duration": 999999,
         "Properties": [

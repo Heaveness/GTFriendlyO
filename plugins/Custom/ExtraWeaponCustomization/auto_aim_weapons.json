@@ -252,8 +252,8 @@
     },
     {
       "Name": "ShotModPerTarget",
-      "Mod": 1.005,
-      "Cap": 2.0,
+      "Mod": 1.01,
+      "Cap": 3.0,
       "Duration": 2.5,
       "CombineModifiers": true,
       "DecayTime": 0.01,
@@ -265,11 +265,11 @@
     },
     {
       "Name": "AmmoCap",
-      "AmmoCapRel": 1.223,
+      "AmmoCapRel": 1.1585,
       "ApplyOnDrop": true
     },
     {
-      "Name": "ReserveClip"
+      "Name":   "ReserveClip"
     },
     {
       "Name": "Noise",
