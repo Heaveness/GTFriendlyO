@@ -3991,7 +3991,7 @@
         "sqrMagnitude": 34.0
       },
       "PiercingBullets": true,
-      "PiercingDamageCountLimit": 5,
+      "PiercingDamageCountLimit": 6,
       "HipFireSpread": 7.5,
       "AimSpread": 0.0,
       "EquipTransitionTime": 0.8,
@@ -6093,7 +6093,7 @@
       "FireMode": 1,
       "RecoilDataID": 11,
       "DamageBoosterEffect": 53,
-      "Damage": 1.0,
+      "Damage": 1.5,
       "DamageFalloff": {
         "x": 30.0,
         "y": 60.0,
@@ -6110,7 +6110,7 @@
       "PrecisionDamageMulti": 0.65,
       "DefaultClipSize": 100,
       "DefaultReloadTime": 12.5,
-      "CostOfBullet": 0.611,
+      "CostOfBullet": 0.2894,
       "ShotDelay": 0.02,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
