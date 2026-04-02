@@ -1,6 +1,6 @@
 # Changelog
 
-## **v2.3.0** - Latest
+## **v2.3.1** - Latest
 
 * **Personal Note:** It's generally okay to update any mods whenever they are available. Regular bug fixes and QoL improvements are always welcome, but always be cautious when updating mods with large changes. It is better to keep in mind that every mod update has the potential to break something with pack. I cannot guarantee every update stability. So you should personally do your own research by checking their changelogs. 
 
@@ -8,6 +8,42 @@
     * Go to `Edit Config` within Thunderstore client -> Search for `ExtraWeaponCustomization.cfg` -> `Edit Config` -> Change keybinds 1 through 4 under `Keybind Settings` section
 
 * Please let me know on my [Github](https://github.com/Heaveness/GTFriendlyO/issues) issue page if there are problems or if you have feedback. Thanks and have fun! 
+
+### Mod Updates + Additions:
+* Updated `Minimap` mod
+    * Minimap will fade away when ADS(Aiming Down Sights) to prevent overlapping issues with some scopes/weapons.
+* Updated `EnemyAnimationFix` mod
+* Updated `SpreadStartingAmmo` mod
+
+### Class Tweaks:
+* Updated `GTFuckingXP` mod
+* Switched all class `Ammo Cost Efficiency` bonus/penalty with `Ammo Capacity` bonus/penalty
+* Switched all class `Tool Cost Efficiency` bonus/penalty with `Tool Capacity` bonus/penalty
+> Dev Note: All classes will receive a more universal ammo/tool gain efficiency. Those that had the original positive values will be nerfed while vice versa for negative values. This should help balance out issues where classes who had high/low efficiency aren't punished for resupplying.
+
+### Balance Tweaks:
+* Updated `ExtraWeaponCustomization` mod
+* Beam Rifle:
+    * Increased Direct Damage from `1.0` to `1.5`
+    * Increased Damage Accumulation Cap for Body Shots from `1.5x` to `2.0x`
+    * Increased Damage Accumulation Cap for Body Shots from `2.0x` to `3.0x`
+    * Increased Max Ammo from `1000` to `2000`
+> Dev Note: After some more testing, I found the overall damage to be a little low for how expensive the gun's bullet economy is. 
+
+* Nano Gauss Rifle:
+    * Increased Projectile Hit Size Bonus from `+0.2m` to `+0.5m`
+
+* W-Pen Sniper Rifle:
+    * Added `ThickBullet` Property:
+        * Increased Bullet Hitbox by `+0.15m`
+
+### Miscellaneous Fixes::
+* Fixed numerous typos and errors within v2.3.0's CHANGELOG.md
+> Dev Note: There was a number of wrong information written in the previous update. A mistake on my part for not double checking...
+
+---
+
+### v2.3.0
 
 ### Mod Updates + Additions:
 * Updated `Spectate` mod
@@ -32,10 +68,6 @@
     * Stagger Multiplier: `1.5x`
     * Precision Multiplier: `3.25x`
     * Silenced, does not alert enemies
-    * Added `Push` property when shooting based on standing/crouching/jumping
-        * Standing: `-2.5m`
-        * Crouching: `-1.0m`
-        * Jumping: `5.0m`
     * Regular Bolts: (Default Keybind: KeypadPeriod[KeyConfig3])
         * Ballistics Type: `Fast Projectile Low Gravity`
         * Armor Pierce: `+10%`
@@ -83,23 +115,23 @@
 > Dev Note: An interesting weapon that has multiple uses. It has a good area denial which should pair well with trip mines and turrets. Also, it provides light which is great during EMP events or dark rundowns.
 * **Van Auken Exp. Beam Rifle:**
 * A manufactured copy of a patented prototype beam rifle in collabration with Techman Biotechnics.
-    * Direct Damage: `1.0`
+    * Direct Damage: `1.5`
     * Reserve Ammo, no reload
     * Clip Regen up to `100` after Shot Delay
-    * Max Ammo: `100`
+    * Max Ammo: `2000`
     * Clip Size: `100`
     * Pierce Limit: `1` 
     * Fires `1` continuous beam costs `100` rounds
     * Damage increases continuous hitting a single target for the whole beam. 
-        * Up to `1.5x` damage cap for normal shots as it stacks 1 at a time
-        * Up to `2.0x` damage cap for weakspot shots as it stacks 2 at a time
+        * Up to `2.0x` damage cap for normal shots as it stacks 1 at a time
+        * Up to `3.0x` damage cap for weakspot shots as it stacks 2 at a time
         * Duration lasts `2.5s` then rapidly decays. Continued hits from the user will refresh the duration
     * Shot Delay: `2.0s`
     * DoT Damage: `1.0`
     * DoT Duration: `10.0s`
     * DoT Tick Rate: `2`
     * DoT Stack Limit: `100`
-    * Shrapnel Count: `0.1`
+    * Shrapnel Count: `1`
     * Shrapnel Direct Damage: `0.1`
     * Shrapnel can contribute to DoT stacks
 > Dev Note: Thanks to FE3, Dinorush, and EWC for the template to create this weapon. It's a concept that looks a little weird, but might have a niche usage. Does a significant amount of damage to single target, it is not recommended to spray fire as the base damage is very low.
@@ -251,10 +283,9 @@
 > Dev Note: These two guns need a bit more love as they were basically two of the same. Also they sort of lacked identity compare to the other rifles.
 * Foam Pistol:
     * Increased Glue Bubble Expansion Speed from `0.1x` to `0.25x`
-    * Increased Armor Shred from `-20%` to `-30%`
     * Switched `ArmorShred` to `ShotModDebuff` property:
         * Applies `+30%` increased base damage(excluding precision & stagger) debuff on an enemy target for all sources
-> Dev Note: With a lot of new options to foam targets, the Foam Pistol lost a lot of its place in the roster. So I am switching the armorshred to a "Increase Damage Taken" debuff on the target that is unique to this gun only.
+> Dev Note: With a lot of new options to foam targets, the Foam Pistol lost a lot of its place in the roster. So I am switching the armorshred to a "Increase Damage Taken" debuff on the target that is currently unique to this gun only.
 * Exp. Smart Rifle:
     * Changed `Front` Part
     * Changed `Receiver` Part
@@ -316,10 +347,8 @@
     * Increased Initial Ammo Penalty from `-30%` to `-40%`
     * Decreased Ammo Cost Efficiency Penalty from `-30%` to `-20%`
 > Dev Note: The Specialist should feel a lot more powerful against the Fog mechanics, but the constant buffs in recent patches should result in a nerf somewhere to counter balance.
-
 * Paramedic:
     * Decreased Ammo Cost Efficiency Penalty from `-20%` to `-15%`
-
 * Quartermaster:
     * Decreased Damage Penalty from `-50%` to `-30%`
     * Added Initial Tool Ammo Penalty of `-20%`
@@ -358,11 +387,11 @@
 > Dev Note: You should no longer hear your teammate's vanilla default gun shots when using these weapons, only the appropriate ones.
 * 4-Burst Sentry:
     * Decreased Burst Delay from `2.0s` to `1.8s`
+> Dev Note: I want to slightly lower the Burst turret's clunkiness to be a bit more reliable on maps that have tight corners.
 * Missile Sentry:
     * Added text description for traits
-    * Fixed explosion not having friendly fire multiplier. *Oops...*
+    * Fixed explosion not having friendly fire multiplier. *Oopsie...*
     * Increased Friendly Fire Multiplier from `-50%` to `-70%`
-> Dev Note: I want to slightly lower the Burst turret's clunkiness to be a bit more reliable on maps that have tight corners.
 * Exterminatus Flamer:
     * Removed Shell Casing ejection sound effects
     * Removed 3D Shooting sound effects for other players within the lobby
