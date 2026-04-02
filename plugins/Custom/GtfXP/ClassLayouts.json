@@ -132,13 +132,13 @@
     "Header": "Paramedic",
     "GroupPersistentId": 1,
     "PersistentId": 12,
-    "InfoText": "Excels at player revives, infection resistance, and support, but lacks offensive & defensive benefits.\n<color=yellow>Specializes: SMGs/Pistols/Player Revive</color>\n\n<color=green>Strengths: \n+100% Infection Res., \n+100% Revive Spd., \n+70% Revive Health, \n+30% Medipack Efficiency, \n-20% Health Regen Delay, \n+25% Bullet Resistance, Double Jump</color>\n\n<color=red>Weaknesses: \n-50% Ranged Damage except Specialized Guns, \n-20% Initial Ammo, \n-15% Ammo Cost Efficiency</color>",
+    "InfoText": "Excels at player revives, infection resistance, and support, but lacks offensive & defensive benefits.\n<color=yellow>Specializes: SMGs/Pistols/Player Revive</color>\n\n<color=green>Strengths: \n+100% Infection Res., \n+100% Revive Spd., \n+70% Revive Health, \n+30% Medipack Efficiency, \n-20% Health Regen Delay, \n+25% Bullet Resistance, Double Jump</color>\n\n<color=red>Weaknesses: \n-50% Ranged Damage except Specialized Guns, \n-20% Initial Ammo, \n-15% Ammo Capacity</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Paramedic\n<color=green>Infection Res. 100%, Revive Spd. 200%, Revive Health 170%, Medipack Efficiency 130%, Health Regen Delay 85%, Bullet Resistance 125%</color>\n<color=red>Ranged Damage except Specialized Guns 50%, Initial Ranged Ammo 80%, Ammo Cost Efficiency 85%</color>",
+        "CustomLevelStatsText": "Class: Paramedic\n<color=green>Infection Res. 100%, Revive Spd. 200%, Revive Health 170%, Medipack Efficiency 130%, Health Regen Delay 85%, Bullet Resistance 125%</color>\n<color=red>Ranged Damage except Specialized Guns 50%, Initial Ranged Ammo 80%, Ammo Capacity 85%</color>",
         "HealthMultiplier": 1.0,
         "MeleeDamageMultiplier": 1.0,
         "WeaponDamageMultiplier": 1.0,
@@ -148,7 +148,7 @@
             "Value": 0.8
           },
           {
-            "CustomBuff": "AmmoEfficiency",
+            "CustomBuff": "AmmoCapacity",
             "Value": 0.84
           },
           {
@@ -177,13 +177,13 @@
     "Header": "Quartermaster",
     "GroupPersistentId": 1,
     "PersistentId": 13,
-    "InfoText": "Excels at ammo efficiency and suppression, but lacks Spd..\n<color=yellow>Specializes: HMG/LMG/MP/Max Ammo/Higher Regen Cap</color>\n\n<color=green>Strengths: \n+20% HMG/LMG/MP Damage, \n+30% Ammo Cost Efficiency, \n+20% Initial Ranged Ammo, \n+30% Supply Pack Efficiency, \n+65% Health Regen Cap</color>\n\n<color=red>Weaknesses: \n-30% Damage except Specialized Guns, \n-40% Movement Spd. \n-20% Initial Tool Ammo</color>",
+    "InfoText": "Excels at ammo efficiency and suppression, but lacks Spd..\n<color=yellow>Specializes: HMG/LMG/MP/Max Ammo/Higher Regen Cap</color>\n\n<color=green>Strengths: \n+20% HMG/LMG/MP Damage, \n+30% Ammo Capacity, \n+20% Initial Ranged Ammo, \n+30% Supply Pack Efficiency, \n+65% Health Regen Cap</color>\n\n<color=red>Weaknesses: \n-30% Damage except Specialized Guns, \n-40% Movement Spd. \n-20% Initial Tool Ammo</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Quartermaster\n<color=green>HMG/LMG/MP Damage 120%, Ammo Cost Efficiency 130%, Initial Ranged Ammo 120%, Supply Pack Efficiency 130%, Health Regen Cap 165%</color>\n<color=red>Damage except Specialized Guns 70%, Movement Spd. 60%, Initial Tool Ammo 80%</color>",
+        "CustomLevelStatsText": "Class: Quartermaster\n<color=green>HMG/LMG/MP Damage 120%, Ammo Capacity 130%, Initial Ranged Ammo 120%, Supply Pack Efficiency 130%, Health Regen Cap 165%</color>\n<color=red>Damage except Specialized Guns 70%, Movement Spd. 60%, Initial Tool Ammo 80%</color>",
         "HealthMultiplier": 1.0,
         "MeleeDamageMultiplier": 1.0,
         "WeaponDamageMultiplier": 1.0,
@@ -193,7 +193,7 @@
             "Value": 0.6
           },
           {
-            "CustomBuff": "AmmoEfficiency",
+            "CustomBuff": "AmmoCapacity",
             "Value": 1.31
           },
           {
@@ -222,23 +222,23 @@
     "Header": "Specialist",
     "GroupPersistentId": 1,
     "PersistentId": 14,
-    "InfoText": "Excels at utility support, but lacks any offensive & defensive benefits.\n<color=yellow>Specializes: Fog Repeller & Turbine/Biotracker/Glowstick/Glue Gun</color>\n\n<color=green>Strengths: \n+30% Glue Strength & Efficiency, \n+175% Glowstick Power, \n+30% Bioscan Spd. & Scanner Recharge, \n+100% Fog Repeller/Turbine Power, \n+30% Tool Cost Efficiency</color>\n\n<color=red>Weaknesses: \n-40% Initial Gun Ammo, \n-20% Ammo Cost Efficiency</color>",
+    "InfoText": "Excels at utility support, but lacks any offensive & defensive benefits.\n<color=yellow>Specializes: Fog Repeller & Turbine/Biotracker/Glowstick/Glue Gun</color>\n\n<color=green>Strengths: \n+30% Glue Strength & Efficiency, \n+175% Glowstick Power, \n+30% Bioscan Spd. & Scanner Recharge, \n+100% Fog Repeller/Turbine Power, \n+30% Tool Capacity</color>\n\n<color=red>Weaknesses: \n-40% Initial Gun Ammo, \n-20% Ammo Capacity</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Specialist\n<color=green>Glue Strength & Efficiency 130%, Glowstick Power 275%, Bioscan Spd. & Scanner Recharge 130%, Fog Repeller/Turbine Power 200%, Tool Cost Efficiency 130%</color>\n<color=red>Initial Gun Ammo 60%, Ammo Cost Efficiency 80%</color>",
+        "CustomLevelStatsText": "Class: Specialist\n<color=green>Glue Strength & Efficiency 130%, Glowstick Power 275%, Bioscan Spd. & Scanner Recharge 130%, Fog Repeller/Turbine Power 200%, Tool Capacity 130%</color>\n<color=red>Initial Gun Ammo 60%, Ammo Capacity 80%</color>",
         "HealthMultiplier": 1.0,
         "MeleeDamageMultiplier": 1.0,
         "WeaponDamageMultiplier": 1.0,
         "CustomScaling": [
           {
-            "CustomBuff": "AmmoEfficiency",
+            "CustomBuff": "AmmoCapacity",
             "Value": 0.79
           },
           {
-            "CustomBuff": "ToolEfficiency",
+            "CustomBuff": "ToolCapacity",
             "Value": 1.31
           },
           {
@@ -263,13 +263,13 @@
     "Header": "Field Technician",
     "GroupPersistentId": 1,
     "PersistentId": 15,
-    "InfoText": "Excels at sentries & hacking, but lacks offensive benefits.\n<color=yellow>Specializes: Sentry/Computer Processing Power/Hacking Skill</color>\n\n<color=green>Strengths: \n+40% Sentry Damage, \n+30% Sentry CPUs, \n+50% Initial Tool Ammo, \n+60% Hacking Skill, \n+50% Terminal CPU, \n+75% Bullet Resistance, \nDouble Jump</color>\n\n<color=red>Weaknesses: \n-30% Initial Ranged Ammo, \n-40% Ranged & Melee Damage, \n-10% Ammo Cost Efficiency</color>",
+    "InfoText": "Excels at sentries & hacking, but lacks offensive benefits.\n<color=yellow>Specializes: Sentry/Computer Processing Power/Hacking Skill</color>\n\n<color=green>Strengths: \n+40% Sentry Damage, \n+30% Sentry CPUs, \n+50% Initial Tool Ammo, \n+60% Hacking Skill, \n+50% Terminal CPU, \n+75% Bullet Resistance, \nDouble Jump</color>\n\n<color=red>Weaknesses: \n-30% Initial Ranged Ammo, \n-40% Ranged & Melee Damage, \n-10% Ammo Capacity</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Field Technician\n<color=green>Sentry Damage 140%, Sentry CPUs 130%, Initial Tool Ammo 150%, Hacking Skill 160%, Terminal CPU 150%, Bullet Resistance 175%</color>\n<color=red>Initial Ranged Ammo 70%, Ranged & Melee Damage 60%, Ammo Cost Efficiency 90%</color>",
+        "CustomLevelStatsText": "Class: Field Technician\n<color=green>Sentry Damage 140%, Sentry CPUs 130%, Initial Tool Ammo 150%, Hacking Skill 160%, Terminal CPU 150%, Bullet Resistance 175%</color>\n<color=red>Initial Ranged Ammo 70%, Ranged & Melee Damage 60%, Ammo Capacity 90%</color>",
         "HealthMultiplier": 1.0,
         "MeleeDamageMultiplier": 0.6,
         "WeaponDamageMultiplier": 1.0,
@@ -279,7 +279,7 @@
             "Value": 1.75
           },
           {
-            "CustomBuff": "AmmoEfficiency",
+            "CustomBuff": "AmmoCapacity",
             "Value": 0.89
           },
           {
@@ -465,13 +465,13 @@
     "Header": "Courier",
     "GroupPersistentId": 2,
     "PersistentId": 24,
-    "InfoText": "Hardly spoke to folks around him, didn't have too much to say. No one dared to ask his business, no one dared to make a slip.\n<color=yellow>Specializes: The stranger there among them had a big iron on his hip.</color>\n\n<color=green>Strengths: \n+50% Revolver/Sniper/Shotgun/Tripmine, \n+20% Initial Ammo, \nLiving Bio Tracker</color>\n\n<color=red>Weaknesses: \n-80% Infection/Explosion/Bullet/Bleed Res., \n-20% Ammo/Tool Cost Efficiency</color>",
+    "InfoText": "Hardly spoke to folks around him, didn't have too much to say. No one dared to ask his business, no one dared to make a slip.\n<color=yellow>Specializes: The stranger there among them had a big iron on his hip.</color>\n\n<color=green>Strengths: \n+50% Revolver/Sniper/Shotgun/Tripmine, \n+20% Initial Ammo, \nLiving Bio Tracker</color>\n\n<color=red>Weaknesses: \n-80% Infection/Explosion/Bullet/Bleed Res., \n-20% Ammo/Tool Capacity</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Courier\n<color=green>Revolver/Sniper/Shotgun/Tripmine 150%, Initial Ammo 120%, Living Bio Tracker</color>\n<color=red>Infection/Explosion/Bullet/Bleed Res. 20%, Ammo/Tool Cost Efficiency 80%</color>",
+        "CustomLevelStatsText": "Class: Courier\n<color=green>Revolver/Sniper/Shotgun/Tripmine 150%, Initial Ammo 120%, Living Bio Tracker</color>\n<color=red>Infection/Explosion/Bullet/Bleed Res. 20%, Ammo/Tool Capacity 80%</color>",
         "HealthMultiplier": 1.0,
         "MeleeDamageMultiplier": 1.0,
         "WeaponDamageMultiplier": 1.0,
@@ -489,11 +489,11 @@
             "Value": 0.2
           },
           {
-            "CustomBuff": "AmmoEfficiency",
+            "CustomBuff": "AmmoCapacity",
             "Value": 0.79
           },
           {
-            "CustomBuff": "ToolEfficiency",
+            "CustomBuff": "ToolCapacity",
             "Value": 0.79
           }
         ],
