@@ -3991,7 +3991,7 @@
         "sqrMagnitude": 34.0
       },
       "PiercingBullets": true,
-      "PiercingDamageCountLimit": 6,
+      "PiercingDamageCountLimit": 5,
       "HipFireSpread": 7.5,
       "AimSpread": 0.0,
       "EquipTransitionTime": 0.8,
