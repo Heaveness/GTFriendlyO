@@ -15,8 +15,8 @@
       },
       {
         "Name": "ThickBullet",
-        "HitSize": 0.2,
-        "HitSizeFriendly": 0.2
+        "HitSize": 0.15,
+        "HitSizeFriendly": 0.15
       },
       {
         "Name": "TempProperties",
