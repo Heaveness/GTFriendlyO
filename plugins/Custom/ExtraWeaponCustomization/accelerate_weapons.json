@@ -370,6 +370,84 @@
       ]
     },
     {
+      "ArchetypeID": 18,  
+      "MeleeArchetypeID": 0,
+      "Name": "Burst Carine - Semi or Burst",
+      "Properties": [
+        {
+          "Name": "Noise",
+          "LocalSoundID": 943028201,
+          "Trigger": "KeyUpConfig1" 
+        },
+        {
+          "Name": "TempProperties",
+          "Duration": 999999,
+          "Override": true,
+          "Trigger": {
+            "Activate": "KeyConfig2",
+            "Reset": ["KeyConfig1"]
+          },
+          "Properties": [ 
+            {
+              "Name": "DataSwap",
+              "ArchetypeID": 1100,
+              "AudioID": 0,
+              "Duration": 999999,
+              "EndBurst": false,
+              "EndCharge": true,
+              "EndFiring": true,
+              "KeepMagCost": true,
+              "Trigger": "Invalid"
+            },
+            {
+              "Name": "Noise",
+              "LocalSoundID": 4028300057,
+              "Trigger": "KeyUpConfig2" 
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ArchetypeID": 49,  
+      "MeleeArchetypeID": 0,
+      "Name": "Burst Bullpup - Full Auto or Burst",
+      "Properties": [
+        {
+          "Name": "Noise",
+          "LocalSoundID": 943028201,
+          "Trigger": "KeyUpConfig1" 
+        },
+        {
+          "Name": "TempProperties",
+          "Duration": 999999,
+          "Override": true,
+          "Trigger": {
+            "Activate": "KeyConfig2",
+            "Reset": ["KeyConfig1"]
+          },
+          "Properties": [ 
+            {
+              "Name": "DataSwap",
+              "ArchetypeID": 1101,
+              "AudioID": 0,
+              "Duration": 999999,
+              "EndBurst": false,
+              "EndCharge": false,
+              "EndFiring": true,
+              "KeepMagCost": true,
+              "Trigger": "Invalid"
+            },
+            {
+              "Name": "Noise",
+              "LocalSoundID": 4028300057,
+              "Trigger": "KeyUpConfig2" 
+            }
+          ]
+        }
+      ]
+    },
+    {
       "ArchetypeID": 45,
       "MeleeArchetypeID": 0,
       "Name": "Triple Barrel - Fire at Will",
