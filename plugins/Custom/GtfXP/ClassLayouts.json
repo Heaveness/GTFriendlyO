@@ -3,13 +3,13 @@
     "Header": "Marine",
     "GroupPersistentId": 0,
     "PersistentId": 9,
-    "InfoText": "Excels at ranged combat, but lacks melee strength.\n<color=yellow>Specializes: Assault Rifles/Bullpup Rifles/Carbines</color>\n\n<color=green>Strengths: \n+40% Specialized Ranged Damage, \n+40% Projectile Armor, \n+90% Bleed Res., \n+20% Initial Ranged Ammo</color>\n\n<color=red>Weaknesses: \n-50% Melee Armor/Damage/Attack Spd.</color>",
+    "InfoText": "Excels at ranged combat, but lacks melee strength.\n<color=yellow>Specializes: Assault Rifles/Bullpup Rifles/Carbines</color>\n\n<color=green>Strengths: \n+40% Specialized Ranged Damage, \n+40% Projectile Armor, \n+90% Bleed Res., \n+10% Gun Ammo Received</color>\n\n<color=red>Weaknesses: \n-50% Melee Armor/Damage/Attack Spd.</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Marine\n<color=green>Specialized Ranged Damage: 140%, Projectile Armor 140%, Bleed Res. 190%, Initial Ranged Ammo 120%</color>\n<color=red>Melee Armor/Damage/Attack Spd. 50%</color>",
+        "CustomLevelStatsText": "Class: Marine\n<color=green>Specialized Ranged Damage: 140%, Projectile Armor 140%, Bleed Res. 190%, Gun Ammo Received 110%</color>\n<color=red>Melee Armor/Damage/Attack Spd. 50%</color>",
         "HealthMultiplier": 1.0,
         "MeleeDamageMultiplier": 0.5,
         "WeaponDamageMultiplier": 1.0,
@@ -25,18 +25,13 @@
           {
             "CustomBuff": "MeleeAttackSpeedMultiplier",
             "Value": 0.5
-          } 
-        ],
-        "LevelUpBonus": [
-		  {
-            "SingleBuff": "AmmunitionMain",
-            "Value": 0.2
           },
-		  {
-            "SingleBuff": "AmmunitionSpecial",
-            "Value": 0.2
+          {
+            "CustomBuff": "AmmoGainEfficiency",
+            "Value": 1.1
           }
-		]
+        ],
+        "LevelUpBonus": []
       }
     ]
   },
@@ -177,7 +172,7 @@
     "Header": "Quartermaster",
     "GroupPersistentId": 1,
     "PersistentId": 13,
-    "InfoText": "Excels at ammo efficiency and suppression, but lacks Spd..\n<color=yellow>Specializes: HMG/LMG/MP/Max Ammo/Higher Regen Cap</color>\n\n<color=green>Strengths: \n+20% HMG/LMG/MP Damage, \n+30% Ammo Capacity, \n+20% Initial Ranged Ammo, \n+30% Supply Pack Efficiency, \n+65% Health Regen Cap</color>\n\n<color=red>Weaknesses: \n-30% Damage except Specialized Guns, \n-40% Movement Spd. \n-20% Initial Tool Ammo</color>",
+    "InfoText": "Excels at ammo efficiency and suppressive fire, but lacks movement spd.\n<color=yellow>Specializes: HMG/LMG/MP/Max Ammo/Higher Regen Cap</color>\n\n<color=green>Strengths: \n+20% HMG/LMG/MP Damage, \n+30% Ammo Capacity, \n+20% Initial Ranged Ammo, \n+30% Supply Pack Efficiency, \n+65% Health Regen Cap</color>\n\n<color=red>Weaknesses: \n-30% Damage except Specialized Guns, \n-40% Movement Spd. \n-20% Initial Tool Ammo</color>",
     "Levels": [
       {
         "LevelNumber": 0,
@@ -263,13 +258,13 @@
     "Header": "Field Technician",
     "GroupPersistentId": 1,
     "PersistentId": 15,
-    "InfoText": "Excels at sentries & hacking, but lacks offensive benefits.\n<color=yellow>Specializes: Sentry/Computer Processing Power/Hacking Skill</color>\n\n<color=green>Strengths: \n+40% Sentry Damage, \n+30% Sentry CPUs, \n+50% Initial Tool Ammo, \n+60% Hacking Skill, \n+50% Terminal CPU, \n+75% Bullet Resistance, \nDouble Jump</color>\n\n<color=red>Weaknesses: \n-30% Initial Ranged Ammo, \n-40% Ranged & Melee Damage, \n-10% Ammo Capacity</color>",
+    "InfoText": "Excels at sentries & hacking, but lacks offensive benefits.\n<color=yellow>Specializes: Sentry/Computer Processing Power/Hacking Skill</color>\n\n<color=green>Strengths: \n+40% Sentry Damage, \n+30% Sentry CPUs, \n+25% Tool Ammo Received, \n+60% Hacking Skill, \n+50% Terminal CPU, \n+75% Bullet Resistance, \nDouble Jump</color>\n\n<color=red>Weaknesses: \n-30% Initial Ranged Ammo, \n-40% Ranged & Melee Damage, \n-10% Ammo Capacity</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Field Technician\n<color=green>Sentry Damage 140%, Sentry CPUs 130%, Initial Tool Ammo 150%, Hacking Skill 160%, Terminal CPU 150%, Bullet Resistance 175%</color>\n<color=red>Initial Ranged Ammo 70%, Ranged & Melee Damage 60%, Ammo Capacity 90%</color>",
+        "CustomLevelStatsText": "Class: Field Technician\n<color=green>Sentry Damage 140%, Sentry CPUs 130%, Tool Ammo Received 125%, Hacking Skill 160%, Terminal CPU 150%, Bullet Resistance 175%</color>\n<color=red>Initial Ranged Ammo 70%, Ranged & Melee Damage 60%, Ammo Capacity 90%</color>",
         "HealthMultiplier": 1.0,
         "MeleeDamageMultiplier": 0.6,
         "WeaponDamageMultiplier": 1.0,
@@ -285,22 +280,13 @@
           {
             "CustomBuff": "ExplosionResistance",
             "Value": 0.8
+          },
+          {
+            "CustomBuff": "ToolGainEfficiency",
+            "Value": 1.25
           }
         ],
-        "LevelUpBonus": [
-		  {
-            "SingleBuff": "AmmunitionMain",
-            "Value": -0.3
-          },
-		  {
-            "SingleBuff": "AmmunitionSpecial",
-            "Value": -0.3
-          },
-		  {
-            "SingleBuff": "AmmunitionTool",
-            "Value": 0.5
-          }
-		]
+        "LevelUpBonus": []
       }
     ]
   },
