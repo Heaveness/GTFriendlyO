@@ -644,7 +644,7 @@
       "FireMode": 1,
       "RecoilDataID": 31,
       "DamageBoosterEffect": 53,
-      "Damage": 3.5,
+      "Damage": 4.0,
       "DamageFalloff": {
         "x": 21.0,
         "y": 42.0,
@@ -666,8 +666,8 @@
       "StaggerDamageMulti": 0.9,
       "PrecisionDamageMulti": 0.9,
       "DefaultClipSize": 20,
-      "DefaultReloadTime": 2.2,
-      "CostOfBullet": 1.445,
+      "DefaultReloadTime": 2.4,
+      "CostOfBullet": 1.96,
       "ShotDelay": 0.095,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -742,7 +742,7 @@
       "persistentID": 73
     },
     {
-      "PublicName": "4-B Nade Launcher Rifle (Assault Rifle)",
+      "PublicName": "4-B GL Rifle (Assault Rifle)",
       "Description": "<color=yellow>Traits: Switch between 2 modes(Regular Rounds or Nade Launcher)[EWC config for keybinds], & Thermal-Assist Scope</color>",
       "FireMode": 1,
       "RecoilDataID": 42,
@@ -769,8 +769,8 @@
       "StaggerDamageMulti": 0.9,
       "PrecisionDamageMulti": 0.9,
       "DefaultClipSize": 20,
-      "DefaultReloadTime": 2.2,
-      "CostOfBullet": 1.445,
+      "DefaultReloadTime": 2.4,
+      "CostOfBullet": 1.96,
       "ShotDelay": 0.095,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -3293,10 +3293,10 @@
       "FireMode": 1,
       "RecoilDataID": 20,
       "DamageBoosterEffect": 69,
-      "Damage": 7.0,
+      "Damage": 9.5,
       "DamageFalloff": {
-        "x": 20.0,
-        "y": 40.0,
+        "x": 30.0,
+        "y": 60.0,
         "normalized": {
           "x": 0.184288532,
           "y": 0.9828722,
@@ -3307,10 +3307,10 @@
         "sqrMagnitude": 6625.0
       },
       "StaggerDamageMulti": 1.5,
-      "PrecisionDamageMulti": 0.9,
-      "DefaultClipSize": 5,
+      "PrecisionDamageMulti": 1.05,
+      "DefaultClipSize": 6,
       "DefaultReloadTime": 2.7,
-      "CostOfBullet": 10.0,
+      "CostOfBullet": 10.1,
       "ShotDelay": 0.05,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -6206,8 +6206,8 @@
       "StaggerDamageMulti": 0.5,
       "PrecisionDamageMulti": 1.1,
       "DefaultClipSize": 2,
-      "DefaultReloadTime": 10.5,
-      "CostOfBullet": 14.3,
+      "DefaultReloadTime": 25.5,
+      "CostOfBullet": 19.5,
       "ShotDelay": 0.06,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -6287,7 +6287,7 @@
       "FireMode": 1,
       "RecoilDataID": 11,
       "DamageBoosterEffect": 53,
-      "Damage": 1.5,
+      "Damage": 1.0,
       "DamageFalloff": {
         "x": 30.0,
         "y": 60.0,
