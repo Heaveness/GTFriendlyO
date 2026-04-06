@@ -252,8 +252,8 @@
             },
             {
               "Name": "Explosive",
-              "MaxDamage": 45,
-              "MinDamage": 25,
+              "MaxDamage": 40,
+              "MinDamage": 20,
               "InnerRadius": 2.5,
               "Radius": 4.5,
               "PrecisionDamageMulti": 0.5,
@@ -309,10 +309,10 @@
             },
             {
               "Name": "AmmoMod",
-              "ClipChange": 1,
-              "ReserveChange": -14,
-              "OverflowToReserve": false,
-              "PullFromReserve": true,
+              "ClipChange": -19,
+              "ReserveChange": 0,
+              "OverflowToReserve": true,
+              "PullFromReserve": false,
               "Trigger": "Fire"
             },
             {
