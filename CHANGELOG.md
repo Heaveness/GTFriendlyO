@@ -26,6 +26,8 @@
         * Charge(20%-50%): `10.0m`
         * Charge(50%-90%): `20.0m`
         * Charge(>90%): `40.0m`
+    * Fixed visual bug with ammo counter when swapping
+    * I'm aware of another visual bug with ammo counter at 0%. Does not affect gameplay.
 > Dev Note: It's still a bit too awkward to use this tool as players have found it difficult to control the speed/distance these items fly. This QoL change should significantly improve usage.
 
 * Exterminatus Flamer:
