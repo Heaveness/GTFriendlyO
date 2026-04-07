@@ -4,16 +4,16 @@
 
 A major overhaul to vanilla GTFO's gameplay, designed to bring more depth WITHOUT sacrificing the fun and rewarding experiences with friends.
 
-As a long-time GTFO player, I've felt the base game lacked a bit of variety in certain aspects of its gameplay. After running several Rundowns with friends, we all agreed the game needed a bit more spice. This mod focuses on creating a more casual-friendly co-op experience **WITHOUT** removing all of the tension or challenge from the game. This is NOT a hardcore or hyper-realism mod setup, nor will it ever be. Instead, it makes GTFO more accessible by giving players additional "tools" to tackle the depths. The enemies have also received some love too, so it's not completely one-sided powerup.
+As a long-time GTFO player, I've felt the base game lacked a bit of variety in certain aspects of its gameplay. After running several Rundowns with friends, we all agreed the game needed a bit more spice. This mod focuses on creating a more casual-friendly co-op experience **WITHOUT** removing all of the tension or challenge from the game. This is **NOT** a hardcore or hyper-realism mod setup, nor will it ever be. Instead, it makes GTFO more accessible by giving players several additional "tools". Theorycraft a team composition and tackle the depths! The enemies have also received some love too, so the powerup not completely one-sided.
 
 Heavy inspiration: FriendlyGTFO by EcoLight and Duo Trials by ProjectZaero
-> Please note that I took the syringe customization settings from Duo Trials to reverse engineer how it was made. I have made some major changes, but the overall credit belongs to the ProjectZaero. Check the wiki for more information.
+> Please note that I took the syringe customization settings from Duo Trials to reverse engineer how it was made. I have made some major changes, but the overall credit should still be given to ProjectZaero. Check our wiki for more information.
 
-This project has been in the works for many years. It's only been shared privately with my friends until recently. Now, I'm releasing it publicly for others to enjoy as well. Play together or die together! But most importantly, have fun!
+This project has been in the works for many years. It's only been shared privately with my friends until recently. Now, I'm releasing it to the public for others to enjoy. Play together or die together! And don't be afraid to share your experiences with me on Github or on GTFO modding discord. And most importantly, good luck have fun!
 
 ## Important:
 
-* Please note that this modpack; not a plugin. Check the status and future content in the wiki for updates. **Stay tuned & check [here!](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/3972-current-status-future-patches/)**
+* Please note that this is a modpack; not a plugin. Check the status and future content in the wiki for updates. **Stay tuned & check [here!](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/3972-current-status-future-patches/)**
     * General Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/issues/9)
     * Enemy Balance Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/issues/8)
     * Class Balance Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/issues/7)
@@ -21,17 +21,24 @@ This project has been in the works for many years. It's only been shared private
 
 * Can be played Vanilla with other mods with this mod-pack, especially with client-side mods. It's recommended to use several bug fix mods to prevent further issues with GTFO. But it's up to the players if they want them or not. It's not necessary to add them in. Recommended mod list: [here](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/4030-recommend-mods/)
 
-* Most likely will NOT be compatible with other custom Rundowns or modpacks that changes the same Datablocks. Otherwise, give it a try and let me know.
+* Most likely will **NOT** be compatible with other custom Rundowns or modpacks that changes the same Datablocks. Otherwise, give it a try and let me know.
 
 * With the addition of keybind-based triggers that came along with `v2.3.0`. **PLEASE** check the EWC(ExtraWeaponCustomization) config and change the keybind to YOUR settings. I am aware that not everyone have keypads for their keyboards. 
     * Go to `Edit Config` within Thunderstore client -> Search for `ExtraWeaponCustomization.cfg` -> `Edit Config` -> Change keybinds 1 through 4 under `Keybind Settings` section
+    * Be advised that any keybind changes might reset with each update.
+
+* It has come to my attention with bots being broken in the lobby that prevents dropping down a rundown. Caused by bots having weapons/tools that have been changed and it is loading something that doesn't exist. What you can do:
+    * Install `NoBrokenBotGear` mod by JarheadHME if using **pre-v2.6.1 version**
+    * Delete the `BotGear.json` file within `BepInEx/GameData/Favorites/Botgear.json` of your profile.
+    * Or search the file in `Edit Config` and delete the file.
+    * Or try to change the gear before the bot disappears within the lobby(unreliable).
 
 ### Recommended mods:
 * List: [Thunderstore wiki link](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/4030-recommend-mods-wip/)
 > Dev Note: These are recommended, but not needed. Some of these mods will have configs that might be packaged with the mod-pack, but not the mod itself. These aren't necessary, but nice to have on the list.
 
 * Recommend to check out the_tavern's [AutogenRundown](https://thunderstore.io/c/gtfo/p/the_tavern/AutogenRundown/) mod, especially **AFTER** you have finished GTFO's vanilla rundowns. It provides new rundowns generated daily, weekly, monthly, and each season. Automatic Rundown generation, using procedural seed based generation!
-    * Additional work may be required to achieve better compatibility. Some features from GTFriendlyO or AutogenRundown may not work well with each other.
+    * Additional work might be required to achieve better compatibility. Some features from GTFriendlyO or AutogenRundown may or may not work well with each other.
 
 ## Major Changes:
 ### Players:
@@ -74,7 +81,7 @@ This project has been in the works for many years. It's only been shared private
 | Prisoner 			| Neutral 	| B-Company | No major strengths; closer to vanilla experience                    | No major weaknesses; closer to vanilla experience                             |
 | HEL Diver 		| Damage 	| B-Company | Strong HEL gun damage; fast terminal & hacking; high movement speed | High friendly fire damage; fragile; low base HP & regen cap                   |
 | Abhuman 			| Tank 		| B-Company | Very high base HP; strong melee damage; extended hitbox/range       | Poor with terminals & sentries; low starting ammo; reduced movement           |
-| Deprived 			| Damage 	| B-Company | High resistances; strong damage; melee armor; fast objectives       | Extremely fragile esp. against projectile; low starting ammo                  |
+| Deprived 			| Damage 	| B-Company | High resistances; strong damage; melee armor; fast objectives       | Extremely fragile esp. against projectile, parry!; low starting ammo          |
 | Courier 			| Damage 	| B-Company | Strong damage potential with precision-based weapons, Auto Bio-Tag  | Very poor resistance to Infection/Explosion/Bullet/Bleed with lowered max ammo|
 
 ### Weapons:

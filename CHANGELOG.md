@@ -1,34 +1,141 @@
 # Changelog
 
-## **v2.3.1** - Latest
+## **v2.3.2** - Latest
 
 * **Personal Note:** It's generally okay to update any mods whenever they are available. Regular bug fixes and QoL improvements are always welcome, but always be cautious when updating mods with large changes. It is better to keep in mind that every mod update has the potential to break something with pack. I cannot guarantee every update stability. So you should personally do your own research by checking their changelogs. 
 
 * With the addition of keybind-based triggers that came along with `v2.3.0`. **PLEASE** check the EWC(ExtraWeaponCustomization) config and change the keybind to YOUR settings. I am aware that not everyone have keypads for their keyboards. 
     * Go to `Edit Config` within Thunderstore client -> Search for `ExtraWeaponCustomization.cfg` -> `Edit Config` -> Change keybinds 1 through 4 under `Keybind Settings` section
+    * Be advised that any keybind changes might reset with each update.
 
 * Please let me know on my [Github](https://github.com/Heaveness/GTFriendlyO/issues) issue page if there are problems or if you have feedback. Thanks and have fun! 
 
 ### Mod Updates + Additions:
-* Updated `Minimap` mod
-    * Minimap will fade away when ADS(Aiming Down Sights) to prevent overlapping issues with some scopes/weapons.
+* Updated `BetterBots` mod
+
+### Balance Tweaks:
+* Beam Rifle:
+    * Decreased Glow Intensity from `0.05` to `0.01`
+    * Decreased Glow Range from `10.0m` to `8.0m`
+> Dev Note: Eye strain nerf.
+
+* Search and Rescue Tool: **Improvement**
+    * Increased Charge Timer from `1.0s` to `2.0s`
+    * Item Projectile Speed/Distance is based on `Charge Amount`:
+        * Charge(<20%): `5.0m`
+        * Charge(20%-50%): `10.0m`
+        * Charge(50%-90%): `20.0m`
+        * Charge(>90%): `40.0m`
+> Dev Note: It's still a bit too awkward to use this tool as players have found it difficult to control the speed/distance these items fly. This QoL change should significantly improve usage.
+
+* Exterminatus Flamer:
+    * Increased Bullet Cost per shot from `1.0` to `2.0`
+    * Decreased Clip Regen from `5.0` to `4.0` per second
+    * Increased Clip Regen Delay from `5.0s` to `7.5s`
+    * Decreased Glow Intensity from `0.05` to `0.01`
+    * Decreased Glow Range from `10.0m` to `8.0m`
+> Dev Note: This change is to reign in the flamer as it's very effective against hordes, which is good! But it might be a bit too good as it had low consequences when utilized. Other than eye strain...
+
+* RYN0 Annihilator:
+    * Decreased Inner Radius from `7.5m` to `7.0m`
+    * Decreased Outer Radius from `15.0m` to `14.0m`
+    * Increased Maximum Explosion Damage from `700.0` to `800.0`
+    * Now completely ignores Armor on all targets, including friends!
+> Dev Note: Because why not? At this point only the Demolitionist and/or Shock Trooper with 3 Explosion Res. boosters can survive. Maybe the Abhuman... big maybe.
+
+### Miscellaneous Fixes:
+* Fixed typos and mistakes within v2.3.1's changelog
+
+---
+
+### v2.3.1
+
+### Mod Updates + Additions:
 * Updated `EnemyAnimationFix` mod
 * Updated `SpreadStartingAmmo` mod
+* Added `NoBrokenBotGear` mod by JarheadHME
+    * It has come to my attention with bots being broken in the lobby that prevents dropping down a rundown. Caused by bots having weapons/tools that have been changed and it is loading something that doesn't exist. What you can do:
+        * Delete the `BotGear.json` file within `BepInEx/GameData/Favorites/Botgear.json` of your profile.
+        * Or search the file in `Edit Config` and delete the file.
+        * Or try to change the gear before the bot disappears within the lobby(unreliable).
 
 ### Class Tweaks:
 * Updated `GTFuckingXP` mod
 * Switched all class `Ammo Cost Efficiency` bonus/penalty with `Ammo Capacity` bonus/penalty
 * Switched all class `Tool Cost Efficiency` bonus/penalty with `Tool Capacity` bonus/penalty
-> Dev Note: All classes will receive a more universal ammo/tool gain efficiency. Those that had the original positive values will be nerfed while vice versa for negative values. This should help balance out issues where classes who had high/low efficiency aren't punished for resupplying.
+> Dev Note: All classes will receive a more universal ammo/tool efficiency. Those that had the original positive values will be nerfed while vice versa for negative values. This should help balance out issues where classes who had high/low efficiency aren't punished/rewarded for resupplying.
+
+* Marine:
+    * Replaced `+20% Initial Ranged Ammo` bonus with `+10% Gun Ammo Received`
+
+* Field Technician:
+    * Replaced `+50% Initial Tool Ammo` bonus with `+25% Tool Ammo Received`
+> Dev Note: While the loss of initial ammo is something to adjust to, the increased ammo gain will give them better potential long-term. These bonuses will stack well with Quartermaster's/Booster's Resupply efficiency
 
 ### Balance Tweaks:
 * Updated `ExtraWeaponCustomization` mod
 * Beam Rifle:
-    * Increased Direct Damage from `1.0` to `1.5`
+    * Increased Damage Accumulation from `0.5%` to `2%` per hit
+        * Shots require `50%` less to reach full damage potential for body and weakspot hits
     * Increased Damage Accumulation Cap for Body Shots from `1.5x` to `2.0x`
-    * Increased Damage Accumulation Cap for Body Shots from `2.0x` to `3.0x`
+    * Increased Damage Accumulation Cap for Weakspot Shots from `2.0x` to `3.0x`
     * Increased Max Ammo from `1000` to `2000`
-> Dev Note: After some more testing, I found the overall damage to be a little low for how expensive the gun's bullet economy is. 
+    * Increased Base Ammo Received from `200.0` to `400.0`
+> Dev Note: After some more testing, I found the overall damage to be a little low for how expensive the gun's bullet economy is. Instead of simply buffing the base damage, I opted to reward players for choosing to stay on one target during a burst.
+
+* Semi/Full-Auto AK Rifle
+    * Changed name from `Semi/Full-Auto Rifle` to `AK Platform Rifle`
+    * Decreased Direct Damage from `7.5` to `7.0`
+> Dev Note: A tad bit overperforming with the new changes from previous patch
+
+* 3-B Carbine: **Rework**
+    * Increased Direct Damage from `3.4` to `4.0`
+    * Decreased Max Ammo from `453` to `400`
+    * Switch between `2` modes(Semi-Auto & 3-Burst Fire):
+        * 3-Burst Fire:
+            * Activated by using specific keybind trigger(Default Keybind: KeypadEnter[KeyConfig1])
+        * Semi-Auto:
+            * Activated by using specific keybind trigger(Default Keybind: KeypadPlus[KeyConfig2])    
+* 4-B Nade Launcher AR:
+    * Decreased Direct Damage from `5.0` to `4.0`
+    * Increased Grenade Ammo Cost from `15` to `20`
+    * Decreased Maximum Explosion Damage from `45.0` to `40.0`
+    * Decreased Minimum Explosion Damage from `25.0` to `20.0`
+    * Decreased Max Ammo from `400` to `300`
+    * Increased Reload Time from `2.2s` to `2.4s`
+    * Switched Nade Launcher from `Reserve Ammo` to `Clip Ammo`
+        * It will pull from reserve to make up for the grenade ammo cost
+> Dev Note: This gun is too overtuned and does almost everything in one. While I am never a fan of straight up nerfs. Unfortunately, it is warranted.
+* 5-B Bullpup: **Rework**
+    * Decreased Direct Damage from `3.1` to `3.0`
+    * Decreased Max Ammo from `508` to `500`
+    * Switch between `2` modes(Full-Auto & 5-Burst Fire):
+        * 5-Burst Fire:
+            * Activated by using specific keybind trigger(Default Keybind: KeypadPlus[KeyConfig2])
+        * Full-Auto:
+            * Activated by using specific keybind trigger(Default Keybind: KeypadEnter[KeyConfig1])
+> Dev Note: This is a bit of a balancing act for these three burst weapons. They should be more consistent with each other. Also the Marine class is getting a buff to ammo receive efficiency. Hopefully it should balance the numbers a bit.
+
+* Wisp Launcher:
+    * Decreased Max Ammo from `40` to `30`
+    * Decreased Wisp Death Shrapnel Count from `10` to `6`
+    * Decreased Precision Multiplier from `1.1x` to `1.0x`
+    * Increased Clip Regen Delay from `16.5s` to `25.5s`
+    * Switched Regular Quill Targeting Mode from `Weakspot` to `Body`
+    * Switched Death Quill Targeting Mode from `Weakspot` to `Normal` (aims for the head if it exists, then the body. Does not aim for tumors)
+    * Switched Targeting Priority from `Angle` to `Distance` except for death quills(to prevent homing failures)
+> Dev Note: It's a little too good at its job. So I will have to reel in its power, hopefully without completely removing its usefulness.
+
+* Choke Mod Shotgun:
+    * Increased Direct Damage from `7.0` to `9.5`
+    * Increased Clip Size from `5` to `6`
+    * Increased Effective Range from `20.0m` to `30.0m`
+    * Increased Precision Multiplier from `0.9x` to `1.05x`
+> Dev Note: This gun was originally very powerful, so I had to adjust it. But the significant changes may have hurt this gun too much. 
+
+* Missile Sentry:
+    * Added `Max Ammo(15)` into the trait description.
+        * There is currently a bug where the max ammo is shown as `5` when it is actually `15`
 
 * Nano Gauss Rifle:
     * Increased Projectile Hit Size Bonus from `+0.2m` to `+0.5m`
@@ -37,7 +144,7 @@
     * Added `ThickBullet` Property:
         * Increased Bullet Hitbox by `+0.15m`
 
-### Miscellaneous Fixes::
+### Miscellaneous Fixes:
 * Fixed numerous typos and errors within v2.3.0's CHANGELOG.md
 > Dev Note: There was a number of wrong information written in the previous update. A mistake on my part for not double checking...
 
@@ -264,7 +371,7 @@
             * Shrapnel Count: `10`
             * Shrapnel Damage: `5.0`
 * Semi-Auto AR **Rework**
-    * Changed name from `Semi-Auto Rifle` to `Semi/Full-Auto Rifle`
+    * Changed name from `Semi-Auto Rifle` to `Semi/Full-Auto AK Rifle`
     * Changed `Scope` Part
     * Changed `Receiver` Part
     * Changed `Front` Part
