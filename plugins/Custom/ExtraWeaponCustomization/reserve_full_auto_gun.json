@@ -210,8 +210,8 @@
         "TrailColor": "#CD352E",
         "TrailCullOnDie": false,
         "GlowColor": "#CD352E",
-        "GlowIntensity": 0.05,
-        "GlowRange": 10,
+        "GlowIntensity": 0.01,
+        "GlowRange": 8,
         "DamageFriendly": true,
         "DamageOwner": false,
         "HitFromOwnerPos": false,
@@ -232,7 +232,7 @@
       },
       {
         "Name": "AmmoRegen",
-        "ClipRegen": 5.0,
+        "ClipRegen": 4.0,
         "ReserveRegen": 0.0,
         "OverflowToReserve": false,
         "PullFromReserve": true,
@@ -241,7 +241,13 @@
         "AllowReload": false,
         "ActiveInHolster": true,
         "ResetWhileFull": true,
-        "DelayAfterTrigger": 5.0,
+        "DelayAfterTrigger": 7.5,
+        "Trigger": "Fire"
+      },
+      {
+        "Name": "AmmoMod",
+        "ClipChange": -1,
+        "OverflowToReserve": true,
         "Trigger": "Fire"
       },
       {
