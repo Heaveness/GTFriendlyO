@@ -10,11 +10,8 @@
         "Trigger": "KeyUpConfig1" 
       },
       {
-        "Name": "ReserveClip"
-      },
-      {
         "Name": "AmmoRegen",
-        "ClipRegen": 2.0,
+        "ClipRegen": 10.0,
         "ReserveRegen": 0.0,
         "OverflowToReserve": false,
         "PullFromReserve": true,
@@ -23,8 +20,8 @@
         "AllowReload": false,
         "ActiveInHolster": true,
         "ResetWhileFull": true,
-        "DelayAfterTrigger": 1.0,
-        "Trigger": "Wield"
+        "DelayAfterTrigger": 0.0,
+        "Trigger": "Fire"
       },
       {
         "Name": "Noise",
@@ -41,7 +38,7 @@
       },
       {
         "Name": "AmmoMod",
-        "ClipChange": -1,
+        "ReserveChange": -1,
         "Trigger": {
           "Name": "ChargeEnd",
           "Min": 1
@@ -49,7 +46,7 @@
       },
       {
         "Name": "AmmoMod",
-        "ClipChange": 1,
+        "ReserveChange": 1,
         "Trigger": {
           "Name": "Fire",
           "Min": 1
@@ -245,11 +242,8 @@
             "CancelShot": true
           },
           {
-            "Name": "ReserveClip"
-          },
-          {
             "Name": "AmmoRegen",
-            "ClipRegen": 2.0,
+            "ClipRegen": 100.0,
             "ReserveRegen": 0.0,
             "OverflowToReserve": false,
             "PullFromReserve": true,
@@ -258,7 +252,7 @@
             "AllowReload": false,
             "ActiveInHolster": true,
             "ResetWhileFull": true,
-            "DelayAfterTrigger": 1.0,
+            "DelayAfterTrigger": 10.0,
             "Trigger": "Fire"
           },
           {
