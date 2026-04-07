@@ -5403,7 +5403,7 @@
     },
         {
       "PublicName": "Search & Rescue Tool",
-      "Description": "<color=yellow>Traits: Switch between 2 modes(Glowstick/Fog Repeller)[EWC config for keybinds], & Reserve Ammo(no reload)</color>",
+      "Description": "<color=yellow>Traits: Switch between 2 modes(Glowstick/Fog Repeller)[EWC config for keybinds], Speed/Distance based on charge amount, & Reserve Ammo(no reload)</color>",
       "FireMode": 1,
       "RecoilDataID": 49,
       "DamageBoosterEffect": 60,
@@ -5425,7 +5425,7 @@
       "DefaultClipSize": 2,
       "DefaultReloadTime": 1.0,
       "CostOfBullet": 8.75,
-      "ShotDelay": 0.5,
+      "ShotDelay": 1.5,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
         "x": 3.0,
@@ -5474,7 +5474,7 @@
       "ShotgunBulletCount": 0,
       "ShotgunConeSize": 0,
       "ShotgunBulletSpread": 0,
-      "SpecialChargetupTime": 1.0,
+      "SpecialChargetupTime": 2.0,
       "SpecialCooldownTime": 0.0,
       "SpecialSemiBurstCountTimeout": 0.0,
       "Sentry_StartFireDelay": 1.0,
