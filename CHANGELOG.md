@@ -42,7 +42,7 @@
     * Decreased Inner Radius from `7.5m` to `7.0m`
     * Decreased Outer Radius from `15.0m` to `14.0m`
     * Increased Maximum Explosion Damage from `700.0` to `800.0`
-    * Now completely ignores Armor on all targets, including friends!
+    * Now completely ignores Armor for all targets, including friends!
 > Dev Note: Because why not? At this point only the Demolitionist and/or Shock Trooper with 3 Explosion Res. boosters can survive. Maybe the Abhuman... big maybe.
 
 ### Miscellaneous Fixes:
