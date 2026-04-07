@@ -5404,7 +5404,7 @@
         {
       "PublicName": "Search & Rescue Tool",
       "Description": "<color=yellow>Traits: Switch between 2 modes(Glowstick/Fog Repeller)[EWC config for keybinds], Speed/Distance based on charge amount, & Reserve Ammo(no reload)</color>",
-      "FireMode": 1,
+      "FireMode": 0,
       "RecoilDataID": 49,
       "DamageBoosterEffect": 60,
       "Damage": 0.0,
@@ -5425,7 +5425,7 @@
       "DefaultClipSize": 2,
       "DefaultReloadTime": 1.0,
       "CostOfBullet": 8.75,
-      "ShotDelay": 1.5,
+      "ShotDelay": 0.5,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
         "x": 3.0,
