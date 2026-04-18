@@ -14,10 +14,10 @@ This project has been in the works for many years. It's only been shared private
 ## Important:
 
 * Please note that this is a modpack; not a plugin. Check the status and future content in the wiki for updates. **Stay tuned & check [here!](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/3972-current-status-future-patches/)**
-    * General Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/issues/9)
-    * Enemy Balance Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/issues/8)
-    * Class Balance Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/issues/7)
-    * Weapon Balance Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/issues/6)
+    * General Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/discussions/11)
+    * Enemy Balance Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/discussions/12)
+    * Class Balance Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/discussions/13)
+    * Weapon Balance Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/discussions/14)
 
 * Can be played Vanilla with other mods with this mod-pack, especially with client-side mods. It's recommended to use several bug fix mods to prevent further issues with GTFO. But it's up to the players if they want them or not. It's not necessary to add them in. Recommended mod list: [here](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/4030-recommend-mods/)
 
@@ -56,7 +56,7 @@ This project has been in the works for many years. It's only been shared private
 * Different starting ammo and cap based on class system.
 * Different ammo/medipack supply efficiency based on class system.
 * Decreased base Hacking Proficiency to `-20%`
-* Increased base Infection Resistance to `20%`
+* Increased base Infection Resistance to `+20%`
 
 ### Classes:
 
@@ -74,9 +74,9 @@ This project has been in the works for many years. It's only been shared private
 | Covert Op 		| Damage 	| Combat 	| Stealth melee; high damage; high movement speed                     | Low base HP; very fragile                                                     |
 | Demolitionist 	| Damage 	| Combat 	| Crowd control AoE; big explosions; explosive resistance             | Poor tech skills (terminal, hacking, sentries)                                |
 | Shock Trooper 	| Tank 		| Combat 	| High armor; strong base HP; fast regen speed                        | Bioscans take longer to finish, slow movement speed                           |
-| Paramedic 		| Support 	| Support 	| Infection immune; high revive speed & health; fast regen delay      | No offensive benefits; low starting & max ammo                                |
+| Paramedic 		| Support 	| Support 	| Infection immune; high revive speed & health; fast regen delay      | No offensive benefits; low max gun ammo capacity                              |
 | Quartermaster 	| Tank 		| Support 	| High ammo efficiency; strong starting ammo; high HP regen cap       | Very slow movement speed; low damage (except with MGs)                        |
-| Specialist 	    | Support 	| Support 	| Effective & efficient with all tools and items                      | Low starting & max ammo; no offensive benefits                                |
+| Specialist 	    | Support 	| Support 	| Effective & efficient with all tools and items                      | Low max gun ammo capacity; no offensive benefits                              |
 | Field Technician 	| Damage 	| Support 	| Stronger & faster sentries; fast terminal & hacking skills          | Low base damage (melee & ranged); low starting ammo                           |
 | Prisoner 			| Neutral 	| B-Company | No major strengths; closer to vanilla experience                    | No major weaknesses; closer to vanilla experience                             |
 | HEL Diver 		| Damage 	| B-Company | Strong HEL gun damage; fast terminal & hacking; high movement speed | High friendly fire damage; fragile; low base HP & regen cap                   |
@@ -178,7 +178,7 @@ This project has been in the works for many years. It's only been shared private
 | Strikers					 | Higher HP, but less damage											 | N/A, just punch'em.																		|
 | Needlers(Shooter) 		 | Stronger overall damage, but more fragile							 | N/A, just shoot'em.																		|
 | Strikers Giants 			 | Tongue grabs player to its melee range; cannot parry the pull, but can counter with timed double jump during pull		 | Loves pulling teammates out of bioscans, either kill quickly or disable(Medic Gun or Foam).      |
-| Scouts 					 | EMP(45.0s) after scream, invul. during EMP wind-up; Longer feelers, but visible	 | EMPs disable most electronics. Try the Specialist class!|
+| Scouts 					 | EMP(45.0s) after scream, invul. during EMP wind-up; Longer feelers, but visible	 | EMPs disable most electronics. Counter with the Specialist class!|
 | Birther 			         | Increased HP; Birth Children that will explode on death				 | Kill the babies first, then kill the mother fast.	     								|
 | Stalkers(Snatcher/Pouncer) | Snatched players take damage & Fast Dashes but long CDs; glue immune  | Takes longer to kill and can kill players now. They should not be ignored.				|
 | Giant & Bloom Needlers	 | Inflicts bleed(50% Chance) for 10.0% max HP damage over 10.0s; nonstackable	 | They are high-priority targets otherwise the team will suffer major damage.              |
@@ -195,10 +195,22 @@ This project has been in the works for many years. It's only been shared private
 | Shadow 	| Infected fog spheres on death, slightly increased Tag time by 3s	    |
 | Child		| Explode on death, can cause a chain reaction							|
 
-### Extras:
+### Boosters:
+* Boosters have been completely reworked.
+* All Boosters have infinite usage. Artifacts will no longer spawn on rundowns.
+* Booster buffs and debuffs stack additively with other effects such as the class system, unless said otherwise.
+* `Muted` Boosters will have the lowest benefits, but no drawbacks.
+* `Bold` Boosters require the player to meet specific conditionals to activate.
+* `Aggressive` Boosters will bring the most drawbacks, but stack well with the other two boosters.
+* You should never use Aggressive Boosters by themselves and require both Bold and Muted to get a positive tradeoff. Of course, you can take the safe route and only use Muted and/or Bold.
+* These changes are to make Boosters a more interesting mechanic that brings a risk v.s. reward to the classes. Their names reflect the state of the player's confidence in their playstyle.
 
-* If you have any feedback, please let me know through the Github Link: [Here](https://github.com/Heaveness/GTFriendlyO).
-    * Open a ticket under "Issue" tab if you are unsure where to send feedback. 
-* Check out the Thunderstore page: [Here](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/).
+### Syringes:
+* The two vanilla syringes have been altered for better use cases.
+* Added several new syringes that might spawn on several rundowns based on their spawn weight.
+* Check the wiki to see what each does! Some are straightforward while others are weird.
+
+### Extras:
 * Check out the wiki pages for more information on each major feature: [Here](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/).
 * If you really liked the mod-pack, give it a thumbs up on Thunderstore. Try it out with friends or randoms!
+* Check out my other mods over at [Thunderstore Link](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/)
