@@ -1,3 +1,5 @@
 {
-  "BiotagXpFrac": 0
+  "BiotagXpFrac": 0.5,
+  "ReviveXpStoredFrac": 0,
+  "ReviveXpTransferCapFrac": 0
 }

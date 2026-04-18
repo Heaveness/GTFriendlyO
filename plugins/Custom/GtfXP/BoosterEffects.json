@@ -222,6 +222,16 @@
     }
   },
   {
+    "ClassLayoutPersistentId": 20,
+    "ActiveLevels": [
+      0
+    ],
+    "ValueToBoosterEffects": {	  
+      "HackingProficiency": 0.8,
+      "InfectionResistance": 1.2
+    }
+  },
+  {
     "ClassLayoutPersistentId": 21,
     "ActiveLevels": [
       0

@@ -163,6 +163,10 @@
 		      {
             "SingleBuff": "AmmunitionSpecial",
             "Value": -0.2
+          },
+          {
+            "SingleBuff": "Disinfect",
+            "Value": 1.0
           }
 		]
       }
@@ -217,7 +221,7 @@
     "Header": "Specialist",
     "GroupPersistentId": 1,
     "PersistentId": 14,
-    "InfoText": "Excels at utility support, but lacks any offensive & defensive benefits.\n<color=yellow>Specializes: Fog Repeller & Turbine/Biotracker/Glowstick/Glue Gun</color>\n\n<color=green>Strengths: \n+30% Glue Strength & Efficiency, \n+175% Glowstick Power, \n+30% Bioscan Spd. & Scanner Recharge, \n+100% Fog Repeller/Turbine Power, \n+30% Tool Capacity</color>\n\n<color=red>Weaknesses: \n-40% Initial Gun Ammo, \n-20% Ammo Capacity</color>",
+    "InfoText": "Excels at utility support, but lacks any offensive & defensive benefits.\n<color=yellow>Specializes: Fog Repeller & Turbine/Biotracker/Glowstick/Glue Gun</color>\n\n<color=green>Strengths: \n+30% Glue Strength & Efficiency, \n+175% Glowstick Power, \n+30% Bioscan Spd. & Scanner Recharge, \n+100% Fog Repeller/Turbine Power, \n+30% Tool Capacity</color>\n\n<color=red>Weaknesses: \n-30% Initial Gun Ammo, \n-20% Ammo Capacity</color>",
     "Levels": [
       {
         "LevelNumber": 0,
@@ -244,11 +248,11 @@
         "LevelUpBonus": [
 		  {
             "SingleBuff": "AmmunitionMain",
-            "Value": -0.4
+            "Value": -0.3
           },
 		  {
             "SingleBuff": "AmmunitionSpecial",
-            "Value": -0.4
+            "Value": -0.3
           }
 		]
       }
