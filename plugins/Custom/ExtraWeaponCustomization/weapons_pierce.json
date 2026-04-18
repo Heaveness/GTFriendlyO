@@ -208,7 +208,7 @@
         ],
         "Trigger": {
           "Activate": "Sprint",
-          "Reset": ["Sprint End", "Crouch", "Jump", "JumpEnd", "CrouchEnd"]
+          "Reset": ["Sprint End", "Crouch", "Jump"]
         }
       }
     ]

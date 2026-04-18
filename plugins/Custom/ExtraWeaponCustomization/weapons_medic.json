@@ -187,7 +187,7 @@
             "EndDamageFrac": 2.0,
             "Exponent": 1,
             "PrecisionDamageMulti": 0.0,
-            "StaggerDamageMulti": 30.0,
+            "StaggerDamageMulti": 40.0,
             "FriendlyDamageMulti": 0.0,
             "Duration": 10.1,
             "TickRate": 1.0,
@@ -317,7 +317,7 @@
           },
           {
             "Name": "ArmorShred",
-            "Mod": 2.2,             
+            "Mod": 2.3,             
             "Duration": 10.0,          
             "StackType": "Override",  
             "CombineModifiers": false,
