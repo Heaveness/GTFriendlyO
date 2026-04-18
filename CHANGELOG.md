@@ -22,7 +22,7 @@
     * Will be affected by `Infection Resistance` boosters, for example:
         * Courier class will receive double infection penalty
         * Paramedics class will be immune to the penalty
-> Dev Note: Yes, I did create a mod specifically for this update. It's to combat a specific strategy where players would "heal" each other by dying then reviving through Paramedic. Additionally, this will bring another layer of challenge that incentivize players to stay alive, stick together more often, and revive in safer situations. Disinfection packs/station, Medic Gun, and syringes are effective methods. This change is to combat the recent player's power scaling increase with the new weapons, tools, and etc. I did not want to buff the enemies as that will rock the scales too hard.
+> Dev Note: Yes, I did create a mod specifically for this update. It's to combat a specific strategy where players would "heal" each other by dying then reviving through Paramedic. Additionally, this will bring another layer of challenge that incentivize players to stay alive, stick together more often, think twice before using AoEs, parry more often, and revive in safer situations. Disinfection packs/station, Medic Gun, and syringes are effective methods. This change is to also answer the recent increase in the player's power scaling with the new weapons, tools, and etc. I did not want to buff the enemies as that will rock the scales in a bad direction.
 
 ### Class Tweaks:
 * Paramedic:
