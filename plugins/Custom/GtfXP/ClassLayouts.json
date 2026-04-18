@@ -227,7 +227,7 @@
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Specialist\n<color=green>Glue Strength & Efficiency 130%, Glowstick Power 275%, Bioscan Spd. & Scanner Recharge 130%, Fog Repeller/Turbine Power 200%, Tool Capacity 130%</color>\n<color=red>Initial Gun Ammo 60%, Ammo Capacity 80%</color>",
+        "CustomLevelStatsText": "Class: Specialist\n<color=green>Glue Strength & Efficiency 130%, Glowstick Power 275%, Bioscan Spd. & Scanner Recharge 130%, Fog Repeller/Turbine Power 200%, Tool Capacity 130%</color>\n<color=red>Initial Gun Ammo 70%, Ammo Capacity 80%</color>",
         "HealthMultiplier": 1.0,
         "MeleeDamageMultiplier": 1.0,
         "WeaponDamageMultiplier": 1.0,
