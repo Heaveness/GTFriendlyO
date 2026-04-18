@@ -140,7 +140,7 @@
           "Description": "Subject will be more resistant against infection.",
           "DescriptionNegative": "Subject will be less resistant against infection.",
           "EffectCategory": "Health",
-          "Value": 1.1
+          "Value": 1.16
         }
       ],
       "Conditions": []
@@ -605,7 +605,7 @@
           "Description": "Subject will be more resistant against infection.",
           "DescriptionNegative": "Subject will be less resistant against infection.",
           "EffectCategory": "Health",
-          "Value": 1.16
+          "Value": 1.2
         }
       ],
       "Conditions": [
@@ -1189,7 +1189,7 @@
           "Description": "Subject will be more resistant against infection.",
           "DescriptionNegative": "Subject will be less resistant against infection.",
           "EffectCategory": "Health",
-          "Value": 1.2
+          "Value": 1.25
         },
         {
           "Effect": "FogRepellerEffect",
