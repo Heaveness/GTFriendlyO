@@ -644,10 +644,10 @@
       "FireMode": 1,
       "RecoilDataID": 31,
       "DamageBoosterEffect": 53,
-      "Damage": 4.0,
+      "Damage": 4.5,
       "DamageFalloff": {
-        "x": 21.0,
-        "y": 42.0,
+        "x": 25.0,
+        "y": 50.0,
         "normalized": {
           "x": 0.148340449,
           "y": 0.9889363,
@@ -668,7 +668,7 @@
       "DefaultClipSize": 20,
       "DefaultReloadTime": 2.4,
       "CostOfBullet": 1.96,
-      "ShotDelay": 0.095,
+      "ShotDelay": 0.07,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
         "x": 3.0,
@@ -696,8 +696,8 @@
       },
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
-      "HipFireSpread": 1.0,
-      "AimSpread": 0.4,
+      "HipFireSpread": 0.6,
+      "AimSpread": 0.2,
       "EquipTransitionTime": 0.5,
       "EquipSequence": [
         {
@@ -771,7 +771,7 @@
       "DefaultClipSize": 20,
       "DefaultReloadTime": 2.4,
       "CostOfBullet": 1.96,
-      "ShotDelay": 0.095,
+      "ShotDelay": 0.07,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
         "x": 3.0,
@@ -799,8 +799,8 @@
       },
       "PiercingBullets": false,
       "PiercingDamageCountLimit": 5,
-      "HipFireSpread": 1.0,
-      "AimSpread": 0.4,
+      "HipFireSpread": 0.6,
+      "AimSpread": 0.2,
       "EquipTransitionTime": 0.5,
       "EquipSequence": [
         {
