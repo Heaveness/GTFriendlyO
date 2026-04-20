@@ -123,7 +123,7 @@
         "Damage": 5.0,
         "PrecisionDamageMulti": 1.0,
         "StaggerDamageMulti": 0.5,
-        "FriendlyDamageMulti": 0.5,
+        "FriendlyDamageMulti": 0.8,
         "MaxAngle": 360,
         "Traits": [
           {
@@ -220,7 +220,7 @@
         "Damage": 5.0,
         "PrecisionDamageMulti": 1.0,
         "StaggerDamageMulti": 0.5,
-        "FriendlyDamageMulti": 0.5,
+        "FriendlyDamageMulti": 0.8,
         "MaxAngle": 360,
         "Traits": [
           {
