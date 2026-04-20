@@ -4427,7 +4427,7 @@
     },
     {
       "PublicName": "C-Foam Sidearm (Pistol)",
-      "Description": "<color=yellow>Traits: Foam rounds, Barricade doors, & Armor weakening</color>",
+      "Description": "<color=yellow>Traits: Foam rounds, Barricade doors, & Foamed receive increased damage taken from all sources</color>",
       "FireMode": 0,
       "RecoilDataID": 18,
       "DamageBoosterEffect": 50,
@@ -6204,10 +6204,10 @@
         "sqrMagnitude": 6625.0
       },
       "StaggerDamageMulti": 0.5,
-      "PrecisionDamageMulti": 1.1,
+      "PrecisionDamageMulti": 1.0,
       "DefaultClipSize": 2,
       "DefaultReloadTime": 25.5,
-      "CostOfBullet": 19.5,
+      "CostOfBullet": 29.5,
       "ShotDelay": 0.06,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
