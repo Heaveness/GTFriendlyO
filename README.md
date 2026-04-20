@@ -57,6 +57,8 @@ This project has been in the works for many years. It's only been shared private
 * Different ammo/medipack supply efficiency based on class system.
 * Decreased base Hacking Proficiency to `-20%`
 * Increased base Infection Resistance to `+20%`
+* Going down will inflict a `10%` infection penalty. 
+    * It can be resisted with booster effects or cleansed with disinfection.
 
 ### Classes:
 
@@ -97,7 +99,7 @@ This project has been in the works for many years. It's only been shared private
 | ORIGINAL NAME			| NEW NAME							| TRAIT															| BALLISTICS		|
 |:----------------------|:----------------------------------|:--------------------------------------------------------------|:-----------------:|
 | Shelling S49        	| Shelling Tracker Pistol			| Tags target on hit											| Hitscan			|
-| Shelling Nano       	| Shelling Foam Pistol				| Foams targets; shreds armor					        		| Hitscan			|
+| Shelling Nano       	| Shelling Foam Pistol				| Foams targets; barricade doors; Foamed increased damage taken	| Hitscan			|
 | Bataldo 3RB	 	  	| Bataldo Revolver					| Hold trigger for rapid fire; richochet on terrain             | Hitscan			|
 | Raptus Treffen 2    	| Raptus MP2						| Full-auto                          	            			| Hitscan			|
 | Raptus Steigro      	| Raptus Reserve MP1				| Reserve ammo; no reload               						| Hitscan			|

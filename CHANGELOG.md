@@ -1,6 +1,6 @@
 # Changelog
 
-## **v2.3.3** - Latest
+## **v2.3.4** - Latest
 
 * **Personal Note:** It's generally okay to update any mods whenever they are available. Regular bug fixes and QoL improvements are always welcome, but always be cautious when updating mods with large changes. It is better to keep in mind that every mod update has the potential to break something with pack. I cannot guarantee every update stability. So you should personally do your own research by checking their changelogs. 
 
@@ -8,7 +8,35 @@
     * Go to `Edit Config` within Thunderstore client -> Search for `ExtraWeaponCustomization.cfg` -> `Edit Config` -> Change keybinds 1 through 4 under `Keybind Settings` section
     * Be advised that any keybind changes might reset with each update.
 
-* Please let me know on my [Github](https://github.com/Heaveness/GTFriendlyO/issues) issue page if there are problems or if you have feedback. Thanks and have fun! 
+* Please let me know on my [Github](https://github.com/Heaveness/GTFriendlyO/issues) issue page if there are problems or if you have feedback check this [Github](https://github.com/Heaveness/GTFriendlyO/discussions) discussion page. Thanks and have fun! 
+
+### Emergency Hotfix:
+* Fixed manifest.json:
+    * Fixed an accidental typo that removed ExtraWeaponCustomization dependency
+
+### Balance Tweaks:
+* Foam Pistol:
+    * Fixed the trait description showing the old trait of Armor Shred
+    * Barricading requires only `2` shots instead of `3`
+        * Just hit the door with melee after the second shot
+
+* Wisp Launcher:
+    * Fixed the gun's stat showing the incorrect precision multiplier
+    * Decreased Max Ammo from `30` to `20`
+    * Increased Friendly Fire Multiplier from `0.5x` to `0.8x`
+> Dev Note: It seems like this gun is still performing a bit too well for how efficient the ammo economy is. Any more nerfs to this gun can potentially have the opposite effect.
+
+### Mod Updates + Additions:
+* Updated `ExtraWeaponCustomization` mod
+* Updated `Informative Door Icons` mod
+
+### Miscellaneous Fixes:
+* Fixed README.md:
+    * Not mentioning the new infection death penalty from previous patch
+
+---
+
+### v2.3.3
 
 ### Mod Updates + Additions:
 * Added `Informative Door Icons` mod by HazardousMonkey
