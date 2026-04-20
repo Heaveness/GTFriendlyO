@@ -26,7 +26,7 @@
     * Increased Friendly Fire Multiplier from `0.5x` to `0.8x`
 > Dev Note: It seems like this gun is still performing a bit too well for how efficient the ammo economy is. Any more nerfs to this gun can potentially have the opposite effect.
 
-### Mod Updates + Additions:
+### Mod Updates:
 * Updated `ExtraWeaponCustomization` mod
 * Updated `Informative Door Icons` mod
 
