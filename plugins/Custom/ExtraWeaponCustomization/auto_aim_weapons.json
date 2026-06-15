@@ -18,6 +18,8 @@
 		  "RequireLock": true,
 		  "TagOnly": false,
 		  "IgnoreInvisibility": true,
+      "LockedColor": "#AAFF00",
+      "LockingColor": "#CC4C33FF",
 		  "TargetMode": "Weakspot",
 		  "TargetPriority": "Angle",
 		  "FavorLookPoint": true,

@@ -234,5 +234,178 @@
         }
       }
     ]
+  },
+  {
+    "ArchetypeID": 121,
+    "MeleeArchetypeID": 0,
+    "Name": "Javelin - Electrocution Explosion",
+    "Properties": [
+      {
+        "Name": "Projectile",
+        "ProjectileType": "TargetingMedium",
+        "Speed": 105,
+        "AccelScale": 2.0,
+        "AccelExponent": 1,
+        "AccelTime": 0.2,
+        "Gravity": 0,
+        "HitSize": 0,
+        "HitSizeFriendly": 0,
+        "HitSizeWorld": 0,
+        "ModelScale": 2.0,
+        "EnableTerrainHitFX": true,
+        "EnableTrail": true,
+        "TrailColor": "#0047AB",
+        "TrailWidth": 0.5,
+        "TrailTime": 0.2,
+        "TrailCullOnDie": false,
+        "GlowColor": "#0047AB",
+        "GlowIntensity": 0.2,
+        "GlowRange": 1,
+        "DamageFriendly": true,
+        "DamageOwner": false,
+        "HitFromOwnerPos": false,
+        "HitCooldown": -1,
+        "HitIgnoreWallsDuration": 15,
+        "RicochetCount": 0,
+        "RicochetSpeedMod": 0,
+        "RicochetSpeedAngleFactor": 0,
+        "VisualLerpDist": 6,
+        "Lifetime": 30,
+        "HomingSettings": {}
+      },
+      {
+        "Name": "DamageOverTime",
+        "TotalDamage": 55.0,
+        "Duration": 4.5,
+        "TickRate": 6,
+        "PrecisionDamageMulti": 1.0,
+        "StaggerDamageMulti": 100.0,
+        "FriendlyDamageMulti": 0.2,
+        "HitmarkerCooldown": 4.5,
+        "GlowColor": "#0047AB",
+        "GlowIntensity": 2,
+        "DamageLimb": false,
+        "IgnoreArmor": true,
+        "GlowRange": 2.0,
+        "StackLimit": 5,
+        "ApplyAttackCooldown": true,
+        "Trigger": {
+          "Activate": "Hit",
+          "Apply": ["KeyConfig1", "Reload Start"],
+          "ApplyDelay": 0.5
+        }
+      },
+      {
+        "Name": "Shrapnel",
+        "Count": 2, 
+        "MaxRange": 2.0,
+        "Damage": 2.0,
+        "DamageFalloff": { "x": 50, "y": 50 },
+        "PrecisionDamageMulti": 1.1,
+        "StaggerDamageMulti": 1.2,
+        "FriendlyDamageMulti": 0.5, 
+        "PierceLimit": 1,
+        "IgnoreFalloff": false, 
+        "DamageLimb": true, 
+        "IgnoreArmor": false, 
+        "IgnoreBackstab": false, 
+        "IgnoreShotMods": true, 
+        "UseParentShotMod": true, 
+        "DamageFriendly": false, 
+        "DamageOwner": false, 
+        "DamageLocks": false, 
+        "Traits": [
+          {
+            "Name": "WallPierce"
+          }
+        ], 
+        "HitTriggerTarget": false, 
+        "RunHitTriggers": true, 
+        "Trigger": "DOT Hit"
+      },
+      {
+        "Name": "Explosive",
+        "MaxDamage": 5.0,
+        "MinDamage": 5.0,
+        "InnerRadius": 6.0,
+        "Radius": 6.0,
+        "StaggerDamageMulti": 2.0,
+        "FriendlyDamageMulti": 0.2,
+        "DamageFriendly": true,
+        "DamageOwner": true,
+        "GlowColor": "#B22222",
+        "GlowIntensity": 3,
+        "GlowDuration": 1.5,
+        "GlowRange": 6.0,
+        "SoundID": 7691066,
+        "EnableMineFX": false,
+        "Trigger": "DOT Kill"
+      },
+      {
+        "Name": "Noise",
+        "LocalSoundID": 3440918928,
+        "Trigger": {
+          "Activate": ["KeyConfig1", "Reload Start"]
+        }
+      },
+      {
+        "Name": "Noise",
+        "SoundID": 1322418914,
+        "Trigger": "DOT Hit" 
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Properties": [
+          {
+            "Name": "Push",
+            "Force": -1,
+            "Offset": [0, 0],
+            "ApplyToTarget": false,
+            "VerticalScale": 0,
+            "Trigger": "Fire"
+          }
+        ],
+        "Trigger": {
+          "Activate": "Crouch",
+          "Reset": "CrouchEnd"
+        }
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Properties": [
+          {
+            "Name": "Push",
+            "Force": -6,
+            "Offset": [0, 0],
+            "ApplyToTarget": false,
+            "Trigger": "Fire"
+          }
+        ],
+        "Trigger": {
+          "Activate": "Jump",
+          "Reset": "JumpEnd"
+        }
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Properties": [
+          {
+            "Name": "Push",
+            "Force": -4,
+            "Offset": [0, 0],
+            "ApplyToTarget": false,
+            "VerticalScale": 0,
+            "Trigger": "Fire"
+          }
+        ],
+        "Trigger": {
+          "Activate": ["CrouchEnd", "JumpEnd", "Drop"],
+          "Reset": ["Crouch", "Jump"]
+        }
+      }
+    ]
   }
 ]

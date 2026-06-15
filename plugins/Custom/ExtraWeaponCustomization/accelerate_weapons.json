@@ -448,6 +448,45 @@
       ]
     },
     {
+      "ArchetypeID": 25,  
+      "MeleeArchetypeID": 0,
+      "Name": "DMR - Semi Auto or Burst",
+      "Properties": [
+        {
+          "Name": "Noise",
+          "LocalSoundID": 943028201,
+          "Trigger": "KeyUpConfig1" 
+        },
+        {
+          "Name": "TempProperties",
+          "Duration": 999999,
+          "Override": true,
+          "Trigger": {
+            "Activate": "KeyConfig2",
+            "Reset": ["KeyConfig1"]
+          },
+          "Properties": [ 
+            {
+              "Name": "DataSwap",
+              "ArchetypeID": 26,
+              "AudioID": 0,
+              "Duration": 999999,
+              "EndBurst": false,
+              "EndCharge": false,
+              "EndFiring": true,
+              "KeepMagCost": true,
+              "Trigger": "Invalid"
+            },
+            {
+              "Name": "Noise",
+              "LocalSoundID": 4028300057,
+              "Trigger": "KeyUpConfig2" 
+            }
+          ]
+        }
+      ]
+    },
+    {
       "ArchetypeID": 45,
       "MeleeArchetypeID": 0,
       "Name": "Triple Barrel - Fire at Will",

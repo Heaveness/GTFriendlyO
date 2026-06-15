@@ -1,0 +1,419 @@
+[
+  {
+    "ArchetypeID": 576,
+    "MeleeArchetypeID": 0,
+    "Name": "Arc Subjugator - Electrocution",
+    "Properties": [
+      {
+        "Name": "AutoAim",
+        "ID": "LockID",
+        "HipActive": true,
+        "AimActive": true,
+        "Angle": 5,
+        "Range": 16,
+        "LockTime": 0.3,
+        "LockDecayTime": 0.4,
+        "StayOnTarget": false,
+        "ResetOnNewTarget": true,
+        "RequireLock": true,
+        "LockWhileEmpty": false,
+        "TagOnly": false,
+        "IgnoreInvisibility": true,
+        "LockedColor": "#AAFF00",
+        "LockingColor": "#CC4C33FF",
+        "TargetMode": "Body",
+        "TargetPriority": "Angle",
+        "FavorLookPoint": true,
+        "HomingOnly": true
+      },
+      {
+        "Name": "Projectile",
+        "ProjectileType": "TargetingMedium",
+        "Speed": 15,
+        "AccelScale": 2.0,
+        "AccelExponent": 1,
+        "AccelTime": 0.2,
+        "Gravity": 0,
+        "HitSize": 0,
+        "HitSizeFriendly": 0,
+        "HitSizeWorld": 0,
+        "ModelScale": 2.0,
+        "EnableTerrainHitFX": true,
+        "EnableTrail": true,
+        "TrailColor": "#0047AB",
+        "TrailWidth": 0.25,
+        "TrailTime": 20.0,
+        "TrailCullOnDie": false,
+        "GlowColor": "#0047AB",
+        "GlowIntensity": 0.2,
+        "GlowRange": 1,
+        "DamageFriendly": true,
+        "DamageOwner": false,
+        "HitFromOwnerPos": false,
+        "HitCooldown": -1,
+        "HitIgnoreWallsDuration": 15,
+        "RicochetCount": 0,
+        "RicochetSpeedMod": 0,
+        "RicochetSpeedAngleFactor": 0,
+        "VisualLerpDist": 6,
+        "Lifetime": 30,
+        "HomingSettings": {
+          "UseSteadyStrength": false,
+          "InitialHomingStrength": 5.0,
+          "InitialHomingDuration": 0.5,
+          "HomingStrength": 13.2,
+          "HomingDelay": 0,
+          "HomingMaxDist": 50,
+          "HomingMinDist": 25,
+          "HomingDistExponent": 2,
+          "TargetMode": "Body",
+          "TargetPriority": "Health",
+          "SearchAngle": 25,
+          "SearchRange": 50,
+          "SearchCooldown": 0.1,
+          "SearchInitialMode": "AutoAim",
+          "SearchStopMode": "Dead",
+          "SearchIgnoreWalls": false,
+          "SearchIgnoreInvisibility": true,
+          "SearchTagOnly": false
+        }
+      },
+      {
+        "Name": "DamageOverTime",
+        "TotalDamage": 10.0,
+        "Duration": 20.5,
+        "TickRate": 6,
+        "PrecisionDamageMulti": 1.0,
+        "StaggerDamageMulti": 500.0,
+        "FriendlyDamageMulti": 0.2,
+        "HitmarkerCooldown": 4.5,
+        "IgnoreArmor": true,
+        "IgnoreBackstab": true,
+        "GlowColor": "#0047AB",
+        "GlowIntensity": 2,
+        "DamageLimb": false,
+        "GlowRange": 3.0,
+        "StackLimit": 1,
+        "ApplyAttackCooldown": true,
+        "Trigger": "EnemyHit"
+      },
+      {
+        "Name": "Shrapnel",
+        "Count": 2, 
+        "MaxRange": 2.0,
+        "Damage": 2.0,
+        "DamageFalloff": { "x": 50, "y": 50 },
+        "PrecisionDamageMulti": 1.1,
+        "StaggerDamageMulti": 1.2,
+        "FriendlyDamageMulti": 0.5, 
+        "PierceLimit": 1,
+        "IgnoreFalloff": false, 
+        "DamageLimb": true, 
+        "IgnoreArmor": false, 
+        "IgnoreBackstab": false, 
+        "IgnoreShotMods": true, 
+        "UseParentShotMod": true, 
+        "DamageFriendly": false, 
+        "DamageOwner": false, 
+        "DamageLocks": false, 
+        "Traits": [
+          {
+            "Name": "WallPierce"
+          }
+        ], 
+        "HitTriggerTarget": false, 
+        "RunHitTriggers": true, 
+        "Trigger": "DOT Hit"
+      },
+      {
+        "Name": "Shrapnel",
+        "Count": 1, 
+        "MaxRange": 5.0,
+        "Damage": 1.0,
+        "DamageFalloff": { "x": 50, "y": 50 },
+        "PrecisionDamageMulti": 1.1,
+        "StaggerDamageMulti": 1.2,
+        "FriendlyDamageMulti": 0.5, 
+        "PierceLimit": 0,
+        "IgnoreFalloff": false, 
+        "DamageLimb": true, 
+        "IgnoreArmor": false, 
+        "IgnoreBackstab": false, 
+        "IgnoreShotMods": true, 
+        "UseParentShotMod": true, 
+        "DamageFriendly": false, 
+        "DamageOwner": false, 
+        "DamageLocks": false, 
+        "Traits": [
+          {
+            "Name": "Projectile",
+            "ProjectileType": "TargetingMedium",
+            "Speed": 25,
+            "AccelScale": 2.0,
+            "AccelExponent": 1,
+            "AccelTime": 0.2,
+            "Gravity": 0,
+            "HitSize": 0,
+            "HitSizeFriendly": 0,
+            "HitSizeWorld": 0,
+            "ModelScale": 2.0,
+            "EnableTerrainHitFX": true,
+            "EnableTrail": true,
+            "TrailColor": "#0047AB",
+            "TrailWidth": 0.25,
+            "TrailTime": 20.0,
+            "TrailCullOnDie": false,
+            "GlowColor": "#0047AB",
+            "GlowIntensity": 0.2,
+            "GlowRange": 1,
+            "DamageFriendly": true,
+            "DamageOwner": false,
+            "HitFromOwnerPos": false,
+            "HitCooldown": -1,
+            "HitIgnoreWallsDuration": 15,
+            "RicochetCount": 0,
+            "RicochetSpeedMod": 0,
+            "RicochetSpeedAngleFactor": 0,
+            "VisualLerpDist": 6,
+            "Lifetime": 10,
+            "HomingSettings": {
+              "UseSteadyStrength": false,
+              "InitialHomingStrength": 100.0,
+              "InitialHomingDuration": 1.5,
+              "HomingStrength": 10.0,
+              "HomingDelay": 0,
+              "HomingMaxDist": 50,
+              "HomingMinDist": 25,
+              "HomingDistExponent": 2,
+              "TargetMode": "Body",
+              "TargetPriority": "Health",
+              "SearchAngle": 360,
+              "SearchRange": 20,
+              "SearchCooldown": 0.1,
+              "SearchInitialMode": "Normal",
+              "SearchStopMode": "Dead",
+              "SearchIgnoreWalls": false,
+              "SearchIgnoreInvisibility": true,
+              "SearchTagOnly": false
+            }
+          }
+        ], 
+        "HitTriggerTarget": false, 
+        "RunHitTriggers": true, 
+        "Trigger": "EnemyHit Bullet"
+      },
+      {
+        "Name": "BioPing",
+        "CooldownPerTarget": 10.5,
+        "Trigger": "EnemyHit"
+      },
+      {
+        "Name": "ArmorMod",
+        "Mod": 1.25,
+        "Cap": 1.50,
+        "Duration": 20.5,
+        "StackType": "Override",
+        "StackLayer": "Multiply",
+        "Trigger": "EnemyHit Bullet"
+      },
+      {
+        "Name": "ShotModDebuff",
+        "Mod": 1.50,
+        "StatType": "Damage",
+        "DamageType": "Any",
+        "Cap": 1.50,
+        "Duration": 20.5,
+        "StackType": "Override",
+        "InnerStackType": "Override",
+        "StackLayer": "Multiply",
+        "DebuffID": 0,
+        "GlobalID": 0,
+        "Trigger": "EnemyHit Bullet"
+      },
+      {
+        "Name": "SpeedMod",
+        "Mod": 0.15,
+        "Duration": 20.0,
+        "StackType": "Add",
+        "Trigger": "EnemyHit Bullet",
+        "Cap": 0.15
+      },
+      {
+        "Name": "AmmoRegen",
+        "ClipRegen": 0.0,
+        "ReserveRegen": 100.0,
+        "OverflowToReserve": false,
+        "PullFromReserve": false,
+        "UseRawAmmo": false,
+        "BypassReserveCap": false,
+        "AllowReload": true,
+        "ActiveInHolster": true,
+        "ResetWhileFull": true,
+        "DelayAfterTrigger": 20.5,
+        "Trigger": "Shot"
+      },
+      {
+        "Name": "AmmoCap",
+        "AmmoCapRel": 0,
+        "ApplyOnDrop": true
+      },
+      {
+        "Name": "AmmoMod",
+        "ReserveChange": 1250,
+        "BypassReserveCap": true,
+        "Trigger": "Setup"
+      },
+      {
+        "Name": "ActionLock",
+        "Action": "Fire",
+        "Duration": 999999,
+        "Trigger": {
+          "Activate": {
+            "Name": "Clip",
+            "AmountAtMax": 0,
+            "ClipMax": 80
+          },
+          "Reset": {
+            "Name": "Clip",
+            "AmountAtMin": 0,
+            "ClipMin": 99,
+            "ClipMax": 100
+          }
+        }
+      },
+      {
+        "Name": "ActionLock",
+        "Action": "Swap",
+        "Duration": 20.5,
+        "Trigger": "EnemyHit Bullet"
+      },
+      {
+        "Name": "ActionLock",
+        "Action": "Reload",
+        "Duration": 20.5,
+        "Trigger": "EnemyHit Bullet"
+      },
+      {
+        "Name": "AmmoMod",
+        "ClipChange": -75,
+        "ReserveChange": 100,
+        "BypassReserveCap": true,
+        "OverflowToBounds": false,
+        "PullFromReserve": false,
+        "Trigger": "Reload"
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Trigger": {
+          "Activate": "Reload",
+          "Threshold": 2,
+          "Reset": "Shot"
+        },
+        "Properties": [
+          {
+            "Name": "AmmoMod",
+            "ClipChange": 25,
+            "ReserveChange": -25,
+            "Trigger": "Reload"
+          }
+        ]
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Trigger": {
+          "Activate": "Reload",
+          "Threshold": 3,
+          "Reset": "Shot"
+        },
+        "Properties": [
+          {
+            "Name": "AmmoMod",
+            "ClipChange": 25,
+            "ReserveChange": -25,
+            "Trigger": "Reload"
+          }
+        ]
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Trigger": {
+          "Activate": "Reload",
+          "Threshold": 4,
+          "Reset": "Shot"
+        },
+        "Properties": [
+          {
+            "Name": "AmmoMod",
+            "ClipChange": 25,
+            "ReserveChange": -25,
+            "Trigger": "Reload"
+          }
+        ]
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Trigger": {
+          "Activate": "Reload",
+          "Threshold": 5,
+          "Reset": "Shot"
+        },
+        "Properties": [
+          {
+            "Name": "AmmoMod",
+            "ClipChange": 25,
+            "ReserveChange": -25,
+            "Trigger": "Reload"
+          }
+        ]
+      },
+      {
+        "Name": "AmmoMod",
+        "ClipChange": -99,
+        "OverflowToBounds": false,
+        "Trigger": "Shot"
+      },
+      {
+        "Name": "Noise",
+        "SoundID": 1322418914,
+        "Trigger": "DOT Hit" 
+      },
+      {
+        "Name": "Noise",
+        "SoundID": 1040172773,
+        "Trigger": "Shot" 
+      },
+      {
+        "Name": "Noise",
+        "SoundID": 2118104127,
+        "Trigger": {
+          "Activate": {
+            "Name": "Clip",
+            "ClipMin": 0,
+            "ClipMax": 1,
+            "AmountAtMin": 1,
+            "AmountAtMax": 0,
+            "FlipExponent": true
+          },
+          "Apply": "EnemyHit Bullet",
+          "ApplyDelay": 20.5
+        }
+      },
+      {
+        "Name": "Noise",
+        "LocalSoundID": 1993625518,
+        "Trigger": {
+          "Name": "Clip",
+          "ClipMin": 2,
+          "ClipMax": 75,
+          "AmountAtMin": 0,
+          "AmountAtMax": 1,
+          "FlipExponent": false
+        }
+      }
+    ]
+  }
+]
