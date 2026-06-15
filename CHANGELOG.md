@@ -1,14 +1,210 @@
 # Changelog
 
-## **v2.3.4** - Latest
+## **v2.4.0** - Latest
 
-* **Personal Note:** It's generally okay to update any mods whenever they are available. Regular bug fixes and QoL improvements are always welcome, but always be cautious when updating mods with large changes. It is better to keep in mind that every mod update has the potential to break something with pack. I cannot guarantee every update stability. So you should personally do your own research by checking their changelogs. 
+### Personal Note:
+* It's generally fine to update any mods. Regular bug fixes and QoL improvements are always welcome, but always be cautious when updating mods with large changes. Keep in mind that every mod update always has the potential to break something within this pack. Even I cannot guarantee every update stability. So you should personally do your research before updating them.
 
-* With the addition of keybind-based triggers that came along with `v2.3.0`. **PLEASE** check the EWC(ExtraWeaponCustomization) config and change the keybind to YOUR settings. I am aware that not everyone have keypads for their keyboards. 
+* With the addition of keybind-based triggers that came along with `v2.3.0`. **PLEASE** check the EWC(ExtraWeaponCustomization) config and change the keybind to **YOUR** settings. I am aware that not everyone have keypads for their setup. 
     * Go to `Edit Config` within Thunderstore client -> Search for `ExtraWeaponCustomization.cfg` -> `Edit Config` -> Change keybinds 1 through 4 under `Keybind Settings` section
     * Be advised that any keybind changes might reset with each update.
 
 * Please let me know on my [Github](https://github.com/Heaveness/GTFriendlyO/issues) issue page if there are problems or if you have feedback check this [Github](https://github.com/Heaveness/GTFriendlyO/discussions) discussion page. Thanks and have fun! 
+
+### Mod Updates:
+* Updated `ModifierAPI` mod
+* Updated `Informative Door Icons` mod
+* Updated `EEC H` mod
+* Updated `Spectate` mod
+    * Added `Clonesoft Json` dependency mod by AuriRex
+    * Added `PlayerSync` dependency mod by food
+* Updated `GTFuckingXP` mod
+    * Shows player class underneath their name during rundown
+    * Shows currently selected class on the class selector button
+* Updated `Minimap` mod
+    * Minimap should properly disable during EMP events
+* Added `YeetArtifactHeat` mod by JarheadHME
+    * Removes the text of GTFO Heat since Artifacts aren't a thing in this modpack anymore
+    * End screen still says something about it, can't fix it for now.
+* Added `Tweaker` mod by Dex
+    * C-Foam Launcher:
+        * Decreased Max Charge Timer from `2.5s` to `2.0s`
+    * Player:
+        * Increased Baseline Sliding Distance from `1.0m` to `4.0m` (slide further; affected by friction/obstacles and other movement speed modifiers)
+* Added `Slides Bot Control` mod by Slide
+    * Gives players the ability to give commands to bots through a radial menu(Default Key: X) or Smart Select(Default Key: V).
+    * Significant improvement to lobbies that don't have a full group to play.
+
+### Weapon & Tool Tweaks:
+* Updated `DescriptiveWeaponStatShower` mod
+    * All weapon descriptions and stats in the loadout selection can be switched by clicking on the box or number arrows
+    * All trait descriptions has been reworded.
+
+* DMR: **Rework**
+    * Combined `DMR` and `Double Tap Rifle`
+        * Their respective base stats will stay the same when switching modes
+    * Increased Max Ammo from `187` to `220`
+    * Increased Clip Size from `10` to `20`
+    * Increased Reload Time from `2.3s` to `2.5s`
+    * Switch between `2` modes(Semi-Auto & 2-Burst Fire):
+        * Semi-Auto:
+            * Activated by using specific keybind trigger(Default Keybind: KeypadEnter[KeyConfig1])
+            * Increased Precision Multiplier from `1.0x` to `1.15x`
+        * 2-Burst Fire:
+            * Activated by using specific keybind trigger(Default Keybind: KeypadPlus[KeyConfig2])
+            * Increased Stagger Multiplier from `1.4x` to `1.6x`
+> Dev Note: Both weapons basically filled the exact same role with similar results, but the method was done differently. So I believed it was a healthier choice to combine the two to allow for more gameplay options.
+
+* Double Tap Rifle: **Removed**
+    * Combined `DMR` and `Double Tap Rifle` (read above)
+
+* Triple Barrel:
+    * Slight improvement to trait description
+
+* Beam Rifle:
+    * Slight improvement to trait description
+
+* Heavy SMG:
+    * Decreased Hipfire Spread from `2.3x` to `2.0x`
+    * Decreased Aimfire Spread from `0.3x` to `0.15x`
+
+* RYN0:
+    * Increased Minimum Explosion Damage from `400.0` to `500.0`
+    * Increased Maximum Explosion Damage from `800.0` to `1000.0`
+    * Decreased Friendly Fire Modifier from `0.1x` to `0.07x`
+> Dev Note: Because why not? It's extremely expensive and risky weapon to utilize. So might as well make sure most things die from a single shot.
+
+* Missile Turret:
+    * Increased Explosion Damage from `40.0` to `50.0`
+    * Increased Shot Delay from `4.5s` to `5.0s`
+
+* Exp. Smart Rifle:
+    * Changed Locked Target color to `Green`
+
+### New Weapon:
+* Hanaway Javelin Rifle:
+    * Fires fast projectiles that stick onto targets
+    * Thermal-Assist Scope only when aiming
+    * Activate with keybind or reload to "electrocute" hit targets, explodes on electrocution kill.
+        * Activated by using specific keybind trigger(Default Keybind: KeypadEnter[KeyConfig1])
+        * Direct Damage: `10.0`
+        * Clip Size: `5`
+        * Max Ammo: `40`
+        * Reload Timer: `4.5s`
+        * Activation Delay: `0.5s`
+        * Total DoT: `55.0`
+        * DoT Duration: `4.5s`
+        * Tick Rate: `6.0`
+        * Stack Limit: `5`
+        * Precision Multiplier: `1.0x`
+        * Stagger Multiplier: `100.0x`
+        * Friendly Fire Multiplier: `0.2x`
+        * Explosion Damage: `5.0`
+        * Explosion Radius: `6.0m`
+        * Explosion Stagger Multiplier: `2.0x`
+        * Push based on shooting during standing/crouching/jumping:
+            * Standing: `-4.0m`
+            * Crouching: `-1.0m`
+            * Jumping: `-6.0m`
+> Dev Note: Replaces the removed Double Tap Rifle. This gun has great damage and crown control for larger enemies. But its low ammo and high base damage is overkill against smaller targets.
+
+* Omneco Arc Subjugator:
+    * Requires a lock-on to fire.
+    * Fires a "harpoon" at a target that will also chain to another nearby target. Prioritizes highest health enemies.
+    * Immediately electrocutes both targets with very high stagger damage.
+    * Applies Increased Damage Debuff, Silence CC, and BioTag onto targets for the duration.
+    * Significantly decreases player's movement speed, but increases damage resistance during DoT duration.
+    * Requires manual charging(reload) `4` times to fire the gun.
+    * Infinite Ammo
+    * Cannot switch gear or reload during the electrocution duration.
+        * Direct Damage: `1.0`
+        * Shrapnel Count: `1` after first bullet hit
+        * Ballistic Type: `Slow Projectile`
+        * Max Ammo: `Infinite`
+        * Reload Timer: `2.5s` per manual reload(requires `4` to fire)
+        * Electrocution Total Damage: `10.0`
+        * Stagger Multiplier: `500.0x`
+        * DoT Duration: `20.5s`
+        * Bio Ping Duration: `20.5s`
+        * Silence CC Duration: `20.5s`
+        * Movement Speed Multiplier: `-85%` (Player)
+            * Can be resisted through movement speed boosts
+        * Damage Resistance: `+20%` (Player)
+            * Can stack with other damage resist up to `+40%`
+        * Damage Taken Debuff: `+50%` (Enemy)
+> Dev Note: This weapon was an idea that I had for a long time since v2.0, but couldn't execute correctly. There wasn't enough properties and features available at the time. This is a pure support weapon that synergizes very well with any team or weapon composition, but has very clear drawbacks.
+
+### New Tool:
+* Concussive Nade Turret:
+    * Fires Low Damage, High Stagger, & Cluster Grenades.
+    * More CC-oriented than lethal damage. Enemies take increased damage taken from all sources during CC.
+    * Applies `Silence CC` on hit, disables some abilities like non-boss tongues and Needler projectile barrages, but NOT scout screams or melee attacks.
+    * Strong gravity projectiles, requires higher elevation to get the most value.
+        * Direct Damage: `1.0`
+        * Cluster Bomblet Count: `6`
+        * Effective Range: `30.0m`
+        * Explosion Damage: `2.0`
+        * Explosion Radius: `7.5m`
+        * Explosion Stagger Multiplier: `250.0x`
+        * Shot Delay: `10.0s`
+        * Max Ammo `120`
+        * Ballistic Type: `High Gravity Projectile`
+        * Effective Range: `30.0m`
+        * Explosion will not hurt friendlies, but owner can get hit.
+        * Placement Time: `0.6s`
+        * Pickup Time: `1.0s`
+        * Deploy Time: `3.0s`
+        * Silence CC Duration: `15.0s`
+        * Damage Taken Debuff: `+15.0%`
+        * Damage Taken Debuff Duration: `15.0s`
+        * Max Detection Range: `30.0m`
+        * Max Detection Angle: `60`
+        * Scan Delay: `1.0s`
+        * Scan Color: `Magenta`
+> Dev Note: The first sentry to be built as a CC tool than a lethal one. A turret that brings more utility for the team rather than pure damage.
+
+### Class Fixes:
+* Abhuman:
+    * Changed description to match with the other B-Company members.
+
+### Enemy Tweaks:
+* Scouts:
+    * Increased Effective Range of EMP from `100.0m` to `200.0m`
+    * Increased EMP Duration from `45.0s` to `47.0s`
+> Dev Note: With the new tools and weapons to combat EMP blackouts, I believe the Scout needed a slight buff.
+
+* Shadow Giants:
+    * Increased Minimum Fog Radius from `3.0m` to `5.0m`
+    * Increased Maximum Fog Radius from `6.0m` to `10.0m`
+    * Increased Fog Density by `+25%`
+> Dev Note: A Shadow Giant's infection fog should be larger in size than the smaller variants.
+
+* Children:
+    * Decreased Explosion Damage from `6.0` to `5.0`
+    * Increased Maximum Explosion Radius from `2.5m` to `3.0m`
+    * Decreased Explosion Noise Minimum Range from `10.0m` to `7.5m`
+    * Decreased Explosion Noise Maximum Range from `20.0m` to `15.0m`
+    * Changed Explosion Sound Effect
+
+* Flyer:
+    * Changed Explosion Sound Effect
+
+* Birthers:
+    * Spawns Children upon death based on variant:
+        * Birther: `6`
+        * Birther Prime: `12`
+        * Progenitor Mother: `18`
+> Dev Note: Birthers should be a bit more dangerous once killed to prevent players from rushing them without consequences.
+
+### Miscellaneous Fixes:
+* Fixed duplicate names in OfflineGear and FrontGearParts
+* Changed README.md
+    * Improved wording on all section
+    * Fixed outdated information
+
+---
+
+### v2.3.4
 
 ### Emergency Hotfix:
 * Fixed manifest.json:
@@ -24,7 +220,7 @@
     * Fixed the gun's stat showing the incorrect precision multiplier
     * Decreased Max Ammo from `30` to `20`
     * Increased Friendly Fire Multiplier from `0.5x` to `0.8x`
-> Dev Note: It seems like this gun is still performing a bit too well for how efficient the ammo economy is. Any more nerfs to this gun can potentially have the opposite effect.
+> Dev Note: It seems like this gun is still performing a bit too well for how efficient the ammo economy is. Any more nerfs to this gun after this patch can potentially have the opposite effect.
 
 ### Mod Updates:
 * Updated `ExtraWeaponCustomization` mod

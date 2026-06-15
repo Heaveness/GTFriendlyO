@@ -1,12 +1,12 @@
-# GTFriendlyO
+# **GTFriendlyO**
 
 ### Description:
 
 A major overhaul to vanilla GTFO's gameplay, designed to bring more depth WITHOUT sacrificing the fun and rewarding experiences with friends.
 
-As a long-time GTFO player, I've felt the base game lacked a bit of variety in certain aspects of its gameplay. After running several Rundowns with friends, we all agreed the game needed a bit more spice. This mod focuses on creating a more casual-friendly co-op experience **WITHOUT** removing all of the tension or challenge from the game. This is **NOT** a hardcore or hyper-realism mod setup, nor will it ever be. Instead, it makes GTFO more accessible by giving players several additional "tools". Theorycraft a team composition and tackle the depths! The enemies have also received some love too, so the powerup not completely one-sided.
+As a long-time GTFO player, I've felt the base game lacked a bit of variety in certain aspects of its gameplay. After running several Rundowns with friends, we all agreed the game needed a bit more spice. This mod focuses on creating a more friendly co-op experience **WITHOUT** removing all of the tension or challenge from the game. This is **NOT** a hardcore or hyper-realism mod setup, nor will it ever be. Instead, it makes GTFO more accessible by giving players several new additional "tools" with reworked systems to add depth. Theorycraft a team composition and tackle the depths! The enemies have also received some love too, so the powerup not completely one-sided.
 
-Heavy inspiration: FriendlyGTFO by EcoLight and Duo Trials by ProjectZaero
+**Inspiration:** FriendlyGTFO by EcoLight and Duo Trials by ProjectZaero
 > Please note that I took the syringe customization settings from Duo Trials to reverse engineer how it was made. I have made some major changes, but the overall credit should still be given to ProjectZaero. Check our wiki for more information.
 
 This project has been in the works for many years. It's only been shared privately with my friends until recently. Now, I'm releasing it to the public for others to enjoy. Play together or die together! And don't be afraid to share your experiences with me on Github or on GTFO modding discord. And most importantly, good luck have fun!
@@ -19,28 +19,27 @@ This project has been in the works for many years. It's only been shared private
     * Class Balance Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/discussions/13)
     * Weapon Balance Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/discussions/14)
 
-* Can be played Vanilla with other mods with this mod-pack, especially with client-side mods. It's recommended to use several bug fix mods to prevent further issues with GTFO. But it's up to the players if they want them or not. It's not necessary to add them in. Recommended mod list: [here](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/4030-recommend-mods/)
-
-* Most likely will **NOT** be compatible with other custom Rundowns or modpacks that changes the same Datablocks. Otherwise, give it a try and let me know.
+* Most likely will **NOT** be compatible with other custom Rundowns or modpacks that changes the same Datablocks. You must merge the appropriate datablocks yourself to apply compatibility. Even then this mod pack's features working 100% can be questionable.
 
 * With the addition of keybind-based triggers that came along with `v2.3.0`. **PLEASE** check the EWC(ExtraWeaponCustomization) config and change the keybind to YOUR settings. I am aware that not everyone have keypads for their keyboards. 
     * Go to `Edit Config` within Thunderstore client -> Search for `ExtraWeaponCustomization.cfg` -> `Edit Config` -> Change keybinds 1 through 4 under `Keybind Settings` section
     * Be advised that any keybind changes might reset with each update.
 
-* It has come to my attention with bots being broken in the lobby that prevents dropping down a rundown. Caused by bots having weapons/tools that have been changed and it is loading something that doesn't exist. What you can do:
+* It has come to my attention with bots being broken in the lobby that prevents dropping down a rundown(Fixed in `v2.3.1`). Caused by bots having weapons/tools that have been changed and it is loading something that doesn't exist. What you can do:
     * Install `NoBrokenBotGear` mod by JarheadHME if using **pre-v2.6.1 version**
     * Delete the `BotGear.json` file within `BepInEx/GameData/Favorites/Botgear.json` of your profile.
     * Or search the file in `Edit Config` and delete the file.
     * Or try to change the gear before the bot disappears within the lobby(unreliable).
 
 ### Recommended mods:
-* List: [Thunderstore wiki link](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/4030-recommend-mods-wip/)
+* Can be played Vanilla with other mods with this mod-pack, especially with client-side mods. It's recommended to use several bug fix mods to prevent further issues with GTFO. But it's up to the players if they want them or not. It's not necessary to add them in. List: [Thunderstore wiki link](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/4030-recommend-mods-wip/)
 > Dev Note: These are recommended, but not needed. Some of these mods will have configs that might be packaged with the mod-pack, but not the mod itself. These aren't necessary, but nice to have on the list.
 
 * Recommend to check out the_tavern's [AutogenRundown](https://thunderstore.io/c/gtfo/p/the_tavern/AutogenRundown/) mod, especially **AFTER** you have finished GTFO's vanilla rundowns. It provides new rundowns generated daily, weekly, monthly, and each season. Automatic Rundown generation, using procedural seed based generation!
     * Additional work might be required to achieve better compatibility. Some features from GTFriendlyO or AutogenRundown may or may not work well with each other.
 
 ## Major Changes:
+
 ### Players:
 
 * Increased base Health: `25.0 -> 60.0`
@@ -59,6 +58,7 @@ This project has been in the works for many years. It's only been shared private
 * Increased base Infection Resistance to `+20%`
 * Going down will inflict a `10%` infection penalty. 
     * It can be resisted with booster effects or cleansed with disinfection.
+> Dev Note: These changes are to make the players die a little slower as well as significantly benefit from the class scaling. I also want to emphasize that it's harder to get punished, but it's a lot more profound. Decreased hacking proficiency is to encourage Field Technician class, and the increased base infection is to prevent large burst of stacking infection(not slow infection).
 
 ### Classes:
 
@@ -68,7 +68,7 @@ This project has been in the works for many years. It's only been shared private
 * `Damage` roles are classes that specialize mainly dishing out damage, but they tend to be more fragile.
 * `Tank` roles are classes that specialize in taking damage while also dishing out some of their own, but they tend to be on the slow side.
 * `Support` roles are classes that specialize in helping the team, but they lack either offensive or defensive capabilities.
-> Dev Note: B-Company Division is meant for joke classes, never will be balanced or realistic. So have fun with them.
+> Dev Note: B-Company Division is meant to be joke classes; balance or realism is not the focus. So have fun with them.
 
 | CLASS       		| ROLE      | DIVISION  | STRENGTHS 	 											          | WEAKNESSES																      |
 |-------------------|-----------|-----------|:--------------------------------------------------------------------|:------------------------------------------------------------------------------|
@@ -89,7 +89,7 @@ This project has been in the works for many years. It's only been shared private
 ### Weapons:
 
 - All of the Main and Special weapons have either been overhauled, reworked or tweaked.
-- Muzzle flash has been mostly removed as my friends and I am photosensitive.
+- Muzzle flash has been mostly removed as my friends and I are photosensitive.
 - Significant changes were made to create synergies between weapons and classes.
 - Promotes more diverse team compositions with unique build synergies.
 - Silence CC does not mean silent weapon, it's the capability to temporarily disable some enemy abilities such as non-boss tongues.
@@ -133,7 +133,9 @@ This project has been in the works for many years. It's only been shared private
 | Omneco LRG          	| Techman Nano Gauss Rifle      	| Nano-Burst Gobules on kill seeks nearby target                | Projectile        |
 | N/A               	| Hanaway Hunting Crossbow    		| Silent, & switch between three modes(Regular, Napalm, & Foam) | Projectile/Gravity|
 | N/A                  	| Techman Wisp Launcher           	| Launches Wisp that attacks nearby targets                     | Projectile        |
-| N/A                  	| Van Auken Beam Rifle           	| High single target damage, require no reloadm, burn DoT on hit| Projectile        |
+| N/A                  	| Van Auken Beam Rifle           	| High single target damage, require no reload, burn DoT on hit | Projectile        |
+| N/A                  	| Hanaway Javelin Rifle           	| Electrocute hit targets with a keybind, High stagger damage   | Projectile        |
+| N/A                  	| Omneco Arc Subjugator           	| Electrocute targets, Infinite Ammo, and Manual Charging       | Projectile        |
 
 ### Melee:
 
@@ -153,20 +155,20 @@ This project has been in the works for many years. It's only been shared private
 ### Tools:
 
 * Most tool gear & items have received some tweaks. Overall increase in carrying capacity for items and sentry ammo.
-* This section will mainly showcase sentries.
 > Dev Note: The ResourceStacking mod will be an important upgrade for consumables.
 
 | SENTRIES       | RANGE 	| QUIRKS		  									| STRENGTHS 	 									| WEAKNESSES										|
 |----------------|----------|---------------------------------------------------|:--------------------------------------------------|:--------------------------------------------------|
 | Burst Turret	 | Medium	| Burst fire, shot delays cause leaks in defense	| Consistent Damage, & Reliable						| Easily Overwhelmed & Requires Sufficient Space	|
-| Auto Turret 	 | Short	| Holds choke points, but wastes a lot of bullets	| High Stagger Damage, & High Ammo Cap				| Poor Accuracy, & Very Ammo Hungry					|
+| Auto Turret 	 | Medium	| Holds choke points, but wastes a lot of bullets	| High Stagger Damage, & High Ammo Cap				| Poor Accuracy, & Very Ammo Hungry					|
 | Sniper Turret	 | Long		| Alt. to snipers, but fires at tagged targets ONLY	| Very High Single-target Damage, & Ammo Efficient	| Poor Defense, & Long Setup						|
 | Shotgun Turret | Short	| Destroys Choke Points, but struggles w/open rooms	| High Close Damage, & CTRL+ALT+DEL choke points	| Placement Dependent, & Quite Ammo Hungry			|
 | Missile Turret | Long		| Large AoE, shoots at tagged ONLY, friendly fire   | High AoE Damage, great crowd control          	| Very Placement Dependent, & Low Ammo Count     	|
-| Search & Rescue| Medium	| Glowstick Hipfire shots, Fog Repeller Aimed shots | Great utility tool, procs booster effects       	| No Damage, Low Ammo, takes up a tool slot        	|
-| C-Foam Mines   | Short	| Tripwire mines, C-foam payload                    | High C-Foam payload count, No friendly fire      	| No Damage, terrain and placement dependent     	|
-| Flamethrower   | Short	| Large flames and explosive kills that apply DoTs  | Solid DoT Damage, Stagger, and crowd control     	| Low Direct Damage, and long time to kill      	|
-| RYN0 Annihilator| Medium	| Very long shot delay(30s), explosion rounds       | Large Radius, very high AoE damage             	| Extremely low ammo, and very easy friendly fire  	|
+| Concussion Nade Turret | Short	| Large AoE, bomblet clusters, explosive debuffs| High AoE Radius, high stagger, & debuffs     	| High Gravity Projectile, requires elevated placement, & low damage 	|
+| Search & Rescue| Long 	| Glowstick Hipfire shots, Fog Repeller Aimed shots | Great utility tool, procs booster effects       	| No Damage, Low Ammo, takes up a tool slot        	|
+| C-Foam Mines   | Short	| Tripwire mines, C-foam payload                    | High C-Foam payload count, No friendly fire      	| No Damage, terrain & placement dependent       	|
+| Flamethrower   | Medium	| Large flames and explosive kills that apply DoTs  | Solid DoT Damage, Stagger, and crowd control     	| Low Direct Damage, & long time to kill          	|
+| RYN0 Annihilator| Long	| Very long shot delay(30s), explosion rounds       | Large Radius, very high AoE damage             	| Extremely low ammo, & very easy friendly fire  	|
 
 ### Enemies:
 
@@ -181,7 +183,7 @@ This project has been in the works for many years. It's only been shared private
 | Needlers(Shooter) 		 | Stronger overall damage, but more fragile							 | N/A, just shoot'em.																		|
 | Strikers Giants 			 | Tongue grabs player to its melee range; cannot parry the pull, but can counter with timed double jump during pull		 | Loves pulling teammates out of bioscans, either kill quickly or disable(Medic Gun or Foam).      |
 | Scouts 					 | EMP(45.0s) after scream, invul. during EMP wind-up; Longer feelers, but visible	 | EMPs disable most electronics. Counter with the Specialist class!|
-| Birther 			         | Increased HP; Birth Children that will explode on death				 | Kill the babies first, then kill the mother fast.	     								|
+| Birther 			         | Increased HP; Birth children on death that explodes   				 | Kill the babies first, then kill the mother fast.	     								|
 | Stalkers(Snatcher/Pouncer) | Snatched players take damage & Fast Dashes but long CDs; glue immune  | Takes longer to kill and can kill players now. They should not be ignored.				|
 | Giant & Bloom Needlers	 | Inflicts bleed(50% Chance) for 10.0% max HP damage over 10.0s; nonstackable	 | They are high-priority targets otherwise the team will suffer major damage.              |
 | Flyers                	 | Fires explosive projectiles for 5% damage over 2.0m to 4.0m           | Shoot them down quicky before they inflict too much AoE damage.                          |
@@ -198,6 +200,7 @@ This project has been in the works for many years. It's only been shared private
 | Child		| Explode on death, can cause a chain reaction							|
 
 ### Boosters:
+
 * Boosters have been completely reworked.
 * All Boosters have infinite usage. Artifacts will no longer spawn on rundowns.
 * Booster buffs and debuffs stack additively with other effects such as the class system, unless said otherwise.
@@ -205,14 +208,16 @@ This project has been in the works for many years. It's only been shared private
 * `Bold` Boosters require the player to meet specific conditionals to activate.
 * `Aggressive` Boosters will bring the most drawbacks, but stack well with the other two boosters.
 * You should never use Aggressive Boosters by themselves and require both Bold and Muted to get a positive tradeoff. Of course, you can take the safe route and only use Muted and/or Bold.
-* These changes are to make Boosters a more interesting mechanic that brings a risk v.s. reward to the classes. Their names reflect the state of the player's confidence in their playstyle.
+> Dev Note: These booster changes create a new layer of risk v.s. reward to the classes. Their names should reflect the state of the player's confidence in their playstyle.
 
 ### Syringes:
+
 * The two vanilla syringes have been altered for better use cases.
 * Added several new syringes that might spawn on several rundowns based on their spawn weight.
-* Check the wiki to see what each does! Some are straightforward while others are weird.
+* Check the [wiki](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/4332-7-syringe-information/) to see what each does! Some are straightforward while others are weird.
 
 ### Extras:
+
 * Check out the wiki pages for more information on each major feature: [Here](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/).
 * If you really liked the mod-pack, give it a thumbs up on Thunderstore. Try it out with friends or randoms!
 * Check out my other mods over at [Thunderstore Link](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/)
