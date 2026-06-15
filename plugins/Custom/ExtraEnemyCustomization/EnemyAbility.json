@@ -1,4 +1,4 @@
-{
+ {
   "BehaviourAbilityCustom": [
     {
       "Enabled": true,
@@ -42,7 +42,7 @@
             "InitCooldown": 0,
             "Cooldown": 99999
           },
-          "AbilityName": "EMP 45s"
+          "AbilityName": "EMP"
         }
       ]
     }
@@ -63,7 +63,7 @@
       },
       "Abilities": [
         {
-          "AllowedMode": "Hibernate, Combat",
+          "AllowedMode": "Hibernate | Combat",
           "Delay": 0.0,
           "AbilityName": "Explode Small"
         }
@@ -71,11 +71,29 @@
     },
     {
       "Enabled": true,
-      "DebugName": "Shadow Fog Explode",
+      "DebugName": "Regular Shadow Fog Explode",
       "Target": {
         "Mode": "PersistentID",
         "persistentIDs": [
-          21,
+          21
+        ],
+        "nameParam": "",
+        "nameIgnoreCase": true
+      },
+      "Abilities": [
+        {
+          "AllowedMode": "Hibernate | Combat",
+          "Delay": 0.1,
+          "AbilityName": "Small Fog"
+        }
+      ]
+    },
+    {
+      "Enabled": true,
+      "DebugName": "Giant Shadow Fog Explode",
+      "Target": {
+        "Mode": "PersistentID",
+        "persistentIDs": [
           35
         ],
         "nameParam": "",
@@ -85,7 +103,64 @@
         {
           "AllowedMode": "Hibernate | Combat",
           "Delay": 0.1,
-          "AbilityName": "Fog"
+          "AbilityName": "Big Fog"
+        }
+      ]
+    },
+    {
+      "Enabled": true,
+      "DebugName": "Birther Death Spawn",
+      "Target": {
+        "Mode": "PersistentID",
+        "PersistentIDs": [
+          36
+        ],
+        "NameParam": "",
+        "NameIgnoreCase": false
+      },
+      "Abilities": [
+        {
+          "AllowedMode": "Hibernate | Combat",
+          "Delay": 1.0,
+          "AbilityName": "SpawnEnemyBirther"
+        }
+      ]
+    },
+    {
+      "Enabled": true,
+      "DebugName": "Birther Prime Death Spawn",
+      "Target": {
+        "Mode": "PersistentID",
+        "PersistentIDs": [
+          37
+        ],
+        "NameParam": "",
+        "NameIgnoreCase": false
+      },
+      "Abilities": [
+        {
+          "AllowedMode": "Hibernate | Combat",
+          "Delay": 1.0,
+          "AbilityName": "SpawnEnemyBirtherPrime"
+        }
+      ]
+    },
+    {
+      "Enabled": true,
+      "DebugName": "Progenitor Death Spawn",
+      "Target": {
+        "Mode": "PersistentID",
+        "PersistentIDs": [
+          55
+        ],
+        "NameParam": "",
+        "NameIgnoreCase": false
+      },
+      "Abilities": [
+        {
+          "AllowedMode": "Hibernate | Combat",
+          "Delay": 1.0,
+          "AbilityName": "SpawnEnemyProgenitor"
         }
       ]
     }
@@ -112,29 +187,83 @@
           "Modification": "Inflict",
           "Scale": 0.003
         },
-        "Name": "Fog"
+        "Name": "Small Fog"
+      },
+      {
+        "SoundEventID": 2967491444,
+        "ColorMin": "#013220",
+        "ColorMax": "#013220",
+        "IntensityMin": 1,
+        "IntensityMax": 1,
+        "RangeMin": 5,
+        "RangeMax": 10,
+        "DensityMin": 0.25,
+        "DensityMax": 0.75,
+        "DensityAmountMin": 0.25,
+        "DensityAmountMax": 0.75,
+        "Duration": 30,
+        "EffectVolume": {
+          "Enabled": true,
+          "Contents": "Infection",
+          "Modification": "Inflict",
+          "Scale": 0.003
+        },
+        "Name": "Big Fog"
       }
     ],
     "Explosion": [
       {
-        "Damage": 6,
+        "Damage": 5,
         "KillInflictor": true,
         "UseExplosionCounter": true,
         "AllowedExplosionCount": 1,
         "EnemyDamageMulti": 1.0,
         "MinRange": 2.0,
-        "MaxRange": 2.5,
-        "NoiseMinRange": 10,
-        "NoiseMaxRange": 20,
+        "MaxRange": 3.0,
+        "NoiseMinRange": 7.5,
+        "NoiseMaxRange": 15,
         "NoiseType": "Detectable",
+        "SoundID": 3124402583,
         "Name": "Explode Small"
       }
     ],
-    "SpawnEnemy": [],
+    "SpawnEnemy": [
+      {
+        "StopAgent": false,
+        "Delay": 1,
+        "EnemyID": 38,
+        "AgentMode": "Agressive",
+        "TotalCount": 6,
+        "CountPerSpawn": 2,
+        "DelayPerSpawn": 0.5,
+        "Name": "SpawnEnemyBirther"
+      },
+      {
+        "StopAgent": false,
+        "Delay": 1,
+        "EnemyID": 38,
+        "AgentMode": "Agressive",
+        "TotalCount": 12,
+        "CountPerSpawn": 4,
+        "DelayPerSpawn": 0.5,
+        "Name": "SpawnEnemyBirtherPrime"
+      },
+      {
+        "StopAgent": false,
+        "Delay": 1,
+        "EnemyID": 38,
+        "AgentMode": "Agressive",
+        "TotalCount": 18,
+        "CountPerSpawn": 6,
+        "DelayPerSpawn": 0.5,
+        "Name": "SpawnEnemyProgenitor"
+      }
+    ],
     "SpawnWave": [],
     "SpawnProjectile": [],
     "DoAnim": [],
     "Cloak": [],
+    "WardenEvent": [],
     "EMP": [
       {
         "ChargeUpSoundId": 2166385205,
@@ -142,12 +271,12 @@
         "ChargeUpAnimation": "AbilityUse",
         "ActivateAnimation": "AbilityUseOut",
         "ChargeUpDuration": 3,
-        "EffectDuration": 45.0,
-        "EffectRange": 100.0,
+        "EffectDuration": 47.0,
+        "EffectRange": 200.0,
         "InvincibleWhileCharging": true,
         "BuildupColor": "#00A3FF",
         "ScreamColor": "#00A3FF",
-        "Name": "EMP 45s"
+        "Name": "EMP"
       }
     ]
   }

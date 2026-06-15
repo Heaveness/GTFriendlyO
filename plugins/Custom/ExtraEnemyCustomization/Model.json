@@ -905,6 +905,6 @@
 		"AllowMarkingOnHibernate": false
 	  }
   ],
-	"ScannerCustom": [],
+  "ScannerCustom": [],
   "SilhouetteCustom": []
 }
