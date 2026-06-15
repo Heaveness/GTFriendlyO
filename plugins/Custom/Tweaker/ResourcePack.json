@@ -1,0 +1,22 @@
+{
+  "ObjectiveResourceModifiers": [
+    {
+      "DataBlockId": 34,
+      "ammoStandardMulti": 1,
+      "ammoSpecialMulti": 1,
+      "ammoClassMulti": 1,
+      "healthAmountMulti": 1,
+      "name": "Default",
+      "internalEnabled": false
+    }
+  ],
+  "WeaponResourceModifiers": [
+    {
+      "ArchetypeID": 0,
+      "ammopackAmountRel": 0.2,
+      "name": "Default",
+      "internalEnabled": false
+    }
+  ],
+  "internalEnabled": false
+}

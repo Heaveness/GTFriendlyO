@@ -1,0 +1,12 @@
+[
+  {
+    "DataBlockId": 34,
+    "ItemID": [
+      133
+    ],
+    "ForceDisable": false,
+    "OverrideObjectiveSpawns": false,
+    "name": "Fog Turbine",
+    "internalEnabled": false
+  }
+]

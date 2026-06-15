@@ -1,0 +1,12 @@
+[
+  {
+    "ChainedPuzzleToEnterID": 84,
+    "WaveSettingsID": 3,
+    "WavePopulationDataID": 1,
+    "SoundEventID": 966610395,
+    "SoundAlarmID": 1060835335,
+    "SetInteractionMessage": true,
+    "name": "Default",
+    "internalEnabled": false
+  }
+]

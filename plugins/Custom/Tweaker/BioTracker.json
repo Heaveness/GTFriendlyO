@@ -1,0 +1,18 @@
+[
+  {
+    "scanConeDotMin": 0.85,
+    "maxScanWorldRadius": 70,
+    "localObjRadius": 0.15,
+    "enemyObjMinScale": 0.25,
+    "maxObjs": 20,
+    "maxCourseNodeDistance": 3,
+    "scanDelay": 1.5,
+    "pulseDuration": 0.5,
+    "posDelay": 0.85,
+    "tagDuration": 1,
+    "rechargeDuration": 8.5,
+    "ItemID": 28,
+    "name": "Default",
+    "internalEnabled": false
+  }
+]

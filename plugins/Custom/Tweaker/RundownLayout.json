@@ -1,0 +1,171 @@
+{
+  "Tier1": [
+    {
+      "Decrypt": null,
+      "Label": "A1",
+      "Heat": false,
+      "Status": null,
+      "Scale": 1.666667,
+      "Position": {
+        "X": -450,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    {
+      "Decrypt": null,
+      "Label": "A2",
+      "Heat": false,
+      "Status": null,
+      "Scale": 1.666667,
+      "Position": {
+        "X": 0,
+        "Y": -270,
+        "Z": 0
+      }
+    },
+    {
+      "Decrypt": null,
+      "Label": "A3",
+      "Heat": false,
+      "Status": null,
+      "Scale": 1.666667,
+      "Position": {
+        "X": 450,
+        "Y": 0,
+        "Z": 0
+      }
+    }
+  ],
+  "Tier2": [
+    {
+      "Decrypt": null,
+      "Label": "B1",
+      "Heat": false,
+      "Status": null,
+      "Scale": 1.428571,
+      "Position": {
+        "X": -525,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    {
+      "Decrypt": null,
+      "Label": "B2",
+      "Heat": false,
+      "Status": null,
+      "Scale": 1.428571,
+      "Position": {
+        "X": -175,
+        "Y": -210,
+        "Z": 0
+      }
+    },
+    {
+      "Decrypt": null,
+      "Label": "B3",
+      "Heat": false,
+      "Status": null,
+      "Scale": 1.428571,
+      "Position": {
+        "X": 175,
+        "Y": -210,
+        "Z": 0
+      }
+    },
+    {
+      "Decrypt": null,
+      "Label": "B4",
+      "Heat": false,
+      "Status": null,
+      "Scale": 1.428571,
+      "Position": {
+        "X": 525,
+        "Y": 0,
+        "Z": 0
+      }
+    }
+  ],
+  "Tier3": [
+    {
+      "Decrypt": null,
+      "Label": "C1",
+      "Heat": false,
+      "Status": null,
+      "Scale": 1.818182,
+      "Position": {
+        "X": -412.5,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    {
+      "Decrypt": null,
+      "Label": "C2",
+      "Heat": false,
+      "Status": null,
+      "Scale": 1.818182,
+      "Position": {
+        "X": 0,
+        "Y": -247.5,
+        "Z": 0
+      }
+    },
+    {
+      "Decrypt": null,
+      "Label": "C3",
+      "Heat": false,
+      "Status": null,
+      "Scale": 1.818182,
+      "Position": {
+        "X": 412.5,
+        "Y": 0,
+        "Z": 0
+      }
+    }
+  ],
+  "Tier4": [
+    {
+      "Decrypt": null,
+      "Label": "D1",
+      "Heat": false,
+      "Status": null,
+      "Scale": 2.5,
+      "Position": {
+        "X": -300,
+        "Y": 0,
+        "Z": 0
+      }
+    },
+    {
+      "Decrypt": null,
+      "Label": "D2",
+      "Heat": false,
+      "Status": null,
+      "Scale": 2.5,
+      "Position": {
+        "X": 300,
+        "Y": 0,
+        "Z": 0
+      }
+    }
+  ],
+  "Tier5": [
+    {
+      "Decrypt": null,
+      "Label": "E1",
+      "Heat": false,
+      "Status": null,
+      "Scale": 10,
+      "Position": {
+        "X": -75,
+        "Y": 0,
+        "Z": 0
+      }
+    }
+  ],
+  "HideProgression": true,
+  "HideTiers": true,
+  "internalEnabled": false
+}

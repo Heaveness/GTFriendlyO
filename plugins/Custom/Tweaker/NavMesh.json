@@ -1,0 +1,18 @@
+{
+  "Agent": {
+    "Climb": 0.5,
+    "Height": 2,
+    "Radius": 0.25,
+    "Slope": 55
+  },
+  "minRegionArea": 0,
+  "Override": {
+    "TileSize": false,
+    "VoxelSize": false
+  },
+  "TileSize": 768,
+  "VoxelSizeDenominator": 3,
+  "MediumQualityObstacleAvoidance": true,
+  "ReduceAgentRadius": true,
+  "internalEnabled": false
+}

@@ -1,0 +1,87 @@
+{
+  "PlayerInSightMaxDistance": 15,
+  "PlayerInSightMinCos": 0.9,
+  "RecognizedItemTypes": [
+    139,
+    144,
+    117,
+    115,
+    114,
+    130,
+    167,
+    102,
+    101,
+    127,
+    132
+  ],
+  "SleeperCheckIntervalNeg": 10,
+  "SleeperCheckIntervalPos": 1.5,
+  "SleeperCheckMaxDistance": 25,
+  "SleeperCheckMaxDistanceSQ": 625,
+  "SleeperCheckResetDistance": 8,
+  "SleeperCheckResetDistanceSQ": 64,
+  "TwitchingSleeperCheckDistance": 10,
+  "TwitchingSleeperCheckDistanceSQ": 100,
+  "RootPlayerBotAction": {
+    "CollectItemSearchDistance": 15,
+    "CollectItemStandDistance": 1,
+    "CombatDistanceMin": 2,
+    "CombatDistanceMax": 10,
+    "EnemiesTagDelayA": 6,
+    "EnemiesTagDelayB": 4,
+    "FlashlightOnDelay": 1.5,
+    "FollowLeaderMaxDistance": 10,
+    "FollowLeaderRadius": 7,
+    "GateScanSearchDistance": 8,
+    "GateScanStandDistanceA": 1,
+    "GateScanStandDistanceB": 3,
+    "HighlightSearchDistance": 8,
+    "HighlightStandDistance": 1.5
+  },
+  "PlayerBotActionIdle": {
+    "EquipWeaponDelay": 6,
+    "PrioFreezeForTwitcher": 13,
+    "Prio": 1
+  },
+  "PlayerBotActionFollow": {
+    "SearchRadiusMul": 0.8,
+    "VerifyRadiusMul": 1
+  },
+  "PlayerBotActionUseBioscan": {
+    "SearchRadiusMul": 0.8,
+    "VerifyCurrentPositionRadiusMul": 0.9
+  },
+  "PlayerBotActionAttack": {
+    "MeleeReach": 2,
+    "OptimalBulletRangeA": 2,
+    "OptimalBulletRangeB": 10,
+    "OptimalMeleeRangeA": 0.75,
+    "OptimalMeleeRangeB": 5
+  },
+  "PlayerBotActionRevive": {
+    "ApproachRadius": 0.8,
+    "TravelHaste": 0.9,
+    "VerifyRadiusMul": 1.15
+  },
+  "PlayerBotActionUseEnemyScanner": {
+    "ApproachRadius": 0.8,
+    "NrScanAngles": 10,
+    "ScanDurationPerAngle": 0.4,
+    "VerifyRadiusMul": 1.2
+  },
+  "PlayerBotActionCollectItem": {
+    "Range": 1.5,
+    "TransferDuration": 1
+  },
+  "PlayerBotActionShareResourcePack": {
+    "ApproachRadius": 1.1,
+    "Duration": 1.5,
+    "VerifyRadiusMul": 1.15
+  },
+  "PlayerBotActionEvadeProjectile": {
+    "EvasionStartETA": 0.25,
+    "lookStartETA": 1,
+    "SideStepDistance": 2
+  },
+  "InternalEnabled": false
+}

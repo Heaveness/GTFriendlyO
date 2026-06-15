@@ -1,0 +1,16 @@
+{
+  "ItemID": 130,
+  "PulseRate": 1,
+  "Max": {
+    "Red": 0.8,
+    "Green": 0.8,
+    "Blue": 0.8
+  },
+  "Min": {
+    "Red": 0.4,
+    "Green": 0.4,
+    "Blue": 0.4
+  },
+  "ToggleLevelLight": true,
+  "internalEnabled": false
+}

@@ -1,0 +1,43 @@
+{
+  "InternalEnabled": false,
+  "SpitterConfig": [
+    {
+      "LevelLayoutID": 0,
+      "InternalEnabled": false,
+      "GlowColor": {
+        "X": 0.05,
+        "Y": 0.5,
+        "Z": 0.375
+      },
+      "DangerColor": {
+        "X": 0.2,
+        "Y": 0.1,
+        "Z": 0
+      },
+      "StartGlowColor": {
+        "X": 0.03,
+        "Y": 0.3,
+        "Z": 0.225
+      },
+      "RetractedMinScale": {
+        "X": 0.8,
+        "Y": 0.7,
+        "Z": 0.8
+      },
+      "ScaleMulti": 1,
+      "ExpandSpeedMulti": 1,
+      "RetractSpeedMulti": 1,
+      "LightRetractSpeedMulti": 1,
+      "SoundEventPreSpit": 3688585605,
+      "SoundEventFoamed": 443010049,
+      "SoundEventScared": 1800579437,
+      "SoundEventPrimed": 1580085442,
+      "SoundEventOut": 483235199,
+      "SoundEventPurrLoop": 1548233641,
+      "SoundEventIn": 600057560,
+      "SoundEventPurrStop": 3829473415,
+      "SoundEventSpit": 3124402583,
+      "SoundEventReleasedFromFoam": 990281653
+    }
+  ]
+}
