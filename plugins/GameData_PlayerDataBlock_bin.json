@@ -138,6 +138,7 @@
       "throttleSmoothAcc": 1.0,
       "throttleSmoothStop": 0.4,
       "throttleSmoothVertical": 1.0,
+      "quickStrafeTime": 1.25,
       "jumpVelInitial": 10.0,
       "jumpGravityMulDefault": 3.0,
       "jumpGravityMulButtonReleased": 5.5,
@@ -440,6 +441,10 @@
       "StaminaHighMeleeSpeedModifier": 1.1,
       "StaminaLowMeleeSpeedModifier": 0.8,
       "StaminaMeleeSpeedCurveExponent": 2.0,
+      "StaminaEnableAffectStrafeSpeed": true,
+      "StaminaHighStrafeSpeedModifier": 2.0,
+      "StaminaLowStrafeSpeedModifier": 0.85,
+      "StaminaStrafeSpeedCurveExponent": 2.0,
       "StaminaExhaustedAudioThreshold": 0.15,
       "StaminaWasTiredAudioThreshold": 0.2,
       "StaminaRestedAudioThreshold": 1.0,
@@ -475,6 +480,12 @@
         "baseStaminaCostInCombat": 0.0,
         "baseStaminaCostOutOfCombat": 0.0,
         "resetRestingTimerInCombat": false,
+        "resetRestingTimerOutOfCombat": false
+      },
+      "StaminaQuickStrafeCost": {
+        "baseStaminaCostInCombat": 1.5,
+        "baseStaminaCostOutOfCombat": 1.0,
+        "resetRestingTimerInCombat": true,
         "resetRestingTimerOutOfCombat": false
       },
       "defaultDialogLineDelay": 0.5,

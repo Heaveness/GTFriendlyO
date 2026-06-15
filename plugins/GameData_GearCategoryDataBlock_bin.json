@@ -42,6 +42,25 @@
     {
       "PublicName": 0,
       "Description": 0,
+      "BaseItem": 564,
+      "HUDIcon": "",
+      "IconRotationOffset": 0.0,
+      "IconZoomOffset": 0.0,
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": 0,
+      "SemiArchetype": 576,
+      "BurstArchetype": 576,
+      "AutoArchetype": 576,
+      "SemiBurstArchetype": 576,
+      "MeleeArchetype": 0,
+      "PartAlignPriority": [],
+      "name": "ArcSubjugator",
+      "internalEnabled": true,
+      "persistentID": 210
+    },
+    {
+      "PublicName": 0,
+      "Description": 0,
       "BaseItem": 109,
       "HUDIcon": "",
       "IconRotationOffset": 0.0,
@@ -256,6 +275,25 @@
       "name": "DMR",
       "internalEnabled": true,
       "persistentID": 4
+    },
+    {
+      "PublicName": 0,
+      "Description": 0,
+      "BaseItem": 108,
+      "HUDIcon": "",
+      "IconRotationOffset": 0.0,
+      "IconZoomOffset": 0.0,
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": 0,
+      "SemiArchetype": 121,
+      "BurstArchetype": 121,
+      "AutoArchetype": 121,
+      "SemiBurstArchetype": 121,
+      "MeleeArchetype": 0,
+      "PartAlignPriority": [],
+      "name": "Javelin",
+      "internalEnabled": true,
+      "persistentID": 1001
     },
     {
       "PublicName": 0,
@@ -744,6 +782,38 @@
       "name": "MissileSentryGun",
       "internalEnabled": true,
       "persistentID": 40
+    },
+    {
+      "PublicName": "Nade Sentry Gun",
+      "Description": 0,
+      "BaseItem": 99,
+      "HUDIcon": "",
+      "IconRotationOffset": 0.0,
+      "IconZoomOffset": 0.0,
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": 0,
+      "SemiArchetype": 62,
+      "BurstArchetype": 62,
+      "AutoArchetype": 62,
+      "SemiBurstArchetype": 62,
+      "MeleeArchetype": 0,
+      "PartAlignPriority": [
+        {
+          "AlignType": 7,
+          "PartPrio": [
+            27
+          ]
+        },
+        {
+          "AlignType": 8,
+          "PartPrio": [
+            27
+          ]
+        }
+      ],
+      "name": "NadeSentryGun",
+      "internalEnabled": true,
+      "persistentID": 41
     },
     {
       "PublicName": "Mine deployer",
