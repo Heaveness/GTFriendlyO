@@ -3,7 +3,7 @@
 ## **v2.4.0** - Latest
 
 ### Personal Note:
-* It's generally fine to update any mods. Regular bug fixes and QoL improvements are always welcome, but always be cautious when updating mods with large changes. Keep in mind that every mod update always has the potential to break something within this pack. Even I cannot guarantee every update stability. So you should personally do your research before updating them.
+* It's generally fine to update any mods. Regular bug fixes and QoL improvements are always welcome, but be cautious when updating mods with large changes. Keep in mind that every mod update has the potential to break something within this pack. Even I cannot guarantee every update stability. So you should personally do your research before updating them.
 
 * With the addition of keybind-based triggers that came along with `v2.3.0`. **PLEASE** check the EWC(ExtraWeaponCustomization) config and change the keybind to **YOUR** settings. I am aware that not everyone have keypads for their setup. 
     * Go to `Edit Config` within Thunderstore client -> Search for `ExtraWeaponCustomization.cfg` -> `Edit Config` -> Change keybinds 1 through 4 under `Keybind Settings` section
@@ -24,16 +24,41 @@
 * Updated `Minimap` mod
     * Minimap should properly disable during EMP events
 * Added `YeetArtifactHeat` mod by JarheadHME
-    * Removes the text of GTFO Heat since Artifacts aren't a thing in this modpack anymore
-    * End screen still says something about it, can't fix it for now.
+    * Removes the text of GTFO Heat since Artifacts aren't a thing in this modpack
+    * End screen still says something about it, can't fix it for now
 * Added `Tweaker` mod by Dex
-    * C-Foam Launcher:
-        * Decreased Max Charge Timer from `2.5s` to `2.0s`
-    * Player:
-        * Increased Baseline Sliding Distance from `1.0m` to `4.0m` (slide further; affected by friction/obstacles and other movement speed modifiers)
 * Added `Slides Bot Control` mod by Slide
     * Gives players the ability to give commands to bots through a radial menu(Default Key: X) or Smart Select(Default Key: V).
     * Significant improvement to lobbies that don't have a full group to play.
+
+### Object Carry Rework:
+* Removed `StrongerPrisoner` mod
+    * It is safe to remove this mod from your list. I highly recommend it.
+> Dev Note: This mod was removed because it has made some objectives significantly easier, especially with specific classes. But I also understand how annoying certain items felt like a slog to carry throughout a level.
+* Added `Heavyweight` or `Lightweight` to all weapon trait descriptions
+* Can/Cannot Sprint While Holding:
+| Item/Gear Changed		| Sprint? |
+|:----------------------|:-------:|
+| Battery Cell 			| Yes 	  |
+| Fog Turbine 	       	| Yes  	  |
+| Objective Items       | No      |
+| Javelin Rifle 	    | No      |
+| Explosive Rifle     	| No 	  |
+| Arc Subjugator     	| No 	  |
+| LMG               	| No 	  |
+| Reserve HMG(Minigun) 	| No      |
+| Exp. Smart Rifle      | No      |
+| Nano Gauss Rifle   	| No      |
+| Wisp Launcher		    | No      |
+| Sniper Rifle 		    | No      |
+| Flamer Tool	       	| No      |
+| RYN0 Annihilator    	| No      |
+| Sentry Turrets   	    | No      |
+> Dev Note: Main reason for these changes is to give these weapons/tools some weight. It's to provide more identity to both heavier and lighter weapons/tools in your arsenal. As carrying an entire loadout of heavy-duty powerful weapons should effectively slow the player down. While those that want a light loadout should be able to be nimble.
+
+### Player Tweaks:
+* Tweaker Mod:
+    * Increased Baseline Sliding Distance from `1.0m` to `4.0m` (slide further; affected by friction/obstacles and other movement speed modifiers)
 
 ### Weapon & Tool Tweaks:
 * Updated `DescriptiveWeaponStatShower` mod
@@ -63,10 +88,56 @@
 
 * Beam Rifle:
     * Slight improvement to trait description
+    * Increased Shot Delay from `0.02` to `0.05`
+    * Decreased Projectile Hit Size Bonus from `+0.5m` to `+0.3m`
+    * Added `Movement Speed` Property during firing:
+        * Decreases User's movement speed by `-70%`
+        * Duration: `Start to End Firing`
+> Dev Note: I am hoping this will increase the game's performance a bit during multiplayer lobbies. The movement speed penalty has two purposes: first to incentize better positioning, and second its to prevent weird interactions with the beam with fast movement speed.
+
+* Exp. Smart Rifle:
+    * Changed Locked Target color to `Green`
+
+* Bat:
+    * Increased Explosion Radius from `2.5m` to `3.0m`
+    * Increased Explosion Stagger Multiplier from `3.5x` to `8.0x`
+
+* Medic Gun:
+    * Increased Mode 1's DoT Total Damage from `25.0` to `30.0`
+    * Increased Mode 2's DoT Total Damage from `1.0` to `2.0`
+    * Changed Mode 2's DoT Damage Distribution from `End` to `Uniform`
+    * Increased Mode 2's Stagger Multiplier from `40.0x` to `80.0x`
+    * Increased Mode 3's Armor Buff from `+20%` to `+25%`
+    * Increased Mode 3's Armor Shred from `-30%` to `-40%`
+> Dev Note: Incentize players to use its offensive capabilities as a viable option.
 
 * Heavy SMG:
+    * Increased Max Ammo from `379` to `391`
+    * Increased Stagger Multiplier from `1.2x` to `1.3x`
     * Decreased Hipfire Spread from `2.3x` to `2.0x`
     * Decreased Aimfire Spread from `0.3x` to `0.15x`
+
+* C-Foam Launcher:
+    * Decreased Max Charge Timer from `2.5s` to `2.0s`
+
+* Explosive Mine Deployer:
+    * Increased Placement Range from `6.0m` to `8.0m`
+
+* Foam Mine Deployer:
+    * Increased Placement Range from `6.0m` to `12.0m`
+    * Increased Foam Bubble Count from `25` to `30`
+    * Increased Bubble Angle from `14` to `45`
+    * Increased Bubble Minimum Speed from `7` to `10`
+    * Increased Bubble Maximum Speed from `13` to `15`
+
+* Consumable Foam Mine:
+    * Increased Foam Bubble Count from `14` to `18`
+    * Increased Bubble Angle from `14` to `16`
+
+* Exterminatus Flamer:
+    * Increased DoT Stack Size from `10` to `20`
+    * Increased Stagger Multiplier from `1.0x` to `1.5x`
+> Dev Note: Should be a bit more effective against larger targets. That also includes teammates...
 
 * RYN0:
     * Increased Minimum Explosion Damage from `400.0` to `500.0`
@@ -78,11 +149,12 @@
     * Increased Explosion Damage from `40.0` to `50.0`
     * Increased Shot Delay from `4.5s` to `5.0s`
 
-* Exp. Smart Rifle:
-    * Changed Locked Target color to `Green`
+* Sniper Turret:
+    * Changed `Front` Gear Part
 
 ### New Weapon:
 * Hanaway Javelin Rifle:
+    * Created in cooperation between Hanaway Precision Systems and Omneco Networks
     * Fires fast projectiles that stick onto targets
     * Thermal-Assist Scope only when aiming
     * Activate with keybind or reload to "electrocute" hit targets, explodes on electrocution kill.
@@ -121,12 +193,12 @@
         * Shrapnel Count: `1` after first bullet hit
         * Ballistic Type: `Slow Projectile`
         * Max Ammo: `Infinite`
-        * Reload Timer: `2.5s` per manual reload(requires `4` to fire)
+        * Reload Timer: `2.0s` per manual reload(requires `4` to fire)
         * Electrocution Total Damage: `10.0`
         * Stagger Multiplier: `500.0x`
-        * DoT Duration: `20.5s`
-        * Bio Ping Duration: `20.5s`
-        * Silence CC Duration: `20.5s`
+        * DoT Duration: `25.5s`
+        * Bio Ping Duration: `25.5s`
+        * Silence CC Duration: `25.5s`
         * Movement Speed Multiplier: `-85%` (Player)
             * Can be resisted through movement speed boosts
         * Damage Resistance: `+20%` (Player)
@@ -141,13 +213,13 @@
     * Applies `Silence CC` on hit, disables some abilities like non-boss tongues and Needler projectile barrages, but NOT scout screams or melee attacks.
     * Strong gravity projectiles, requires higher elevation to get the most value.
         * Direct Damage: `1.0`
-        * Cluster Bomblet Count: `6`
+        * Cluster Bomblet Count: `8`
         * Effective Range: `30.0m`
         * Explosion Damage: `2.0`
         * Explosion Radius: `7.5m`
         * Explosion Stagger Multiplier: `250.0x`
         * Shot Delay: `10.0s`
-        * Max Ammo `120`
+        * Max Ammo `160`
         * Ballistic Type: `High Gravity Projectile`
         * Effective Range: `30.0m`
         * Explosion will not hurt friendlies, but owner can get hit.
@@ -163,21 +235,49 @@
         * Scan Color: `Magenta`
 > Dev Note: The first sentry to be built as a CC tool than a lethal one. A turret that brings more utility for the team rather than pure damage.
 
+### Syringe Tweaks:
+* Heal Munitions Drain Syringe
+    * Increased Heal Duration from `200s` to `300s`
+        * Effectively increasing total heal from `120` to `180`
+    * Increased Disinfection from `30%` to `40%`
+> Dev Note: While this was a strong syringe, ammo was significantly more important than health in most cases. Hopefully this will incentivize players to weight their options.
+
 ### Class Fixes:
+* All Class:
+    * Switched description term of `Ranged Ammo` to `Gun Ammo`
+
+* Marine:
+    * Increased Gun Ammo Received from `+10%` to `+15%`
+    * Increased Bleed Res. from `+90%` to `+100%`
+        * Effectively making them immune to all bleed damage.
+    * Decreased Projectile Armor from `+40%` to `+30%`
+
+* Paramedic:
+    * Increased Initial Ammo penalty from `-20%` to `-25%`
+
+* Specialist:
+    * Removed `Initial Gun Ammo` penalty
+    * Added `Gun Ammo Received` penalty of `-20%`
+    * Increased Ammo Capacity penalty from `-20%` to `-25%`
+> Dev Note: Paramedic already a class with an initial ammo debuff. Specialist's weakness should be a bit more unique on its own. So they should no longer spawn in with little to no ammo. But instead receive less so their shots are more costly in the long run.
+
+* Field Technician:
+    * Increased Tool Ammo Received from `+25%` to `+30%`
+
 * Abhuman:
     * Changed description to match with the other B-Company members.
 
 ### Enemy Tweaks:
 * Scouts:
     * Increased Effective Range of EMP from `100.0m` to `200.0m`
-    * Increased EMP Duration from `45.0s` to `47.0s`
+    * Increased EMP Duration from `45.0s` to `47.5s`
 > Dev Note: With the new tools and weapons to combat EMP blackouts, I believe the Scout needed a slight buff.
 
 * Shadow Giants:
     * Increased Minimum Fog Radius from `3.0m` to `5.0m`
     * Increased Maximum Fog Radius from `6.0m` to `10.0m`
     * Increased Fog Density by `+25%`
-> Dev Note: A Shadow Giant's infection fog should be larger in size than the smaller variants.
+> Dev Note: A Shadow Giant's infection fog should be larger size than the smaller variants.
 
 * Children:
     * Decreased Explosion Damage from `6.0` to `5.0`
@@ -185,9 +285,7 @@
     * Decreased Explosion Noise Minimum Range from `10.0m` to `7.5m`
     * Decreased Explosion Noise Maximum Range from `20.0m` to `15.0m`
     * Changed Explosion Sound Effect
-
-* Flyer:
-    * Changed Explosion Sound Effect
+> Dev Note: Less ear piercing loud and more consistent threat.
 
 * Birthers:
     * Spawns Children upon death based on variant:
@@ -195,6 +293,9 @@
         * Birther Prime: `12`
         * Progenitor Mother: `18`
 > Dev Note: Birthers should be a bit more dangerous once killed to prevent players from rushing them without consequences.
+
+* Flyer:
+    * Changed Explosion Sound Effect
 
 ### Miscellaneous Fixes:
 * Fixed duplicate names in OfflineGear and FrontGearParts
@@ -436,6 +537,8 @@
 ### Miscellaneous Fixes:
 * Fixed numerous typos and errors within v2.3.0's CHANGELOG.md
 > Dev Note: There was a number of wrong information written in the previous update. A mistake on my part for not double checking...
+* Removed old changelog for character space limit.
+    * Please check old changelog at [Github](https://github.com/Heaveness/GTFriendlyO/blob/main/GTFO%20OLD%20CHANGELOGv220.md)
 
 ---
 
@@ -1094,479 +1197,5 @@
     * Added more tools into the tool section
     * Improved the tagline of the modpack to better describe the modpack's vision
 * Removed old Dev Notes up v2.1.0 in CHANGELOD.md to make space. Old changelog with all dev notes will be kept up in Github repo.
-
----
-
-### v2.1.0
-
-### Mod Updates:
-* Updated `EnemyAnimationFix` mod
-* Updated `AmorLib` mod
-* Updated `ModifierAPI` mod
-* Updated `ExtraWeaponCustomization` mod
-* Updated `ExtraSyringeCustomization` mod
-    * Removed `MovementSpeedAPI` mod
-* Added `StrongerPlayer` mod by Chaxi
-    * Ability to sprint while holding onto objective items such as Fog Turbines, Battery Cells, and other large objects that require both hands.
-
-### Enemy Tweaks:
-* Stalker(Snatcher):
-    * Decreased Health from `3500` to `700`
-    * Decreased Damage Until React from `2000` to `500`
-    * Decreased Bodypart Health from `2500` to `600`
-    * Increased Initial Held Damage from `0.0` to `5.0`
-    * Decreased Tag Time from `30.0s` to `20.0s`
-    * Increased Dash Cooldown from `5.0s` to `13.0s`
-    * Increased Runaway Duration from `5.0s` to `13.0s`
-    * Increased Dash Speed Modifier from `1.0x` to `2.0x`
-* Kraken(Boss):
-    * Decreased Health from `9000` to `7000`
-    * Increased Bodypart Health from `1800` to `2000`
-* Tank:
-    * Decreased Glue Tolerance from `25.0` to `20.0`
-
-### Weapon Tweaks:
-* Nano Gauss Rifle:
-    * Decreased Shrapnel(Gobules) count from `20.0` to `10.0`
-    * Increased Shrapnel(Gobules) damage from `2.0` to `4.0`
-
-### Misc. Tweaks:
-* ChatterReborn:
-    * Removed banter whenever someone carried the Fog Turbine.
-
----
-
-### v2.0.10
-
-* Emergency Hotfix:
-    * Updated `MovementSpeedAPI` mod 
-    * Added `MovementSpeedAPI` mod back into the manifest
-
----
-
-### v2.0.9
-
-### Mod Update & Fixes:
-* Updated `ExtraWeaponCustomization` mod
-* Updated `ExtraToolCustomization` mod
-* Updated `GTFuckingXP` mod
-* Added `EnemyAnimationFix` mod by Dinorush
-    * Fixes several enemy bugs for both clients and host regarding their animations and attack behavior. 
-* Added `DMRReloadFix` mod by randomuserhi
-    * Fixes an annoying bug when reloading guns that leaves 1 bullet missing in the magazine.
-* Added `DoorEnemyFixUpdated` mod by Dinorush
-    * Fixes Tripmines and C-Foam touching enemies through closed doors which will cause them to trigger prematurely and waste the resource. 
-* Added `ReDownFix` mod by Dinorush
-    * Fixes clients getting downed from taking any damage shortly after a revive. This is to prevent players from getting killed immediately after a successful revive caused by the long animation.
-* Added `PierceBugFix` mod by tru0067
-    * Fixes piercing so that piercing shots hit the advertised number of enemies. Originally piercing beyond five were ignored by the system and some enemies used up more than one piercing; effectively decreasing their utility.
-
-### Class Tweaks:
-* Added `Melee Attack Speed` modifier to certain classes.
-* Marine:
-    * Increased Bleed Resistance from `+70%` to `+90%`
-    * Increased Projectile Armor boon from `+30%` to `+40%`
-    * Added `Melee Attack Speed` property
-        * Class decreases `Melee Attack Speed` by `-50%`
-* Shock Trooper:
-    * Fixed typos within the text description
-    * Fixed class not showing the Health Regen bonus when in-game
-    * Removed `Melee Damage` property of `+20%`
-    * Added `Melee Attack Speed` property
-        * Class increases `Melee Attack Speed` by `+30%`
-* Abhuman:
-    * Increased Melee Damage from `+75%` to `+100%`
-    * Increased Terminal & Sentry CPU penalty from `-50%` to `-70%`
-    * Added `Melee Attack Speed` property
-        * Class decreases `Melee Attack Speed` by `-30%`
-* Deprived:
-    * Increased Projectile Armor penalty from `-50%` to `-60%`
-    * Added `Melee Attack Speed` property
-        * Class increases `Melee Attack Speed` by `+50%` 
-
-### Booster Tweaks:
-* Initial Main/Special Ammo Boosters:
-    * Increased Muted Ammo Bonus from `+10%` to `+15%`
-    * Increased Aggressive Ammo Bonus from `+20%` to `+25%`
-* Bold Melee Boosters:
-    * Changed Booster Condition from `Low Health` to `Glowstick Radius`
-    * Changed Booster Condition from `High Health` to `Fog Repeller Radius`
-
-### Melee Tweaks:
-* Sledge Hammer:
-    * Decreased Stamina Cost while in combat from `35%` to `30%` per Heavy swing.
-* Spear:
-    * Decreased Stamina Cost while in combat from `35%` to `25%` per Heavy swing.
-    * Decreased Stamina Cost while out of combat from `30%` to `25%` per Heavy swing.
-    * Decreased Stamina Cost while in combat from `25%` to `20%` per Light swing.
-
-### Misc. Fixes:
-* Fixed wording in `v2.0.7` changelog that stated Striker Giant's new Body Part Health was `1.0` when it should have been `175.0`.
-
----
-
-### v2.0.8
-
-* Emergency Hotfix:
-    * Fixed an error with one of the gun's properties.
-
----
-
-### v2.0.7
-
-### Weapon Tweak:
-* Updated `ExtraWeaponCustomization` mod
-* Medic Gun:
-    * Increased Dart Duration from `9.0s` to `9.5s` (To prevent potential loss of time from packet loss)
-    * Added `Disinfect` property
-    * Each dart will disinfect players for `0.31%` per second for a duration of `9.5s` 
-
-### Enemy Body Part Health Tweaks:
-* Striker:
-    * Decreased Body Part Health from `24.0` to `20.0`
-* Nightmare Striker:
-    * Decreased Body Part Health from `51.5` to `31.5`
-* Striker Charger:
-    * Increased Body Part Health from `12.0` to `22.0`
-* Striker Giant:
-    * Decreased Body Part Health from `450.0` to `175.0`
-* Nightmare Striker Giant:
-    * Decreased Max Health from `900.0` to `600.0`
-    * Decreased Hit Reaction Threshold from `960.0` to `200.0`
-    * Decreased Body Part Health from `900.0` to `250.0`
-* Nightmare Needler:
-    * Decreased Body Part Health from `27.5` to `20.5`
-* Nightmare Scout:
-    * Decreased Body Part Health from `120.0` to `80.0`
-* Stalker:
-    * Decreased Max Health from `4000.0` to `3500.0`
-    * Decreased Body Part Health from `4000.0` to `2500.0`
-    * Decreased Tag Time from `60.0s` to `30.0s`
-
-### Enemy Fixes & Tweaks:
-* Removed Projectile Settings from EEC to prevent issues with enemy abilities.
-* Nightmares Variants:
-    * Decreased Projectile Infection Rate from `1%` to `0.5%`
-* Enemy Bleed Effect:
-    * Enemy Bleed NO longer stacks; continued application can refresh active bleed duration
-    * Fixed Bleed doing the wrong amount of damage
-    * Added Bleed properties to Scouts(except Nightmare Scouts)
-    * Increased Bleed Damage from `0.4%` to `2%`
-    * Increased Damage Interval from `1.0s` to `2.0s`
-    * Increased Bleed Duration from `5.0s` to `10.5s`
-* Flyer:
-    * Decreased Explosion Minimum Range from `2.5m` to `2.0m`
-    * Decreased Explosion Maximum Range from `5.0m` to `4.0m`
-* Shadow:
-    * Decreased Infection Fog Rate from `0.5%` to `0.3%` per second
-    * Decreased Infection Fog Duration from `35.0s` to `30.0s` 
-
-### Melee Fixes:
-* Sledgehammer:
-    * Fixed Sledgehammer Armor Shred not working because of invalid trigger setting.
-
-### Misc Fixes:
-* Minor format improvements to README file.
-
----
-
-### v2.0.6
-
-### Emergency Hotfix:
-
-* Fixed some changes not included in v2.0.5 by accident.
-
----
-
-### v2.0.5
-
-### Mod Additions:
-* Added `SpreadStartingAmmo` mod by Dinorush
-* Ammo is spread from a pool given to players on startup based on how many players are present. If a player/bot joins then the pool is reduced to accommodate the new player(s), dismissing the slot will not refund the lost ammo from the distribution.
-    * 1 Player: 4x ammo
-    * 2 Players: 2x ammo 
-    * 3 Players: 1.33x ammo
-    * 4 Players: 1x ammo (Bots count as players)
-
-### Weapon Fixes & Tweaks:
-* Bolt Pistol:
-    * Increased Precision Multiplier from `0.6x` to `0.7x`
-    * Increased Stagger Multiplier from `1.5x` to `2.0x`
-* Tracker Rifle:
-    * Increased Direct Damage from `28.1` to `35.1`
-    * Increased Precision Multiplier from `1.2x` to `2.0x`
-    * Decreased Stagger Multiplier from `2.0x` to `1.5x`
-* Nano Gauss Rifle:
-    * Increased Direct Damage from `50.5` to `55.5`
-    * Increased Projectile Speed from `60` to `65`
-    * Increased Projectile Hit Size by `0.2m`
-    * Increased Precision Multiplier from `2.0x` to `4.0x`
-    * Increased Stagger Multiplier from `1.5x` to `2.0x`
-* Sniper Rifle:
-    * Increased Armor Pierce from `10%` to `20%`
-    * Increased Precision Multiplier from `4.0x` to `6.0x`
-* Reserve HMG:
-    * Increased Stagger Multiplier from `1.8x` to `2.0x`
-    * Once again trying to fix this gun's first person model after fixing the third person model from a previous patch.
-
-### Turret Fixes & Tweaks:
-* Added "More effective against Tagged" for all turrets.
-* Fixed wrong values for Stagger Multiplier against tagged targets.
-* Sniper Turret:
-    * Increased Tagged Stagger Multiplier from `1.0x` to `1.1x`
-* Burst Turret:
-    * Increased Burst Delay from `1.0s` to `2.0s`
-    * Decreased Shot Delay from `0.5s` to `0.1s`
-    * Increased Tagged Stagger Multiplier from `1.0x` to `1.15x`
-* HMG Turret:
-    * Increased Tagged Stagger Multiplier from `1.0x` to `1.25x`
-* Shotgun Turret:
-    * Decreased Shot Delay from `1.3s` to `1.0s`
-    * Increased Tagged Stagger Multiplier from `1.0x` to `1.2x`
-
-### Tool Fixes & Tweaks:
-* C-Foam Launcher:
-    * Increased Max Ammo Capacity from `100` to `156`
-* Mine Deployer:
-    * Increased Radius from `2.5m` to `3.0m`
-    * Increased Minimum Distance from `3.0m` to `5.0m`
-    * Decreased Maximum Distance from `15.0m` to `10.0m`
-    * Increased Minimum Explosive Damage from `30` to `75`
-    * Increased Maximum Explosive Damage from `100` to `125`
-    * Increased Stagger Force from `1200` to `1300`
-    * Increased Arming Time from `0.3s` to `1.0s`
-    * Increased Placement Time from `0.4s` to `1.0s`
-    * Increased Pickup Time from `0.4s` to `1.0s`
-* Consumable Mine:
-    * Increased Radius from `2.5m` to `3.0m`
-    * Increased Minimum Distance from `1.5m` to `3.0m`
-    * Decreased Maximum Distance from `15.0m` to `10.0m`
-    * Increased Minimum Explosive Damage from `15` to `40`
-    * Increased Maximum Explosive Damage from `60` to `75`
-    * Increased Stagger Force from `800` to `900`
-    * Increased Arming Time from `0.3s` to `0.5s`
-    * Increased Placement Time from `0.4s` to `0.5s`
-    * Increased Pickup Time from `0.4s` to `0.5s`
-    * Decreased Placement Cooldown from `1.0s` to `0.5s`
-
-### Enemy Fixes & Tweaks:
-* Added underline text for all tagged enemies to help separate the name and healthbar for visual clarity.
-* Shadows:
-    * Fixed this variant not creating infected fog spheres on death when hibernating.
-* Striker Giants:
-    * Increased Body Part Health from `300` to `450`
-    * Increased Weakspot Damage Multiplier from `0.4x` to `0.6x`
-
-### Class Fixes:
-* Quartermaster:
-    * Fixed a typo wrong info text regarding movement speed while in-game.
-
----
-
-### v2.0.4
-
-### Updates:
-* Updated `ExtraWeaponCustomization` mod.
-* Updated `GTFuckingXP` mod.
-* Updated README file.
-
-### Weapon Fixes:
-* Foam Pistol:
-    * Fixed the improper armor shred values during foam. It should properly apply the `-20%` armor debuff(increasing damage from most sources).
-* Medic Gun:
-    * Added `Ammo Mod` property
-    * Killing an enemy with the venom darts will restore `1.0` ammo back into the reserve.
-        * Does **NOT** refund more than 1 dart per kill.
-* Fixed HEL Revolver and Heavy Revolver's ricochet bullet using the old version of the revolver's stat.
-* HEL Revolver:
-    * Decreased Ricochet's Direct Damage from `13.6` to `5.0`   
-    * Increased Ricochet's Precision Multiplier from `1.1x` to `3.5x` (Lower than baseline by 0.75x)
-    * Decreased Ricochet's Stagger Multiplier from `1.0x` to `0.65x` (Lower than baseline by 0.2x)
-    * Decreased Ricochet's Effective Range from `50.0m` to `20.0m`
-* Heavy Revolver:
-    * Decreased Ricochet's Direct Damage from `35.9` to `10.0` 
-    * Increased Ricochet's Precision Multiplier from `1.1x` to `5.5x` (Lower than baseline by 0.75x)
-    * Decreased Ricochet's Stagger Multiplier from `1.0x` to `0.7x` (Lower than baseline by 0.2x)
-    * Decreased Ricochet's Effective Range from `50.0m` to `20.0m`
-
-### Melee Fixes & Tweaks:
-* Fixed melee weapons using the wrong noise levels:
-    * 0: Wakes up sleepers in 7m from hitting locks or the ground.
-    * 1: Wakes up sleepers in 4m from hitting locks or the ground. Also has reduced chance to trigger long range aggro
-        * Knife: 1
-        * Spear: 1
-        * Sledgehammer: 0
-        * Bat: 0
-* Sledgehammer:
-    * Removed `Armor Pierce` property
-    * Added `Armor Shred` property
-        * Applies armor shred of `-30%` for `4.0s` on hit; non-stackable
-        * Requires charge up bar of `40%` to acquire `half` of the armor shred modifier. 
-        * Requires charge up bar of `100%` to acquire `full` armor shred debuff. 
-        * Any charge in-between will give varying armor shred values.
-* Knife:
-    * Increased Light Backstab Multiplier from `2.0x` to `2.1x`
-    * Increased Heavy Backstab Multiplier from `2.5x` to `2.6x`
-    * Decreased Total DoT Damage from `6.0` to `5.0`
-    * Decreased stack limit from `unlimited` to `4`
-    * Increased DoT timer from `3.0s` to `4.0s` (takes a little longer to reach total damage)
-* Spear:
-    * Removed can hit multiple targets, unintentional.
-    * Increased Armor Pierce bonus from `+10%` to `+15%`
-* Bat:
-    * Decreased Explosion Damage from `10.0` to `5.0`
-    * Increased Explosion Stagger Multiplier from `1.5x` to `3.5x`
-
----
-
-### v2.0.3
-
-* Dev Note: If you have any feedback on the modpack, please do not hesitate to comment in the github issue tab [here](https://github.com/Heaveness/GTFriendlyO/issues)!
-
-### Mod Updates:
-* Updated `ExtraWeaponCustomization` mod.
-* Updated `GTFuckingXP` mod.
-* Removed `SpreadStartingAmmo` mod <= **IMPORTANT**
-
-### Enemy Tweaks:
-* Striker Giant:
-    * Increased Body Part Health from `200` to `300`
-
-### Weapon Fixes:
-* Reserve HMG:
-    * Fixed third person model of the gun being upside down.
-* HEL Revolver:
-    * Fixed HEL Revolver not having proper reload animations.
-    * Changed `Stock Part`
-* Explosive Cannon:
-    * Decreased ChargeUp Time from `0.9s` to `0.8s`
-    * Fixed Aimed Acceleration modifier not working. It should properly fire quickly again.
-
----
-
-### v2.0.2
-
-### Tweaks:
-* Reserve MP1:
-    * Increased Stagger Multiplier from `2.0x` to `3.5x`
-
-### Syringe Fixes:
-* Added wiki page for Syringe Information.
-* Fixed Advanced Slow Healing Syringe using the wrong healing value of `0.2` instead of `0.4`
-    * Changed healing value from `0.2` to `0.4` (total health of `24.0`)
-* Fixed Masterful Slow Healing Syringe using the wrong name.
-    * Proper Name: Antibiotic-IX-REC Syringe
-
-### Fixes:
-* Added more dialogue options from `ChatterReborn` mod for specific situations:
-    * Fog Turbine
-    * Callout Teammates (ping teammates)
-    * Keycard Pickup
-    * Random Comments
-* Fixed Triple-Barrel Description. (it wasn't suppose to have numbers)
-* Fixed Single Slugger Description. (Forgot to mention faster reload speed on kill bonus)
-* Fixed typos in README file
-* Fixed typos in CHANGELOG file
-
----
-
-### v2.0.1
-
-### Class Tweaks:
-* Courier:
-    * Increased Infection/Explosion/Bullet/Bleed Res. penalty from `70%` to `80%`
-    * Removed Initial Tool Ammo bonus.
-* Field Technician:
-    * Decreased Sentry CPUs from `+30%` to `+20%`
-* Abhuman:
-    * Decreased Bioscan Speed & Recharge Speed penalty from `-50%` to `-40%`
-
-### Enemy Tweaks:
-* Striker Giant:
-    * Increased Max Health from `400` to `450`
-* Needler Giant:
-    * Increased Max Health from `275` to `300`
-* Scout:
-    * Changed Scout feeler animation (it should stay standing even when retracting)
-    * Decreased Movement Detection Distance from `8.0m` to `1.0m` (allows players to get closer without immediately triggering reactionary feelers)
-    * Decreased Minimum Weapon Detection from `10.0m` to `5.0m` (easier to stealth kill around target without 100% alerting)
-    * Increased Max Tentacle count from `50` to `60` (more feelers)
-    * Decreased Tentacles Speed from `10.0m` to `2.5m` per second (slower than Vanilla's 7.5m)
-    * Decreased Time to Retract Tentacles from `2.5s` to `1.0s` (faster to finish retracting)
-    * Decreased Max Distance of Tentacles from `60.0m` to `40.0m` (shorter feelers)
-
-### Weapon Tweaks & Fixes:
-* Removed Relax position for all guns to prevent some animation issues.
-* Foam Pistol:
-    * Increased Foam & Armor Shred Duration from `6.0s` to `10.0s`
-    * Decreased Armor Shred debuff from `-30%` to `-20%`
-* HEL Shotgun: **Rework**
-    * Renamed Buckland HEL Shotgun to `Buckland Foam Shotgun`
-    * Fixed accidental mistake of this gun using (HEL) booster effect, it should say it is using Shotgun modifier.
-    * Foam Shotgun will have two different stats based on hipfire and aim mode.
-    * Hipfire: Shotgun
-        * Fire Mode: Semi-Auto
-        * Direct Damage: `9.5`
-        * Pellet Count: `6`
-        * Effective Range: `8.0m`
-        * Magazine Size: `8`
-        * Max Ammo Capacity: `66`
-        * Reload Time: `2.0s`
-        * Ammo Cost per shot: `-1`
-        * Pierce Limit: `1`
-    * Aimed: Foam
-        * Fire Mode: Semi-Auto
-        * Foams on Enemy Hit only
-        * Foam Duration: `5.0s`
-        * Foam does NOT barricade doors
-        * Ammo Cost per shot: `-2`
-        * Movement Speed of `+20%`
-        * Speed Duration: `5.0s`
-    * Changed `Front Part`
-    * Changed `Receiver Part`
-    * Changed `Sight Part` 
-* Single Slugger:
-    * Changed `Front Part`
-    * Changed `Sight Part`
-* LMG:
-    * Decreased Direct Damage from `8.2` to `8.0`
-    * Increased Magazine Size from `70` to `100`
-    * Increased Max Ammo Capacity from `413` to `500`
-* Reserve HMG:
-    * Decreased Direct Damage from `4.6` to `4.0`
-    * Increased Stagger Multiplier from `1.7x` to `1.8x`
-    * Increased Max Ammo Capacity from `885` to `1000`
-    * Changed `Magazine Part`
-    * Changed `Stock Part`
-* Heavy Rifle:
-    * Changed `Sight Part`
-    * Increased Direct Damage from `3.0` to `3.1`
-    * Increased Magazine Size from `60` to `70`
-    * Increased Max Ammo Capacity from `452` to `528`
-* Burst Cannon:
-    * Fixed the gun having the wrong temporary stats while aiming.
-* Triple Barrel Shotgun:
-    * Decreased Direct Damage from `5.0` to `4.0`
-    * Increased Reload Time from `1.4s` to `1.5s`
-    * Decreased Equip Time from `0.33s` to `0.2s`
-    * Added `Melee Damage` modifier
-        * Grants non-stacking melee buff of `+25%` 
-        * Over a duration of `3.0s`
-        * Activates on `Enemy Hit` only
-
-### Melee Tweaks:
-* Sledgehammer:
-    * Decreased Max Charge Time for Heavy Attack from `3.0s` to `2.7s`
-* Spear:
-    * Decreased Max Charge Time for Heavy Attack from `3.7s` to `3.2s`
-
-### Player Tweaks:
-* Increased the `AmmoStandardInitial` & `AmmoSpecialInitial` from `250` to `275` (Starting Ammo for Main and Special weapon slots)
-
-### Misc.
-* Updated `ExtraWeaponCustomization` mod
-* Updated `MovementSpeedAPI` mod
-* Updated `ExtraEnemyCustomization` mod
-* Updated `ExtraSyringeCustomization` mod
 
 ---
