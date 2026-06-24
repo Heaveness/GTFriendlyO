@@ -9,7 +9,7 @@
     "DamageMin": 75,
     "DamageMax": 125,
     "Force": 1300,
-    "PlacementRange": 6.0,
+    "PlacementRange": 8.0,
     "PlacementTime": 1.5,
     "PlacementCooldown": 1.5,
     "PickupTime": 2.0,
@@ -59,16 +59,16 @@
     "Radius": 2,
     "DistanceMin": 7.5,
     "DistanceMax": 15,
-    "PlacementRange": 6.0,
+    "PlacementRange": 12.0,
     "PlacementTime": 2.0,
     "PlacementCooldown": 2.0,
     "PickupTime": 2.0,
     "FoamData": {
       "BubbleDelay": 0, 
-      "BubbleCount": 25,
-      "BubbleAngle": 14,
-      "BubbleSpeedMin": 7, 
-      "BubbleSpeedMax": 13,
+      "BubbleCount": 30,
+      "BubbleAngle": 45,
+      "BubbleSpeedMin": 10, 
+      "BubbleSpeedMax": 15,
       "BubbleBatchCooldown": 0.25
     },
     "BeamData": {
@@ -96,8 +96,8 @@
     "PickupTime": 0.5,
     "FoamData": {
       "BubbleDelay": 0, 
-      "BubbleCount": 16,
-      "BubbleAngle": 14,
+      "BubbleCount": 18,
+      "BubbleAngle": 16,
       "BubbleSpeedMin": 7, 
       "BubbleSpeedMax": 13,
       "BubbleBatchCooldown": 0.25
