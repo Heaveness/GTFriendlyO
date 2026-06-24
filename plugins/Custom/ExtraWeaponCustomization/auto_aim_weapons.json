@@ -165,7 +165,7 @@
       "AccelExponent": 1,
       "AccelTime": 0.2,
       "Gravity": 0,
-      "HitSize": 0.5,
+      "HitSize": 0.3,
       "HitSizeWorld": 0,
       "ModelScale": 2,
       "EnableTerrainHitFX": true,
@@ -263,6 +263,22 @@
       "StackLayer": "Max",
       "Trigger": {
         "Activate": ["Hit", "HitWeakspot"]
+      }
+    },
+    {
+      "Name": "SpeedMod",
+      "Mod": 0.3,
+      "Duration": 5.5,
+      "StackType": "Add",
+      "Cap": 0.3,
+      "Trigger": {
+        "Activate": 
+        {
+          "Name": "Start Firing"
+        },
+        "Reset": {
+          "Name": "End Firing"
+        }
       }
     },
     {

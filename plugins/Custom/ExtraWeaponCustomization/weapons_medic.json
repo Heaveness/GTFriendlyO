@@ -59,7 +59,7 @@
       },
       {
         "Name": "DamageOverTime",
-        "TotalDamage": 25.0,
+        "TotalDamage": 30.0,
         "EndDamageFrac": 2.0,
         "Exponent": 1,
         "PrecisionDamageMulti": 1.2,
@@ -183,11 +183,10 @@
           },
           {
             "Name": "DamageOverTime",
-            "TotalDamage": 1.0,
-            "EndDamageFrac": 2.0,
+            "TotalDamage": 2.0,
             "Exponent": 1,
             "PrecisionDamageMulti": 0.0,
-            "StaggerDamageMulti": 40.0,
+            "StaggerDamageMulti": 80.0,
             "FriendlyDamageMulti": 0.0,
             "Duration": 10.1,
             "TickRate": 1.0,
@@ -286,7 +285,7 @@
           },
           {
             "Name": "ArmorMod",
-            "Mod": 1.2,
+            "Mod": 1.25,
             "Immune": false,
             "DamageType": "Any",
             "Cap": 0,
@@ -317,7 +316,7 @@
           },
           {
             "Name": "ArmorShred",
-            "Mod": 2.3,             
+            "Mod": 2.4,             
             "Duration": 10.0,          
             "StackType": "Override",  
             "CombineModifiers": false,

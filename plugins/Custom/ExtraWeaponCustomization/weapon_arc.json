@@ -22,7 +22,7 @@
         "LockedColor": "#AAFF00",
         "LockingColor": "#CC4C33FF",
         "TargetMode": "Body",
-        "TargetPriority": "Angle",
+        "TargetPriority": "Health",
         "FavorLookPoint": true,
         "HomingOnly": true
       },
@@ -42,7 +42,7 @@
         "EnableTrail": true,
         "TrailColor": "#0047AB",
         "TrailWidth": 0.25,
-        "TrailTime": 20.0,
+        "TrailTime": 20.5,
         "TrailCullOnDie": false,
         "GlowColor": "#0047AB",
         "GlowIntensity": 0.2,
@@ -59,9 +59,9 @@
         "Lifetime": 30,
         "HomingSettings": {
           "UseSteadyStrength": false,
-          "InitialHomingStrength": 5.0,
+          "InitialHomingStrength": 15.0,
           "InitialHomingDuration": 0.5,
-          "HomingStrength": 13.2,
+          "HomingStrength": 30.2,
           "HomingDelay": 0,
           "HomingMaxDist": 50,
           "HomingMinDist": 25,
@@ -81,7 +81,7 @@
       {
         "Name": "DamageOverTime",
         "TotalDamage": 10.0,
-        "Duration": 20.5,
+        "Duration": 25.5,
         "TickRate": 6,
         "PrecisionDamageMulti": 1.0,
         "StaggerDamageMulti": 500.0,
@@ -95,7 +95,17 @@
         "GlowRange": 3.0,
         "StackLimit": 1,
         "ApplyAttackCooldown": true,
-        "Trigger": "EnemyHit"
+        "Trigger": {
+          "Activate": 
+          {
+            "Name": "EnemyHit"
+          },
+          "Reset": {
+            "Name": "Kill",
+            "MaxDelay": 1.5,
+            "RequireLastHit": false
+          }
+        }
       },
       {
         "Name": "Shrapnel",
@@ -161,7 +171,7 @@
             "EnableTrail": true,
             "TrailColor": "#0047AB",
             "TrailWidth": 0.25,
-            "TrailTime": 20.0,
+            "TrailTime": 20.5,
             "TrailCullOnDie": false,
             "GlowColor": "#0047AB",
             "GlowIntensity": 0.2,
@@ -180,7 +190,7 @@
               "UseSteadyStrength": false,
               "InitialHomingStrength": 100.0,
               "InitialHomingDuration": 1.5,
-              "HomingStrength": 10.0,
+              "HomingStrength": 100.0,
               "HomingDelay": 0,
               "HomingMaxDist": 50,
               "HomingMinDist": 25,
@@ -211,7 +221,7 @@
         "Name": "ArmorMod",
         "Mod": 1.25,
         "Cap": 1.50,
-        "Duration": 20.5,
+        "Duration": 25.5,
         "StackType": "Override",
         "StackLayer": "Multiply",
         "Trigger": "EnemyHit Bullet"
@@ -222,7 +232,7 @@
         "StatType": "Damage",
         "DamageType": "Any",
         "Cap": 1.50,
-        "Duration": 20.5,
+        "Duration": 25.5,
         "StackType": "Override",
         "InnerStackType": "Override",
         "StackLayer": "Multiply",
@@ -233,10 +243,20 @@
       {
         "Name": "SpeedMod",
         "Mod": 0.15,
-        "Duration": 20.0,
+        "Duration": 25.5,
         "StackType": "Add",
-        "Trigger": "EnemyHit Bullet",
-        "Cap": 0.15
+        "Cap": 0.15,
+        "Trigger": {
+          "Activate": 
+          {
+            "Name": "EnemyHit Bullet"
+          },
+          "Reset": {
+            "Name": "Kill",
+            "MaxDelay": 1.5,
+            "RequireLastHit": false
+          }
+        }
       },
       {
         "Name": "AmmoRegen",
@@ -284,14 +304,33 @@
       {
         "Name": "ActionLock",
         "Action": "Swap",
-        "Duration": 20.5,
-        "Trigger": "EnemyHit Bullet"
+        "Duration": 25.5,
+        "Trigger": {
+          "Activate": {
+            "Name": "EnemyHit Bullet"
+          },
+          "Reset": {
+            "Name": "Kill",
+            "MaxDelay": 1.5,
+            "RequireLastHit": false
+          }
+        }
       },
       {
         "Name": "ActionLock",
         "Action": "Reload",
-        "Duration": 20.5,
-        "Trigger": "EnemyHit Bullet"
+        "Duration": 25.5,
+        "Trigger": {
+          "Activate": 
+          {
+            "Name": "EnemyHit Bullet"
+          },
+          "Reset": {
+            "Name": "Kill",
+            "MaxDelay": 1.5,
+            "RequireLastHit": false
+          }
+        }
       },
       {
         "Name": "AmmoMod",
@@ -399,7 +438,7 @@
             "FlipExponent": true
           },
           "Apply": "EnemyHit Bullet",
-          "ApplyDelay": 20.5
+          "ApplyDelay": 25.5
         }
       },
       {
