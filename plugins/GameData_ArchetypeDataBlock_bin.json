@@ -6100,7 +6100,7 @@
         "magnitude": 81.394104,
         "sqrMagnitude": 6625.0
       },
-      "StaggerDamageMulti": 10.0,
+      "StaggerDamageMulti": 15.0,
       "PrecisionDamageMulti": 0.65,
       "DefaultClipSize": 100,
       "DefaultReloadTime": 1.0,
