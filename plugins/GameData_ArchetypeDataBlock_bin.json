@@ -149,7 +149,7 @@
     },
     {
       "PublicName": "AK Platform Rifle (Assault Rifle)",
-      "Description": "<color=yellow>Traits:\n - Switch between 2 modes(Semi or Full-auto)\n [EWC config for keybinds]</color>",
+      "Description": "<color=yellow>Traits:\n - Switch between 2 modes(Semi or Full-auto)[EWC config for keybinds], \n - Lightweight</color>",
       "FireMode": 0,
       "RecoilDataID": 12,
       "DamageBoosterEffect": 64,  
@@ -246,7 +246,7 @@
     },
     {
       "PublicName": "3-Burst Rifle (Explosive)",
-      "Description": "<color=yellow>Traits: \n - Explosive rounds, \n - 3 Round Burst, \n - Team-killer</color>",
+      "Description": "<color=yellow>Traits: \n - Explosive rounds, \n - 3 Round Burst, \n - Team-killer, \n - Heavyweight</color>",
       "FireMode": 1,
       "RecoilDataID": 8,
       "DamageBoosterEffect": 65,
@@ -343,7 +343,7 @@
     },
     {
       "PublicName": "Drum Mag AR (Assault Rifle)",
-      "Description": "<color=yellow>Traits: \n - Large Magazine</color>",
+      "Description": "<color=yellow>Traits: \n - Large Magazine, \n - Lightweight</color>",
       "FireMode": 2,
       "RecoilDataID": 13,
       "DamageBoosterEffect": 53,
@@ -640,7 +640,7 @@
     },
     {
       "PublicName": "4-B GL Rifle (Assault Rifle)",
-      "Description": "<color=yellow>Traits: \n - Switch between 2 modes(Regular Rounds or Nade Launcher)\n [EWC config for keybinds], \n - Thermal-Assist Scope</color>",
+      "Description": "<color=yellow>Traits: \n - Switch between 2 modes(Regular Rounds or Nade Launcher)\n [EWC config for keybinds], \n - Thermal-Assist Scope, \n - Lightweight</color>",
       "FireMode": 1,
       "RecoilDataID": 31,
       "DamageBoosterEffect": 53,
@@ -743,7 +743,7 @@
     },
     {
       "PublicName": "4-B GL Rifle (Assault Rifle)",
-      "Description": "<color=yellow>Traits: \n - Switch between 2 modes(Regular Rounds or Nade Launcher)\n [EWC config for keybinds],\n - Thermal-Assist Scope</color>",
+      "Description": "<color=yellow>Traits: \n - Switch between 2 modes(Regular Rounds or Nade Launcher)\n [EWC config for keybinds],\n - Thermal-Assist Scope, \n - Lightweight</color>",
       "FireMode": 1,
       "RecoilDataID": 42,
       "DamageBoosterEffect": 53,
@@ -943,7 +943,7 @@
     },
     {
       "PublicName": "Lock-On Homing Subgun (SMG)",
-      "Description": "<color=yellow>Traits: \n - Auto Aim, \n - Homing projectiles(Weakspots)</color>",
+      "Description": "<color=yellow>Traits: \n - Auto Aim, \n - Homing projectiles(Weakspots), \n - Heavyweight</color>",
       "FireMode": 2,
       "RecoilDataID": 15,
       "DamageBoosterEffect": 51,
@@ -1046,7 +1046,7 @@
     },
     {
       "PublicName": "3-Burst Rifle (Carbine)",
-      "Description": "<color=yellow>Traits: \n - Switch between 2 modes(3 Burst or Semi-auto)</color>",
+      "Description": "<color=yellow>Traits: \n - Switch between 2 modes(3 Burst or Semi-auto), \n - Lightweight</color>",
       "FireMode": 1,
       "RecoilDataID": 14,
       "DamageBoosterEffect": 54,
@@ -1143,7 +1143,7 @@
     },
     {
       "PublicName": "3-Burst Rifle (Carbine)",
-      "Description": "<color=yellow>Traits: \n - Switch between 2 modes(3 Burst or Semi-auto)</color>",
+      "Description": "<color=yellow>Traits: \n - Switch between 2 modes(3 Burst or Semi-auto), \n - Lightweight</color>",
       "FireMode": 0,
       "RecoilDataID": 14,
       "DamageBoosterEffect": 54,
@@ -1337,7 +1337,7 @@
     },
     {
       "PublicName": "Heavy Subgun (SMG)",
-      "Description": "<color=yellow>Traits: \n - Very Precise Shots</color>",
+      "Description": "<color=yellow>Traits: \n - Very Precise Shots, \n - Lightweight</color>",
       "FireMode": 0,
       "RecoilDataID": 43,
       "DamageBoosterEffect": 51,
@@ -1354,11 +1354,11 @@
         "magnitude": 60.40695,
         "sqrMagnitude": 3649.0
       },
-      "StaggerDamageMulti": 1.2,
+      "StaggerDamageMulti": 1.3,
       "PrecisionDamageMulti": 0.7,
       "DefaultClipSize": 25,
       "DefaultReloadTime": 1.55,
-      "CostOfBullet": 1.55,
+      "CostOfBullet": 1.5,
       "ShotDelay": 0.20,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -1434,7 +1434,7 @@
     },
     {
       "PublicName": "Bio-Tag Subgun (SMG)",
-      "Description": "<color=yellow>Traits: \n - Thermal scope, \n - Tagging rounds, \n - Turret synergy</color>",
+      "Description": "<color=yellow>Traits: \n - Thermal scope, \n - Tagging rounds, \n - Turret synergy, \n - Lightweight</color>",
       "FireMode": 2,
       "RecoilDataID": 48,
       "DamageBoosterEffect": 51,
@@ -1531,7 +1531,7 @@
     },
     {
       "PublicName": "Healing/Venomous Subgun (SMG)",
-      "Description": "<color=yellow>Traits: \n Switch Between 3 modes(Healing/Disinfect, Movement Spd/Stamina, or Armor/Stamina)\n [EWC config for keybinds], \n - Ability disabler(except Scout's Scream)</align></color>",
+      "Description": "<color=yellow>Traits: \n - Switch Between 3 modes(Healing/Disinfect, Movement Spd/Stamina, or Armor/Stamina)\n [EWC config for keybinds], \n - Ability disabler(except Scout's Scream), \n - Lightweight</align></color>",
       "FireMode": 1,
       "RecoilDataID": 11,
       "DamageBoosterEffect": 51,
@@ -1628,7 +1628,7 @@
     },
     {
       "PublicName": "Hemorrhage Long Arm (HEL)",
-      "Description": "<color=yellow>Traits: \n - Unstackable strong DoT bleed</color>",
+      "Description": "<color=yellow>Traits: \n - Unstackable strong DoT bleed, \n - Lightweight</color>",
       "FireMode": 1,
       "RecoilDataID": 4,
       "DamageBoosterEffect": 56,
@@ -1725,7 +1725,7 @@
     },
     {
       "PublicName": "Burst Cannon (Explosive)",
-      "Description": "<color=yellow>Traits: \n - Hold Aim to Rapid Fire, \n - Explosive rounds, \n - Projectile gravity, \n - Team-killer</color>",
+      "Description": "<color=yellow>Traits: \n - Hold Aim to Rapid Fire, \n - Explosive rounds, \n - Projectile gravity, \n - Team-killer, \n - Lightweight</color>",
       "FireMode": 1,
       "RecoilDataID": 24,
       "DamageBoosterEffect": 61,
@@ -1822,7 +1822,7 @@
     },
     {
       "PublicName": "Light Machine Gun (LMG)",
-      "Description": "<color=yellow>Traits: \n - Large magazine, \n - Suppressive fire</color>",
+      "Description": "<color=yellow>Traits: \n - Large magazine, \n - Suppressive fire, \n - Heavyweight</color>",
       "FireMode": 2,
       "RecoilDataID": 25,
       "DamageBoosterEffect": 62,
@@ -1919,7 +1919,7 @@
     },
     {
       "PublicName": "Heavy Machine Gun (HMG)",
-      "Description": "<color=yellow>Traits: \n - Reserve Ammo(no reload), \n - Hold Trigger to Accelerate</color>",
+      "Description": "<color=yellow>Traits: \n - Reserve Ammo(no reload), \n - Hold Trigger to Accelerate, \n - Heavyweight</color>",
       "FireMode": 2,
       "RecoilDataID": 34,
       "DamageBoosterEffect": 62,
@@ -2113,7 +2113,7 @@
     },
     {
       "PublicName": "Designated Marksman Rifle (DMR)",
-      "Description": "<color=yellow>Traits: \n - Switch between 2 modes(2 Burst or Semi-auto), \n - Stagger Burst, \n - Precision Semi-auto</color>",
+      "Description": "<color=yellow>Traits: \n - Switch between 2 modes(2 Burst or Semi-auto), \n - Stagger Burst, \n - Precision Semi-auto, \n - Lightweight</color>",
       "FireMode": 0,
       "RecoilDataID": 7,
       "DamageBoosterEffect": 52,
@@ -2307,7 +2307,7 @@
     },
     {
       "PublicName": "Designated Marksman Rifle (DMR)",
-      "Description": "<color=yellow>Traits: \n - Switch between 2 modes(2 Burst or Semi-auto), \n - Stagger Burst, \n - Precision Semi-auto</color>",
+      "Description": "<color=yellow>Traits: \n - Switch between 2 modes(2 Burst or Semi-auto), \n - Stagger Burst, \n - Precision Semi-auto, \n - Lightweight</color>",
       "FireMode": 1,
       "RecoilDataID": 16,
       "DamageBoosterEffect": 66,
@@ -2604,7 +2604,7 @@
     },
     {
       "PublicName": "Wall-Pen Long Arm (Sniper)",
-      "Description": "<color=yellow>Traits: \n - Wall/Object penetration(except past locked security rooms), \n - Thermal Assist Scope</align></color>",
+      "Description": "<color=yellow>Traits: \n - Wall/Object penetration(except past locked security rooms), \n - Thermal Assist Scope, \n - Heavyweight</align></color>",
       "FireMode": 0,
       "RecoilDataID": 9,
       "DamageBoosterEffect": 60,
@@ -2992,7 +2992,7 @@
     },
     {
       "PublicName": "Pump-Action Scattergun (Shotgun)",
-      "Description": "<color=yellow>Traits: \n - Heavy stagger</color>",
+      "Description": "<color=yellow>Traits: \n - Heavy stagger, \n - Lightweight</color>",
       "FireMode": 0,
       "RecoilDataID": 6,
       "DamageBoosterEffect": 58,
@@ -3089,7 +3089,7 @@
     },
     {
       "PublicName": "Single Round Slugger (Shotgun)",
-      "Description": "<color=yellow>Traits: \n - Slug rounds, \n - Single shot action, \n - Temp. half reload time on kill</color>",
+      "Description": "<color=yellow>Traits: \n - Slug rounds, \n - Single shot action, \n - Temp. half reload time on kill, \n - Lightweight</color>",
       "FireMode": 0,
       "RecoilDataID": 50,
       "DamageBoosterEffect": 58,
@@ -3192,7 +3192,7 @@
     },
     {
       "PublicName": "Explosive Scattergun (Shotgun)",
-      "Description": "<color=yellow>Traits: \n - Explosive Rounds, \n - Team-killer</color>",
+      "Description": "<color=yellow>Traits: \n - Explosive Rounds, \n - Team-killer, \n - Lightweight</color>",
       "FireMode": 0,
       "RecoilDataID": 44,
       "DamageBoosterEffect": 58,
@@ -3289,7 +3289,7 @@
     },
     {
       "PublicName": "Choke Mod Scattergun (Shotgun)",
-      "Description": "<color=yellow>Traits: \n - Tight spread</color>",
+      "Description": "<color=yellow>Traits: \n - Tight spread, \n - Lightweight</color>",
       "FireMode": 1,
       "RecoilDataID": 20,
       "DamageBoosterEffect": 69,
@@ -3386,7 +3386,7 @@
     },
     {
       "PublicName": "Reserve Scattergun (Shotgun)",
-      "Description": "<color=yellow>Traits: \n - Stacking DoT bleed</color>",
+      "Description": "<color=yellow>Traits: \n - Stacking DoT bleed, \n - Lightweight</color>",
       "FireMode": 2,
       "RecoilDataID": 21,
       "DamageBoosterEffect": 68,
@@ -3483,7 +3483,7 @@
     },
     {
       "PublicName": "Foam Scattergun (Shotgun)",
-      "Description": "<color=yellow>Traits: \n - Shotgun while Hipfire, \n - Foam Rounds while Aimed, \n - Movement Spd. on Foam hits, \n - Thermal Assistance</color>",
+      "Description": "<color=yellow>Traits: \n - Shotgun while Hipfire, \n - Foam Rounds while Aimed, \n - Movement Spd. on Foam hits, \n - Thermal Assistance, \n - Lightweight</color>",
       "FireMode": 0,
       "RecoilDataID": 28,
       "DamageBoosterEffect": 58,
@@ -3677,7 +3677,7 @@
     },
     {
       "PublicName": "Heavy Fan Handcannon (Revolver)",
-      "Description": "<color=yellow>Traits: \n - Ricochet rounds, \n - High precision, \n - Hold trigger for rapid fire</color>",
+      "Description": "<color=yellow>Traits: \n - Ricochet rounds, \n - High precision, \n - Hold trigger for rapid fire, \n - Lightweight</color>",
       "FireMode": 0,
       "RecoilDataID": 5,
       "DamageBoosterEffect": 59,
@@ -3780,7 +3780,7 @@
     },
     {
       "PublicName": "Fan Handcannon (HEL)",
-      "Description": "<color=yellow>Traits: \n - Ricochet rounds, \n - High precision, \n - Hold trigger for rapid fire</color>",
+      "Description": "<color=yellow>Traits: \n - Ricochet rounds, \n - High precision, \n - Hold trigger for rapid fire, \n - Lightweight</color>",
       "FireMode": 0,
       "RecoilDataID": 22,
       "DamageBoosterEffect": 56,
@@ -4039,7 +4039,7 @@
     },
     {
       "PublicName": "Nano-Gauss Long Arm (HEL)",
-      "Description": "<color=yellow>Traits: \n - Kill explosion with seeking Nano Gobules</color>",
+      "Description": "<color=yellow>Traits: \n - Kill explosion with seeking Nano Gobules, \n - Heavyweight</color>",
       "FireMode": 0,
       "RecoilDataID": 41,
       "DamageBoosterEffect": 56,
@@ -4136,7 +4136,7 @@
     },
     {
       "PublicName": "Bio-Tag Long Arm (Sniper)",
-      "Description": "<color=yellow>Traits: \n - Thermal scope, \n - Tagging rounds, \n - Turret synergy</color>",
+      "Description": "<color=yellow>Traits: \n - Thermal scope, \n - Tagging rounds, \n - Turret synergy, \n - Lightweight</color>",
       "FireMode": 2,
       "RecoilDataID": 49,
       "DamageBoosterEffect": 60,
@@ -4233,7 +4233,7 @@
     },
     {
       "PublicName": "Bio-Tag Sidearm (Pistol)",
-      "Description": "<color=yellow>Traits: \n - Tagging rounds, \n - Turret synergy</color>",
+      "Description": "<color=yellow>Traits: \n - Tagging rounds, \n - Turret synergy, \n - Lightweight</color>",
       "FireMode": 0,
       "RecoilDataID": 3,
       "DamageBoosterEffect": 50,
@@ -4330,7 +4330,7 @@
     },
     {
       "PublicName": "High-Cal Sidearm (Pistol)",
-      "Description": "<color=yellow>Traits: \n - High Stagger Power, \n - Solid Damage Output</color>",
+      "Description": "<color=yellow>Traits: \n - High Stagger Power, \n - Solid Damage Output, \n - Lightweight</color>",
       "FireMode": 0,
       "RecoilDataID": 47,
       "DamageBoosterEffect": 50,
@@ -4427,7 +4427,7 @@
     },
     {
       "PublicName": "C-Foam Sidearm (Pistol)",
-      "Description": "<color=yellow>Traits: \n - Foam rounds, \n - Barricade doors, \n -  Foamed increased damage taken debuff</color>",
+      "Description": "<color=yellow>Traits: \n - Foam rounds, \n - Barricade doors, \n -  Foamed increased damage taken debuff, \n - Lightweight</color>",
       "FireMode": 0,
       "RecoilDataID": 18,
       "DamageBoosterEffect": 50,
@@ -4524,7 +4524,7 @@
     },
     {
       "PublicName": "Full-Auto Sidearm (MP)",
-      "Description": "<color=yellow>Traits: \n - High Fire Rate, \n - High Precision for a MP</color>",
+      "Description": "<color=yellow>Traits: \n - High Fire Rate, \n - High Precision for a MP, \n - Lightweight</color>",
       "FireMode": 2,
       "RecoilDataID": 19,
       "DamageBoosterEffect": 63,
@@ -4621,7 +4621,7 @@
     },
     {
       "PublicName": "Reserve Full-Auto Sidearm (MP)",
-      "Description": "<color=yellow>Traits: \n - Reserve Ammo(no reload), \n - High stagger</color>",
+      "Description": "<color=yellow>Traits: \n - Reserve Ammo(no reload), \n - High stagger, \n - Lightweight</color>",
       "FireMode": 2,
       "RecoilDataID": 19,
       "DamageBoosterEffect": 55,
@@ -4815,7 +4815,7 @@
     },
     {
       "PublicName": "Sawed-Off Scattergun (Shotgun)",
-      "Description": "<color=yellow>Traits: \n - Hold Aim to fire 3 rounds, \n - Hold Trigger for Rapid HipFire, \n - Melee Buff on Hit</color>",
+      "Description": "<color=yellow>Traits: \n - Hold Aim to fire 3 rounds, \n - Hold Trigger for Rapid HipFire, \n - Melee Buff on Hit, \n - Lightweight</color>",
       "FireMode": 0,
       "RecoilDataID": 28,
       "DamageBoosterEffect": 58,
@@ -4918,7 +4918,7 @@
     },
     {
       "PublicName": "5-Burst Rifle (Bullpup)",
-      "Description": "<color=yellow>Traits: \n - Switch between 2 modes(5 Burst or Full-auto)</color>",
+      "Description": "<color=yellow>Traits: \n - Switch between 2 modes(5 Burst or Full-auto), \n - Lightweight</color>",
       "FireMode": 1,
       "RecoilDataID": 31,
       "DamageBoosterEffect": 67,
@@ -5015,7 +5015,7 @@
     },
     {
       "PublicName": "5-Burst Rifle (Bullpup)",
-      "Description": "<color=yellow>Traits: \n - Switch between 2 modes(5 Burst or Full-auto)</color>",
+      "Description": "<color=yellow>Traits: \n - Switch between 2 modes(5 Burst or Full-auto), \n - Lightweight</color>",
       "FireMode": 2,
       "RecoilDataID": 31,
       "DamageBoosterEffect": 67,
@@ -5403,7 +5403,7 @@
     },
         {
       "PublicName": "Search & Rescue Tool",
-      "Description": "<color=yellow>Traits: \n - Switch between 2 modes(Glowstick/Fog Repeller)\n [EWC config for keybinds], \n - Speed/Distance based on charge amount, \n - Reserve Ammo(no reload)</color>",
+      "Description": "<color=yellow>Traits: \n - Switch between 2 modes(Glowstick/Fog Repeller)\n [EWC config for keybinds], \n - Speed/Distance based on charge amount, \n - Reserve Ammo(no reload), \n - Lightweight</color>",
       "FireMode": 0,
       "RecoilDataID": 49,
       "DamageBoosterEffect": 60,
@@ -5500,7 +5500,7 @@
     },
     {
       "PublicName": "Bio-Target Sniper Turret (Sentry)",
-      "Description": "<color=yellow>Traits: \n - Fires at Tags only & Long range</color>",
+      "Description": "<color=yellow>Traits: \n - Fires at Tags only, \n - Long range, , \n - Heavyweight</color>",
       "FireMode": 0,
       "RecoilDataID": 12,
       "DamageBoosterEffect": 103,
@@ -5597,7 +5597,7 @@
     },
     {
       "PublicName": "4-Burst Turret (Sentry)",
-      "Description": "<color=yellow>Traits: \n - 4 Round Burst, \n - Middle Range, \n - More effective against Tagged</color>",
+      "Description": "<color=yellow>Traits: \n - 4 Round Burst, \n - Middle Range, \n - More effective against Tagged, \n - Heavyweight</color>",
       "FireMode": 1,
       "RecoilDataID": 8,
       "DamageBoosterEffect": 103,
@@ -5694,7 +5694,7 @@
     },
     {
       "PublicName": "HMG Turret (Sentry)",
-      "Description": "<color=yellow>Traits: \n - High Stagger, \n - High Fire Rate, \n - More effective against Tagged</color>",
+      "Description": "<color=yellow>Traits: \n - High Stagger, \n - High Fire Rate, \n - More effective against Tagged, \n - Heavyweight</color>",
       "FireMode": 2,
       "RecoilDataID": 13,
       "DamageBoosterEffect": 103,
@@ -5791,7 +5791,7 @@
     },
     {
       "PublicName": "Shotgun Turret (Sentry)",
-      "Description": "<color=yellow>Traits: \n - Shotgun, \n - Close-Range, \n - More effective against Tagged</color>",
+      "Description": "<color=yellow>Traits: \n - Shotgun, \n - Close-Range, \n - More effective against Tagged, \n - Heavyweight</color>",
       "FireMode": 0,
       "RecoilDataID": 6,
       "DamageBoosterEffect": 103,
@@ -5889,7 +5889,7 @@
     },
     {
       "PublicName": "Bio-Target Missile Turret (Sentry)",
-      "Description": "<color=yellow>Traits: \n - Actual Max Ammo(15), \n - Fires at Tags only, \n - Large AoE Damage</color>",
+      "Description": "<color=yellow>Traits: \n - Actual Max Ammo(15), \n - Fires at Tags only, \n - Large AoE Damage, \n - Heavyweight</color>",
       "FireMode": 0,
       "RecoilDataID": 12,
       "DamageBoosterEffect": 103,
@@ -5986,7 +5986,7 @@
     },
     {
       "PublicName": "Concussive Nade Turret (Sentry)",
-      "Description": "<color=yellow>Traits: \n - Actual Max Ammo(120), \n - Ability disabler(except Scout's Scream), \n - Enemy Damage Taken Debuff, \n - High Stagger Explosive Bomblets</color>",
+      "Description": "<color=yellow>Traits: \n - Actual Max Ammo(160), \n - Ability disabler(except Scout's Scream), \n - Enemy Damage Taken Debuff, \n - High Stagger Explosive Bomblets, \n - Heavyweight</color>",
       "FireMode": 0,
       "RecoilDataID": 12,
       "DamageBoosterEffect": 103,
@@ -6007,7 +6007,7 @@
       "PrecisionDamageMulti": 2.0,
       "DefaultClipSize": 1,
       "DefaultReloadTime": 1.0,
-      "CostOfBullet": 7.3,
+      "CostOfBullet": 5.47,
       "ShotDelay": 10.0,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -6083,7 +6083,7 @@
     },
     {
       "PublicName": "Exterminatus Flamer",
-      "Description": "<color=yellow>Traits: \n - DoT damage(Stackable), \n - Explosion Kill Spreads 1 Stack, \n - Reserve Clip Regen(no reload), \n - Hold Trigger to Accelerate</color>",
+      "Description": "<color=yellow>Traits: \n - DoT damage(Stackable), \n - Explosion Kill Spreads 1 Stack, \n - Reserve Clip Regen(no reload), \n - Hold Trigger to Accelerate, \n - Heavyweight</color>",
       "FireMode": 2,
       "RecoilDataID": 34,
       "DamageBoosterEffect": 62,
@@ -6180,7 +6180,7 @@
     },
     {
       "PublicName": "Hunting Crossbow (???)",
-      "Description": "<color=yellow>Traits: \n - Silent/Accurate/Recoiless, \n - Switch between Regular/Naplam/Foam payload\n [EWC config for keybinds], \n - Refund 1 ammo per target killed w/Regular</color>",
+      "Description": "<color=yellow>Traits: \n - Silent/Accurate/Recoiless, \n - Switch between Regular/Naplam/Foam payload\n [EWC config for keybinds], \n - Refund 1 ammo per target killed w/Regular, \n - Lightweight</color>",
       "FireMode": 0,
       "RecoilDataID": 11,
       "DamageBoosterEffect": 52,
@@ -6283,7 +6283,7 @@
     },
     {
       "PublicName": "Wisp Launcher (???)",
-      "Description": "<color=yellow>Traits: \n - Clip Regen after delay(no reload), \n - Wisp provides light, \n - Wisp fires 2 homing quills at nearby targets</color>",
+      "Description": "<color=yellow>Traits: \n - Clip Regen after delay(no reload), \n - Wisp provides light, \n - Wisp fires 2 homing quills at nearby targets, \n - Heavyweight</color>",
       "FireMode": 1,
       "RecoilDataID": 24,
       "DamageBoosterEffect": 61,
@@ -6380,7 +6380,7 @@
     },
     {
       "PublicName": "Exp. Beam Rifle (???)",
-      "Description": "<color=yellow>Trait: \n - Fires 1 continous beam until overheat, \n - Burn DoT on contact, \n - Reserve Ammo(no reload), \n - Increased Damage on a single target</color>",
+      "Description": "<color=yellow>Trait: \n - Fires 1 continous beam until overheat, \n - Burn DoT on contact, \n - Reserve Ammo(no reload), \n - Increased Damage on a single target, \n - Slowed during firing, \n - Lightweight</color>",
       "FireMode": 1,
       "RecoilDataID": 11,
       "DamageBoosterEffect": 53,
@@ -6402,7 +6402,7 @@
       "DefaultClipSize": 100,
       "DefaultReloadTime": 12.5,
       "CostOfBullet": 0.2894,
-      "ShotDelay": 0.02,
+      "ShotDelay": 0.05,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
         "x": 3.0,
@@ -6477,7 +6477,7 @@
     },
     {
       "PublicName": "Javelin Rifle (DMR)",
-      "Description": "<color=yellow>Traits: \n - Electrocute Hit Targets with keybind\n [EWC config for keybinds], \n - High Stagger Electrocution, \n - Explosion on DoT kills</color>",
+      "Description": "<color=yellow>Traits: \n - Electrocute Hit Targets with keybind\n [EWC config for keybinds], \n - High Stagger Electrocution, \n - Explosion on DoT kills, \n - Heavyweight</color>",
       "FireMode": 0,
       "RecoilDataID": 9,
       "DamageBoosterEffect": 52,
@@ -6574,7 +6574,7 @@
     },
     {
       "PublicName": "RYN0 Annihilator",
-      "Description": "<color=yellow>Traits: \n - CTRL + ALT + DELETE enemies and friends</color>",
+      "Description": "<color=yellow>Traits: \n - CTRL + ALT + DELETE enemies and friends, \n - Heavyweight</color>",
       "FireMode": 1,
       "RecoilDataID": 24,
       "DamageBoosterEffect": 61,
@@ -6671,7 +6671,7 @@
     },
     {
       "PublicName": "Arc Subjugator (Shotgun)",
-      "Description": "<color=yellow>Traits: \n - Infinite Ammo, \n - Manual Charging to Fire(Reload), \n - Lock-On to Fire, \n - Long Stun Duration, \n - Enemy Damage Taken Debuff, \n - Unable to swap gear during electrocution</color>",
+      "Description": "<color=yellow>Traits: \n - Infinite Ammo, \n - Manual Charging to Fire(Reload), \n - Lock-On to Fire, \n - Long Stun Duration, \n - Enemy Damage Taken Debuff, \n - Unable to swap gear during electrocution, \n - Heavyweight</color>",
       "FireMode": 0,
       "RecoilDataID": 9,
       "DamageBoosterEffect": 68,
@@ -6691,7 +6691,7 @@
       "StaggerDamageMulti": 1.3,
       "PrecisionDamageMulti": 0.65,
       "DefaultClipSize": 100,
-      "DefaultReloadTime": 2.5,
+      "DefaultReloadTime": 2.0,
       "CostOfBullet": 0.2894,
       "ShotDelay": 2.5,
       "ShellCasingSize": 1.0,
