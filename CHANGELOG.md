@@ -136,8 +136,8 @@
 
 * Exterminatus Flamer:
     * Increased DoT Stack Size from `10` to `20`
-    * Increased Stagger Multiplier from `1.0x` to `1.5x`
-> Dev Note: Should be a bit more effective against larger targets. That also includes teammates...
+    * Increased Direct(not DoT) Stagger Multiplier from `10.0x` to `15.0x`
+> Dev Note: Should be a bit more effective against larger targets. While I still want this gun to be more effective against smaller targets. It shouldn't be completely useless against bigger targets. That also includes teammates...
 
 * RYN0:
     * Increased Minimum Explosion Damage from `400.0` to `500.0`
