@@ -134,8 +134,8 @@
               "Max": 0
             },
             "TotalTime": {
-              "Min": 200,
-              "Max": 200
+              "Min": 300,
+              "Max": 300
             },
             "RegenInterval": {
               "RandomizeEveryInterval": false,
@@ -150,8 +150,8 @@
             "Enabled": true
           },
           "Disinfection": {
-            "Min": 0.3,
-            "Max": 0.3,
+            "Min": 0.4,
+            "Max": 0.4,
             "Enabled": true
           }
         }
