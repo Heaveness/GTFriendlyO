@@ -308,7 +308,7 @@
         "Name": "DamageOverTime",
         "TotalDamage": 6.0,
         "PrecisionDamageMulti": 0.5,
-        "StaggerDamageMulti": 1.5,
+        "StaggerDamageMulti": 1.0,
         "FriendlyDamageMulti": 0.5,
         "Duration": 10,
         "TickRate": 2,
