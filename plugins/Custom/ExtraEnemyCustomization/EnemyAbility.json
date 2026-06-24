@@ -271,7 +271,7 @@
         "ChargeUpAnimation": "AbilityUse",
         "ActivateAnimation": "AbilityUseOut",
         "ChargeUpDuration": 3,
-        "EffectDuration": 47.0,
+        "EffectDuration": 47.5,
         "EffectRange": 200.0,
         "InvincibleWhileCharging": true,
         "BuildupColor": "#00A3FF",
