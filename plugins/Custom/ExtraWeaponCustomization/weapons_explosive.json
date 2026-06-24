@@ -396,6 +396,11 @@
           "Trigger": "KillBullet"
         },
         {
+          "Name": "ArmorPierce",
+          "Pierce": 1.2,
+          "Type": "Override"
+        },
+        {
           "Name": "TempProperties",
           "Duration": 999999,
           "Properties": [
