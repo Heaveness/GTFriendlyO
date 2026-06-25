@@ -223,10 +223,10 @@
         "HitClosestFirst": true,
         "Trigger": "Shrapnel Landed",
         "SoundID": 2209036113,
-        "EnableMineFX": false,
+        "EnableMineFX": true,
         "GlowColor": "#CD352E",
         "GlowRange": 7.5,
-        "GlowDuration": 0.5,
+        "GlowDuration": 1.0,
         "GlowFadeDuration": 1.0
       },
       {

@@ -283,7 +283,7 @@
         "FriendlyDamageMulti": 0.2,
         "HitmarkerCooldown": 4.5,
         "GlowColor": "#0047AB",
-        "GlowIntensity": 2,
+        "GlowIntensity": 1,
         "DamageLimb": false,
         "IgnoreArmor": true,
         "GlowRange": 2.0,
