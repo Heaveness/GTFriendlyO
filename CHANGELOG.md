@@ -117,6 +117,12 @@
     * Decreased Hipfire Spread from `2.3x` to `2.0x`
     * Decreased Aimfire Spread from `0.3x` to `0.15x`
 
+* Nano Gauss Rifle:
+    * Added Armor Pierce bonus of `+20%`
+
+* W-Pen Sniper:
+    * Increased Armor Pierce bonus from `+20%` to `+40%`
+
 * C-Foam Launcher:
     * Decreased Max Charge Timer from `2.5s` to `2.0s`
 
