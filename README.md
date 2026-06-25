@@ -2,9 +2,9 @@
 
 ### Description:
 
-A major overhaul to vanilla GTFO's gameplay, designed to bring more depth WITHOUT sacrificing the fun and rewarding experiences with friends.
+A major overhaul to vanilla GTFO's gameplay, designed to bring more depth **WITHOUT** sacrificing the fun and rewarding experiences with friends.
 
-As a long-time GTFO player, I've felt the base game lacked a bit of variety in certain aspects of its gameplay. After running several Rundowns with friends, we all agreed the game needed a bit more spice. This mod focuses on creating a more friendly co-op experience **WITHOUT** removing all of the tension or challenge from the game. This is **NOT** a hardcore or hyper-realism mod setup, nor will it ever be. Instead, it makes GTFO more accessible by giving players several new additional "tools" with reworked systems to add depth. Theorycraft a team composition and tackle the depths! The enemies have also received some love too, so the powerup not completely one-sided.
+As a long-time GTFO player, I've felt the base game lacked a bit of variety in certain aspects of its gameplay. After running several Rundowns with friends, we all agreed the game needed a bit more spice. This mod focuses on creating a more unique co-op experience **WITHOUT** removing all of the tension or challenge from the game. This is **NOT** a hardcore or hyper-realism mod setup, nor will it ever be. Instead, it makes GTFO more accessible by giving players several new additional "tools" with reworked systems to add depth. Theorycraft a team composition and tackle the depths! The enemies have also received some love too, so the powerup not completely one-sided.
 
 **Inspiration:** FriendlyGTFO by EcoLight and Duo Trials by ProjectZaero
 > Please note that I took the syringe customization settings from Duo Trials to reverse engineer how it was made. I have made some major changes, but the overall credit should still be given to ProjectZaero. Check our wiki for more information.
@@ -50,7 +50,8 @@ This project has been in the works for many years. It's only been shared private
 * Increased Friendly Fire Damage: `50% -> 80%`
 * Increased Fall Damage Min/Max Height: `4.0m/20.0m -> 6.0m/30.0m`
 * Increased Fall Min/Max Damage: `2.0/15.0 -> 10.0/40.0`
-* Increased base Walk/Sprint/Crouch/Ladder Spd. and Footstep Length by `0.5-1.0`. 
+* Increased base Walk/Sprint/Crouch/Ladder Spd. and Footstep Length by `0.5-1.0`
+* Increased Slide Distance: `1.0m -> 4.0m` 
 * Reworked Stamina Cost across the board. Overall, higher cost in combat but faster regen out of combat.
 * Different starting ammo and cap based on class system.
 * Different ammo/medipack supply efficiency based on class system.
@@ -72,7 +73,7 @@ This project has been in the works for many years. It's only been shared private
 
 | CLASS       		| ROLE      | DIVISION  | STRENGTHS 	 											          | WEAKNESSES																      |
 |-------------------|-----------|-----------|:--------------------------------------------------------------------|:------------------------------------------------------------------------------|
-| Marine 			| Damage 	| Combat 	| Accurate; mid-to-long range; consistent damage                      | Low melee armor & damage                                                      |
+| Marine 			| Damage 	| Combat 	| Accurate; mid-to-long range; consistent damage; bleed immunity      | Low melee armor & damage                                                      |
 | Covert Op 		| Damage 	| Combat 	| Stealth melee; high damage; high movement speed                     | Low base HP; very fragile                                                     |
 | Demolitionist 	| Damage 	| Combat 	| Crowd control AoE; big explosions; explosive resistance             | Poor tech skills (terminal, hacking, sentries)                                |
 | Shock Trooper 	| Tank 		| Combat 	| High armor; strong base HP; fast regen speed                        | Bioscans take longer to finish, slow movement speed                           |
