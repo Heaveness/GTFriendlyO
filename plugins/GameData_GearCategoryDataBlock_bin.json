@@ -892,6 +892,38 @@
       "persistentID": 41
     },
     {
+      "PublicName": "Heal Sentry Gun",
+      "Description": 0,
+      "BaseItem": 103,
+      "HUDIcon": "",
+      "IconRotationOffset": 0.0,
+      "IconZoomOffset": 0.0,
+      "FPSArmPoseName": "",
+      "ThirdPersonFullbodyMovement": 0,
+      "SemiArchetype": 63,
+      "BurstArchetype": 63,
+      "AutoArchetype": 63,
+      "SemiBurstArchetype": 63,
+      "MeleeArchetype": 0,
+      "PartAlignPriority": [
+        {
+          "AlignType": 7,
+          "PartPrio": [
+            27
+          ]
+        },
+        {
+          "AlignType": 8,
+          "PartPrio": [
+            27
+          ]
+        }
+      ],
+      "name": "HealSentryGun",
+      "internalEnabled": true,
+      "persistentID": 42
+    },
+    {
       "PublicName": "Mine deployer",
       "Description": "",
       "BaseItem": 37,

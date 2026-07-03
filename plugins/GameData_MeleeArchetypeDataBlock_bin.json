@@ -4,10 +4,10 @@
     {
       "PublicName": "Hammer",
       "NoiseLevel": 0,
-      "ChargedAttackDamage": 39.5,
+      "ChargedAttackDamage": 40.5,
       "LightAttackDamage": 13.8,
       "LightStaggerMulti": 2.0,
-      "ChargedStaggerMulti": 2.5,
+      "ChargedStaggerMulti": 3.5,
       "LightPrecisionMulti": 1.0,
       "ChargedPrecisionMulti": 1.1,
       "LightEnvironmentMulti": 2.0,
@@ -18,7 +18,7 @@
       "ChargedSleeperMulti": 0.6,
       "SkipLimbDestruction": false,
       "CameraDamageRayLength": 2.3,
-      "AttackSphereRadius": 0.65,
+      "AttackSphereRadius": 0.75,
       "PushDamageSphereRadius": 3.0,
       "CanHitMultipleEnemies": true,
       "EvaluateHoldBeforeAttack": false,
@@ -34,8 +34,8 @@
         "resetRestingTimerOutOfCombat": true
       },
       "LightAttackStaminaCost": {
-        "baseStaminaCostInCombat": 0.3,
-        "baseStaminaCostOutOfCombat": 0.3,
+        "baseStaminaCostInCombat": 0.25,
+        "baseStaminaCostOutOfCombat": 0.25,
         "resetRestingTimerInCombat": false,
         "resetRestingTimerOutOfCombat": true
       },
