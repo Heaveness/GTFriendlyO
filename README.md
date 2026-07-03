@@ -225,3 +225,5 @@ This project has been in the works for many years. It's only been shared private
 * Check out the wiki pages for more information on each major feature: [Here](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/).
 * If you really liked the mod-pack, give it a thumbs up on Thunderstore. Try it out with friends or randoms!
 * Check out my other mods over at [Thunderstore Link](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/)
+* Join the GTFO Modding Discord and search `GTFriendlyO Feedback` forum! If you want to discuss more actively with me.
+* Thank you for the support. Good luck and have fun!
