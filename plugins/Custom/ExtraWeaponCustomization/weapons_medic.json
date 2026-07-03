@@ -98,7 +98,7 @@
         "ReceiverSlot": "None",
         "Trigger": {
           "Name": "Kill",
-          "MaxDelay": 10.0,
+          "MaxDelay": 5.0,
           "RequireLastHit": false
         }
       },
@@ -151,7 +151,7 @@
             "CapRel": 1.0,
             "CancelRegen": false,
             "ApplyToTarget": true,
-            "Trigger": "HitPlayer"
+            "Trigger": "Bullet HitPlayer"
           },
           {
             "Name": "SpeedMod",
@@ -165,10 +165,7 @@
             "InnerStackType": "Override",
             "StackLayer": "Multiply",
             "ApplyToTarget": true,
-            "Trigger": {
-              "Name": "HitPlayer",
-              "MaxPerShot": 1
-            }
+            "Trigger": "Bullet HitPlayer"
           },
           {
             "Name": "StaminaMod",
@@ -176,10 +173,7 @@
             "Cap": -1,
             "CancelRegen": false,
             "ApplyToTarget": true,
-            "Trigger": {
-              "Name": "HitPlayer",
-              "MaxPerShot": 1
-            }
+            "Trigger": "Bullet HitPlayer"
           },
           {
             "Name": "DamageOverTime",
@@ -213,7 +207,7 @@
             "GlowColor": "#F1C232",
             "GlowIntensity": 1.25,
             "GlowRange": 1.5,
-            "Trigger": "HitPlayer"
+            "Trigger": "Bullet HitPlayer"
           },
           {
             "Name": "Noise",
@@ -236,7 +230,7 @@
             "ReceiverSlot": "None",
             "Trigger": {
               "Name": "Kill",
-              "MaxDelay": 10.0,
+              "MaxDelay": 5.0,
               "RequireLastHit": false
             }
           }
@@ -281,27 +275,23 @@
             "CapRel": 1.0,
             "CancelRegen": false,
             "ApplyToTarget": true,
-            "Trigger": "HitPlayer"
+            "Trigger": "Bullet HitPlayer"
           },
           {
-            "Name": "ArmorMod",
-            "Mod": 1.25,
-            "Immune": false,
+            "Name": "ShotMod",
+            "Mod": 1.2,
+            "StatType": "Damage",
             "DamageType": "Any",
-            "Cap": 0,
-            "Duration": 10.1,
-            "CombineModifiers": false,
+            "Cap": 1.4,
+            "Duration": 12.1,
+            "CombineModifiers": true,
             "CombineDecayTime": 0,
-            "CombineCap": 0,
-            "StackType": "Override",
+            "CombineCap": 2,
+            "StackType": "Add",
             "InnerStackType": "Override",
             "StackLayer": "Multiply",
-            "ApplyToTarget": true,
-            "GlobalID": 0,
-            "Trigger": {
-              "Name": "HitPlayer",
-              "MaxPerShot": 1
-            }
+            "StoreOnGroup": true,
+            "Trigger": "Bullet HitPlayer"
           },
           {
             "Name": "StaminaMod",
@@ -309,21 +299,15 @@
             "Cap": -1,
             "CancelRegen": false,
             "ApplyToTarget": true,
-            "Trigger": {
-              "Name": "HitPlayer",
-              "MaxPerShot": 1
-            }
+            "Trigger": "Bullet HitPlayer"
           },
           {
             "Name": "ArmorShred",
-            "Mod": 2.4,             
-            "Duration": 10.0,          
+            "Mod": 2.5,             
+            "Duration": 12.1,          
             "StackType": "Override",  
             "CombineModifiers": false,
-            "Trigger": {
-              "Name": "HitEnemy",
-              "MaxPerShot": 1
-            }
+            "Trigger": "Bullet HitEnemy"
           },
           {
             "Name": "DamageOverTime",
@@ -333,7 +317,7 @@
             "PrecisionDamageMulti": 0.75,
             "StaggerDamageMulti": 1.0,
             "FriendlyDamageMulti": 0.0,
-            "Duration": 10.0,
+            "Duration": 12.1,
             "TickRate": 1.0,
             "StackLimit": 2,
             "IgnoreFalloff": false,
@@ -352,13 +336,13 @@
           },
           {
             "Name": "DamageOverTime",
-            "Duration": 10.1,
+            "Duration": 12.1,
             "TickRate": 1.0,
             "StackLimit": 1,
             "GlowColor": "#674EA7",
             "GlowIntensity": 1.25,
             "GlowRange": 1.5,
-            "Trigger": "HitPlayer"
+            "Trigger": "Bullet HitPlayer"
           },
           {
             "Name": "Noise",
@@ -381,7 +365,7 @@
             "ReceiverSlot": "None",
             "Trigger": {
               "Name": "Kill",
-              "MaxDelay": 10.0,
+              "MaxDelay": 5.0,
               "RequireLastHit": false
             }
           }

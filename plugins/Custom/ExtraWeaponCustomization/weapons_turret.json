@@ -14,6 +14,28 @@
         "Name": "MultiShot",
         "Offsets": [1,1],
         "Spread": 1
+      },
+      {
+        "Name": "ThickBullet",
+        "HitSize": 0.1,
+        "HitSizeFriendly": 0.1
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 54,
+    "MeleeArchetypeID": 0,
+    "Name": "Sniper Turret - Armor Pierce",
+    "Properties": [
+      {
+        "Name": "ArmorPierce",
+        "Pierce": 1.2,
+        "Type": "Override"
+      },
+      {
+        "Name": "ThickBullet",
+        "HitSize": 0.1,
+        "HitSizeFriendly": 0.1
       }
     ]
   },
@@ -177,7 +199,7 @@
           {
             "Name": "Projectile",
             "ProjectileType": "TargetingLarge",
-            "Speed": 8,
+            "Speed": 16,
             "AccelScale": 1.0,
             "AccelExponent": 1,
             "AccelTime": 0.2,
@@ -268,6 +290,133 @@
         "GlowRange": 1.0,
         "Trigger": "Explo HitEnemy",
         "BatchStacks": false
+      }
+    ]
+  },
+  {
+    "ArchetypeID": 63,
+    "MeleeArchetypeID": 0,
+    "Name": "Heal Turret - AoE Heal",
+    "Properties": [
+      {
+        "Name": "Projectile",
+        "ID": "HealBomb",
+        "ProjectileType": "TargetingLarge",
+        "Speed": 0.1,
+        "Gravity": 0,
+        "HitSize": 0.1,
+        "ModelScale": 0.1,
+        "EnableTerrainHitFX": false,
+        "EnableTrail": false,
+        "TrailColor": "#CD352E",
+        "GlowColor": "#CD352E",
+        "FlyingSoundID": 1507799008,
+        "GlowRange": 1,
+        "DamageFriendly": false,
+        "DamageOwner": false,
+        "HitFromOwnerPos": false,
+        "HitCooldown": -1,
+        "HitIgnoreWallsDuration": 15,
+        "VisualLerpDist": 5,
+        "Lifetime": 0.1
+      },
+      {
+		    "Name": "Explosive",
+        "MaxDamage": 0.01,
+        "MinDamage": 0.01,
+        "InnerRadius": 14.5,
+        "Radius": 14.5,
+        "PrecisionDamageMulti": 0.0,
+        "StaggerDamageMulti": 0.0,
+        "FriendlyDamageMulti": 0.01,
+        "IgnoreFalloff": true,
+        "DamageLimb": false,
+        "IgnoreArmor": true,
+        "IgnoreBackstab": true,
+        "IgnoreDamageMods": false,
+        "UseParentShotMod": false,
+        "DamageFriendly": true,
+        "DamageOwner": true,
+        "HitClosestFirst": false,
+        "Trigger": {
+          "Name": "Reference",
+          "ID": "HealBomb",
+          "Callback": "TimeOut"
+        },
+        "SoundID": 1507799008,
+        "EnableMineFX": false,
+        "GlowColor": "#3a9fbf",
+        "GlowRange": 13.5,
+        "GlowIntensity": 0.5,
+        "GlowDuration": 18.1,
+        "GlowFadeDuration": 0.75
+      },
+      {
+        "Name": "DamageOverTime",
+        "TotalDamage": 0.01,
+        "Exponent": 1,
+        "PrecisionDamageMulti": 0.0,
+        "StaggerDamageMulti": 0.0,
+        "FriendlyDamageMulti": 0.01,
+        "Duration": 10.5,
+        "TickRate": 1.0,
+        "StackLimit": 1,
+        "IgnoreFalloff": false,
+        "DamageLimb": false,
+        "IgnoreArmor": true,
+        "IgnoreBackstab": true,
+        "IgnoreShotMods": false,
+        "UseParentShotMod": false,
+        "CalcShotModsPerTick": false,
+        "ApplyAttackCooldown": false,
+        "HitmarkerCooldown": 10.0,
+        "GlowColor": "#3a9fbf",
+        "GlowIntensity": 0.5,
+        "GlowRange": 1.5,
+        "Trigger": "HitPlayer",
+        "BatchStacks": false
+      },
+      {
+        "Name": "InfectionMod",
+        "InfectionChangeRel": -0.0001,
+        "CapRel": -1.0,
+        "ApplyToTarget": true,
+        "ApplyToBots": true,
+        "EnableFX": true,
+        "Trigger": "Explo HitPlayer"
+      },
+      {
+        "Name": "HealthMod",
+        "HealthChangeRel": 0.101,
+        "CapRel": 1.0,
+        "CancelRegen": false,
+        "ApplyToTarget": true,
+        "Trigger": "Explo HitPlayer"
+      },
+      {
+        "Name": "HealthMod",
+        "HealthChangeRel": 0.010,
+        "CapRel": 1.0,
+        "CancelRegen": false,
+        "ApplyToTarget": true,
+        "Trigger": "DOT HitPlayer"
+      },
+      {
+        "Name": "ArmorMod",
+        "Mod": 1.5,
+        "Immune": false,
+        "DamageType": "Any",
+        "Cap": 2.0,
+        "Duration": 10.1,
+        "StackType": "Add",
+        "InnerStackType": "Override",
+        "StackLayer": "Multiply",
+        "ApplyToTarget": true,
+        "GlobalID": "Support_Armor_Pool",
+        "Trigger": {
+          "Name": "HitPlayer",
+          "MaxPerShot": 1
+        }
       }
     ]
   }

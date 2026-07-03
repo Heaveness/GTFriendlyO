@@ -219,11 +219,12 @@
       },
       {
         "Name": "ArmorMod",
-        "Mod": 1.25,
-        "Cap": 1.50,
+        "Mod": 1.5,
+        "Cap": 2.0,
         "Duration": 25.5,
-        "StackType": "Override",
+        "StackType": "Add",
         "StackLayer": "Multiply",
+        "GlobalID": "Support_Armor_Pool",
         "Trigger": "EnemyHit Bullet"
       },
       {

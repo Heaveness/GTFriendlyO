@@ -232,6 +232,18 @@
           "MinRequired": 0.4,
           "MaxRequired": 1.0
         }
+      },
+      {
+        "Name": "StaminaMod",
+        "StaminaChange": 0.5,
+        "Cap": -1,
+        "CancelRegen": false,
+        "ApplyToTarget": true,
+        "Trigger": {
+          "Name": "Kill",
+          "MaxDelay": 0.5,
+          "RequireLastHit": true
+        }
       }
     ]
   },
@@ -275,7 +287,7 @@
       },
       {
         "Name": "DamageOverTime",
-        "TotalDamage": 55.0,
+        "TotalDamage": 60.0,
         "Duration": 4.5,
         "TickRate": 6,
         "PrecisionDamageMulti": 1.0,
