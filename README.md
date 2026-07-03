@@ -38,6 +38,8 @@ This project has been in the works for many years. It's only been shared private
 * Recommend to check out the_tavern's [AutogenRundown](https://thunderstore.io/c/gtfo/p/the_tavern/AutogenRundown/) mod, especially **AFTER** you have finished GTFO's vanilla rundowns. It provides new rundowns generated daily, weekly, monthly, and each season. Automatic Rundown generation, using procedural seed based generation!
     * Additional work might be required to achieve better compatibility. Some features from GTFriendlyO or AutogenRundown may or may not work well with each other.
 
+* `LobbyExpansion` mod[Here](https://thunderstore.io/c/gtfo/p/Cactus/LobbyExpansion/) has been reported to me that it does work. But keep in mind that the game's performance will start taking a hit after 4 players.
+
 ## Major Changes:
 
 ### Players:
@@ -166,6 +168,7 @@ This project has been in the works for many years. It's only been shared private
 | Shotgun Turret | Short	| Destroys Choke Points, but struggles w/open rooms	| High Close Damage, & CTRL+ALT+DEL choke points	| Placement Dependent, & Quite Ammo Hungry			|
 | Missile Turret | Long		| Large AoE, shoots at tagged ONLY, friendly fire   | High AoE Damage, great crowd control          	| Very Placement Dependent, & Low Ammo Count     	|
 | Concussion Nade Turret | Short	| Large AoE, bomblet clusters, explosive debuffs| High AoE Radius, high stagger, & debuffs     	| High Gravity Projectile, requires elevated placement, & low damage 	|
+| Healing Turret | Short	| Large AoE Heal, 360 degree detection radius       | Instant Heal AoE, Heal-Over-Time, & Armor Buff    | No Damage, long deployment, & delay between shots |
 | Search & Rescue| Long 	| Glowstick Hipfire shots, Fog Repeller Aimed shots | Great utility tool, procs booster effects       	| No Damage, Low Ammo, takes up a tool slot        	|
 | C-Foam Mines   | Short	| Tripwire mines, C-foam payload                    | High C-Foam payload count, No friendly fire      	| No Damage, terrain & placement dependent       	|
 | Flamethrower   | Medium	| Large flames and explosive kills that apply DoTs  | Solid DoT Damage, Stagger, and crowd control     	| Low Direct Damage, & long time to kill          	|

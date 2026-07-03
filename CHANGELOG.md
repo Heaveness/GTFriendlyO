@@ -1,6 +1,6 @@
 # Changelog
 
-## **v2.4.0** - Latest
+## **v2.4.1** - Latest
 
 ### Personal Note:
 * It's generally fine to update any mods. Regular bug fixes and QoL improvements are always welcome, but be cautious when updating mods with large changes. Keep in mind that every mod update has the potential to break something within this pack. Even I cannot guarantee every update stability. So you should personally do your research before updating them.
@@ -9,7 +9,131 @@
     * Go to `Edit Config` within Thunderstore client -> Search for `ExtraWeaponCustomization.cfg` -> `Edit Config` -> Change keybinds 1 through 4 under `Keybind Settings` section
     * Be advised that any keybind changes might reset with each update.
 
-* Please let me know on my [Github](https://github.com/Heaveness/GTFriendlyO/issues) issue page if there are problems or if you have feedback check this [Github](https://github.com/Heaveness/GTFriendlyO/discussions) discussion page. Thanks and have fun! 
+* Please let me know on my [Github](https://github.com/Heaveness/GTFriendlyO/issues) issue page if there are problems.
+
+* If you have feedback check this [Github](https://github.com/Heaveness/GTFriendlyO/discussions) discussion page. Thanks and have fun!
+
+### New Tool:
+* Updated `ExtraWeaponCustomization` mod
+* Techman Healing Turret: **New**
+    * The newest support turret that heals teammates during combat situations
+    * Sentry will only fire its healing AoE when enemies are detected
+    * Does little to no damage, but it will light the surrounding area
+    * The only sentry unaffected by tag targets. It will not receive any tagged related benefits.
+    * AoE provides both healing and armor buff within a set radius around the sentry
+        * AoE Instant Heal: `+10%` Max Health
+        * Total Heal-Over-Time: additional `+10%` Max Health
+        * Player Armor Buff: `+25%`
+        * Armor Cap: `+50%`
+        * Heal/Armor Duration: `10.0s`
+        * AoE Radius: `14.5m`
+        * Shot Delay: `17.5s` (7.5s between heals)
+        * Max Ammo: `50`
+        * Placement Time: `0.25s`
+        * Pickup Time: `0.4s`
+        * Deploy Time: `10.0s`
+        * Scan Delay: `0.5s`
+        * Scan Color: `White`
+        * Detection Range: `15.5m`
+        * Detection Angle: `360.0`
+> Dev Note: Another support turret for anyone to utilize during larger fights. The long deploy time requires you to place them in key areas beforehand. Use your spaces wisely!
+
+### Class Tweaks:
+* Specialist:
+    * Increased Gun Ammo Received penalty from `-20%` to `-30%`
+> Dev Note: This should effectively cancel out Quartermaster's baseline ammo supply efficiency. It's up to the team to decide how to synergize their strengths and weaknesses.
+
+* Field Technician:
+    * Decreased Sentry Damage bonus from `+40%` to `+30%`
+> Dev Note: Reigning the class a bit since most of their sentries got baseline buffs.
+
+### Weapon Tweaks + Fixes:
+
+* Javelin Rifle:
+    * Increased Total DoT Damage from `55.0` to `60.0`
+
+* Medic Gun:
+    * Fixed improper distribution methods of bonuses on all modes
+    * Decreased Ammo Refund Max Delay from `10.0s` to `5.0s`
+    * Increased Mode 3's Armor Shred from `-40%` to `-50%`
+    * Increased Mode 3's Duration from `10.1s` to `12.1s`
+    * Changed Mode 3's Player `Armor` bonus to `Damage`
+        * Player Damage Bonus: `+20%`
+        * Damage Bonus Cap: `+40%`
+        * Duration: `12.1s`
+        * Timer utilizes `Combine` method:
+            * You only need to fire one single dart before the duration ends to maintain the maximum damage bonus
+            * But if the duration ends, you will lose both dart's bonus
+> Dev Note: After some consideration I believe player armor isn't always useful when you can just heal the person, especially with this gun in particular. Instead I opted for synergy by replacing the armor buff with damage one. With this method, you can tag a target to take more damage while boosting another player. This will hopefully encourage players for interesting teamplay.
+
+* Arc Subjugator:
+    * Fixed the wrong armor calculations to give less armor than intended
+    * Fixed the wrong armor calculations for armor cap
+        * Increased armor cap to `+50%`
+    * Fixed armor not stacking together with other weapon armor buffs(class & booster armor effects have their own separate systems)
+    * Fixed armor buff overriding other armor bonuses
+
+### Melee Tweaks:
+
+* Sledgehammer:
+    * Increased Heavy Damage from `39.5` to `40.5`
+    * Increased Heavy Stagger Multiplier from `2.5x` to `3.5x`
+    * Decreased Light Stamina Cost from `30%` to `25%`
+    * Increased Attack Sphere Radius from `0.65m` to `0.75m`
+    * Added `Stamina` property
+        * Recover `+50%` stamina after a successful kill
+        * Recovery Delay of `0.5s`
+        * Requires `Last Hit` to receive stamina
+> Dev Note: This melee still needs a bit more help dealing with regular targets during hordes.
+
+### Tool Tweaks:
+
+* Foam Mine Deployer:
+    * Decreased Bubble Angle from `45` to `30`
+> Dev Note: In hindsight, I might have overdone the angle distribution. Still its main job is complete as I wanted a better identity for this tool than just being a Foam Launcher lite.
+
+* Sniper Turret:
+    * Fixed typo within trait description
+    * Added Armor Pierce of `+20%`
+    * Added Thick Bullet of `+0.1m`
+> Dev Note: A consistency buff with the other sniper weapons.
+
+* HMG Turret:
+    * Added `ThickBullet` Property
+        * Increased Bullet Size by `+0.1m`
+    * Increased Stagger Multiplier from `3.0x` to `4.0x`
+    * Increased Detection Angle from `60.0` to `70.0`
+    * Changed Sentry Priority from `None` to `Tagged`
+        * Sentry still shoots at all targets, but it will prioritize tagged targets first.
+> Dev Note: With how ammo hungry this turret is, it should be a bit more effective.
+
+* Shotgun Turret:
+    * Decreased Direct Damage from `6.0` to `5.4`
+    * Increased Pellet Count from `8` to `10`
+    * Decreased Detection Angle from `60.0` to `50.0`
+    * Changed Sentry Priority from `None` to `Tagged`
+        * Sentry still shoots at all targets, but it will prioritize tagged targets first.
+> Dev Note: Give the shotgun turret more control for the players, especially for the Field Technicians.
+
+* Missile Turret:
+    * Increased Placement Time from `0.5s` to `0.7s`
+    * Decreased Scan Delay from `1.5s` to `1.0s`
+
+* Concussive Nade Turret:
+    * Changed `Front` Gear Part
+    * Changed Aim from `Body` to `Weakspot`
+    * Increased Bomblet Projectile Speed from `8` to `16`
+    * Increased Detection Angle from `60.0` to `100.0`
+    * Decreased Tagged Damage Multiplier from `1.1x` to `1.0x`
+    * Increased Tagged Stagger Multiplier from `1.25x` to `1.5x`
+    * Increased Tagged Rotaion Speed from `1.5x` to `1.75x`
+    * Decreased Placement Time from `0.6s` to `0.3s`
+    * Decreased Scan Delay from `1.0s` to `0.5s`
+> Dev Note: Hopefully, these changes will make the turret more reliable to utilize. The Weakspot aim will try to encourage the turret to lob their projectiles.
+
+---
+
+### v2.4.0
 
 ### Mod Updates:
 * Updated `ModifierAPI` mod
@@ -37,23 +161,23 @@
 > Dev Note: This mod was removed because it has made some objectives significantly easier, especially with specific classes. But I also understand how annoying certain items felt like a slog to carry throughout a level.
 * Added `Heavyweight` or `Lightweight` to all weapon trait descriptions
 * Can/Cannot Sprint While Holding:
-| Item/Gear Changed		| Sprint? |
-|:----------------------|:-------:|
-| Battery Cell 			| Yes 	  |
-| Fog Turbine 	       	| Yes  	  |
-| Objective Items       | No      |
-| Javelin Rifle 	    | No      |
-| Explosive Rifle     	| No 	  |
-| Arc Subjugator     	| No 	  |
-| LMG               	| No 	  |
-| Reserve HMG(Minigun) 	| No      |
-| Exp. Smart Rifle      | No      |
-| Nano Gauss Rifle   	| No      |
-| Wisp Launcher		    | No      |
-| Sniper Rifle 		    | No      |
-| Flamer Tool	       	| No      |
-| RYN0 Annihilator    	| No      |
-| Sentry Turrets   	    | No      |
+    | Item/Gear Changed		| Sprint? |
+    |:----------------------|:-------:|
+    | Battery Cell 			| Yes 	  |
+    | Fog Turbine 	       	| Yes  	  |
+    | Objective Items       | No      |
+    | Javelin Rifle 	    | No      |
+    | Explosive Rifle     	| No 	  |
+    | Arc Subjugator     	| No 	  |
+    | LMG               	| No 	  |
+    | Reserve HMG(Minigun) 	| No      |
+    | Exp. Smart Rifle      | No      |
+    | Nano Gauss Rifle   	| No      |
+    | Wisp Launcher		    | No      |
+    | Sniper Rifle 		    | No      |
+    | Flamer Tool	       	| No      |
+    | RYN0 Annihilator    	| No      |
+    | Sentry Turrets   	    | No      |
 > Dev Note: Main reason for these changes is to give these weapons/tools some weight. It's to provide more identity to both heavier and lighter weapons/tools in your arsenal. As carrying an entire loadout of heavy-duty powerful weapons should effectively slow the player down. While those that want a light loadout should be able to be nimble.
 
 ### Player Tweaks:
@@ -90,7 +214,7 @@
     * Slight improvement to trait description
     * Increased Shot Delay from `0.02` to `0.05`
     * Decreased Projectile Hit Size Bonus from `+0.5m` to `+0.3m`
-    * Added `Movement Speed` Property during firing:
+    * Added `Movement Speed` Property while firing:
         * Decreases User's movement speed by `-70%`
         * Duration: `Start to End Firing`
 > Dev Note: I am hoping this will increase the game's performance a bit during multiplayer lobbies. The movement speed penalty has two purposes: first to incentize better positioning, and second its to prevent weird interactions with the beam with fast movement speed.
