@@ -235,7 +235,7 @@
       },
       {
         "Name": "StaminaMod",
-        "StaminaChange": 0.5,
+        "StaminaChange": 0.3,
         "Cap": -1,
         "CancelRegen": false,
         "ApplyToTarget": true,

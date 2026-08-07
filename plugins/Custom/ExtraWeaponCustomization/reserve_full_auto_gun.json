@@ -186,6 +186,59 @@
       {
         "Name": "ThickBullet",
         "HitSize": 0.15
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Properties": [
+          {
+            "Name": "Push",
+            "Force": 0,
+            "Offset": [0, 0],
+            "ApplyToTarget": false,
+            "Trigger": "Fire",
+            "VerticalScale": 0
+          }
+        ],
+        "Trigger": {
+          "Activate": "Crouch",
+          "Reset": "CrouchEnd"
+        }
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Properties": [
+          {
+            "Name": "Push",
+            "Force": -0.15,
+            "Offset": [0, 0],
+            "ApplyToTarget": false,
+            "Trigger": "Fire"
+          }
+        ],
+        "Trigger": {
+          "Activate": "Jump",
+          "Reset": "JumpEnd"
+        }
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Properties": [
+          {
+            "Name": "Push",
+            "Force": -0.1,
+            "Offset": [0, 0],
+            "ApplyToTarget": false,
+            "VerticalScale": 0,
+            "Trigger": "Fire"
+          }
+        ],
+        "Trigger": {
+          "Activate": ["CrouchEnd", "JumpEnd", "Drop"],
+          "Reset": ["Crouch", "Jump"]
+        }
       }
     ]
   },

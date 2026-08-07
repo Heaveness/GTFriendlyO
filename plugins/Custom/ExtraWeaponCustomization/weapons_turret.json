@@ -271,10 +271,10 @@
         "EndDamageFrac": 2.0,
         "Exponent": 1,
         "PrecisionDamageMulti": 0.0,
-        "StaggerDamageMulti": 10.0,
+        "StaggerDamageMulti": 20.0,
         "FriendlyDamageMulti": 0.0,
-        "Duration": 15.0,
-        "TickRate": 1.0,
+        "Duration": 20.1,
+        "TickRate": 0.5,
         "StackLimit": 1,
         "IgnoreFalloff": false,
         "DamageLimb": false,
@@ -290,6 +290,24 @@
         "GlowRange": 1.0,
         "Trigger": "Explo HitEnemy",
         "BatchStacks": false
+      },
+      {
+        "Name": "Foam",
+        "Amount": 1.0,
+        "PrecisionAmountMulti": 0.0,
+        "IgnoreArmor": false,
+        "IgnoreBackstab": false,
+        "IgnoreDamageMods": false,
+        "BubbleAmount": 1.0,
+        "BubbleStrength": 20.0,
+        "BubbleExpandSpeed": 0.25,
+        "BubbleOnDoors": true,
+        "BubbleIgnoreModifiers": true,
+        "FoamTime": 1.5,
+        "FoamTimeType": "Override",
+        "IgnoreFalloff": false,
+        "IgnoreBooster": false,
+        "Trigger": "DOT HitEnemy"
       }
     ]
   },
@@ -348,7 +366,7 @@
         "GlowColor": "#3a9fbf",
         "GlowRange": 13.5,
         "GlowIntensity": 0.5,
-        "GlowDuration": 18.1,
+        "GlowDuration": 21.1,
         "GlowFadeDuration": 0.75
       },
       {
@@ -400,6 +418,11 @@
         "CancelRegen": false,
         "ApplyToTarget": true,
         "Trigger": "DOT HitPlayer"
+      },
+      {
+        "Name": "BioPing",
+        "CooldownPerTarget": 5,
+        "Trigger": "Explo HitEnemy"
       },
       {
         "Name": "ArmorMod",
