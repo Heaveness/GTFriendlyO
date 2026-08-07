@@ -156,19 +156,15 @@
           }
         ],
         "LevelUpBonus": [
-		      {
-            "SingleBuff": "AmmunitionMain",
-            "Value": -0.25
-          },
-		      {
-            "SingleBuff": "AmmunitionSpecial",
-            "Value": -0.25
-          },
           {
             "SingleBuff": "Disinfect",
             "Value": 1.0
           }
-		]
+		    ],
+        "StartingBuffs": {
+          "AmmunitionMainMultiplier": 0.75,
+          "AmmunitionSpecialMultiplier": 0.75
+        }   
       }
     ]
   },
@@ -213,7 +209,12 @@
             "SingleBuff": "AmmunitionTool",
             "Value": -0.2
           }
-		]
+		    ],
+        "StartingBuffs": {
+          "AmmunitionMainMultiplier": 1.2,
+          "AmmunitionSpecialMultiplier": 1.2,
+          "AmmunitionToolMultiplier": 0.8
+        }   
       }
     ]
   },
@@ -293,7 +294,7 @@
     "Header": "Prisoner",
     "GroupPersistentId": 2,
     "PersistentId": 20,
-    "InfoText": "You get no benefits or penalties from the class system. More akin to the regular experience.\n\n<color=red>Warning: This class might be more challenging to play because all the changes made outside the class system are still being applied.</color>",
+    "InfoText": "You get no benefits or penalties from the class system. More akin to the regular experience.\n\n<color=red>Warning: This class may or may not be more challenging to play, because all of the changes made outside of the class system are still being applied.</color>",
     "Levels": [
       {
         "LevelNumber": 0,
@@ -376,20 +377,12 @@
             "Value": 0.7
           }
         ],
-        "LevelUpBonus": [
-          {
-            "SingleBuff": "AmmunitionMain",
-            "Value": -0.5
-          },
-		      {
-            "SingleBuff": "AmmunitionSpecial",
-            "Value": -0.5
-          },
-		      {
-            "SingleBuff": "AmmunitionTool",
-            "Value": -0.5
-          }
-        ]
+        "LevelUpBonus": [],
+        "StartingBuffs": {
+          "AmmunitionMainMultiplier": 0.5,
+          "AmmunitionSpecialMultiplier": 0.5,
+          "AmmunitionToolMultiplier": 0.5
+        }  
       }
     ]
   },
@@ -397,14 +390,14 @@
     "Header": "Deprived",
     "GroupPersistentId": 2,
     "PersistentId": 23,
-    "InfoText": "Blessed are the broken, forsaken by the Lords. To cleanse the impure, for such is their pious duty.\n<color=yellow>Specializes: Filled with fervor beyond measure, yet bound by fleeting flesh.</color>\n\n<color=green>Strengths: \n+50% Ranged/Melee Damage & Melee Attack Spd., \n+30% Movement Spd., \n+60% Melee Armor, \n+95% Infection/Explosion/Bullets/Bleed Res., \n+50% Bioscan Spd., \n+50% Terminal CPU Spd., \nDouble Jump</color>\n\n<color=red>Weaknesses: \n-80% Max Health, \n-60% Projectile Armor, \n-50% Initial Ammo</color>",
+    "InfoText": "Blessed are the broken, forsaken by the Lords. To cleanse the impure, for such is their pious duty.\n<color=yellow>Specializes: Filled with fervor beyond measure, yet bound by fleeting flesh.</color>\n\n<color=green>Strengths: \n+50% Ranged/Melee Damage & Melee Attack Spd., \n+30% Movement Spd., \n+60% Melee Armor, \n+95% Infection/Explosion/Bullets/Bleed Res., \n+50% Bioscan Spd., \n+50% Terminal CPU Spd., \nDouble Jump</color>\n\n<color=red>Weaknesses: \n-75% Max Health, \n-60% Projectile Armor, \n-40% Initial Ammo</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Deprived\n<color=green>Ranged/Melee Damage & Melee Attack Spd. 150%, Melee Armor 160%, Bioscan Spd. 150%, Terminal Spd. 150%, Infection/Explosion/Bullet/Bleed Res. 195%, Movement Spd. 130%, Double Jump</color>\n<color=red>Max Health 20%, Projectile Armor 40%, Initial Ammo 50%</color>",
-        "HealthMultiplier": 0.2,
+        "CustomLevelStatsText": "Class: Deprived\n<color=green>Ranged/Melee Damage & Melee Attack Spd. 150%, Melee Armor 160%, Bioscan Spd. 150%, Terminal Spd. 150%, Infection/Explosion/Bullet/Bleed Res. 195%, Movement Spd. 130%, Double Jump</color>\n<color=red>Max Health 25%, Projectile Armor 40%, Initial Ammo 60%</color>",
+        "HealthMultiplier": 0.25,
         "MeleeDamageMultiplier": 1.5,
         "WeaponDamageMultiplier": 1.5,
         "CustomScaling": [
@@ -429,20 +422,12 @@
             "Value": 1.5
           }
         ],
-        "LevelUpBonus": [
-          {
-            "SingleBuff": "InitialAmmoStandard",
-            "Value": -0.5
-          },
-          {
-            "SingleBuff": "InitialAmmoSpecial",
-            "Value": -0.5
-          },
-          {
-            "SingleBuff": "InitialAmmoTool",
-            "Value": -0.5
-          }
-        ]
+        "LevelUpBonus": [],
+        "StartingBuffs": {
+          "AmmunitionMainMultiplier": 0.6,
+          "AmmunitionSpecialMultiplier": 0.6,
+          "AmmunitionToolMultiplier": 0.6
+        }  
       }
     ]
   },
@@ -450,13 +435,13 @@
     "Header": "Courier",
     "GroupPersistentId": 2,
     "PersistentId": 24,
-    "InfoText": "Hardly spoke to folks around him, didn't have too much to say. No one dared to ask his business, no one dared to make a slip.\n<color=yellow>Specializes: The stranger there among them had a big iron on his hip.</color>\n\n<color=green>Strengths: \n+50% Revolver/Sniper/Shotgun/Tripmine, \n+20% Initial Ammo, \nLiving Bio Tracker</color>\n\n<color=red>Weaknesses: \n-80% Infection/Explosion/Bullet/Bleed Res., \n-20% Ammo/Tool Capacity</color>",
+    "InfoText": "Hardly spoke to folks around him, didn't have too much to say. No one dared to ask his business, no one dared to make a slip.\n<color=yellow>Specializes: The stranger there among them had a big iron on his hip.</color>\n\n<color=green>Strengths: \n+50% Revolver/Sniper/Shotgun/Tripmine, \n+20% Initial Ammo, \nLiving Bio Tracker</color>\n\n<color=red>Weaknesses: \n-80% Infection/Explosion/Bullet/Bleed Res., \n-20% Ammo/Tool Capacity, \n-10% Gun/Tool Ammo Received</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Courier\n<color=green>Revolver/Sniper/Shotgun/Tripmine 150%, Initial Ammo 120%, Living Bio Tracker</color>\n<color=red>Infection/Explosion/Bullet/Bleed Res. 20%, Ammo/Tool Capacity 80%</color>",
+        "CustomLevelStatsText": "Class: Courier\n<color=green>Revolver/Sniper/Shotgun/Tripmine 150%, Initial Ammo 120%, Living Bio Tracker</color>\n<color=red>Infection/Explosion/Bullet/Bleed Res. 20%, Ammo/Tool Capacity 80%, Gun/Tool Ammo Received 90%</color>",
         "HealthMultiplier": 1.0,
         "MeleeDamageMultiplier": 1.0,
         "WeaponDamageMultiplier": 1.0,
@@ -480,18 +465,21 @@
           {
             "CustomBuff": "ToolCapacity",
             "Value": 0.79
+          },
+          {
+            "CustomBuff": "AmmoGainEfficiency",
+            "Value": 0.9
+          },
+          {
+            "CustomBuff": "ToolGainEfficiency",
+            "Value": 0.9
           }
         ],
-        "LevelUpBonus": [
-          {
-            "SingleBuff": "AmmunitionMain",
-            "Value": 0.2
-          },
-		      {
-            "SingleBuff": "AmmunitionSpecial",
-            "Value": 0.2
-          }
-        ]
+        "LevelUpBonus": [],
+        "StartingBuffs": {
+          "AmmunitionMainMultiplier": 1.2,
+          "AmmunitionSpecialMultiplier": 1.2
+        }  
       }
     ]
   }
