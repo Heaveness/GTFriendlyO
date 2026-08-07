@@ -1115,7 +1115,7 @@
                 "HitreactOnLimbDestruction": 4,
                 "TryForceHitreactOnLimbDestruction": true
             },
-            "GlueTolerance": 1000000.0,
+            "GlueTolerance": 9999999.0,
             "GlueFadeOutTime": 6.0,
             "CanBePushed": false,
             "ForbidTwitchHit": true,

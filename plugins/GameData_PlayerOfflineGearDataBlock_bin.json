@@ -339,7 +339,7 @@
     },
     {
       "Type": 1,
-      "GearJSON": "{\"Ver\":1,\"Name\":\"Stalwart C-Foam Snare Tool\",\"Packet\":{\"Comps\":{\"Length\":11,\"a\":{\"c\":2,\"v\":201},\"b\":{\"c\":3,\"v\":203},\"c\":{\"c\":4,\"v\":14},\"d\":{\"c\":27,\"v\":15},\"e\":{\"c\":30,\"v\":2},\"f\":{\"c\":33,\"v\":2},\"g\":{\"c\":36,\"v\":1},\"h\":{\"c\":37,\"v\":1},\"i\":{\"c\":40,\"v\":3},\"j\":{\"c\":42,\"v\":7}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{  \"data\":\"Krieger FO4\"}}}",
+      "GearJSON": "{\"Ver\":1,\"Name\":\"Stalwart Snare Trap Tool\",\"Packet\":{\"Comps\":{\"Length\":11,\"a\":{\"c\":2,\"v\":201},\"b\":{\"c\":3,\"v\":203},\"c\":{\"c\":4,\"v\":14},\"d\":{\"c\":27,\"v\":15},\"e\":{\"c\":30,\"v\":2},\"f\":{\"c\":33,\"v\":2},\"g\":{\"c\":36,\"v\":1},\"h\":{\"c\":37,\"v\":1},\"i\":{\"c\":40,\"v\":3},\"j\":{\"c\":42,\"v\":7}},\"MatTrans\":{\"tDecalA\":{\"scale\":0.1},\"tDecalB\":{\"scale\":0.1},\"tPattern\":{\"scale\":0.1}},\"publicName\":{  \"data\":\"Krieger FO4\"}}}",
       "name": "Foam_Mine_Deployer",
       "internalEnabled": true,
       "persistentID": 22

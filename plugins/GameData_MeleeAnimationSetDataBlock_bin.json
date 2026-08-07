@@ -3,9 +3,9 @@
   "Blocks": [
     {
       "HoldToChargeTime": 0.3,
-      "MaxDamageChargeTime": 2.5,
-      "AutoAttackTime": 5.3,
-      "AutoAttackWarningTime": 3.9,
+      "MaxDamageChargeTime": 2.2,
+      "AutoAttackTime": 7.0,
+      "AutoAttackWarningTime": 5.0,
       "FPIdleAnim": {
         "Name": "sledgehammer_idle"
       },
@@ -269,7 +269,7 @@
     },
     {
       "HoldToChargeTime": 0.2,
-      "MaxDamageChargeTime": 0.4,
+      "MaxDamageChargeTime": 0.5,
       "AutoAttackTime": 15.0,
       "AutoAttackWarningTime": 14.0,
       "FPIdleAnim": {
@@ -536,8 +536,8 @@
     {
       "HoldToChargeTime": 0.2,
       "MaxDamageChargeTime": 3.0,
-      "AutoAttackTime": 10.5,
-      "AutoAttackWarningTime": 9.0,
+      "AutoAttackTime": 12.5,
+      "AutoAttackWarningTime": 10.0,
       "FPIdleAnim": {
         "Name": "Spear_Idle"
       },
@@ -801,9 +801,9 @@
     },
     {
       "HoldToChargeTime": 0.3,
-      "MaxDamageChargeTime": 2.0,
-      "AutoAttackTime": 8.0,
-      "AutoAttackWarningTime": 6.5,
+      "MaxDamageChargeTime": 1.8,
+      "AutoAttackTime": 9.0,
+      "AutoAttackWarningTime": 7.5,
       "FPIdleAnim": {
         "Name": "Bat_Idle"
       },
