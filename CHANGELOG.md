@@ -1,17 +1,171 @@
 # Changelog
 
-## **v2.4.1** - Latest
+## **v2.5.0** - Latest
 
 ### Personal Note:
 * It's generally fine to update any mods. Regular bug fixes and QoL improvements are always welcome, but be cautious when updating mods with large changes. Keep in mind that every mod update has the potential to break something within this pack. Even I cannot guarantee every update stability. So you should personally do your research before updating them.
 
-* With the addition of keybind-based triggers that came along with `v2.3.0`. **PLEASE** check the EWC(ExtraWeaponCustomization) config and change the keybind to **YOUR** settings. I am aware that not everyone have keypads for their setup. 
-    * Go to `Edit Config` within Thunderstore client -> Search for `ExtraWeaponCustomization.cfg` -> `Edit Config` -> Change keybinds 1 through 4 under `Keybind Settings` section
-    * Be advised that any keybind changes might reset with each update.
+* Check "Description" on main page for keybind configs instructions under "Important" section. And wiki for keybinds on specific weapons.
 
-* Please let me know on my [Github](https://github.com/Heaveness/GTFriendlyO/issues) issue page if there are problems.
+* Check out the **GTFriendlyO Feedback Form(No email or sign-in required)** at [Google Form](https://forms.gle/z5ZgyaRP5SEACAWq8)
 
-* If you have feedback check this [Github](https://github.com/Heaveness/GTFriendlyO/discussions) discussion page. Thanks and have fun!
+### Mod Updates:
+* Updated `DescriptiveWeaponStatShower` mod
+* Updated `EEC_H` mod
+* Updated `EnemyAnimationFix` mod
+* Updated `AmorLib` mod
+
+### Spitter Tweaks:
+* Added `KillableSpitters` mod by the_tavern
+* Spitters(wall pimples) are now killable, there are now three ways to properly deal with them in any rundown
+    * Spitter Health: `45.0`
+    * Spitters will die after taking enough damage. Multiple damage instances will cause it to expel a lot of infection
+    * Compatible with Explosions, Shrapnel, and Projectiles from EWC mod
+        * Please note that foam bubble must be formed before the bullet hits to count as foam stun duration. Otherwise it will trigger as bullet damage instead
+    * Foam Stun Duration: `240.0s` -> `1200.0s` (20 minutes)
+    * Flashlight Stun Duration: `30.0s`
+> Dev Note: One of my least favorite mechanics in the game. It provided little to no reward in engaging with them. All they did was annoy players while severely punishing them for non-participation. They had potential in their design but very poor in execution. Now, players can choose how to engage with them. Guns are the safest, but you use ammo and risk alerting sleepers/scouts. Melee is mostly silent and no ammo but lack reach or risk infection. Foam can stun them for a long period, but it still requires ammo and it doesn't kill directly. It's up to you as a player to weigh those options for the team. Foam/Flashlight + Melee, Covert Op + Melee, or Paramedic/Infections Res. is the best option for cleanup!
+
+### Class Tweaks + Fixes:
+* Updated `GTFuckingXP` mod
+    * Renabled Current Level text above player names
+        * This is to provide class name above player names for better team information
+        * There is NO XP or leveling system. The `Lv. O` text is just flavour.
+
+* Deprived:
+    * Decreased Max Health penalty from `-80%` to `-75%`
+    * Decreased Initial Ammo penalty from `-50%` to `-40%`
+
+* Courier:
+    * Added `Gun/Tool Ammo Received` penalty
+        * Received Ammo: `-10%`
+> Dev Note: This class is still very strong, but I don't want to nerf any harder than this. Plus I feel like being a survivor of the wasteland would "find" less ammo in the wild.
+
+* All Classes:
+    * Fixed classes with initial ammo buffs and debuffs being reapplied when reconnecting back into a lobby
+    * Fixed classes not giving correct damage bonuses
+        * Some classes might get a bump in damage
+
+### Player Tweaks:
+* Parry: (To use parry successfully, you must shove at the right moment of impact)
+    * Increased Parried Projectile Damage from `18.1` to `20.0`
+    * Increased Precision Multiplier from `2.0x` to `3.0x`
+    * Increased Stagger Multiplier from `1.0x` to `2.0x`
+    * Decreased Effective Range from `100.0m` to `30.0m`
+    * Increased Tentacle Parry Damage(Explosion) from `1.0` to `5.0`
+    * Increased Tentacle Parry Radius from `2.0m` to `4.0m`
+> Dev Note: Parry should feel a bit more rewarding to execute. Friendly reminder that you can parry ally gun shots and redirect it towards your crosshair. Make what you will with this information.
+
+### Melee Tweaks:
+* Sledgehammer:
+    * Decreased Max Damage Charge Time from `2.5s` to `2.2s`
+    * Increased Total Charge Duration from `5.3s` to `7.0s`
+    * Increased Heavy Damage from `40.5` to `42.5`
+    * Increased Light Damage from `13.8` to `14.0`
+    * Decreased Stamina Refund from `+50%` to `+30%`
+    * Decreased Light Sleeper Damage Multiplier from `0.5x` to `0.35x`
+    * Decreased Heavy Sleeper Damage Multiplier from `0.6x` to `0.45x`
+> Dev Note: Previous patch might have made too overperforming in all situations. Time to reign it back a bit while improving other parts.
+
+* Bat:
+    * Increased Total Charge Duration from `8.0s` to `9.0s`
+    * Increased Heavy Damage from `14.5` to `16.5` 
+    * Increased Light Damage from `11.8` to `12.0`
+    * Increased Explosion Stagger Multiplier from `8.0x` to `10.0x`
+    * Increased Explosion Radius from `3.0m` to `3.5m`
+    * Fixed Explosion Glow Range not reflecting on actual radius
+    * Decreased Light Sleeper Damage Multiplier from `0.4x` to `0.25x`
+    * Decreased Heavy Sleeper Damage Multiplier from `0.5x` to `0.35x`
+> Dev Note: Bat and Sledgehammer while strong in combat, felt like they did a good job in stealth which shouldn't be apart of their strengths.
+
+* Knife:
+    * Increased Max Damage Charge Time from `0.4s` to `0.5s`
+    * Increased DoT Stack Limit from `4` to `5`
+    * Increased DoT Duration from `4.0s` to `5.0s`
+    * Increased Light Sleeper Damage Multiplier from `2.0x` to `2.7x`
+    * Increased Heavy Sleeper Damage Multiplier from `2.5x` to `3.2x`
+
+* Spear:
+    * Increased Total Charge Duration from `10.5s` to `12.5s`
+    * Increased Light Precision Multiplier from `2.5x` to `2.75x`
+    * Increased Heavy Precision Multiplier from `3.0x` to `3.25x`
+    * Decreased Heavy Stagger Multiplier from `2.0x` to `1.5x`
+> Dev Note: Slight bumps to overall damage for all melee types to help reach certain health thresholds.
+
+### Weapon Tweaks + Fixes:
+* Updated `ModifierAPI` mod
+* Updated `ExtraWeaponCustomization` mod
+
+* Drum Mag AR:
+    * Decreased Direct Damage from `3.1` to `3.0`
+    * Increased Stagger Multiplier from `1.3x` to `2.5x`
+    * Increased Clip Size from `70` to `75`
+    * Increased Max Ammo from `528` to `750`
+    * Increased Reload Time from `2.8s` to `3.1s`
+    * Added `Push` property when shooting based on standing/crouching/jumping
+        * Standing: `-0.1m`
+        * Crouching: `0.0m`
+        * Jumping: `-0.15m`
+> Dev Note: It was too similar to the Bullpup rifle in its stat and role, especially with the bullpup's ability to switch modes. As well as add a push effect to encourage players to use better positioning.
+
+* HEL Revolver:
+    * Increased Bullet Precision Multiplier from `4.25x` to `4.5x`
+
+* Heavy Revolver:
+    * Increased Precision Multiplier from `6.25x` to `6.5x`
+> Dev Note: This does not affect the ricochet shrapnel caused by hitting the terrain.
+
+* HEL Rifle:
+    * Increased Total DoT Damage from `25.0` to `35.0`
+    * Increased DoT Precision Multiplier from `1.2x` to `1.3x`
+    * Increased DoT Duration from `6.0s` to `10.1s`
+> Dev Note: This gun felt like it should be doing more. Yet I didn't want it to overshadow the high-tier weapons like the sniper or gauss rifle. So it had to be somewhere in the middle, the total damage is higher but the distribution takes much longer.
+
+* Arc Subjugator:
+    * Fixed the incorrect weapon subtext name
+        * Changed from `(Shotgun)` to `(???)`
+
+* Medic Gun:
+    * Fixed Trait Description mentioning the old Mode 3's Armor/Stamina
+
+* Wall-Pen Sniper:
+    * Increased Direct Damage from `125.5` to `130.5`
+    * Increased Reload Time from `4.3s` to `4.5s`
+> Dev Note: 5 damage increase doesn't sound like much but this gun has a high very precision multiplier which is up to 30 extra damage. So the longer reload timer is to offset its bump in power.
+
+* Nano Gauss Rifle:
+    * Increased Projectile Hit Size Bonus from `+0.5m` to `+0.6m`
+    * Increased Projectile Friendly Hit Size Bonus from `+0.0m` to `+0.3m`
+
+### Tool Tweaks + Fixes:
+* Healing Turret:
+    * Increased Shot Delay from `17.5s` to `20.5s` (10.5s between fire)
+    * Increased Glow Duration from `18.1s` to `21.1s`
+    * Added `BioTag` property:
+        * Tags all enemy targets hit by the explosion radius
+> Dev Note: The turret is slightly overperforming. I might have to reign it back a bit without making the whole turret too niche. Its new bio tag feature will bring more utility and synergy with other turret in the field.
+
+* Concussive Nade Turret:
+    * Increased Shot Delay from `10.0s` to `26.1s`
+    * Increased DoT Duration from `15.0s` to `16.1s`
+    * Decreased DoT Tick Rate from `1.0x` to `0.5x`
+    * Increased DoT Stagger Multiplier from `10.0x` to `20.0x`
+    * Added `Foam` property
+        * Foam Type: `Override` (Always applies regardless of foam resistance, unless immunity)
+        * Foam Duration: `1.5s`
+> Dev Note: To prevent this foam from overshadowing the other foam tools/weapons, duration of each foam application are very short bursts during DoT damage ticks to act as miniature stuns. With a significant buff to the turret's CC power, I will have to reign in it's firing rate to prevent continuously application.
+
+* C-Foam Mine Deployer:
+    * Changed name to `Stalwart Snare Trap Tool`
+        * To prevent confusing this tool with the c-foam launcher at a glance.
+
+### Miscellaneous Fixes:
+* Changed README.md
+    * Improved wording on all section
+
+---
+
+### v2.4.1
 
 ### New Tool:
 * Updated `ExtraWeaponCustomization` mod
@@ -160,24 +314,24 @@
     * It is safe to remove this mod from your list. I highly recommend it.
 > Dev Note: This mod was removed because it has made some objectives significantly easier, especially with specific classes. But I also understand how annoying certain items felt like a slog to carry throughout a level.
 * Added `Heavyweight` or `Lightweight` to all weapon trait descriptions
-* Can/Cannot Sprint While Holding:
-    | Item/Gear Changed		| Sprint? |
-    |:----------------------|:-------:|
-    | Battery Cell 			| Yes 	  |
-    | Fog Turbine 	       	| Yes  	  |
-    | Objective Items       | No      |
-    | Javelin Rifle 	    | No      |
-    | Explosive Rifle     	| No 	  |
-    | Arc Subjugator     	| No 	  |
-    | LMG               	| No 	  |
-    | Reserve HMG(Minigun) 	| No      |
-    | Exp. Smart Rifle      | No      |
-    | Nano Gauss Rifle   	| No      |
-    | Wisp Launcher		    | No      |
-    | Sniper Rifle 		    | No      |
-    | Flamer Tool	       	| No      |
-    | RYN0 Annihilator    	| No      |
-    | Sentry Turrets   	    | No      |
+    * Can/Cannot Sprint While Holding:
+        | Item/Gear Changed		| Sprint? |
+        |:----------------------|:-------:|
+        | Battery Cell 			| Yes 	  |
+        | Fog Turbine 	       	| Yes  	  |
+        | Objective Items       | No      |
+        | Javelin Rifle 	    | No      |
+        | Explosive Rifle     	| No 	  |
+        | Arc Subjugator     	| No 	  |
+        | LMG               	| No 	  |
+        | Reserve HMG(Minigun) 	| No      |
+        | Exp. Smart Rifle      | No      |
+        | Nano Gauss Rifle   	| No      |
+        | Wisp Launcher		    | No      |
+        | Sniper Rifle 		    | No      |
+        | Flamer Tool	       	| No      |
+        | RYN0 Annihilator    	| No      |
+        | Sentry Turrets   	    | No      |
 > Dev Note: Main reason for these changes is to give these weapons/tools some weight. It's to provide more identity to both heavier and lighter weapons/tools in your arsenal. As carrying an entire loadout of heavy-duty powerful weapons should effectively slow the player down. While those that want a light loadout should be able to be nimble.
 
 ### Player Tweaks:
@@ -453,10 +607,6 @@
     * Increased Friendly Fire Multiplier from `0.5x` to `0.8x`
 > Dev Note: It seems like this gun is still performing a bit too well for how efficient the ammo economy is. Any more nerfs to this gun after this patch can potentially have the opposite effect.
 
-### Mod Updates:
-* Updated `ExtraWeaponCustomization` mod
-* Updated `Informative Door Icons` mod
-
 ### Miscellaneous Fixes:
 * Fixed README.md:
     * Not mentioning the new infection death penalty from previous patch
@@ -464,20 +614,6 @@
 ---
 
 ### v2.3.3
-
-### Mod Updates + Additions:
-* Added `Informative Door Icons` mod by HazardousMonkey
-* Updated `ExtraWeaponCustomization` mod
-* Updated `ExtraToolCustomization` mod
-* Updated `EnemyAnimationFix` mod
-* Updated `Spectate` mod
-* Added `InfectionDeathPenalty` mod by Carb_Crusaders(me!)
-    * Inflicts a `10%` infection penalty to players whenever they go down. This will add up(with other infections) until the `85%` limit
-    * Can be treated with any disinfection method
-    * Will be affected by `Infection Resistance` boosters, for example:
-        * Courier class will receive double infection penalty
-        * Paramedics class will be immune to the penalty
-> Dev Note: Yes, I did create a mod specifically for this update. It's to combat a specific strategy where players would "heal" each other by dying then reviving through Paramedic. Additionally, this will bring another layer of challenge that incentivize players to stay alive, stick together more often, think twice before using AoEs, parry more often, and revive in safer situations. Disinfection packs/station, Medic Gun, and syringes are effective methods. This change is to also answer the recent increase in the player's power scaling with the new weapons, tools, and etc. I did not want to buff the enemies as that will rock the scales in a bad direction.
 
 ### Class Tweaks:
 * Paramedic:
@@ -528,9 +664,6 @@
 
 ### v2.3.2
 
-### Mod Updates + Additions:
-* Updated `BetterBots` mod
-
 ### Balance Tweaks:
 * Beam Rifle:
     * Decreased Glow Intensity from `0.05` to `0.01`
@@ -569,15 +702,6 @@
 ---
 
 ### v2.3.1
-
-### Mod Updates + Additions:
-* Updated `EnemyAnimationFix` mod
-* Updated `SpreadStartingAmmo` mod
-* Added `NoBrokenBotGear` mod by JarheadHME
-    * It has come to my attention with bots being broken in the lobby that prevents dropping down a rundown. Caused by bots having weapons/tools that have been changed and it is loading something that doesn't exist. What you can do:
-        * Delete the `BotGear.json` file within `BepInEx/GameData/Favorites/Botgear.json` of your profile.
-        * Or search the file in `Edit Config` and delete the file.
-        * Or try to change the gear before the bot disappears within the lobby(unreliable).
 
 ### Class Tweaks:
 * Updated `GTFuckingXP` mod
@@ -673,11 +797,6 @@
 ---
 
 ### v2.3.0
-
-### Mod Updates + Additions:
-* Updated `Spectate` mod
-* Updated `BetterBots` mod
-* Updated `AmorLib` mod
 
 ### Weapon Additions:
 * Updated `ExtraWeaponCustomization` mod
@@ -1058,32 +1177,6 @@
 ---
 
 ### v2.2.0
-
-### Mod Updates + Additions:
-* Added `WeaponIconPlus` mod by GTFOModding
-* Added `Minimap` mod by HazardousMonkey
-    * Located at Bottom Left section.
-    * Change config settings to fit your needs.
-    * Toggle default key: `M` (Recommend you either change your default Map key or this one. I use `TAB` for my map keybind)
-    * Zoom Control: ALT + WheelDown/WheelUp
-    * Recommended(optional) HUD size settings:
-        * Compass: `80%`
-        * Inventory: `100%` - `120%`
-        * Chat: `90%`
-        * Statusbar: `100%`
-        * Subtitles: `100%`
-        * Objective: `90%`
-        * Intel: `90%`
-* Updated `EnemyAnimationFix` mod
-* Updated `MirrorWeapons` mod
-* Updated `GTFuckingXP` mod
-    * The in-game HUD for class information will properly hide itself during menus such as the map screen and ESC menu. No longer a wall of text will block teammate information.
-* Updated `SpreadStartingAmmo` mod
-* Updated `Amorlib` mod
-* Updated `BetterBots` mod
-* Updated `EEC H` mod
-* Added `Spectate` mod by food
-    * Spectate your teammates upon death(downed)
 
 ### Class Tweaks:
 * Updated `GTFuckingXP` mod

@@ -2,16 +2,23 @@
 
 ### Description:
 
-A major overhaul to vanilla GTFO's gameplay, designed to bring more depth **WITHOUT** sacrificing the fun and rewarding experiences with friends.
+A major overhaul to vanilla GTFO's gameplay, designed to bring more depth WITHOUT sacrificing the fun & engaging experience with friends.
 
-As a long-time GTFO player, I've felt the base game lacked a bit of variety in certain aspects of its gameplay. After running several Rundowns with friends, we all agreed the game needed a bit more spice. This mod focuses on creating a more unique co-op experience **WITHOUT** removing all of the tension or challenge from the game. This is **NOT** a hardcore or hyper-realism mod setup, nor will it ever be. Instead, it makes GTFO more accessible by giving players several new additional "tools" with reworked systems to add depth. Theorycraft a team composition and tackle the depths! The enemies have also received some love too, so the powerup not completely one-sided.
+As a long-time GTFO player, I've felt the base game lacked a bit of variety in many aspects of its gameplay. So, this mod focuses on creating a more unique co-op experience **WITHOUT** removing all of the tension or challenge from the game. 
+
+This is **NOT** a hardcore or hyper-realism mod setup, nor will it ever be. Instead, it makes GTFO more accessible by giving players several new options with reworked systems to add depth. Theorycraft a team composition and tackle the depths! The enemies have also received much needed upgrades from their vanilla counterparts.
+
+Play together or die together! And don't be afraid to share your experiences with me on Github or on GTFO modding discord. And most importantly, good luck have fun!
 
 **Inspiration:** FriendlyGTFO by EcoLight and Duo Trials by ProjectZaero
-> Please note that I took the syringe customization settings from Duo Trials to reverse engineer how it was made. I have made some major changes, but the overall credit should still be given to ProjectZaero. Check our wiki for more information.
-
-This project has been in the works for many years. It's only been shared privately with my friends until recently. Now, I'm releasing it to the public for others to enjoy. Play together or die together! And don't be afraid to share your experiences with me on Github or on GTFO modding discord. And most importantly, good luck have fun!
+> Dev Note: I took the syringe customization settings from Duo Trials to reverse engineer how it was made. I have made major changes, but the overall credit should still be given to ProjectZaero. Check the wiki for more information.
 
 ## Important:
+
+* This is a script heavy mod pack with tons of changes done to the base game. Those with low-end PCs should lower their settings to LOW. I also highly recommend you let someone with a strong PC and/or decent internet to be hosting.
+
+* Check out the **GTFriendlyO Feedback Form(No email or sign-in required)** at [Google Form Link](https://forms.gle/z5ZgyaRP5SEACAWq8)
+    * This is to encourage players to give me feedback without the hassle of having a Discord, Google, or Github account. No email or sign-in required!
 
 * Please note that this is a modpack; not a plugin. Check the status and future content in the wiki for updates. **Stay tuned & check [here!](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/3972-current-status-future-patches/)**
     * General Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/discussions/11)
@@ -19,26 +26,15 @@ This project has been in the works for many years. It's only been shared private
     * Class Balance Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/discussions/13)
     * Weapon Balance Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/discussions/14)
 
-* Most likely will **NOT** be compatible with other custom Rundowns or modpacks that changes the same Datablocks. You must merge the appropriate datablocks yourself to apply compatibility. Even then this mod pack's features working 100% can be questionable.
-
 * With the addition of keybind-based triggers that came along with `v2.3.0`. **PLEASE** check the EWC(ExtraWeaponCustomization) config and change the keybind to YOUR settings. I am aware that not everyone have keypads for their keyboards. 
     * Go to `Edit Config` within Thunderstore client -> Search for `ExtraWeaponCustomization.cfg` -> `Edit Config` -> Change keybinds 1 through 4 under `Keybind Settings` section
     * Be advised that any keybind changes might reset with each update.
 
-* It has come to my attention with bots being broken in the lobby that prevents dropping down a rundown(Fixed in `v2.3.1`). Caused by bots having weapons/tools that have been changed and it is loading something that doesn't exist. What you can do:
-    * Install `NoBrokenBotGear` mod by JarheadHME if using **pre-v2.6.1 version**
+* It has come to my attention with bots being broken in the lobby that prevents dropping down a rundown(fixed in `v2.3.1+`). Caused by bots having weapons/tools that have been changed and it is loading something that doesn't exist. What you can do:
+    * Install `NoBrokenBotGear` mod by JarheadHME if using **pre-v2.3.1 version**
     * Delete the `BotGear.json` file within `BepInEx/GameData/Favorites/Botgear.json` of your profile.
     * Or search the file in `Edit Config` and delete the file.
     * Or try to change the gear before the bot disappears within the lobby(unreliable).
-
-### Recommended mods:
-* Can be played Vanilla with other mods with this mod-pack, especially with client-side mods. It's recommended to use several bug fix mods to prevent further issues with GTFO. But it's up to the players if they want them or not. It's not necessary to add them in. List: [Thunderstore wiki link](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/4030-recommend-mods-wip/)
-> Dev Note: These are recommended, but not needed. Some of these mods will have configs that might be packaged with the mod-pack, but not the mod itself. These aren't necessary, but nice to have on the list.
-
-* Recommend to check out the_tavern's [AutogenRundown](https://thunderstore.io/c/gtfo/p/the_tavern/AutogenRundown/) mod, especially **AFTER** you have finished GTFO's vanilla rundowns. It provides new rundowns generated daily, weekly, monthly, and each season. Automatic Rundown generation, using procedural seed based generation!
-    * Additional work might be required to achieve better compatibility. Some features from GTFriendlyO or AutogenRundown may or may not work well with each other.
-
-* `LobbyExpansion` mod[Here](https://thunderstore.io/c/gtfo/p/Cactus/LobbyExpansion/) has been reported to me that it does work. But keep in mind that the game's performance will start taking a hit after 4 players.
 
 ## Major Changes:
 
@@ -61,7 +57,7 @@ This project has been in the works for many years. It's only been shared private
 * Increased base Infection Resistance to `+20%`
 * Going down will inflict a `10%` infection penalty. 
     * It can be resisted with booster effects or cleansed with disinfection.
-> Dev Note: These changes are to make the players die a little slower as well as significantly benefit from the class scaling. I also want to emphasize that it's harder to get punished, but it's a lot more profound. Decreased hacking proficiency is to encourage Field Technician class, and the increased base infection is to prevent large burst of stacking infection(not slow infection).
+> Dev Note: These changes are to make the players die a little slower as well as significantly benefit from booster effects. I also want to emphasize that while it's harder to get punished, but it's a lot more profound.
 
 ### Classes:
 
@@ -98,6 +94,7 @@ This project has been in the works for many years. It's only been shared private
 - Silence CC does not mean silent weapon, it's the capability to temporarily disable some enemy abilities such as non-boss tongues.
 - DoT stands for Damage-over-Time effect that deals damage based on ticks per second.
 - Reserve Ammo means there is no reloading, as the weapon utilizes the whole ammo reserve.
+> Dev Note: Significant changes were made to guns to make them less meta-chasing and more fun-chasing. There isn't really a "meta" weapon nor will I ever make one. Each gun has a specific niche or role to play. One gun might be very strong in a couple rundowns while being useless in others. Diversify the player's options is my design philosophy here.
 
 | ORIGINAL NAME			| NEW NAME							| TRAIT															| BALLISTICS		|
 |:----------------------|:----------------------------------|:--------------------------------------------------------------|:-----------------:|
@@ -107,7 +104,7 @@ This project has been in the works for many years. It's only been shared private
 | Raptus Treffen 2    	| Raptus MP2						| Full-auto                          	            			| Hitscan			|
 | Raptus Steigro      	| Raptus Reserve MP1				| Reserve ammo; no reload               						| Hitscan			|
 | Accrat Golok DA     	| Accrat 5-B Bullpup				| Standard bullets; 5-round burst fire           				| Hitscan			|
-| Van Auken LTC5      	| Techman Hemostasis Medic Gun		| Darts can heal/damage, switch between 3 modes(Healing/Disinfect, Movement Spd/Stamina, & Armor/Stamina) | Projectile		|
+| Van Auken LTC5      	| Techman Hemostasis Medic Gun		| Darts can heal/damage, switch between 3 modes(Healing/Disinfect, Movement Spd/Stamina, & Damage/Stamina) | Projectile		|
 | Accrat STB          	| Omneco Tracker PDW				| Tags target; thermal scope       								| Hitscan			|
 | Accrat ND6          	| Van Auken Heavy SMG				| Standard bullets												| Hitscan			|
 | Van Auken Cab F4    	| Accrat 3-B Carbine				| Standard bullets; 3-round burst 	                            | Hitscan			|
@@ -150,15 +147,15 @@ This project has been in the works for many years. It's only been shared private
 
 | TYPE       	| ROLE      | TRAITS  			         | STRENGTHS 	 								| WEAKNESSES								    	|
 |:--------------|:----------|:---------------------------|:---------------------------------------------|:--------------------------------------------------|
-| Sledgehammer	| Loud 		| Armor Shred Debuff         | High Heavy Damage & Stagger Multplier		| High Stamina Cost, & Sluggish						|
+| Sledgehammer	| Loud 		| Armor Shred Debuff & Stamina Regen  | High Heavy Damage & Stagger Multplier		| High Stamina Cost, & Sluggish						|
 | Knives 		| Silent 	| Bleed Damage		         | High Stealth/Backstab Damage & Fast Spd.		| Low Base Damage & Short Range						|
-| Spears		| Silent 	| Bio-Tag & Armor Pierce 	 | High Hitbox Range & Precision Multiplier		| High Stamina Cost, & Long Charge Time				|
+| Spears		| Silent 	| Bio-Tag & Armor Pierce & Lunge | High Hitbox Range & Precision Multiplier		| High Stamina Cost, & Long Charge Time				|
 | Bats 			| Loud 		| Stagger Explosive Kills  	 | High Light Damage & Low Stamina Cost			| Low Precision/Stealth Damage, & Low Heavy Damage	|
 
 ### Tools:
 
 * Most tool gear & items have received some tweaks. Overall increase in carrying capacity for items and sentry ammo.
-> Dev Note: The ResourceStacking mod will be an important upgrade for consumables.
+> Dev Note: The ResourceStacking mod will be an important upgrade for consumables. A huge collection of turrets and tools should allow players to think about what to bring. Instead of brining the same 2-3 tools in every rundown. Now you must weigh your options in each rundown.
 
 | SENTRIES       | RANGE 	| QUIRKS		  									| STRENGTHS 	 									| WEAKNESSES										|
 |----------------|----------|---------------------------------------------------|:--------------------------------------------------|:--------------------------------------------------|
@@ -180,13 +177,14 @@ This project has been in the works for many years. It's only been shared private
 * Minimum base health increase of 20.0 while larger elites and bosses received a massive health increase.
 * Each Enemy/Variant received new quirks to improve their strengths and solidify their identities.
 * Some names were changed to keep a consistent identification. For example: `Shooter -> Needler`
+> Dev Note: To combat the changes in power scaling, the enemies have been improved as well. I have gave them newer abilities and quirks that befit their "character" to enhance the overall gameplay. They are no longer just simple bullet sponges, but actual enemies with mechanics that compliment each other during hordes. Do not underestimate them now!
 
 | ENEMIES      				 | ABILITIES/TRAITS  													 | NOTES																					|
 |----------------------------|:----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
 | Strikers					 | Higher HP, but less damage											 | N/A, just punch'em.																		|
 | Needlers(Shooter) 		 | Stronger overall damage, but more fragile							 | N/A, just shoot'em.																		|
 | Strikers Giants 			 | Tongue grabs player to its melee range; cannot parry the pull, but can counter with timed double jump during pull		 | Loves pulling teammates out of bioscans, either kill quickly or disable(Medic Gun or Foam).      |
-| Scouts 					 | EMP(45.0s) after scream, invul. during EMP wind-up; Longer feelers, but visible	 | EMPs disable most electronics. Counter with the Specialist class!|
+| Scouts 					 | EMP(47.5s) after scream, invul. during EMP wind-up; Longer feelers, but visible	 | EMPs disable most electronics. Counter with the Specialist class!|
 | Birther 			         | Increased HP; Birth children on death that explodes   				 | Kill the babies first, then kill the mother fast.	     								|
 | Stalkers(Snatcher/Pouncer) | Snatched players take damage & Fast Dashes but long CDs; glue immune  | Takes longer to kill and can kill players now. They should not be ignored.				|
 | Giant & Bloom Needlers	 | Inflicts bleed(50% Chance) for 10.0% max HP damage over 10.0s; nonstackable	 | They are high-priority targets otherwise the team will suffer major damage.              |
@@ -219,6 +217,22 @@ This project has been in the works for many years. It's only been shared private
 * The two vanilla syringes have been altered for better use cases.
 * Added several new syringes that might spawn on several rundowns based on their spawn weight.
 * Check the [wiki](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/4332-7-syringe-information/) to see what each does! Some are straightforward while others are weird.
+
+---
+
+### Recommended Mods:
+
+* This mod most likely will **NOT** be compatible with other custom Rundowns or modpacks that changes the same datablocks. You must merge the appropriate datablocks yourself to apply compatibility. Even then, many of the pack's features working correctly can be questionable.
+
+* Can be played Vanilla with other mods with this mod-pack, especially with client-side mods. It's recommended to use several bug fix mods to prevent further issues with GTFO. But it's up to the players if they want them or not. It's not necessary to add them in. List: [Thunderstore wiki link](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/4030-recommend-mods-wip/)
+> Dev Note: These are recommended, but not needed. Some of these mods will have configs that might be packaged with the mod-pack, but not the mod itself. These aren't necessary, but nice to have on the list.
+
+* Recommend to check out the_tavern's [AutogenRundown](https://thunderstore.io/c/gtfo/p/the_tavern/AutogenRundown/) mod, especially **AFTER** you have finished GTFO's vanilla rundowns. It provides new rundowns generated daily, weekly, monthly, and each season. Automatic Rundown generation, using procedural seed based generation!
+    * Additional work might be required to achieve better compatibility. Some features from GTFriendlyO or AutogenRundown may or may not work well with each other.
+
+* `LobbyExpansion` mod[Here](https://thunderstore.io/c/gtfo/p/Cactus/LobbyExpansion/) has been reported to me that it does work. But keep in mind that the game's performance will start taking a hit after 4 players.
+
+---
 
 ### Extras:
 
