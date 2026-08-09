@@ -118,13 +118,13 @@
       "SyringeID": 227,
       "Properties": {
           "Ammo": {
-            "Min": -0.2,
-            "Max": -0.2,
+            "Min": -0.15,
+            "Max": -0.15,
             "Enabled": true
           },
           "Tool": {
-            "Min": -0.2,
-            "Max": -0.2,
+            "Min": -0.15,
+            "Max": -0.15,
             "Enabled": true
           },
           "RegenOverTime": {
