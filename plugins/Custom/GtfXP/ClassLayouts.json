@@ -119,7 +119,12 @@
           "Value": 1.3
         }
       ],
-        "LevelUpBonus": []
+        "LevelUpBonus": [
+          {
+            "SingleBuff": "Heal",
+            "Value": 1.0
+          }
+        ]
       }
     ]
   },
@@ -345,17 +350,21 @@
     "Header": "Abhuman",
     "GroupPersistentId": 2,
     "PersistentId": 22,
-    "InfoText": "Big strong. Not smart. Hit hard. Good friend. Follow orders. Kill h-h-h-eretics. That's plan! Lubb me Emprah, sah!\n<color=yellow>Specializes: Rock, meet heretic!</color>\n\n<color=green>Strengths: \n+150% Max Health, \n+50% Health Regen Cap, \n+100% Melee Damage, \n+40% Melee Range & Hitbox</color>\n\n<color=red>Weaknesses: \n-50% Initial Weapon Ammo, \n-70% Hacking Skill, \n-70% Terminal & Sentry CPU, \n-30% Movement Spd. & Melee Attack Spd., \n-40% Bioscan Spd. & Recharge Spd.</color>",
+    "InfoText": "Big strong. Not smart. Hit hard. Good friend. Follow orders. Kill h-h-h-eretics. That's plan! Lubb me Emprah, sah!\n<color=yellow>Specializes: Rock, meet heretic!</color>\n\n<color=green>Strengths: \n+150% Max Health, \n+50% Health Regen Cap, \n+100% Melee Damage, \n+40% Melee Range & Hitbox, \n+20% Ammo Capacity</color>\n\n<color=red>Weaknesses: \n-25% Initial Weapon Ammo, \n-70% Hacking Skill, \n-70% Terminal & Sentry CPU, \n-30% Movement Spd. & Melee Attack Spd., \n-40% Bioscan Spd. & Recharge Spd.</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Abhuman\n<color=green>Max Health 250%, Health Regen Cap 150%, Melee Damage 200%, Melee Range & Hitbox 140%</color>\n<color=red>Initial Weapon Ammo 50%, Hacking Skill 30%, Terminal & Sentry CPU 30%, Movement Spd. & Melee Attack Spd. 70%, Bioscan Spd. & Recharge Spd. 60%</color>",
+        "CustomLevelStatsText": "Class: Abhuman\n<color=green>Max Health 250%, Health Regen Cap 150%, Melee Damage 200%, Melee Range & Hitbox 140%, Ammo Capacity 120%</color>\n<color=red>Initial Weapon Ammo 25%, Hacking Skill 30%, Terminal & Sentry CPU 30%, Movement Spd. & Melee Attack Spd. 70%, Bioscan Spd. & Recharge Spd. 60%</color>",
         "HealthMultiplier": 2.5,
         "MeleeDamageMultiplier": 2.0,
         "WeaponDamageMultiplier": 1.0,
         "CustomScaling": [
+          {
+            "CustomBuff": "AmmoCapacity",
+            "Value": 1.2
+          },
           {
             "CustomBuff": "MovementSpeedMultiplier",
             "Value": 0.7
@@ -377,11 +386,16 @@
             "Value": 0.7
           }
         ],
-        "LevelUpBonus": [],
+        "LevelUpBonus": [
+          {
+            "SingleBuff": "Heal",
+            "Value": 1.0
+          }
+        ],
         "StartingBuffs": {
-          "AmmunitionMainMultiplier": 0.5,
-          "AmmunitionSpecialMultiplier": 0.5,
-          "AmmunitionToolMultiplier": 0.5
+          "AmmunitionMainMultiplier": 0.75,
+          "AmmunitionSpecialMultiplier": 0.75,
+          "AmmunitionToolMultiplier": 0.75
         }  
       }
     ]
@@ -435,13 +449,13 @@
     "Header": "Courier",
     "GroupPersistentId": 2,
     "PersistentId": 24,
-    "InfoText": "Hardly spoke to folks around him, didn't have too much to say. No one dared to ask his business, no one dared to make a slip.\n<color=yellow>Specializes: The stranger there among them had a big iron on his hip.</color>\n\n<color=green>Strengths: \n+50% Revolver/Sniper/Shotgun/Tripmine, \n+20% Initial Ammo, \nLiving Bio Tracker</color>\n\n<color=red>Weaknesses: \n-80% Infection/Explosion/Bullet/Bleed Res., \n-20% Ammo/Tool Capacity, \n-10% Gun/Tool Ammo Received</color>",
+    "InfoText": "Hardly spoke to folks around him, didn't have too much to say. No one dared to ask his business, no one dared to make a slip.\n<color=yellow>Specializes: The stranger there among them had a big iron on his hip.</color>\n\n<color=green>Strengths: \n+50% Revolver/Sniper/Shotgun/Tripmine, \n+25% Initial Gun Ammo, \nLiving Bio Tracker</color>\n\n<color=red>Weaknesses: \n-80% Infection/Explosion/Bullet/Bleed Res., \n-20% Ammo/Tool Capacity, \n-10% Gun/Tool Ammo Received</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Courier\n<color=green>Revolver/Sniper/Shotgun/Tripmine 150%, Initial Ammo 120%, Living Bio Tracker</color>\n<color=red>Infection/Explosion/Bullet/Bleed Res. 20%, Ammo/Tool Capacity 80%, Gun/Tool Ammo Received 90%</color>",
+        "CustomLevelStatsText": "Class: Courier\n<color=green>Revolver/Sniper/Shotgun/Tripmine 150%, Initial Gun Ammo 125%, Living Bio Tracker</color>\n<color=red>Infection/Explosion/Bullet/Bleed Res. 20%, Ammo/Tool Capacity 80%, Gun/Tool Ammo Received 90%</color>",
         "HealthMultiplier": 1.0,
         "MeleeDamageMultiplier": 1.0,
         "WeaponDamageMultiplier": 1.0,
@@ -477,8 +491,8 @@
         ],
         "LevelUpBonus": [],
         "StartingBuffs": {
-          "AmmunitionMainMultiplier": 1.2,
-          "AmmunitionSpecialMultiplier": 1.2
+          "AmmunitionMainMultiplier": 1.25,
+          "AmmunitionSpecialMultiplier": 1.25
         }  
       }
     ]
