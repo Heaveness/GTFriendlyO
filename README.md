@@ -17,9 +17,6 @@ Play together or die together! And don't be afraid to share your experiences wit
 
 * This is a script heavy mod pack with tons of changes done to the base game. Those with low-end PCs should lower their settings to LOW. I also highly recommend you let someone with a strong PC and/or decent internet to be hosting.
 
-* Check out the **GTFriendlyO Feedback Form(No email or sign-in required)** at [Google Form Link](https://forms.gle/z5ZgyaRP5SEACAWq8)
-    * This is to encourage players to give me feedback without the hassle of having a Discord, Google, or Github account. No email or sign-in required!
-
 * Please note that this is a modpack; not a plugin. Check the status and future content in the wiki for updates. **Stay tuned & check [here!](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/3972-current-status-future-patches/)**
     * General Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/discussions/11)
     * Enemy Balance Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/discussions/12)

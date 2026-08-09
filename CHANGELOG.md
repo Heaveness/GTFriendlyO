@@ -7,8 +7,6 @@
 
 * Check "Description" on main page for keybind configs instructions under "Important" section. And wiki for keybinds on specific weapons.
 
-* Check out the **GTFriendlyO Feedback Form(No email or sign-in required)** at [Google Form](https://forms.gle/z5ZgyaRP5SEACAWq8)
-
 ### Mod Updates:
 * Updated `DescriptiveWeaponStatShower` mod
 * Updated `EEC_H` mod
@@ -36,6 +34,10 @@
     * Fixed classes with initial ammo buffs and debuffs being reapplied when reconnecting back into a lobby
     * Fixed classes not giving correct damage bonuses
         * Some classes might get a bump in damage
+
+* Quartermaster:
+    * Increased Ammo Capacity from `+30%` to `+40%`
+    * Increased Initial Gun Ammo from `+20%` to `25%`
 
 * Deprived:
     * Decreased Max Health penalty from `-80%` to `-75%`
