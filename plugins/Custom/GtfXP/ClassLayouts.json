@@ -177,13 +177,13 @@
     "Header": "Quartermaster",
     "GroupPersistentId": 1,
     "PersistentId": 13,
-    "InfoText": "Excels at ammo efficiency and suppressive fire, but lacks movement spd.\n<color=yellow>Specializes: HMG/LMG/MP/Max Ammo/Higher Regen Cap</color>\n\n<color=green>Strengths: \n+20% HMG/LMG/MP Damage, \n+30% Ammo Capacity, \n+20% Initial Gun Ammo, \n+30% Supply Pack Efficiency, \n+65% Health Regen Cap</color>\n\n<color=red>Weaknesses: \n-30% Damage except Specialized Guns, \n-40% Movement Spd. \n-20% Initial Tool Ammo</color>",
+    "InfoText": "Excels at ammo efficiency and suppressive fire, but lacks movement spd.\n<color=yellow>Specializes: HMG/LMG/MP/Max Ammo/Higher Regen Cap</color>\n\n<color=green>Strengths: \n+20% HMG/LMG/MP Damage, \n+40% Ammo Capacity, \n+25% Initial Gun Ammo, \n+30% Supply Pack Efficiency, \n+65% Health Regen Cap</color>\n\n<color=red>Weaknesses: \n-30% Damage except Specialized Guns, \n-40% Movement Spd. \n-20% Initial Tool Ammo</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Quartermaster\n<color=green>HMG/LMG/MP Damage 120%, Ammo Capacity 130%, Initial Gun Ammo 120%, Supply Pack Efficiency 130%, Health Regen Cap 165%</color>\n<color=red>Damage except Specialized Guns 70%, Movement Spd. 60%, Initial Tool Ammo 80%</color>",
+        "CustomLevelStatsText": "Class: Quartermaster\n<color=green>HMG/LMG/MP Damage 120%, Ammo Capacity 140%, Initial Gun Ammo 125%, Supply Pack Efficiency 130%, Health Regen Cap 165%</color>\n<color=red>Damage except Specialized Guns 70%, Movement Spd. 60%, Initial Tool Ammo 80%</color>",
         "HealthMultiplier": 1.0,
         "MeleeDamageMultiplier": 1.0,
         "WeaponDamageMultiplier": 1.0,
@@ -194,7 +194,7 @@
           },
           {
             "CustomBuff": "AmmoCapacity",
-            "Value": 1.31
+            "Value": 1.4
           },
           {
             "CustomBuff": "ExplosionResistance",
@@ -204,11 +204,11 @@
         "LevelUpBonus": [
 		      {
             "SingleBuff": "AmmunitionMain",
-            "Value": 0.2
+            "Value": 0.26
           },
 		      {
             "SingleBuff": "AmmunitionSpecial",
-            "Value": 0.2
+            "Value": 0.26
           },
           {
             "SingleBuff": "AmmunitionTool",
