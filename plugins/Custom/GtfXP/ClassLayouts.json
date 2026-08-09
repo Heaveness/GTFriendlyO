@@ -194,30 +194,17 @@
           },
           {
             "CustomBuff": "AmmoCapacity",
-            "Value": 1.4
+            "Value": 1.41
           },
           {
             "CustomBuff": "ExplosionResistance",
             "Value": 0.8
           }
         ],
-        "LevelUpBonus": [
-		      {
-            "SingleBuff": "AmmunitionMain",
-            "Value": 0.26
-          },
-		      {
-            "SingleBuff": "AmmunitionSpecial",
-            "Value": 0.26
-          },
-          {
-            "SingleBuff": "AmmunitionTool",
-            "Value": -0.2
-          }
-		    ],
+        "LevelUpBonus": [],
         "StartingBuffs": {
-          "AmmunitionMainMultiplier": 1.2,
-          "AmmunitionSpecialMultiplier": 1.2,
+          "AmmunitionMainMultiplier": 1.26,
+          "AmmunitionSpecialMultiplier": 1.26,
           "AmmunitionToolMultiplier": 0.8
         }   
       }
