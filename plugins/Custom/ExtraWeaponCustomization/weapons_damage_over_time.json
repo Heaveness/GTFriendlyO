@@ -103,7 +103,7 @@
             "AimActive": true,
             "Angle": 2,
             "Range": 60,
-            "LockTime": 0.5,
+            "LockTime": 0.4,
             "LockDecayTime": 0.8,
             "StayOnTarget": true,
             "ResetOnNewTarget": true,
