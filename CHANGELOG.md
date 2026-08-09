@@ -49,11 +49,15 @@
 > Dev Note: This class is still very strong, but I don't want to nerf any harder than this. Plus I feel like being a survivor of the wasteland would "find" less ammo in the wild.
 
 * Abhuman:
+    * Increased Max Health bonus from `+150%` to `+200%`
+        * HP: `150.0` to `180.0`
+    * Increased Regen Cap bonus from `+50%` to `+300%`
+        * Cap: `30.0` to `80.0`
     * Increased Melee Range & Hitbox bonus from `+40%` to `+50%`
-    * Decreased Initial Ammo penalty from `-50%` to `-30%`
+    * Decreased Initial Ammo penalty from `-50%` to `-40%`
     * Added `Heal` bonus on drop
         * To prevent class from spawning will less current HP since their increased max health is not giving the correct health
-> Dev Note: Giving Abhuman some love by lowering the penalty on initial ammo like I have done with the other classes. Increased Melee range and hitbox benefits Sledgehammers and bats the most as they can hit multiple targets in a single swing.
+> Dev Note: Giving Abhuman some love as the true tank of the team. They might not be the brightest minds, but the toughest in the thick of battle. After more balance testing, having too low of a regen cap that did not benefit from a higher max health. Their negatives were more profound than their positives.
 
 * Shock Trooper:
     * Added `Heal` bonus on drop
@@ -147,9 +151,11 @@
     * Fixed Trait Description mentioning the old Mode 3's Armor/Stamina
 
 * Wall-Pen Sniper:
+    * Decreased Gear FOV Zoom from `10` to `13`
+    * Decreased Scope FOV Zoom from `17` to `22`
     * Increased Direct Damage from `125.5` to `130.5`
     * Increased Reload Time from `4.3s` to `4.5s`
-> Dev Note: 5 damage increase doesn't sound like much but this gun has a high very precision multiplier which is up to 30 extra damage. So the longer reload timer is to offset its bump in power.
+> Dev Note: 5 damage increase doesn't sound like much but this gun has a high very precision multiplier which is up to 30 extra damage. So the longer reload timer is to offset its bump in power. As well as improve the QoL with using this scope as it is comically large when zooming.
 
 * Nano Gauss Rifle:
     * Increased Projectile Hit Size Bonus from `+0.5m` to `+0.6m`
@@ -180,7 +186,7 @@
 ### Enemy Tweaks:
 * Giant Variants:
     * Decreased Melee Damage by `16.5` to `11.5` (roughly 30% decrease)
-> Dev Note: While they are suppose to be strong with their pull combo. Since they punch twice, it does "double" damage onto the player. That is baseline half of the player's health. Now it's a little over 1/3 which should be more fair, especially with armor buffs.
+> Dev Note: While they are suppose to be strong with their pull combo. Since they sometimes punch twice, that does "double" damage onto pulled players. That is baseline half of the player's health. Now it's a little over 1/3 which should be more fair, especially with armor buffs.
 
 ### Syringe Tweaks:
 * Heal Munitions Drain Syringe
