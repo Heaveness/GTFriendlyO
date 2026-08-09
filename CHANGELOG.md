@@ -30,21 +30,34 @@
 * Updated `GTFuckingXP` mod
     * Renabled Current Level text above player names
         * This is to provide class name above player names for better team information
-        * There is NO XP or leveling system. The `Lv. O` text is just flavour.
+        * There is NO XP or leveling system. The `Lv. O` text is just flavour
+
+* All Classes:
+    * Fixed classes with initial ammo buffs and debuffs being reapplied when reconnecting back into a lobby
+    * Fixed classes not giving correct damage bonuses
+        * Some classes might get a bump in damage
 
 * Deprived:
     * Decreased Max Health penalty from `-80%` to `-75%`
     * Decreased Initial Ammo penalty from `-50%` to `-40%`
 
 * Courier:
+    * Fixed Initial Ammo text, as it should be Gun only not both Gun and Tool
+    * Increased `Initial Gun Ammo` from `+20%` to `+25%`
     * Added `Gun/Tool Ammo Received` penalty
         * Received Ammo: `-10%`
 > Dev Note: This class is still very strong, but I don't want to nerf any harder than this. Plus I feel like being a survivor of the wasteland would "find" less ammo in the wild.
 
-* All Classes:
-    * Fixed classes with initial ammo buffs and debuffs being reapplied when reconnecting back into a lobby
-    * Fixed classes not giving correct damage bonuses
-        * Some classes might get a bump in damage
+* Abhuman:
+    * Increased Melee Range & Hitbox bonus from `+40%` to `+50%`
+    * Decreased Initial Ammo penalty from `-50%` to `-30%`
+    * Added `Heal` bonus on drop
+        * To prevent class from spawning will less current HP since their increased max health is not giving the correct health
+> Dev Note: Giving Abhuman some love by lowering the penalty on initial ammo like I have done with the other classes. Increased Melee range and hitbox benefits Sledgehammers and bats the most as they can hit multiple targets in a single swing.
+
+* Shock Trooper:
+    * Added `Heal` bonus on drop
+        * same reason as Abhuman mentioned above
 
 ### Player Tweaks:
 * Parry: (To use parry successfully, you must shove at the right moment of impact)
@@ -55,6 +68,9 @@
     * Increased Tentacle Parry Damage(Explosion) from `1.0` to `5.0`
     * Increased Tentacle Parry Radius from `2.0m` to `4.0m`
 > Dev Note: Parry should feel a bit more rewarding to execute. Friendly reminder that you can parry ally gun shots and redirect it towards your crosshair. Make what you will with this information.
+* Increased Base Ammo Refill from `0.91x` to `0.95`
+* Increased Base Tool Refill from `0.6x` to `0.8x`
+> Dev Note: Increased the baseline ammo/tool refill to not force, but encourage teams to have a quartermaster. Though this also buffs them as it increases the baseline which they benefit from too.
 
 ### Melee Tweaks:
 * Sledgehammer:
@@ -95,7 +111,6 @@
 ### Weapon Tweaks + Fixes:
 * Updated `ModifierAPI` mod
 * Updated `ExtraWeaponCustomization` mod
-
 * Drum Mag AR:
     * Decreased Direct Damage from `3.1` to `3.0`
     * Increased Stagger Multiplier from `1.3x` to `2.5x`
@@ -116,14 +131,17 @@
 > Dev Note: This does not affect the ricochet shrapnel caused by hitting the terrain.
 
 * HEL Rifle:
-    * Increased Total DoT Damage from `25.0` to `35.0`
+    * Increased Total DoT Damage from `25.0` to `40.0`
     * Increased DoT Precision Multiplier from `1.2x` to `1.3x`
     * Increased DoT Duration from `6.0s` to `10.1s`
+    * Decreased Lock-on Time from `0.5s` to `0.4s`
 > Dev Note: This gun felt like it should be doing more. Yet I didn't want it to overshadow the high-tier weapons like the sniper or gauss rifle. So it had to be somewhere in the middle, the total damage is higher but the distribution takes much longer.
 
 * Arc Subjugator:
+    * Increased DoT Stagger Multiplier from `500.0x` to `1000.0x`
     * Fixed the incorrect weapon subtext name
         * Changed from `(Shotgun)` to `(???)`
+> Dev Note: It was having trouble staggering certain enemies variants.
 
 * Medic Gun:
     * Fixed Trait Description mentioning the old Mode 3's Armor/Stamina
@@ -158,6 +176,16 @@
 * C-Foam Mine Deployer:
     * Changed name to `Stalwart Snare Trap Tool`
         * To prevent confusing this tool with the c-foam launcher at a glance.
+
+### Enemy Tweaks:
+* Giant Variants:
+    * Decreased Melee Damage by `16.5` to `11.5` (roughly 30% decrease)
+> Dev Note: While they are suppose to be strong with their pull combo. Since they punch twice, it does "double" damage onto the player. That is baseline half of the player's health. Now it's a little over 1/3 which should be more fair, especially with armor buffs.
+
+### Syringe Tweaks:
+* Heal Munitions Drain Syringe
+    * Decreased Tool Ammo Drain from `-20%` to `-15%`
+    * Decreased Gun Ammo Drain from `-20%` to `-15%`
 
 ### Miscellaneous Fixes:
 * Changed README.md
@@ -202,7 +230,6 @@
 > Dev Note: Reigning the class a bit since most of their sentries got baseline buffs.
 
 ### Weapon Tweaks + Fixes:
-
 * Javelin Rifle:
     * Increased Total DoT Damage from `55.0` to `60.0`
 
@@ -228,7 +255,6 @@
     * Fixed armor buff overriding other armor bonuses
 
 ### Melee Tweaks:
-
 * Sledgehammer:
     * Increased Heavy Damage from `39.5` to `40.5`
     * Increased Heavy Stagger Multiplier from `2.5x` to `3.5x`
@@ -241,7 +267,6 @@
 > Dev Note: This melee still needs a bit more help dealing with regular targets during hordes.
 
 ### Tool Tweaks:
-
 * Foam Mine Deployer:
     * Decreased Bubble Angle from `45` to `30`
 > Dev Note: In hindsight, I might have overdone the angle distribution. Still its main job is complete as I wanted a better identity for this tool than just being a Foam Launcher lite.
