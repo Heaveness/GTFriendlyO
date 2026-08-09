@@ -388,7 +388,7 @@
             "UseVisibilityRaycastDuringTentacleAttack": false,
             "TentacleAttackDamageRadiusIfNoTunnelCheck": 0.0,
             "TentacleAttackDamage": 4.0,
-            "MeleeAttackDamage": 16.5,
+            "MeleeAttackDamage": 11.5,
             "MeleeAttackDamageCheckRadius": 1.3,
             "TagTime": 60.0,
             "EnemyCollisionRadius": 0.8,
