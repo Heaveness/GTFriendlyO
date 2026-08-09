@@ -84,7 +84,7 @@
         "Duration": 25.5,
         "TickRate": 6,
         "PrecisionDamageMulti": 1.0,
-        "StaggerDamageMulti": 500.0,
+        "StaggerDamageMulti": 1000.0,
         "FriendlyDamageMulti": 0.2,
         "HitmarkerCooldown": 4.5,
         "IgnoreArmor": true,
