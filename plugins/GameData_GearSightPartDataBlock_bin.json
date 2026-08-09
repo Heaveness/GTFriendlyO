@@ -1202,8 +1202,8 @@
         }
       ],
       "SightProperties": {
-        "GearFovZoom": 10,
-        "WorldFovZoom": 17,
+        "GearFovZoom": 13,
+        "WorldFovZoom": 22,
         "ZoomSensitivityModifier": 1.0
       },
       "name": "SightSP_1",
