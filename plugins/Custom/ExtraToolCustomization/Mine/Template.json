@@ -16,7 +16,7 @@
     "FoamData": null,
     "BeamData": {
       "Color": "#FF0000", 
-      "Width": 1, 
+      "Width": 2, 
       "Length": 12 
     },
     "LightData": {
@@ -73,7 +73,7 @@
     },
     "BeamData": {
       "Color": "#0062FFFF",
-      "Width": 1,
+      "Width": 2,
       "Length": 15
     },
     "LightData": {
