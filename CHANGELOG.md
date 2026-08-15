@@ -1,11 +1,97 @@
 # Changelog
 
-## **v2.5.0** - Latest
+## **v2.5.1** - Latest
 
 ### Personal Note:
+
 * It's generally fine to update any mods. Regular bug fixes and QoL improvements are always welcome, but be cautious when updating mods with large changes. Keep in mind that every mod update has the potential to break something within this pack. Even I cannot guarantee every update stability. So you should personally do your research before updating them.
 
 * Check "Description" on main page for keybind configs instructions under "Important" section. And wiki for keybinds on specific weapons.
+
+### Mod Addition + Updates:
+* Added `NoInterruptions` mod by hirnukuono
+> Dev Note: Fixes a major bug with terminals that causes them to become unuseable, especially after use. This bug can potentially soft-lock players from terminal-based objectives. 
+* Added `TerminalPingFix` mod by Andocas
+    * Increased Ping Fade Out Timer from `4.0s` to `8.0s`
+    * More than 1 Ping can be active at a time now
+> Dev Note: Makes the constant ping command usage a little less annoying while making it more consistent and reliable. I still want to encourage teamwork between 1 terminal user and 1 retriever; just less spammy.
+* Added `CustomMenuBarButtons` mod by Panthr75    
+* Added `Log Library` mod by JarheadHME
+    * Ability to archive and reread text & audio logs in a library after unlocking them. 
+    * They are located within a button called "Library"
+    * Supports modded rundowns, if set up by their devs. 
+> Dev Note: Massively improves QoL for players who love to read into GTFO's lore. Instead of being stuck on the terminal while teammates wait or force to play solo for lore. This allows players to read and explore at their own leisure.
+
+### Player Tweaks:
+* Parry
+    * Fixed Parry using the wrong effective range distance.
+
+### Balance Tweaks + Fixes:
+* Healing Turret:
+    * Increased Shot Delay from `20.5s` to `23.5s`
+> Dev Note: It's still a bit too strong when the healing can be reapplied moments after the healing DoT ends. This is especially more prevalent whenever teams bring more than 1 healing turret. So there will be a slight delay before the next heal fires. This should also give players a bit more time to return to the turret's influence.
+
+* Demolitionist:
+    * Changed text inline with other classes regarding specialization
+        * Added `Javelin` and `RYN0 Annihilator`
+    * Increased Tripmine Damage bonus from `+50%` to `+75%`
+    * Increased Explosive Resistance from `+80%` to `+85%`
+> Dev Note: This class hasn't been buffed/nerfed in a long time. Might deserve some love as the other classes gotten theirs. Keep in mind that the more damage this class does, the higher the friendly fire damage. 
+
+* Explosive Cannon:
+    * Decreased Direct Damage from `3.1` to `1.0`
+    * Increased Maximum Explosion Damage from `50.0` to `55.0`
+    * Increased Minimum Explosion Damage from `40.0` to `45.0`
+    * Increased Explosion Stagger Multiplier from `2.5x` to `3.0x`
+    * Increased Explosion Inner Radius from `1.0m` to `2.0m`
+    * Increased Explosion Outer Radius from `5.0m` to `6.0m`
+
+* Explosive Rifle:
+    * Changed `Front` Gear Part
+    * Increased Direct Damage from `15.5` to `17.5`
+    * Increased Explosion Damage from `11.0` to `11.5`
+    * Increased Explosion Stagger Multiplier from `1.5x` to `2.0x`
+
+* Explosive Shotgun:
+    * Increased Pellet Count from `36` to `40`
+
+* Reserve Hemorrhage Shotgun:
+    * Increased Pellet Count from `10` to `11`
+
+* Javelin:
+    * Fixed DoT applying to all damage when it should be bullet only
+    * Changed classification from `DMR` to `Explosive`
+    * Decreased Max Ammo from `40` to `35`
+    * Increased DoT Stagger Multiplier from `100.0x` to `200.0x`
+    * Increased Explosion Damage from `5.0` to `30.0`
+    * Decreased Explosion Stagger Multiplier from `2.0x` to `1.5x`
+    * Decreased Explosion Radius from `6.0m` to `5.0m`
+> Dev Note: Trying a different design philosophy with this gun to be more consistent.
+
+* Medic Gun:
+    * Changed class text from `Healing/Venomous Subgun (SMG)` to `Heal/Venom Subgun (SMG)`
+    * Increased Max Ammo from `100` to `110`
+    * Increased Mode 2 Player Speed Buff from `+20%` to `+25%`
+    * Increased Mode 2 Player Speed Buff Duration from `10.0s` to `30.0s`
+    * Increased Mode 3 Player Damage Buff Duration from `12.1s` to `30.0s`
+> Dev Note: To encourage Medic Gun users to use the other two modes instead of saving up for Mode 1 healing only.
+
+* Exterminatur Flamer:
+    * Added `(???)` to its classification
+
+* RYN0 Annihilator:
+    * Fixed having the incorrect damage profile: (Explosive)
+
+* Foam Snare Tool:
+    * Increased Beam Width from `1.0m` to `2.0m`
+
+* Mine Deployer:
+    * Increased Beam Width from `1.0m` to `2.0m`
+> Dev Note: Thicker beams will allow for more visual identification between deployer and consumable version.
+
+---
+
+### v2.5.0
 
 ### Mod Updates:
 * Updated `DescriptiveWeaponStatShower` mod
@@ -872,7 +958,6 @@
         * Foam Chance: `Override Guaranteed`
         * Foam Doors: `Yes`
         * Foam Door Requirements: `1` bolt if you hit the door after the first foam bolt hits
-> Dev Note: The first "silent" weapon in the pack. To prevent this weapon's potential imbalance nature, the damage will be significantly more reliable in stealth scenarios. Its low max ammo capacity encourages players to shoot with purpose, as kills will refund only 1 ammo per target.
 * **Techman Wisp Thrower:**
 * An experimental entity that floats mid-air and attacks nearby targets until it bursts into several quills at the end of its life.
     * Max Ammo: `40`
@@ -893,7 +978,6 @@
     * Wisp Death Quill Count: `10`
     * Wisp Death Quill Damage: `5.0`
     * Wisp Quill Max Range: `25.0m`
-> Dev Note: An interesting weapon that has multiple uses. It has a good area denial which should pair well with trip mines and turrets. Also, it provides light which is great during EMP events or dark rundowns.
 * **Van Auken Exp. Beam Rifle:**
 * A manufactured copy of a patented prototype beam rifle in collabration with Techman Biotechnics.
     * Direct Damage: `1.5`
@@ -915,7 +999,6 @@
     * Shrapnel Count: `1`
     * Shrapnel Direct Damage: `0.1`
     * Shrapnel can contribute to DoT stacks
-> Dev Note: Thanks to FE3, Dinorush, and EWC for the template to create this weapon. It's a concept that looks a little weird, but might have a niche usage. Does a significant amount of damage to single target, it is not recommended to spray fire as the base damage is very low.
 ### Tool Additions:
 * Added `1` new custom tool!
 * **Van Auken RYN0 Annihilator:**
@@ -938,7 +1021,6 @@
         * Standing: `-14.0m`
         * Crouching: `-8.0m`
         * Jumping: `-18.0m`
-> Dev Note: This is a meme weapon/tool and a little nod to one of the best sci-fi action-adventure game series ever made.
 
 ### Weapon Tweaks + Fixes:
 * Medic Gun **Rework**:
@@ -992,7 +1074,6 @@
                 * Decreased Precision Multiplier from `1.0x` to `0.75x`
                 * Increased Stagger Multiplier from `0.5x` to `1.0x`
             * Enemy Silence(CC)
-> Dev Note: Here I am modifying the medic gun again. With these new changes, it will add a lot more complexity to the gun itself. Effectively making it the defacto "support" weapon.
 * HMG:
     * Added `ThickBullet` property:
         * Added `0.2m` to projectile hitbox
@@ -1009,7 +1090,6 @@
     * Increased Reload Time from `2.5s` to `2.8s`
     * Added `ThickBullet` property:
         * Added `0.15m` to projectile hitbox
-> Dev Note: It should feel a little less punishing to spray into a crowd in a general area
 * Full-Auto Light AR: **Rework**
     * Changed name from `Full-Auto Light AR` to `4-B Nade Launcher AR`
     * Changed `Scope` Part (improved the FOV & zoom of this scope)
@@ -1061,12 +1141,10 @@
             * Activated by using specific keybind trigger(Default Keybind: KeypadEnter[KeyConfig1])
         * Full-Auto:
             * Activated by using specific keybind trigger(Default Keybind: KeypadPlus[KeyConfig2])
-> Dev Note: These two guns need a bit more love as they were basically two of the same. Also they sort of lacked identity compare to the other rifles.
 * Foam Pistol:
     * Increased Glue Bubble Expansion Speed from `0.1x` to `0.25x`
     * Switched `ArmorShred` to `ShotModDebuff` property:
         * Applies `+30%` increased base damage(excluding precision & stagger) debuff on an enemy target for all sources
-> Dev Note: With a lot of new options to foam targets, the Foam Pistol lost a lot of its place in the roster. So I am switching the armorshred to a "Increase Damage Taken" debuff on the target that is currently unique to this gun only.
 * Exp. Smart Rifle:
     * Changed `Front` Part
     * Changed `Receiver` Part
@@ -1076,7 +1154,6 @@
     * Increased Minimum Projectile Distance from `10.0m` to `25.0m`
     * Added `Shrapnel` property:
         * A simple failsafe mechanism to lower the impact of orbiting projectiles
->Dev Note: Once a projectile times out around a target, a shrapnel similar to the original will spawn. This projectile will have a significantly stronger homing strength and angle which should properly hit its intended target more consistently. Orbiting projectiles might still get destroyed on a object or terrain.
 * Heavy Revolver:
     * Changed `Stock` Part to prevent a log spamming issue.
 * Tracker Pistol:
@@ -1089,13 +1166,11 @@
     * Changed `Receiver` Part
     * Changed `Magazine` Part
     * Increased Direct Damage from `35.1` to `40.1`
-> Dev Note: While the Tracker Rifle is doing its job, I feel like its damage is still struggling to kill even smaller targets compare to DMRs. Also, I personally did not enjoy the look of the rifle.
 * Hemorrhage HEL Rifle:
     * Increased Effective Range from `26.0m` to `35.0m`
     * Decreased Lock-on Angle Requirement from `3` to `2` degrees
     * Decreased Lock-on Time from `1.0s` to `0.5s`
     * Increased Lock-on Decay Time from `0.6s` to `0.8s`
-> Dev Note: A very strong precision rifle, but its auto-aim feature felt very clunky. Hopefully this will make it more useable in chaotic moments.
 * Pump-Action Shotgun:
     * Increased Max Ammo from `58` to `70`
 * Triple Barrel Shotgun:
@@ -1127,7 +1202,6 @@
     * Increased Fog Repeller/Turbine Power from `+80%` to `+100%`
     * Increased Initial Ammo Penalty from `-30%` to `-40%`
     * Decreased Ammo Cost Efficiency Penalty from `-30%` to `-20%`
-> Dev Note: The Specialist should feel a lot more powerful against the Fog mechanics, but the constant buffs in recent patches should result in a nerf somewhere to counter balance.
 * Paramedic:
     * Decreased Ammo Cost Efficiency Penalty from `-20%` to `-15%`
 * Quartermaster:
@@ -1143,7 +1217,6 @@
     * Increased Revive Speed bonus from `+15%` to `+25%`
 * Revive Spd. & Health `Aggressive` Booster:
     * Increased Revive Speed bonus from `+20%` to `+30%`
-> Dev Note: The nature of revive speed works off the game's baseline 4.0s to 5.0s. So 45% is not worth a lot to risk taking all three boosters, now its 75% in the right condition which feel much more impactful.
 
 ### Tool Tweaks + Fixes:
 * Updated `ExtraToolCustomization` mod
@@ -1165,10 +1238,8 @@
             * Fog Repeller Launcher
             * Activated by using specific keybind trigger(Default Keybind: KeypadPlus[KeyConfig2])
             * Decreased Projectile Speed from `20.0m` to `15.0m` per second
-> Dev Note: You should no longer hear your teammate's vanilla default gun shots when using these weapons, only the appropriate ones.
 * 4-Burst Sentry:
     * Decreased Burst Delay from `2.0s` to `1.8s`
-> Dev Note: I want to slightly lower the Burst turret's clunkiness to be a bit more reliable on maps that have tight corners.
 * Missile Sentry:
     * Added text description for traits
     * Fixed explosion not having friendly fire multiplier. *Oopsie...*
@@ -1180,7 +1251,6 @@
     * Decreased Direct Damage from `1.0` to `0.5`
     * Decreased Projectile Glow Intensity from `0.25` to `0.05` (still bright, but not as before)
     * Increased Clip Regen Delay from `3.0s` to `5.0s`
-> Dev Note: I removed the scope as it was pointless; replaced with iron sight. Also the long exposure to the flamethrower was giving me eye strain...
 
 ### Melee Tweaks + Fixes:
 * Spear:
@@ -1191,7 +1261,6 @@
     * Added `ShotMod` Property when sprinting and charging heavy:
         * Increases damage of melee by `+30%`
             * Based on charge amount starting from `50%`(+15%) to `100%`(+30%)
-> Dev Note: While I want to keep the Spear as a stealth melee. The knife is simply just too good at its job, and I do not want to nerf it. Instead I give the Spear more skill expression. You can use this lunge for a speed boost or kill a target quickly. Time it correctly and you can kill without alerting the room.
 * Sledgehammer:
     * Fixed armor shred modifier not working correctly
     * Increased Armor Shred from `-30%` to `-40%`
