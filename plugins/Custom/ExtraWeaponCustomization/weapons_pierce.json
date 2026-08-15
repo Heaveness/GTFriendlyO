@@ -291,8 +291,8 @@
         "Duration": 4.5,
         "TickRate": 6,
         "PrecisionDamageMulti": 1.0,
-        "StaggerDamageMulti": 100.0,
-        "FriendlyDamageMulti": 0.2,
+        "StaggerDamageMulti": 200.0,
+        "FriendlyDamageMulti": 0.1,
         "HitmarkerCooldown": 4.5,
         "GlowColor": "#0047AB",
         "GlowIntensity": 1,
@@ -302,7 +302,7 @@
         "StackLimit": 5,
         "ApplyAttackCooldown": true,
         "Trigger": {
-          "Activate": "Hit",
+          "Activate": "Bullet Hit",
           "Apply": ["KeyConfig1", "Reload Start"],
           "ApplyDelay": 0.5
         }
@@ -337,20 +337,20 @@
       },
       {
         "Name": "Explosive",
-        "MaxDamage": 5.0,
-        "MinDamage": 5.0,
-        "InnerRadius": 6.0,
-        "Radius": 6.0,
-        "StaggerDamageMulti": 2.0,
+        "MaxDamage": 30.0,
+        "MinDamage": 30.0,
+        "InnerRadius": 5.0,
+        "Radius": 5.0,
+        "StaggerDamageMulti": 1.5,
         "FriendlyDamageMulti": 0.2,
         "DamageFriendly": true,
         "DamageOwner": true,
         "GlowColor": "#B22222",
         "GlowIntensity": 3,
         "GlowDuration": 1.5,
-        "GlowRange": 6.0,
+        "GlowRange": 5.0,
         "SoundID": 7691066,
-        "EnableMineFX": false,
+        "EnableMineFX": true,
         "Trigger": "DOT Kill"
       },
       {

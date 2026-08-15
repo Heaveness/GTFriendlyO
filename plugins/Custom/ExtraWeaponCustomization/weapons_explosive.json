@@ -6,12 +6,12 @@
     "Properties": [
       {
 		    "Name": "Explosive",
-        "MaxDamage": 50,
-        "MinDamage": 40,
-        "InnerRadius": 1.0,
-        "Radius": 5.0,
+        "MaxDamage": 55,
+        "MinDamage": 45,
+        "InnerRadius": 2.0,
+        "Radius": 6.0,
         "PrecisionDamageMulti": 0.5,
-        "StaggerDamageMulti": 2.5,
+        "StaggerDamageMulti": 3.0,
         "IgnoreFalloff": true,
         "DamageLimb": true,
         "IgnoreArmor": false,
@@ -26,6 +26,7 @@
         "EnableMineFX": true,
         "GlowColor": "#FF3300FF",
         "GlowDuration": 0.5,
+        "GlowRange": 6.0,
         "GlowFadeDuration": 1.0
       },
 	    {
@@ -116,12 +117,12 @@
     "Properties": [
       {
         "Name": "Explosive",
-        "MaxDamage": 11,
-        "MinDamage": 11,
+        "MaxDamage": 11.5,
+        "MinDamage": 11.5,
         "InnerRadius": 2.5,
         "Radius": 2.5,
         "PrecisionDamageMulti": 0.7,
-        "StaggerDamageMulti": 1.5,
+        "StaggerDamageMulti": 2.0,
         "IgnoreFalloff": true,
         "DamageLimb": true,
         "IgnoreArmor": false,
@@ -137,6 +138,7 @@
         "EnableMineFX": true,
         "GlowColor": "#FF3300FF",
         "GlowDuration": 0.5,
+        "GlowRange": 2.5,
         "GlowFadeDuration": 1.0
       },
 	  {
@@ -199,8 +201,8 @@
     "Properties": [
       {
 		    "Name": "Explosive",
-        "MaxDamage": 6,
-        "MinDamage": 6,
+        "MaxDamage": 6.0,
+        "MinDamage": 6.0,
         "InnerRadius": 1.5,
         "Radius": 1.5,
         "PrecisionDamageMulti": 1.0,
@@ -220,6 +222,7 @@
         "EnableMineFX": false,
         "GlowColor": "#FF3300FF",
         "GlowDuration": 0.5,
+        "GlowRange": 1.5,
         "GlowFadeDuration": 1.0
       },
       {
