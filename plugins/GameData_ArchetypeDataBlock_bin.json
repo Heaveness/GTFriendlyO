@@ -250,7 +250,7 @@
       "FireMode": 1,
       "RecoilDataID": 8,
       "DamageBoosterEffect": 65,
-      "Damage": 15.5,
+      "Damage": 17.5,
       "DamageFalloff": {
         "x": 20.0,
         "y": 40.0,
@@ -1530,7 +1530,7 @@
       "persistentID": 77
     },
     {
-      "PublicName": "Healing/Venomous Subgun (SMG)",
+      "PublicName": "Heal/Venom Subgun (SMG)",
       "Description": "<color=yellow>Traits: \n - Switch Between 3 modes(Healing/Disinfect, Movement Spd/Stamina, or Damage/Stamina)\n [EWC config for keybinds], \n - Ability disabler(except Scout's Scream), \n - Lightweight</align></color>",
       "FireMode": 1,
       "RecoilDataID": 11,
@@ -1552,7 +1552,7 @@
       "PrecisionDamageMulti": 0.65,
       "DefaultClipSize": 10,
       "DefaultReloadTime": 1.8,
-      "CostOfBullet": 5.5,
+      "CostOfBullet": 5.45,
       "ShotDelay": 0.05,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -1729,7 +1729,7 @@
       "FireMode": 1,
       "RecoilDataID": 24,
       "DamageBoosterEffect": 61,
-      "Damage": 3.1,
+      "Damage": 1.0,
       "DamageFalloff": {
         "x": 20.0,
         "y": 40.0,
@@ -3260,7 +3260,7 @@
       "AimSequence": [],
       "BurstDelay": 0.4,
       "BurstShotCount": 1,
-      "ShotgunBulletCount": 36,
+      "ShotgunBulletCount": 40,
       "ShotgunConeSize": 5,
       "ShotgunBulletSpread": 2,
       "SpecialChargetupTime": 0.4,
@@ -3454,7 +3454,7 @@
       "AimSequence": [],
       "BurstDelay": 0.0,
       "BurstShotCount": 0,
-      "ShotgunBulletCount": 10,
+      "ShotgunBulletCount": 11,
       "ShotgunConeSize": 4,
       "ShotgunBulletSpread": 4,
       "SpecialChargetupTime": 0.2,
@@ -6179,7 +6179,7 @@
       "persistentID": 63
     },
     {
-      "PublicName": "Exterminatus Flamer",
+      "PublicName": "Exterminatus Flamer (???)",
       "Description": "<color=yellow>Traits: \n - DoT damage(Stackable), \n - Explosion Kill Spreads 1 Stack, \n - Reserve Clip Regen(no reload), \n - Hold Trigger to Accelerate, \n - Heavyweight</color>",
       "FireMode": 2,
       "RecoilDataID": 34,
@@ -6573,7 +6573,7 @@
       "persistentID": 120
     },
     {
-      "PublicName": "Javelin Rifle (DMR)",
+      "PublicName": "Javelin Rifle (Explosive)",
       "Description": "<color=yellow>Traits: \n - Electrocute Hit Targets with keybind\n [EWC config for keybinds], \n - High Stagger Electrocution, \n - Explosion on DoT kills, \n - Heavyweight</color>",
       "FireMode": 0,
       "RecoilDataID": 9,
@@ -6595,8 +6595,8 @@
       "PrecisionDamageMulti": 1.0,
       "DefaultClipSize": 5,
       "DefaultReloadTime": 3.5,
-      "CostOfBullet": 15.5,
-      "ShotDelay": 0.75,
+      "CostOfBullet": 17.9,
+      "ShotDelay": 0.75, 
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
         "x": 3.0,
@@ -6670,11 +6670,11 @@
       "persistentID": 121
     },
     {
-      "PublicName": "RYN0 Annihilator",
+      "PublicName": "RYN0 Annihilator (Explosive)",
       "Description": "<color=yellow>Traits: \n - CTRL + ALT + DELETE enemies and friends, \n - Heavyweight</color>",
       "FireMode": 1,
       "RecoilDataID": 24,
-      "DamageBoosterEffect": 61,
+      "DamageBoosterEffect": 65,
       "Damage": 100.0,
       "DamageFalloff": {
         "x": 25.0,
