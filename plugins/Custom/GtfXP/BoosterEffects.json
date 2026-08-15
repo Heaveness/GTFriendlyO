@@ -86,7 +86,7 @@
       "ComputerProcessingSpeed": 0.5,
       "HackingProficiency": 0.25,
       "SentryGunSpeed": 0.5,
-      "TripMineDamage": 1.5,
+      "TripMineDamage": 1.75,
       "BurstCannonDamage": 1.3,
       "BurstRifleDamage": 1.3,
       "StandardWeaponDamage": 1.15,

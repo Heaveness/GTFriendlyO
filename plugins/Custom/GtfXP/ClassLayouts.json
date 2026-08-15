@@ -67,20 +67,20 @@
     "Header": "Demolitionist",
     "GroupPersistentId": 0,
     "PersistentId": 11,
-    "InfoText": "Excels at explosive ordnances, but lacks precision and hacking.\n<color=yellow>Specializes: Explosive Resistance/Tripmines/Explosive Cannon & Rifle</color>\n\n<color=green>Strengths: \n+30% Burst Cannon/Rifle Damage, \n+50% Tripmine Damage, \n+80% Explosive Resistance</color>\n\n<color=red>Weaknesses: \n-30% Ranged Damage except Specialized Guns, \n-55% Hacking Skills, \n-50% Terminal CPU, \n-50% Sentry CPU, \n-30% Sentry Damage</color>",
+    "InfoText": "Excels at explosive ordnances, but lacks precision and hacking.\n<color=yellow>Specializes: Explosive Resistance/Tripmines/Explosive Guns & Tools</color>\n\n<color=green>Strengths: \n+30% Explosive Cannon/Rifle/Javelin/RYN0 Damage, \n+75% Tripmine Damage, \n+85% Explosive Resistance</color>\n\n<color=red>Weaknesses: \n-30% Ranged Damage except Specialized Guns, \n-55% Hacking Skills, \n-50% Terminal CPU, \n-50% Sentry CPU, \n-30% Sentry Damage</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Demolitionist\n<color=green>Explosive Cannon/Rifle 130%, Tripmine Damage 150%, Explosive Res. 180%</color>\n<color=red>Ranged Damage except Specialized Guns 70%, Hacking Skill 45%, Terminal CPU 50%, Sentry CPU 50%, Sentry Damage 70%</color>",
+        "CustomLevelStatsText": "Class: Demolitionist\n<color=green>Explosive Cannon/Rifle/Javelin/RYN0 130%, Tripmine Damage 150%, Explosive Res. 185%</color>\n<color=red>Ranged Damage except Specialized Guns 70%, Hacking Skill 45%, Terminal CPU 50%, Sentry CPU 50%, Sentry Damage 70%</color>",
         "HealthMultiplier": 1.0,
         "MeleeDamageMultiplier": 1.0,
         "WeaponDamageMultiplier": 1.0,
         "CustomScaling": [
           {
             "CustomBuff": "ExplosionResistance",
-            "Value": 1.6
+            "Value": 1.65
           }
 		    ],
         "LevelUpBonus": []
