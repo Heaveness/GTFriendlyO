@@ -4,7 +4,7 @@
 
 ### Personal Note:
 
-* It's generally fine to update any mods. Regular bug fixes and QoL improvements are always welcome, but be cautious when updating mods with large changes. Keep in mind that every mod update has the potential to break something within this pack. Even I cannot guarantee every update stability. So you should personally do your research before updating them.
+* It's generally fine to update any mods. Regular bug fixes and QoL improvements are always welcome, but be cautious when updating mods with large changes. Keep in mind that every mod update has the potential to break something within this pack.
 
 * Check "Description" on main page for keybind configs instructions under "Important" section. And wiki for keybinds on specific weapons.
 
@@ -26,17 +26,56 @@
 * Parry
     * Fixed Parry using the wrong effective range distance.
 
-### Balance Tweaks + Fixes:
-* Healing Turret:
-    * Increased Shot Delay from `20.5s` to `23.5s`
-> Dev Note: It's still a bit too strong when the healing can be reapplied moments after the healing DoT ends. This is especially more prevalent whenever teams bring more than 1 healing turret. So there will be a slight delay before the next heal fires. This should also give players a bit more time to return to the turret's influence.
+### Weapon/Class Important Fix:
+* Updated `ExtraWeaponCustomization` mod
+    * A proper fix to classes with specialization weapon damage(Pistol, HEL, Sniper, Rifle, MG, and etc.)
+        * Many classes(such as Marine, Covert Op, Quartermaster and etc.) with specific gun damage bonuses/penalties should apply correctly
+        * Melee, Sentry, Tripmine, and general damage bonuses/penalties were unaffected as they were applying correctly prior to this fix.
+
+### Class Balance Tweaks + Fixes:
+* All Class:
+    * Changed wording for `Ammo Received` to `Ammo Gain`
 
 * Demolitionist:
     * Changed text inline with other classes regarding specialization
         * Added `Javelin` and `RYN0 Annihilator`
     * Increased Tripmine Damage bonus from `+50%` to `+75%`
-    * Increased Explosive Resistance from `+80%` to `+85%`
+    * Increased Explosive Resistance bonus from `+80%` to `+85%`
+    * Increased Terminal CPU penalty from `-50%` to `-75%`
+    * Increased Sentry Damage penalty from `-30%` to `-40%`
 > Dev Note: This class hasn't been buffed/nerfed in a long time. Might deserve some love as the other classes gotten theirs. Keep in mind that the more damage this class does, the higher the friendly fire damage. 
+
+* Specialist:
+    * Increased Glowstick Power bonus from `+175%` to `+200%`
+    * Increased Glue Strength & Efficiency from `+30%` to `+40%`
+> Dev Note: The Ammo Gain penalty is a very strong debuff from the previous patches, so I am here to give a small buff to compensate.
+
+* Field Technician:
+    * Increased Terminal CPU bonus from `+50%` to `+100%`
+    * Increased Hacking Skill bonus from `+60%` to `+70%`
+> Dev Note: A nice little utility buff to compete with HEL Diver buffs.
+
+* HEL Diver:
+    * Fixed incorrectly showing the wrong number value for bullet resistance
+    * Added `Ammo Gain` bonus of `+30%`
+    * Removed `Movement Speed` bonus
+    * Decreased HEL Damage bonus from `+100%` to `+70%`
+    * Increased Hacking Skill bonus from `+80%` to `+125%`
+    * Decreased Max Health penalty from `-50%` to `-30%`
+    * Increased Health Regen penalty from `-50%` to `-75%`
+    * Increased Bullet Resistance penalty from `-50%` to `-75%`
+> Dev Note: Make them more different and unique compare to the other B-Company classes. Fight as Lady Liberty demands it!
+
+* Abhuman:
+    * Slight change to description text
+
+* Deprived:
+    * Added additional flavor text to description
+
+### Weapon/Tool Balance Tweaks + Fixes:
+* Healing Turret:
+    * Increased Shot Delay from `20.5s` to `23.5s`
+> Dev Note: It's still a bit too strong when the healing can be reapplied moments after the healing DoT ends. This is especially more prevalent whenever teams bring more than 1 healing turret. So there should be a slight delay before the next heal fires. This can also give players a bit more time to return to the turret's influence if they moved away.
 
 * Explosive Cannon:
     * Decreased Direct Damage from `3.1` to `1.0`
