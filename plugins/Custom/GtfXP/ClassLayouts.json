@@ -305,13 +305,13 @@
     "Header": "HEL Diver",
     "GroupPersistentId": 2,
     "PersistentId": 21,
-    "InfoText": "Spread our peaceful message of Freedom & Liberty with an iron fist!\n<color=yellow>Specializes: What's the moral difference, if any, between a civilian and a citizen?</color>\n\n<color=green>Strengths: \n+70% HEL Damage, \n+25% Bioscan Spd., \n+50% Terminal CPU, \n+125% Hacking Skill, \n+30% Gun Ammo Gain</color>\n\n<color=red>Weaknesses: \n-75% Bullet Resistance, \n-30% Projectile & Melee Armor, \n-30% Max Health, \n-75% Health Regen Cap</color>",
+    "InfoText": "Spread our peaceful message of Freedom & Liberty with an iron fist!\n<color=yellow>Specializes: What's the moral difference, if any, between a civilian and a citizen?</color>\n\n<color=green>Strengths: \n+75% HEL Damage, \n+25% Bioscan Spd., \n+50% Terminal CPU, \n+125% Hacking Skill, \n+30% Gun Ammo Gain</color>\n\n<color=red>Weaknesses: \n-75% Bullet Resistance, \n-30% Projectile & Melee Armor, \n-30% Max Health, \n-75% Health Regen Cap</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: HEL Diver\n<color=green>HEL Damage 170%, Bioscan Spd. 125%, Terminal CPU 150%, Hacking Skill 225%, Gun Ammo Gain 130%</color>\n<color=red>Bullet Resistance 25%, Projectile & Melee Armor 70%, Max Health 70%, Health Regen Cap 25%</color>",
+        "CustomLevelStatsText": "Class: HEL Diver\n<color=green>HEL Damage 175%, Bioscan Spd. 125%, Terminal CPU 150%, Hacking Skill 225%, Gun Ammo Gain 120%</color>\n<color=red>Bullet Resistance 25%, Projectile & Melee Armor 70%, Max Health 70%, Health Regen Cap 25%</color>",
         "HealthMultiplier": 0.7,
         "MeleeDamageMultiplier": 1.0,
         "WeaponDamageMultiplier": 1.0,
@@ -326,7 +326,7 @@
           },
           {
             "CustomBuff": "AmmoGainEfficiency",
-            "Value": 1.3
+            "Value": 1.2
           }
         ],
         "LevelUpBonus": []

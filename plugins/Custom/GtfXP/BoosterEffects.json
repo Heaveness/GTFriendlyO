@@ -237,7 +237,7 @@
       0
     ],
     "ValueToBoosterEffects": {	  
-      "HELDamage": 1.7,
+      "HELDamage": 1.75,
       "MeleeResistance": 0.7,
       "ProjectileResistance": 0.7,
       "ComputerProcessingSpeed": 1.5,
