@@ -1,0 +1,1575 @@
+{
+  "Name": "Vanilla",
+  "HideUngotten": false,
+  "RundownLogs": [
+    {
+      "SectionName": "Rundown 1",
+      "Expeditions": [
+        {
+          "expedition": "R1B1",
+          "logs": [
+            {
+              "filename": "834-786-872",
+              "id": 2159521601,
+              "zone": "Zone 40",
+              "audio": 0
+            },
+            {
+              "filename": "834-786-873",
+              "id": 779237148,
+              "zone": "Zone 42",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R1B2",
+          "logs": [
+            {
+              "filename": "3NY-798-65Y",
+              "id": 1892674022,
+              "zone": "Zone 17",
+              "audio": 2265284757
+            }
+          ]
+        },
+        {
+          "expedition": "R1C2",
+          "logs": [
+            {
+              "filename": "LB2-4BK-902",
+              "id": 1382220608,
+              "zone": "Zone 98",
+              "audio": 0
+            },
+            {
+              "filename": "23G-B8E-MGK",
+              "id": 239801710,
+              "zone": "Zone 99",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R1D1",
+          "logs": [
+            {
+              "filename": "K94-5ER-ESF",
+              "id": 2364096404,
+              "zone": "Zone 74",
+              "audio": 0
+            },
+            {
+              "filename": "K94-6ER-ESF",
+              "id": 1840975978,
+              "zone": "Zone 74",
+              "audio": 0
+            },
+            {
+              "filename": "BNC-XUI-P59",
+              "id": 644899579,
+              "zone": "Zone 76",
+              "audio": 0
+            },
+            {
+              "filename": "TAB-GTG-YUM",
+              "id": 2844997865,
+              "zone": "Zone 78",
+              "audio": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SectionName": "Rundown 2",
+      "Expeditions": [
+        {
+          "expedition": "R2A1",
+          "logs": [
+            {
+              "filename": "EBDT-0BE204",
+              "id": 2241631052,
+              "zone": "Zone 106",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R2B1",
+          "logs": [
+            {
+              "filename": "EBDT-0BE205",
+              "id": 887938260,
+              "zone": "Zone 718",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R2B2",
+          "logs": [
+            {
+              "filename": "000-000-000",
+              "id": 2897485929,
+              "zone": "Zone 269",
+              "audio": 0
+            },
+            {
+              "filename": "UJ7-OYT-REH",
+              "id": 672968613,
+              "zone": "Zone 270",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R2B4",
+          "logs": [
+            {
+              "filename": "FER-WI9-053",
+              "id": 2919353898,
+              "zone": "Zone 762",
+              "audio": 0
+            },
+            {
+              "filename": "EBDT-0BE201",
+              "id": 3726692377,
+              "zone": "Zone 765",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R2C1",
+          "logs": [
+            {
+              "filename": "EBDT-0BE202",
+              "id": 447164911,
+              "zone": "Zone 204",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R2C2",
+          "logs": [
+            {
+              "filename": "78H-ERT-BG7",
+              "id": 2912524228,
+              "zone": "Zone 119",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R2D1",
+          "logs": [
+            {
+              "filename": "EBDT-0BE203",
+              "id": 3404012700,
+              "zone": "Zone 611",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R2D2",
+          "logs": [
+            {
+              "filename": "CRW-EUH-3YU",
+              "id": 2095055332,
+              "zone": "Zone 199",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R2E1",
+          "logs": [
+            {
+              "filename": "JN8-M96-M31",
+              "id": 2644574539,
+              "zone": "Zone 598",
+              "audio": 831752775
+            },
+            {
+              "filename": "76Y-TTF-FWW",
+              "id": 296825981,
+              "zone": "Zone 606",
+              "audio": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SectionName": "Rundown 3",
+      "Expeditions": [
+        {
+          "expedition": "R3A1",
+          "logs": [
+            {
+              "filename": "7GY-HYP-SDW",
+              "id": 2601516214,
+              "zone": "Zone 251",
+              "audio": 0
+            },
+            {
+              "filename": "EBD-T34-DG1",
+              "id": 2714516313,
+              "zone": "Zone 254",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R3A2",
+          "logs": [
+            {
+              "filename": "DTE-110-111",
+              "id": 4115774219,
+              "zone": "Zone 126",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R3A3",
+          "logs": [
+            {
+              "filename": "21M-CEW-49B",
+              "id": 882979268,
+              "zone": "Zone 433",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R3B1",
+          "logs": [
+            {
+              "filename": "57H-K78-EVR",
+              "id": 3919432281,
+              "zone": "Zone 235",
+              "audio": 3415375661
+            }
+          ]
+        },
+        {
+          "expedition": "R3B2",
+          "logs": [
+            {
+              "filename": "MAL-7CD-378",
+              "id": 1986026191,
+              "zone": "Zone 506",
+              "audio": 0
+            },
+            {
+              "filename": "76H-S3Q-156",
+              "id": 2518464736,
+              "zone": "Zone 511",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R3C1",
+          "logs": [
+            {
+              "filename": "B94-E5W-52K",
+              "id": 3899268189,
+              "zone": "Zone 10",
+              "audio": 3325727238
+            },
+            {
+              "filename": "21W-SOL-9NY",
+              "id": 1921629421,
+              "zone": "Zone 11",
+              "audio": 181263579
+            }
+          ]
+        },
+        {
+          "expedition": "R3D1",
+          "logs": [
+            {
+              "filename": "STA-B26-078",
+              "id": 1794210895,
+              "zone": "Zone 388",
+              "audio": 0
+            },
+            {
+              "filename": "POI-M7Y-THE",
+              "id": 2831084690,
+              "zone": "Zone 389",
+              "audio": 3929856436
+            },
+            {
+              "filename": "HW5-BI7-120",
+              "id": 606542306,
+              "zone": "Zone 397",
+              "audio": 1750714890
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SectionName": "Rundown 4",
+      "Expeditions": [
+        {
+          "expedition": "R4A1",
+          "logs": [
+            {
+              "filename": "VN8-5DF-BM6",
+              "id": 1606512465,
+              "zone": "Zone 34",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R4A2",
+          "logs": [
+            {
+              "filename": "FCL-K5E-2BG",
+              "id": 751637944,
+              "zone": "Zone 45",
+              "audio": 4274483288
+            }
+          ]
+        },
+        {
+          "expedition": "R4A3",
+          "logs": [
+            {
+              "filename": "HZW-8JK-LTT",
+              "id": 677330196,
+              "zone": "Zone 28",
+              "audio": 0
+            },
+            {
+              "filename": "DL4-39F-Q5Z",
+              "id": 2307214134,
+              "zone": "Zone 31",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R4B1",
+          "logs": [
+            {
+              "filename": "6J8-9NK-8YT",
+              "id": 972338481,
+              "zone": "Zone 52",
+              "audio": 3748372304
+            }
+          ]
+        },
+        {
+          "expedition": "R4B2",
+          "logs": [
+            {
+              "filename": "276-908-7U8",
+              "id": 386604089,
+              "zone": "Zone 85",
+              "audio": 0
+            },
+            {
+              "filename": "KAL-P48-7FR",
+              "id": 3847194193,
+              "zone": "Zone 89",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R4B3",
+          "logs": [
+            {
+              "filename": "XMN-GBB-8B5",
+              "id": 275287026,
+              "zone": "Zone 39",
+              "audio": 4229076750
+            },
+            {
+              "filename": "YTG-N60-439",
+              "id": 1901056716,
+              "zone": "Zone 41",
+              "audio": 2623972929
+            }
+          ]
+        },
+        {
+          "expedition": "R4C1",
+          "logs": [
+            {
+              "filename": "4HB-6UR-YTE",
+              "id": 1786862515,
+              "zone": "Zone 72",
+              "audio": 1497904131
+            },
+            {
+              "filename": "G62-988-G2Q",
+              "id": 2047464033,
+              "zone": "Zone 75",
+              "audio": 0
+            },
+            {
+              "filename": "EPL-LPY-T7N",
+              "id": 2660922051,
+              "zone": "Zone 79",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R4C2",
+          "logs": [
+            {
+              "filename": "T87-OPE-NAW",
+              "id": 1045760311,
+              "zone": "Zone 12",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R4C3",
+          "logs": [
+            {
+              "filename": "6YH-KKN-B11",
+              "id": 2300319938,
+              "zone": "Zone 151",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R4D1",
+          "logs": [
+            {
+              "filename": "7JH-PPP-SAD",
+              "id": 2186934260,
+              "zone": "Zone 64",
+              "audio": 0
+            },
+            {
+              "filename": "XDL-9YD-1QA",
+              "id": 4107631192,
+              "zone": "Zone 67",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R4D2",
+          "logs": [
+            {
+              "filename": "EYY-GBB-18P",
+              "id": 190515691,
+              "zone": "Zone 96",
+              "audio": 0
+            },
+            {
+              "filename": "V94-ER1-120",
+              "id": 3537071244,
+              "zone": "Zone 100",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R4E1",
+          "logs": [
+            {
+              "filename": "M7B-NHG-F27",
+              "id": 971943816,
+              "zone": "Zone 459",
+              "audio": 3885450114
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SectionName": "Rundown 5",
+      "Expeditions": [
+        {
+          "expedition": "R5A1",
+          "logs": [
+            {
+              "filename": "1JL-OYY-NBR",
+              "id": 817633301,
+              "zone": "Zone 62",
+              "audio": 0
+            },
+            {
+              "filename": "RHH-U77-7KD",
+              "id": 294658885,
+              "zone": "Zone 191",
+              "audio": 0
+            },
+            {
+              "filename": "3RY-978-UGB",
+              "id": 1170001647,
+              "zone": "Zone 194",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R5A2",
+          "logs": [
+            {
+              "filename": "2ZL-HSD-CSE",
+              "id": 3340509967,
+              "zone": "Zone 20",
+              "audio": 2625149070
+            },
+            {
+              "filename": "MDF-BGC-123",
+              "id": 1276363701,
+              "zone": "Zone 20",
+              "audio": 4039093650
+            },
+            {
+              "filename": "THY-NFG-FT5",
+              "id": 3213710012,
+              "zone": "Zone 20",
+              "audio": 3039176761
+            },
+            {
+              "filename": "TY6-274-NFG",
+              "id": 1098021268,
+              "zone": "Zone 20",
+              "audio": 3813035604
+            },
+            {
+              "filename": "W48-W2K-JKZ",
+              "id": 2899831782,
+              "zone": "Zone 132",
+              "audio": 0
+            },
+            {
+              "filename": "ETY-4UJ-HHB",
+              "id": 1784928424,
+              "zone": "Zone 302",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R5A3",
+          "logs": [
+            {
+              "filename": "ER9-HYF-RD7",
+              "id": 4258872482,
+              "zone": "Zone 39",
+              "audio": 3062325159
+            },
+            {
+              "filename": "JK6-809-BB8",
+              "id": 649711753,
+              "zone": "Zone 39",
+              "audio": 47658560
+            },
+            {
+              "filename": "825-RRH-VPG",
+              "id": 2618453398,
+              "zone": "Zone 39",
+              "audio": 3680069307
+            },
+            {
+              "filename": "7UJ-39J-JF2",
+              "id": 3124381907,
+              "zone": "Zone 39",
+              "audio": 143296386
+            },
+            {
+              "filename": "890-KUJ-T65",
+              "id": 2902442685,
+              "zone": "Zone 41",
+              "audio": 2863615980
+            },
+            {
+              "filename": "R76-8UR-A66",
+              "id": 4103690595,
+              "zone": "Zone 43",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R5B1",
+          "logs": [
+            {
+              "filename": "WT3-4GR-VS2",
+              "id": 2624531734,
+              "zone": "Zone 95",
+              "audio": 0
+            },
+            {
+              "filename": "GJC-89V-JU9",
+              "id": 1192257831,
+              "zone": "Zone 223",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R5B2",
+          "logs": [
+            {
+              "filename": "002-E0P-79J",
+              "id": 3282570125,
+              "zone": "Zone 81",
+              "audio": 0
+            },
+            {
+              "filename": "813-H9L-7KL",
+              "id": 494690419,
+              "zone": "Zone 158",
+              "audio": 0
+            },
+            {
+              "filename": "09K-90K-UJM",
+              "id": 2533283978,
+              "zone": "Zone 315",
+              "audio": 0
+            },
+            {
+              "filename": "7JR-T7U-78O",
+              "id": 1825963506,
+              "zone": "Zone 317",
+              "audio": 2815167242
+            }
+          ]
+        },
+        {
+          "expedition": "R5B3",
+          "logs": [
+            {
+              "filename": "DEW-GRE-BKM",
+              "id": 3820350058,
+              "zone": "Zone 46",
+              "audio": 0
+            },
+            {
+              "filename": "F12-KLU-YN2",
+              "id": 3590505912,
+              "zone": "Zone 48",
+              "audio": 745543809
+            },
+            {
+              "filename": "4JL-FDV-M34",
+              "id": 3153164489,
+              "zone": "Zone 389",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R5B4",
+          "logs": [
+            {
+              "filename": "SRD-FT45-665",
+              "id": 772314140,
+              "zone": "Zone 186",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R5C1",
+          "logs": [
+            {
+              "filename": "Q87-687-LHR",
+              "id": 314124724,
+              "zone": "Zone 113",
+              "audio": 0
+            },
+            {
+              "filename": "NKU-7RD-EF2",
+              "id": 981564373,
+              "zone": "Zone 116",
+              "audio": 0
+            },
+            {
+              "filename": "235-EK9-8KJ",
+              "id": 3408451435,
+              "zone": "Zone 443",
+              "audio": 2369938930
+            }
+          ]
+        },
+        {
+          "expedition": "R5C2",
+          "logs": [
+            {
+              "filename": "6YJ-7UT-DUT",
+              "id": 3200929578,
+              "zone": "Zone 215",
+              "audio": 0
+            },
+            {
+              "filename": "TT5-YF7-QTY",
+              "id": 1185765921,
+              "zone": "Zone 399",
+              "audio": 0
+            },
+            {
+              "filename": "944-211-DQA",
+              "id": 3538439246,
+              "zone": "Zone 401",
+              "audio": 1136542989
+            }
+          ]
+        },
+        {
+          "expedition": "R5C3",
+          "logs": [
+            {
+              "filename": "76U-R68-EJF",
+              "id": 3524738570,
+              "zone": "Zone 373",
+              "audio": 0
+            },
+            {
+              "filename": "68R-IRE-D7R",
+              "id": 2679426210,
+              "zone": "Zone 375",
+              "audio": 0
+            },
+            {
+              "filename": "DGE-5TH-PRT",
+              "id": 3176992059,
+              "zone": "Zone 378",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R5D1",
+          "logs": [
+            {
+              "filename": "507-YJQ-FNB",
+              "id": 2129465561,
+              "zone": "Zone 73",
+              "audio": 0
+            },
+            {
+              "filename": "HFM-HQ2-67Z",
+              "id": 1296350622,
+              "zone": "Zone 74",
+              "audio": 0
+            },
+            {
+              "filename": "RTY-HHE-PLR",
+              "id": 3796032166,
+              "zone": "Zone 77",
+              "audio": 0
+            },
+            {
+              "filename": "VNR-FTM-BNN",
+              "id": 517732520,
+              "zone": "Zone 505",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R5D2",
+          "logs": [
+            {
+              "filename": "BDC-DCD-G6Y",
+              "id": 594128218,
+              "zone": "Zone 281",
+              "audio": 0
+            },
+            {
+              "filename": "VGN-RNG-H68",
+              "id": 1316842445,
+              "zone": "Zone 289",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R5E1",
+          "logs": [
+            {
+              "filename": "BMH-BRT-YEB",
+              "id": 799149046,
+              "zone": "Zone 528",
+              "audio": 0
+            },
+            {
+              "filename": "TH5-6HN-8KU",
+              "id": 2790419951,
+              "zone": "Zone 534",
+              "audio": 0
+            },
+            {
+              "filename": "8EL-71W-3HW",
+              "id": 3211309024,
+              "zone": "Zone 540",
+              "audio": 1989657698
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SectionName": "Rundown 6",
+      "Expeditions": [
+        {
+          "expedition": "R6A1",
+          "logs": [
+            {
+              "filename": "W69-Y11-B3Z",
+              "id": 1695139195,
+              "zone": "Zone 75",
+              "audio": 56359871
+            },
+            {
+              "filename": "PUT-THX-3DX",
+              "id": 1985655597,
+              "zone": "Zone 77",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R6B1",
+          "logs": [
+            {
+              "filename": "09U-TR6-RZX",
+              "id": 2040861153,
+              "zone": "Zone 32",
+              "audio": 0
+            },
+            {
+              "filename": "CUJ-655-1HB",
+              "id": 1735273668,
+              "zone": "Zone 34",
+              "audio": 0
+            },
+            {
+              "filename": "BKS-BTP-FD9",
+              "id": 3527646331,
+              "zone": "Zone 36",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R6B2",
+          "logs": [
+            {
+              "filename": "CJ9-GVT-ERB",
+              "id": 3570860951,
+              "zone": "Zone 62",
+              "audio": 2277753092
+            },
+            {
+              "filename": "WPL-464-BAC",
+              "id": 2010423636,
+              "zone": "Zone 65",
+              "audio": 0
+            },
+            {
+              "filename": "34R-OKJ-992",
+              "id": 3140757614,
+              "zone": "Zone 224",
+              "audio": 0
+            },
+            {
+              "filename": "BBB-N12-LOW",
+              "id": 3625565585,
+              "zone": "Zone 225",
+              "audio": 3045890488
+            }
+          ]
+        },
+        {
+          "expedition": "R6C1",
+          "logs": [
+            {
+              "filename": "CVB-SK5-F71",
+              "id": 1094271245,
+              "zone": "Zone 143",
+              "audio": 0
+            },
+            {
+              "filename": "HBP-6NV-VQI",
+              "id": 963101078,
+              "zone": "Zone 146",
+              "audio": 2619192458
+            },
+            {
+              "filename": "2LZ-SAA-6NY",
+              "id": 1079094418,
+              "zone": "Zone 149",
+              "audio": 0
+            },
+            {
+              "filename": "YCQ-8K3-388",
+              "id": 1633079168,
+              "zone": "Zone 150",
+              "audio": 0
+            },
+            {
+              "filename": "WYP-9KB-3VV",
+              "id": 2905821843,
+              "zone": "Zone 152",
+              "audio": 532777350
+            },
+            {
+              "filename": "WT7-RH8-WFD",
+              "id": 521101963,
+              "zone": "Zone 153",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R6C2",
+          "logs": [
+            {
+              "filename": "THB-G61-UWU",
+              "id": 1678260641,
+              "zone": "Zone 117",
+              "audio": 3788503966
+            },
+            {
+              "filename": "DTR-298-4VL",
+              "id": 1104724433,
+              "zone": "Zone 119",
+              "audio": 0
+            },
+            {
+              "filename": "FFW-HYY-6FL",
+              "id": 1948200247,
+              "zone": "Zone 122",
+              "audio": 2472964906
+            },
+            {
+              "filename": "UFR-710-NHA",
+              "id": 347493886,
+              "zone": "Zone 124",
+              "audio": 0
+            },
+            {
+              "filename": "H9K-HYR-1TE",
+              "id": 157832601,
+              "zone": "Zone 127",
+              "audio": 3588946706
+            },
+            {
+              "filename": "ADD-JP2-FFW",
+              "id": 953548732,
+              "zone": "Zone 247",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R6C3",
+          "logs": [
+            {
+              "filename": "TJQ-WCG-JWX",
+              "id": 3997759451,
+              "zone": "Zone 171",
+              "audio": 0
+            },
+            {
+              "filename": "EEA-2UN-577",
+              "id": 3664409843,
+              "zone": "Zone 250",
+              "audio": 0
+            },
+            {
+              "filename": "MQQ-792-B8L",
+              "id": 2278907495,
+              "zone": "Zone 306",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R6D1",
+          "logs": [
+            {
+              "filename": "8AA-FEE-EDD",
+              "id": 2975106290,
+              "zone": "Zone 84",
+              "audio": 2209697954
+            },
+            {
+              "filename": "D1H-J34-5XX",
+              "id": 3992389097,
+              "zone": "Zone 85",
+              "audio": 0
+            },
+            {
+              "filename": "295-H65-V3N",
+              "id": 142157049,
+              "zone": "Zone 88",
+              "audio": 1287442584
+            },
+            {
+              "filename": "WPP-256-928",
+              "id": 3030991283,
+              "zone": "Zone 91",
+              "audio": 0
+            },
+            {
+              "filename": "4AK-KPG-6BE",
+              "id": 1561986133,
+              "zone": "Zone 93",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R6D2",
+          "logs": [
+            {
+              "filename": "619-988-823",
+              "id": 193599546,
+              "zone": "Zone 366",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R6D3",
+          "logs": [
+            {
+              "filename": "HAS-I5T-DAY",
+              "id": 1129659086,
+              "zone": "Zone 283",
+              "audio": 0
+            },
+            {
+              "filename": "KG5-ERP-VRW",
+              "id": 2610278853,
+              "zone": "Zone 288",
+              "audio": 0
+            },
+            {
+              "filename": "R9P-K3C-XT6",
+              "id": 3602901424,
+              "zone": "Zone 495",
+              "audio": 3954638586
+            }
+          ]
+        },
+        {
+          "expedition": "R6D4",
+          "logs": [
+            {
+              "filename": "SK8-G25-G65",
+              "id": 3072195836,
+              "zone": "Zone 412 (Main)",
+              "audio": 0
+            },
+            {
+              "filename": "266-912-663",
+              "id": 3526417802,
+              "zone": "Zone 413 (Giant)",
+              "audio": 668146013
+            },
+            {
+              "filename": "226-CAQ-PLK",
+              "id": 2426662631,
+              "zone": "Zone 410 (Charger)",
+              "audio": 0
+            },
+            {
+              "filename": "7JH-02P-EWG",
+              "id": 2998194090,
+              "zone": "Zone 412 (Fog)",
+              "audio": 1215439093
+            },
+            {
+              "filename": "FTJ-8GE-T1R",
+              "id": 3537655951,
+              "zone": "Zone 417 (Main)",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R6AX",
+          "logs": [
+            {
+              "filename": "R5L-NLL-023",
+              "id": 3018560530,
+              "zone": "Zone 16",
+              "audio": 0
+            },
+            {
+              "filename": "QKL-RFH-4ZX",
+              "id": 3889683438,
+              "zone": "Zone 20",
+              "audio": 3949433749
+            }
+          ]
+        },
+        {
+          "expedition": "R6BX",
+          "logs": [
+            {
+              "filename": "J77-MNB-CXZ",
+              "id": 587510794,
+              "zone": "Zone 181",
+              "audio": 0
+            },
+            {
+              "filename": "20V-M6M-2X9",
+              "id": 3607696028,
+              "zone": "Zone 186",
+              "audio": 0
+            },
+            {
+              "filename": "D34-4HG-8AE",
+              "id": 2181231598,
+              "zone": "Zone 190",
+              "audio": 549555057
+            },
+            {
+              "filename": "LWA-519-3VX",
+              "id": 2936981195,
+              "zone": "Zone 249",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R6CX",
+          "logs": [
+            {
+              "filename": "W35-9BV-EUV",
+              "id": 4016957134,
+              "zone": "Zone 80",
+              "audio": 2568971596
+            },
+            {
+              "filename": "7JY-T12-ESQ",
+              "id": 1070298538,
+              "zone": "Zone 81",
+              "audio": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SectionName": "Rundown 7",
+      "Expeditions": [
+        {
+          "expedition": "R7A1",
+          "logs": [
+            {
+              "filename": "209-K3R-5TV",
+              "id": 400053355,
+              "zone": "Zone 47",
+              "audio": 4153260540
+            },
+            {
+              "filename": "CJ9-GVT-ERB",
+              "id": 539142525,
+              "zone": "Zone 49",
+              "audio": 2277753092
+            }
+          ]
+        },
+        {
+          "expedition": "R7B1",
+          "logs": [
+            {
+              "filename": "8G5-R32-YHT",
+              "id": 11199380,
+              "zone": "Zone 88",
+              "audio": 0
+            },
+            {
+              "filename": "B47-EH6-REG",
+              "id": 1361284810,
+              "zone": "Zone 91",
+              "audio": 0
+            },
+            {
+              "filename": "HBR-YH6-D88",
+              "id": 1145885034,
+              "zone": "Zone 92",
+              "audio": 0
+            },
+            {
+              "filename": "SM1-X918-XWM",
+              "id": 2180421988,
+              "zone": "Zone 94",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R7B2",
+          "logs": [
+            {
+              "filename": "SVN-QAS-XPO",
+              "id": 2690939055,
+              "zone": "Zone 127",
+              "audio": 0
+            },
+            {
+              "filename": "T0L-4Y4-R1H",
+              "id": 3464000470,
+              "zone": "Zone 127",
+              "audio": 756105786
+            }
+          ]
+        },
+        {
+          "expedition": "R7B3",
+          "logs": [
+            {
+              "filename": "PR0-JZ4-3R0",
+              "id": 2550497166,
+              "zone": "Zone 107",
+              "audio": 0
+            },
+            {
+              "filename": "2CB-5U8-DBK",
+              "id": 2882056421,
+              "zone": "Zone 108",
+              "audio": 0
+            },
+            {
+              "filename": "QSW-EQW-S99",
+              "id": 2145556797,
+              "zone": "Zone 110",
+              "audio": 0
+            },
+            {
+              "filename": "4CF-76W-JF3",
+              "id": 3263829601,
+              "zone": "Zone 112",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R7C1",
+          "logs": [
+            {
+              "filename": "U5E-GGY-J89",
+              "id": 1704474804,
+              "zone": "Zone 13",
+              "audio": 0
+            },
+            {
+              "filename": "2W1-EW2-1PT",
+              "id": 1561677308,
+              "zone": "Zone 23",
+              "audio": 813169128
+            }
+          ]
+        },
+        {
+          "expedition": "R7C2",
+          "logs": [
+            {
+              "filename": "EWF-R6U-RTH",
+              "id": 2348768522,
+              "zone": "Zone 144",
+              "audio": 0
+            },
+            {
+              "filename": "56G-75H-Y78",
+              "id": 2631688360,
+              "zone": "Zone 152",
+              "audio": 0
+            },
+            {
+              "filename": "D3T-INI-FNI",
+              "id": 3979312916,
+              "zone": "Alpha Six",
+              "audio": 3887080436
+            }
+          ]
+        },
+        {
+          "expedition": "R7D1",
+          "logs": [
+            {
+              "filename": "7TR-VST-RBY",
+              "id": 278517562,
+              "zone": "Zone 191",
+              "audio": 0
+            },
+            {
+              "filename": "2MD-N3H-SYH",
+              "id": 832966765,
+              "zone": "Zone 205",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R7D2",
+          "logs": [
+            {
+              "filename": "98R-T5B-N57",
+              "id": 2373894974,
+              "zone": "Zone 208",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R7E1",
+          "logs": [
+            {
+              "filename": "60F-056-HNK",
+              "id": 2992419498,
+              "zone": "Zone 444",
+              "audio": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SectionName": "Rundown 8",
+      "Expeditions": [
+        {
+          "expedition": "R8A1",
+          "logs": [
+            {
+              "filename": "VER-T96-3UN",
+              "id": 333549741,
+              "zone": "Zone 70",
+              "audio": 2561719189
+            },
+            {
+              "filename": "56G-75H-Y78",
+              "id": 4102842342,
+              "zone": "Zone 72",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R8B1",
+          "logs": [
+            {
+              "filename": "EWF-R6U-RTH",
+              "id": 345796523,
+              "zone": "Zone 138",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R8B2",
+          "logs": [
+            {
+              "filename": "R7Y-PWM-539",
+              "id": 3873520298,
+              "zone": "Zone 187",
+              "audio": 2448863743
+            },
+            {
+              "filename": "P7Y-GE4-CML",
+              "id": 2573146457,
+              "zone": "Zone 328",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R8C1",
+          "logs": [
+            {
+              "filename": "AKK-3XW-EEB",
+              "id": 2122525791,
+              "zone": "Zone 241",
+              "audio": 1926908543
+            },
+            {
+              "filename": "LUM-3SS-6ZN",
+              "id": 2392728270,
+              "zone": "Zone 242",
+              "audio": 0
+            },
+            {
+              "filename": "2MD-N3H-SYH",
+              "id": 3082519076,
+              "zone": "Zone 249",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R8D1",
+          "logs": [
+            {
+              "filename": "WKH-N2E-TAZ",
+              "id": 3259409222,
+              "zone": "Zone 424",
+              "audio": 0
+            },
+            {
+              "filename": "B5R-T76-QLP",
+              "id": 210406149,
+              "zone": "Zone 427",
+              "audio": 3537980702
+            }
+          ]
+        },
+        {
+          "expedition": "R8E1",
+          "logs": [
+            {
+              "filename": "AKK-3XW-EEB",
+              "id": 2664070464,
+              "zone": "Zone 512",
+              "audio": 2541927386
+            },
+            {
+              "filename": "7TR-VST-RBY",
+              "id": 699976094,
+              "zone": "Zone 544",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R8A2",
+          "logs": [
+            {
+              "filename": "2CB-5U8-DBK",
+              "id": 3503323039,
+              "zone": "Zone 51",
+              "audio": 0
+            },
+            {
+              "filename": "2W1-EW2-1PT",
+              "id": 2213213308,
+              "zone": "Zone 69",
+              "audio": 521524960
+            },
+            {
+              "filename": "VAB-FF6-NKK",
+              "id": 330353654,
+              "zone": "Zone 71",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R8B3",
+          "logs": [
+            {
+              "filename": "60F-056-HNK",
+              "id": 3306391961,
+              "zone": "Zone 109",
+              "audio": 0
+            },
+            {
+              "filename": "B47-EH6-REG",
+              "id": 3683555460,
+              "zone": "Zone 114",
+              "audio": 0
+            },
+            {
+              "filename": "SM1-X918-XWM",
+              "id": 3775742793,
+              "zone": "Zone 334",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R8B4",
+          "logs": [
+            {
+              "filename": "ATX-U3B-99O",
+              "id": 4129196694,
+              "zone": "Zone 160",
+              "audio": 3500399404
+            },
+            {
+              "filename": "9PP-3ZM-MM1",
+              "id": 3421585823,
+              "zone": "Zone 295",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R8C2",
+          "logs": [
+            {
+              "filename": "U5E-GGY-J89",
+              "id": 1704852273,
+              "zone": "Zone 266",
+              "audio": 0
+            },
+            {
+              "filename": "2MD-N3H-SYH",
+              "id": 3082519076,
+              "zone": "Zone 249",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R8D2",
+          "logs": [
+            {
+              "filename": "PR0-JZ4-3R0",
+              "id": 1157654530,
+              "zone": "Zone 37",
+              "audio": 0
+            },
+            {
+              "filename": "HBR-YH6-D88",
+              "id": 2604686322,
+              "zone": "Zone 46",
+              "audio": 0
+            },
+            {
+              "filename": "QSW-EQW-S99",
+              "id": 1043032973,
+              "zone": "Zone 446",
+              "audio": 0
+            }
+          ]
+        },
+        {
+          "expedition": "R8E2",
+          "logs": [
+            {
+              "filename": "4CF-76W-JF3",
+              "id": 1170408647,
+              "zone": "Zone 493",
+              "audio": 0
+            },
+            {
+              "filename": "T5V-HW4-8PW",
+              "id": 966839319,
+              "zone": "Zone 499",
+              "audio": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
