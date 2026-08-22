@@ -6183,7 +6183,7 @@
       "Description": "<color=yellow>Traits: \n - DoT damage(Stackable), \n - Explosion Kill Spreads 1 Stack, \n - Reserve Clip Regen(no reload), \n - Hold Trigger to Accelerate, \n - Heavyweight</color>",
       "FireMode": 2,
       "RecoilDataID": 34,
-      "DamageBoosterEffect": 62,
+      "DamageBoosterEffect": 51,
       "Damage": 0.5,
       "DamageFalloff": {
         "x": 10.0,
@@ -6280,7 +6280,7 @@
       "Description": "<color=yellow>Traits: \n - Silent/Accurate/Recoiless, \n - Switch between Regular/Naplam/Foam payload\n [EWC config for keybinds], \n - Refund 1 ammo per target killed w/Regular, \n - Lightweight</color>",
       "FireMode": 0,
       "RecoilDataID": 11,
-      "DamageBoosterEffect": 52,
+      "DamageBoosterEffect": 51,
       "Damage": 10.0,
       "DamageFalloff": {
         "x": 35.0,
@@ -6383,7 +6383,7 @@
       "Description": "<color=yellow>Traits: \n - Clip Regen after delay(no reload), \n - Wisp provides light, \n - Wisp fires 2 homing quills at nearby targets, \n - Heavyweight</color>",
       "FireMode": 1,
       "RecoilDataID": 24,
-      "DamageBoosterEffect": 61,
+      "DamageBoosterEffect": 51,
       "Damage": 1.0,
       "DamageFalloff": {
         "x": 25.0,
@@ -6480,7 +6480,7 @@
       "Description": "<color=yellow>Trait: \n - Fires 1 continous beam until overheat, \n - Burn DoT on contact, \n - Reserve Ammo(no reload), \n - Increased Damage on a single target, \n - Slowed during firing, \n - Lightweight</color>",
       "FireMode": 1,
       "RecoilDataID": 11,
-      "DamageBoosterEffect": 53,
+      "DamageBoosterEffect": 51,
       "Damage": 1.0,
       "DamageFalloff": {
         "x": 30.0,
@@ -6771,7 +6771,7 @@
       "Description": "<color=yellow>Traits: \n - Infinite Ammo, \n - Manual Charging to Fire(Reload), \n - Lock-On to Fire, \n - Long Stun Duration, \n - Enemy Damage Taken Debuff, \n - Unable to swap gear during electrocution, \n - Heavyweight</color>",
       "FireMode": 0,
       "RecoilDataID": 9,
-      "DamageBoosterEffect": 68,
+      "DamageBoosterEffect": 51,
       "Damage": 1.0,
       "DamageFalloff": {
         "x": 15.0,
