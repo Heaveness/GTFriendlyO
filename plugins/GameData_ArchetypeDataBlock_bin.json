@@ -6674,7 +6674,7 @@
       "Description": "<color=yellow>Traits: \n - CTRL + ALT + DELETE enemies and friends, \n - Heavyweight</color>",
       "FireMode": 1,
       "RecoilDataID": 24,
-      "DamageBoosterEffect": 65,
+      "DamageBoosterEffect": 61,
       "Damage": 100.0,
       "DamageFalloff": {
         "x": 25.0,
