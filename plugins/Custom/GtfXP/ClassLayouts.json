@@ -387,7 +387,7 @@
     "Header": "Deprived",
     "GroupPersistentId": 2,
     "PersistentId": 23,
-    "InfoText": "Blessed are the broken, forsaken by the Lords. To cleanse the impure, for such is our pious duty. Grant me leave to judge thy character, for mine is blind from faith. \n<color=yellow>Specializes: Filled with fervor beyond measure, yet bound by fleeting flesh.</color>\n\n<color=green>Strengths: \n+50% Ranged/Melee Damage & Melee Attack Spd., \n+30% Movement Spd., \n+60% Melee Armor, \n+95% Infection/Explosion/Bullets/Bleed Res., \n+50% Bioscan Spd., \n+50% Terminal CPU Spd., \nDouble Jump</color>\n\n<color=red>Weaknesses: \n-75% Max Health, \n-60% Projectile Armor, \n-40% Initial Ammo</color>",
+    "InfoText": "Blessed are the broken, forsaken by the Lords. To cleanse the impure, for such is our pious duty. Grant me leave to judge thy character, for mine is blind by righteous faith. \n<color=yellow>Specializes: Filled with fervor beyond measure, yet bound by fleeting flesh.</color>\n\n<color=green>Strengths: \n+50% Ranged/Melee Damage & Melee Attack Spd., \n+30% Movement Spd., \n+60% Melee Armor, \n+95% Infection/Explosion/Bullets/Bleed Res., \n+50% Bioscan Spd., \n+50% Terminal CPU Spd., \nDouble Jump</color>\n\n<color=red>Weaknesses: \n-75% Max Health, \n-60% Projectile Armor, \n-40% Initial Ammo</color>",
     "Levels": [
       {
         "LevelNumber": 0,
