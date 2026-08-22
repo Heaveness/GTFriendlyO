@@ -57,9 +57,9 @@
 
 * HEL Diver:
     * Fixed incorrectly showing the wrong number value for bullet resistance
-    * Added `Ammo Gain` bonus of `+30%`
+    * Added `Ammo Gain` bonus of `+20%`
     * Removed `Movement Speed` bonus
-    * Decreased HEL Damage bonus from `+100%` to `+70%`
+    * Decreased HEL Damage bonus from `+100%` to `+75%`
     * Increased Hacking Skill bonus from `+80%` to `+125%`
     * Decreased Max Health penalty from `-50%` to `-30%`
     * Increased Health Regen penalty from `-50%` to `-75%`
