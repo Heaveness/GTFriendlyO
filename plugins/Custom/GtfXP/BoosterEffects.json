@@ -13,8 +13,6 @@
       "MeleeResistance": 0.5,
       "ProjectileResistance": 1.3,
       "InfectionResistance": 1.2,
-      "StandardWeaponDamage": 1.2,
-      "SpecialWeaponDamage": 1.2,
       "HackingProficiency": 0.8
     }
   },
@@ -52,8 +50,6 @@
       "RegenerationSpeed": 1.3,
       "InfectionResistance": 1.2,
       "HackingProficiency": 0.8,
-      "StandardWeaponDamage": 1.1,
-      "SpecialWeaponDamage": 1.1,
       "BioscanSpeed": 0.8
     }
   },
@@ -77,20 +73,18 @@
       "RifleDamage": 0.7,
       "DoubleTapRifle": 0.7,
       "BullpupRifleDamage": 0.7,
-      "SentryGunDamage": 0.7,
-      "SentryGunLongRangeDamage": 0.7,
-      "SentryGunShortRangeDamage": 0.7, 
+      "SentryGunDamage": 0.6,
+      "SentryGunLongRangeDamage": 0.6,
+      "SentryGunShortRangeDamage": 0.6, 
       "ShotgunDamage": 0.7,
       "CombatShotgunDamage": 0.7,
       "ChokeModShotgunDamage": 0.7,
-      "ComputerProcessingSpeed": 0.5,
+      "ComputerProcessingSpeed": 0.25,
       "HackingProficiency": 0.25,
       "SentryGunSpeed": 0.5,
       "TripMineDamage": 1.75,
       "BurstCannonDamage": 1.3,
       "BurstRifleDamage": 1.3,
-      "StandardWeaponDamage": 1.15,
-      "SpecialWeaponDamage": 1.15,
       "InfectionResistance": 1.2
     }
   },
@@ -106,8 +100,6 @@
       "DoubleTapRifle": 1.6,
       "MeleeResistance": 0.4,
       "ProjectileResistance": 0.4,
-      "StandardWeaponDamage": 1.3,
-      "SpecialWeaponDamage": 1.3,
       "InfectionResistance": 1.2,
       "HackingProficiency": 0.8
     }
@@ -175,8 +167,6 @@
       "AutoPistolDamage": 1.2,
       "MachineGunDamage": 1.2,
       "MachinePistolDamage": 1.2,
-      "StandardWeaponDamage": 1.1,
-      "SpecialWeaponDamage": 1.1,
       "RegenerationCap": 1.66,
       "InfectionResistance": 1.2,
       "HackingProficiency": 0.8
@@ -190,9 +180,9 @@
     "ValueToBoosterEffects": {
       "BioscanSpeed": 1.3,
       "ScannerRechargeSpeed": 1.3,
-      "GlueStrength": 1.3,
-      "GlueEfficiency": 1.3,
-      "GlowstickEffect": 2.75,
+      "GlueStrength": 1.4,
+      "GlueEfficiency": 1.4,
+      "GlowstickEffect": 3.0,
       "FogRepellerEffect": 2.0,
       "InfectionResistance": 1.2,
       "HackingProficiency": 0.8
@@ -223,13 +213,11 @@
       "ShotgunDamage": 0.6,
       "CombatShotgunDamage": 0.6,
       "ChokeModShotgunDamage": 0.6,
-      "StandardWeaponDamage": 0.6,
-      "SpecialWeaponDamage": 0.6,
       "TripMineDamage": 0.6,
       "SentryGunDamage": 1.3,
       "SentryGunSpeed": 1.3,
-      "HackingProficiency": 1.8,
-      "ComputerProcessingSpeed": 1.5,
+      "HackingProficiency": 1.9,
+      "ComputerProcessingSpeed": 2.0,
       "InfectionResistance": 1.2
     }
   },
@@ -249,15 +237,13 @@
       0
     ],
     "ValueToBoosterEffects": {	  
-      "HELDamage": 2.0,
+      "HELDamage": 1.7,
       "MeleeResistance": 0.7,
       "ProjectileResistance": 0.7,
       "ComputerProcessingSpeed": 1.5,
-      "HackingProficiency": 2.0,
-      "StandardWeaponDamage": 1.5,
-      "SpecialWeaponDamage": 1.5,
+      "HackingProficiency": 2.45,
       "BioscanSpeed": 1.25,
-      "RegenerationCap": 0.5,
+      "RegenerationCap": 0.25,
       "InfectionResistance": 1.2
     }
   },
@@ -302,8 +288,6 @@
       "CombatShotgunDamage": 1.5,
       "ChokeModShotgunDamage": 1.5,
       "ShotgunDamage": 1.5,
-      "StandardWeaponDamage": 1.25,
-      "SpecialWeaponDamage": 1.25,
       "InfectionResistance": 0.4,
       "HackingProficiency": 0.8
     }
