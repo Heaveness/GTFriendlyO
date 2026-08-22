@@ -305,7 +305,7 @@
     "Header": "HEL Diver",
     "GroupPersistentId": 2,
     "PersistentId": 21,
-    "InfoText": "Spread our peaceful message of Freedom & Liberty with an iron fist!\n<color=yellow>Specializes: What's the moral difference, if any, between a civilian and a citizen?</color>\n\n<color=green>Strengths: \n+75% HEL Damage, \n+25% Bioscan Spd., \n+50% Terminal CPU, \n+125% Hacking Skill, \n+30% Gun Ammo Gain</color>\n\n<color=red>Weaknesses: \n-75% Bullet Resistance, \n-30% Projectile & Melee Armor, \n-30% Max Health, \n-75% Health Regen Cap</color>",
+    "InfoText": "Spread our peaceful message of Freedom & Liberty with an iron fist!\n<color=yellow>Specializes: What's the moral difference, if any, between a civilian and a citizen?</color>\n\n<color=green>Strengths: \n+75% HEL Damage, \n+25% Bioscan Spd., \n+50% Terminal CPU, \n+125% Hacking Skill, \n+20% Gun Ammo Gain</color>\n\n<color=red>Weaknesses: \n-75% Bullet Resistance, \n-30% Projectile & Melee Armor, \n-30% Max Health, \n-75% Health Regen Cap</color>",
     "Levels": [
       {
         "LevelNumber": 0,
