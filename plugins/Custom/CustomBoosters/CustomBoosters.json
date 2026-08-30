@@ -14,7 +14,7 @@
           "Description": "Subject's health regeneration cap is raised.",
           "DescriptionNegative": "Subject's health regeneration cap is lowered.",
           "EffectCategory": "Health",
-          "Value": 1.1
+          "Value": 1.16
         },
         {
           "Effect": "RegenerationSpeed",
@@ -23,7 +23,7 @@
           "Description": "Subject will regenerate health faster.",
           "DescriptionNegative": "Subject will regenerate health slower.",
           "EffectCategory": "Health",
-          "Value": 1.06
+          "Value": 1.1
         }
       ],
       "Conditions": []
@@ -437,7 +437,7 @@
           "Description": "Subject's health regeneration cap is raised.",
           "DescriptionNegative": "Subject's health regeneration cap is lowered.",
           "EffectCategory": "Health",
-          "Value": 1.16
+          "Value": 1.2
         },
         {
           "Effect": "RegenerationSpeed",
@@ -446,7 +446,7 @@
           "Description": "Subject will regenerate health faster.",
           "DescriptionNegative": "Subject will regenerate health slower.",
           "EffectCategory": "Health",
-          "Value": 1.1
+          "Value": 1.16
         }
       ],
       "Conditions": [
@@ -1000,7 +1000,7 @@
           "Description": "Subject's health regeneration cap is raised.",
           "DescriptionNegative": "Subject's health regeneration cap is lowered.",
           "EffectCategory": "Health",
-          "Value": 1.2
+          "Value": 1.25
         },
         {
           "Effect": "RegenerationSpeed",
@@ -1009,7 +1009,7 @@
           "Description": "Subject will regenerate health faster.",
           "DescriptionNegative": "Subject will regenerate health slower.",
           "EffectCategory": "Health",
-          "Value": 1.16
+          "Value": 1.2
         },
         {
           "Effect": "MeleeDamage",
