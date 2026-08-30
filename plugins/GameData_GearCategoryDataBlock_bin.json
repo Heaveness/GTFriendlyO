@@ -830,7 +830,7 @@
     {
       "PublicName": "Missile Sentry Gun",
       "Description": 0,
-      "BaseItem": 98,
+      "BaseItem": 97,
       "HUDIcon": "",
       "IconRotationOffset": 0.0,
       "IconZoomOffset": 0.0,
@@ -862,7 +862,7 @@
     {
       "PublicName": "Nade Sentry Gun",
       "Description": 0,
-      "BaseItem": 99,
+      "BaseItem": 97,
       "HUDIcon": "",
       "IconRotationOffset": 0.0,
       "IconZoomOffset": 0.0,
@@ -894,7 +894,7 @@
     {
       "PublicName": "Heal Sentry Gun",
       "Description": 0,
-      "BaseItem": 103,
+      "BaseItem": 97,
       "HUDIcon": "",
       "IconRotationOffset": 0.0,
       "IconZoomOffset": 0.0,
@@ -945,7 +945,7 @@
     {
       "PublicName": "Foam Mine deployer",
       "Description": "",
-      "BaseItem": 203,
+      "BaseItem": 37,
       "HUDIcon": "",
       "IconRotationOffset": 0.0,
       "IconZoomOffset": 0.0,
