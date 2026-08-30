@@ -58,12 +58,12 @@ Play together or die together! And don't be afraid to share your experiences wit
 
 ### Classes:
 
-* All classes have distinct roles with pros and cons. There is no levelling system, all classes get their stats at the start.
-* Meant to be played with 2+ players.
+* All classes have distinct roles with pros and cons. There is no leveling system, all classes get their stats at the start.
+* Meant to be played with 2+ players, more fun. Can still be played solo with bots.
 * All classes can deal damage, some do it better than others. Boosters/Syringes can be used to further buff or debuff attributes.
-* `Damage` roles are classes that specialize mainly dishing out damage, but they tend to be more fragile.
-* `Tank` roles are classes that specialize in taking damage while also dishing out some of their own, but they tend to be on the slow side.
-* `Support` roles are classes that specialize in helping the team, but they lack either offensive or defensive capabilities.
+* `Damage` roles are classes that specializes in dishing out damage, but they tend to be more fragile.
+* `Tank` roles are classes that specializes in taking damage while also dishing out some of their own, but they tend to be on the slower side.
+* `Support` roles are classes that specializes in helping the team, but they tend to lack either offensive or defensive capabilities.
 > Dev Note: B-Company Division is meant to be joke classes; balance or realism is not the focus. So have fun with them.
 
 | CLASS       		| ROLE      | DIVISION  | STRENGTHS 	 											          | WEAKNESSES																      |
@@ -76,8 +76,8 @@ Play together or die together! And don't be afraid to share your experiences wit
 | Quartermaster 	| Tank 		| Support 	| High ammo efficiency; strong starting ammo; high HP regen cap       | Very slow movement speed; low damage (except with MGs)                        |
 | Specialist 	    | Support 	| Support 	| Effective & efficient with all tools and items                      | Low max gun ammo capacity; no offensive benefits                              |
 | Field Technician 	| Damage 	| Support 	| Stronger & faster sentries; fast terminal & hacking skills          | Low base damage (melee & ranged); low starting ammo                           |
-| Prisoner 			| Neutral 	| B-Company | No major strengths; closer to vanilla experience                    | No major weaknesses; closer to vanilla experience                             |
-| HEL Diver 		| Damage 	| B-Company | Strong HEL gun damage; fast terminal & hacking; high movement speed | High friendly fire damage; fragile; low base HP & regen cap                   |
+| Prisoner 			| Neutral 	| B-Company | No major strengths; closer to vanilla experience with a few exceptions | No major weaknesses; closer to vanilla experience with a few exceptions       |
+| HEL Diver 		| Damage 	| B-Company | Strong HEL gun damage; fast terminal & hacking;                     | High friendly fire damage; fragile; low base HP & regen cap                   |
 | Abhuman 			| Tank 		| B-Company | Very high base HP; strong melee damage; extended hitbox/range       | Poor with terminals & sentries; low starting ammo; reduced movement           |
 | Deprived 			| Damage 	| B-Company | High resistances; strong damage; melee armor; fast objectives       | Extremely fragile esp. against projectile, parry!; low starting ammo          |
 | Courier 			| Damage 	| B-Company | Strong damage potential with precision-based weapons, Auto Bio-Tag  | Very poor resistance to Infection/Explosion/Bullet/Bleed with lowered max ammo|
@@ -85,13 +85,16 @@ Play together or die together! And don't be afraid to share your experiences wit
 ### Weapons:
 
 - All of the Main and Special weapons have either been overhauled, reworked or tweaked.
-- Muzzle flash has been mostly removed as my friends and I are photosensitive.
-- Significant changes were made to create synergies between weapons and classes.
+- Main and Special Weapons can be equipped on both weapon slots.
+- Muzzle flash has been mostly removed or significantly reduced(my friends and I are photosensitive).
+- Significant changes were made to create synergies between the weapons and classes.
 - Promotes more diverse team compositions with unique build synergies.
-- Silence CC does not mean silent weapon, it's the capability to temporarily disable some enemy abilities such as non-boss tongues.
+- Silence CC does not mean silent weapon, it's the capability to temporarily disable two important enemy abilities such as non-boss tongues and needler barrage.
 - DoT stands for Damage-over-Time effect that deals damage based on ticks per second.
 - Reserve Ammo means there is no reloading, as the weapon utilizes the whole ammo reserve.
-> Dev Note: Significant changes were made to guns to make them less meta-chasing and more fun-chasing. There isn't really a "meta" weapon nor will I ever make one. Each gun has a specific niche or role to play. One gun might be very strong in a couple rundowns while being useless in others. Diversify the player's options is my design philosophy here.
+- Some weapons require keybind presses to change modes. You can check through the [wiki](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/3968-5-ranged-weapons-list)
+- Currently there is no method in adding in HUD info on what mode the weapon is using. You will have to use the wiki, sound cues, and firing the gun. You can change keybinds through the EWC config file. Hopefully, there will be an update to the system that supports this feature.
+> Dev Note: Significant changes were made to guns to make them less meta-chasing and more fun-chasing. There isn't really a "meta" weapon nor will I ever make one. Each gun has a specific niche or role to play. One gun might be very strong in a couple rundowns while being useless in others. Diversifying the player's options will always be my design philosophy here.
 
 | ORIGINAL NAME			| NEW NAME							| TRAIT															| BALLISTICS		|
 |:----------------------|:----------------------------------|:--------------------------------------------------------------|:-----------------:|
@@ -105,8 +108,7 @@ Play together or die together! And don't be afraid to share your experiences wit
 | Accrat STB          	| Omneco Tracker PDW				| Tags target; thermal scope       								| Hitscan			|
 | Accrat ND6          	| Van Auken Heavy SMG				| Standard bullets												| Hitscan			|
 | Van Auken Cab F4    	| Accrat 3-B Carbine				| Standard bullets; 3-round burst 	                            | Hitscan			|
-| TR22 Hanaway        	| Hanaway DMR						| Standard bullets; Precision             						| Hitscan			|
-| Hanaway PSB         	| Hanaway Double-Tap				| Standard bullets; Stagger										| Hitscan			|
+| TR22 Hanaway        	| Hanaway DMR						| Switch between 2 mods(Single & Double-tap); Precision/Stagger	| Hitscan			|
 | Malatack LX         	| Van Auken Heavy Rifle				| Standard bullets												| Hitscan			|
 | Malatack CH 4       	| Mastaba Explosive Rifle	        | Explosive burst; charge-up; shrapnel              			| Projectile		|
 | Drekker Pres Mod 556	| Malatack Assault Rifle			| Standard bullets; switch between semi and full auto fire		| Hitscan			|
@@ -128,7 +130,7 @@ Play together or die together! And don't be afraid to share your experiences wit
 | Drekker Del P1      	| Omneco Tracker Rifle				| Tags target on hit                                            | Hitscan			|
 | Köning PR 11        	| Van Auken Sniper Rifle    		| Wall-penetration bullets; Thermal assist                      | Hitscan			|
 | Omneco LRG          	| Techman Nano Gauss Rifle      	| Nano-Burst Gobules on kill seeks nearby target                | Projectile        |
-| N/A               	| Hanaway Hunting Crossbow    		| Silent, & switch between three modes(Regular, Napalm, & Foam) | Projectile/Gravity|
+| N/A               	| Hanaway Hunting Crossbow    		| Stealth weapon, & switch between three modes(Regular, Napalm, & Foam) | Projectile/Gravity|
 | N/A                  	| Techman Wisp Launcher           	| Launches Wisp that attacks nearby targets                     | Projectile        |
 | N/A                  	| Van Auken Beam Rifle           	| High single target damage, require no reload, burn DoT on hit | Projectile        |
 | N/A                  	| Hanaway Javelin Rifle           	| Electrocute hit targets with a keybind, High stagger damage   | Projectile        |
@@ -162,7 +164,7 @@ Play together or die together! And don't be afraid to share your experiences wit
 | Shotgun Turret | Short	| Destroys Choke Points, but struggles w/open rooms	| High Close Damage, & CTRL+ALT+DEL choke points	| Placement Dependent, & Quite Ammo Hungry			|
 | Missile Turret | Long		| Large AoE, shoots at tagged ONLY, friendly fire   | High AoE Damage, great crowd control          	| Very Placement Dependent, & Low Ammo Count     	|
 | Concussion Nade Turret | Short	| Large AoE, bomblet clusters, explosive debuffs| High AoE Radius, high stagger, & debuffs     	| High Gravity Projectile, requires elevated placement, & low damage 	|
-| Healing Turret | Short	| Large AoE Heal, 360 degree detection radius       | Instant Heal AoE, Heal-Over-Time, & Armor Buff    | No Damage, long deployment, & delay between shots |
+| Healing Turret | Short	| Large AoE Heal, 360 degree detection radius, tagging rounds       | Instant Heal AoE, Heal-Over-Time, & Armor Buff    | No Damage, long deployment, & delay between shots |
 | Search & Rescue| Long 	| Glowstick Hipfire shots, Fog Repeller Aimed shots | Great utility tool, procs booster effects       	| No Damage, Low Ammo, takes up a tool slot        	|
 | C-Foam Mines   | Short	| Tripwire mines, C-foam payload                    | High C-Foam payload count, No friendly fire      	| No Damage, terrain & placement dependent       	|
 | Flamethrower   | Medium	| Large flames and explosive kills that apply DoTs  | Solid DoT Damage, Stagger, and crowd control     	| Low Direct Damage, & long time to kill          	|
@@ -214,6 +216,15 @@ Play together or die together! And don't be afraid to share your experiences wit
 * The two vanilla syringes have been altered for better use cases.
 * Added several new syringes that might spawn on several rundowns based on their spawn weight.
 * Check the [wiki](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/4332-7-syringe-information/) to see what each does! Some are straightforward while others are weird.
+
+### Bots:
+
+* The modpack is possible to beat with 1-3 bots in a lobby. But I highly recommend you have at least 1 other player to get a better experience.
+* Bots have been drastically improved with `BetterBots` & `Slides_Bot_Control` mod. Players are still better, but they aren't completely hopeless anymore.
+    * Use the Smart select keybind: `V`
+    * Use the Menu keybind: `X`
+* Bots can use some of the custom weapons that have EWC effects such as DoT and Explosives, but cannot use mode switching as they will only stick to the default which is mode 1.
+    * Do NOT give a bot explosive weapons if you want everyone to die faster, especially with the RYN0.
 
 ---
 

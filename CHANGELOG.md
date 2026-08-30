@@ -1,12 +1,92 @@
 # Changelog
 
-## **v2.5.1** - Latest
+## **v2.5.2** - Latest
 
 ### Personal Note:
 
 * It's generally fine to update any mods. Regular bug fixes and QoL improvements are always welcome, but be cautious when updating mods with large changes. Keep in mind that every mod update has the potential to break something within this pack.
 
 * Check "Description" on main page for keybind configs instructions under "Important" section. And wiki for keybinds on specific weapons.
+
+### Class Fix + Tweaks:
+* Shock Trooper:
+    * Increased Health Regen Speed bonus from `+30%` to `+100%`
+> Dev Note: This should increase the baseline HP regen speed to 2.0 per 5 seconds. This allows the Shock Trooper have reliable health much faster if they haven't taken any damage. So dodging and parrying is more rewarded, as well as using HP regen related boosters.
+
+* Paramedic:
+    * Fixed the wrong Health Regen Delay value in info text
+    * Increased Health Regen Delay bonus from `-20%` to `-40%`
+> Dev Note: This will decrease the baseline HP regen delay timer to 6 seconds after taking any damage instance. Hopefully, this change makes the class less reliant on maintaining itself. More synergy with HP Regen boosters and dodging/parrying.
+
+* Quartermaster:
+    * Increased Health Regen Cap bonus from `+65%` to `+75%`
+> Dev Note: This will increase the baseline HP regen cap to roughly 52.5%. Since the class is a Support Tank role, it should be able to rely on its regen cap a bit more. They should have more synergy with HP regen boosters.
+
+* Prisoner:
+    * Improved wording and format on class description
+
+### Weapon Fix + Tweaks:
+* All Weapons:
+    * Added `(Can Sprint)` & `(Can't Sprint)` next to `Lightweight` & `Heavyweight` respectively.
+
+* Javelin Rifle:
+    * Fixed the gun not receiving Demolitionist's damage bonus from previous patch
+    * Increased Explosion Damage from `30.0` to `35.0`
+    * Decreased Explosion Radius from `5.0m` to `4.0m`
+
+* Explosive Rifle:
+    * Increased Shrapnel Count from `10` to `15`
+    * Decreased Explosion Radius from `2.5m` to `2.0m`
+
+* Tracker Rifle
+    * Changed `Front` Gear Part
+    * Changed `Magazine` Gear Part
+
+* Hunting Crossbow:
+    * Changed Mode 2(Napalm Bolts) from `Loud` to `Silenced`
+> Dev Note: Originally, I did not want this mode to be silenced. But since EWC does not tell you which mode you are currently in. I had to make this silenced to prevent accidental alert triggering sleepers. The napalm payload will still awake sleepers if they are hit.
+
+* C-Foam Snare Tool:
+    * Fixed Bots being unable to deploy this tool when equipped
+
+* Concussive Nade Turret:
+    * Fixed Bots being unable to deploy this tool when equipped
+
+* Bio-Tag Missile Turret:
+    * Fixed Bots being unable to deploy this tool when equipped
+    * Fixed incorrect Glow Range value
+    * Decreased Direct Damage from `5.0` to `1.0`
+    * Increased Max Ammo from `15` to `20`
+    * Increased Explosion Damage from `50.0` to `60.0`
+    * Decreased Explosion Stagger Multiplier from `2.5x` to `2.0x`
+    * Decreased Friendly Fire Multiplier from `0.3x` to `0.2x`
+        * Friendly Fire Damage from `18.0` to `15.0`
+> Dev Note: With the new buffs to explosive weapons from the previous patch. I forgot to give some love to the missile turret which was accidentally left behind... But not anymore!
+
+* Healing Turret:
+    * Fixed Bots being unable to deploy this tool when equipped
+> Dev Note: Finally fixed an issue where bots were unable to utilize deployable tools through player commands. It was a mistake on my part from inexperience. This should open up a lot more options for lobbies with AIs.
+
+### Booster Tweaks:
+* Regen Cap & Speed `Muted` Booster:
+    * Increased Regen Cap bonus from `+10%` to `+15%`
+    * Increased Regen Speed bonus from `+5%` to `+10%`
+* Regen Cap & Speed`Bold` Booster:
+    * Increased Regen Cap bonus from `+15%` to `+20%`
+    * Increased Regen Speed bonus from `+10%` to `+15%`
+* Regen Cap & Speed `Aggressive` Booster:
+    * Increased Regen Cap bonus from `+20%` to `+25%`
+    * Increased Regen Speed bonus from `+15%` to `+20%`
+> Dev Note: After doing better calculations with Regen Cap and Speed, the original numbers weren't always worth it. They still had decent usage, but they needed a little bump. With the new class regen buffs mentioned above, these boosters should have a much better synergy.
+
+### Miscellaneous Fixes:
+* Changed README.md
+    * Improved wording on all section
+    * Added `Bots` section
+
+---
+
+### v2.5.1
 
 ### Mod Addition + Updates:
 * Added `NoInterruptions` mod by hirnukuono
@@ -15,7 +95,7 @@
     * Increased Ping Fade Out Timer from `4.0s` to `8.0s`
     * More than 1 Ping can be active at a time now
 > Dev Note: Makes the constant ping command usage a little less annoying while making it more consistent and reliable. I still want to encourage teamwork between 1 terminal user and 1 retriever; just less spammy.
-* Added `CustomMenuBarButtons` mod by Panthr75    
+* Added `CustomMenuBarButtons` mod by Panthr75
 * Added `Log Library` mod by JarheadHME
     * Ability to archive and reread text & audio logs in a library after unlocking them. 
     * They are located within a button called "Library"
@@ -115,7 +195,7 @@
     * Increased Mode 3 Player Damage Buff Duration from `12.1s` to `30.0s`
 > Dev Note: To encourage Medic Gun users to use the other two modes instead of saving up for Mode 1 healing only.
 
-* Exterminatur Flamer:
+* Exterminatus Flamer:
     * Added `(???)` to its classification
 
 * RYN0 Annihilator:
