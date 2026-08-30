@@ -47,7 +47,7 @@
       "TripMineDamage": 0.6,
       "MeleeResistance": 1.3,
       "ProjectileResistance": 1.3,
-      "RegenerationSpeed": 1.3,
+      "RegenerationSpeed": 2.0,
       "InfectionResistance": 1.2,
       "HackingProficiency": 0.8,
       "BioscanSpeed": 0.8
@@ -167,7 +167,7 @@
       "AutoPistolDamage": 1.2,
       "MachineGunDamage": 1.2,
       "MachinePistolDamage": 1.2,
-      "RegenerationCap": 1.66,
+      "RegenerationCap": 1.75,
       "InfectionResistance": 1.2,
       "HackingProficiency": 0.8
     }

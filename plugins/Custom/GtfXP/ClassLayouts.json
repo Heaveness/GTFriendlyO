@@ -91,13 +91,13 @@
     "Header": "Shock Trooper",
     "GroupPersistentId": 0,
     "PersistentId": 10,
-    "InfoText": "Excels at close-quarter combat, but lacks range strength.\n<color=yellow>Specializes: Melee/Shotguns/Armor/Health</color>\n\n<color=green>Strengths: \n+20% Shotgun Damage, \n+30% Melee Attack Spd., \n+30% Max Health & Health Regen Spd., \n+30% Melee/Projectile/Explosion Armor, \n+50% Bullet Resistance</color>\n\n<color=red>Weaknesses: \n-40% Ranged Damage except Specialized Guns, \n-25% Movement Spd., \n-20% Bioscan Spd.</color>",
+    "InfoText": "Excels at close-quarter combat, but lacks range strength.\n<color=yellow>Specializes: Melee/Shotguns/Armor/Health</color>\n\n<color=green>Strengths: \n+20% Shotgun Damage, \n+30% Melee Attack Spd., \n+30% Max Health, \n+100% Health Regen Spd., \n+30% Melee/Projectile/Explosion Armor, \n+50% Bullet Resistance</color>\n\n<color=red>Weaknesses: \n-40% Ranged Damage except Specialized Guns, \n-25% Movement Spd., \n-20% Bioscan Spd.</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Shock Trooper\n<color=green>Shotgun 120%, Melee Attack Spd. 130%, Max Health & Health Regen Spd. 130%, Melee/Projectile/Explosion Armor 130%, Bullet Resistance 150%</color>\n<color=red>Ranged Damage except Specialized Guns 60%, Movement Spd. 75%, Bioscan Spd. 70%</color>",
+        "CustomLevelStatsText": "Class: Shock Trooper\n<color=green>Shotgun 120%, Melee Attack Spd. 130%, Max Health 130%, Health Regen Spd. 200%, Melee/Projectile/Explosion Armor 130%, Bullet Resistance 150%</color>\n<color=red>Ranged Damage except Specialized Guns 60%, Movement Spd. 75%, Bioscan Spd. 70%</color>",
         "HealthMultiplier": 1.3,
         "MeleeDamageMultiplier": 1.0,
         "WeaponDamageMultiplier": 1.0,
@@ -132,20 +132,20 @@
     "Header": "Paramedic",
     "GroupPersistentId": 1,
     "PersistentId": 12,
-    "InfoText": "Excels at player revives, infection resistance, and support, but lacks offensive & defensive benefits.\n<color=yellow>Specializes: SMGs/Pistols/Player Revive</color>\n\n<color=green>Strengths: \n+100% Infection Res., \n+100% Revive Spd., \n+70% Revive Health, \n+30% Medipack Efficiency, \n-20% Health Regen Delay, \n+25% Bullet Resistance, Double Jump</color>\n\n<color=red>Weaknesses: \n-50% Ranged Damage except Specialized Guns, \n-25% Initial Gun Ammo, \n-15% Ammo Capacity</color>",
+    "InfoText": "Excels at player revives, infection resistance, and support, but lacks offensive & defensive benefits.\n<color=yellow>Specializes: SMGs/Pistols/Player Revive</color>\n\n<color=green>Strengths: \n+100% Infection Res., \n+100% Revive Spd., \n+70% Revive Health, \n+30% Medipack Efficiency, \n-40% Health Regen Delay, \n+25% Bullet Resistance, Double Jump</color>\n\n<color=red>Weaknesses: \n-50% Ranged Damage except Specialized Guns, \n-25% Initial Gun Ammo, \n-15% Ammo Capacity</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Paramedic\n<color=green>Infection Res. 100%, Revive Spd. 200%, Revive Health 170%, Medipack Efficiency 130%, Health Regen Delay 85%, Bullet Resistance 125%</color>\n<color=red>Ranged Damage except Specialized Guns 50%, Initial Gun Ammo 75%, Ammo Capacity 85%</color>",
+        "CustomLevelStatsText": "Class: Paramedic\n<color=green>Infection Res. 100%, Revive Spd. 200%, Revive Health 170%, Medipack Efficiency 130%, Health Regen Delay 60%, Bullet Resistance 125%</color>\n<color=red>Ranged Damage except Specialized Guns 50%, Initial Gun Ammo 75%, Ammo Capacity 85%</color>",
         "HealthMultiplier": 1.0,
         "MeleeDamageMultiplier": 1.0,
         "WeaponDamageMultiplier": 1.0,
         "CustomScaling": [
           {
             "CustomBuff": "RegenStartDelayMultiplier",
-            "Value": 0.8
+            "Value": 0.6
           },
           {
             "CustomBuff": "AmmoCapacity",
@@ -177,13 +177,13 @@
     "Header": "Quartermaster",
     "GroupPersistentId": 1,
     "PersistentId": 13,
-    "InfoText": "Excels at ammo efficiency and suppressive fire, but lacks movement spd.\n<color=yellow>Specializes: HMG/LMG/MP/Max Ammo/Higher Regen Cap</color>\n\n<color=green>Strengths: \n+20% HMG/LMG/MP Damage, \n+40% Ammo Capacity, \n+25% Initial Gun Ammo, \n+30% Supply Pack Efficiency, \n+65% Health Regen Cap</color>\n\n<color=red>Weaknesses: \n-30% Damage except Specialized Guns, \n-40% Movement Spd. \n-20% Initial Tool Ammo</color>",
+    "InfoText": "Excels at ammo efficiency and suppressive fire, but lacks movement spd.\n<color=yellow>Specializes: HMG/LMG/MP/Max Ammo/Higher Regen Cap</color>\n\n<color=green>Strengths: \n+20% HMG/LMG/MP Damage, \n+40% Ammo Capacity, \n+25% Initial Gun Ammo, \n+30% Supply Pack Efficiency, \n+75% Health Regen Cap</color>\n\n<color=red>Weaknesses: \n-30% Damage except Specialized Guns, \n-40% Movement Spd. \n-20% Initial Tool Ammo</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Quartermaster\n<color=green>HMG/LMG/MP Damage 120%, Ammo Capacity 140%, Initial Gun Ammo 125%, Supply Pack Efficiency 130%, Health Regen Cap 165%</color>\n<color=red>Damage except Specialized Guns 70%, Movement Spd. 60%, Initial Tool Ammo 80%</color>",
+        "CustomLevelStatsText": "Class: Quartermaster\n<color=green>HMG/LMG/MP Damage 120%, Ammo Capacity 140%, Initial Gun Ammo 125%, Supply Pack Efficiency 130%, Health Regen Cap 175%</color>\n<color=red>Damage except Specialized Guns 70%, Movement Spd. 60%, Initial Tool Ammo 80%</color>",
         "HealthMultiplier": 1.0,
         "MeleeDamageMultiplier": 1.0,
         "WeaponDamageMultiplier": 1.0,
@@ -286,7 +286,7 @@
     "Header": "Prisoner",
     "GroupPersistentId": 2,
     "PersistentId": 20,
-    "InfoText": "You get no benefits or penalties from the class system. More akin to the regular experience.\n\n<color=red>Warning: This class may or may not be more challenging since changes made outside of the class system are still being applied.\n\n Please keep in mind that B-Company classes are not meant to be taken seriously and exists for players to have fun.</color>",
+    "InfoText": "You get no benefits or penalties from the class system. More akin to the regular experience. The baseline changes to hacking proficiency and infection resistance from other classes are still applied. \n\n<color=red>Warning: This class may or may not be more challenging since changes made outside of the class system are still being applied.</color> \n\n<color=yellow>Note: Please keep in mind that B-Company classes are not meant to be taken seriously and exists for players to have fun.</color>",
     "Levels": [
       {
         "LevelNumber": 0,
