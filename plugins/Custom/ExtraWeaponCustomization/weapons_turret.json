@@ -19,6 +19,14 @@
         "Name": "ThickBullet",
         "HitSize": 0.1,
         "HitSizeFriendly": 0.1
+      },
+      {
+        "Name": "AutoPickup",
+        "Trigger": {
+          "Activate": "KeyConfig1",
+          "Apply": "KeyConfig1",
+          "ApplyDelay": 5.0
+        }
       }
     ]
   },
@@ -46,12 +54,12 @@
     "Properties": [
       {
 		    "Name": "Explosive",
-        "MaxDamage": 50,
-        "MinDamage": 50,
+        "MaxDamage": 60,
+        "MinDamage": 60,
         "InnerRadius": 4.5,
         "Radius": 4.5,
         "PrecisionDamageMulti": 0.5,
-        "StaggerDamageMulti": 2.5,
+        "StaggerDamageMulti": 2.0,
         "FriendlyDamageMulti": 0.3,
         "IgnoreFalloff": true,
         "DamageLimb": true,
@@ -67,6 +75,7 @@
         "EnableMineFX": true,
         "GlowColor": "#FF3300FF",
         "GlowDuration": 0.5,
+        "GlowRange": 4.5,
         "GlowFadeDuration": 1.0
       },
       {

@@ -168,6 +168,14 @@
             }
           },
           {
+            "Name": "Silence",
+            "WakeupRadius": 0,
+            "AlertRadius": 0,
+            "AlertAmount": 0,
+            "FakeAlertRadius": 0,
+            "CrossDoorMode": "None"
+          },
+          {
             "Name": "Shrapnel",
             "Count": 1,
             "Damage": 1,

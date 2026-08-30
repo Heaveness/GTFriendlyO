@@ -119,8 +119,8 @@
         "Name": "Explosive",
         "MaxDamage": 11.5,
         "MinDamage": 11.5,
-        "InnerRadius": 2.5,
-        "Radius": 2.5,
+        "InnerRadius": 2.0,
+        "Radius": 2.0,
         "PrecisionDamageMulti": 0.7,
         "StaggerDamageMulti": 2.0,
         "IgnoreFalloff": true,
@@ -138,7 +138,7 @@
         "EnableMineFX": true,
         "GlowColor": "#FF3300FF",
         "GlowDuration": 0.5,
-        "GlowRange": 2.5,
+        "GlowRange": 2.0,
         "GlowFadeDuration": 1.0
       },
 	  {
@@ -162,7 +162,7 @@
 	  },
     {
         "Name": "Shrapnel",
-        "Count": 10, 
+        "Count": 15, 
         "MaxRange": 10.0,
         "Damage": 5.0,
         "DamageFalloff": { "x": 50, "y": 50 },

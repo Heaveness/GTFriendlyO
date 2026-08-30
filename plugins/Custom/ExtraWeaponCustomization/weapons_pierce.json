@@ -337,10 +337,10 @@
       },
       {
         "Name": "Explosive",
-        "MaxDamage": 30.0,
-        "MinDamage": 30.0,
-        "InnerRadius": 5.0,
-        "Radius": 5.0,
+        "MaxDamage": 35.0,
+        "MinDamage": 35.0,
+        "InnerRadius": 4.0,
+        "Radius": 4.0,
         "StaggerDamageMulti": 1.5,
         "FriendlyDamageMulti": 0.2,
         "DamageFriendly": true,
@@ -348,7 +348,7 @@
         "GlowColor": "#B22222",
         "GlowIntensity": 3,
         "GlowDuration": 1.5,
-        "GlowRange": 5.0,
+        "GlowRange": 4.0,
         "SoundID": 7691066,
         "EnableMineFX": true,
         "Trigger": "DOT Kill"
