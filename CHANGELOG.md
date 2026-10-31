@@ -1,12 +1,177 @@
 # Changelog
 
-## **v2.5.2** - Latest
+## v2.6.0 - Latest
 
 ### Personal Note:
 
 * It's generally fine to update any mods. Regular bug fixes and QoL improvements are always welcome, but be cautious when updating mods with large changes. Keep in mind that every mod update has the potential to break something within this pack.
 
 * Check "Description" on main page for keybind configs instructions under "Important" section. And wiki for keybinds on specific weapons.
+
+### Player Tweaks:
+* Stamina:
+    * Decreased Minimum Stamina Out of Combat from `50%` to `25%`
+    * Decreased Stamina Regen In Combat(Resting) from `0.25x` to `0.2x`
+    * Decreased Stamina Regen Out of Combat(Resting) from `0.5x` to `0.35x`
+    * Decreased Stamina Regen Out of Combat(Not Resting) from `0.2x` to `0.15x`
+> Dev Note: This is in prep of the new dodging system added to melee. I need to reign in the stamina regen to prevent potential abuse.
+
+### New Melee Mechanic: Dodging!
+* All four melee types can now dodge left or right based on specific keybind presses
+    * Stamina is drained with each usage
+    * Dodge usage will halt roughly half of the stamina regen for a short period based on combat status. Continual use will refresh this duration
+    * Slight cooldown timer(based on weapon type) when using one direction only, you can still dodge side to side without any cooldowns
+    * Every dodge will provide short damage immunity(iframes) window upon usage, shares cooldown with the dodge cooldown timers
+    * Dodging near a sleeper will most likely awaken them
+    * Keybinds: (Configurable through EWC config settings)
+        * Left: `KeyConfig1` (Default: KeypadEnter)
+        * Right: `KeyConfig2` (Default: KeypadPlus)
+        * Forward: `KeyConfig3` (Default: KeypadPeriod)
+        * Backwards: `KeyConfig4` (Default: KeypadZero)
+* Sledgehammer:
+    * Can only dodge forward
+    * Dodge force: `11.5` 
+    * Dodge iframe duration: `0.45s`
+    * Dodge/iframe cooldown: `2.25s`
+    * Stamina Usage: `-20%`
+* Spear: (Note: spears can use lunge with sprint + heavy attack)
+    * Can only dodge backward
+    * Cannot dodge while sprinting
+    * Dodge force: `9.5` 
+    * Dodge iframe duration: `0.35s`
+    * Dodge/iframe cooldown: `1.75s`
+    * Stamina Usage: `-25%`
+* Knife:
+    * Can only dodge between left and right
+    * Can dodge while crouched
+    * Dodge force: `7.0` 
+    * Dodge iframe duration: `0.25s`
+    * Dodge/iframe cooldown: `1.25s`
+    * Stamina Usage: `-15%`
+* Bat:
+    * Can dodge in all four directions
+    * Dodge force: `5.0` 
+    * Dodge iframe duration: `0.2s`
+    * Dodge/iframe cooldown: `0.75s`
+    * Stamina Usage: `-10%`
+> Dev Note: Unfortunately I cannot use a dedicated singlular keybind with movement direction as there is no current support for it. That would have been more intuitive, but this is as close as you will get to actual dodging.
+
+### Bot AI Upgrade:
+* Updated `Slides Bot Control` mod
+    * When using manual actions, bots will use player detection rules(detectable)
+    * When using automatic actions, bots will use vanilla detection rules(invisible)
+    * New option to restrict which guns bots are allowed to attack with
+    * New `Sync Attack` option to allow bots to charge melee attacks, useful in stealth
+    * New option to allow bots to explore within the current area outside their usual leash range
+    * New option to allow bots to open containers/lockers by themselves
+    * And more!
+> Dev Note: Big update to bot AI with the new mod update. This should allow for better control over your AI buddies in lobbies less than 4. Especially great for solos and duos.
+
+### Class Tweaks:
+* Updated `GTFuckingXP` mod
+* Demolitionist:
+    * Fixed a spelling error
+    * New Ability: Recall Mines
+        * "Reload" keybind while wielding the mine deployer to retrieve all mines(EXCEPT consumable mines). Default: `R` Key
+        * Does not require to have Mine Deployer actively equipped once recall starts
+        * Press keybind again to cancel
+        * Works on all mines, including the custom mine deployers(EXCEPT consumable mines)
+        * Recall Timer: Based on Mine's Pickup time multiplied by `0.1x`
+            * Example: Mines take `2.0s` to pickup, recall takes `20.0s`
+        * Recall Range: `Unlimited`
+> Dev Note: To keep this ability balanced, the time it takes to recall is long. So picking up your mines is still "faster" than recalling at a range.
+
+* Field Technician:
+    * New Ability: Recall Sentry
+        * "Select Tool" keybind to retrieve sentries. Default: `4` Key
+        * Press keybind again to cancel 
+        * Works on all turrets, including the custom turrets
+        * Recall Timer: Based on Sentry's Pickup time multiplied by `0.1x`
+            Example: Rocket Sentry takes `1.5s` to pickup, recall takes `15.0s`
+        * Recall Range: `Unlimited`
+> Dev Note: Same reason as above dev note regarding balance on duration before recall. It should also give you enough time to cancel the recall.
+
+* Marine:
+    * Increased Specialized Damage Bonus from `+40%` to `+50%`
+    * Increased Gun Ammo Gain Bonus from `+15%` to `+20%`
+    * Removed mistakenly having a tripmine damage penalty of `-40%`
+> Dev Note: One of the common criticisms I've gotten is that the rifles take too much ammo to kill the smaller fodder targets. Hopefully, this is enough of a reason to utilize the Marine class for that job.
+
+* Shock Trooper:
+    * Slight improvements to description
+
+* Abhuman:
+    * Slight improvements to description
+    * Fixed the class starting with less ammo than advertised:
+        * It was receiving a `-60%` penalty when it should be `-40%`
+> Dev Note: Accidental mistake on the calculation which punished the class much harder than intended. It should be fixed now.
+
+### Weapon Tweaks
+* Updated `ExtraWeaponCustomization` mod
+* Triple Barrel Shotgun:
+    * Increased Push Force from `-12` to `-14`
+    * Decreased Push Air Friction from `1.0x` to `0.7x`
+> Dev Note: Special Powder upgrade schematics from a mining corporation!
+* Foam Shotgun:
+    * Increased Movement Speed bonus of Foam Hit from `+20%` to `+25%`
+    * Added `Backstab` property:
+        * Backstab damage multiplier: `1.2x`
+> Dev Note: Encourage the use of its main gimmick while introducing a new one.
+* Javelin:
+    * Once again another fix for the gun not receiving any benefits from the Demolitionist class:
+        * The wrong damage type was used...
+> Dev Note: Apologies for the constant mistakes with this gun. Switching its damage type caused some issues primarily caused by my negligence.
+* Crossbow:
+    * Added new feature to Mode 3:
+        * Killing a target within the foamed time will cause the enemy to explode which will mini-stun nearby targets similar to the Concussive Nade Turret
+        * Does not require last hit from user to trigger
+        * Explosion Damage: `1.0`
+        * Explosion Radius: `5.5m`
+        * Explosion Stagger Multiplier: `250.0x`
+        * Explosion Foam Time: `2.6s`
+> Dev Note: I always felt this mode was lacking something compare to its other modes. It's still a relatively small buff since the mini-stun from the concussive turret is much more reliable. This is just a little extra to give this mode an edge during niche situations without negating other foam alternatives.
+
+### Tool Tweaks:
+* HMG Turret:
+    * Increased Stagger Multplier from `4.0x` to `4.5x`
+    * Increased Tagged Stagger Multiplier from `1.25x` to `1.5x`
+    * Increased Max Ammo from `1594` to `2000`
+> Dev Note: The Concussive Nade Turret sort of took over this sentry's role and does better AoE CC. So I have to buff it to be a bit more competitive.
+
+### Melee Tweaks
+* Spear:
+    * Decreased Lunge Damage Bonus from `+30%` to `+20%`
+> Dev Note: New dodge mechanic makes this particular ability a bit too strong.
+    
+### Enemy Tweaks:
+* Updated `EEC_H` mod
+* Tank Prime:
+    * Changed name from `Tank Prime` to `Progenitor Tank`
+    * Increased Total Health and Limb Health by an extra `10x`
+    * Reduced Tag Time from `60.0s` to `30.0s`
+> Dev Note: It's entire gimmick is suppose to be unkillable. I just added an extra 0 to its already high health pool as an insurance. The reduced tag time should encourage players to keep a closer eye on it more often.
+* Stalker:
+    * Decreased Max Health from `700.0` to `550.0`
+> Dev Note: They might still be a bit too tanky. They aren't an issue by themselves, but they're still a major problem(unfun) when grouped with others. They are still higher HP than a Giant, but not as much anymwore.
+* Strikers:
+    * All Variants: Except Giants
+        * Increased Weakspot Damage Multiplier by flat `+15%`
+> Dev Note: While their job is acting as fodder and distraction, they just didn't feel rewarding to shoot at.
+
+### Miscellaneous Tweaks + Fixes:
+* Updated `BepInExPack_GTFO` mod
+* Updated `Spectate` mod
+* Updated `KillableSpitter` mod
+* Added `OptionalNetworkAPI` mod by Dinorush
+* README:
+    * Updated the melee section
+    * Fixed and improved the terrible grammar and spelling mistakes
+    * Rearranged and formatted a lot of the text for better flow
+    * Changed tagline for the mod
+
+---
+
+### v2.5.2
 
 ### Class Fix + Tweaks:
 * Shock Trooper:

@@ -2,13 +2,11 @@
 
 ### Description:
 
-A major overhaul to vanilla GTFO's gameplay, designed to bring more depth WITHOUT sacrificing the fun & engaging experience with friends.
+A major overhaul to GTFO, designed to bring more depth and fun with friends **WITHOUT** removing all of the challenge! A unique class system, new & reworked weapons/tools, improved mechanics, overhauled boosters, enhanced enemies, and more!
 
-As a long-time GTFO player, I've felt the base game lacked a bit of variety in many aspects of its gameplay. So, this mod focuses on creating a more unique co-op experience **WITHOUT** removing all of the tension or challenge from the game. 
+As a long-time GTFO player, I've felt the base game lacked a bit of variety in many aspects of its gameplay. So, this mod focuses on creating a more unique co-op experience **WITHOUT** removing all of the tension from the game. 
 
 This is **NOT** a hardcore or hyper-realism mod setup, nor will it ever be. Instead, it makes GTFO more accessible by giving players several new options with reworked systems to add depth. Theorycraft a team composition and tackle the depths! The enemies have also received much needed upgrades from their vanilla counterparts.
-
-Play together or die together! And don't be afraid to share your experiences with me on Github or on GTFO modding discord. And most importantly, good luck have fun!
 
 **Inspiration:** FriendlyGTFO by EcoLight and Duo Trials by ProjectZaero
 > Dev Note: I took the syringe customization settings from Duo Trials to reverse engineer how it was made. I have made major changes, but the overall credit should still be given to ProjectZaero. Check the wiki for more information.
@@ -16,12 +14,6 @@ Play together or die together! And don't be afraid to share your experiences wit
 ## Important:
 
 * This is a script heavy mod pack with tons of changes done to the base game. Those with low-end PCs should lower their settings to LOW. I also highly recommend you let someone with a strong PC and/or decent internet to be hosting.
-
-* Please note that this is a modpack; not a plugin. Check the status and future content in the wiki for updates. **Stay tuned & check [here!](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/3972-current-status-future-patches/)**
-    * General Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/discussions/11)
-    * Enemy Balance Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/discussions/12)
-    * Class Balance Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/discussions/13)
-    * Weapon Balance Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/discussions/14)
 
 * With the addition of keybind-based triggers that came along with `v2.3.0`. **PLEASE** check the EWC(ExtraWeaponCustomization) config and change the keybind to YOUR settings. I am aware that not everyone have keypads for their keyboards. 
     * Go to `Edit Config` within Thunderstore client -> Search for `ExtraWeaponCustomization.cfg` -> `Edit Config` -> Change keybinds 1 through 4 under `Keybind Settings` section
@@ -54,17 +46,17 @@ Play together or die together! And don't be afraid to share your experiences wit
 * Increased base Infection Resistance to `+20%`
 * Going down will inflict a `10%` infection penalty. 
     * It can be resisted with booster effects or cleansed with disinfection.
-> Dev Note: These changes are to make the players die a little slower as well as significantly benefit from booster effects. I also want to emphasize that while it's harder to get punished, but it's a lot more profound.
+> Dev Note: These changes were made so the players die a little slower, as well as significantly benefit from boosters. I also want to emphasize that while it's harder to get punished, but it's a lot more profound when it happens.
 
 ### Classes:
 
 * All classes have distinct roles with pros and cons. There is no leveling system, all classes get their stats at the start.
-* Meant to be played with 2+ players, more fun. Can still be played solo with bots.
+* Meant to be played with 2+ players. It's more fun this way. Can still be played solo with bots.
 * All classes can deal damage, some do it better than others. Boosters/Syringes can be used to further buff or debuff attributes.
 * `Damage` roles are classes that specializes in dishing out damage, but they tend to be more fragile.
 * `Tank` roles are classes that specializes in taking damage while also dishing out some of their own, but they tend to be on the slower side.
 * `Support` roles are classes that specializes in helping the team, but they tend to lack either offensive or defensive capabilities.
-> Dev Note: B-Company Division is meant to be joke classes; balance or realism is not the focus. So have fun with them.
+> Dev Note: B-Company Division is meant to be joke classes; balance or realism is not the focus. So just have fun with them.
 
 | CLASS       		| ROLE      | DIVISION  | STRENGTHS 	 											          | WEAKNESSES																      |
 |-------------------|-----------|-----------|:--------------------------------------------------------------------|:------------------------------------------------------------------------------|
@@ -76,7 +68,7 @@ Play together or die together! And don't be afraid to share your experiences wit
 | Quartermaster 	| Tank 		| Support 	| High ammo efficiency; strong starting ammo; high HP regen cap       | Very slow movement speed; low damage (except with MGs)                        |
 | Specialist 	    | Support 	| Support 	| Effective & efficient with all tools and items                      | Low max gun ammo capacity; no offensive benefits                              |
 | Field Technician 	| Damage 	| Support 	| Stronger & faster sentries; fast terminal & hacking skills          | Low base damage (melee & ranged); low starting ammo                           |
-| Prisoner 			| Neutral 	| B-Company | No major strengths; closer to vanilla experience with a few exceptions | No major weaknesses; closer to vanilla experience with a few exceptions       |
+| Prisoner 			| Neutral 	| B-Company | No major strengths; closer to vanilla experience with a few exceptions | No major weaknesses; closer to vanilla experience with a few exceptions    |
 | HEL Diver 		| Damage 	| B-Company | Strong HEL gun damage; fast terminal & hacking;                     | High friendly fire damage; fragile; low base HP & regen cap                   |
 | Abhuman 			| Tank 		| B-Company | Very high base HP; strong melee damage; extended hitbox/range       | Poor with terminals & sentries; low starting ammo; reduced movement           |
 | Deprived 			| Damage 	| B-Company | High resistances; strong damage; melee armor; fast objectives       | Extremely fragile esp. against projectile, parry!; low starting ammo          |
@@ -94,13 +86,13 @@ Play together or die together! And don't be afraid to share your experiences wit
 - Reserve Ammo means there is no reloading, as the weapon utilizes the whole ammo reserve.
 - Some weapons require keybind presses to change modes. You can check through the [wiki](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/3968-5-ranged-weapons-list)
 - Currently there is no method in adding in HUD info on what mode the weapon is using. You will have to use the wiki, sound cues, and firing the gun. You can change keybinds through the EWC config file. Hopefully, there will be an update to the system that supports this feature.
-> Dev Note: Significant changes were made to guns to make them less meta-chasing and more fun-chasing. There isn't really a "meta" weapon nor will I ever make one. Each gun has a specific niche or role to play. One gun might be very strong in a couple rundowns while being useless in others. Diversifying the player's options will always be my design philosophy here.
+> Dev Note: Significant changes were made to guns to make them less meta-chasing and more fun-chasing. There isn't really a "meta" weapon nor will I ever make one intentionally. Each gun has a specific niche or role to play. One gun might be very strong in a couple rundowns while being useless in others. Diversifying the player's options will always be my design philosophy here.
 
 | ORIGINAL NAME			| NEW NAME							| TRAIT															| BALLISTICS		|
 |:----------------------|:----------------------------------|:--------------------------------------------------------------|:-----------------:|
 | Shelling S49        	| Shelling Tracker Pistol			| Tags target on hit											| Hitscan			|
 | Shelling Nano       	| Shelling Foam Pistol				| Foams targets; barricade doors; Foamed increased damage taken	| Hitscan			|
-| Bataldo 3RB	 	  	| Bataldo Revolver					| Hold trigger for rapid fire; richochet on terrain             | Hitscan			|
+| Bataldo 3RB	 	  	| Bataldo Revolver					| Hold trigger for rapid fire; richochet on terrain             | Hitscan/Projectile|
 | Raptus Treffen 2    	| Raptus MP2						| Full-auto                          	            			| Hitscan			|
 | Raptus Steigro      	| Raptus Reserve MP1				| Reserve ammo; no reload               						| Hitscan			|
 | Accrat Golok DA     	| Accrat 5-B Bullpup				| Standard bullets; 5-round burst fire           				| Hitscan			|
@@ -115,13 +107,13 @@ Play together or die together! And don't be afraid to share your experiences wit
 | Buckland SBS III    	| Buckland Triple-Barrel			| Standard bullets; hold aim to fire all shots		            | Hitscan			|
 | Bataldo J 300       	| Buckland Foam Shotgun      		| Standard bullets; applies Foam when aimed; Speed on Foam Hits | Hitscan			|	
 | Bataldo Custom K330 	| Bataldo Single Slugger			| High-precision slug; fast reload                              | Hitscan			|
-| Malatack HXC        	| Malatack GL AR					| Standard bullets; 4-burst, grenade launcher attachment         Hitscan			|
+| Malatack HXC        	| Malatack GL AR					| Standard bullets; 4-burst, grenade launcher attachment        | Hitscan			|
 | Drekker CLR         	| Techman Exp. Smart Rifle			| Lock-on required; auto-aim homing		                    	| Projectile/Homing	|
 | Buckland S870       	| Bataldo Pump Action				| Standard bullets												| Hitscan			|
 | Buckland AF6        	| Buckland Hemorrhage Shotgun       | Reserve ammo; no reload                                       | Hitscan			|
 | Buckland INEX Drei  	| Mastaba Explosive Shotgun			| Explosive rounds; charge-up                                   | Projectile		|
 | Buckland XDIST2     	| Buckland Choke Shotgun			| Standard bullets												| Hitscan			|
-| Mastaba R66         	| Bataldo Heavy Revolver			| Hold trigger for rapid fire; richochet on terrain             | Hitscan			|
+| Mastaba R66         	| Bataldo Heavy Revolver			| Hold trigger for rapid fire; richochet on terrain             | Hitscan/Projectile|
 | Techman Arbalist V  	| Raptus LMG						| Standard bullets                                              | Hitscan			|
 | Techman Veruta XII  	| Raptus Reserve HMG				| Reserve ammo; no reload, fire to accelerate                   | Hitscan			|
 | Techman Klust 6     	| Mastaba Explosive Cannon      	| Explosive burst; charge-up; shrapnel; Aim to fire quickly 	| Projectile/Gravity|
@@ -141,8 +133,9 @@ Play together or die together! And don't be afraid to share your experiences wit
 * All four melee types have been reworked to be more distinct from each other.
 * Sledgehammers and Bats are meant for players who prefer loud encounters.
 * Knives and Spears are meant for players who prefer quiet engagements.
+* You can dodge with all melee types, their effectiveness and efficiency is based on the type. Each with iframes and stamina cost per usage.
 * You can parry all melee and projectiles, but you cannot parry the CC itself. For example, a Giant Striker can still pull you even though you parried the tentacle.
-> Dev Note: Parrying projectiles allows you to send them back towards your crosshair. 
+> Dev Note: Parrying projectiles allows you to send them back towards your crosshair. You can also parry your teammate's projectiles. Do with that information as you will.
 
 | TYPE       	| ROLE      | TRAITS  			         | STRENGTHS 	 								| WEAKNESSES								    	|
 |:--------------|:----------|:---------------------------|:---------------------------------------------|:--------------------------------------------------|
@@ -151,10 +144,53 @@ Play together or die together! And don't be afraid to share your experiences wit
 | Spears		| Silent 	| Bio-Tag & Armor Pierce & Lunge | High Hitbox Range & Precision Multiplier		| High Stamina Cost, & Long Charge Time				|
 | Bats 			| Loud 		| Stagger Explosive Kills  	 | High Light Damage & Low Stamina Cost			| Low Precision/Stealth Damage, & Low Heavy Damage	|
 
+### Dodging System:
+
+* All four melee types can now dodge left or right based on specific keybind presses
+    * Stamina is drained with each usage
+    * Dodge usage will halt roughly half of the stamina regen for a short period based on combat status. Continual use will refresh this duration
+    * Slight cooldown timer(based on weapon type) when using one direction only, you can still dodge side to side without any cooldowns
+    * Every dodge will provide short damage immunity(iframes) window upon usage, shares cooldown with the dodge cooldown timers
+    * Dodging near a sleeper will most likely awaken them
+    * Keybinds: (Configurable through EWC config settings)
+        * Left: `KeyConfig1` (Default: KeypadEnter)
+        * Right: `KeyConfig2` (Default: KeypadPlus)
+        * Forward: `KeyConfig3` (Default: KeypadPeriod)
+        * Backwards: `KeyConfig4` (Default: KeypadZero)
+* Sledgehammer:
+    * Can only dodge forward
+    * Dodge force: `11.5` 
+    * Dodge iframe duration: `0.45s`
+    * Dodge/iframe cooldown: `2.25s`
+    * Stamina Usage: `-20%`
+* Spear: (Note: spears can use lunge with sprint + heavy attack)
+    * Can only dodge backward
+    * Cannot dodge while sprinting
+    * Dodge force: `9.5` 
+    * Dodge iframe duration: `0.35s`
+    * Dodge/iframe cooldown: `1.75s`
+    * Stamina Usage: `-25%`
+* Knife:
+    * Can only dodge between left and right
+    * Can dodge while crouched
+    * Dodge force: `7.0` 
+    * Dodge iframe duration: `0.25s`
+    * Dodge/iframe cooldown: `1.25s`
+    * Stamina Usage: `-15%`
+* Bat:
+    * Can dodge in all four directions
+    * Dodge force: `5.0` 
+    * Dodge iframe duration: `0.2s`
+    * Dodge/iframe cooldown: `0.75s`
+    * Stamina Usage: `-10%`
+> Dev Note: Dodging was added to expand on melee combat's effectiveness during specific situations. With all the other mechanics added, it should be a much more viable option.
+
 ### Tools:
 
 * Most tool gear & items have received some tweaks. Overall increase in carrying capacity for items and sentry ammo.
-> Dev Note: The ResourceStacking mod will be an important upgrade for consumables. A huge collection of turrets and tools should allow players to think about what to bring. Instead of brining the same 2-3 tools in every rundown. Now you must weigh your options in each rundown.
+* A huge collection of turrets and tools should allow players to think about what to bring.
+* Instead of bringing the same 2-3 tools for every rundown. Now, you must weigh your options in each rundown. Some might be useful while others might be useless.
+> Dev Note: The ResourceStacking mod will be an important upgrade for consumables.  
 
 | SENTRIES       | RANGE 	| QUIRKS		  									| STRENGTHS 	 									| WEAKNESSES										|
 |----------------|----------|---------------------------------------------------|:--------------------------------------------------|:--------------------------------------------------|
@@ -163,10 +199,10 @@ Play together or die together! And don't be afraid to share your experiences wit
 | Sniper Turret	 | Long		| Alt. to snipers, but fires at tagged targets ONLY	| Very High Single-target Damage, & Ammo Efficient	| Poor Defense, & Long Setup						|
 | Shotgun Turret | Short	| Destroys Choke Points, but struggles w/open rooms	| High Close Damage, & CTRL+ALT+DEL choke points	| Placement Dependent, & Quite Ammo Hungry			|
 | Missile Turret | Long		| Large AoE, shoots at tagged ONLY, friendly fire   | High AoE Damage, great crowd control          	| Very Placement Dependent, & Low Ammo Count     	|
-| Concussion Nade Turret | Short	| Large AoE, bomblet clusters, explosive debuffs| High AoE Radius, high stagger, & debuffs     	| High Gravity Projectile, requires elevated placement, & low damage 	|
+| Concussive Nade Turret | Short	| Large AoE, bomblet clusters, explosive debuffs| High AoE Radius, high stagger, & debuffs     	| High Gravity Projectile, requires elevated placement, & low damage 	|
 | Healing Turret | Short	| Large AoE Heal, 360 degree detection radius, tagging rounds       | Instant Heal AoE, Heal-Over-Time, & Armor Buff    | No Damage, long deployment, & delay between shots |
-| Search & Rescue| Long 	| Glowstick Hipfire shots, Fog Repeller Aimed shots | Great utility tool, procs booster effects       	| No Damage, Low Ammo, takes up a tool slot        	|
-| C-Foam Mines   | Short	| Tripwire mines, C-foam payload                    | High C-Foam payload count, No friendly fire      	| No Damage, terrain & placement dependent       	|
+| Search & Rescue| Long 	| Switch between 2 mods(Glowstick & Fog Repeller)   | Great utility tool, procs booster effects       	| No Damage, Low Ammo, takes up a tool slot        	|
+| C-Foam Snare Tool| Short	| Tripwire foam mines, C-foam payload, wide arc     | High C-Foam payload count, No friendly fire      	| No Damage, terrain & placement dependent       	|
 | Flamethrower   | Medium	| Large flames and explosive kills that apply DoTs  | Solid DoT Damage, Stagger, and crowd control     	| Low Direct Damage, & long time to kill          	|
 | RYN0 Annihilator| Long	| Very long shot delay(30s), explosion rounds       | Large Radius, very high AoE damage             	| Extremely low ammo, & very easy friendly fire  	|
 
@@ -226,26 +262,28 @@ Play together or die together! And don't be afraid to share your experiences wit
 * Bots can use some of the custom weapons that have EWC effects such as DoT and Explosives, but cannot use mode switching as they will only stick to the default which is mode 1.
     * Do NOT give a bot explosive weapons if you want everyone to die faster, especially with the RYN0.
 
----
-
-### Recommended Mods:
+## Recommended Mods:
 
 * This mod most likely will **NOT** be compatible with other custom Rundowns or modpacks that changes the same datablocks. You must merge the appropriate datablocks yourself to apply compatibility. Even then, many of the pack's features working correctly can be questionable.
 
 * Can be played Vanilla with other mods with this mod-pack, especially with client-side mods. It's recommended to use several bug fix mods to prevent further issues with GTFO. But it's up to the players if they want them or not. It's not necessary to add them in. List: [Thunderstore wiki link](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/4030-recommend-mods-wip/)
 > Dev Note: These are recommended, but not needed. Some of these mods will have configs that might be packaged with the mod-pack, but not the mod itself. These aren't necessary, but nice to have on the list.
 
-* Recommend to check out the_tavern's [AutogenRundown](https://thunderstore.io/c/gtfo/p/the_tavern/AutogenRundown/) mod, especially **AFTER** you have finished GTFO's vanilla rundowns. It provides new rundowns generated daily, weekly, monthly, and each season. Automatic Rundown generation, using procedural seed based generation!
+* Recommended to check out the_tavern's [AutogenRundown](https://thunderstore.io/c/gtfo/p/the_tavern/AutogenRundown/) mod, especially **AFTER** you have finished GTFO's vanilla rundowns. It provides new rundowns generated daily, weekly, monthly, and each season. Automatic Rundown generation, using procedural seed based generation!
     * Additional work might be required to achieve better compatibility. Some features from GTFriendlyO or AutogenRundown may or may not work well with each other.
 
-* `LobbyExpansion` mod[Here](https://thunderstore.io/c/gtfo/p/Cactus/LobbyExpansion/) has been reported to me that it does work. But keep in mind that the game's performance will start taking a hit after 4 players.
+* [LobbyExpansion](https://thunderstore.io/c/gtfo/p/Cactus/LobbyExpansion/) mod has been reported that it works well. But keep in mind that the game's performance might take a major hit after 4 players.
 
----
+## Extras:
 
-### Extras:
+* Please note that this is a modpack; not a plugin. Check the status and future content in the wiki for updates. **Stay tuned & check [here!](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/3972-current-status-future-patches/)**
+    * General Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/discussions/11)
+    * Enemy Balance Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/discussions/12)
+    * Class Balance Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/discussions/13)
+    * Weapon Balance Thread on [Github Link](https://github.com/Heaveness/GTFriendlyO/discussions/14)
 
 * Check out the wiki pages for more information on each major feature: [Here](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/GTFriendlyO/wiki/).
 * If you really liked the mod-pack, give it a thumbs up on Thunderstore. Try it out with friends or randoms!
-* Check out my other mods over at [Thunderstore Link](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/)
-* Join the GTFO Modding Discord and search `GTFriendlyO Feedback` forum! If you want to discuss more actively with me.
-* Thank you for the support. Good luck and have fun!
+* Check out my other mods(if I have any) over at [Thunderstore Link](https://thunderstore.io/c/gtfo/p/Carb_Crusaders/)
+* Join the GTFO Modding Discord and search `GTFriendlyO Feedback` forum! If you want to discuss more actively with me. Don't be afraid to share your experiences too!
+* Thank you for the support. Play or die together, good luck have fun!
