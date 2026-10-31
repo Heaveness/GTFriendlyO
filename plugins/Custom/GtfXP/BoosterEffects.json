@@ -5,11 +5,10 @@
       0
     ],
     "ValueToBoosterEffects": {
-      "RifleDamage": 1.4,
-      "BullpupRifleDamage": 1.4,
-      "AssaultRifleDamage": 1.4,
-      "CarbineDamage": 1.4,
-      "TripMineDamage": 0.6,
+      "RifleDamage": 1.5,
+      "BullpupRifleDamage": 1.5,
+      "AssaultRifleDamage": 1.5,
+      "CarbineDamage": 1.5,
       "MeleeResistance": 0.5,
       "ProjectileResistance": 1.3,
       "InfectionResistance": 1.2,

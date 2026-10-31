@@ -3,13 +3,13 @@
     "Header": "Marine",
     "GroupPersistentId": 0,
     "PersistentId": 9,
-    "InfoText": "Excels at ranged combat, but lacks melee strength.\n<color=yellow>Specializes: Assault Rifles/Bullpup Rifles/Carbines</color>\n\n<color=green>Strengths: \n+40% Specialized Ranged Damage, \n+30% Projectile Armor, \nBleed Immunity, \n+15% Gun Ammo Gain</color>\n\n<color=red>Weaknesses: \n-50% Melee Armor/Damage/Attack Spd.</color>",
+    "InfoText": "Excels at ranged combat, but lacks melee strength.\n<color=yellow>Specializes: Assault Rifles/Bullpup Rifles/Carbines</color>\n\n<color=green>Strengths: \n+50% Specialized Ranged Damage, \n+30% Projectile Armor, \nBleed Immunity, \n+20% Gun Ammo Gain</color>\n\n<color=red>Weaknesses: \n-50% Melee Armor/Damage/Attack Spd.</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Marine\n<color=green>Specialized Ranged Damage: 140%, Projectile Armor 130%, Bleed Immunity, Gun Ammo Gain 115%</color>\n<color=red>Melee Armor/Damage/Attack Spd. 50%</color>",
+        "CustomLevelStatsText": "Class: Marine\n<color=green>Specialized Ranged Damage: 150%, Projectile Armor 130%, Bleed Immunity, Gun Ammo Gain 120%</color>\n<color=red>Melee Armor/Damage/Attack Spd. 50%</color>",
         "HealthMultiplier": 1.0,
         "MeleeDamageMultiplier": 0.5,
         "WeaponDamageMultiplier": 1.0,
@@ -28,7 +28,7 @@
           },
           {
             "CustomBuff": "AmmoGainEfficiency",
-            "Value": 1.15
+            "Value": 1.2
           }
         ],
         "LevelUpBonus": []
@@ -67,13 +67,13 @@
     "Header": "Demolitionist",
     "GroupPersistentId": 0,
     "PersistentId": 11,
-    "InfoText": "Excels at explosive ordnances, but lacks precision and hacking.\n<color=yellow>Specializes: Explosive Resistance/Tripmines/Explosive Guns & Tools</color>\n\n<color=green>Strengths: \n+30% Explosive Cannon/Rifle/Javelin/RYN0 Damage, \n+75% Tripmine Damage, \n+85% Explosive Resistance</color>\n\n<color=red>Weaknesses: \n-30% Ranged Damage except Specialized Guns, \n-55% Hacking Skills, \n-75% Terminal CPU, \n-50% Sentry CPU, \n-40% Sentry Damage</color>",
+    "InfoText": "Excels at explosive ordinances, but lacks precision and hacking.\n<color=yellow>Specializes: Explosive Resistance/Tripmines/Explosive Guns & Tools</color>\n\n<color=green>Strengths: \n+30% Explosive Cannon/Rifle/Javelin/RYN0 Damage, \n+75% Tripmine Damage, \n+85% Explosive Resistance, \nRecall Mines(Reload Key While Holding Mine Deployer)</color>\n\n<color=red>Weaknesses: \n-30% Ranged Damage except Specialized Guns, \n-55% Hacking Skills, \n-75% Terminal CPU, \n-50% Sentry CPU, \n-40% Sentry Damage</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Demolitionist\n<color=green>Explosive Cannon/Rifle/Javelin/RYN0 130%, Tripmine Damage 150%, Explosive Res. 185%</color>\n<color=red>Ranged Damage except Specialized Guns 70%, Hacking Skill 45%, Terminal CPU 25%, Sentry CPU 50%, Sentry Damage 60%</color>",
+        "CustomLevelStatsText": "Class: Demolitionist\n<color=green>Explosive Cannon/Rifle/Javelin/RYN0 130%, Tripmine Damage 150%, Explosive Res. 185%, Recall Mines</color>\n<color=red>Ranged Damage except Specialized Guns 70%, Hacking Skill 45%, Terminal CPU 25%, Sentry CPU 50%, Sentry Damage 60%</color>",
         "HealthMultiplier": 1.0,
         "MeleeDamageMultiplier": 1.0,
         "WeaponDamageMultiplier": 1.0,
@@ -91,7 +91,7 @@
     "Header": "Shock Trooper",
     "GroupPersistentId": 0,
     "PersistentId": 10,
-    "InfoText": "Excels at close-quarter combat, but lacks range strength.\n<color=yellow>Specializes: Melee/Shotguns/Armor/Health</color>\n\n<color=green>Strengths: \n+20% Shotgun Damage, \n+30% Melee Attack Spd., \n+30% Max Health, \n+100% Health Regen Spd., \n+30% Melee/Projectile/Explosion Armor, \n+50% Bullet Resistance</color>\n\n<color=red>Weaknesses: \n-40% Ranged Damage except Specialized Guns, \n-25% Movement Spd., \n-20% Bioscan Spd.</color>",
+    "InfoText": "Excels at close-quarter combat, but lacks overall speed.\n<color=yellow>Specializes: Melee/Shotguns/Armor/Health</color>\n\n<color=green>Strengths: \n+20% Shotgun Damage, \n+30% Melee Attack Spd., \n+30% Max Health, \n+100% Health Regen Spd., \n+30% Melee/Projectile/Explosion Armor, \n+50% Bullet Resistance</color>\n\n<color=red>Weaknesses: \n-40% Ranged Damage except Specialized Guns, \n-25% Movement Spd., \n-20% Bioscan Spd.</color>",
     "Levels": [
       {
         "LevelNumber": 0,
@@ -250,13 +250,13 @@
     "Header": "Field Technician",
     "GroupPersistentId": 1,
     "PersistentId": 15,
-    "InfoText": "Excels at sentries & hacking, but lacks offensive benefits.\n<color=yellow>Specializes: Sentry/Computer Processing Power/Hacking Skill</color>\n\n<color=green>Strengths: \n+30% Sentry Damage, \n+30% Sentry CPUs, \n+30% Tool Ammo Gain, \n+70% Hacking Skill, \n+100% Terminal CPU, \n+75% Bullet Resistance, \nDouble Jump</color>\n\n<color=red>Weaknesses: \n-30% Initial Gun Ammo, \n-40% Ranged & Melee Damage, \n-10% Ammo Capacity</color>",
+    "InfoText": "Excels at sentries & hacking, but lacks personal offensive benefits.\n<color=yellow>Specializes: Sentry/Computer Processing Power/Hacking Skill</color>\n\n<color=green>Strengths: \n+30% Sentry Damage, \n+30% Sentry CPUs, \n+30% Tool Ammo Gain, \n+70% Hacking Skill, \n+100% Terminal CPU, \n+75% Bullet Resistance, \nDouble Jump, \nRecall Sentry(Select Tool Key While Turret Deployed)</color>\n\n<color=red>Weaknesses: \n-30% Initial Gun Ammo, \n-40% Ranged & Melee Damage, \n-10% Ammo Capacity</color>",
     "Levels": [
       {
         "LevelNumber": 0,
         "TotalXpRequired": 0,
         "CustomLevelUpPopupText": null,
-        "CustomLevelStatsText": "Class: Field Technician\n<color=green>Sentry Damage 130%, Sentry CPUs 130%, Tool Ammo Gain 130%, Hacking Skill 170%, Terminal CPU 200%, Bullet Resistance 175%</color>\n<color=red>Initial Gun Ammo 70%, Ranged & Melee Damage 60%, Ammo Capacity 90%</color>",
+        "CustomLevelStatsText": "Class: Field Technician\n<color=green>Sentry Damage 130%, Sentry CPUs 130%, Tool Ammo Gain 130%, Hacking Skill 170%, Terminal CPU 200%, Bullet Resistance 175%, Recall Sentry</color>\n<color=red>Initial Gun Ammo 70%, Ranged & Melee Damage 60%, Ammo Capacity 90%</color>",
         "HealthMultiplier": 1.0,
         "MeleeDamageMultiplier": 0.6,
         "WeaponDamageMultiplier": 1.0,
@@ -337,7 +337,7 @@
     "Header": "Abhuman",
     "GroupPersistentId": 2,
     "PersistentId": 22,
-    "InfoText": "Big strong. Not smart. Hit hard. Good friend. Follow orders. Kill h-h-heretics. That's plan! Lubb me Emprah, sah!\n<color=yellow>Specializes: Rock, meet sleeper!</color>\n\n<color=green>Strengths: \n+200% Max Health, \n+300% Health Regen Cap, \n+100% Melee Damage, \n+50% Melee Range & Hitbox</color>\n\n<color=red>Weaknesses: \n-40% Initial Weapon Ammo, \n-70% Hacking Skill, \n-70% Terminal & Sentry CPU, \n-30% Movement Spd. & Melee Attack Spd., \n-40% Bioscan Spd. & Recharge Spd.</color>",
+    "InfoText": "Big strong. Not smart. Hit hard. Good friend. Follow orders. Kill h-heretics. That's me plan! Lubb me Emprah, sah!\n<color=yellow>Specializes: Rock, meet sleeper!</color>\n\n<color=green>Strengths: \n+200% Max Health, \n+300% Health Regen Cap, \n+100% Melee Damage, \n+50% Melee Range & Hitbox</color>\n\n<color=red>Weaknesses: \n-40% Initial Weapon Ammo, \n-70% Hacking Skill, \n-70% Terminal & Sentry CPU, \n-30% Movement Spd. & Melee Attack Spd., \n-40% Bioscan Spd. & Recharge Spd.</color>",
     "Levels": [
       {
         "LevelNumber": 0,
@@ -376,9 +376,9 @@
           }
         ],
         "StartingBuffs": {
-          "AmmunitionMainMultiplier": 0.4,
-          "AmmunitionSpecialMultiplier": 0.4,
-          "AmmunitionToolMultiplier": 0.4
+          "AmmunitionMainMultiplier": 0.6,
+          "AmmunitionSpecialMultiplier": 0.6,
+          "AmmunitionToolMultiplier": 0.6
         }  
       }
     ]
