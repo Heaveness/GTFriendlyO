@@ -57,6 +57,7 @@
 > Dev Note: Unfortunately I cannot use a dedicated singlular keybind with movement direction as there is no current support for it. That would have been more intuitive, but this is as close as you will get to actual dodging.
 
 ### Bot AI Upgrade:
+* Updated `BetterBots` mod
 * Updated `Slides Bot Control` mod
     * When using manual actions, bots will use player detection rules(detectable)
     * When using automatic actions, bots will use vanilla detection rules(invisible)
@@ -108,6 +109,7 @@
 
 ### Weapon Tweaks
 * Updated `ExtraWeaponCustomization` mod
+* Updated `DescriptiveWeaponStatShower` mod
 * Triple Barrel Shotgun:
     * Increased Push Force from `-12` to `-14`
     * Decreased Push Air Friction from `1.0x` to `0.7x`
@@ -160,8 +162,12 @@
 
 ### Miscellaneous Tweaks + Fixes:
 * Updated `BepInExPack_GTFO` mod
+* Updated `AmorLib` mod
 * Updated `Spectate` mod
 * Updated `KillableSpitter` mod
+* Updated `BepInExPack_GTFO` mod
+* Updated `EnemyAnimationFix` mod
+* Added `GTFO API` mod by GTFOModding
 * Added `OptionalNetworkAPI` mod by Dinorush
 * README:
     * Updated the melee section
