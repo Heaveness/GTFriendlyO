@@ -27,7 +27,7 @@
         * Left: `KeyConfig1` (Default: KeypadEnter)
         * Right: `KeyConfig2` (Default: KeypadPlus)
         * Forward: `KeyConfig3` (Default: KeypadPeriod)
-        * Backwards: `KeyConfig4` (Default: KeypadZero)
+        * Backward: `KeyConfig4` (Default: KeypadZero)
 * Sledgehammer:
     * Can only dodge forward
     * Dodge force: `11.5` 
