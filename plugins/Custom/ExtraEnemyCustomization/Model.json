@@ -756,7 +756,7 @@
 	  },
 	  "SpriteName": "marker_boss.png",
 	  "MarkerColor": "#FF8800",
-	  "MarkerText": "<size=200%><u>Tank Prime</u>\n[HP_BAR]</size>",
+	  "MarkerText": "<size=200%><u>Progenitor Tank</u>\n[HP_BAR]</size>",
 	  "MarkerTextHealthBarFormat": {
 		"Count": 10,
 		"FilledBarText": "|",
