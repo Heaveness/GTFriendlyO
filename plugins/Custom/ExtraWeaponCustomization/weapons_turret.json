@@ -310,7 +310,7 @@
         "BubbleAmount": 1.0,
         "BubbleStrength": 20.0,
         "BubbleExpandSpeed": 0.25,
-        "BubbleOnDoors": true,
+        "BubbleOnDoors": false,
         "BubbleIgnoreModifiers": true,
         "FoamTime": 1.5,
         "FoamTimeType": "Override",

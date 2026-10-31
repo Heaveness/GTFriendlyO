@@ -2,7 +2,7 @@
   {
     "ArchetypeID": 201,
     "MeleeArchetypeID": 0,
-    "Name": "Cave & Rescue - Pull",
+    "Name": "Cave & Rescue - Glow Fog",
     "Properties": [
       {
         "Name": "Noise",
@@ -140,7 +140,7 @@
         "Override": true,
         "Trigger": {
           "Activate": "KeyConfig2",
-          "Reset": "KeyConfig1"
+          "Reset": ["KeyConfig1", "KeyConfig3"]
         },
         "Properties": [
           {

@@ -365,6 +365,188 @@
         "GlowDuration": 1.0,
         "GlowFadeDuration": 0.5,
         "Trigger": "KillMelee"
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Properties": [
+          {
+            "Name": "Push",
+            "Force": 5.0,
+            "Offset": [-90.0, 0.0],
+            "FrictionDelay": 0.1,
+            "HorizontalCap": { "Cap": 5.0, "IncludeVelocity": true },
+            "VerticalScale": 0.0,
+            "ApplyToTarget": false,
+            "Trigger": {
+              "Activate": "KeyConfig1",
+              "Cooldown": 0.75
+            }
+          },
+          {
+            "Name": "ArmorMod",
+            "Immune": true,
+            "Duration": 0.2,
+            "ApplyToTarget": false,
+            "Trigger": {
+              "Activate": "KeyConfig1",
+              "Cooldown": 0.75
+            }
+          },
+          {
+            "Name": "StaminaMod",
+            "StaminaChange": -0.1,
+            "CancelRegen": true,
+            "ApplyToTarget": false,
+            "Trigger": {
+              "Activate": "KeyConfig1",
+              "Cooldown": 0.75
+            }
+          },
+          {
+            "Name": "Push",
+            "Force": 5.0,
+            "Offset": [90.0, 0.0],
+            "FrictionDelay": 0.1,
+            "HorizontalCap": { "Cap": 5.0, "IncludeVelocity": true },
+            "VerticalScale": 0.0,
+            "ApplyToTarget": false,
+            "Trigger": {
+              "Activate": "KeyConfig2",
+              "Cooldown": 0.75
+            }
+          },
+          {
+            "Name": "ArmorMod",
+            "Immune": true,
+            "Duration": 0.2,
+            "ApplyToTarget": false,
+            "Trigger": {
+              "Activate": "KeyConfig2",
+              "Cooldown": 0.75
+            }
+          },
+          {
+            "Name": "StaminaMod",
+            "StaminaChange": -0.1,
+            "CancelRegen": true,
+            "ApplyToTarget": false,
+            "Trigger": {
+              "Activate": "KeyConfig2",
+              "Cooldown": 0.75
+            }
+          },
+          {
+            "Name": "Push",
+            "Force": 5.0,
+            "Offset": [0.0, 0.0],
+            "FrictionDelay": 0.1,
+            "HorizontalCap": { "Cap": 5.0, "IncludeVelocity": true },
+            "VerticalScale": 0.0,
+            "ApplyToTarget": false,
+            "Trigger": {
+              "Activate": "KeyConfig3",
+              "Cooldown": 0.75
+            }
+          },
+          {
+            "Name": "ArmorMod",
+            "Immune": true,
+            "Duration": 0.2,
+            "ApplyToTarget": false,
+            "Trigger": {
+              "Activate": "KeyConfig3",
+              "Cooldown": 0.75
+            }
+          },
+          {
+            "Name": "StaminaMod",
+            "StaminaChange": -0.1,
+            "CancelRegen": true,
+            "ApplyToTarget": false,
+            "Trigger": {
+              "Activate": "KeyConfig3",
+              "Cooldown": 0.75
+            }
+          },
+          {
+            "Name": "Push",
+            "Force": 5.0,
+            "Offset": [180.0, 0.0],
+            "FrictionDelay": 0.1,
+            "HorizontalCap": { "Cap": 5.0, "IncludeVelocity": true },
+            "VerticalScale": 0.0,
+            "ApplyToTarget": false,
+            "Trigger": {
+              "Activate": "KeyConfig4",
+              "Cooldown": 0.75
+            }
+          },
+          {
+            "Name": "ArmorMod",
+            "Immune": true,
+            "Duration": 0.2,
+            "ApplyToTarget": false,
+            "Trigger": {
+              "Activate": "KeyConfig4",
+              "Cooldown": 0.75
+            }
+          },
+          {
+            "Name": "StaminaMod",
+            "StaminaChange": -0.1,
+            "CancelRegen": true,
+            "ApplyToTarget": false,
+            "Trigger": {
+              "Activate": "KeyConfig4",
+              "Cooldown": 0.75
+            }
+          },
+          {
+            "Name": "Noise",
+            "LocalSoundID": 239352863,
+            "Trigger": {
+              "Activate": "KeyConfig1",
+              "Apply": "KeyConfig1",
+              "ApplyDelay": 0.1,
+              "Cooldown": 0.75
+            }
+          },
+          {
+            "Name": "Noise",
+            "LocalSoundID": 239352863,
+            "Trigger": {
+              "Activate": "KeyConfig2",
+              "Apply": "KeyConfig2",
+              "ApplyDelay": 0.1,
+              "Cooldown": 0.75
+            }
+          },
+          {
+            "Name": "Noise",
+            "LocalSoundID": 239352863,
+            "Trigger": {
+              "Activate": "KeyConfig3",
+              "Apply": "KeyConfig3",
+              "ApplyDelay": 0.1,
+              "Cooldown": 0.75
+            }
+          },
+          {
+            "Name": "Noise",
+            "LocalSoundID": 239352863,
+            "Trigger": {
+              "Activate": "KeyConfig4",
+              "Apply": "KeyConfig4",
+              "ApplyDelay": 0.1,
+              "Cooldown": 0.75
+            }
+          }
+        ],
+        "Trigger": {
+          "Activate": ["Crouch", "CrouchEnd", "JumpEnd", "Wield", "Drop"],
+          "Reset": ["Jump", "Unwield"]
+        }
       }
     ]
   },

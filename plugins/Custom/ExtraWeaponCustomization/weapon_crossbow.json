@@ -238,6 +238,36 @@
             "Lifetime": 1
           },
           {
+            "Name": "Explosive",
+            "MaxDamage": 1,
+            "MinDamage": 1,
+            "InnerRadius": 5.5,
+            "Radius": 5.5,
+            "PrecisionDamageMulti": 0.5,
+            "StaggerDamageMulti": 250.0,
+            "FriendlyDamageMulti": 0.1,
+            "IgnoreFalloff": true,
+            "DamageLimb": true,
+            "IgnoreArmor": true,
+            "IgnoreBackstab": true,
+            "IgnoreDamageMods": false,
+            "UseParentShotMod": true,
+            "DamageFriendly": false,
+            "DamageOwner": true,
+            "HitClosestFirst": true,
+            "SoundID": 2209036113,
+            "EnableMineFX": false,
+            "GlowColor": "#FFC000",
+            "GlowRange": 5.5,
+            "GlowDuration": 1.0,
+            "GlowFadeDuration": 1.0,
+            "Trigger": {
+              "Name": "EnemyKill",
+              "MaxDelay": 16.5,
+              "RequireLastHit": false
+            }
+          },
+          {
             "Name": "Noise",
             "SoundID": 3366272423,
             "Trigger": "KeyUpConfig2" 
@@ -287,6 +317,24 @@
             "IgnoreFalloff": false,
             "IgnoreBooster": false,
             "Trigger": "BulletLanded"
+          },
+          {
+            "Name": "Foam",
+            "Amount": 1.0,
+            "PrecisionAmountMulti": 0.0,
+            "IgnoreArmor": false,
+            "IgnoreBackstab": false,
+            "IgnoreDamageMods": false,
+            "BubbleAmount": 1.0,
+            "BubbleStrength": 20.0,
+            "BubbleExpandSpeed": 0.25,
+            "BubbleOnDoors": true,
+            "BubbleIgnoreModifiers": true,
+            "FoamTime": 2.6,
+            "FoamTimeType": "Override",
+            "IgnoreFalloff": false,
+            "IgnoreBooster": false,
+            "Trigger": "Explo EnemyHit"
           }
         ]
       }

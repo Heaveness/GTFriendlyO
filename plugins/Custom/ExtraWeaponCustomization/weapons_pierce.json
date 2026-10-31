@@ -190,9 +190,9 @@
           },
           {
             "Name": "ShotMod",
-            "Mod": 1.3,
+            "Mod": 1.2,
             "StatType": "Damage",
-            "Cap": 1.3,
+            "Cap": 1.2,
             "Duration": 999999,
             "StackType": "Override",
             "StackLayer": "Multiply",
@@ -210,13 +210,66 @@
           "Activate": "Sprint",
           "Reset": ["Sprint End", "Crouch", "Jump"]
         }
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Properties": [
+          {
+            "Name": "Push",
+            "Force": 9.5,
+            "Offset": [180.0, 0.0],
+            "FrictionDelay": 0.2,
+            "HorizontalCap": { "Cap": 9.5, "IncludeVelocity": true },
+            "VerticalScale": 0.0,
+            "ApplyToTarget": false,
+            "Trigger": {
+              "Activate": "KeyConfig4",
+              "Cooldown": 1.75
+            }
+          },
+          {
+            "Name": "ArmorMod",
+            "Immune": true,
+            "Duration": 0.35,
+            "ApplyToTarget": false,
+            "Trigger": {
+              "Activate": "KeyConfig4",
+              "Cooldown": 1.75
+            }
+          },
+          {
+            "Name": "StaminaMod",
+            "StaminaChange": -0.25,
+            "CancelRegen": true,
+            "ApplyToTarget": false,
+            "Trigger": {
+              "Activate": "KeyConfig4",
+              "Cooldown": 1.75
+            }
+          },
+          {
+            "Name": "Noise",
+            "LocalSoundID": 239352863,
+            "Trigger": {
+              "Activate": "KeyConfig4",
+              "Apply": "KeyConfig4",
+              "ApplyDelay": 0.1,
+              "Cooldown": 1.75
+            }
+          }
+        ],
+        "Trigger": {
+          "Activate": ["CrouchEnd", "JumpEnd", "Wield", "Drop", "Sprint End"],
+          "Reset": ["Crouch", "Jump", "Unwield", "Sprint"]
+        }
       }
     ]
   },
   {
     "ArchetypeID": 0,  
     "MeleeArchetypeID": 1,
-    "Name": "Hammer - Armor Shred",
+    "Name": "Sledgehammer - Armor Shred",
     "Properties": [
       {
         "Name": "ArmorShred",
@@ -235,7 +288,7 @@
       },
       {
         "Name": "StaminaMod",
-        "StaminaChange": 0.3,
+        "StaminaChange": 0.15,
         "Cap": -1,
         "CancelRegen": false,
         "ApplyToTarget": true,
@@ -243,6 +296,61 @@
           "Name": "Kill",
           "MaxDelay": 0.5,
           "RequireLastHit": true
+        }
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Properties": [
+          {
+            "Name": "Push",
+            "Force": 11.5,
+            "Offset": [0.0, 0.0],
+            "FrictionDelay": 0.15,
+            "AirFrictionStrength": 0.5,
+            "AirConstantFriction": 0.5,
+            "HorizontalCap": { "Cap": 11.5, "IncludeVelocity": true },
+            "VerticalScale": 0.0,
+            "ApplyToTarget": false,
+            "Trigger": {
+              "Activate": "KeyConfig3",
+              "Cooldown": 2.25
+            }
+          },
+          {
+            "Name": "ArmorMod",
+            "Immune": true,
+            "Duration": 0.45,
+            "ApplyToTarget": false,
+            "Trigger": {
+              "Activate": "KeyConfig3",
+              "Cooldown": 2.25
+            }
+          },
+          {
+            "Name": "StaminaMod",
+            "StaminaChange": -0.2,
+            "CancelRegen": true,
+            "ApplyToTarget": false,
+            "Trigger": {
+              "Activate": "KeyConfig3",
+              "Cooldown": 2.25
+            }
+          },
+          {
+            "Name": "Noise",
+            "LocalSoundID": 239352863,
+            "Trigger": {
+              "Activate": "KeyConfig3",
+              "Apply": "KeyConfig3",
+              "ApplyDelay": 0.1,
+              "Cooldown": 2.25
+            }
+          }
+        ],
+        "Trigger": {
+          "Activate": ["CrouchEnd", "JumpEnd", "Wield", "Drop"],
+          "Reset": ["Crouch", "Unwield", "Jump"]
         }
       }
     ]

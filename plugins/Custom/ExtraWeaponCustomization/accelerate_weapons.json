@@ -520,8 +520,10 @@
             },
             {
               "Name": "Push",
-              "Force": -12,
+              "Force": -14,
               "Offset": [0, 0],
+              "AirFrictionStrength": 0.7,
+              "AirConstantFriction": 0.7,
               "ApplyToTarget": false,
               "Trigger": "Fire"
             }
@@ -553,6 +555,10 @@
             "Name": "Noise",
             "LocalSoundID": 2634318532,
             "Trigger": "Reload" 
+          },
+          {
+            "Name": "BackstabMulti",
+            "BackstabDamageMulti": 1.2
           },
           {
             "Name": "TempProperties",
@@ -588,11 +594,11 @@
               },
               {
                 "Name": "SpeedMod",
-                "Mod": 1.2,
+                "Mod": 1.25,
                 "Duration": 5.0,
                 "StackLayer": "Multiply",
                 "Trigger": "HitEnemy",
-                "Cap": 1.2
+                "Cap": 1.25
               }
             ]
           }

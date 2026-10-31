@@ -27,6 +27,102 @@
         "Name": "HitmarkerCooldown",
         "Cooldown": 0,
         "CooldownPerTarget": 1.0
+      },
+      {
+        "Name": "TempProperties",
+        "Duration": 999999,
+        "Properties": [
+          {
+            "Name": "Push",
+            "Force": 7.0,
+            "Offset": [-90.0, 0.0],
+            "FrictionDelay": 0.125,
+            "HorizontalCap": { "Cap": 7.0, "IncludeVelocity": true },
+            "VerticalScale": 0.0,
+            "ApplyToTarget": false,
+            "Trigger": {
+              "Activate": "KeyConfig1",
+              "Cooldown": 1.25
+            }
+          },
+          {
+            "Name": "ArmorMod",
+            "Immune": true,
+            "Duration": 0.25,
+            "ApplyToTarget": false,
+            "Trigger": {
+              "Activate": "KeyConfig1",
+              "Cooldown": 1.25
+            }
+          },
+          {
+            "Name": "StaminaMod",
+            "StaminaChange": -0.15,
+            "CancelRegen": true,
+            "ApplyToTarget": false,
+            "Trigger": {
+              "Activate": "KeyConfig1",
+              "Cooldown": 1.25
+            }
+          },
+          {
+            "Name": "Noise",
+            "LocalSoundID": 239352863,
+            "Trigger": {
+              "Activate": "KeyConfig1",
+              "Apply": "KeyConfig1",
+              "ApplyDelay": 0.1,
+              "Cooldown": 1.25
+            }
+          },
+          {
+            "Name": "Noise",
+            "LocalSoundID": 239352863,
+            "Trigger": {
+              "Activate": "KeyConfig2",
+              "Apply": "KeyConfig2",
+              "ApplyDelay": 0.1,
+              "Cooldown": 1.25
+            }
+          },
+          {
+            "Name": "Push",
+            "Force": 7.0,
+            "Offset": [90.0, 0.0],
+            "FrictionDelay": 0.125,
+            "HorizontalCap": { "Cap": 7.0, "IncludeVelocity": true },
+            "VerticalScale": 0.0,
+            "ApplyToTarget": false,
+            "Trigger": {
+              "Activate": "KeyConfig2",
+              "Cooldown": 1.25
+            }
+          },
+          {
+            "Name": "ArmorMod",
+            "Immune": true,
+            "Duration": 0.25,
+            "ApplyToTarget": false,
+            "Trigger": {
+              "Activate": "KeyConfig2",
+              "Cooldown": 1.25
+            }
+          },
+          {
+            "Name": "StaminaMod",
+            "StaminaChange": -0.15,
+            "CancelRegen": true,
+            "ApplyToTarget": false,
+            "Trigger": {
+              "Activate": "KeyConfig2",
+              "Cooldown": 1.25
+            }
+          }
+        ],
+        "Trigger": {
+          "Activate": ["Crouch", "CrouchEnd", "JumpEnd", "Wield", "Drop"],
+          "Reset": ["Jump", "Unwield"]
+        }
       }
     ]
   },
