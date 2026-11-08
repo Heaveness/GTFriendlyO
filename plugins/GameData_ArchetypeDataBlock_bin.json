@@ -3295,8 +3295,8 @@
       "DamageBoosterEffect": 69,
       "Damage": 9.5,
       "DamageFalloff": {
-        "x": 30.0,
-        "y": 60.0,
+        "x": 20.0,
+        "y": 40.0,
         "normalized": {
           "x": 0.184288532,
           "y": 0.9828722,
@@ -5402,7 +5402,7 @@
       "persistentID": 53
     },
         {
-      "PublicName": "Search & Rescue Tool",
+      "PublicName": "Search & Rescue Tool (Glowstick & Fog Repeller)",
       "Description": "<color=yellow>Traits: \n - Switch between 2 modes(Glowstick/Fog Repeller) \n [EWC config for keybinds], \n - Speed/Distance based on charge amount, \n - Reserve Ammo(no reload), \n - Lightweight(Can Sprint)</color>",
       "FireMode": 0,
       "RecoilDataID": 49,
@@ -5715,7 +5715,7 @@
       "PrecisionDamageMulti": 0.8,
       "DefaultClipSize": 30,
       "DefaultReloadTime": 1.8,
-      "CostOfBullet": 0.47,
+      "CostOfBullet": 0.4385,
       "ShotDelay": 0.1,
       "ShellCasingSize": 1.0,
       "ShellCasingSpeedRange": {
@@ -6179,7 +6179,7 @@
       "persistentID": 63
     },
     {
-      "PublicName": "Exterminatus Flamer (???)",
+      "PublicName": "Exterminatus Flamer (HMG)",
       "Description": "<color=yellow>Traits: \n - DoT damage(Stackable), \n - Explosion Kill Spreads 1 Stack, \n - Reserve Clip Regen(no reload), \n - Hold Trigger to Accelerate, \n - Heavyweight(Can't Sprint)</color>",
       "FireMode": 2,
       "RecoilDataID": 34,
@@ -6276,11 +6276,11 @@
       "persistentID": 101
     },
     {
-      "PublicName": "Hunting Crossbow (???)",
+      "PublicName": "Hunting Crossbow (DMR)",
       "Description": "<color=yellow>Traits: \n - Silent/Accurate/Recoiless, \n - Switch between Regular/Naplam/Foam payload \n [EWC config for keybinds], \n - Refund 1 ammo per target killed w/Regular, \n - Lightweight(Can Sprint)</color>",
       "FireMode": 0,
       "RecoilDataID": 11,
-      "DamageBoosterEffect": 51,
+      "DamageBoosterEffect": 66,
       "Damage": 10.0,
       "DamageFalloff": {
         "x": 35.0,
@@ -6379,11 +6379,11 @@
       "persistentID": 105
     },
     {
-      "PublicName": "Wisp Launcher (???)",
+      "PublicName": "Wisp Launcher (Sentry)",
       "Description": "<color=yellow>Traits: \n - Clip Regen after delay(no reload), \n - Wisp provides light, \n - Wisp fires 2 homing quills at nearby targets, \n - Heavyweight(Can't Sprint)</color>",
       "FireMode": 1,
       "RecoilDataID": 24,
-      "DamageBoosterEffect": 51,
+      "DamageBoosterEffect": 103,
       "Damage": 1.0,
       "DamageFalloff": {
         "x": 25.0,
@@ -6476,11 +6476,11 @@
       "persistentID": 102
     },
     {
-      "PublicName": "Exp. Beam Rifle (???)",
+      "PublicName": "Exp. Beam Rifle (HEL)",
       "Description": "<color=yellow>Trait: \n - Fires 1 continous beam until overheat, \n - Burn DoT on contact, \n - Reserve Ammo(no reload), \n - Increased Damage on a single target, \n - Slowed during firing, \n - Lightweight(Can Sprint)</color>",
       "FireMode": 1,
       "RecoilDataID": 11,
-      "DamageBoosterEffect": 51,
+      "DamageBoosterEffect": 56,
       "Damage": 1.0,
       "DamageFalloff": {
         "x": 30.0,
@@ -6767,7 +6767,7 @@
       "persistentID": 1000
     },
     {
-      "PublicName": "Arc Subjugator (???)",
+      "PublicName": "Arc Subjugator (Pistol)",
       "Description": "<color=yellow>Traits: \n - Infinite Ammo, \n - Manual Charging to Fire(Reload), \n - Lock-On to Fire, \n - Long Stun Duration, \n - Enemy Damage Taken Debuff, \n - Unable to swap gear during electrocution, \n - Heavyweight(Can't Sprint)</color>",
       "FireMode": 0,
       "RecoilDataID": 9,

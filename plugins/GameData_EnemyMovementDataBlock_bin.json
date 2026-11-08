@@ -4,7 +4,7 @@
     {
       "ForceDisableAnimator": false,
       "AnimationControllers": -4066,
-      "MoveSlowerWhenInPlayerRoom": true,
+      "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 10.0,
       "GlobalAnimSpeedMulti": 0.85,
       "PathMoveAnimSpeedMulti": 1.0,
@@ -27,7 +27,7 @@
     {
       "ForceDisableAnimator": false,
       "AnimationControllers": 84,
-      "MoveSlowerWhenInPlayerRoom": true,
+      "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 10.0,
       "GlobalAnimSpeedMulti": 1.2,
       "PathMoveAnimSpeedMulti": 1.0,
@@ -50,7 +50,7 @@
     {
       "ForceDisableAnimator": false,
       "AnimationControllers": 20,
-      "MoveSlowerWhenInPlayerRoom": true,
+      "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 10.0,
       "GlobalAnimSpeedMulti": 1.1,
       "PathMoveAnimSpeedMulti": 0.9,
@@ -73,7 +73,7 @@
     {
       "ForceDisableAnimator": false,
       "AnimationControllers": 96,
-      "MoveSlowerWhenInPlayerRoom": true,
+      "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 10.0,
       "GlobalAnimSpeedMulti": 1.5,
       "PathMoveAnimSpeedMulti": 1.7,
@@ -96,7 +96,7 @@
     {
       "ForceDisableAnimator": false,
       "AnimationControllers": 64,
-      "MoveSlowerWhenInPlayerRoom": true,
+      "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 10.0,
       "GlobalAnimSpeedMulti": 1.5,
       "PathMoveAnimSpeedMulti": 1.7,
@@ -120,7 +120,7 @@
       "ForceDisableAnimator": false,
       "AnimationControllers": 128,
       "MoveSlowerWhenInPlayerRoom": true,
-      "MoveSlowerWithinTargetDistance": 10.0,
+      "MoveSlowerWithinTargetDistance": 15.0,
       "GlobalAnimSpeedMulti": 1.7,
       "PathMoveAnimSpeedMulti": 1.0,
       "RotationLerp": 1.5,
@@ -143,7 +143,7 @@
       "ForceDisableAnimator": false,
       "AnimationControllers": 128,
       "MoveSlowerWhenInPlayerRoom": true,
-      "MoveSlowerWithinTargetDistance": 10.0,
+      "MoveSlowerWithinTargetDistance": 15.0,
       "GlobalAnimSpeedMulti": 2.5,
       "PathMoveAnimSpeedMulti": 0.4,
       "RotationLerp": 0.6,
@@ -166,7 +166,7 @@
       "ForceDisableAnimator": false,
       "AnimationControllers": 4,
       "MoveSlowerWhenInPlayerRoom": true,
-      "MoveSlowerWithinTargetDistance": 10.0,
+      "MoveSlowerWithinTargetDistance": 23.0,
       "GlobalAnimSpeedMulti": 0.8,
       "PathMoveAnimSpeedMulti": 0.9,
       "RotationLerp": 1.5,
@@ -189,7 +189,7 @@
       "ForceDisableAnimator": false,
       "AnimationControllers": 512,
       "MoveSlowerWhenInPlayerRoom": true,
-      "MoveSlowerWithinTargetDistance": 10.0,
+      "MoveSlowerWithinTargetDistance": 17.5,
       "GlobalAnimSpeedMulti": 0.8,
       "PathMoveAnimSpeedMulti": 0.9,
       "RotationLerp": 1.5,
@@ -211,7 +211,7 @@
     {
       "ForceDisableAnimator": false,
       "AnimationControllers": 64,
-      "MoveSlowerWhenInPlayerRoom": true,
+      "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 10.0,
       "GlobalAnimSpeedMulti": 2.0,
       "PathMoveAnimSpeedMulti": 1.0,
@@ -234,7 +234,7 @@
     {
       "ForceDisableAnimator": false,
       "AnimationControllers": 4,
-      "MoveSlowerWhenInPlayerRoom": true,
+      "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 10.0,
       "GlobalAnimSpeedMulti": 1.2,
       "PathMoveAnimSpeedMulti": 1.0,
@@ -257,7 +257,7 @@
     {
       "ForceDisableAnimator": false,
       "AnimationControllers": 8,
-      "MoveSlowerWhenInPlayerRoom": true,
+      "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 10.0,
       "GlobalAnimSpeedMulti": 1.0,
       "PathMoveAnimSpeedMulti": 1.0,
@@ -280,7 +280,7 @@
     {
       "ForceDisableAnimator": false,
       "AnimationControllers": -4054,
-      "MoveSlowerWhenInPlayerRoom": true,
+      "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 10.0,
       "GlobalAnimSpeedMulti": 1.05,
       "PathMoveAnimSpeedMulti": 1.0,
@@ -303,7 +303,7 @@
     {
       "ForceDisableAnimator": false,
       "AnimationControllers": -4088,
-      "MoveSlowerWhenInPlayerRoom": true,
+      "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 10.0,
       "GlobalAnimSpeedMulti": 1.0,
       "PathMoveAnimSpeedMulti": 1.0,
@@ -326,7 +326,7 @@
     {
       "ForceDisableAnimator": true,
       "AnimationControllers": -4054,
-      "MoveSlowerWhenInPlayerRoom": true,
+      "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 10.0,
       "GlobalAnimSpeedMulti": 1.5,
       "PathMoveAnimSpeedMulti": 1.0,
@@ -349,7 +349,7 @@
     {
       "ForceDisableAnimator": true,
       "AnimationControllers": -4054,
-      "MoveSlowerWhenInPlayerRoom": true,
+      "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 10.0,
       "GlobalAnimSpeedMulti": 1.5,
       "PathMoveAnimSpeedMulti": 1.0,
@@ -372,7 +372,7 @@
     {
       "ForceDisableAnimator": true,
       "AnimationControllers": -4054,
-      "MoveSlowerWhenInPlayerRoom": true,
+      "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 10.0,
       "GlobalAnimSpeedMulti": 1.5,
       "PathMoveAnimSpeedMulti": 1.0,
@@ -395,7 +395,7 @@
     {
       "ForceDisableAnimator": true,
       "AnimationControllers": -4054,
-      "MoveSlowerWhenInPlayerRoom": true,
+      "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 10.0,
       "GlobalAnimSpeedMulti": 1.5,
       "PathMoveAnimSpeedMulti": 1.0,
@@ -418,7 +418,7 @@
     {
       "ForceDisableAnimator": false,
       "AnimationControllers": 1024,
-      "MoveSlowerWhenInPlayerRoom": true,
+      "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 10.0,
       "GlobalAnimSpeedMulti": 1.5,
       "PathMoveAnimSpeedMulti": 2.0,
@@ -441,7 +441,7 @@
     {
       "ForceDisableAnimator": false,
       "AnimationControllers": 1024,
-      "MoveSlowerWhenInPlayerRoom": true,
+      "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 10.0,
       "GlobalAnimSpeedMulti": 1.2,
       "PathMoveAnimSpeedMulti": 2.8,
@@ -464,7 +464,7 @@
     {
       "ForceDisableAnimator": false,
       "AnimationControllers": 1024,
-      "MoveSlowerWhenInPlayerRoom": true,
+      "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 10.0,
       "GlobalAnimSpeedMulti": 3.7,
       "PathMoveAnimSpeedMulti": 0.08,
@@ -487,7 +487,7 @@
     {
       "ForceDisableAnimator": false,
       "AnimationControllers": -4086,
-      "MoveSlowerWhenInPlayerRoom": true,
+      "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 10.0,
       "GlobalAnimSpeedMulti": 1.1,
       "PathMoveAnimSpeedMulti": 1.0,
@@ -510,7 +510,7 @@
     {
       "ForceDisableAnimator": false,
       "AnimationControllers": -4064,
-      "MoveSlowerWhenInPlayerRoom": true,
+      "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 10.0,
       "GlobalAnimSpeedMulti": 1.6,
       "PathMoveAnimSpeedMulti": 1.7,
@@ -533,7 +533,7 @@
     {
       "ForceDisableAnimator": false,
       "AnimationControllers": -4080,
-      "MoveSlowerWhenInPlayerRoom": true,
+      "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 10.0,
       "GlobalAnimSpeedMulti": 1.5,
       "PathMoveAnimSpeedMulti": 1.0,
@@ -556,7 +556,7 @@
     {
       "ForceDisableAnimator": false,
       "AnimationControllers": -4094,
-      "MoveSlowerWhenInPlayerRoom": true,
+      "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 10.0,
       "GlobalAnimSpeedMulti": 1.0,
       "PathMoveAnimSpeedMulti": 1.0,
@@ -579,7 +579,7 @@
     {
       "ForceDisableAnimator": false,
       "AnimationControllers": 2048,
-      "MoveSlowerWhenInPlayerRoom": true,
+      "MoveSlowerWhenInPlayerRoom": false,
       "MoveSlowerWithinTargetDistance": 10.0,
       "GlobalAnimSpeedMulti": 1.2,
       "PathMoveAnimSpeedMulti": 1.0,

@@ -739,8 +739,8 @@
       "persistentID": 21
     },
     {
-      "PublicName": "Bio Tracker",
-      "Description": "",
+      "PublicName": "Bio Tracker (Scanner)",
+      "Description": "<color=yellow>\n - Infinite Ammo, \n - Tags Alerted Enemies, \n - Toggle Between 2 Modes (Thermal Camera or Radar)[Reload Key], \n - Turret Synergy, \n - Lightweight(Can Sprint)</color>",
       "BaseItem": 28,
       "HUDIcon": "",
       "IconRotationOffset": 0.0,
@@ -777,8 +777,8 @@
       "persistentID": 10
     },
     {
-      "PublicName": "C-Foam Launcher",
-      "Description": "",
+      "PublicName": "C-Foam Launcher (Glue)",
+      "Description": "<color=yellow>\n - Max Ammo(178), \n - Foams Targets/Surfaces/Doors, \n - Lightweight(Can Sprint)</color>",
       "BaseItem": 73,
       "HUDIcon": "",
       "IconRotationOffset": 0.0,
@@ -924,8 +924,8 @@
       "persistentID": 42
     },
     {
-      "PublicName": "Mine deployer",
-      "Description": "",
+      "PublicName": "Mine deployer (Explosive)",
+      "Description": "<color=yellow>\n - Max Ammo(12), \n - Effective Range(12.0m), \n - Lethal, \n - High AoE & Stagger Damage, \n - Lightweight(Can Sprint)</color>",
       "BaseItem": 37,
       "HUDIcon": "",
       "IconRotationOffset": 0.0,
@@ -943,8 +943,8 @@
       "persistentID": 13
     },
     {
-      "PublicName": "Foam Mine deployer",
-      "Description": "",
+      "PublicName": "Foam Mine deployer (Glue)",
+      "Description": "<color=yellow>\n - Max Ammo(15), \n - Effective Range(15.0m), \n - Nonlethal, \n - Wide Payload Arc, \n - Lightweight(Can Sprint)</color>",
       "BaseItem": 37,
       "HUDIcon": "",
       "IconRotationOffset": 0.0,
@@ -1000,8 +1000,8 @@
       "persistentID": 18
     },
     {
-      "PublicName": 2145368856,
-      "Description": 822,
+      "PublicName": "Sledgehammer (Melee)",
+      "Description": "<color=yellow>\n - Armor Debuff Targets(Effect based on charge), \n - High Heavy Damage/Stagger, \n - Dodge(iframes) Forwards\n [EWC config for keybinds], \n - Restore Stamina(15%) on Kill, \n - Lightweight(Can Sprint)</color>",
       "BaseItem": 100,
       "HUDIcon": "",
       "IconRotationOffset": -90.0,
@@ -1019,8 +1019,8 @@
       "persistentID": 14
     },
     {
-      "PublicName": 125546949,
-      "Description": 1408,
+      "PublicName": "Knife (Melee)",
+      "Description": "<color=yellow>\n - Bleed Targets, \n - DoT Damage Stacks(5), \n - High Stealth Damage, \n - Dodge(iframes) Sideways\n [EWC config for keybinds], \n - Can Crouch Dodge, \n - Shortest Melee Range, \n - Lightweight(Can Sprint)</color>",
       "BaseItem": 161,
       "HUDIcon": "",
       "IconRotationOffset": -90.0,
@@ -1038,8 +1038,8 @@
       "persistentID": 27
     },
     {
-      "PublicName": 4233525490,
-      "Description": 1409,
+      "PublicName": "Bat (Melee)",
+      "Description": "<color=yellow>\n - Targets Explode on Kill, \n - High Stagger Explosions, \n - High Light Damage/Stagger, \n - Dodge(iframes) All Directions\n [EWC config for keybinds], \n - Low Stamina Cost, \n - Lightweight(Can Sprint)</color>",
       "BaseItem": 163,
       "HUDIcon": "",
       "IconRotationOffset": -90.0,
@@ -1057,8 +1057,8 @@
       "persistentID": 29
     },
     {
-      "PublicName": 3901540528,
-      "Description": 1407,
+      "PublicName": "Spear (Melee)",
+      "Description": "<color=yellow>\n - Lunge Ability(Release Charge while Sprinting), \n - High Precision Damage, \n - Tags Targets, \n - Dodge(iframes) Backwards\n [EWC config for keybinds], \n - Armor Piercing, \n - Longest Melee Range, \n - Lightweight(Can Sprint)</color>",
       "BaseItem": 162,
       "HUDIcon": "",
       "IconRotationOffset": -90.0,
