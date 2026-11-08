@@ -293,7 +293,7 @@
           "Description": "Subject's sentry gun will deal more damage.",
           "DescriptionNegative": "Subject's sentry gun will deal less damage.",
           "EffectCategory": "Damage",
-          "Value": 1.1
+          "Value": 1.06
         }
       ],
       "Conditions": []
@@ -647,7 +647,7 @@
           "Condition": "IsWieldingCarryItem",
           "PublicShortName": "",
           "PublicName": "Holding carry item",
-          "Description": "Subject must be carrying a mission item for booster to be active."
+          "Description": "Subject must be carrying a objective item for booster to be active. Fog Turbine & Power Cells included."
         }
       ]
     },
@@ -800,7 +800,7 @@
           "Description": "Subject's sentry gun will deal more damage.",
           "DescriptionNegative": "Subject's sentry gun will deal less damage.",
           "EffectCategory": "Damage",
-          "Value": 1.16
+          "Value": 1.1
         }
       ],
       "Conditions": [
@@ -808,7 +808,7 @@
           "Condition": "IsWieldingHackingTool",
           "PublicShortName": "",
           "PublicName": "Holding hacking tool",
-          "Description": "Subject must be wielding a hacking tool for booster to be active."
+          "Description": "Subject must be wielding a hacking tool for booster to be active. Default Key: 7"
         }
       ]
     },
@@ -1441,7 +1441,7 @@
           "Description": "Subject's sentry gun will deal more damage.",
           "DescriptionNegative": "Subject's sentry gun will deal less damage.",
           "EffectCategory": "Damage",
-          "Value": 1.2
+          "Value": 1.16
         },
         {
           "Effect": "HackingProficiency",
