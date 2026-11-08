@@ -48,7 +48,7 @@
 
 * Added Classifications to tools that didn't have them:
     * Biotracker: `(Scanner)`
-    * Search & Rescue: `(Glowstick & Fog Repeller)`
+    * Search & Rescue: `(Glowstick/Fog Repeller)`
     * Snare Tool: `(Glue)`
     * C-Foam Launcher: `(Glue)`
     * Mine Deployer: `(Explosive)`
