@@ -6183,7 +6183,7 @@
       "Description": "<color=yellow>Traits: \n - DoT damage(Stackable), \n - Explosion Kill Spreads 1 Stack, \n - Reserve Clip Regen(no reload), \n - Hold Trigger to Accelerate, \n - Heavyweight(Can't Sprint)</color>",
       "FireMode": 2,
       "RecoilDataID": 34,
-      "DamageBoosterEffect": 51,
+      "DamageBoosterEffect": 62,
       "Damage": 0.5,
       "DamageFalloff": {
         "x": 10.0,
@@ -6771,7 +6771,7 @@
       "Description": "<color=yellow>Traits: \n - Infinite Ammo, \n - Manual Charging to Fire(Reload), \n - Lock-On to Fire, \n - Long Stun Duration, \n - Enemy Damage Taken Debuff, \n - Unable to swap gear during electrocution, \n - Heavyweight(Can't Sprint)</color>",
       "FireMode": 0,
       "RecoilDataID": 9,
-      "DamageBoosterEffect": 51,
+      "DamageBoosterEffect": 50,
       "Damage": 1.0,
       "DamageFalloff": {
         "x": 15.0,
