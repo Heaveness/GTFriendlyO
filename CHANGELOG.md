@@ -8,9 +8,7 @@
 
 * Check "Description" on main page for keybind configs instructions under "Important" section. And wiki for keybinds on specific weapons.
 
-* With this update, GTFriendlyO should be feature complete(hopefully). Anymore future updates will be balance tweaks, general fixes, and/or emergency patches. 
-
-* Personal note from me. I want to thank everyone on this amazing journey! People who supported this modpack, I hope to see you guys again in future projects. 
+* With this update, GTFriendlyO should be feature complete(hopefully). Anymore future updates will be balance tweaks, general fixes, and/or emergency patches.
 
 ### Class Tweaks + Fixes:
 * Field Technician:
