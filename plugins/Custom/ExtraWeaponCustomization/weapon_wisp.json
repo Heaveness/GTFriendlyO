@@ -196,7 +196,7 @@
           "DamageLimb": false,
           "IgnoreArmor": false,
           "IgnoreBackstab": true,
-          "IgnoreDamageMods": false,
+          "IgnoreShotMods": false,
           "UseParentShotMod": false,
           "DamageFriendly": false,
           "DamageOwner": false,

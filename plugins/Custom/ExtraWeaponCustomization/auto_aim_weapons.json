@@ -244,7 +244,7 @@
       "DamageLimb": true,
       "IgnoreArmor": true,
       "IgnoreBackstab": true,
-      "IgnoreDamageMods": false,
+      "IgnoreShotMods": false,
 		  "GlowColor": "#CD352E",
 		  "GlowIntensity": 1,
       "GlowRange": 1.2,

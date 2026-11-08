@@ -10,7 +10,7 @@
         "PrecisionAmountMulti": 0.0,
         "IgnoreArmor": false,
         "IgnoreBackstab": false,
-        "IgnoreDamageMods": false,
+        "IgnoreShotMods": false,
         "BubbleAmount": 18.0,
         "BubbleStrength": 10.0,
         "BubbleExpandSpeed": 0.25,

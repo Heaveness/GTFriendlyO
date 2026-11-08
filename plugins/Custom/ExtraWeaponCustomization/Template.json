@@ -42,7 +42,7 @@
         "DamageLimb": true,
         "IgnoreArmor": false,
         "IgnoreBackstab": false,
-        "IgnoreDamageMods": false,
+        "IgnoreShotMods": false,
         "Trigger": "Hit"
       },
       {
@@ -57,7 +57,7 @@
         "DamageLimb": true,
         "IgnoreArmor": false,
         "IgnoreBackstab": false,
-        "IgnoreDamageMods": false,
+        "IgnoreShotMods": false,
         "DamageFriendly": true,
         "DamageOwner": true,
         "Trigger": "BulletLanded",
