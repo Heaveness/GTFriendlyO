@@ -2,5 +2,7 @@
     "ExplosionAbility": false,
     "DoubleJumpAbility":true,
     "StartingXp":false,
-    "LivingBioAbility":true
+    "LivingBioAbility":true,
+    "PackConverter":false,
+    "ToolAbility":true
 }

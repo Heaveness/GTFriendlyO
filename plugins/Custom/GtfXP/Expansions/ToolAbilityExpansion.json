@@ -1,0 +1,44 @@
+[
+  {
+    "LevelLayoutID": 15,
+    "DebugName": "Field Technician",
+    "DataChanges": [
+      {
+        "Level": 0,
+        "SentryRecall": true,
+        "SentryRecallSpeed": 0.1,
+        "MoveMines": false,
+        "MineRecall": false,
+        "MineRecallSpeed": 0.1
+      }
+    ]
+  },
+  {
+    "LevelLayoutID": 11,
+    "DebugName": "Demolitionst",
+    "DataChanges": [
+      {
+        "Level": 0,
+        "SentryRecall": false,
+        "SentryRecallSpeed": 0.1,
+        "MoveMines": false,
+        "MineRecall": true,
+        "MineRecallSpeed": 0.1
+      }
+    ]
+  },
+  {
+    "LevelLayoutID": 14,
+    "DebugName": "Specialist",
+    "DataChanges": [
+      {
+        "Level": 0,
+        "SentryRecall": false,
+        "SentryRecallSpeed": 0.1,
+        "MoveMines": true,
+        "MineRecall": false,
+        "MineRecallSpeed": 0.1
+      }
+    ]
+  }
+]

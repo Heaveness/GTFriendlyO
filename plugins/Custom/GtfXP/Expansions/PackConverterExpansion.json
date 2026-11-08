@@ -1,0 +1,38 @@
+[
+  {
+    "LevelLayoutID": 0,
+    "DebugName": "Template",
+    "DataChanges": [
+      {
+        "Level": 0,
+        "Conversions": [
+          {
+            "ReceiveType": "Health",
+            "ConvertType": "Disinfect",
+            "Value": 0.5
+          }
+        ]
+      },
+      {
+        "Level": 10,
+        "Conversions": [
+          {
+            "ReceiveType": "Standard",
+            "ConvertType": "Tool",
+            "Value": 0.25
+          },
+          {
+            "ReceiveType": "Special",
+            "ConvertType": "Tool",
+            "Value": 0.25
+          },
+          {
+            "ReceiveType": "Health",
+            "ConvertType": "Disinfect",
+            "Value": 1
+          }
+        ]
+      }
+    ]
+  }
+]
