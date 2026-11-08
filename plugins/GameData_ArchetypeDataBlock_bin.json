@@ -5402,7 +5402,7 @@
       "persistentID": 53
     },
         {
-      "PublicName": "Search & Rescue Tool (Glowstick & Fog Repeller)",
+      "PublicName": "Search & Rescue Tool (Glowstick/Fog Repeller)",
       "Description": "<color=yellow>Traits: \n - Switch between 2 modes(Glowstick/Fog Repeller) \n [EWC config for keybinds], \n - Speed/Distance based on charge amount, \n - Reserve Ammo(no reload), \n - Lightweight(Can Sprint)</color>",
       "FireMode": 0,
       "RecoilDataID": 49,
