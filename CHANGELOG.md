@@ -1,12 +1,110 @@
 # Changelog
 
-## v2.6.0 - Latest
+## v2.6.1 - Latest
 
 ### Personal Note:
 
-* It's generally fine to update any mods. Regular bug fixes and QoL improvements are always welcome, but be cautious when updating mods with large changes. Keep in mind that every mod update has the potential to break something within this pack.
+* It's generally fine to update any mods. Regular bug fixes and QoL improvements are always welcome, but be cautious when updating mods with large changes.
 
 * Check "Description" on main page for keybind configs instructions under "Important" section. And wiki for keybinds on specific weapons.
+
+* With this update, GTFriendlyO should be feature complete(hopefully). Anymore future updates will be balance tweaks, general fixes, and/or emergency patches. 
+
+* Personal note from me. I want to thank everyone on this amazing journey! People who supported this modpack, I hope to see you guys again in future projects. 
+
+### Class Tweaks + Fixes:
+* Field Technician:
+    * Slight class description improvements
+    * Fixed class not receiving the initial gun ammo penalty
+    * Decreased Initial Gun Ammo Penalty from `-30%` to `-20%`
+    * Increased Ranged & Melee Damage penalty from `-40%` to `-60%`
+> Dev Note: Their recent glowups have made them very insane with their turrets. They need to be reined in a bit. But before you think this is a harsh nerf, the total damage output is still the sentry + yours + tagged bonuses + potentially boosters. That is an insane amount of potential damage. Hopefully, this should encourage Field Technicians to utilize more weapons with tag abilities as they generally have low base damage.
+
+* Specialist:
+    * Decreased Tool Ammo Capacity bonus from `+30%` to `+25%`
+    * New Ability: `Move Mines`
+        * Hold "Fire" while wielding the mine deployer to start moving and release to place
+        * Requires to have Mine Deployer actively equipped to use
+        * Must be within `Pickup Interaction Range` to move mines
+        * Works on all mines, including the custom mine deployers(EXCEPT consumable mines)
+        * Moves the selected mine to a new location, ignoring mine placement cooldown and interaction time
+> Dev Note: Giving the class more utility power for those who wish to use the Snare Tool(or Mines) as an option. 
+
+* Abhuman:
+    * Slight improvements to class description
+
+### Weapon/Tool/Melee Fixes + Tweaks:
+* General:
+    * Fixed weapons with properties not following Damage Booster rules correctly:
+> Dev Note: This means some weapons might get some "buffs" or "nerfs" but it is the intended way. Since, this feature wasn't working properly before.
+
+* HMG Turret:
+    * Fixed not having the correct max ammo capacity buff from previous patch
+> Dev Note: Oops... It should be properly 2000 now.
+
+* Choke Mod Shotgun:
+    * Decreased Effective Range from `30.0m` to `20.0m`
+> Dev Note: After some thinking, it was a little weird that this shotgun had better range than the slugger.
+
+* Added Classifications to tools that didn't have them:
+    * Biotracker: `(Scanner)`
+    * Search & Rescue: `(Glowstick & Fog Repeller)`
+    * Snare Tool: `(Glue)`
+    * C-Foam Launcher: `(Glue)`
+    * Mine Deployer: `(Explosive)`
+> Dev Note: This should give a clearer picture on what these tools are used for.
+
+* Added classification & trait description for all four melee weapon types
+> Dev Note: It was a long time coming, but I never got around to doing it.
+
+* Changed damage type classifications for (???) weapons/tools
+> Dev Note: It's time to remove the (???) classification as it would mean that any class can technically take them. If they carried damage penalties then it would still affect this gun while bonuses did nothing unless it was a general buff. So, I'm reinventing their roles to better suit the overall balance. Would this remove options for some classes? Yes, but it will empower others to better define their role in the loadouts. This way players are given proper information on what actually affects these weapons.
+
+* Hunting Crossbow:
+    * Changed Damage type classification from `(???)` to `(DMR)`
+> Dev Note: Ever since the DMR overhaul from few patches back. There is literally only 1 DMR in the loadout list which gutted the Covert Op's options. Hopefully, this change will incentize a more stealth-oriented loadout. This also means that other classes will be discouraged in using the weapon, if they carry damage penalties.
+
+* Arc Subjugator:
+    * Changed Damage type classification from `(???)` to `(Pistol)`
+> Dev Note: I know it sounds absolutely stupid this gun has a pistol classification when it looks like a big harpoon gun. But keep in mind that both SMG and Pistol weapons are mainly supports which this gun falls under. Boosters that increase those damages can potentially have odd consequences for a weapon like this. That's why they are rarely have buffs associated with them.
+
+* Wisp Launcher:
+    * Changed Damage type classification from `(???)` to `(Sentry)`
+> Dev Note: It will receive changes from sentry damage-based boosters, but not CPU-based ones. While it's not the ideal weapon for Field Techicians, the potential damage bonus up to +60% can make it very strong weapon. Keep in mind, that this gun is affected by Gun Ammo Gain/Capacity not Tool Ammo Gain/Capacity.
+
+* Exp. Beam Rifle:
+    * Changed Damage type classification from `(???)` to `(HEL)`
+> Dev Note: HEL classification needs a bit more love. It should also fit the context of the HEL Diver class.
+
+* Exterminatus Flamer Tool:
+    * Changed Damage type classification from `(???)` to `(HMG)`
+> Dev Note: It sounds a bit weird to call this weapon a "HMG" but its for balance purposes. Pretend that it stands for "High Magazine Gun" or something... It fills a similar role to those types as they're an area denial tool.
+
+### Booster Tweaks:
+* Added default key tooltip for SGU-S booster on how to equip Hacking Tool
+* Improved tooltip of TR-CS booster to mention fog turbine & power cell
+    * Default Key: `7`
+* Sentry Damage & CPU `Muted` Booster:
+    * Decreased Sentry Damage bonus from `+10%` to `+5%`
+* Sentry Damage & CPU`Bold` Booster:
+    * Decreased Sentry Damage bonus from `+15%` to `+10%`
+* Sentry Damage & CPU `Aggressive` Booster:
+    * Decreased Sentry Damage bonus from `+20%` to `+15%`
+> Dev Note: Explained above as to why this was need to be reined in, otherwise the Sentry will just shred through everything. This booster's negative drawbacks can almost be ignored with the Field Technician class.
+
+### Enemy Fixes:
+* Fixed most enemies from slowing down significantly when inside the same room with a player
+    * Giants and Tanks were left unchanged
+    * Reverted Giants and Tank's slowdown distance back to their respective original values
+> Dev Note: This was accidentally turned on by me. I was not mindful with what it did and carelessly toggled it on. Enemies shouldn't randomly go into slow motion when getting close to players except for the Giants and Tanks.
+
+### Miscellaneous Fixes:
+* Changelog:
+    * Removed older dev notes to fit character limit. If you want to see old dev notes, just install older versions and check their changelog files.
+
+---
+
+### v2.6.0
 
 ### Player Tweaks:
 * Stamina:
@@ -14,7 +112,7 @@
     * Decreased Stamina Regen In Combat(Resting) from `0.25x` to `0.2x`
     * Decreased Stamina Regen Out of Combat(Resting) from `0.5x` to `0.35x`
     * Decreased Stamina Regen Out of Combat(Not Resting) from `0.2x` to `0.15x`
-> Dev Note: This is in prep of the new dodging system added to melee. I need to reign in the stamina regen to prevent potential abuse.
+> Dev Note: This is in prep of the new dodging system added to melee. I need to rein in the stamina regen to prevent potential abuse.
 
 ### New Melee Mechanic: Dodging!
 * All four melee types can now dodge left or right based on specific keybind presses
@@ -72,7 +170,7 @@
 * Updated `GTFuckingXP` mod
 * Demolitionist:
     * Fixed a spelling error
-    * New Ability: Recall Mines
+    * New Ability: `Recall Mines`
         * "Reload" keybind while wielding the mine deployer to retrieve all mines(EXCEPT consumable mines). Default: `R` Key
         * Does not require to have Mine Deployer actively equipped once recall starts
         * Press keybind again to cancel
@@ -83,7 +181,7 @@
 > Dev Note: To keep this ability balanced, the time it takes to recall is long. So picking up your mines is still "faster" than recalling at a range.
 
 * Field Technician:
-    * New Ability: Recall Sentry
+    * New Ability: `Recall Sentry`
         * "Select Tool" keybind to retrieve sentries. Default: `4` Key
         * Press keybind again to cancel 
         * Works on all turrets, including the custom turrets
@@ -154,7 +252,7 @@
 > Dev Note: It's entire gimmick is suppose to be unkillable. I just added an extra 0 to its already high health pool as an insurance. The reduced tag time should encourage players to keep a closer eye on it more often.
 * Stalker:
     * Decreased Max Health from `700.0` to `550.0`
-> Dev Note: They might still be a bit too tanky. They aren't an issue by themselves, but they're still a major problem(unfun) when grouped with others. They are still higher HP than a Giant, but not as much anymwore.
+> Dev Note: They might still be a bit too tanky. They aren't an issue by themselves, but they're still a major problem(unfun) when grouped with others. They are still higher HP than a Giant, but not as much anymore.
 * Strikers:
     * All Variants: Except Giants
         * Increased Weakspot Damage Multiplier by flat `+15%`
@@ -242,7 +340,7 @@
 * Regen Cap & Speed `Muted` Booster:
     * Increased Regen Cap bonus from `+10%` to `+15%`
     * Increased Regen Speed bonus from `+5%` to `+10%`
-* Regen Cap & Speed`Bold` Booster:
+* Regen Cap & Speed `Bold` Booster:
     * Increased Regen Cap bonus from `+15%` to `+20%`
     * Increased Regen Speed bonus from `+10%` to `+15%`
 * Regen Cap & Speed `Aggressive` Booster:
@@ -398,7 +496,6 @@
         * Please note that foam bubble must be formed before the bullet hits to count as foam stun duration. Otherwise it will trigger as bullet damage instead
     * Foam Stun Duration: `240.0s` -> `1200.0s` (20 minutes)
     * Flashlight Stun Duration: `30.0s`
-> Dev Note: One of my least favorite mechanics in the game. It provided little to no reward in engaging with them. All they did was annoy players while severely punishing them for non-participation. They had potential in their design but very poor in execution. Now, players can choose how to engage with them. Guns are the safest, but you use ammo and risk alerting sleepers/scouts. Melee is mostly silent and no ammo but lack reach or risk infection. Foam can stun them for a long period, but it still requires ammo and it doesn't kill directly. It's up to you as a player to weigh those options for the team. Foam/Flashlight + Melee, Covert Op + Melee, or Paramedic/Infections Res. is the best option for cleanup!
 
 ### Class Tweaks + Fixes:
 * Updated `GTFuckingXP` mod
@@ -424,7 +521,6 @@
     * Increased `Initial Gun Ammo` from `+20%` to `+25%`
     * Added `Gun/Tool Ammo Received` penalty
         * Received Ammo: `-10%`
-> Dev Note: This class is still very strong, but I don't want to nerf any harder than this. Plus I feel like being a survivor of the wasteland would "find" less ammo in the wild.
 
 * Abhuman:
     * Increased Max Health bonus from `+150%` to `+200%`
@@ -435,7 +531,6 @@
     * Decreased Initial Ammo penalty from `-50%` to `-40%`
     * Added `Heal` bonus on drop
         * To prevent class from spawning will less current HP since their increased max health is not giving the correct health
-> Dev Note: Giving Abhuman some love as the true tank of the team. They might not be the brightest minds, but the toughest in the thick of battle. After more balance testing, having too low of a regen cap that did not benefit from a higher max health. Their negatives were more profound than their positives.
 
 * Shock Trooper:
     * Added `Heal` bonus on drop
@@ -449,10 +544,8 @@
     * Decreased Effective Range from `100.0m` to `30.0m`
     * Increased Tentacle Parry Damage(Explosion) from `1.0` to `5.0`
     * Increased Tentacle Parry Radius from `2.0m` to `4.0m`
-> Dev Note: Parry should feel a bit more rewarding to execute. Friendly reminder that you can parry ally gun shots and redirect it towards your crosshair. Make what you will with this information.
 * Increased Base Ammo Refill from `0.91x` to `0.95`
 * Increased Base Tool Refill from `0.6x` to `0.8x`
-> Dev Note: Increased the baseline ammo/tool refill to not force, but encourage teams to have a quartermaster. Though this also buffs them as it increases the baseline which they benefit from too.
 
 ### Melee Tweaks:
 * Sledgehammer:
@@ -463,7 +556,6 @@
     * Decreased Stamina Refund from `+50%` to `+30%`
     * Decreased Light Sleeper Damage Multiplier from `0.5x` to `0.35x`
     * Decreased Heavy Sleeper Damage Multiplier from `0.6x` to `0.45x`
-> Dev Note: Previous patch might have made too overperforming in all situations. Time to reign it back a bit while improving other parts.
 
 * Bat:
     * Increased Total Charge Duration from `8.0s` to `9.0s`
@@ -474,7 +566,6 @@
     * Fixed Explosion Glow Range not reflecting on actual radius
     * Decreased Light Sleeper Damage Multiplier from `0.4x` to `0.25x`
     * Decreased Heavy Sleeper Damage Multiplier from `0.5x` to `0.35x`
-> Dev Note: Bat and Sledgehammer while strong in combat, felt like they did a good job in stealth which shouldn't be apart of their strengths.
 
 * Knife:
     * Increased Max Damage Charge Time from `0.4s` to `0.5s`
@@ -488,7 +579,6 @@
     * Increased Light Precision Multiplier from `2.5x` to `2.75x`
     * Increased Heavy Precision Multiplier from `3.0x` to `3.25x`
     * Decreased Heavy Stagger Multiplier from `2.0x` to `1.5x`
-> Dev Note: Slight bumps to overall damage for all melee types to help reach certain health thresholds.
 
 ### Weapon Tweaks + Fixes:
 * Updated `ModifierAPI` mod
@@ -503,27 +593,23 @@
         * Standing: `-0.1m`
         * Crouching: `0.0m`
         * Jumping: `-0.15m`
-> Dev Note: It was too similar to the Bullpup rifle in its stat and role, especially with the bullpup's ability to switch modes. As well as add a push effect to encourage players to use better positioning.
 
 * HEL Revolver:
     * Increased Bullet Precision Multiplier from `4.25x` to `4.5x`
 
 * Heavy Revolver:
     * Increased Precision Multiplier from `6.25x` to `6.5x`
-> Dev Note: This does not affect the ricochet shrapnel caused by hitting the terrain.
 
 * HEL Rifle:
     * Increased Total DoT Damage from `25.0` to `40.0`
     * Increased DoT Precision Multiplier from `1.2x` to `1.3x`
     * Increased DoT Duration from `6.0s` to `10.1s`
     * Decreased Lock-on Time from `0.5s` to `0.4s`
-> Dev Note: This gun felt like it should be doing more. Yet I didn't want it to overshadow the high-tier weapons like the sniper or gauss rifle. So it had to be somewhere in the middle, the total damage is higher but the distribution takes much longer.
 
 * Arc Subjugator:
     * Increased DoT Stagger Multiplier from `500.0x` to `1000.0x`
     * Fixed the incorrect weapon subtext name
         * Changed from `(Shotgun)` to `(???)`
-> Dev Note: It was having trouble staggering certain enemies variants.
 
 * Medic Gun:
     * Fixed Trait Description mentioning the old Mode 3's Armor/Stamina
@@ -533,7 +619,6 @@
     * Decreased Scope FOV Zoom from `17` to `22`
     * Increased Direct Damage from `125.5` to `130.5`
     * Increased Reload Time from `4.3s` to `4.5s`
-> Dev Note: 5 damage increase doesn't sound like much but this gun has a high very precision multiplier which is up to 30 extra damage. So the longer reload timer is to offset its bump in power. As well as improve the QoL with using this scope as it is comically large when zooming.
 
 * Nano Gauss Rifle:
     * Increased Projectile Hit Size Bonus from `+0.5m` to `+0.6m`
@@ -545,7 +630,6 @@
     * Increased Glow Duration from `18.1s` to `21.1s`
     * Added `BioTag` property:
         * Tags all enemy targets hit by the explosion radius
-> Dev Note: The turret is slightly overperforming. I might have to reign it back a bit without making the whole turret too niche. Its new bio tag feature will bring more utility and synergy with other turret in the field.
 
 * Concussive Nade Turret:
     * Increased Shot Delay from `10.0s` to `26.1s`
@@ -555,7 +639,6 @@
     * Added `Foam` property
         * Foam Type: `Override` (Always applies regardless of foam resistance, unless immunity)
         * Foam Duration: `1.5s`
-> Dev Note: To prevent this foam from overshadowing the other foam tools/weapons, duration of each foam application are very short bursts during DoT damage ticks to act as miniature stuns. With a significant buff to the turret's CC power, I will have to reign in it's firing rate to prevent continuously application.
 
 * C-Foam Mine Deployer:
     * Changed name to `Stalwart Snare Trap Tool`
@@ -564,7 +647,6 @@
 ### Enemy Tweaks:
 * Giant Variants:
     * Decreased Melee Damage by `16.5` to `11.5` (roughly 30% decrease)
-> Dev Note: While they are suppose to be strong with their pull combo. Since they sometimes punch twice, that does "double" damage onto pulled players. That is baseline half of the player's health. Now it's a little over 1/3 which should be more fair, especially with armor buffs.
 
 ### Syringe Tweaks:
 * Heal Munitions Drain Syringe
@@ -602,16 +684,13 @@
         * Scan Color: `White`
         * Detection Range: `15.5m`
         * Detection Angle: `360.0`
-> Dev Note: Another support turret for anyone to utilize during larger fights. The long deploy time requires you to place them in key areas beforehand. Use your spaces wisely!
 
 ### Class Tweaks:
 * Specialist:
     * Increased Gun Ammo Received penalty from `-20%` to `-30%`
-> Dev Note: This should effectively cancel out Quartermaster's baseline ammo supply efficiency. It's up to the team to decide how to synergize their strengths and weaknesses.
 
 * Field Technician:
     * Decreased Sentry Damage bonus from `+40%` to `+30%`
-> Dev Note: Reigning the class a bit since most of their sentries got baseline buffs.
 
 ### Weapon Tweaks + Fixes:
 * Javelin Rifle:
@@ -629,7 +708,6 @@
         * Timer utilizes `Combine` method:
             * You only need to fire one single dart before the duration ends to maintain the maximum damage bonus
             * But if the duration ends, you will lose both dart's bonus
-> Dev Note: After some consideration I believe player armor isn't always useful when you can just heal the person, especially with this gun in particular. Instead I opted for synergy by replacing the armor buff with damage one. With this method, you can tag a target to take more damage while boosting another player. This will hopefully encourage players for interesting teamplay.
 
 * Arc Subjugator:
     * Fixed the wrong armor calculations to give less armor than intended
@@ -648,18 +726,15 @@
         * Recover `+50%` stamina after a successful kill
         * Recovery Delay of `0.5s`
         * Requires `Last Hit` to receive stamina
-> Dev Note: This melee still needs a bit more help dealing with regular targets during hordes.
 
 ### Tool Tweaks:
 * Foam Mine Deployer:
     * Decreased Bubble Angle from `45` to `30`
-> Dev Note: In hindsight, I might have overdone the angle distribution. Still its main job is complete as I wanted a better identity for this tool than just being a Foam Launcher lite.
 
 * Sniper Turret:
     * Fixed typo within trait description
     * Added Armor Pierce of `+20%`
     * Added Thick Bullet of `+0.1m`
-> Dev Note: A consistency buff with the other sniper weapons.
 
 * HMG Turret:
     * Added `ThickBullet` Property
@@ -668,7 +743,6 @@
     * Increased Detection Angle from `60.0` to `70.0`
     * Changed Sentry Priority from `None` to `Tagged`
         * Sentry still shoots at all targets, but it will prioritize tagged targets first.
-> Dev Note: With how ammo hungry this turret is, it should be a bit more effective.
 
 * Shotgun Turret:
     * Decreased Direct Damage from `6.0` to `5.4`
@@ -676,7 +750,6 @@
     * Decreased Detection Angle from `60.0` to `50.0`
     * Changed Sentry Priority from `None` to `Tagged`
         * Sentry still shoots at all targets, but it will prioritize tagged targets first.
-> Dev Note: Give the shotgun turret more control for the players, especially for the Field Technicians.
 
 * Missile Turret:
     * Increased Placement Time from `0.5s` to `0.7s`
@@ -692,7 +765,6 @@
     * Increased Tagged Rotaion Speed from `1.5x` to `1.75x`
     * Decreased Placement Time from `0.6s` to `0.3s`
     * Decreased Scan Delay from `1.0s` to `0.5s`
-> Dev Note: Hopefully, these changes will make the turret more reliable to utilize. The Weakspot aim will try to encourage the turret to lob their projectiles.
 
 ---
 
@@ -721,7 +793,6 @@
 ### Object Carry Rework:
 * Removed `StrongerPrisoner` mod
     * It is safe to remove this mod from your list. I highly recommend it.
-> Dev Note: This mod was removed because it has made some objectives significantly easier, especially with specific classes. But I also understand how annoying certain items felt like a slog to carry throughout a level.
 * Added `Heavyweight` or `Lightweight` to all weapon trait descriptions
     * Can/Cannot Sprint While Holding:
         | Item/Gear Changed		| Sprint? |
@@ -741,7 +812,6 @@
         | Flamer Tool	       	| No      |
         | RYN0 Annihilator    	| No      |
         | Sentry Turrets   	    | No      |
-> Dev Note: Main reason for these changes is to give these weapons/tools some weight. It's to provide more identity to both heavier and lighter weapons/tools in your arsenal. As carrying an entire loadout of heavy-duty powerful weapons should effectively slow the player down. While those that want a light loadout should be able to be nimble.
 
 ### Player Tweaks:
 * Tweaker Mod:
@@ -765,7 +835,6 @@
         * 2-Burst Fire:
             * Activated by using specific keybind trigger(Default Keybind: KeypadPlus[KeyConfig2])
             * Increased Stagger Multiplier from `1.4x` to `1.6x`
-> Dev Note: Both weapons basically filled the exact same role with similar results, but the method was done differently. So I believed it was a healthier choice to combine the two to allow for more gameplay options.
 
 * Double Tap Rifle: **Removed**
     * Combined `DMR` and `Double Tap Rifle` (read above)
@@ -780,7 +849,6 @@
     * Added `Movement Speed` Property while firing:
         * Decreases User's movement speed by `-70%`
         * Duration: `Start to End Firing`
-> Dev Note: I am hoping this will increase the game's performance a bit during multiplayer lobbies. The movement speed penalty has two purposes: first to incentize better positioning, and second its to prevent weird interactions with the beam with fast movement speed.
 
 * Exp. Smart Rifle:
     * Changed Locked Target color to `Green`
@@ -796,7 +864,6 @@
     * Increased Mode 2's Stagger Multiplier from `40.0x` to `80.0x`
     * Increased Mode 3's Armor Buff from `+20%` to `+25%`
     * Increased Mode 3's Armor Shred from `-30%` to `-40%`
-> Dev Note: Incentize players to use its offensive capabilities as a viable option.
 
 * Heavy SMG:
     * Increased Max Ammo from `379` to `391`
@@ -830,13 +897,11 @@
 * Exterminatus Flamer:
     * Increased DoT Stack Size from `10` to `20`
     * Increased Direct(not DoT) Stagger Multiplier from `10.0x` to `15.0x`
-> Dev Note: Should be a bit more effective against larger targets. While I still want this gun to be more effective against smaller targets. It shouldn't be completely useless against bigger targets. That also includes teammates...
 
 * RYN0:
     * Increased Minimum Explosion Damage from `400.0` to `500.0`
     * Increased Maximum Explosion Damage from `800.0` to `1000.0`
     * Decreased Friendly Fire Modifier from `0.1x` to `0.07x`
-> Dev Note: Because why not? It's extremely expensive and risky weapon to utilize. So might as well make sure most things die from a single shot.
 
 * Missile Turret:
     * Increased Explosion Damage from `40.0` to `50.0`
@@ -871,7 +936,6 @@
             * Standing: `-4.0m`
             * Crouching: `-1.0m`
             * Jumping: `-6.0m`
-> Dev Note: Replaces the removed Double Tap Rifle. This gun has great damage and crown control for larger enemies. But its low ammo and high base damage is overkill against smaller targets.
 
 * Omneco Arc Subjugator:
     * Requires a lock-on to fire.
@@ -897,7 +961,6 @@
         * Damage Resistance: `+20%` (Player)
             * Can stack with other damage resist up to `+40%`
         * Damage Taken Debuff: `+50%` (Enemy)
-> Dev Note: This weapon was an idea that I had for a long time since v2.0, but couldn't execute correctly. There wasn't enough properties and features available at the time. This is a pure support weapon that synergizes very well with any team or weapon composition, but has very clear drawbacks.
 
 ### New Tool:
 * Concussive Nade Turret:
@@ -926,14 +989,12 @@
         * Max Detection Angle: `60`
         * Scan Delay: `1.0s`
         * Scan Color: `Magenta`
-> Dev Note: The first sentry to be built as a CC tool than a lethal one. A turret that brings more utility for the team rather than pure damage.
 
 ### Syringe Tweaks:
 * Heal Munitions Drain Syringe
     * Increased Heal Duration from `200s` to `300s`
         * Effectively increasing total heal from `120` to `180`
     * Increased Disinfection from `30%` to `40%`
-> Dev Note: While this was a strong syringe, ammo was significantly more important than health in most cases. Hopefully this will incentivize players to weight their options.
 
 ### Class Fixes:
 * All Class:
@@ -952,7 +1013,6 @@
     * Removed `Initial Gun Ammo` penalty
     * Added `Gun Ammo Received` penalty of `-20%`
     * Increased Ammo Capacity penalty from `-20%` to `-25%`
-> Dev Note: Paramedic already a class with an initial ammo debuff. Specialist's weakness should be a bit more unique on its own. So they should no longer spawn in with little to no ammo. But instead receive less so their shots are more costly in the long run.
 
 * Field Technician:
     * Increased Tool Ammo Received from `+25%` to `+30%`
@@ -964,13 +1024,11 @@
 * Scouts:
     * Increased Effective Range of EMP from `100.0m` to `200.0m`
     * Increased EMP Duration from `45.0s` to `47.5s`
-> Dev Note: With the new tools and weapons to combat EMP blackouts, I believe the Scout needed a slight buff.
 
 * Shadow Giants:
     * Increased Minimum Fog Radius from `3.0m` to `5.0m`
     * Increased Maximum Fog Radius from `6.0m` to `10.0m`
     * Increased Fog Density by `+25%`
-> Dev Note: A Shadow Giant's infection fog should be larger size than the smaller variants.
 
 * Children:
     * Decreased Explosion Damage from `6.0` to `5.0`
@@ -978,14 +1036,12 @@
     * Decreased Explosion Noise Minimum Range from `10.0m` to `7.5m`
     * Decreased Explosion Noise Maximum Range from `20.0m` to `15.0m`
     * Changed Explosion Sound Effect
-> Dev Note: Less ear piercing loud and more consistent threat.
 
 * Birthers:
     * Spawns Children upon death based on variant:
         * Birther: `6`
         * Birther Prime: `12`
         * Progenitor Mother: `18`
-> Dev Note: Birthers should be a bit more dangerous once killed to prevent players from rushing them without consequences.
 
 * Flyer:
     * Changed Explosion Sound Effect
@@ -1014,7 +1070,6 @@
     * Fixed the gun's stat showing the incorrect precision multiplier
     * Decreased Max Ammo from `30` to `20`
     * Increased Friendly Fire Multiplier from `0.5x` to `0.8x`
-> Dev Note: It seems like this gun is still performing a bit too well for how efficient the ammo economy is. Any more nerfs to this gun after this patch can potentially have the opposite effect.
 
 ### Miscellaneous Fixes:
 * Fixed README.md:
@@ -1027,17 +1082,14 @@
 ### Class Tweaks:
 * Paramedic:
     * Class will "disinfect" `100%` themselves when loading into any rundown for the first time.
-> Dev Note: Since this class is suppose to be immune to infection, it didn't make sense when certain rundowns forced infection at rundown startup.
 
 * Prisoner:
     * Added other class's baseline stats
         * Infection Resistance: `+20%`
         * Hacking Proficiency: `-20%`
-> Dev Note: This is in preparation of the InfectionDeathPenalty mod, as this class would earn 12.5% which is technically a stronger nerf than the others. To compensate for this buff, the hacking nerf that the other classes have is included too.
 
 * Specialist:
     * Decreased Initial Ammo Penalty from `-40%` to `-30%`
-> Dev Note: Previous nerf might have been too harsh. Basically had no ammo at the start to do anything at all.
 
 ### Weapon Tweaks:
 * 4-B Nade Launcher AR:
@@ -1046,7 +1098,6 @@
     * Decreased Hipfire Spread from `1.0x` to `0.6x`
     * Decreased Aim Spread from `0.4x` to `0.2x`
     * Decreased Shot Delay from `0.095s` to `0.07s`
-> Dev Note: While the nerfs in the previous patch was warranted. It did make the gun's primary fire lose a lot of purpose. It basically became a glorified Burst Cannon lite, which is not my intention.
 
 * Medic Gun:
     * Increased Mode 2's DoT Stagger Multiplier from `30.0x` to `40.0x`
@@ -1059,7 +1110,6 @@
     * Increased Resistance bonus from `+15%` to `+20%`
 * Infection Resistance `Aggressive` Booster:
     * Increased Resistance bonus from `+20%` to `+25%`
-> Dev Note: In response to the new death penalty; from 45% to 60% plus the 20% baseline bonus that all classes have. This should be a viable option where infection is a common mechanic.
 
 ### Miscellaneous Fixes:
 * Fixed README.md on classes to reflect the class tweaks from v2.3.1
@@ -1077,7 +1127,6 @@
 * Beam Rifle:
     * Decreased Glow Intensity from `0.05` to `0.01`
     * Decreased Glow Range from `10.0m` to `8.0m`
-> Dev Note: Eye strain nerf.
 
 * Search and Rescue Tool: **Improvement**
     * Increased Charge Timer from `1.0s` to `2.0s`
@@ -1088,7 +1137,6 @@
         * Charge(>90%): `40.0m`
     * Fixed visual bug with ammo counter when swapping
     * I'm aware of another visual bug with ammo counter at 0%. Does not affect gameplay.
-> Dev Note: It's still a bit too awkward to use this tool as players have found it difficult to control the speed/distance these items fly. This QoL change should significantly improve usage.
 
 * Exterminatus Flamer:
     * Increased Bullet Cost per shot from `1.0` to `2.0`
@@ -1096,14 +1144,12 @@
     * Increased Clip Regen Delay from `5.0s` to `7.5s`
     * Decreased Glow Intensity from `0.05` to `0.01`
     * Decreased Glow Range from `10.0m` to `8.0m`
-> Dev Note: This change is to reign in the flamer as it's very effective against hordes, which is good! But it might be a bit too good as it had low consequences when utilized. Other than eye strain...
 
 * RYN0 Annihilator:
     * Decreased Inner Radius from `7.5m` to `7.0m`
     * Decreased Outer Radius from `15.0m` to `14.0m`
     * Increased Maximum Explosion Damage from `700.0` to `800.0`
     * Explosions completely ignores Armor for all targets, including friends!
-> Dev Note: Because why not? At this point only the Demolitionist and/or Shock Trooper with 3 Explosion Res. boosters can survive. Maybe the Abhuman... big maybe.
 
 ### Miscellaneous Fixes:
 * Fixed typos and mistakes within v2.3.1's changelog
@@ -1116,14 +1162,12 @@
 * Updated `GTFuckingXP` mod
 * Switched all class `Ammo Cost Efficiency` bonus/penalty with `Ammo Capacity` bonus/penalty
 * Switched all class `Tool Cost Efficiency` bonus/penalty with `Tool Capacity` bonus/penalty
-> Dev Note: All classes will receive a more universal ammo/tool efficiency. Those that had the original positive values will be nerfed while vice versa for negative values. This should help balance out issues where classes who had high/low efficiency aren't punished/rewarded for resupplying.
 
 * Marine:
     * Replaced `+20% Initial Ranged Ammo` bonus with `+10% Gun Ammo Received`
 
 * Field Technician:
     * Replaced `+50% Initial Tool Ammo` bonus with `+25% Tool Ammo Received`
-> Dev Note: While the loss of initial ammo is something to adjust to, the increased ammo gain will give them better potential long-term. These bonuses will stack well with Quartermaster's/Booster's Resupply efficiency
 
 ### Balance Tweaks:
 * Updated `ExtraWeaponCustomization` mod
@@ -1134,12 +1178,10 @@
     * Increased Damage Accumulation Cap for Weakspot Shots from `2.0x` to `3.0x`
     * Increased Max Ammo from `1000` to `2000`
     * Increased Base Ammo Received from `200.0` to `400.0`
-> Dev Note: After some more testing, I found the overall damage to be a little low for how expensive the gun's bullet economy is. Instead of simply buffing the base damage, I opted to reward players for choosing to stay on one target during a burst.
 
 * Semi/Full-Auto AK Rifle
     * Changed name from `Semi/Full-Auto Rifle` to `AK Platform Rifle`
     * Decreased Direct Damage from `7.5` to `7.0`
-> Dev Note: A tad bit overperforming with the new changes from previous patch
 
 * 3-B Carbine: **Rework**
     * Increased Direct Damage from `3.4` to `4.0`
@@ -1158,7 +1200,6 @@
     * Increased Reload Time from `2.2s` to `2.4s`
     * Switched Nade Launcher from `Reserve Ammo` to `Clip Ammo`
         * It will pull from reserve to make up for the grenade ammo cost
-> Dev Note: This gun is too overtuned and does almost everything in one. While I am never a fan of straight up nerfs. Unfortunately, it is warranted.
 * 5-B Bullpup: **Rework**
     * Decreased Direct Damage from `3.1` to `3.0`
     * Decreased Max Ammo from `508` to `500`
@@ -1167,7 +1208,6 @@
             * Activated by using specific keybind trigger(Default Keybind: KeypadPlus[KeyConfig2])
         * Full-Auto:
             * Activated by using specific keybind trigger(Default Keybind: KeypadEnter[KeyConfig1])
-> Dev Note: This is a bit of a balancing act for these three burst weapons. They should be more consistent with each other. Also the Marine class is getting a buff to ammo receive efficiency. Hopefully it should balance the numbers a bit.
 
 * Wisp Launcher:
     * Decreased Max Ammo from `40` to `30`
@@ -1177,14 +1217,12 @@
     * Switched Regular Quill Targeting Mode from `Weakspot` to `Body`
     * Switched Death Quill Targeting Mode from `Weakspot` to `Normal` (aims for the head if it exists, then the body. Does not aim for tumors)
     * Switched Targeting Priority from `Angle` to `Distance` except for death quills(to prevent homing failures)
-> Dev Note: It's a little too good at its job. So I will have to reel in its power, hopefully without completely removing its usefulness.
 
 * Choke Mod Shotgun:
     * Increased Direct Damage from `7.0` to `9.5`
     * Increased Clip Size from `5` to `6`
     * Increased Effective Range from `20.0m` to `30.0m`
     * Increased Precision Multiplier from `0.9x` to `1.05x`
-> Dev Note: This gun was originally very powerful, so I had to adjust it. But the significant changes may have hurt this gun too much. 
 
 * Missile Sentry:
     * Added `Max Ammo(15)` into the trait description.
@@ -1199,7 +1237,6 @@
 
 ### Miscellaneous Fixes:
 * Fixed numerous typos and errors within v2.3.0's CHANGELOG.md
-> Dev Note: There was a number of wrong information written in the previous update. A mistake on my part for not double checking...
 * Removed old changelog for character space limit.
     * Please check old changelog at [Github](https://github.com/Heaveness/GTFriendlyO/blob/main/GTFO%20OLD%20CHANGELOGv220.md)
 
