@@ -80,8 +80,8 @@
 
 ### Booster Tweaks:
 * Added default key tooltip for SGU-S booster on how to equip Hacking Tool
-* Improved tooltip of TR-CS booster to mention fog turbine & power cell
     * Default Key: `7`
+* Improved tooltip of TR-CS booster to mention fog turbine & power cell
 * Sentry Damage & CPU `Muted` Booster:
     * Decreased Sentry Damage bonus from `+10%` to `+5%`
 * Sentry Damage & CPU`Bold` Booster:
