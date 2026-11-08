@@ -261,6 +261,8 @@ This is **NOT** a hardcore or hyper-realism mod setup, nor will it ever be. Inst
     * Use the Menu keybind: `X`
 * Bots can use some of the custom weapons that have EWC effects such as DoT and Explosives, but cannot use mode switching as they will only stick to the default which is mode 1.
     * Do NOT give a bot explosive weapons if you want everyone to die faster, especially with the RYN0.
+* **WARNING:** Do **NOT** command a bot to pickup "key" items like the keycards or bulkhead keys as they don't know how to use them at all. Effectively softlocking your rundown.
+    * Solution: Deactivate the bot(with the key) through lobby menu during the run. The item should move to the host's inventory. Afterwards, you can turn them back on.
 
 ## Recommended Mods:
 
